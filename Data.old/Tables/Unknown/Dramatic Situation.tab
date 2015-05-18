@@ -1,0 +1,548 @@
+
+#1. SUPPLICATION (To humbly petition). Elements: a persecutor, a humble petitioner, and a power in authority whose decision #is doubtful.
+#2. DELIVERANCE. Elements: an unfortunate, a threatener, a rescuer.
+#3. CRIME PUNISHED BY VENGEANCE. Elements: an avenger and a criminal.
+#4. VENGEANCE TAKEN FOR KINDRED UPON KINDRED. Elements: Avenging kinsman, guilty kinsman, remembrance of the victim, a #relative of both.
+#5. PURSUIT. Elements: Punishment and fugitive.
+#6. DISASTER. Elements: A vanquished power, a victorious enemy or a messenger.
+#7. FALLING PREY TO CRUELTY OR MISFORTUNE. Elements: an Unfortunate; a Master or a Misfortune.
+#8. REVOLT. Elements: Tyrant and Conspirator.
+#9. DARING ENTERPRISE. Elements: A bold leader, an object, an adversary.
+#10. ABDUCTION. Elements: The abductor, the abducted, the guardian.
+#11. THE ENIGMA. Elements: Interrogator, seeker, and problem.
+#12. OBTAINING. Elements: A solicitor and an adversary who is refusing, or an arbitrator opposing parties.
+#13. ENMITY OF KINSMEN. Elements: A malevolent kinsman, a hated or reciprocally hating kinsman.
+#14. RIVALRY OF KINSMEN. Elements: the preferred kinsman, the rejected kinsman, and the object.
+#15. MURDEROUS ADULTERY. Elements: Two adulterers, betrayed husband or wife.
+#16. MADNESS. Elements: Mad person and victim.
+#17. FATAL IMPRUDENCE. Elements: The imprudent, the victim or the object lost.
+#18. Involuntary Crimes of Love. Elements: The lover, the loved, and the revealer.
+#19. SLAYING OF A KINSMAN UNRECOGNIZED. Elements: The slayer, the unrecognized victim.
+#20. SELF-SACRIFICING FOR AN IDEAL. Elements: The hero, the ideal, the creditor or the person or things sacrificed.
+#21. SELF-SACRIFICE FOR KINDRED. Elements: The hero, the kinsman, the creditor or the person or thing sacrificed.
+#22. ALL SACRIFICED FOR A PASSION. Elements: The lover, the object of the fatal passion, and the person or thing #sacrificed.
+#23. NECESSITY OF SACRIFICING LOVED ONES. Elements: The hero, the beloved victim, and the necessity for the sacrifice.
+#24. RIVALRY OF SUPERIOR AND INFERIOR. Elements: The superior rival, the inferior rival, and the object.
+#25. ADULTERY. Elements: A deceived husband or wife and two adulterers.
+#26. CRIMES OF LOVE. Elements: The lover and the betrayed.
+#27. DISCOVERY OF THE DISHONOR OF A LOVED ONE. Elements: The discoverer and the guilty one.
+#28. OBSTACLES TO LOVE. Elements: Two lovers and an obstacle.
+#29. AN ENEMY LOVED. Elements: The beloved enemy, the lover, and the hater.
+#30. AMBITION. Elements: An ambitious person, a thing coveted, and an adversary.
+#31. CONFLICT WITH A GOD. Elements: A mortal and an immortal.
+#32. MISTAKEN JEALOUSY. Elements: The jealous one, the object of whose possession he is jealous, the supposed accomplice, #and the cause or the author of the mistake.
+#33. ERRONEOUS JUDGEMENT. Elements: The mistaken one, the victim of the mistake, the cause or author of the mistake, and #the guilty person.
+#34. REMORSE. Elements: The culprit, the victim or the sin, and the interrogator.
+#35. RECOVERY OF A LOST ONE. Elements: The seeker and the one found.
+#36. LOSS OF LOVED ONES. Elements: A kinsman slain, a kinsman spectator, and an executioner.
+#37. MISTAKEN IDENTITY.
+
+
+:Start
+1,[Supplication]
+2,[Deliverance]
+3,[Crime Punished by Vengeance]
+4,[Vengeance Taken For Kindred Upon Kindred]
+5,[Pursuit]
+6,[Disaster]
+7,[Falling Prey to Cruelty or Misfortune]
+8,[Revolt]
+9,[Daring Enterprise]
+10,[Abduction]
+11,[The Enigma]
+12,[Obtaining]
+13,[Enmity of Kinsmen]
+14,[Rivalry of Kinsmen]
+15,[Murderous Adultery]
+16,[Madness]
+17,[Fatal Imprudence]
+18,[Involuntary Crimes of Love]
+19,[Slaying of a Kinsman Unrecognized]
+20,[Self-sacrificing for an Ideal]
+21,[Self-sacrifice for Kindred]
+22,[All Sacrificed for a Passion]
+23,[Necessity of Sacrificing Loved Ones]
+24,[Rivalry of Superior and Inferior]
+25,[Adultery]
+26,[Crimes of Love]
+27,[Discovery of the Dishonor of a Loved One]
+28,[Obstacles to Love]
+29,[An Enemy Loved]
+30,[Ambition]
+31,[Conflict With a God]
+32,[Mistaken Jealousy]
+33,[Erroneous Judgement]
+34,[Remorse]
+35,[Recovery of a Lost One]
+36,[Loss of Loved Ones]
+37,[Mistaken Identity]
+
+#1. SUPPLICATION (To humbly petition). Elements: a persecutor, a humble petitioner, 
+#   and a power in authority whose decision is doubtful.
+;Supplication
+4,Fugitives imploring the powerful for help against their enemies.
+4,Assistance implored for the performance of a pious duty which has been forbidden.
+4,Appeals for refuge in which to die.
+3,Hospitality besought by the shipwrecked.
+3,Charity entreated by those cast off by their own people, whom they have disgraced.
+3,Expiation: the seeking of pardon, healing or deliverance.
+3,The surrender of a corpse, or relic, solicited.
+4,Supplication of the powerful for those dear to the suppliant.
+4,Supplication to a relative in behalf of another relative.
+4,Supplication to a mother's lover, in her behalf.
+
+#2. DELIVERANCE. Elements: an unfortunate, a threatener, a rescuer.
+;Deliverance
+2,Appearance of a rescuer to the condemned.
+1,A parent replaced on the throne by his children.
+1,Rescue by friends, or by strangers grateful for benefits or hospitality.
+
+#3. CRIME PUNISHED BY VENGEANCE. Elements: an avenger and a criminal.
+;Crime Punished by Vengeance
+7,The avenging of a slain parent or ancestor.
+7,The avenging of a slain child or descendant.
+7,Vengeance for a child dishonored.
+7,The avenging of a slain wife or husband.
+7,Vengeance for the dishonor, or the attempted dishonoring, of a wife.
+7,Vengeance for a mistress slain.
+7,Vengeance for a slain or injured friend.
+7,Vengeance for a sister seduced.
+8,Vengeance for intentional injury or spoilation.
+8,Vengeance for having been dispoiled during absence.
+8,Revenge for an attempted slaying.
+8,Revenge for a false accusation.
+8,Vengeance for violation.
+8,Vengeance for having been robbed of one's own.
+8,Revenge upon a whole sex for a deception by one.
+56,Professional pursuit of criminals.
+
+#4. VENGEANCE TAKEN FOR KINDRED UPON KINDRED. Elements: Avenging kinsman, 
+#   guilty kinsman, remembrance of the victim, a relative of both.
+;Vengeance Taken For Kindred Upon Kindred
+1,A father's death avenged upon a mother.
+1,A mother avenged upon a father.
+2,A brother's death avenged upon a son.
+2,A father's death avenged upon a husband.
+3,A husband's death avenged upon a father.
+
+#5. PURSUIT. Elements: Punishment and fugitive.
+;Pursuit
+1,Fugitives from justice pursued for brigandage, political offenses, etc.
+1,Pursued for a fault of love.
+1,A hero struggling against a power.
+1,A pseudo-madman struggling against an Iago-like alienist.
+
+#6. DISASTER. Elements: A vanquished power, a victorious enemy or a messenger.
+;Disaster
+6,Defeat suffered.
+6,A fatherland destroyed.
+6,The fall of humanity.
+6,A natural catastrophe.
+24,A monarch overthrown.
+8,Ingratitude suffered.
+8,The suffering of unjust punishment or enmity.
+8,An outrage suffered.
+12,Abandonment by a lover or a husband.
+12,Children lost by their parents.
+
+#7. FALLING PREY TO CRUELTY OR MISFORTUNE. Elements: an Unfortunate; a Master 
+#   or a Misfortune.
+;Falling Prey to Cruelty or Misfortune
+2,The innocent made the victim of ambitious intrigue.
+2,The innocent despoiled by those who should protect.
+1,The powerful dispossessed and wretched.
+1,A favorite or an intimate finds himself forgotten.
+2,The unfortunate robbed of their hope.
+
+#8. REVOLT. Elements: Tyrant and Conspirator.
+;Revolt
+1,A conspiracy chiefly of one individual.
+1,A conspiracy of several.
+1,Revolt of one individual, who influences and involves others.
+1,A revolt of many.
+
+#9. DARING ENTERPRISE. Elements: A bold leader, an object, an adversary.
+;Daring Enterprise
+2,Preparations for war.
+1,War.
+1,Combat.
+1,Carrying off a desired person or object.
+1,Recapture of a desired object.
+1,Adventurous expeditions.
+1,Adventure undertaken for the purpose of obtaining a beloved woman.
+
+#10. ABDUCTION. Elements: The abductor, the abducted, the guardian.
+;Abduction
+6,Abduction of an unwilling woman.
+6,Abduction of a consenting woman.
+3,Recapture of the woman without the slaying of the abductor.
+3,The same case, with the slaying of the ravisher.
+2,Rescue of a captive friend.
+2,Rescue of a child.
+2,Rescue of a soul in captivity to error.
+
+#11. THE ENIGMA. Elements: Interrogator, seeker, and problem.
+;The Enigma
+6,Search for a person who must be found on pain of death.
+3,A riddle to be solved on pain of death.
+3,A riddle to be solved on pain of death, in which the riddle is proposed by the coveted woman.
+2,Temptations suffered with the object of discovering his name.
+2,Temptations offered with the object of ascertaining the sex.
+2,Tests for the purpose of ascertaining the mental condition.
+
+#12. OBTAINING. Elements: A solicitor and an adversary who is refusing, or an arbitrator opposing parties.
+;Obtaining
+1,Efforts to obtain an object by ruse or force.
+1,Endeavor by means of persuasive eloquence alone.
+1,Eloquence with an arbitrator.
+
+#13. ENMITY OF KINSMEN. Elements: A malevolent kinsman, a hated or reciprocally hating kinsman.
+;Enmity of Kinsmen
+2,One sibling hated by several.
+2,Reciprocal hatred between siblings.
+2,Hatred between relatives for reasons of self-interest.
+2,Hatred of the child for the parent.
+2,Mutual hatred.
+2,Hatred of the parent for the child.
+6,Hatred of grandparent for grandchild.
+3,Hatred of parent-in-law for son-in-law or daughter-in-law.
+3,Hatred of two brothers-in-law or sisters-in-law
+6,Hatred of son-in-law (daughter-in-law) for mother-in-law.
+6,Infanticide.
+
+#14. RIVALRY OF KINSMEN. Elements: the preferred kinsman, the rejected kinsman, and the object.
+;Rivalry of Kinsmen
+4,Malicious rivalry of a sibling.
+4,Malicious rivalry of two siblings.
+4,Rivalry of two brothers, with adultery on the part of one.
+3,Rivalry of parent and child, for an unmarried lover.
+3,Rivalry of parent and child, for a married lover.
+3,Case similar to the two foregoing, but in which the object is already the spouse of the parent.
+3,Rivalry of parent and child.
+12,Rivalry of cousins.
+12,Rivalry of friends.
+
+#15. MURDEROUS ADULTERY. Elements: Two adulterers, betrayed husband or wife.
+;Murderous Adultery
+1,The slaying of a husband by, or for, a paramour.
+1,The slaying of a trusting lover.
+2,Slaying of a wife for a paramour, and in self-interest.
+
+#16. MADNESS. Elements: Mad person and victim.
+;Madness
+1,Kinsman slain in madness.
+1,A lover slain in madness.
+1,Slaying or injuring of a person not hated.
+3,Disgrace brought upon oneself through madness.
+3,Loss of loved ones brought about by madness.
+3,Madness brought on by fear of hereditary insanity.
+
+#17. FATAL IMPRUDENCE. Elements: The imprudent, the victim or the object lost.
+;Fatal Imprudence
+5,Imprudence the cause of one's own misfortune.
+5,Imprudence the cause of one's own dishonor.
+5,Curiosity the cause of one's own misfortune.
+5,Loss of the possession of a loved one, through curiosity.
+2,Curiosity the cause of death or misfortune to others.
+2,Imprudence the cause of a relative's death.
+2,Imprudence the cause of a lover's death.
+2,Credulity the cause of kinsman's death.
+2,Credulity the cause of misfortune.
+
+#18. Involuntary Crimes of Love. Elements: The lover, the loved, and the revealer.
+;Involuntary Crimes of Love
+3,Discovery that one has married one's mother.
+3,Discovery that one has had one's sibling as a lover.
+2,Discovery that one has married one's sibling.
+2,Discovery that one has married one's sibling, in which the crime has been villainously planned by a third person.
+2,Being upon the point of taking one's sibling, unknowingly, as a lover.
+6,Being upon the point of violating, unknowingly, one's own child.
+3,Being upon the point of committing an adultery, unknowingly.
+3,Adultery committed unknowingly.
+
+#19. SLAYING OF A KINSMAN UNRECOGNIZED. Elements: The slayer, the unrecognized victim.
+;Slaying of a Kinsman Unrecognized
+3,Being upon the point of slaying a daughter unknowingly, by command of a divinity or an oracle.
+3,Through political necessity.
+3,Through a rivalry in love.
+3,Through hatred of the lover of the unrecognized daughter.
+4,Being upon the point of killing a son unknowingly.
+4,Being upon the point of killing a son unknowingly, strengthened by Machiavellian instigations.
+4,Being upon the point of killing a son unknowingly, intermixed with hatred of kinsmen.
+6,Brothers slaying in anger.
+6,A sister slaying through professional duty.
+12,Slaying of a mother unrecognized.
+4,A parent slain unknowingly through Machiavellian advice.
+4,The slaying of a parent unknowingly.
+4,The insulting of a parent unknowingly.
+4,A grandparent slain unknowingly, in vengeance and through instigation.
+4,A grandfather slain involuntarily.
+4,A parent-in-law killed involuntarily.
+4,Involuntary killing of a loved woman.
+4,Upon the point of killing a lover unrecognized.
+4,Failure to rescue an unrecognized son.
+
+#20. SELF-SACRIFICING FOR AN IDEAL. Elements: The hero, the ideal, the creditor or the person or things sacrificed.
+;Self-sacrificing for an Ideal
+2,Sacrifice of life for the sake of one's word.
+2,Life sacrificed for the success of one's people.
+2,Life sacrificed for the happiness of one's people.
+2,Life sacrificed in filial piety.
+2,Life sacrificed for the sake of one's faith.
+5,Both love and life sacrificed for the sake of one's faith. 
+5,Both love and life sacrificed for the sake of a cause.
+5,Love sacrificed to interests of state.
+10,Sacrifice of well-being to duty.
+10,The ideal of honor sacrificed to the ideal of faith.
+
+#21. SELF-SACRIFICE FOR KINDRED. Elements: The hero, the kinsman, the creditor or the person or thing sacrificed.
+;Self-sacrifice for Kindred
+2,Life sacrificed for that of a relative or loved one.
+2,Life sacrificed for the happiness of a relative or loved one.
+2,Ambition sacrificed for the happiness of a parent.
+2,Ambition sacrificed for the life of a parent.
+1,Love sacrificed for the sake of a parent's life.
+1,Love sacrificed for the happiness of one's child.
+1,Love sacrificed for the happiness of a loved one.
+1,Love sacrificed for the happiness of one's child, but caused by unjust laws.
+2,Life and honor sacrificed for the life of a parent or loved one.
+2,Modesty sacrificed for the life of a relative or a loved one.
+
+#22. ALL SACRIFICED FOR A PASSION. Elements: The lover, the object of the fatal passion, and the person or thing sacrificed.
+;All Sacrificed for a Passion
+1,Religious vows of chastity broken for passion.
+1,A vow of purity broken.
+1,Respect for a priest destroyed. A4 A future ruined by passion
+1,Power ruined by a passion.
+1,Ruin of mind, health, and life.
+1,Passion gratified at the price of life.
+1,Ruin of fortunes, lives, and honor.
+8,Temptations (see 12) destroying the sense of duty, pity, etc.
+4,Destruction of honor, fortune, and life by erotic vice.
+4,The same effect produced by any other vice.
+
+#23. NECESSITY OF SACRIFICING LOVED ONES. Elements: The hero, the beloved victim, and the necessity for the sacrifice.
+;Necessity of Sacrificing Loved Ones
+7,Necessity for sacrificing a daughter in the public interest.
+7,Duty of sacrificing her in fulfillment of a vow to God.
+7,duty of sacrificing benefactors or loved ones to one's faith.
+3,Duty of sacrificing one's child, unkown to others, under the pressure of necessity.
+3,Duty of sacrificing, under the same circumstances, one's parent.
+3,Duty of sacrificing, under the same circumstances, one's spouse.
+3,Duty of sacrificing a son-in-law for the public good.
+3,Duty of sacrificing a son-in-law for the sake of reputation.
+3,Duty of contending with a brother-in-law for the public good.
+3,Duty of contending with a friend.
+
+#24. RIVALRY OF SUPERIOR AND INFERIOR. Elements: The superior rival, the inferior rival, and the object.
+;Rivalry of Superior and Inferior
+9,Rivalry of a mortal and immortal.
+9,Of two divinities of unequal power.
+9,Of a magician and an ordinary man.
+9,Of conqueror and conquered.
+9,Of victor and vanquished.
+9,Of a master and a banished man.
+9,Of usurper and subject.
+9,Of suzerain king and vassal king(s).
+9,Of a powerful person and upstart.
+9,Of rich and poor.
+9,Of an honored man and a suspected one.
+9,Rivalry of two who are almost equal.
+9,Rivalry of equals, one of whom in the past has been proved guilty of adultery.
+9,Of a man who is loved and one who has not the right to love.
+9,Of the two (or more) successive husbands of a divorcee.
+15,Of a sorceress and an ordinary woman.
+15,Of victor and prisoner.
+15,Of a queen and subject.
+15,Of a queen and slave.
+15,Of lady and servant.
+15,Of a lady and a woman of humbler position.
+15,Of a lady and two women of humbler class.
+15,Rivalry of two who are almost equals, complicated by the abandonment of one.
+15,Rivalry between the memory or an ideal (that of a superior woman) and a vassal of her own.
+135,Double rivalry (A loves B, who loves C, who loves D).
+135,Oriental rivalries (Hindu polygamy).
+45,Rivalry of two immortals.
+45,Of two mortals.
+45,Of two lawful wives.
+
+#25. ADULTERY. Elements: A deceived husband or wife and two adulterers.
+;Adultery
+24,A mistress betrayed for a young woman.
+24,A mistress betrayed for a young wife.
+24,A mistress betrayed for a girl.
+8,A wife betrayed for a slave, who does not love in return.
+8,A wife betrayed for debauchery.
+8,A wife betrayed for a married woman.
+8,A wife betrayed with the intention of bigamy.
+8,A wife betrayed for a young girl, who does not love in return.
+8,A wife envied by a young girl who is in love with her husband.
+8,A wife betrayed by a courtesan.
+8,Rivalry between a lawful wife who is antipathetic and a mistress who is congenial.
+8,Rivalry between a generous wife and an impassioned girl.
+9,An antagonistic husband sacrificed for a congenial lover.
+9,A husband, believed to be lost, forgotten for a rival.
+9,A commonplace husband sacrificed for a sympathetic lover.
+9,A good husband betrayed for an inferior rival.
+9,For a grotesque rival.
+9,For an odious rival.
+9,For a commonplace rival, by a perverse wife.
+9,For a less handsome, but useful rival.
+24,Vengeance of a deceived spouse.
+24,Jealousy sacrificed out of pity.
+24,Jealousy sacrificed for the sake of a cause.
+72,A spouse persecuted by a rejected rival.
+
+#26. CRIMES OF LOVE. Elements: The lover and the betrayed.
+;Crimes of Love
+2,A mother in love with her son.
+2,A daughter in love with her father.
+2,Violation of a daughter by her father.
+2,A woman enamored of her stepson.
+2,A woman and her stepson enamored of each other.
+2,A woman being the mistress, at the same time, of a father and son, both of whom accept the situation.
+2,A man becomes the lover of his sister-in-law.
+2,The man alone becomes enamored of his sister-in-law.
+2,A brother and sister in love with each other.
+3,A man enamored of another man, who yields.
+3,A woman enamored of a bull.
+
+#27. DISCOVERY OF THE DISHONOR OF A LOVED ONE. Elements: The discoverer and the guilty one.
+;Discovery of the Dishonor of a Loved One
+6,Discovery of a parent's shame.
+6,Discovery of one's child's dishonor.
+6,Discovery of a sibling's shame or dishonor.
+6,Discovery of dishonor in the family of one's fiancee.
+6,Discovery that one's wife has been violated before marriage.
+6,Discovery that one's wife has been violated since the marriage.
+6,Discovery that one's spouse previously committed a fault.
+6,Discovery that one's spouse has formerly been a prostitute.
+6,Discovery of dishonor on the part of a lover.
+6,Discovery that one's mistress, formerly a prostitute, has returned to her old life.
+6,Discovery that one's lover is a scoundrel.
+6,The same discovery concerning a so-called king.
+6,The same discovery concerning one's spouse.
+6,The discovery that one's lover is specifically weakened.
+66,Discovery that one's child is an assassin.
+11,Duty of punishing one's child who is a traitor to country.
+11,Duty of punishing one's sibling who is a traitor to his party.
+11,Duty of punishing a child condemned under a law which the parent has made.
+11,Duty of punishing one's child believed to be guilty.
+11,Duty of sacrificing, to fulfill a vow of tyrannicide, a father until then unknown.
+11,Duty of punishing a sibling who is an assassin.
+11,Duty of punishing one's mother to avenge one's father.
+
+#28. OBSTACLES TO LOVE. Elements: Two lovers and an obstacle.
+;Obstacles to Love
+1,Marriage prevented by inequality of rank.
+1,Inequality of fortune an impediment to marriage.
+2,Marriage prevented by enemies and contingent obstacles.
+1,Marriage forbidden on account of one partner's previous betrothal to another.
+1,The same case, complicated by an imaginary marriage of the beloved object.
+2,A free union impeded by the opposition of relatives.
+2,Family affection disturbed by the parents-in-law.
+1,Free union impeded by the incompatibility of temper of the lovers.
+1,Love
+
+#29. AN ENEMY LOVED. Elements: The beloved enemy, the lover, and the hater.
+;An Enemy Loved
+7,The lover pursued by the brothers of his beloved.
+7,The lover hated by the family of his beloved.
+7,The lover is the child of a man hated by the kinsmen of his beloved.
+7,The beloved is an enemy of the party of the woman who loves him.
+4,The lover is the slayer of the father of his beloved.
+4,The beloved is the slayer of the father of the beloved.
+4,The beloved is the slayer of the brother of her lover.
+4,The beloved is the slayer of the husband of the woman who loves him, but
+_who has previously sworn to avenge that husband.
+4,The same case, except that a lover, instead of a husband, has been slain.
+4,The beloved is the slayer of a kinsman of the woman who loves him.
+4,The beloved is the daughter of the slayer of her lover's father.
+
+#30. AMBITION. Elements: An ambitious person, a thing coveted, and an adversary.
+;Ambition
+2,Ambition watched and guarded against by a kinsman or patriot friend or by a brother.
+2,By a relative or person under obligation.
+2,By partisans.
+6,Rebellious ambition (akin to #8).
+3,Ambition and covetousness heaping crime upon crime.
+3,Parricidal ambition.
+
+#31. CONFLICT WITH A GOD. Elements: A mortal and an immortal.
+;Conflict With a God
+5,Struggle against a deity.
+5,Strife with the believers in a god.
+2,Controversy with a deity.
+2,Punishment for contempt of a god.
+2,Punishment for pride before a god.
+2,Presumptuous rivalry with a god.
+2,Imprudent rivalry with a deity.
+
+#32. MISTAKEN JEALOUSY. Elements: The jealous one, the object of whose possession 
+#    he is jealous, the supposed accomplice, and the cause or the author of the mistake.
+;Mistaken Jealousy
+15,The mistake originates in the suspicious mind of the jealous one.
+15,Mistaken jealousy aroused by a fatal chance.
+15,Mistaken jealousy of a love which is purely platonic.
+15,baseless jealousy aroused by malicious rumours.
+20,Jealousy suggested by a traitor who is moved by hatred.
+20,Jealousy suggested by a traitor who is moved by self-interest.
+20,Jealousy suggested by a traitor who is moved by jealousy and self-interest.
+12,Reciprocal jealousy suggested to husband and wife by a rival.
+12,Jealousy suggested to the husband by a dismissed suitor.
+12,Jealousy suggested to the husband by a woman who is in love with him.
+12,Jealousy suggested to the wife by a scorned rival.
+12,Jealousy suggested to a happy lover by the deceived husband.
+
+#33. ERRONEOUS JUDGEMENT. Elements: The mistaken one, the victim of the mistake,
+#    the cause or author of the mistake, and the guilty person.
+;Erroneous Judgement
+6,Suspicion where faith is necessary.
+6,False suspicion.
+6,False suspicion (in which the jealousy is not without reason) of a mistress.
+6,False suspicions aroused by the a misunderstood attitude of a loved one.
+6,False suspicions aroused by indifference.
+5,False suspicions drawn upon oneself to save a friend.
+5,False suspicions fall upon the innocent.
+5,False suspicions fall upon the innocent spouse of the guilty one.
+5,False suspicions fall upon an innocent but guilty-intentioned.
+5,False suspicions fall upon an innocent who believes themselves guilty.
+5,A witness to a crime, in the interests of loved one, lets accusation fall upon the innocent.
+10,The accusation is allowed to fall upon an enemy.
+10,The error is provoked by the enemy.
+10,The mistake is directed against the victim by her brother.
+6,False suspicion thrown by the real culprit upon one of his enemies.
+6,False suspicion thrown by the real culprit upon the second victim against which he has plotted from the beginning.
+6,False suspicion thrown upon a rival.
+6,False suspicion thrown upon an innocent because he has refused to be an accomplice.
+6,False suspicion thrown by a deserted mistress upon a lover who left her because he would not deceive her husband.
+6,Struggle to rehabilitate oneself and to avenge a judicial error purposely caused.
+
+#34. REMORSE. Elements: The culprit, the victim or the sin, and the interrogator.
+;Remorse
+2,Remorse for an unknown crime.
+2,Remorse for a parricide.
+2,Remorse for an assassination.
+2,Remorse for a judicial murder.
+2,Remorse for the murder of husband or wife.
+5,Remorse for a fault of love.
+5,Remorse for an adultery.
+
+#35. RECOVERY OF A LOST ONE. Elements: The seeker and the one found.
+;Recovery of a Lost One
+1,Recovery of a lost one.
+
+#36. LOSS OF LOVED ONES. Elements: A kinsman slain, a kinsman spectator, and an executioner.
+;Loss of Loved Ones
+1,Witnessing the slaying of kinsmen while powerless to prevent it.
+1,Helping to bring misfortune upon one's people through professional secrecy.
+2,Divining the death of a loved one.
+2,Learning of the death of a kinsman or ally.
+2,Relapse into primitive baseness, through despair on learning of the death of a loved one.
+
+#37. MISTAKEN IDENTITY.
+;Mistaken Identity
+1,Thinking someone is rich when he's poor.
+1,The wrong man caught in the web of fear.
+1,Schizophrenia.
+

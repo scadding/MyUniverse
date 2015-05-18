@@ -1,0 +1,63 @@
+
+;Start
+1,[episode]
+
+;episode
+5,'''''Sci-Fi Episode:'''''<br>[monster]<br>[sci-fi]<br>[humanstory]<br>[humanstory]
+5,'''''Historical Episode:'''''<br>[monster]<br>[history]<br>[humanstory]<br>[humanstory]
+1,'''''Mixed Episode:'''''<br>[monster]<br>[sci-fi]<br>[history]<br>[humanstory]
+;monster
+1, An intelligence that lies dormant, waiting for its time to rise.
+1, Creatures that feed on temporal paradox.
+1, An army of robots, controlled at one remove by a sinister hand.
+1, Ethereal things that take over human forms for their own dark ends.
+1, The Master.
+1, The monster that hides under the bed.
+1, The Daleks.
+1, An ancient race, emerging from the sea.
+1, An alien visitor who commits terrible deeds out of misguided love.
+1, The alien that inspired a category of human folklore.
+1, A man or woman transformed by alien technology.
+;sci-fi
+1, A stricken space-ship orbits a dying sun.
+1, A mega-city, teeming with life, with a seamy underbelly.
+1, The last member of a dying race, and the truth that dies with him.
+1, The end of a world.
+1, A vast, sealed underground complex
+1, Gallifrey, the home of the Time Lords.
+1, The colonisation of a supposedly uninhabited planet.
+1, A hundred bodies in cryogenic sleep, woken before their time.
+1, A war that has continued for ten thousand years.
+1, A wondrous new technology achieves the impossible - but at a heavy cost to it's inventor.
+1, A parallel universe where everything's the same only a little bit different.
+1, A whole town trapped in a time loop.
+1, A spacecraft on the verge of a momentous first contact.
+;humanstory
+1, A band cut off from ordinary civilisation, relying only on each other to survive.
+1, A young child, buffeted by strange forces, yet with her own inner strength.
+1, A woman whose greatest skill is her darkest secret.
+1, A teenager trying to find their place in the world.
+1, A soldier, fighting with the knowledge she will lose.
+1, A reunion between long-separated friends - and enemies.
+1, A doctor, tending to the dying, waiting for his own death.
+1, A mother who has lost her child, even though the child yet lives.
+1, An old man, jaded with the world.
+1, A dying man with one unfulfilled dream.
+;history
+1, A famous artist completes a great work - which is lost to time.
+1, A great leader is threatened by forces from without and doubts from within.
+1, The assassination of an influential politician.
+1, A struggling author completes a work which, we know, will be a masterpiece.
+1, The year before a great war claims many lives, and the young men soon to fight in it.
+1, The day a famous person disappeared from history.
+1, The members of what will be an unsuccessful revolution.
+1, A period of great social strife and the people caught up in it.
+1, A tragic event that even time travellers dare not avert.
+1, A historical mystery, perhaps touched by alien influence.
+;singlecard
+1, [monster]
+1, [sci-fi]
+1, [history]
+1, [humanstory]
+
+

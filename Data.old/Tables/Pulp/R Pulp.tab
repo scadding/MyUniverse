@@ -1,0 +1,104 @@
+
+;Start
+1,[rPulpHeroNovel]
+
+;rPulpNoun
+1,Rafters
+1,Rancher
+1,Rascals
+1,Reach
+1,Regent
+1,Relatives
+1,Retirees
+1,Revolver
+1,Riders
+1,Riflemen
+1,Rift
+1,Ritual
+1,River
+1,Rope
+1,Rusulka
+1,Rockers
+
+;rPulpAdjNegative
+1,Rash
+1,Raspy
+1,Raunchy
+1,Red
+1,Regular
+1,Repulsive
+1,Ripe
+1,Risky
+1,Rude
+1,Rusty
+
+;rPulpAdjPositive
+1,Reflex
+1,Regal
+1,Rich
+1,Righteous
+1,Rippling
+1,Rookie
+1,Royal
+1,Ruddy
+1,Rugged
+
+;rPulpMaleFirstName
+1,Ralph
+1,Ray
+1,Rhett
+1,Rich
+1,Richard
+1,Robby
+1,Roberto
+1,Roger
+1,Roy
+1,Ryan
+1,Reuben
+1,Ricky
+1,Randy
+1,Robby
+
+;rPulpFemaleFirstName
+1,Rain
+1,Reba
+1,Rebecca
+1,Rhona
+1,Rhonda
+1,Riana
+1,Roxanne
+
+;rPulpLastName
+1,Ranger
+1,Rascal
+1,Razor
+1,Regulator
+1,Rider
+1,Ripper
+1,Robber
+1,Roberts
+1,Rogers
+1,Rook
+1,Rover
+1,Ruger
+
+;pulpmiddle
+1,against the
+3,and the
+1,and the Release of the
+1,and the Return of the
+1,and the Revenge of the
+1,in:
+1,and [rPulpAdjPositive] [rPulpMaleFirstName]'s 
+1,vs. the
+
+;pulpend
+1,[rPulpAdjNegative] [rPulpNoun]
+
+;rPulpHeroNovel
+10,[rPulpAdjPositive] [rPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[rPulpMaleFirstName] [rPulpLastName] [pulpmiddle] [pulpend]
+3,[rPulpAdjPositive] [rPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[rPulpFemaleFirstName] [rPulpLastName] [pulpmiddle] [pulpend]
+
+

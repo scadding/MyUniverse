@@ -1,0 +1,218 @@
+
+;Start
+5,[multicharacters].
+1,The [relationeither] of [Fantasy Scene.Character] at [Fantasy Scene.Location].
+3,[Canonical Oracles]
+2,[Fan Oracles]
+1,[beasts]
+1,[Fantasy Town Event.Start]
+
+;Canonical Oracles
+1,[Art Grace and Guts Oracle.OracleResult]
+1,[Blood and Sex Oracle.Start]
+1,[God Kings of War Oracle.Start]
+1,[The Unquiet Past Oracle.Start]
+1,[A Nest of Vipers Oracle.Start]
+
+;Fan Oracles
+0,----Only Genre-Appropriate, Please!----
+1,[Wuxia Oracle.Start]
+2,[Shakespeare Oracle.Start]
+2,[Conan Oracle.Start]
+1,[Exalted - Age of Sorrows.Start]
+
+
+;multicharacters
+1,The [femalerelation] of a [maleperson], [femalerelationphrase]
+1,The [malerelation] of a [femaleperson], [malerelationphrase]
+1,A [maleperson], [malerelationphrase]
+1,A [femaleperson], [femalerelationphrase]
+
+;relationeither
+1,[femalerelation]
+1,[malerelation]
+
+;femalerelation
+1,daughter
+1,wife
+1,mother
+1,mistress
+1,lover
+1,sister
+1,concubine
+
+;malerelation
+1,son
+1,brother
+1,husband
+1,father
+1,lover
+1,favorite slave
+1,chief servant
+
+;maleperson
+1,[maleadj] [maleprofession]
+1,[malestockchars]
+
+;femaleperson
+1,[femaleadjcons] [femaleprofession]
+1,[femalestockchars]
+
+;maleadj
+1,vicious
+1,powerful
+1,mighty
+1,boastful
+1,proud
+1,haughty
+1,dead
+1,possessed
+1,murderous
+1,young and inexperienced
+1,famous
+1,dangerous
+1,mysterious
+1,very old
+1,cold and calculating
+1,wily and stubborn
+1,decrepit and lecherous
+1,deceitful
+1,lustful
+1,monstrous
+1,cunning
+1,honey-tongued
+1,cowardly
+1,greedy
+1,prideful
+1,slovenly and ill-tempered
+1,raving mad
+1,brave
+1,pious
+1,zealous
+
+;maleprofession
+1,king
+1,warlord
+1,captain
+1,trapper
+1,hunter
+1,exorcist
+1,priest
+1,bandit
+1,assassin
+1,pirate
+1,general
+1,sorcerer
+1,warrior
+1,desert horseman
+1,merchant prince
+1,nobleman
+1,high priest
+1,vizier to the king
+1,yeoman farmer
+1,fisherman
+5,[Fantasy Profession.maleanyclass]
+
+;femalerelationphrase
+1,taken prisoner by a [maleperson]
+1,secretly the power behind the throne
+1,sworn to commit vengeance on a [maleperson]
+1,planning to run away with a [maleperson]
+1,carrying the child of the [maleperson]
+1,secretly in love with a [maleperson]
+1,and a [maleperson], secretly in love with her
+1,desiring to seduce a [maleperson]
+
+;malestockchars
+1,lovelorn poet
+1,struggling playwright
+1,king's chief huntsman
+1,poor swineherd
+1,raving prophet
+1,young warrior
+1,miserly guildmaster
+1,bookish monk
+1,lovable rogue
+1,tyrant king
+1,young boy who is more than he appears
+1,battle-hardened soldier
+
+;femaleadjcons
+1,beautiful
+1,cruel
+1,cold and merciless
+1,beloved
+1,young and naive
+1,wizened old
+1,powerful
+1,raven-haired
+1,beautiful but depraved
+1,golden-haired and honey-lipped
+1,proud and noble
+1,poor but honest
+1,kindly
+1,clever
+
+;femaleprofession
+1,queen
+1,sorceress
+1,huntress
+1,barbarian queen
+1,temple priestess
+1,princess
+1,wood nymph
+1,noblewoman
+1,dancer
+1,courtesan
+
+;malerelationphrase
+1,secretly in love with a [femaleperson]
+1,fleeing his home to be with a [femaleperson]
+1,preparing to become a [maleperson]
+1,sworn to kill a [maleperson] in the name of honor
+1,hoping to seduce a [femaleperson]
+1,preparing to murder a [maleperson]
+1,secretly spying on a [femaleperson]
+
+;femalestockchars
+1,soothsayer hag
+1,sultry temptress
+1,beautiful virgin
+1,cunning burglar
+1,humble peasant girl
+
+;beasts
+1,A [beastadj] [beast], [beastphrase]
+
+;beastadj
+1,grotesque
+1,cunning
+1,huge
+1,proud
+1,tired and old
+1,fierce
+1,heartless
+
+;beast
+1,dragon
+1,tiger
+1,griffon
+1,ogre
+1,minotaur
+1,giant
+
+;beastphrase
+1,seeking whom he might devour
+1,stealing livestock from local farms to feed a ravenous hunger
+1,intending to kill a [maleperson] to avenge an old wound
+1,the secret protector of a [femaleperson]
+1,bound to a [femaleperson] by strange magicks
+1,king of its ilk, hunted by men of every description
+1,greviously wounded by a [maleperson]
+1,devourer of the [femalerelation] of a [maleperson]
+1,feasting on the remains of the [relationeither] of a [maleperson]
+
+;title
+1,The [Secret Society Title.NounDescriptor] [Secret Society Title.Noun]
+
+

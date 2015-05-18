@@ -1,0 +1,164 @@
+
+;Start
+1,[Profession]
+
+;Profession
+1,[Ship Profession]
+1,Owns A [Condition][Thing]
+1,[Criminal]
+1,[Other]
+1,[Super Power]
+1,[Psionic Power]
+1,[Race]
+1,[Robot]
+
+;Ship Profession
+1,Pilot
+1,Navigator
+1,Security
+1,First Officer
+1,Doctor
+1,Counselor
+1,Mercenary
+1,Space Marine
+1,Space Trooper
+1,[Scientist]
+1,Engineer
+1,Mechanic
+1,Tac Ops Specialist
+1,Communications Specialist
+1,Captain
+
+;Condition
+9,
+1,Fast 
+1,Heavily Armed 
+1,Heavily Armed And Armored 
+1,Lightly Armed 
+1,Sleek 
+1,Well Maintained 
+1,Cloaked 
+1,Run Down 
+1,Just Barely Spaceworthy 
+2,Beaten Up 
+3,Sloppy Looking But Well Maintained 
+
+;Thing
+3,[Ship Type]
+1,[Robot]
+
+;Ship Type
+1,Tramp Freighter
+1,Space Fighter
+1,Luxury Yacht
+1,Shuttle
+1,Frigate
+1,Destroyer
+1,Mega Cruiser
+1,Battle Carrier
+1,Hovercraft
+1,Hovercycle
+1,Ground Vehicle
+1,Time Machine
+1,Tensegrity Sphere
+1,Battle Globe
+
+;Criminal 
+1,Smuggler
+1,Thief
+1,Hacker
+1,Bounty Hunter
+1,Diurnalist
+1,Murderer
+1,Revenger
+1,Lothario
+1,Grifter
+1,Terrorist
+1,Enumerator
+
+;Other
+1,Agent
+1,Ambassador
+1,Assassin
+1,Bureaucrat
+1,Companion
+1,Cop
+1,Tracker
+1,Psi Cop
+1,Psionic
+1,Spy
+1,Preacher
+1,Resonant Praise Singer
+1,Technobedientist
+
+;Scientist
+1,Biologist
+1,Physicist
+1,Planetologist
+1,Psychologist
+1,Astronomer
+1,Agronomist
+1,Tensegritist
+1,Spline Theorist
+
+;Super Power
+1,Flight
+1,Eye Lasers
+1,Super Strength
+1,Super Speed
+1,X-Ray Vision
+1,Photographic Memory
+1,Invulnerable
+1,Immortal
+1,Super Power
+1,Amazing Skill Handling Paperwork
+1,Incredible Luck
+
+;Psionic Power
+1,Telepathy
+1,Telekinesis
+1,Teleportation
+1,ESP
+1,Psychometry
+1,Precognition
+1,Retrocognition
+1,Clairvoyance
+1,Astral Projection
+1,Mind Control
+1,Psionic Power
+1,Hyperkinesis
+1,Human Resonator
+
+;Race
+1,Felinoid
+1,Reptiloid
+1,Caninoid
+1,Gas Giant Monstrosity
+1,Sentient Plant
+1,Silicon-based
+1,Mutant
+
+;Robot
+1,[Bot]Bot
+1,[Android]Android
+
+;Bot
+1,Security-
+1,Mechanic-
+1,Medical-
+1,Sex-
+1,Pet-
+1,War-
+1,Peace-
+1,Praise-
+1,Maid-
+
+;Android
+1,Pleasure 
+1,Butler 
+1,Protocol 
+1,Assassin 
+1,Celebrity 
+1,Duplicate 
+
+

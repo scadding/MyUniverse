@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<xml-files>
+	<class-file-sets>
+		<files	path-infix="cfg/class-data"	file-paths="empiregame-fantasy.xml, standard-cyberpunk.xml, test-classes.xml, standard-classes.xml, standard-martial-arts.xml, standard-wwii-classes.xml, standard-fantasy.xml, mage-fantasy.xml, standard-undead.xml, standard-cabal.xml, exotic-classes.xml, y2kgame-classes.xml, psi-classes.xml"/>
+	</class-file-sets>
+
+	<attribute-rules	path-infix="cfg/class-data"	file-path="attribute-rules.xml"/>
+	<weapons-data		path-infix="cfg/class-data"	file-path="weapons.xml"/>
+	<armor-data			path-infix="cfg/class-data"	file-path="armor.xml"/>
+
+	<nationality-name-file-sets>
+		<!-- Fantasy Races -->
+		<black-orc		gender="female" type="first"	path-infix="cfg/names-data"	file-paths="Germanic-female-first.txt"/>
+		<black-orc		gender="female" type="last"		path-infix="cfg/names-data" file-paths="Germanic-last.txt"/>
+		<black-orc		gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Orcish-first.txt, Orcish-first.txt, Germanic-male-first.txt"/>
+		<black-orc		gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Germanic-last.txt"/>
+
+		<cave-orc		gender="female" type="first"	path-infix="cfg/names-data"	file-paths="Germanic-female-first.txt"/>
+		<cave-orc		gender="female" type="last"		path-infix="cfg/names-data" file-paths="Germanic-last.txt"/>
+		<cave-orc		gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Orcish-first.txt"/>
+		<cave-orc		gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Germanic-last.txt"/>
+
+		<dark-elf		gender="female" type="first"	path-infix="cfg/names-data"	file-paths="Dark-Elven-female-first.txt"/>
+		<dark-elf		gender="female" type="last"		path-infix="cfg/names-data" file-paths="Elven-last.txt"/>
+		<dark-elf		gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Elven-male-first.txt"/>
+		<dark-elf		gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Elven-last.txt, Dark-Elven-female-first.txt"/>
+
+		<gray-dwarf		gender="female"	type="first"	path-infix="cfg/names-data" file-paths="Germanic-female-first.txt"/>
+		<gray-dwarf		gender="female"	type="last"		path-infix="cfg/names-data" file-paths="Germanic-last.txt"/>
+		<gray-dwarf		gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Dwarven-male-first.txt"/>
+		<gray-dwarf		gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Germanic-last.txt"/>
+
+		<dwarf			gender="female"	type="first"	path-infix="cfg/names-data" file-paths="Germanic-female-first.txt"/>
+		<dwarf			gender="female"	type="last"		path-infix="cfg/names-data" file-paths="Germanic-last.txt"/>
+		<dwarf			gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Dwarven-male-first.txt"/>
+		<dwarf			gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Germanic-last.txt"/>
+
+		<elf			gender="female" type="first"	path-infix="cfg/names-data"	file-paths="Elven-female-first.txt"/>
+		<elf			gender="female" type="last"		path-infix="cfg/names-data" file-paths="Elven-last.txt"/>
+		<elf			gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Elven-male-first.txt"/>
+		<elf			gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Elven-last.txt"/>
+
+		<half-elf		gender="female"	type="first"	path-infix="cfg/names-data" file-paths="Elven-female-first.txt, English-female-first.txt, Germanic-female-first.txt"/>
+		<half-elf		gender="female"	type="last"		path-infix="cfg/names-data" file-paths="English-last.txt, Germanic-last.txt, Elven-last.txt"/>
+		<half-elf		gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Elven-male-first.txt, English-male-first.txt, Germanic-male-first.txt"/>
+		<half-elf		gender="male"	type="last"		path-infix="cfg/names-data" file-paths="English-last.txt, Germanic-last.txt, Elven-last.txt"/>
+
+		<half-orc		gender="female"	type="first"	path-infix="cfg/names-data" file-paths="English-female-first.txt, Germanic-female-first.txt"/>
+		<half-orc		gender="female"	type="last"		path-infix="cfg/names-data" file-paths="English-last.txt, Germanic-last.txt"/>
+		<half-orc		gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Orcish-first.txt, English-male-first.txt, Germanic-male-first.txt"/>
+		<half-orc		gender="male"	type="last"		path-infix="cfg/names-data" file-paths="English-last.txt, Germanic-last.txt"/>
+
+		<high-elf		gender="female" type="first"	path-infix="cfg/names-data"	file-paths="Elven-female-first.txt, Dark-Elven-female-first.txt"/>
+		<high-elf		gender="female" type="last"		path-infix="cfg/names-data" file-paths="Elven-last.txt"/>
+		<high-elf		gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Elven-male-first.txt"/>
+		<high-elf		gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Elven-last.txt, Dark-Elven-female-first.txt"/>
+
+		<human			gender="female"	type="first"	path-infix="cfg/names-data" file-paths="English-female-first.txt, English-female-first.txt, Chinese-female-first.txt, Japanese-female-first.txt, Spanish-female-first.txt, Spanish-female-first.txt, English-female-first.txt, English-female-first.txt, English-female-first.txt, Germanic-female-first.txt, Germanic-female-first.txt"/>
+		<human			gender="female"	type="last"		path-infix="cfg/names-data" file-paths="Chinese-last.txt, Japanese-last.txt, Spanish-last.txt, English-last.txt, English-last.txt, English-last.txt, Germanic-last.txt, Germanic-last.txt"/>
+		<human			gender="male"	type="first"	path-infix="cfg/names-data" file-paths="English-male-first.txt, English-male-first.txt, Chinese-male-first.txt, Japanese-male-first.txt, Spanish-male-first.txt, Spanish-male-first.txt, English-male-first.txt, English-male-first.txt, English-male-first.txt, Germanic-male-first.txt, Germanic-male-first.txt"/>
+		<human			gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Chinese-last.txt, Japanese-last.txt, Spanish-last.txt, English-last.txt, English-last.txt, English-last.txt, Germanic-last.txt, Germanic-last.txt"/>
+
+		<orc			gender="female" type="first"	path-infix="cfg/names-data"	file-paths="Germanic-female-first.txt"/>
+		<orc			gender="female" type="last"		path-infix="cfg/names-data" file-paths="Germanic-last.txt"/>
+		<orc			gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Orcish-first.txt"/>
+		<orc			gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Germanic-last.txt"/>
+
+		<underworld		gender="female" type="first"	path-infix="cfg/names-data"	file-paths="Germanic-female-first.txt"/>
+		<underworld		gender="female" type="last"		path-infix="cfg/names-data" file-paths="Germanic-last.txt"/>
+		<underworld		gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Orcish-first.txt, Orcish-first.txt, Orcish-first.txt, Germanic-male-first.txt"/>
+		<underworld		gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Germanic-last.txt"/>
+
+		<wood-elf		gender="female" type="first"	path-infix="cfg/names-data"	file-paths="Elven-female-first.txt"/>
+		<wood-elf		gender="female" type="last"		path-infix="cfg/names-data" file-paths="Elven-last.txt"/>
+		<wood-elf		gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Elven-male-first.txt"/>
+		<wood-elf		gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Elven-last.txt"/>
+
+		<!-- Modern Nationalities -->
+		<american		gender="female" type="first"	path-infix="cfg/names-data" file-paths="English-female-first.txt"/>
+		<american		gender="female"	type="last"		path-infix="cfg/names-data" file-paths="English-last.txt, English-last.txt, Germanic-last.txt, Spanish-last.txt"/>
+		<american		gender="male"	type="first"	path-infix="cfg/names-data" file-paths="English-male-first.txt"/>
+		<american		gender="male"	type="last"		path-infix="cfg/names-data" file-paths="English-last.txt, English-last.txt, Germanic-last.txt, Spanish-last.txt"/>
+
+		<chinese		gender="female" type="first"	path-infix="cfg/names-data" file-paths="Chinese-female-first.txt"/>
+		<chinese		gender="female" type="last"		path-infix="cfg/names-data" file-paths="Chinese-last.txt"/>
+		<chinese		gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Chinese-male-first.txt"/>
+		<chinese		gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Chinese-last.txt"/>
+
+		<english		gender="female" type="first"	path-infix="cfg/names-data" file-paths="English-female-first.txt"/>
+		<english		gender="female" type="last"		path-infix="cfg/names-data" file-paths="English-last.txt"/>
+		<english		gender="male"	type="first"	path-infix="cfg/names-data" file-paths="English-male-first.txt"/>
+		<english		gender="male"	type="last"		path-infix="cfg/names-data" file-paths="English-last.txt"/>
+
+		<german			gender="female" type="first"	path-infix="cfg/names-data"	file-paths="Germanic-female-first.txt"/>
+		<german			gender="female" type="last"		path-infix="cfg/names-data" file-paths="Germanic-last.txt"/>
+		<german			gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Germanic-male-first.txt"/>
+		<german			gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Germanic-last.txt"/>
+
+		<japanese		gender="female" type="first"	path-infix="cfg/names-data" file-paths="Japanese-female-first.txt"/>
+		<japanese		gender="female" type="last"		path-infix="cfg/names-data" file-paths="Japanese-last.txt"/>
+		<japanese		gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Japanese-male-first.txt"/>
+		<japanese		gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Japanese-last.txt"/>
+
+		<spanish		gender="female" type="first"	path-infix="cfg/names-data" file-paths="Spanish-female-first.txt"/>
+		<spanish		gender="female" type="last"		path-infix="cfg/names-data" file-paths="Spanish-last.txt"/>
+		<spanish		gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Spanish-male-first.txt"/>
+		<spanish		gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Spanish-last.txt"/>
+
+		<various		gender="female"	type="first"	path-infix="cfg/names-data" file-paths="English-female-first.txt, English-female-first.txt, Chinese-female-first.txt, Japanese-female-first.txt, Spanish-female-first.txt, Spanish-female-first.txt, English-female-first.txt, English-female-first.txt, English-female-first.txt, Germanic-female-first.txt, Germanic-female-first.txt"/>
+		<various		gender="female"	type="last"		path-infix="cfg/names-data" file-paths="Chinese-last.txt, Japanese-last.txt, Spanish-last.txt, English-last.txt, Germanic-last.txt"/>
+		<various		gender="male"	type="first"	path-infix="cfg/names-data" file-paths="English-male-first.txt, English-male-first.txt, Chinese-male-first.txt, Japanese-male-first.txt, Spanish-male-first.txt, Spanish-male-first.txt, English-male-first.txt, English-male-first.txt, English-male-first.txt, Germanic-male-first.txt, Germanic-male-first.txt"/>
+		<various		gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Chinese-last.txt, Japanese-last.txt, Spanish-last.txt, English-last.txt, Germanic-last.txt"/>
+
+		<trans-human	gender="female" type="first"	path-infix="cfg/names-data" file-paths="Spanish-female-first.txt, English-female-first.txt"/>
+		<trans-human	gender="female" type="last"		path-infix="cfg/names-data" file-paths="Spanish-last.txt, English-last.txt"/>
+		<trans-human	gender="male"	type="first"	path-infix="cfg/names-data" file-paths="Spanish-male-first.txt, English-male-first.txt"/>
+		<trans-human	gender="male"	type="last"		path-infix="cfg/names-data" file-paths="Spanish-last.txt, English-last.txt, Germanic-last.txt, Spanish-last.txt"/>
+	</nationality-name-file-sets>
+
+</xml-files>

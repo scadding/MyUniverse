@@ -1,0 +1,375 @@
+
+;Start
+1,[type]
+
+;type
+2,[alcoholic]
+1,[nonalcoholic]
+
+;nonalcoholic
+4,Agua [water]
+3,[Utility.Fruit] Zumo
+3,Leche [milk]
+3,Te [tea]
+2,Café
+2,Caldo
+1,[nonalcoholicbeer]
+
+;alcoholic
+15,[DrinkNames] [BeersNAles] ale
+15,[DrinkNames] [BeersNAles] cerveza
+3,Néctar de [Utility.Fruit]
+5,[LowQualityDrinks]
+6,[CiderDescription] [CiderType] Sidra
+5,[LiqueurFlavor] [Liqueur]
+3,[Utility.Fruit] Aguardiente
+5,[Brewnames.Start]
+1,Absenta
+1,Ambrosía
+1,Aguardiente de manzana
+2,Brandy
+5,Cóctel
+2,Coñac
+1,[eggnog]
+3,Ginebra
+1,mastica
+12,[mead] Hidromiel
+2,Ron
+4,[vodka] Vodka
+8,[whiskey] Whisky
+12,[wine] Vino
+
+:alcoholic general
+10,Cerveza
+8,Ale
+7,Sidra
+10,Vino
+5,Hidromiel
+2,Ron
+2,Ginebra
+1,Vodka
+1,Absenta
+1,Sake
+2,Bourbon
+5,Whisky
+2,Coñac
+2,Brandy
+
+;water
+10,
+3,de Pozo
+3,Destilada
+3,de Manantial
+3,con Menta
+3,con Limón
+2,Mineral 
+2,de Lluvia
+
+;milk
+200,
+50,de Oveja 
+50,de Cabra 
+10,rothe 
+30,de Bisonte 
+10,de Camello 
+5,de Cierva 
+1,de Loba 
+1,de Javalí 
+1,de Rata 
+
+;tea
+1,Negro
+1,Verde
+1,Rojo
+1,Blanco
+1,Amarillo
+1,Oolong
+1,Earl Grey
+1,Darjeeling
+1,Pekoe Naranja
+1,Inglés
+1,Irlandés
+1,[herbal tea]
+
+;herbal tea
+1,de Alfalfa
+1,de allspice
+1,de Anís
+1,de Cebada
+1,basil
+1,bee balm
+1,blackberry leaf
+1,blackberry
+1,blackcurrant
+1,calendula flower
+1,cardamom
+1,catnip
+1,chamomile
+1,cherry bark
+1,chicory
+1,cinnamon
+1,clove
+1,coriander
+1,dandelion root
+1,echinacea
+1,elderberry flower
+1,gensing
+1,ginger
+1,ginko
+1,hawthorn
+1,hibiscus
+1,honeybush
+1,hyssop
+1,lavender
+1,lemon balm
+1,lemon peel
+1,lemon thyme
+1,lemon verbena
+1,licorice root
+1,lingonberry
+1,lovage
+1,marigold
+1,milk thistle
+1,nutmeg
+1,orange blossom
+1,peppermint
+1,raspberry
+1,red clover
+1,rose hip
+1,rosemary
+1,rosepetal
+1,sage
+1,sarsparilla
+1,sassafras
+1,savory
+1,spearmint
+1,thyme
+1,vanilla bean
+1,wild cherry
+6,[Utility.Fruit]
+10,[herbal tea]-[herbal tea]
+5,iced [herbal tea]
+
+;DrinkNames
+1,[DrinkNames1]
+2,[Fantasy Names.MaleFirstName]
+1,[Brewnames.Start]
+4,
+
+;DrinkNames1
+1,Rey
+1,Reina
+1,Príncipe
+1,Estándar
+1,Plain brew
+1,Light brew
+1,Winter brew
+1,Summer brew
+1,Wizards
+1,Golden
+1,[Utility.Fruit]
+1,Sheppy's
+1,Dragon's brew
+1,Goblin's brew
+1,Sunrise
+1,Surprise
+1,Paladin's
+1,Death's
+1,Monk's
+1,Shepherd's 
+1,Sailor's
+1,Soldier's
+1,Duke's Own
+
+;LowQualityDrinks
+4,[DrinkNames] swill
+4,[DrinkNames] grog
+1,diluted [DrinkNames1]
+
+;BeersNAles
+6,Amber
+1,Abbey
+3,Bitter
+2,Brown
+3,Bubbly
+5,Dark
+4,Dwarvish
+3,Frothy
+1,Heather
+6,Halfling
+4,Hobgoblin
+1,Highland
+4,Honeyed
+4,Lager
+5,[Utility.Fruit] Lager
+3,Light
+4,Malt
+4,Orcish
+3,Pale
+4,Pilsner
+3,Porter
+1,Pumpkin
+4,Red
+5,Rustic
+5,Short
+3,Stout
+3,Rye
+1,Trappist
+3,Wood-aged
+3,Watered-down
+3,[GruitFlavors]
+10,[nonalcoholicbeer]
+
+;GruitFlavors
+1,Juniper Berry
+1,Mugwort
+1,Yarrow
+1,Heather
+1,Marsh Rosemary
+1,Ginger
+1,Caraway
+1,Aniseed
+1,Nutmeg
+1,Cinnamon
+
+;nonalcoholicbeer
+10,root
+10,ginger
+5,birch
+1,sassafrass root
+1,sarsparilla root
+1,licorice root
+
+;Liqueur
+10,vodka
+10,schnapps
+10,gin
+2,jenever
+5,liqueur
+3,cordial
+
+;LiqueurFlavor
+10,peppermint
+10,spearmint
+7,almond
+2,banana
+2,cherry
+7,herbed
+7,bitter herb
+5,sweetened
+4,anise
+4,licorice
+2,orange
+10,peach
+6,pecan
+2,pineapple
+5,grapefruit
+3,lime
+6,lemon
+4,walnut
+3,honey
+3,red pepper
+7,hot pepper
+6,ginger
+6,vanilla
+6,cinnamon
+5,juniper berry
+2,pine
+
+;CiderDescription
+10,
+5,hard 
+5,spiced hot 
+5,hot mulled 
+5,chilled 
+5,sparkling 
+5,honeyed 
+
+;CiderType
+10,
+10,apple 
+4,peach 
+4,pear 
+4,crabapple 
+
+;eggnog
+4,eggnog (with rum)
+2,eggnog (nonalcoholic)
+1,[LiqueurFlavor] eggnog (with rum)
+1,[LiqueurFlavor] eggnog (nonalcoholic)
+
+;mead
+2,
+1,honey mead
+1,[DrinkNames] mead
+
+;vodka
+2,
+1,[Utility.Fruit]
+
+;whiskey
+1,scotch
+1,sweetened scotch
+1,barley malt
+1,barley and grain spirits
+1,blended barley & rye
+1,straight
+1,bourbon
+1,herbed & spiced bourbon
+1,straight rye
+1,straight barley
+1,moonshine
+1,bayou
+1,straight wheat
+1,blended [Utility.Fruit]
+
+;wine
+20,[Utility.Fruit]
+10,red
+10,blush
+10,white
+10,port
+10,[wineflower]
+5,dry red
+5,herbed red
+5,semi-sweet red
+5,spiced red
+5,mulled red
+5,sweet red
+5,dry rose
+5,semi-sweet rose
+5,spiced rose
+5,mulled rose
+5,dry white
+5,resined white
+5,semi-sweet white
+5,sweet white
+5,sparkling red
+5,sparkling rose
+5,sparkling white
+5,sangria
+5,sherry
+5,dry sherry
+5,dry red vermouth
+5,sweet red vermouth
+5,dry white vermouth
+5,sweet white vermouth
+5,beet
+5,rice
+4,icevine
+3,ice
+2,frost-snap
+2,raisin
+2,watered-down
+
+;wineflower
+5,dandelion
+2,lilac
+1,rose
+3,elderberry flower
+2,feyflower
+1,hibiscus
+2,spiced
+2,honeysuckle
+
+

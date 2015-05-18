@@ -1,0 +1,134 @@
+
+;Start
+1,[guildevents].
+1,[peopleevents].
+1,[criminalevents].
+1,[socialevents].
+
+;peopleevents
+3,[Fantasy Names.StartNoTitle], [prominentpeoplemale], [personeventclause]
+
+;prominentpeoplemale
+1,a renowned [Fantasy Profession.maleanyclass]
+1,a low-level aristocrat
+1,the guild master of the [Fantasy Guild.Start]
+1,a famous [Fantasy Profession.maleanyclass]
+1,a magistrate
+1,a retired adventurer
+1,a prominent [Fantasy Profession.maleanyclass]
+3,[Quick NPC.NPCDescriptor] [Fantasy Profession.maleanyclass]
+1,the heir to a great fortune
+1,the son of a rich merchant house
+1,a [Fantasy Military Unit.MilitaryRank] of the [Fantasy Military Unit.Start]
+
+;prominentpeoplefemale
+5,[Fantasy Names.StartFemale], the daughter of [prominentpeoplemale]
+1,a princess
+1,a duchess
+
+;guildevents
+1,There is a growing trade dispute between the [Fantasy Guild.Start] and the [Fantasy Guild.Start]
+1,The [Fantasy Guild.Start] is attempting to force the [Fantasy Guild.Start] out of town
+1,There is a recruiting drive by the [Fantasy Guild.Start]
+1,There has been a sharp rise in business for the [Fantasy Guild.Start]
+1,A prominent member of the [Fantasy Guild.Start] [personeventclause]
+1,The leader of the [Fantasy Guild.Start] [personeventclause]
+1,The [Fantasy Guild.Start] is allegedly all out of money and heavily in debt
+1,There is intense competition between journeymen at the [Fantasy Guild.Start] to see who will be named the next Master
+1,Apprentices at the [Fantasy Guild.Start] got into a fight with apprentices from the [Fantasy Guild.Start] near the [Fantasy Town Feature.Start]
+1,Local law enforcement is investigating allegations of corruption at the [Fantasy Guild.Start]
+1,The [Fantasy Guild.Start] has jailed one of its officers for alleged embezzlement
+1,Several high ranking members of the [Fantasy Guild.Start] have spoken publicly about starting their own guild
+1,The guildhouse of the [Fantasy Guild.Start] has been burned in a fire
+1,The [Fantasy Guild.Start] are throwing a gala to celebrate 100 years since its founding
+1,The [Fantasy Guild.Start] has commissioned the building of a new guildhouse
+1,Several low-level members of the [Fantasy Guild.Start] have been found dead under mysterious circumstances
+1,The [Fantasy Guild.Start] has just been founded
+1,The [Fantasy Guild.Start] has decided to disband
+1,The [Fantasy Guild.Start] has taken out a large loan from the [Fantasy Guild.Start] for unknown reasons
+1,The [Fantasy Guild.Start] may merge with the [Fantasy Guild.Start]
+1,Someone has broken into the guildhouse of the [Fantasy Guild.Start] and made off with the treasury
+1,A new tax has been enacted that threatens to drive the [Fantasy Guild.Start] into the poorhouse
+1,The [Fantasy Guild.Start] has revoked membership from [Fantasy Names.StartNoTitle] for violations of guild rules
+
+;personeventclause
+1,has disappeared without a trace
+1,has died of natural causes with no apparent heir
+1,has decided to leave town forever
+1,has been imprisoned on charges of [criminalcharge]
+1,was brutally murdered
+1,was publicly accused of [criminalcharge]
+1,was elected to the city council
+1,has died under mysterious circumstances
+1,is to be married to [prominentpeoplefemale]
+
+;criminalcharge
+1,treason
+1,adultery
+1,smuggling
+1,murder
+1,poisoning
+1,arson
+1,running an illegal gambling establishment
+1,running an illegal prostitution ring
+1,delving into dark magicks
+1,conspiracy to overthrow the government
+1,illegal trafficking in monsters
+1,illegal trafficking of magical items
+1,espionage
+1,running a criminal enterprise
+1,failing to pay taxes
+1,corruption of youth
+
+;criminalevents
+1,A [Fantasy Profession.maleanyclass] was found to have stolen a beautiful [Color.bright] amulet from [prominentpeoplefemale].  The amulet was returned to her and the perpetrator is in the stocks
+1,An auction of smuggled goods that the constabulary have recently seized will be held at [Inn and Tavern Names.Start]
+1,There is to be a public execution of an infamous [Fantasy Profession.maleanyclass] who killed his wife
+1,There have been a series of escalating incidents between rival gangs from the [Fantasy Town Feature.inspiration] [Fantasy Town Feature.sections] and the [Fantasy Town Feature.inspiration] [Fantasy Town Feature.sections]
+1,Ruffians and pickpockets have increased activity near the [Fantasy Town Feature.Start]. [crimeconsequence]
+1,A fire was recently started near [Fantasy Town Feature.Start] that is believed to have been arson
+1,An unidentified body was recently found on [Fantasy Town Feature.inspiration] [Fantasy Town Feature.streets], believed to have been killed in a botched robbery attempt. [crimeconsequence]
+1,A smuggler's tunnel was recently found that circumvented the [Fantasy Town Feature.inspiration] [Fantasy Town Feature.defenses]
+1,A [Fantasy Profession.maleanyclass]'s son was found with his tongue cut out, floating face-down at the [Fantasy Town Feature.inspiration] [Fantasy Town Feature.water]
+1,Several recently buried bodies have been desecrated by grave robbers at the [Fantasy Town Feature.inspiration] [Fantasy Town Feature.deadpeople]
+1,Recently, [Fantasy Town Feature Description.Gang Names] has declared war on [Fantasy Town Feature Description.Gang Names]
+1,A crew of con-men has been duping merchants' wives in the [Fantasy Town Feature.inspiration] [Fantasy Town Feature.sections]
+1,A cache of forged coins was recently discovered near the [Fantasy Town Feature.Start]
+1,Unlicensed prostitutes were recently arrested at [Inn and Tavern Names.Start]
+1,The coach of [prominentpeoplemale] was waylaid by highwaymen on [Fantasy Town Feature.inspiration] [Fantasy Town Feature.streets]. [crimeconsequence]
+1,The daughter of [prominentpeoplemale] has been kidnapped and is being held for ransom
+1,Pirates have stolen [Ship Names.Start], a ship that had been anchored at the [Fantasy Town Feature.inspiration] [Fantasy Town Feature.shipping]
+1,[Inn and Tavern Names.Start] was raided and its owner arrested on charges of running an illegal [Tavern.PitFighting] ring
+1,A band of gypsies has set up camp on the [Fantasy Town Feature.inspiration] [Fantasy Town Feature.openarea]
+1,Authorities have imposed a curfew in the [Fantasy Town Feature.inspiration] [Fantasy Town Feature.sections] until further notice
+1,A city watchman was stabbed in the back near the [Fantasy Town Feature.Start] but is expected to recover from his wounds
+2,There has been a rash of [generalcrimes] in the [Fantasy Town Feature.inspiration] [Fantasy Town Feature.sections]. [crimeconsequence]
+
+;generalcrimes
+1,horse thievery
+1,burglaries
+1,pickpocketings
+1,barfights
+1,muggings
+1,kidnappings
+1,confidence schemes
+1,banditry
+1,unseemly and lewd behaviour
+
+;crimeconsequence
+1, The city watch have announced they intend to increase patrols in the area.
+1, The city watch have advised that they are concentrating on other areas and will be unable to provide relief immediately.
+1, Visitors are advised to visit the area with caution.
+1, A curfew has been announced for the area until further notice.
+1, [Fantasy Town Feature Description.Gang Names] are believed to be responsible. A reward has been posted for information leading to arrests.
+
+;socialevents
+1,The cornerstone will be laid tomorrow for the [Fantasy Town Feature.inspiration] [Fantasy Town Feature.buildings]
+1,The Author of "[FantasyBooks.Start]" will be signing copies and leading a discussion at the [Fantasy Town Feature.inspiration] [Fantasy Town Feature.openarea]
+1,[Fantasy Names.StartNoTitle], [prominentpeoplemale], will be marrying [Fantasy Names.StartFemaleNoTitle] at [Fantasy Town Feature.inspiration] [Fantasy Town Feature.religious]
+1,Services will be held for the late [Fantasy Names.StartNoTitle], [prominentpeoplemale], at [Fantasy Town Feature.inspiration] [Fantasy Town Feature.religious]
+1,The [Fantasy Town Feature.inspiration] [Fantasy Town Feature.buildings] will be boarded up due to unexplained supernatural occurrences
+1,The [Fantasy Military Unit.OrdinalNumber] Annual [FantasyMenu.Veggies] Festival commences this week
+1,There will be a ceremony at [Fantasy Town Feature.inspiration] [Fantasy Town Feature.openarea] marking the dedication of a new [Fantasy Male Military Hero.ArtworkType] commemorating [Fantasy Male Military Hero.Start]
+
+

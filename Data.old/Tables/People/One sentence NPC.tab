@@ -1,0 +1,125 @@
+
+;moot
+0, next
+
+;Start
+3,[random]
+2,[general]
+10,[One sentence fantasy NPC.Start]
+1,[modernscifi]
+
+;general
+1,A beautiful genius with a penchant for complex plots but never quite in control of her hair-trigger temper.
+1,A shy, paranoid, home-bound scholar who holds the keys to undoing a wicked plot.
+1,An obnoxious hedonist with a gift for seduction remains loyal to his family unto death.
+1,Lord Klaxur the strong, fearless defender of the faith, atheist.
+1,Ms. Radcliffe, a grey-haired librarian, demands exactitude and has a severe demeanor. But she does love to whisper secrets, and a little sweetness weans them out of her – if it's fed to her just right.
+1,The Cloak, a charismatic, dashing Robin Hood-esque figure providing hope for lower class citizens in a corrupt city with his rebellious pranks/actions against “The Man”...but he's secretly employed by the city officials to keep the poor just optimistic enough to distract them from their horrible living conditions and squalor.
+1,Although her reputation as a stoic battlefield commander is legendary, Kyrie privately cries after every battle, and prays for the souls of the vanquished.
+1,Short, older by some dozen years and bored he was none the less in charge of his uniformly young, tall and well equipped companions.
+1,Patience in the shadow of a chimney was a virtue he had perfected by pondering whether he had sneaked or if he had slunk?
+1,Convoluted sentences came on like a swarm of rats from the man on his knees with hands raised in supplication and alternating eyes appraising his tormentor.
+1,“I'll show you mild mannered,” said Fontelroy as he gently placed his teacup back in its saucer.
+1,The nervous and scarred beggar who always sleeps in the middle of the market place, in broad daylight, because he knows that if he falls asleep at night the shadows are going to get him.
+1,The charming youth who poisoned his own dog to blame the crazy old neighbor.
+1,The friendly old man who still travels the world looking for the girl he loved in his youth, almost having convinced himself that she is still alive - even though he killed her with his own hands.
+1,The young maiden who arranges for herself to be kidnapped, hoping that the boy she secretly admires will come to save her.
+1,Rath is a large, tall but quiet human mercenary who often uses smoking as an excuse to stand outside or away from the crowd.
+1,Princess Naro of Ix is a beautiful, glassy-eyed and inscrutable girl from a royal family who is willing to go along with anybody and do anything while leaving everybody confused as to what she wants and who she really cares about.
+1,A magnanimous farmer tries desperately to poison the local nobility.
+1,An undying amnesiac seeking to die a final death.
+1,Estilus the Wayfarer has seen everywhere in his 90+ years, and loves telling stories to children in the local inn, but senility has robbed this epic hero of his mighty abilities, only lifting momentarily when children are endangered.
+1,Shawna, the curvaceous, caring mother, harbors the secret shame, and desire for forgiveness, of cannibalizing one of her children many winters ago.
+1,A flirtatious, gorgeous con-artist, known for a knowledge of reptiles of all sorts.
+1,A short, melancholy soldier, who fears silence.
+1,A boisterous man, with very little tact or grace, paid silent killer.
+1,A peaceful artist whose preferred medium is the blood and organs of his victims.
+1,A comfortable but lanky sailor, in search of travel and adventure.
+
+;random
+1,Indigo, a minoan bull-riding assassin, reborn into modern college life.
+1,Obese chimney sweep is too stubborn to lose weight or change occupations and demands large quantities of lube
+1,Stuttering strumpet speaks strikingly smoothe in sac (her tongue is really loose in bed bahahahahaha).
+1,Brave, boy bodyguard bolts when battling beetles.
+1,A man, a plan, a canal: water elemental.
+1,Elvish superspy poses as simple Bard, must suppress his inner-badass to complete missions.
+1,Religious wizard who struggles to reconcile creation theory with magical transformations.
+1,Halfling cleric of trickster god cursed to be a skeleton tries to invent new, undead practical jokes.
+1,Mad scientist who happens to be one of the nicest graders in the entire University.
+1,College student who refuses to grow up continually fails just enough classes to remain in school tutors younger students via the Power of Rock.
+1,Comparative Religion professor who happens to possess the talking sword of Joan of Arc bestows it on the worthy.
+1,Super-intelligent ape struggles to gain acceptance in the Galaxy Police Force.
+1,Gelatinous Bob, the only known ooze who can communicate, might be able to help with your problem... if he decides you aren't tasty first.
+1,Stoney “The Mammalian Stallion” Barbacoa floats like a Beholder and strings like a Stirge.
+1,Surly golem that runs on alcohol instead of fuel takes on prohibition in 1920's America.
+1,Goblin with inferiority complex looking for love in all the wrong places.
+1,Evil overlord fashionista who only got into the job for the great outfits, but must now play the part.
+1,A juvenile, bronze dragon who is convinced that he has contracted lycanthropy from a were-rabbit when he was younger, and whenever he is startled, scared, or anxious, he 'polymorphs' himself into a small, brown rabbit with glowing, red eyes and a habit of biting people, but he refuses to believe that he is responsible for his own transformations, and is otherwise completely healthy.
+1,Blooey Cadaverous, a social high class zombie innkeeper sporting a monocle and a cane welcomes turists/adventurers by day and eats their brains by night with a silver spoon while they are asleep and rates them as if they were wine.
+1,A blood-thirsty chaotic barbarian that is doomed to be part of a pacifist party, behaving himself until he can take out the bomb on his back and kill everyone in the party as fast as possible.
+1,Stan is a sexy but mortal ladies man who woos and weds a succubus, only to be stuck with an overprotective Marilith for his mother in law.
+1,Willis The Bruce is bent on helping a young boy haunted by ghosts- until Willis discovers that he himself has been dead the whole time.
+1,Flirtatious barmaid Lena's decolletage and short skirt do nothing to dispel her reputation for promiscuity, though she is secretly saving herself for a Prince Charming
+1,A ruthless and wanton vampire has O-negative blood and must be very selective about his victims.
+1,“Three things I can't stand in this world: the avaricious, the greedy and ... Ooh, shiny!”
+1,Chatty fellow with an addiction to a local narcotic works as a mime.
+1,Bryce Washington is a tall, broad, and extremely strong ex-slave cowhand who's deadly with a Winchester and has a mean temper if you cross him.
+1,Hyper, unnaturally short person has the curious hobby of building huge, intricate wooden models.
+1,Brutal, skilled soldier breaks into inconsolable sobbing when insulted.
+1,Morbidly obese servant lectures his master constantly on good eating habits.
+1,A art collector(paintings, sculptures etc) who collects/buys them for destruction, believing art to be evil.
+1,A charismatic conman who's family was bankrupted by another con(let say mom suicided, dad died of alcohol, etc), strives to find all such tricksters, and play their own game against them but with deadly results for the loser.
+1,Guard who secretly(from public AND victim) arranges himself to be bribed, and then occasionally tells on the person who bribed him, earning promotions and a positive reputation while getting rich.
+1,A selfish, filthy soap maker, prejudiced against bathing.
+1,An icy-eyed and conventional organist, who openly displays a great dislike for the opposite sex.
+1,A massive yet thoughtful water seller, who is profoundly ignorant about the pursuit of power.
+1,A choleric, skinny saddler, who has nightmares about traveling.
+1,A pleasant and colorful mason, with a great dislike for change.
+1,An adorable, reliable poulterer, who fights a predilection for an intoxicating weed.
+1,A zealous and burly ascetic, who advertises a prejudice against solitude.
+1,A slave, fancy yet courageous, in search of fine clothes.
+1,A healer, stubborn yet strong, who lives in dread of death.
+1,A cutpurse, mature but gigantic, cursed with a great dislike for gluttony.
+1,A caustic and sparkling bellmaker, who hates the gods.
+1,A paperer, both bewildered and dull, intrigued by both the pursuit of knowledge and by local gossip. 
+1,A homeless yet hearty potter, driven by fine clothes and by bathing
+1,A glassblower, attractive but careless, who is an expert in the opposite sex 
+1,A vagabond, both carefree and colorful, who lives in dread of self defeat.
+1,An unsightly and illiterate knight, who specializes in strangers.
+1,An angry, distinct hayward, expert in foreign cities.
+1,A funny and colorful innkeeper, with a great dislike for urban areas.
+1,A knight, both gentle and elderly, driven by the fear of crowded spaces.
+1,A druid, both fair and attractive, who knows much about both the rich and about people of a higher class.
+1,A cleric, both coy and corpulent, who conceals a financial interest in a neighboring oulterer.
+1,An architect, both narrow-minded and storm-browed, prone to a predisposition for falling from great heights.
+1,A fearless yet hardy mail-maker, who has nightmares about the local cutpurse.
+1,A caustic and scarred herald, prejudiced against both solitude and against physical discomfort.
+1,A shiny and wandering thief catcher, displaying a prejudice against the nobility.
+1,A calm, filthy miner, evincing a penchant for the pursuit of wealth.
+1,A cowardly, intelligent, tortured herbivore who has befriended a carnivorous warrior.
+1,Zold is the perfect Innkeeper, friendly and attentive, despite the fact that he once ruled the kingdom as the most heinous despot in a thousand years.
+1,A blind martial artist obsessed with training and a fear of weakness.
+1,An ordinary college student majoring in medieval studies pulled into a fantasy world to destroy it.A forgetful singing shop keeper with bad debts & forgotten about deals
+1,Who the hell farted, it must be that ogre that had elf for dinner again 
+1,Clever dog cute with its ears in the air that will rule the world someday
+
+
+;modernscifi
+1,A rough and battered junkyard salvage tinkerer who can fix anything and collects Imperial Fabergé Easter eggs.
+1,Dani's rejection of corporeality seems absolute to those who only interact digitally with its amorphous purple icon, but designing wholly organic bodies is its greatest pleasure, and pays for its processor cycles.
+1,Short and stout, Greglan only truly comes to life when flying acrobatically about the engine room of the capital ship Samarkand, maintaining her fusion drive in a graceful zero-G dance.
+1,Youngest of twelve identical clones, each of whom grew into the same slender physique knowing of eachothers' existence, but never meeting them, Jame chose the violin in an attempt to stand apart, as did her eleven sisters before her.
+1,A sleeper agent for a foreign power has settled into his cover's life so well he has lost all memory of what he is really there for.
+1,Zephrani is a flirty scoundrel with low wisdom who travels through the galaxy by stowing away on ships, then using either her charms or her sharpshooting skills to persuade the ship's crew to let her go, unless she feels like joining them...
+1,Tommie Jenkins is a Webley-toting, Harley-riding Yorkish immigrant with a taste for gin and a weakness for women, who'll risk his life to save a child.
+1,An amoral, manipulative, and paranoid computer genius who is desperate for the PCs to rescue her kidnapped mate.
+1,A lazy, funloving, and drug-popping starship captain who would do anything asked of her by one of her crewmembers.
+1,Double agent infiltrates both the Empire and the Rebellion to try to free his home planet from overarching galaxy-spanning governments.
+1,Suzette, a Statuesque brunette with a taste for Turkish coffee, makes her living appraising “Very Warm” merchandise for her friends, at a small cost. 
+1,A undersized male bodyguard, decked in jeans and a leather jacket, enjoys juggling very large knives.
+1,Computer hacker extraordinaire, blind since birth, takes her time surfing and scouting out the latest scam to fuel her love of cars she can never drive.
+1,Peter, a stereotypical looking college jock, prefers to spend his time in the library pursuing a degree in comparative philosophies.
+1,Underground homeless man, former cop on the lam, is a source of prime information on the local wharves and docks.
+1,Sticking of sour cottage cheese and milk left spilt in clothing too long, the long haired madman lurched out of the darkness muttering mathematical formulas.
+
+

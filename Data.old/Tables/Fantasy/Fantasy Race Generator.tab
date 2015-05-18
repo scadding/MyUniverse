@@ -1,0 +1,202 @@
+
+;Start
+1,This culture is made up of [race], they are known for their [hair] hair and [beards] beards.  They are known [trait1], they are usually considered [intelligence] and in battle they are known to[battleskills], their favored tactic is [favoredtactic].  They are organized into [governmentstyle] lead by a [leader] who takes his place by [electionstyle].  The race worships [religion1], they make [religion2] to their god(s).  They are known to possess[howmuchmagic].
+
+;race
+1, Dwarfs
+1, Orcs
+1, Gnomes
+1, Demons
+1, Goblins
+1, Trolls
+1, Beastmen
+1, Houndmen
+1, Half-Orcs
+1, Elfs
+1, Catmen
+1, Owlmen
+1, Frostlings
+1, Human Mutants
+1, Dwarven Mutants
+1, Mixed Race Exiles
+1, Ogres
+1, Hobgoblins
+1, Hoborks
+1, Sareenoids
+1, Snotlings
+1, Fairymen
+1, Gremlin
+1, Imps
+
+;hair
+1, long, black
+1, long, brown
+1, long, golden
+1, long, red
+1, long, white
+1, long, gray
+1, short, black
+1, short, brown
+1, short, golden
+1, short, red
+1, short, orange
+1, short, white
+1, short, gray
+1, bald 
+1, 
+1, 
+
+;beards
+1, large, bushy
+1, short
+1, miniscule
+1, having goatees instead of
+1, having no
+1, nonexistent
+1, having mustaches in stead of
+1, long
+1, long, braided
+1, short, well trimmed
+1, long, well trimmed
+
+
+;trait1
+1, for their generosity
+1, for their acceptance
+1, for their stubbornness
+1, for their bravery
+1, for their unwillingness to yield
+1, for their fiery tempers
+1, for their feistyness
+
+
+;intelligence
+1, stupid
+1, complete idiots
+1, genius
+1, to have specialized intelligence
+1, idiots
+1, to have minds that are practically non-existent
+1, to have average intelligence
+1, to have above average intelligence
+1, bright minds
+1, to be dumb as a box of rocks
+1, great tactical minds
+
+;battleskills
+1, be cowardly
+1, be brave
+1, be berserk
+1, linger around
+1, withdraw at the slightest problem
+1, be unorganized and undisciplined
+1, disciplined
+1, mutinous 
+1, rebellious
+1, untrustful of officers
+1, attack at the right moment
+1, unreliable
+1, ready to attack at any time
+1, wary of their surroundings
+1, prepared to die
+
+;favoredtactic
+1, a head-on charge
+1, a slow artillery supported advance
+1, a barrage of artillery and arrows than a quick lighting cavalry attack
+1, an archery battle
+1, an ambush
+1, destruction by magic
+1, a direct pike advance
+1, series of small, eroding cavalry charges
+1, a shieldwall advance
+1, destruction by plague
+1, hit-and-run assaults
+1, sieges
+1, blitzkriegs
+
+;governmentstyle
+
+1, tribes
+1, clans
+1, small duchys
+1, feudal realms
+1, kingdoms
+1, republics
+1, bands
+1, warbands
+1, armed groups
+1, towns
+1, city-states
+1, empires
+
+;leader
+
+1, shaman
+1, warleader
+1, great scholar
+1, philosopher
+1, king
+1, religious leader
+1, council
+1, diviner
+
+;electionstyle
+
+1, killing his predecessors
+1, being elected
+1, inheritance
+1, being chosen by his predecessor
+
+;religion1
+1, a fire god
+1, a pantheon of gods
+1, a set of 12 gods and a holy spirit
+1, a earth god
+1, a set of spirits
+1, the death god
+1, the chaos god(s)
+1, the pestilence gods
+1, celtic-style gods
+1, Order Gods
+1, no gods in particular
+1, only local gods
+1, the gods of war
+
+;religion2
+1, daily sacrifices
+1, offerings of food on mondays
+1, offerings of food on tuesdays
+1, offerings of food on wednesdays
+1, offerings of food on fridaysea
+1, offerings of food on saturdays
+1, offerings of food on sundays
+1, offerings of food on thursdays
+1, weekly sacrifices
+1, sacrificial ceremonys annually
+1, sacrificial massacres
+1, offerings of pain
+1, prayers
+1, offerings of weapons
+1, chants of empowerment daily
+
+;howmuchmagic
+1, [magic1]
+3, [magic2] [magic3] and [magic3]
+
+;magic1
+1,no magic.
+
+;magic2
+1, magic including
+
+;magic3
+1, sorcery
+1, prayer magic
+1, elemental magic
+1, clerical magic
+1, battle magic
+1, wild magic
+
+
+

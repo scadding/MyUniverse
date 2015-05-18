@@ -1,0 +1,843 @@
+
+;Start
+1,=== hornedanimal ===<br>
+_[hornedanimal]<br>
+_<br>
+_=== hoovedanimal ===<br>
+_[hoovedanimal]<br>
+_<br>
+_=== symbolicanimal ===<br>
+_[symbolicanimal]<br>
+_<br>
+_=== Weirdsymbol ===<br>
+_[Weirdsymbol]<br>
+_<br>
+_==== fantasyFeathered ====<br>
+_[fantasyFeathered]<br>
+_<br>
+_==== fantasyFurred ====<br>
+_[fantasyFurred]<br>
+_<br>
+_==== fantasyScaled ====<br>
+_[fantasyScaled]<br>
+_<br>
+_==== fantasyHide ====<br>
+_[fantasyHide]<br>
+_<br>
+_==== fantasyLand ====<br>
+_[fantasyLand]<br>
+_<br>
+_==== fantasyAquatic ====<br>
+_[fantasyAquatic]<br>
+_<br>
+_==== fantasyHumanoid ====<br>
+_[fantasyHumanoid]<br>
+_<br>
+_==== fantasyCreature ====<br>
+_[fantasyCreature]<br>
+_<br>
+_==== fantasyAll ====<br>
+_[fantasyAll]<br>
+_<br>
+_=== Other examples: ===<br>
+_A chimera: A <sgdisplay iterations = "1">[hornedanimal]-horned [hoovedanimal]-hooved [symbolicanimal]</sgdisplay><br>
+
+
+;hornedanimal
+2,boar
+2,bull
+2,ram
+2,goat
+1,elephant
+1,rhino
+1,yak
+1,dikdik
+1,narwhal
+1,cachalot whale
+1,hippopotamus
+1,hornbill
+1,mammoth
+1,unicorn
+1,walrus
+1,deer
+1,giraffe
+2,antelope
+1,gazelle
+1,elk
+
+;hoovedanimal
+2,horse
+2,goat
+1,pig
+1,cow
+1,bull
+1,kudu
+2,deer
+1,antelope
+1,gazelle
+1,sheep
+1,elk
+1,moose
+1,boar
+1,giraffe
+
+;symbolicanimal
+3,lion
+3,wolf
+3,eagle
+3,hawk
+3,serpent
+3,crow
+3,bull
+1,hound
+1,vulture
+1,whale
+1,bat
+1,monkey
+1,rat
+1,ferret
+1,shark
+1,falcon
+1,turtle
+1,horse
+1,tiger
+1,panther
+1,gull
+1,hare
+1,elephant
+1,boar
+1,hyena
+1,gorilla
+1,hawk
+1,vulture
+1,elephant
+1,yak
+
+;Weirdsymbol
+1,chameleon
+1,narwhal
+1,anteater
+1,antelope or gazelle
+1,armadillo
+1,baboon
+1,badger
+1,wolverine
+1,insect
+1,polar bear
+1,hog
+1,rhinoceros
+1,hippo
+1,polar bear
+1,shark
+1,python
+1,boa constrictor
+1,moth
+1,manta ray
+1,maggot
+1,cat
+1,chameleon
+1,cheetah
+1,chimpanzee
+1,mantis
+1,jackal
+1,crab
+1,crane
+1,swan
+1,cocodile
+1,crow
+1,stag
+1,dog
+1,beetle
+1,firefly
+1,lobster
+1,elk
+1,fish
+1,leech
+1,weasel
+1,snail
+1,fox
+1,toad
+1,frog
+1,scorpion
+1,hammerhead shark
+1,goat
+1,lemur
+1,octopus
+1,squid
+1,centipede
+1,iguana
+1,frilled lizard
+1,tamarind
+1,monitor lizard
+1,jaguar
+1,leopard
+1,lizard
+1,pterodactyl
+1,tyrranosaurus
+1,triceratops
+1,brontosaurus
+1,plesiosaur
+1,megaraptor
+1,lynx
+1,mole
+1,mouse
+1,orangutan
+1,bird of paradise
+1,owl
+1,panda
+1,parrot
+1,peacock
+1,spider
+1,fly
+1,pig
+1,porcupine
+1,hedhog
+1,rabbit
+1,raccoon
+1,rat
+1,swordfish
+1,salamander
+1,sabre-toothed tiger
+1,skunk
+1,sloth
+1,cobra
+1,rattlesnake
+1,mastodon
+1,swan
+1,slug
+1,amoeba
+1,butterfly
+1,zebra
+1,lion
+1,wolf
+1,eagle
+1,hawk
+1,serpent
+1,crow
+1,bull
+1,hound
+1,whale
+1,bat
+1,monkey
+1,rat
+1,ferret
+1,shark
+1,falcon
+1,turtle
+1,horse
+1,tiger
+1,panther
+1,gull
+1,hare
+1,elephant
+1,boar
+1,hyena
+1,gorilla
+1,hawk
+1,vulture
+1,elephant
+1,yak
+
+;fantasyFeathered
+3,[fantasyCommonFeathers]
+1,[fantasyExoticFeathers]
+
+;fantasyCommonFeathers
+2,eagle
+1,hawk
+1,owl
+5,peacock
+2,pheasant
+2,quail
+2,raven
+2,swan
+2,rooster
+1,duck
+1,goose
+
+;fantasyExoticFeathers
+2,achaierai
+1,astral deva
+1,planetar
+1,solar
+1,trumpet archon
+5,arrowhawk
+1,avoral
+2,couatl
+15,giant eagle
+10,giant owl
+10,griffon
+1,harpy
+10,hippogriff
+1,lammasu
+1,lillend
+10,owlbear
+5,pegasus
+2,phoenix
+10,roc
+2,sphinx
+1,vrock
+
+;fantasyFurred
+3,[fantasyCommonFurred]
+1,[fantasyExoticFurred]
+
+;fantasyCommonFurred
+1,ape
+1,baboon
+1,badger
+5,bison
+5,brown bear
+5,black bear
+3,polar bear
+3,beaver
+3,boar
+1,camel
+1,cat
+3,cheetah/leopard
+1,dog
+1,donkey
+1,ermine/mink
+1,fox
+1,heyna
+1,horse
+3,lion
+1,mule
+1,rabbit
+1,raccoon
+1,rat
+1,seal/sea lion
+1,sheep
+3,tiger
+1,weasel
+3,wolf
+1,wolverine
+1,worg
+
+;fantasyExoticFurred
+1,barghest
+3,blink dog
+5,displacer beast
+1,dragonne
+3,girallon
+1,griffon
+1,hell hound
+1,hippogriff
+3,krenshar
+1,manticore
+1,nightmare
+1,pegasus
+1,rakshasa
+3,shadow mastiff
+1,unicorn
+5,winter wolf
+3,yeth hound
+
+;fantasyScaled
+1,basilisk
+1,behir
+1,black dragon
+1,blue dragon
+1,brass dragon
+1,bronze dragon
+1,bulette
+1,chimera
+1,chuul
+1,constrictor snake
+1,copper dragon
+1,crocodile
+1,cryohydra
+1,dragon turtle
+1,gold dragon
+1,gorgon
+1,green dragon
+1,grick
+1,hydra
+1,lillend
+1,lizard
+1,lizardfolk
+1,merfolk
+1,naga
+1,psudodragon
+1,pyrohydra
+1,red dragon
+1,salamander
+1,shocker lizard
+1,silver dragon
+1,viper snake
+1,white dragon
+1,wyvern
+
+;fantasyHide
+3,[fantasyCommonHide]
+1,[fantasyExoticHide]
+
+;fantasyCommonHide
+8,aligator/crocodile
+3,ape
+2,bat
+7,bison
+7,boar
+2,camel
+11,cow/ox
+8,deer
+5,elephant
+5,horse
+5,lizard
+6,pig
+5,rhinoceros
+2,seal/sea lion
+5,shark
+6,sheep
+8,snake
+
+;fantasyExoticHide
+6,basilisk
+5,behir
+3,bulette
+7,chimera
+20,dinosaur
+15,dragon
+5,dragonne
+7,hydra
+5,naga
+3,purple worm
+3,ravid
+3,remorhaz
+3,shocker lizard
+
+;fantasyLand
+1,ape
+1,baboon
+1,badger
+1,bat
+1,black bear
+1,brown bear
+1,polar bear
+1,bison
+1,boar
+1,camel
+1,cat
+1,cheetah
+1,constrictor snake
+1,giant constrictor snake
+1,crocodile
+1,giant crocodile
+1,deinonychus
+1,elasmosaurus
+1,megaraptor
+1,triceratops
+1,tyrannosaurus
+1,dire ape
+1,dire badger
+1,dire bat
+1,dire bear
+1,dire boar
+1,dire lion
+1,dire rat
+1,dire shark
+1,dire tiger
+1,dire weasel
+1,dire wolf
+1,dire wolverine
+1,dog
+1,riding dog
+1,donkey
+1,eagle
+1,elephant
+1,hawk
+1,heavy horse
+1,light horse
+1,hyena
+1,leopard
+1,lion
+1,lizard
+1,monitor lizard
+1,monkey
+1,mule
+1,owl
+1,pony
+1,war pony
+1,rat
+1,raven
+1,rhinoceros
+1,roc
+1,huge viper snake
+1,large viper snake
+1,medium viper snake
+1,small viper snake
+1,tiny viper snake
+1,tiger
+1,toad
+1,heavy warhorse
+1,light warhorse
+1,weasel
+1,wolf
+1,wolverine
+
+;fantasyAquatic
+1,baleen whale
+1,cachalot whale
+1,manta ray
+1,octopus
+1,giant octopus
+1,orca
+1,huge shark
+1,large shark
+1,medium shark
+1,porpoise
+1,squid
+1,giant squid
+1,electric eel
+1,pufferfish
+
+;fantasyHumanoid
+50,[plainHumanoid]
+1,[humanoidTemplate] [plainHumanoid]
+
+;plainHumanoid
+1,bugbear
+1,deep dwarf
+1,duergar dwarf
+1,hill dwarf
+1,mountain dwarf
+1,aquatic elf
+1,drow elf
+1,gray elf
+1,half-elf elf
+1,high elf
+1,wild elf
+1,wood elf
+1,gnoll
+1,forest gnome
+1,rock gnome
+1,svirfneblin gnome
+1,goblin
+1,deep halfling
+1,lightfoot halfling
+1,tallfellow halfling
+1,hobgoblin
+1,kobold
+1,lizardfolk
+1,locathah
+1,merfolk
+1,ogrillion
+1,orog
+1,orc
+1,half-orc
+1,troglodyte
+
+;humanoidTemplate
+1,lycanthropic (werewolf)
+1,lycanthropic (werebear)
+1,lycanthropic (wereboar)
+1,lycanthropic (dire wereboar)
+1,lycanthropic (wererat)
+1,lycanthropic (weretiger)
+1,vampiric
+1,skeletal
+1,zombie
+1,celestial
+1,fiendish
+1,half-celestial
+1,half-fiend
+1,half-dragon
+
+;fantasyTemplate
+1,skeletal
+1,zombie
+1,celestial
+1,fiendish
+1,half-celestial
+1,half-fiend
+1,half-dragon
+
+;fantasyCreature
+50,[plainFantasyCreature]
+1,[fantasyTemplate] [plainFantasyCreature]
+
+;plainFantasyCreature
+1,aboleth
+1,aboleth mage
+1,achaierai
+1,air elemental
+1,allip
+1,astral deva
+1,planetar
+1,solar
+1,ankheg
+1,aranea
+1,hound archon
+1,hound hero archon
+1,lantern archon
+1,trumpet archon
+1,adult arrowhawk
+1,elder arrowhawk
+1,juvenile arrowhawk
+1,assassin vine
+1,athach
+1,avoral
+1,azer
+1,barghest
+1,greater barghest
+1,basilisk
+1,greater abyssal basilisk
+1,behir
+1,belker
+1,black dragon
+1,blink dog
+1,blue dragon
+1,bodak
+1,bralani
+1,brass dragon
+1,bronze dragon
+1,bulette
+1,centaur
+1,chaos beast
+1,chimera
+1,choker
+1,chuul
+1,cloaker
+1,cockatrice
+1,copper dragon
+1,couatl
+1,cryohydra
+1,darkmantle
+1,delver
+1,babau demon
+1,balor demon
+1,bebilith demon
+1,dretch demon
+1,glabrezu demon
+1,hezrou demon
+1,marilith demon
+1,nalfeshnee demon
+1,quasit demon
+1,retriever demon
+1,succubus demon
+1,vrock demon
+1,derro
+1,destrachan
+1,barbed (hamatula) devil
+1,bearded (barbazu) devil
+1,bone (osyluth) devil
+1,chain (kyton) devil
+1,erinyes devil
+1,hellcat (bezekira) devil
+1,horned (cornugon) devil
+1,ice (gelugon) devil
+1,imp devil
+1,lemure devil
+1,pit fiend devil
+1,devourer
+1,digester
+1,doppelganger
+1,dragon turtle
+1,dragonne
+1,drider
+1,dryad
+1,earth elemental
+1,elephant
+1,ethereal filcher
+1,ethereal marauder
+1,ettercap
+1,ettin
+1,fire elemental
+1,formian myrmarch
+1,formian queen
+1,formian taskmaster
+1,formian warrior
+1,formian worker
+1,frost worm
+1,shrieker fungus
+1,violet fungus
+1,gargoyle
+1,kapoacinth gargoyle
+1,djinni
+1,efreeti
+1,janni
+1,noble djinn
+1,ghaele
+1,ghoul
+1,ghast
+1,lacedon ghoul
+1,queen giant ant
+1,soldier giant ant
+1,worker giant ant
+1,giant bee
+1,giant bombardier beetle
+1,giant fire beetle
+1,giant praying manits
+1,giant stag beetle
+1,giant wasp
+1,cloud giant
+1,fire giant
+1,frost giant
+1,frost jarl giant
+1,hill giant
+1,stone giant
+1,stone giant elder
+1,storm giant
+1,gibbering mouther
+1,girallon
+1,gold dragon
+1,clay golem
+1,flesh golem
+1,greater stone golem
+1,iron golem
+1,stone golem
+1,gorgon
+1,gray render
+1,green dragon
+1,grick
+1,griffon
+1,grimlock
+1,annis hag
+1,green hag
+1,sea hag
+1,harpy
+1,harpy archer
+1,hell hound
+1,nessian warhound
+1,hippogriff
+1,homunculus
+1,howler
+1,hydra
+1,kolyarut inevitable
+1,marut inevitable
+1,zelekhut inevitable
+1,invisible stalker
+1,kobold
+1,kraken
+1,krenshar
+1,lamia
+1,lammasu
+1,golden protector lammasu
+1,leonal
+1,lillend
+1,magmin
+1,manta ray
+1,manticore
+1,medusa
+1,air mephit
+1,dust mephit
+1,earth mephit
+1,fire mephit
+1,ice mephit
+1,magma mephit
+1,ooze mephit
+1,salt mephit
+1,steam mephit
+1,water mephit
+1,mimic
+1,minotaur
+1,mohrg
+1,monstrous centipede
+1,monstrous scorpion
+1,monstrous spider
+1,mummy
+1,mummy lord
+1,dark naga
+1,guardian naga
+1,spirit naga
+1,water naga
+1,night hag
+1,nightmare
+1,cauchemar nightmare
+1,nightcrawler
+1,nightwalker
+1,nightwing
+1,nymph
+1,ogre
+1,ogre barbarian
+1,ogre mage
+1,merrow ogre
+1,black pudding
+1,elder black pudding
+1,gelatinous cube
+1,gray ooze
+1,ochre jelly
+1,orca
+1,otyugh
+1,giant owl
+1,owlbear
+1,pegasus
+1,phantom fungus
+1,phase spider
+1,phasm
+1,aasimar
+1,tiefling
+1,pseudodragon
+1,purple worm
+1,pyrohydra
+1,rakshasa
+1,rast
+1,ravid
+1,red dragon
+1,remorhaz
+1,roc
+1,roper
+1,rust monster
+1,sahuagin
+1,salamander
+1,flamebrother salamander
+1,noble salamander
+1,satyr
+1,sea cat
+1,shadow
+1,shadow mastiff
+1,greater shadow
+1,shambling mound
+1,shield guardian
+1,shocker lizard
+1,silver dragon
+1,skum
+1,spectre
+1,androsphinx
+1,criosphinx
+1,gynosphinx
+1,hieracosphinx
+1,spider eater
+1,grig
+1,nixie
+1,pixie
+1,stirge
+1,tarrasque
+1,tendriculos
+1,thoqqua
+1,titan
+1,adult tojanida
+1,elder tojanida
+1,juvenile tojanida
+1,treant
+1,triton
+1,troll
+1,hunter troll
+1,scrag troll
+1,unicorn
+1,celestial charger
+1,vampire spawn
+1,vargouille
+1,water elemental
+1,white dragon
+1,wight
+1,will-o'-wisp
+1,winter wolf
+1,worg
+1,wraith
+1,dread wraith
+1,wyvern
+1,xill
+1,xorn
+1,elder xorn
+1,minor xorn
+1,yeth hound
+1,yrthak
+
+;fantasyAll
+1,[fantasyHumanoid]
+1,[fantasyLand]
+1,[fantasyAquatic]
+1,[fantasyCreature]
+
+

@@ -1,0 +1,20 @@
+
+;Start
+1,[status_change]
+
+;status_change
+1,[change] [who] status, [rate]
+
+;change
+1,Lower
+1,Raise
+
+;rate
+1, suddenly
+1, gradually
+
+;who
+1, your
+1, their
+
+

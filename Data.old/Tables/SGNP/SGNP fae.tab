@@ -1,0 +1,139 @@
+
+;Start
+1,[male] (male)
+1,[female] (female)
+
+;male
+1,[MALE FIRST SYLLABLE]-[MID SYLLABLE]-[FINAL SYLLABLE][TITLECHANCE]
+
+;female
+1,[FEMALE FIRST SYLLABLE]-[MID SYLLABLE]-[FINAL SYLLABLE][TITLECHANCE]
+
+
+;MALE FIRST SYLLABLE
+1,Mal
+1,Grix
+1,Won
+1,Yang
+1,Van
+1,Mu
+1,Go
+1,Jal
+1,Hy
+1,Ju
+1,Ho
+1,Pa
+1,Pyr
+1,Fyr
+1,Xha
+1,Xal
+1,Rol
+1,Ry
+1,Gyl
+1,Jin
+1,Kai
+1,Dun
+1,Jai
+1,Wan
+1,Kan
+
+;FEMALE FIRST SYLLABLE
+1,Xhi
+1,Shi
+1,Ayl
+1,Uyl
+1,Fel
+1,Yll
+1,Auf
+1,Thi
+1,Sy
+1,Nyx
+1,Fa
+1,Fal
+1,Fhi
+1,Xu
+1,Su
+1,Aun
+1,Syl
+1,Mu
+1,Tu
+1,Ti
+1,Tyl
+1,Aung
+1,Aye
+1,Kyu
+1,Yong
+1,U
+1,Dai
+1,Mei
+
+;MID SYLLABLE
+1,Wren
+1,Wei
+1,Wux
+1,Lo
+1,Lei
+1,Lux
+1,Re
+1,Rei
+1,Ru
+1,Rik
+1,Tin
+1,To
+1,Tix
+1,Nut
+1,Nu
+1,Ne
+1,Nik
+1,Chu
+1,Chei
+1,Chin
+;FINAL SYLLABLE
+1,Shu
+1,Jing
+1,Ming
+1,Sing
+1,Sin
+1,Xhang
+1,Mung
+1,Xhu
+1,Jhu
+1,Mhu
+1,Um
+1,Uh
+1,In
+1,Ing
+1,Jow
+1,Xhow
+1,Sow
+1,Ho
+1,Hing
+1,Mal
+
+;TITLECHANCE
+14,
+1, [TITLES]
+
+;TITLES
+1,Who Must Be Obeyed
+1,of the Thousand Boxes
+1,of the Hundred Eyes
+1,of Whispered Lightnings
+1,of the Nine Tails
+1,Who Shall Walk in Silence
+1,of the Thirty-three Riddles
+1,of the Ninety Roars
+1,the Ever Righteous
+1,the Song of Beauty
+1,of the Eleven Running Rivers
+1,of the Terrible Laugh
+1,Who Sings in Dreams
+1,So Graceful with Terror
+1,of the Stolen Tiger Heart
+1,of the River Pearls
+1,of the Seven Defeats
+1,Who Has Risen Once More Than Fallen
+1,Master of Smoke
+1,Voice of Khans
+
+

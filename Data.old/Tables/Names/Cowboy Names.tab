@@ -1,0 +1,264 @@
+
+;Start
+1,[CowboyBeginning] [CowboyEnd]
+2,[The] [CowboyTheBeginning] [CowboyTheEnd]
+1,[Opener] [SGNP Cowboys.male]
+1,[CowboyEnd] from [Old West Places.WesternPlace]
+1,[American Indian Names.Start], a [Western Occupation.Natives] of the[Native Tribes.Start] tribe
+1,[OpenerHisp] [Mexicano.MALE] [SGNP brazilian.SURNAMES], a [Western Occupation.Mexicanos] [ToFrom] [Old West Places.MexicanPlace]
+
+;ToFrom
+1,coming to town from
+1,from
+1,headed for
+1,headed to
+1,hiding out in
+1,out of
+1,out in
+1,over in
+1,riding in from
+1,riding to
+1,settled down at
+1,stopping in from
+1,who got pushed out of
+1,who has a meager parcel out in
+1,who left his family back in
+1,who owns [Dice.1d4][Dice.1d4] acres out in
+
+;Opener
+2,
+1,Cold-Hearted
+1,Deputy
+1,Marshall
+1,Sheriff
+1,The Bandit
+1,The Black
+1,The Criminal
+1,The Infamous
+1,The Masked
+1,The Outlaw
+1,The Red
+1,The Ruthless
+
+;OpenerHisp
+5,
+1,El Bandito
+1,El Gaucho
+1,El Grande
+1,El Infamoso
+1,El Jefe
+1,El Luchador
+1,El Matador
+1,Padre
+1,Senor
+
+;The
+4,The
+1,The Ol'
+
+;CowboyBeginning
+1,"Aces"
+1,Audie
+1,Bad Leroy
+1,Big Jim
+1,Big Rick
+1,"Blondie"
+1,"Boots"
+1,Buffalo Bill
+1,"Cigar"
+1,City Slickin'
+1,Cold-Hearted
+1,Cool-Hand
+1,Dick
+1,Dirty
+1,Doc
+1,"Duke"
+1,Dusty
+1,Earl
+1,Fastdraw
+1,Gunsmoke
+1,Hammerin'
+1,Happy
+1,Hard Luck
+1,H. P.
+1,"Irish"
+1,"Itchy"
+1,Jake
+1,Joe
+1,Johnny
+1,J. R.
+1,Little
+1,Longhorn
+1,Longshot
+1,"Lucky"
+1,Mackie
+1,Nervous
+1,Pedro
+1,Pick
+1,Quickdraw
+1,Redd
+1,Rocky
+1,Rusty
+1,Sandy
+1,Short Fuse
+1,Shorty
+1,Six-Shootin'
+1,Slick
+1,Slim
+1,Smokey
+1,Smooth Hand
+1,Speedy
+1,Spitshine
+1,Stonewall
+1,Stoney
+1,"Sure-Shot"
+1,Tenderfoot
+1,T. J.
+1,"Twitchy"
+1,Two Gun
+1,Wild Bill
+1,Wyatt
+1,Yankee
+
+;CowboyEnd
+1,[SGNP brazilian.SURNAMES]
+1,Anderson
+1,Bottoms
+1,Brown
+1,Callahan
+1,Dorado
+1,Earp
+1,East
+1,Feston
+1,Gonzales
+1,Gunsmoke
+1,Gusterfsen
+1,Holliday
+1,Ivers
+1,Iverson
+1,Jackson
+1,Johnson
+1,Jones
+1,Kane
+1,King
+1,L'Amore
+1,Lewis
+1,Luke
+1,MacDonald
+1,Matches
+1,McGraw
+1,McGurk
+1,McQuaid
+1,Murphy
+1,Nails
+1,O'Grady
+1,O'Haire
+1,Pickens
+1,Pierce
+1,Pierson
+1,Pitts
+1,Peters
+1,Peterson
+1,Pockets
+1,Quaid
+1,Quimby
+1,Reynolds
+1,Rodriguez
+1,Saddles
+1,Sanchez
+1,Smith
+1,Smyth
+1,Snake Eyes
+1,Spade
+1,Stevens
+1,Stevenson
+1,Stone
+1,Tenderfoot
+1,Thomas
+1,Thompson
+1,Trails
+1,West
+1,Williams
+1,Williamson
+1,Young
+
+;CowboyTheBeginning
+1,
+1,Arizona
+1,Badlands
+1,Black
+1,Brandy
+1,Cold-Hearted
+1,Cool-Handed
+1,Drinkin'
+1,Dynomite
+1,Fightin'
+1,Gray
+1,Hard Luck
+1,Little
+1,Liver-Eatin'
+1,Lone
+1,Lonestar
+1,Longhorn
+1,Meanderin'
+1,One-Eyed
+1,Prairie
+1,Range
+1,[Old West Places.Terrains]
+1,Rawhide
+1,Red
+1,Ridin'
+1,Roamin'
+1,Smokin'
+1,Stone-Faced
+1,Stone-Hearted
+1,Tequila
+1,Texas
+1,Train
+1,Utah
+1,Whiskey
+1,Whiskey-Guzzlin'
+1,Whistlin'
+1,Wild
+1,Wyoming
+
+;CowboyTheEnd
+1,Ace
+1,Apache
+1,Badge
+2,Bandit
+2,Bandito
+1,Blackfoot
+1,Comanche
+1,Cowboy
+1,Deputy
+1,Frontiersman
+1,Gaucho
+1,Ghost
+1,Gunfighter
+2,Gunman
+1,Horseman
+1,Hunter
+1,Kid
+1,Kiowa
+1,Longhorn
+2,Outlaw
+1,Padre
+1,Patrolman
+1,Rancher
+1,Ranchhand
+2,Ranger
+1,Rider
+1,Robber
+1,Sheriff
+1,Shooter
+1,Sioux
+1,Spur
+1,Steerhand
+2,Stranger
+1,Tornado
+1,Veteran
+1,Whistler
+1,Wolf
+
+

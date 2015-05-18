@@ -1,0 +1,22 @@
+
+;Start
+1,[Catholic Saint Names.Start], [SaintHistory]<br>
+1,[Catholic Saint Names.Start] the [Secret Society Title.TitleDescriptor], [SaintHistory]<br>
+
+;SaintHistory
+1,who performed many miracles throughout his life
+1,a noted worshiper of [List of gods.Start]
+1,who was known as the [SaintRole] of [List of gods.Start]
+1,the patron saint of [Fantasy Profession.Start]s and [Fantasy Profession.Start]s
+
+;SaintRole
+1,Hammer
+1,Lamb
+1,Vessel
+1,Beloved
+1,Axe
+1,Guardian
+1,Protector
+5,[Secret Society Title.Title]
+
+

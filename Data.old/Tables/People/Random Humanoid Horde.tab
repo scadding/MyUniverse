@@ -1,0 +1,311 @@
+
+;Start
+1,Most of these [Race] are [Aspect]. They are ruled by [Organization] and [Allies]. They are headquartered in [BattlefieldType]. Most carry a [Weapon] of some kind.
+
+;Weapon
+1,sword
+1,bow
+1,crossbow
+1,net
+1,bola
+1,whip
+1,staff
+1,mace
+1,morning-star
+1,spear
+1,scythe or sickle
+1,warhammer
+1,war axe
+1,throwing axe
+1,spiked chain
+1,dagger or knife
+
+;Race
+1,goblinoids
+1,dark elves
+1,jackal-headed warriors
+1,hyena-like humanoids
+1,crow-headed creatures
+1,leopard-people
+1,goat-headed warriors
+1,lizardfolk
+1,snake-people
+1,cannibal halflings
+1,devildwarves
+1,unnatural humans
+1,ratmen
+3,[Animal.Weirdsymbol]men
+
+;Aspect
+1,Lewis Carrol-esque
+1,cloned
+1,incredibly decadent
+1,drunk
+1,drugged
+1,enslaved
+1,slavers
+1,bioengineered
+1,friendly
+1,giants
+1,extremely intelligent
+1,immobile
+1,insane
+1,organized and militarized (like Tolkien orcs)
+1,mutant or crippled
+1,worshippers of the plague gods
+1,religious
+1,sexy
+1,soulless and strange
+1,modified in some steampunkish way
+1,tiny
+2,typical warriors of their race
+1,wizards
+
+;Organization
+1,[Numbertwofive] wizards, shamen, witches, etc.
+1,a single wizard, witch, shaman, etc.
+1,[Numbertwofive] leaders with [Numberonesix] more HD than the rest
+1,a single leader with [Numberoneeight] more HD than the rest
+1,the whisperings of a bizarre idol
+1,[Leader]
+1,[Leader] schooled in the mystical arts
+1,a member of a non- or animal-intelligence species (giant ape, froghemoth, yellow mold, etc.) whose wishes are interpreted by a priest or witch
+1,a hyperintelligent member of a usually non- or animal-intelligent species
+1,a(n) [Aspect] upper caste
+1,[Numberonefour] crippled or deformed (a bloated queen, sacred paraplegiac, etc) tyrant(s)
+1,the withered and old, who are [Numberonefour] points wiser and weaker than the rest
+1,a symbiotic unimind
+1,no-one but 25% are berserk warrior-types with 2hd more than the rest and +2 damage. (These may also carry 2-handed weapons.)
+1,an surprisingly complex bureaucracy comprising a bodyguard caste as well as magic users
+
+;Numberonefour
+1,one
+1,two
+1,three
+1,four
+
+;Numbertwofive
+1,two
+1,three
+1,four
+1,five
+
+;Numberoneeight
+1,one
+1,two
+1,three
+1,four
+1,five
+1,six
+1,seven
+1,eight
+
+;Numberonesix
+1,one
+1,two
+1,three
+1,four
+1,five
+1,six
+
+;BattlefieldType
+1,a castle
+1,a cemetery
+1,a monastery
+1,a village
+1,a ship
+1,a ruin
+1,a port
+1,a prison
+1,a labyrinth
+1,a volcano
+1,a mine
+1,a necropolis
+1,a warren beneath a bridge
+1,a freakish structure resembling no human architecture
+1,a fortress
+1,a mountain fortress
+1,a city of their own
+1,a city of their own beneath the earth
+1,the steppe
+1,the tundra
+1,a forest
+1,the corpse of a colossal creature
+1,a mist-bound valley
+1,a site of an ancient battle
+1,a giant's home
+1,a strange village
+1,a river
+1,a town<br/>[Fantasy Town - Simpler.Start]
+1,a stepwell
+1,a temple
+1,a cathedral
+1,a desert
+1,a hill-strewn area
+1,a swamp
+1,a wasteland
+1,a monastery
+1,a prison
+1,a necropolis
+1,a freakish structure resembling no human architecture
+1,a mountainous area
+1,a mountain fortress
+1,ancient ruins containing:<br/>These traps:[Traps.Start], [Traps.Start], [Traps.Start]<br/>These creatures:[Weird Fantasy Monster.Start],[Weird Fantasy Monster.Start], [Weird Fantasy Monster.Start]
+1,a slum
+1,an inn<br/>[Inn and Tavern Names.Start], famous for its [FantasyMenu.Descriptor][FantasyMenu.MainMeals]
+1,the docks
+1,a laboratory
+1,a wizard's tower
+1,a fortress
+1,a legendary forest
+1,a lost city
+1,a madman's fortress
+1,a magical lake
+1,the mansion of a powerful NPC. Contains:<br/>[Fantasy Mansion Domestic Security Measures.Start][Fantasy Mansion Domestic Security Measures.Start]
+1,a military encampment
+1,the palace of the ruler or local lord
+1,a catacombs
+1,a cave complex
+1,a classic dungeon
+1,a cosmopolitan city
+1,an exotic distant land
+1,an island
+1,an alternate plane
+
+;Allies
+1,are allied to no-one
+1,are allied to no-one
+1,are allied to no-one
+1,are allied to no-one
+1,are allied to no-one
+1,are allied to no-one
+1,are mounted on [Exoticmounts]
+1,breed small attack animals (dogs, boars, lizards, etc.)
+1,use swarm bombs (jars of bees, wasps, snakes, etc.)
+1,go into battle accompanied by d4+1 monsters on chains (tentacle-panthers, iron boars, etc.)
+1,go into battle with 1-2 gigantic monsters (mammoths, trolls, etc.)
+1,their priest/witch raises dead to fight with the host as zombies when they fall
+1,are allied with a group of [Race] rumored to all be [Aspect]
+1,go into battle with d4+1 golems or steampunkish devices
+1,have a mutual-defense treaty or agreement with another distant local monster or group
+1,use strange monsters with weird attacks (basilisks, mushroom men, etc.) as shock troops
+
+;Exoticmounts
+1,rhinoceroses
+1,tigers
+1,leopards
+1,enormous hyenas
+1,panthers
+1,warwolves
+1,sabre-toothed tigers
+1,mastodons
+1,elephants
+1,huge lizards
+1,dinosaurs
+1,giant snakes
+1,centipedes
+1,strange horses
+1,mushroom men
+1,spiders
+1,giant beetles
+1,the backs of idiotic trolls
+
+;Leader
+20,[Racetwo] [Gender] [Class] [Level]
+1,a group of disturbing ravens
+1,a toad creature
+1,a gnoll
+1,a hobgoblin
+1,a lizardperson
+1,a half-orc
+1,a werejaguar
+1,a werewolf
+1,a hand centaur
+1,a demon
+1,a doppelganger
+1,a spider centaur
+1,a dryad
+1,an ettin
+1,a giant
+1,a gibbering mouther
+1,a clay golem
+1,a flesh golem
+1,an iron golem
+1,a stone golem
+1,a hag
+1,a lamia
+1,a manticore
+1,a medusa
+1,a naga
+1,a night hag
+1,an ogre
+1,a rakshasa (probably disguised)
+1,a salamander
+1,a sphinx
+1,a treant
+1,a troll
+1,a wraith
+1,a cthuloid demon
+1,a goblin
+1,a dark elf
+1,a jackal-headed warrior
+1,a hyena-like humanoid
+1,a crow-headed creature
+1,a leopardman
+1,a goat-headed warrior
+1,a lizardman
+1,a snakeman
+1,a cannibal halflings
+1,a devildwarf
+1,an unnatural humans
+1,a witch
+
+;Class
+1,cleric
+1,fighter
+1,paladin
+1,barbarian
+1,wizard
+1,thief
+1,assassin
+1,druid
+1,ranger
+1,witch
+
+;Gender
+10,male
+10,female
+1,androgynous
+
+;Racetwo
+5,a human
+2,an elven
+1,a dwarven
+1,a halfling
+1,a half-orc
+1,a half-elf
+1,[Exoticspecies]
+
+;Exoticspecies
+1,a goblinoid
+1,a dark elf
+
+;Level
+5,-Lvl 1-
+6,-Lvl 2-
+7,-Lvl 3-
+8,-Lvl 4-
+7,-Lvl 5-
+6,-Lvl 6-
+5,-Lvl 7-
+4,-Lvl 8-
+3,-Lvl 9-
+2,-Lvl 10-
+1,-Lvl 11-
+1,-Lvl 12-
+1,-Lvl 13-
+1,-Lvl 14-
+1,-Lvl 15-
+1,-Lvl 20-
+
+

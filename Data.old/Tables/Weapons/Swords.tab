@@ -1,0 +1,274 @@
+
+;Start
+1,[DaggerStart] [Weapon.MilitaryIssueChance] [HistoryChance]<br>
+4,[SwordStart] [Weapon.MilitaryIssueChance] [HistoryChance]<br>
+
+;StartNoDescription
+2,[DaggerType]
+6,[HiltedSwordType]
+2,[BasketedSwordType]
+
+;DaggerStart
+1,{{ucfirst:a}} [Quality] [DaggerType] that has a blade of [Utility.MetalWeapon] with a hilt wrapped in [SwordHiltWrapping]. [Pommel] [DecorMetal]
+
+;Quality
+5,normal
+3,rusted
+3,bloodstained
+2,finely crafted
+4,<b>magical</b>
+3,tarnished
+2,rust-flecked
+3,razor-sharp
+3,dull
+2,well-used
+1,battle-worn
+1,<b>holy</b>
+1,wicked-looking
+1,clean
+1,master-crafted
+
+;DaggerType
+10,dagger
+1,poiniard
+1,trench knife
+1,stiletto
+1,hunting knife
+1,wizard's dagger
+1,sacrificial dagger
+1,punching dagger
+1,parrying dagger
+1,katar
+1,kukri
+1,main-gauche
+
+;SwordStart
+4,{{ucfirst:a}} [Quality] [HiltedSwordType] that has a blade of [Utility.MetalWeapon] with a hilt wrapped in [SwordHiltWrapping]. [SwordBladeDecor] [SwordBladeStyle] [Pommel] [Quillions] [DecorMetal] [Scabbard]
+1,{{ucfirst:a}} [Quality] [BasketedSwordType] that has a blade of [Utility.MetalWeapon] with a hilt wrapped in [SwordHiltWrapping]. [SwordBladeDecor] [SwordBladeStyle] [Pommel] [Basket] [DecorMetal] [Scabbard]
+
+;HiltedSwordType
+50,short sword
+100,longsword
+10,falchion
+10,greatsword
+5,two-bladed sword
+2,butterfly sword
+4,khopesh
+2,sapara
+1,double scimitar
+1,gnome swordcatcher
+1,diamond blade
+1,crystalline sword
+1,elven lightblade
+2,elven thinblade
+5,mercurial longsword
+4,broad-blade shortsword
+1,gyrspike
+1,lynxpaw
+12,scimitar
+2,gladius
+2,flamberge
+3,fullblade
+2,mercurial greatsword
+1,jovar
+1,straightblade
+2,fingerblade
+4,great falchion
+2,great scimitar
+1,claymore
+
+;BasketedSwordType
+50,rapier
+20,scimitar
+20,saber
+1,elven courtblade
+2,elven lightblade
+3,elven thinblade
+9,quickblade rapier
+5,cutlass
+
+;SwordHiltWrapping
+30,[Utility.LeatherHide]
+10,[Utility.MetalDecor] wire
+5,[Utility.WoodWeapon] with [Utility.MetalDecor] rivets
+5,[Utility.LeatherHide] with [Utility.MetalDecor] wire
+2,[Utility.LeatherHide] with [Utility.MetalDecor] studs
+2,[Utility.HornIvory] with [Utility.MetalDecor] rivets
+1,[Utility.LeatherHide] <b>embedded with numerous small [Utility.GemType]s</b>
+
+;Scabbard
+5,There is no scabbard present.
+2,There is a scabbard of [Utility.LeatherHide] with [Utility.MetalDecor] accents.
+1,There is a scabbard of [Utility.LeatherHide] with [Utility.Fur] fur trim.
+2,There is a scabbard of [Utility.MetalDecor] with [Dice.1d12] [Utility.RelativeSize] [Utility.GemQuality] [Utility.GemType] stones embedded in it.
+2,There is a simple scabbard of [Utility.MetalHard].
+2,There is a scabbard of [Utility.Fur] fur with [Utility.LeatherHide] accents and [Utility.MetalDecor] trim.
+1,There is a scabbard of [Utility.MetalHard], painted with shiny [Color.dark] enamel.
+2,There is a scabbard of [Utility.WoodWeapon] wood inlaid with [Utility.HornIvory].
+1,There is a scabbard of <b>[Utility.Chitin] chitin</b> with [Utility.LeatherHide] accents and [Utility.MetalDecor] trim.
+1,There is a scabbard of beaten [Utility.MetalSoft].
+1,There is an ornate scabbard of [Utility.MetalDecor] inlaid with [Utility.Ornamental Stones].
+
+;SwordBladeDecor
+2,The blade is decorated with a flame motif.
+2,The blade is decorated with a lightning motif.
+2,The blade is decorated with etched serpents.
+2,Serpentine runes run up and down the blade.
+4,The blade is decorated with runes in [Utility.RuneLanguage] that convey the meaning <b>"[Inscriptions.Start]"</b>. <b>[RuneGlowChance]</b>
+2,The blade is decorated with knotwork.
+2,The blade is decorated with an etched depiction.
+2,The blade is painted with shiny [Color.dark] enamel.
+1,The blade has been carbonized with a flat black paint to keep it from reflecting light except along the edges.
+10,The blade is inscribed with the word(s) <b>"[Inscriptions.Start]"</b> in [Inscriptions.Language]. <b>[RuneGlowChance]</b>
+6,The blade is inscribed with the name <b>[Weapon Names.Start]</b>. <b>[RuneGlowChance]</b>
+2,The blade is dull and was probably intended only for display.
+2,The dull blade is marked with symbols associated with [Secret Society Name.Start] and was probably intended for ceremonial use by that organization.
+20,
+2,[SwordBladeDecor] [SwordBladeDecor]
+3, an ornately decorated pentacle is carved above the hilt
+
+;SwordBladeStyle
+30,
+1,The blade is of Kris style (wavy and serpentine).
+1,The blade is serrated, giving it a wicked appearance.
+1,A blood groove runs the length of the blade on each side.
+2,The blade tapers, widens, and retapers in a "leaf" shape.
+
+;Pommel
+10,A small rounded pommel provides balance.
+5,A brass cap with 6 evenly spaced studs serves as the pommel.
+2,The pommel is of "skullcrusher" shape, allowing its use as a bludgeoning weapon.
+4,The large, round pommel is stamped with [Utility.Symbols].
+5,The pommel is in the shape of [PommelShapes].
+2,The pommel contains a [Utility.RelativeSize] [Utility.GemQuality] [Utility.GemType].
+3,The pommel consists only of a lanyard ring.
+1,The pommel is in the shape of [PommelShapes] and screws off to reveal a hollow hilt. 
+1,The hilt ends in a sharp blade where a pommel would normally be.
+
+;Quillions
+1,There are straight [QuillionShape] quillions at the crossbar with a large ring protruding from one of the blade sides.
+1,There are arched quillions protruding toward the blade end.
+1,There are straight, unremarkable [QuillionShape] quillions at the crossbar.
+2,The [QuillionShape] quillions and center of the crossbar on each side contain matching [Utility.RelativeSize] [Utility.GemQuality] [Utility.GemType] stones.
+3,The [QuillionShape] quillions are unremarkable, but the crossbar is stamped with [Utility.Symbols].
+1,This sword has no quillions; the blade widens towards the base, then tapers as it passes straight into the hilt wrapping.
+1,The quillions and crossbar are engraved in a leaf motif.
+1,The [QuillionShape] quillions end in large circles, which match the crossbar circle. All are stamped with [Utility.Symbols].
+1,The quillions are shaped like eagle talons, each clutching a sphere. 
+1,One quillion arches upward, the other downward, forming an S shape.
+1,The quillions are in the shape of serpent necks and heads.
+1,The quillions are shaped like dragon wings, and the blade emerges from a stylized dragon head.
+1,Four quillions shaped like talons surround the blade.
+1,The quillions are unremarkable, but the crossbar is shaped like a scalloped seashell.
+1,The quillions and crossbar form a five-pointed star pointing down toward the hilt.
+1,The quillions and crossbar form a five-pointed star pointing towards the blade.
+1,The quillions are larger than normal and each precisely matches the main hilt and pommel.
+1,The [QuillionShape] quillions protrude about two inches on either side, then turn sharply downward for about 5 inches.
+4,The simple [QuillionShape] quillions each end in [PommelShapes], and the crossbar has an engraving of the same in a circle.
+2,The simple [QuillionShape] quillions each end in [PommelShapes], and the crossbar is stamped with [Utility.Symbols].
+2,The simple [QuillionShape] quillions each end in [PommelShapes], and the crossbar contains a [Utility.RelativeSize] [Utility.GemQuality] [Utility.GemType].
+
+;QuillionShape
+6,round
+3,square
+3,triangular
+1,hexagonal
+1,pentagonal
+1,octagonal
+1,tapered flat
+1,sharpened
+
+;Basket
+1,The basket has a leaf motif.
+1,The basket is a fine mesh.
+1,The basket is solid.
+1,The basket is solid with engravings on it.
+1,The basket is composed of thick wires stretching from the crossbar to the pommel.
+1,The basket is composed of several interweaving thick wires.
+1,The basket is fancy, being composed of numerous twisting wires that interweave and extend into the area of the blade.
+1,The basket is a short dome coming down over the grip, and does not connect to the pommel.
+1,The basket has the appearance of spiderwebs.
+1,The basket has a scalloped, clamshell appearance.
+
+;DecorMetal
+5,
+3,The decorative elements of the sword are composed of [Utility.MetalDecor].
+
+;PommelShapes
+1,the head of an Illithid, it's tentacles wrapping around the hilt[PommelEyes]
+2,the head of a Human male, its visage frozen in horror[PommelEyes]
+2,the head of a helmeted man with a determined expression[PommelEyes]
+2,the head of a wily-looking Elf[PommelEyes]
+2,the head of a gruff-looking Dwarf[PommelEyes]
+1,a Beholder head[PommelEyes]
+2,a Dragon head with its mouth agape[PommelEyes]
+3,the head of an armored knight in a crusader-style helmet (no face visible)
+2,an eyeball
+3,a hand clutching a sphere
+3,talons clutching a sphere
+3,a simple cone
+3,a smooth cylinder
+4,a horse's head[PommelEyes]
+2,an eagle's head[PommelEyes]
+2,a lion's head[PommelEyes]
+3,a cat's head[PommelEyes]
+4,a serpent's head[PommelEyes]
+1,an icosahedron (d20)
+1,a dodecahedron (d12)
+1,a crystal prism
+3,a mermaid, her tail wrapping around the hilt[PommelEyes]
+2,a nude female figurehead from the torso up[PommelEyes]
+2,a nude female figurehead from the waist down[PommelEyes]
+2,a wizard with a beard and pointy hat[PommelEyes]
+2,a ram's head[PommelEyes]
+2,a head with a strange-looking mask[PommelEyes]
+3,a dog's head[PommelEyes]
+2,a spider astride an orb
+1,a small crouching dragon[PommelEyes]
+4,a clenched fist
+3,a chess piece
+3,a perched falcon[PommelEyes]
+1,the head of a snarling orc[PommelEyes]
+4,a skull[PommelEyes]
+2,a monkey head[PommelEyes]
+1,a squatting toad[PommelEyes]
+4,a wide scalloped seashell
+2,a scorpion's stinger
+4,a stylized sun
+4,a crescent moon
+2,a five-pointed star
+1,a pineapple
+2,a bull's head
+1,a fish head
+2,a serpent's head
+3,a spike 
+
+;PommelEyes
+5,
+1,, with eyes made out of small [Utility.GemType]s
+
+;RuneGlowChance
+8,
+1,The inscription glows faintly with a [Color.hues] light.
+1,The inscription glows brightly with a [Color.hues] light.
+1,The inscription glows faintly with a [Color.hues] light when [Utility.CreatureTypes]s are nearby.
+1,The inscription glows brightly with a [Color.hues] light when [Utility.CreatureTypes]s are nearby.
+1,The inscription glows faintly with a [Color.hues] light if monsters are nearby.
+1,The inscription glows brightly with a [Color.hues] light if evil is nearby.
+
+;HistoryChance
+5,
+1,[History]
+
+;History
+1,The blade bears a small inscription stating that it was made for [Fantasy Male Military Hero.Start]
+1,The weapon matches the description of a weapon that once belonged to [Fantasy Male Military Hero.Start]
+1,The weapon was once owned by [Fantasy Male Military Hero.Start]
+1,It is clearly modeled on the descriptions of a weapon once owned by [Fantasy Male Military Hero.Start]
+1,A careful examination reveals the initials of [Fantasy Male Military Hero.Start] This weapon may once have been his.
+1,This blade was passed from father to son until it was given to [Fantasy Male Military Hero.Start] The whereabouts of this weapon had been unknown since his death.
+1,Although clearly a reproduction, it is modeled on a blade made famous by [Fantasy Male Military Hero.Start]
+1,This may well have been the legendary blade of [Fantasy Male Military Hero.Start]
+
+
+

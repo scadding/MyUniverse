@@ -1,0 +1,375 @@
+
+;Start
+2,[Gerund] the [AlchemyNoun] of [AbstractSubstance][AuthorChance]
+1,[Experiments] [AbstractSubstance][AuthorChance]
+1,[Experiments] [ArcaneSubstance][AuthorChance]
+10,[Intro] [Discipline][AuthorChance]
+
+;Intro
+1,[IntroAdj] Principles of
+1,Secrets of
+1,[IntroAdj] Foundations of
+1,[IntroAdj] Concepts of
+1,[IntroAdj] Basis of
+1,Getting Started with
+1,Learning About
+1,[IntroAdj] Research on
+1,[IntroAdj] Manual on
+1,[IntroAdj] Textbook of
+1,Inquiry into
+1,[IntroAdj] Investigations of
+1,[IntroAdj] Techniques in
+1,Recent Advances in
+1,Guide to
+1,Solving Problems with
+1,[IntroAdj] Theory of
+1,[IntroAdj]
+1,[IntroAdj] Models of
+1,[IntroAdj] Writings Concerning
+1,An Introduction to
+1,A Child's Guide to
+1,[HumorousIntro]
+
+;HumorousIntro
+1,How to Catch Fish with
+1,How to Lose Digits Fast with
+1,How to Get Chicks with
+1,How to Get Instantly Fired with
+1,How to Pad Your Resume with
+1,How to Sound Smart About
+1,Teaching Your Kids About
+1,The Dumb Goblin's Guide to
+
+;IntroAdj
+1,Basic
+1,Advanced
+1,Arcane
+1,Alchemical
+1,Secret
+1,Hidden
+1,Thaumaturgical
+1,Comprehensive
+1,Practical
+1,Applied
+1,Mystic
+1,Concise
+1,Precise
+1,Historical
+1,Ancient
+1,Rediscovered
+1,Unknown
+1,Esoteric
+1,Cryptic
+1,Unified
+1,Universal
+1,Compleat
+1,Eldritch
+1,Otherplanar
+1,Unholy
+5,
+
+;Discipline
+15,[AbstractSubstance]
+1,[DiscAdj] Mechanics
+1,Thaumaturgy
+1,Sorcery
+1,Alchemy
+1,Demonology
+1,Diabolism
+1,[DiscAdj] Hierarchy
+1,the Orders of [DiscAdj] Beings
+1,[DiscAdj] Models
+1,Construct Creation
+1,Chirurgery
+1,Astrology
+1,Astronomy
+1,[DiscAdj] Structures
+1,Occultism
+1,Cryptology
+1,Numerology
+1,Witchcraft
+1,Wizardry
+1,Anatomy
+1,Magical Crossbreeding
+1,Potionbrewing
+1,[Utility.CreatureTypes] Dissection
+1,[Utility.CreatureTypes] Sentience
+1,[Utility.CreatureTypes] Crossbreeding
+1,Alienistic Magic
+1,Spellcraft
+1,Spellcasting
+1,Summoning [Utility.CreatureTypes]s
+1,Planar Travel
+1,Chronomancy
+1,Ley Lines
+1,Binding Rituals
+3,[DiscAdj] Energies
+1,[DiscAdj] Power
+2,[DiscAdj] Symbols
+1,[DiscAdj] Runes
+1,Rune Magic
+1,Elementalism
+1,Fetish Magic
+1,Theurgy
+1,[DiscAdj] Knowledge
+5,[DivinationType]
+1, Communication with [Utility.CreatureTypes]s
+
+;DivinationType
+1,Aeromancy
+1,Alectryomancy
+1,Aleuromancy
+1,Alomancy
+1,Alphitomancy
+1,Anemoscopy
+1,Anthropomancy
+1,Apantomancy
+1,Arithmancy
+1,Astragalomancy
+1,Astrology
+1,Astromancy
+1,Austromancy
+1,Axiomancy
+1,Belomancy
+1,Bibliomancy
+1,Botanomancy
+1,Capnomancy
+1,Cartomancy
+1,Catoptromancy
+1,Causimomancy
+1,Cephalomancy
+1,Ceraunoscopy
+1,Ceromancy
+1,Chaomancy
+1,Cheiromancy
+1,Chirognomy
+1,Cleromancy
+1,Clidomancy
+1,Cometomancy
+1,Coscinomancy
+1,Critomancy
+1,Cromniomancy
+1,Crystallomancy
+1,Cyclomancy
+1,Daphnomancy
+1,Demonomancy
+1,Empyromancy
+1,Geomancy
+1,Geloscopy
+1,Graphology
+1,Gyromancy
+1,Hippomancy
+1,Hydromancy
+1,Icthyomancy
+1,Lampadomancy
+1,Lecanomancy
+1,Libanomancy
+1,Literomancy
+1,Lithomancy
+1,Metagnomy
+1,Meteormancy
+1,Metoposcopy
+1,Moleosophy
+1,Myomancy
+1,Myrmomancy
+1,Necromancy
+1,Nephomancy
+1,Numerology
+1,Oculomancy
+1,Oinomancy
+1,Omphalomancy
+1,Oneiromancy
+1,Onomancy
+1,Onychomancy
+1,Ovomancy
+1,Ophiomancy
+1,Palmistry
+1,Pegomancy
+1,Phrenology
+1,Phyllorhodomancy
+1,Plastromancy
+1,Pyromancy
+1,Rhabdomancy
+1,Rhapsodomancy
+1,Scatomancy
+1,Scapulimancy
+1,Sciomancy
+1,Sideromancy
+1,Spodomancy
+1,Stichomancy
+1,Stolisomancy
+1,Taromancy
+1,Tasseography
+1,Tephramancy
+1,Tiromancy
+1,Xylomancy 
+1,Augury
+1,Dowsing
+
+;DiscAdj
+1,Abyssal
+1,Acidic
+1,Alchemical
+1,Anarchic
+1,Ancient
+1,Aquatic
+1,Arcane
+1,Astral
+1,Astrological
+1,Astronomical
+1,Auran
+1,Axiomatic
+1,Celestial
+1,Chaotic
+1,Chromatic
+1,Chthonic
+1,Demonic
+1,Diabolic
+1,Draconic
+1,Eldritch
+1,Electric
+1,Elemental
+1,Ethereal
+1,Fiendish
+1,Fiery
+1,Fluid
+1,Gaseous
+1,Herbal
+1,Hidden
+1,Ignan
+1,Invisible
+1,Mineral
+1,Necromanic
+1,Organic
+1,Planar
+1,Pyroclastic
+1,Quasi-Elemental
+1,Secret
+1,Stygian
+1,Telluric
+1,Terran
+1,Thermal
+1,Umbral
+1,Unseen
+
+;Experiments
+1,Experiments with
+1,Research on
+1,Analysis of
+1,Uses for
+1,Magnifying [Wizard schools.Start] Spells with
+1,A Theory on the Nature of
+1,Rethinking the [AlchemyNoun] of
+
+;AlchemyNoun
+1,Basis
+1,Distillate
+1,Essence
+1,Vapor
+1,Form
+1,Foundation
+1,Nature
+1,Quintessence
+1,State
+1,Secrets
+1,Spirit
+1,Spirits
+1,Titration
+1,Uses
+10,[AlchemyAdjective] [AlchemyNoun]
+
+;AlchemyAdjective
+1,Hidden
+1,Natural
+1,Arcane
+1,Ancient
+1,Alchemical
+1,Pure
+1,Mystical
+1,Elemental
+1,Secret
+1,Unusual
+
+;Gerund
+1,Isolating
+1,Determining
+1,Divulging
+1,Extracting
+1,Purifying
+1,Distilling
+1,Uncovering
+1,Discovering
+1,Revealing
+1,Synthesizing
+1,Finding
+1,In Search of
+1,Unlocking
+1,Analyzing
+1,Examining
+1,Examining the Origins of
+1,Understanding
+9,[Experiments]
+
+;AbstractSubstance
+1,the Element of {{ucfirst:[Elements.all]}}
+1,{{ucfirst:[Wizard schools.Start]}} Magic
+
+;ArcaneSubstance
+1,[Arcane Substance.Start]
+
+;AuthorChance
+1,
+2,, by [ArcaneAuthor]
+
+;ArcaneAuthor
+1,[Fantasy Names.MaleFirstName] the [Honorific]
+1,[Fantasy Names.MaleFirstName], the [Secret Society Title.TitleDescriptor] [ArcaneProfession]
+1,[Fantasy Names.MaleFirstName], [Secret Society Title.Start]
+1,[Fantasy Names.MaleFirstName] the [ArcaneProfession]
+1,[Fantasy Names.MaleFirstName], [ArcaneProfession] [ArcaneRank]
+
+;Honorific
+1,Magnificent
+1,Powerful
+1,Great
+1,Dark
+1,White
+1,Grey
+1,Black
+1,Red
+1,Forbidden
+10,[Secret Society Title.TitleDescriptor]
+
+;ArcaneProfession
+5,Wizard
+5,Mage
+3,Sorcerer
+3,Magician
+5,Spellcaster
+5,Alchemist
+5,Arcanist
+2,Artificer
+1,Necromancer
+1,Conjurer
+2,Druid
+1,Enchanter
+1,Diviner
+1,Illusionist
+1,Transmuter
+1,Evoker
+3,Warlock
+1,Effigy master
+1,Wu Jen
+1,Spell Crafter
+
+;ArcaneRank
+1,of the Fifth Circle
+1,of the Sixth Circle
+1,of the Seventh Circle
+1,of the Eighth Circle
+1,of the Ninth Circle
+1,of the Tenth Circle
+1,of the Eleventh Circle
+1,of the Twelfth Circle
+10,of the [Secret Society Title.NounDescriptor] [Secret Society Title.Noun]
+

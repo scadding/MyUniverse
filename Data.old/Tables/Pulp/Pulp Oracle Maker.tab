@@ -1,0 +1,241 @@
+
+;Start
+4,[multicharacters]
+7,[Core Pulp Oracles]
+1,[Wuxia Oracle.Start]
+1,[beasts]
+
+;Core Pulp Oracles
+0,----Only Genre-Appropriate, Please!----
+1,[Pulp Oracle - High Adventure in Exotic Locales.Start]
+1,[Pulp Oracle - Weird Science.Start]
+1,[Pulp Oracle - I Love A Mystery.Start]
+1,[Noir Oracle - Down These Mean Streets.Start]
+
+;multicharacters
+2,The [femalerelation] of a [maleperson], [femalerelationphrase]
+2,The [malerelation] of a [maleperson], [malerelationphrase]
+1,The [femalerelation] of a [femaleperson], [femalerelationphrase]
+1,The [malerelation] of a [femaleperson], [malerelationphrase]
+2,A [maleperson], [malerelationphrase]
+2,A [femaleperson], [femalerelationphrase]
+
+;relationeither
+1,[femalerelation]
+1,[malerelation]
+
+;femalerelation
+1,daughter
+1,wife
+1,mother
+1,mistress
+1,lover
+1,sister
+1,aunt
+
+;malerelation
+1,son
+1,brother
+1,husband
+1,father
+1,uncle
+1,lover
+1,best friend
+1,chief servant
+
+;person
+1,[maleperson]
+2,[femaleperson]
+
+;maleperson
+1,[maleadj] [maleprofession]
+1,[malestockchars]
+
+;femaleperson
+1,[femaleadjcons] [femaleprofession]
+1,[femalestockchars]
+
+;maleadj
+1,vicious
+1,powerful
+1,mighty
+1,boastful
+1,proud
+1,haughty
+1,dead
+1,inventive
+1,murderous
+1,young and inexperienced
+1,famous
+1,dangerous
+1,mysterious
+1,very old
+1,cold and calculating
+1,wily and stubborn
+1,decrepit
+1,deceitful
+1,lustful
+1,monstrous
+1,cunning
+1,honey-tongued
+1,cowardly
+1,greedy
+1,prideful
+1,slovenly
+1,raving mad
+1,brave
+1,pious
+1,zealous
+1,clever
+1,rough
+1,foul-tempered
+1,lecherous
+1,suave
+
+;maleprofession
+1,entrepreneur
+1,gangleader
+1,officer
+1,mystic
+1,big game hunter
+1,psychic
+1,priest
+1,bandit
+1,assassin
+1,air-pirate
+1,general
+1,sorcerer
+1,soldier
+1,desert horseman
+1,financier
+1,newspaperman
+1,cultist
+1,factory worker
+1,farmer
+1,sailor
+1,cowboy
+1,foreigner
+1,pilot
+
+;femalerelationphrase
+1,taken prisoner by a [maleperson].
+1,secretly the power behind the throne.
+1,sworn to commit vengeance on a [maleperson].
+1,planning to run away with a [maleperson].
+1,carrying the child of a [maleperson].
+1,secretly in love with a [maleperson].
+1,and a [maleperson], secretly in love with her.
+1,desiring to seduce a [maleperson].
+1,on the trail of a [person].
+1,disguised as a [person].
+
+;malestockchars
+1,lovelorn poet
+1,struggling playwright
+1,lovestruck boy
+1,poor country boy
+1,daredevil pilot
+1,young businessman
+1,miserly banker
+1,bookish scholar
+1,lovable rogue
+1,wealthy industrialist
+1,young boy who is more than he appears
+1,battle-hardened soldier
+1,movie star
+1,band leader
+1,nosy reporter
+1,suave stage magician
+1,notorious gangster
+1,decorated war-hero
+1,returning veteran
+
+;femaleadjcons
+1,beautiful
+1,cruel
+1,cold and merciless
+1,beloved
+1,young and naive
+1,wizened old
+1,powerful
+1,raven-haired
+1,beautiful but depraved
+1,golden-haired and honey-lipped
+1,proud and noble
+1,poor but honest
+1,kindly
+1,clever
+1,willful
+
+;femaleprofession
+1,secretary
+1,Gypsy
+1,reporter
+1,foreigner
+1,nun
+1,debutante
+1,tomboy
+1,society dame
+1,dancer
+1,prostitute
+1,gold-digger
+1,homemaker
+
+;malerelationphrase
+1,secretly in love with a [femaleperson].
+1,fleeing his home to be with a [femaleperson].
+1,preparing to become a [maleperson].
+1,sworn to kill a [maleperson] in the name of honor.
+1,hoping to seduce a [femaleperson].
+1,preparing to murder a [maleperson].
+1,secretly spying on a [femaleperson].
+1,on the trail of a [person].
+
+;femalestockchars
+1,gypsy fortuneteller
+1,sultry temptress
+1,virginal innocent
+1,gun moll
+1,movie starlet
+1,femme fatale
+1,exotic beauty
+1,'girl Friday'
+1,nosy reporter
+1,brash academic
+
+;beasts
+1,A [beastadj] [beast], [beastphrase]
+
+;beastadj
+1,grotesque
+1,cunning
+1,huge
+1,proud
+1,aging
+1,fierce
+1,heartless
+
+;beast
+1,dinosaur
+1,tiger
+1,gorilla
+1,reptilian creature
+1,wolf
+1,hyena
+1,lion
+1,bear
+
+;beastphrase
+1,seeking whom he might devour.
+1,stealing livestock from local farms to feed a ravenous hunger.
+1,intending to kill a [maleperson] to avenge an old wound.
+1,the secret protector of a [person].
+1,bound to [femaleperson] by strange magicks.
+1,king of its ilk, hunted by men of every description.
+1,greviously wounded by a [maleperson].
+1,devourer of the [femalerelation] of a [maleperson].
+
+;title
+1,The [Secret Society Title.NounDescriptor] [Secret Society Title.Noun]
+
+

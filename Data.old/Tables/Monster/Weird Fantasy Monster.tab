@@ -1,0 +1,458 @@
+
+;Start
+1,[Monster]
+
+;Monster
+20,[Race] [Gender] [Class] [Level]
+1,a goblin
+1,a hobgoblin
+1,a lizardperson
+1,an orc
+1,a half-orc
+1,a werejaguar
+1,a werewolf
+1,a hand centaur
+1,a demon
+1,a doppelganger
+1,a spider centaur
+1,an ettin
+1,a giant
+1,a gibbering mouther
+1,a clay golem
+1,a flesh golem
+1,an iron golem
+1,a stone golem
+1,a goat centaur
+1,[Rider] riding a dinosaur
+1,[Rider] riding a skeletal horse
+1,a flailceratops (or other modified dinosaur)
+1,a hag
+1,a lamia
+1,a manticore
+1,a medusa
+1,a naga
+1,a night hag
+1,an ogre
+1,a salamander
+1,a sphinx
+1,a treant
+1,a wraith
+1,a cthuloid demon
+1,a dark elf
+1,a jackal-headed warrior
+1,a hyena-like humanoid
+1,a crow-headed creature
+1,a leopardman
+1,a goat-headed warrior
+1,a snakeman
+1,a babbler
+1,a wild dog
+1,a tentacled panther
+1,an ape
+1,a multi-armed ape
+1,a pack of baboons
+1,a swarm of bats
+1,a bear
+1,a constrictor snake
+1,a giant constrictor snake
+1,a crocodile
+1,a megaraptor
+1,a triceratops
+1,a tyrannosaurus
+1,a boar
+1,a pack of hyenas
+1,a panther, tiger or whatever big cat is appropriate to the region
+1,a pack of rats
+1,a group of disturbing ravens
+1,a giant viper snake
+1,a viper snake
+1,a tiger
+1,a toad creature
+1,a wolf
+1,a wolverine
+1,a troglodyte
+1,a skeleton
+1,a zombie
+1,an air elemental
+1,a basilisk
+1,a dryad
+1,an earth elemental
+1,an ettercap
+1,a fire elemental
+1,a frost worm (or purple worm)
+1,a shrieking fungus
+1,a violet fungus
+1,a gargoyle
+1,a ghoul
+1,a giant praying mantis
+1,a mimic
+1,a monstrous centipede
+1,a monstrous scorpion
+1,a monstrous spider
+1,an ooze or jelly
+1,an otyugh
+1,a purple worm
+1,a rakshasa (probably disguised)
+1,a rusting monster
+1,a shadow
+1,a grig
+1,a needlebird
+1,a troll
+1,a penangallan
+1,a water elemental
+1,a wight
+1,a will-o'-wisp
+1,a winter wolf
+1,a worg
+1,a xorn
+1,a pterodactyl
+1,an aarakocra
+1,an achaierai
+1,an adherer
+1,an aleax
+1,an algoid
+1,an al-mi'raj
+1,an apparition
+1,an assassin bug
+1,an astral searcher
+1,a giant bat
+1,a berbalang
+1,a blindheim
+1,a blood hawk
+1,a bonesnapper
+1,a booka
+1,a chameleon Man
+1,a bunyip
+1,a carbuncle
+1,a caryatid column
+1,a caterwaul
+1,a CIFAL
+1,a cifalganger
+1,a clubnek
+1,a coffer corpse
+1,a crabman
+1,a crypt thing
+1,an intelligent monkey
+1,a dark creeper
+1,a dark stalker
+1,a death dog
+1,a death knight 
+1,a denzelian
+1,a devil dog
+1,a disenchanter 
+1,a doombat
+1,an asian dragon
+1,a dragonfish
+1,a dune stalker
+1,an elemental prince of evil
+1,an enveloper
+1,an ettercap
+1,an eyekiller
+1,an eye of fear and flame
+1,a firedrake
+1,a firenewt
+1,a firesnake
+1,a firetoad
+1,a flail snail
+1,a fllnd 
+1,a flumph 
+1,a forlarren 
+1,a frost man
+1,a galltrit 
+1,a gambado 
+1,a garbug 
+1,a giant strider 
+1,a gibberling 
+1,a desert ghoul
+1,a goldbug
+1,a gorbel 
+1,a grendel
+1,a grell 
+1,a grimlock 
+1,a gryph 
+1,a guardian daemon 
+1,a guardian famlliar
+1,a hellcat 
+1,a hoar fox 
+1,a hook horror 
+1,a hornet, giant 
+1,a hound of ill omen 
+1,a huecuva
+1,an ice lizard 
+1,an imorph 
+1,an iron cobra
+1,a jaculi 
+1,a jermlaine
+1,a kamadan 
+1,a kelpie 
+1,a kenku 
+1,a khargra 
+1,a killmoulis 
+1,a fish men
+1,a lamia noble 
+1,a lava children 
+1,a lizard king
+1,a magnesium spirit 
+1,a mantari 
+1,a meazel 
+1,a meenlock 
+1,a mephit 
+1,a mezzodaemon 
+1,a mite
+1,a necrophidius 
+1,a needleman 
+1,a nilbog 
+1,a nonafel 
+1,a norker 
+1,a nycadaemon
+1,an ogrillon 
+1,an osquip
+1,a pernicon 
+1,a phantom stalker
+1,a poltergeist 
+1,a protein polymorph
+1,a quaggoth 
+1,a quipper 
+1,a qullan
+1,a retriever 
+1,a revenant 
+1,a rothe
+1,a sandman 
+1,a scarecrow 
+1,a screaming devilkin 
+1,a sheet ghoul 
+1,a sheet phantom 
+1,a shocker 
+1,a skeleton warrior 
+1,a skulk 
+1,a slaad 
+1,a snyad 
+1,a son of kyuss 
+1,a stunjelly 
+1,a sussurus
+1,a svirfneblin
+1,a symbiotic jelly
+1,a tabaxi 
+1,a tentamort 
+1,a terithran 
+1,a thoqqua 
+1,a thork 
+1,a throat leech
+1,a trilloch 
+1,a tween
+1,an umpleby 
+1,an urchin
+1,a vision 
+1,a vodyanoi 
+1,a volt 
+1,a vortex
+1,a whipweed 
+1,a witherstench 
+1,a witherweed
+1,a xill 
+1,a xvart
+1,a yellow musk creeper zombie
+1,a yellow musk
+1,an 8-eyed goat
+1,a cockatrice
+1,a crawling claw
+1,a cyclops
+1,a demilich
+1,Demogorgon
+1,a demon fly/ chasme
+1,a dragon turtle
+1,an aquatic dragon
+1,a black dragon
+1,a brass dragon
+1,a red dragon
+1,a shadow dragon
+1,a drowned woman's ghost
+1,an aquatic elf
+1,a white elf
+1,an eye of the deep
+1,a fishwife
+1,a galeb duhr
+1,a gargoyle
+1,a glassilisk
+1,a lodestone golem
+1,a tower golem
+1,a grey jester
+1,a harpy
+1,a headless king
+1,a hellhound
+1,a hollow bride
+1,a humunculus
+1,a lich
+1,a living shadow
+1,a lizard
+1,a man of wounds
+1,a man-scorpion
+1,a giant mantis
+1,an eel medusa
+1,a monstrous medusa
+1,a cannibal mermaid
+1,a minotaur
+1,a maggot naga
+1,a octopus
+1,an ooze w/ an undeal ghoul head
+1,a pirate
+1,a pseudodragon
+1,a white or yellow pudding
+1,a frost salamander
+1,a sea hag
+1,an animal skeleton
+1,a troupe of skeletons, playing a danse macabre
+1,a skrath
+1,a stag demon
+1,a sublunary man
+1,a succubus
+1,a vampire monkey
+1,a halfling vampire
+1,a vomiter
+1,a were-rat
+1,a white tiger rakshasa
+1,a wolf-demon
+1,a xorn
+1,a xortoise
+1,a monster zombie zombie
+1,a banshee
+1,a tyrant eyeball
+1,a bushbaby
+1,a paralyzing centipede/grub
+1,a cat
+1,a giant centipede
+1,a man-headed centipede
+1,a chimera
+1,a death knight
+1,an ice demon
+1,a dracolisk
+1,a blue dragon
+1,a faerie dragon
+1,a green dragon
+1,a marble dragon
+1,a white dragon
+1,a dragonnel
+1,an eye of dread
+1,a fire-breathing black king statue
+1,a firefly woman
+1,a flagellant
+1,a swarm of plague flies
+1,a foxwoman
+1,a hallucinatory fungus
+1,a gas spore
+1,a giant head w/legs and multiple tongues
+1,a frost giant
+1,a gloomwing moth
+1,a griffon
+1,a halfling
+1,a hobgoblin
+1,a hydra
+1,a Marilith
+1,a mechanism
+1,a mold
+1,[Rider] riding a snake
+1,a mushroom man
+1,a nymph
+1,a evil peacock
+1,a peryton
+1,a candelabraxian peryton
+1,a polar worm
+1,a revenant
+1,a ringwolf
+1,a scarecrow
+1,a toad demon
+1,a snow leopard
+1,a snow leopardmen
+1,a sylph
+1,a thornchild
+1,Tiamat
+1,a blue tiger
+1,a time elemental
+1,a treant, evil
+1,a unicorn  
+1,a Unicorn-Head Guy
+1,a vampire
+1,an ambphibious vampire
+1,a violet fungus
+1,a lich
+1,a boar
+1,horde little gremlins
+
+;Class
+1,cleric
+1,fighter
+1,paladin
+1,barbarian
+1,wizard
+1,thief
+1,assassin
+1,druid
+1,ranger
+1,witch
+
+;Gender
+10,male
+10,female
+1,androgynous
+
+;Race
+5,a human
+2,an elven
+1,a dwarven
+1,a halfling
+1,a half-orc
+1,a half-elf
+
+;Rider
+1,a vampire
+1,a zombie
+1,a goblinoid
+1,a dark elf
+1,a jackal-headed warrior
+1,a hyena-like humanoid
+1,a crow-headed creature
+1,a leopard person
+1,a goat-headed warrior
+1,a snake-person
+1,a cannibal halfling
+1,a devildwarf
+1,an unnatural human
+1,a toad demon
+1,a gnoll
+1,a hobgoblin
+1,a lizardperson
+1,a half-orc
+1,a werejaguar
+1,a werewolf
+1,a dryad
+1,a flesh golem
+1,a hag
+1,a lamia
+1,a medusa
+1,a lich
+1,a night hag
+1,a rakshasa
+1,a troll
+1,a wraith
+1,a cthuloid demon
+1,a witch
+
+;Level
+5,-Lvl 1-
+6,-Lvl 2-
+7,-Lvl 3-
+8,-Lvl 4-
+7,-Lvl 5-
+6,-Lvl 6-
+5,-Lvl 7-
+4,-Lvl 8-
+3,-Lvl 9-
+2,-Lvl 10-
+1,-Lvl 11-
+1,-Lvl 12-
+1,-Lvl 13-
+1,-Lvl 14-
+1,-Lvl 15-
+1,-Lvl 20-
+
+

@@ -1,0 +1,478 @@
+
+;Start
+10,[irishmale] [irishsurname] from [irishlocation]
+10,[irishmale] [irishsurname] of [irishpeople]
+1,[irishfemale] [irishsurname] from [irishlocation]
+1,[irishfemale] [irishsurname] of [irishpeople]
+
+;male
+1,[irishmale] [irishsurname]
+
+;female
+1,[irishfemale] [irishsurname]
+
+;irishmale
+1,Aedan
+1,Aedh
+1,Aedhan
+1,Aengus
+1,Ailell
+1,Ailill
+1,Ailghenan
+1,Ailli
+1,Aimergin
+1,Ainmire
+1,Airnelach
+1,Amhlaibh
+1,Amlilaibh
+1,Anluan
+1,Aodh
+1,Art
+1,Arthur
+1,Baedan
+1,Bearach
+1,Blathmac
+1,Breasal
+1,Brian
+1,Bricin
+1,Cairbre
+1,Cairnech
+1,Cathal
+1,Cellach
+1,Cenncon
+1,Cennfaeladh
+1,Cernach
+1,Cian
+1,Cinel
+1,Cobhthach
+1,Coibhdhenach
+1,Coireall
+1,Colgu
+1,Colman
+1,Colum
+1,Columb
+1,Con
+1,Conall
+1,Conan
+1,Conchobhar
+1,Condlo
+1,Congal
+1,Conn
+1,Core
+1,Craebh
+1,Croidhan
+1,Crunnmhael
+1,Cuanna
+1,Cuanua
+1,Dairbre
+1,Deaghaidh
+1,Deman
+1,Desmond
+1,Diangus
+1,Diarmait
+1,Dinnthach
+1,Dithrebhach
+1,Domhnall
+1,Donnchadh
+1,Dornmar
+1,Dubh
+1,Dubhan
+1,Dubhdiadh
+1,Earc
+1,Earclugh
+1,Eignech
+1,Elar
+1,Enna
+1,Eochaidh
+1,Eoghan
+1,Erc
+1,Ernainne
+1,Errgi
+1,Faedhlimidh
+1,Faelan
+1,Faelchu
+1,Fallomhan
+1,Ferdoman
+1,Fergus
+1,Fermore
+1,Fiachna
+1,Findealach
+1,Finghin
+1,Finnchadh
+1,Flaith
+1,Flann
+1,Forbhasach
+1,Fordhalach
+1,Garbh
+1,Guaire
+1,Idhal
+1,Illann
+1,Inrachtach
+1,Irial
+1,Laeghaire
+1,Laoghaire
+1,Loingseachan
+1,Lorcan
+1,Lughaidh
+1,Macha
+1,Maelcobha
+1,Maelduin
+1,Maelodhar
+1,Maenach
+1,Mailmaighne
+1,Miadhach
+1,Mongan
+1,Muirgis
+1,Muirghuis
+1,Muireadhach
+1,Murchadh
+1,Nadfraech
+1,Nial
+1,Niall
+1,Ninnidh
+1,Oilell
+1,Oilill
+1,Orcur
+1,Patrick
+1,Reochaidh
+1,Res
+1,Riagan
+1,Ridearg
+1,Rionaigh
+1,Ronan
+1,Ruadhan
+1,Rudhraighe
+1,Scalaidh
+1,Scannlan
+1,Seachnusach
+1,Sechnasach
+1,Senach
+1,Soraidh
+1,Suibhne
+1,Tadhg
+1,Trelmhach
+1,Tuathal
+1,Ul
+1,Ultan
+1,Urene
+
+;irishfemale
+1,Eorann
+1,Finnsheng
+1,Grainne
+1,Lonnog
+1,Medhbh
+1,Morrigu
+1,Mughain
+1,Muirghil
+
+;irishsurname
+1,Airghnech
+1,Bennain
+1,Bennan
+1,Brac
+1,Brec
+1,Buidhe
+1,Cedach
+1,Cennfoda
+1,Cille
+1,Claen
+1,Claeringnech
+1,Claon
+1,Conaill
+1,Corrach
+1,Crom
+1,Cuar
+1,Cuile
+1,Derg
+1,Dithribh
+1,Finn
+1,Gaibhe
+1,Gulban
+1,Lamhfhada
+1,Lifeachair
+1,Mac Art
+1,Mac Crimhthainn
+1,Mac Stuagain
+1,Macha
+1,Meadhruadh
+1,Menn
+1,Mor
+1,Muigmhedhoin
+1,na Canoine
+1,Olum
+1,Rod
+1,Ruadh
+1,Sraibhtine
+1,Tirech
+1,Uallach
+
+;irishlocation
+1,Ailech
+1,Ailech Neid
+1,Airghialla
+1,Alba (Scotland)
+1,All Fharannain
+1,Arada
+1,Ard (heights) Abhla
+1,Ath Cliath (ford-hurdle)
+1,Ath (ford) an eich
+1,Ath (ford) an Imairg
+1,Ath (ford) eo
+1,Bairenn
+1,Balar
+1,Banba
+1,Bann/Boinn/Boyne (Boyne River)
+1,Barrow
+1,Bearramain
+1,Benn Boghaine
+1,Benn Boirche
+1,Benn Boirne
+1,Benn-Char
+1,Benn Foibne/Faibhni
+1,Benn Gulbain
+1,Benn Iughoine
+1,Benna Broc
+1,Bile Tiobradain
+1,Birra
+1,Boirche
+1,Bregia
+1,Briefne
+1,Bruighin (hall) Blai Bruga
+1,Bruighin (hall) Da Choga
+1,Bruighin (hall) Forgaill Monach
+1,Bruighin (hall) Mic Cecht
+1,Bruighin (hall) Mic Datho
+1,Buadh
+1,Caell na g-Curadh
+1,Carn (cairn)
+1,Carn (cairn) Congail
+1,Carn (cairn) Liffi
+1,Carraic (rock) Eoghain
+1,Carrick/Carraig (rock) Alastair
+1,Cashel
+1,Celi Ui Suanaigh
+1,Cell Dara (church of the oak)
+1,Cell (church) Derfile
+1,Cell (church) Lughaidhe
+1,Cell (church) Luinne
+1,Cell (church) Riagain
+1,Ciannacht
+1,Cinel Ainmirech
+1,Cinel Conaill
+1,Cluain (meadow) Cille
+1,Cluain (meadow) Creamha
+1,Cluain (meadow) Mic Nois
+1,Coisir Connacht
+1,Colba Gearmain
+1,Conachail
+1,Conaille
+1,Connaught/Connacht
+1,Craebh Ruadh
+1,Crich Gaille
+1,Crota Cliach
+1,Cruachan Oighle
+1,Cruchain
+1,Cuailgne
+1,Cu na Cerda Cathbhaidh
+1,Cuan Snamha hAigne
+1,Curoi
+1,Dairbre
+1,Daire/Derry (oak grove)
+1,Daire (wood) in lath
+1,Dairfhine
+1,Dal Araidhe
+1,Derg-rauthar Chonaill
+1,Derry Coluim Cille
+1,Doire Lurain
+1,Donnan of Eig
+1,Drobhaois
+1,Druim (ridge) Cirb
+1,Druim (ridge) Damh
+1,Druim (ridge) Fraoch
+1,Druim (ridge) Gess
+1,Druim (ridge) Iarainn
+1,Druim (ridge) Lurgain
+1,Druim Sneachta (snow ridge)
+1,Dublin
+1,Dubhrothair
+1,Duibh-inis (black island)
+1,Dumha Beinne
+1,Dun (fort) Adhmainn
+1,Dun (fort) Cermna
+1,Dun-da-lacha (fort of two lakes)
+1,Dun (fort) Mail
+1,Dun (fort) na naemh
+1,Dun (fort) na n-Gedh
+1,Dun (fort) Rodairce
+1,Dun (fort) Sobairce
+1,Eachrais Uladh
+1,Eas (waterfall) Dubhtaigh
+1,Eas (waterfall) Ruaidh
+1,Emania
+1,Erin (Ireland)
+1,Ettan Tairbh
+1,Faebhail
+1,Feimin
+1,Fiamuin
+1,Finn-charadh
+1,Fiodh Gaibhle
+1,Fodhla
+1,Gaille
+1,Glanamhrach
+1,Glais Cille Cro
+1,Glais Gaille
+1,Glen (valley) Bolcain
+1,Glen (valley) Con
+1,Glenn (valley) Aighle
+1,Glenn (valley) Chiach
+1,Glenn (valley) Earcain
+1,Glenn (valley) na nEachtach
+1,Glinn (valley) Righe
+1,Gulban
+1,Hy-Fiachrach
+1,Hy-Maine
+1,Hy-Niall
+1,Imlech Iobhair (inlet)
+1,Inbher Colptha
+1,Inis (island) Bo Finne
+1,Inis Fail (cliff island)
+1,Inis Murray (Murray's Island)
+1,Iobhr (inlet) Chinn Choichc mhic Neachtain
+1,Iobhr (inlet) Chinn Trugha
+1,Laighis
+1,Lannmhor
+1,Larne
+1,Leath-Chuinn (good side)
+1,Leath-Mhogha (half-servant)
+1,Leinster
+1,Leithead Lan
+1,Liamhain
+1,Liathdruim (ridge)
+1,Liffey
+1,Linn
+1,Loch (lake) Cuan
+1,Loch (lake) Diolair
+1,Loch (lake) Erne
+1,Loch (lake) Lein
+1,Long Laighean
+1,Long Mumhan
+1,Lothra
+1,Luachair Deaghaidh
+1,Luighne
+1,Lusca
+1,Macha
+1,Madh Ininnrighe
+1,Maenmagh
+1,Magh (plain) Aoi
+1,Magh (plain) Cobha
+1,Magh (plain) Comair
+1,Magh (plain) Cua
+1,Magh Fail (cliff-plain)
+1,Magh (plain) Feadha
+1,Magh (plain) Femhin
+1,Magh (plain) Li
+1,Magh (plain) Life
+1,Magh (plain) Line
+1,Magh (plain) Luirg
+1,Magh (plain) Mairge
+1,Magh (plain) Muirtheimhne
+1,Magh Rath (the red pools; fort-plain)
+1,Meadha Siuil
+1,Meath
+1,Midhchuairt
+1,Mullach Macha
+1,Munster
+1,Murthemne
+1,Oirthear
+1,Ollarba
+1,Ornamh
+1,Orrery
+1,Osgleann
+1,Ossory
+1,Rath (port) Murbuilg
+1,Rathmor
+1,Ros (wood) Bearaigh
+1,Ros (wood) Cille
+1,Ros (wood) Comain
+1,Ros (wood) Earcach
+1,Ros (wood) Earcain
+1,Ros (wood) na righ
+1,Seimhne
+1,Semne
+1,Sgirig Cinn Glinne
+1,Shannon (Shannon River)
+1,Siodhmuine Glinne
+1,Slaine
+1,Sliabh (mount) Aughty
+1,Sliabh (mount) Bloom
+1,Sliabh (mount) Breagh
+1,Sliabh (mount) Cuillenn
+1,Sliabh (mount) Eibhlinne
+1,Sliabh (mount) Eidhneach
+1,Sliabh (mount) Fuaid
+1,Sliabh (mount) Fuirri
+1,Sliabh (mount) Liag
+1,Sliabh (mount) mic Sin
+1,Sliabh (mount) Mis
+1,Sliabh (mount) Monaidh
+1,Sliabh (mount) na n-Each
+1,Sliabh (mount) Niadh
+1,Sliabh (mount) Uillinne
+1,Suck (River Suck)
+1,Taillten
+1,Tara
+1,Teach/Tech (house of) mic Ninnedha
+1,Teach/Tech (house of) Moling
+1,Tienne Bec an Broghadh
+1,Tir Conaill
+1,Tir Eoghain
+1,Tir Fhiachrach Mhuaide
+1,Tir O m-Breasail
+1,Toidhen
+1,Torbuirg
+1,Tory
+1,Tuaim (tomb) Dreagan
+1,Tuath Inbhir (inlet)
+1,Tulach (hill) Dathi
+1,Tulach (hill) na d-Tailgenn
+1,Ui Failghe
+1,Ulaidh
+1,Ulster
+1,Umhall
+
+;irishpeople
+1,Aengus
+1,Airgiallians
+1,Albanachs
+1,Ards
+1,Boghainechs
+1,Bregians
+1,Brehans
+1,British
+1,Caerthannachs
+1,Clann-Enna
+1,Connacians
+1,Connallians
+1,Ernaans
+1,Fidhrach
+1,Finngalls
+1,Fomorians
+1,Franks
+1,Gaels
+1,Lagenians
+1,Meathians
+1,Momonians
+1,Ninnidh
+1,Oirghialls
+1,Olaves
+1,Ossorians
+1,Rudricians
+1,Saxons
+1,Setna
+1,Ui Faolains
+1,Ui Ninnedha
+1,Ultonians
+1,Welsh
+
+

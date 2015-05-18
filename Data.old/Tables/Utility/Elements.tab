@@ -1,0 +1,108 @@
+
+
+;Start
+1,The four basic elements<br>
+_<sgdisplay iterations="1">[basic]</sgdisplay><br>
+_The four para-elemental elements<br>
+_<sgdisplay iterations="1">[para]</sgdisplay><br>
+_The four positive quasi-elemental elements<br>
+_<sgdisplay iterations="1">[positive]</sgdisplay><br>
+_The four negative quasi-elemental elements<br>
+_<sgdisplay iterations="1">[negative]</sgdisplay><br>
+_The eight quasi-elemental elements<br>
+_<sgdisplay iterations="1">[quasi]</sgdisplay><br>
+_The two energy planes<br>
+_<sgdisplay iterations="1">[energy] energy</sgdisplay><br>
+_All the elements<br>
+_<sgdisplay iterations="1">[all]</sgdisplay><br>
+_The Chinese elements<br>
+_<sgdisplay iterations="1">[China]</sgdisplay><br>
+_The five standard d20 energy types<br>
+_<sgdisplay iterations="1">[d20]</sgdisplay><br>
+
+;basicCap
+1,Air
+1,Earth
+1,Fire
+1,Water
+
+;basic
+1,air
+1,earth
+1,fire
+1,water
+
+;para
+1,ice
+1,magma
+1,ooze
+1,smoke
+
+;positive
+1,lightning
+1,mineral
+1,radiance
+1,steam
+
+;negative
+1,ash
+1,dust
+1,salt
+1,vacuum
+
+;quasi
+4,[positive]
+4,[negative]
+
+;energy
+1,positive
+1,negative
+
+;all
+4,[basic]
+4,[para]
+8,[quasi]
+2,[energy] energy
+
+;China
+1,air
+1,fire
+1,metal
+1,water
+1,wood
+
+;d20
+1,acid
+1,cold
+1,electricity
+1,fire
+1,sonic
+
+;4e
+1,acid
+1,cold
+1,fire
+1,force
+1,lightning
+1,necrotic
+1,psychic
+1,radiant
+1,thunder
+
+;exotic element
+1,nature
+1,aether
+1,void
+
+;exotic energy
+1,lightning
+1,lunar
+1,necrotic
+1,psychic
+1,radiant
+1,shadow
+1,solar
+1,stellar
+1,thunder
+
+

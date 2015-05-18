@@ -1,0 +1,270 @@
+
+;Start
+1,[mission]
+
+;mission
+1,The characters must '''[do] [something]'''.  Their adventure takes them to '''[location]''' and puts them up against '''[opposition]'''.  And it's all made more complicated by '''[complication]'''.
+1,The characters [trouble]. Their real opposition is '''[opposition]'''.
+
+;trouble
+1,are wanted by the authorities
+1,are hunted by bounty hunters
+1,are a danger to themselves
+1,are lost
+1,are sick
+1,are in over their heads
+1,are not up to an upcoming challenge.
+1,are out of money.
+1,don't have good information.
+1,are trapped.
+1,are obligated to someone in their past.
+1,suddenly have a new responsibility.
+1,have a friend in trouble.
+
+
+;do
+1,fight
+1,combat
+1,guide
+1,chase
+1,entreat
+1,move
+1,conceal
+1,strike
+1,get information from
+1,avenge
+1,confuse
+1,escort
+1,travel with
+1,track
+1,obliterate
+1,reveal
+1,find
+1,protect
+1,deliver
+1,help
+1,trap
+1,retrieve
+1,rescue
+1,assist
+1,oppose
+1,shield
+1,protect
+1,ally with
+1,investigate
+1,publicly oppose
+1,seize
+1,defend
+1,join
+1,resist
+1,support
+1,observe
+1,trade with
+1,watch
+1,repel
+1,destroy
+1,defend
+1,shut down
+1,create
+1,locate
+1,save
+
+;something
+1,a blue-collar worker with anti-mutant beliefs
+1,a foreign dignitary
+1,a mutant terrorist
+1,an accused mutant terrorist
+1,a company researching mutant-related science
+1,a love interest
+1,a hot guy/girl
+1,a murderer
+1,an accused murderer
+1,a street gang
+1,an anti-mutant vigilante gang
+1,a mysterious device
+1,a supervillain
+1,a mutant criminal
+1,a crimeboss
+1,a celebrity
+1,a relative
+1,a mutant just discovering their powers
+1,a mutant "in the closet"
+1,a child - [childtype] -
+1,a Brotherhood member
+1,a military officer
+1,a secret agent
+1,an outcast
+1,a deformed mutant
+1,City Hall
+1,a religious fanatic
+1,an anti-mutant politician
+1,a hostile mutant
+1,an anti-mutant religious figure
+1,a vicious teacher
+1,the school bully
+1,a seemingly nice person
+1,the authorities
+1,a locked box
+1,a mysterious communication
+1,a mentor
+1,a person who looks up to them
+1,a cop
+1,a private eye
+1,a federal agent
+1,a good friend
+1,an old enemy
+1,an artist
+1,siblings
+
+;childtype
+1,an orphan
+1,a prodigy
+1,a weird kid
+1,a rich kid
+1,a happy kid
+1,a clueless kid
+
+;location
+1,the dockyards
+1,a TV station
+1,a local landmark
+1,a corporate headquarters
+1,a chop shop
+1,a sporting event
+1,the university
+1,the wrong side of the tracks
+1,a skyscraper downtown
+1,a train station
+1,a train
+1,a villain's hideout
+1,a research facility
+1,a bank
+1,a dried river-bed
+1,the entertainment district
+1,a boat
+1,an island
+1,a farm
+1,a housing project
+1,a drug house
+1,a restaurant
+1,an underwater location
+1,a military base
+1,a prison
+1,a war zone
+1,the border
+1,a museum
+1,someone's apartment
+1,a criminal hideout
+1,a nightclub
+1,a church
+1,an underground location
+1,a highway
+1,an arena
+1,a chintzy office
+1,a grimy factory
+1,a clean factory
+1,a warehouse
+1,an underground location
+1,the mall
+1,a castle
+1,an insane asylum
+1,a bar
+1,the campus coffeeshop
+1,a restaurant
+1,the park
+1,suburbia
+1,a mansion
+1,a trailer park
+
+;complication
+1,someone's betrayal
+1,a rivalry
+1,a trap
+1,government influence
+1,trickery
+1,an unexplained incident
+1,vehicle breakdowns
+1,squabbling
+1,distractions
+1,abductions
+1,the weather
+1,diplomatic concerns
+1,an ambush
+1,a riot
+1,political concerns
+1,a theft
+1,a vendetta
+1,mistaken identity
+1,a power struggle
+1,an unrelated enemy
+1,gang involvement
+1,drugs
+1,security
+1,bureaucracy
+1,insanity
+1,well-meaning interference
+1,equipment failure
+1,military interference
+1,criminal interference
+1,a red herring
+1,a recurring NPC
+1,media attention
+1,legal trouble
+1,a love interest
+1,general incompetence
+1,a car chase
+1,a foot chase
+1,transportation problems
+1,a party
+1,disappointment
+1,a fire
+1,an earthquake
+1,a storm
+1,a flood
+1,a riot
+1,a war
+1,a deadline
+1,an explosion
+
+
+;opposition
+1,a government official
+1,terrorists
+1,a gang
+1,a villain group
+1,a spy
+1,a tycoon
+1,a country
+1,a company
+1,a recurring villain
+1,a supervillain
+1,a supercriminal
+1,a criminal gang
+1,an assassin
+1,technology gone amok
+1,a shadowy figure
+1,a mobster
+1,a rebel
+1,an organization
+1,a mastermind
+1,demon(s)
+1,a former ally
+1,the police
+1,the military
+1,a veteran
+1,an outlaw
+1,a thief
+1,a disaster
+1,a lawyer
+1,a threat to the world
+1,a femme fatale
+1,a conspiracy
+1,a mad scientist
+1,a celebrity
+1,time
+1,a madman
+1,another "hero"
+1,a friend
+1,a religious figure
+
+

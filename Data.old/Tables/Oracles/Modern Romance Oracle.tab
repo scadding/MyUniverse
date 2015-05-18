@@ -1,0 +1,92 @@
+
+;Start
+1,[urban]
+1,[smalltown]
+
+;urban
+4,[allpurpose]
+3,[facestabby_allpurpose]
+1,A [all_relationships], brought to first-name status by happenstance
+1,A [nonsexual_relationship] who needs a place to stay for a few days
+1,A [nonsexual_relationship] walking her dogs in the park, crying
+1,The movie star you always admired who is actually a regular person
+
+;smalltown
+3,[allpurpose]
+3,[facestabby_allpurpose]
+1,A [work_relationship] with their car in a ditch
+1,The [nonsexual_relationship] who is boarding someone's horse
+1,A [acquaintance] standing out in a crowd of onlookers to an accident
+
+;allpurpose
+1,The [emotional_state] [nonsexual_relationship], [activity]
+1,The [nonsexual_relationship], [activity]
+1,The [work_relationship], [activity]
+1,The [acquaintance] in the diner whose interior hasn't changed for decades
+
+;activity
+1,returned after a long absence
+1,newly and sadly divorced
+1,always [emotional_state] and a horrible gossip
+
+;emotional_state
+1,vivacious
+1,mercurial
+1,taciturn
+1,care-worn
+1,exhausted
+1,friendly
+1,goofy
+1,unpopular
+1,happy-go-lucky
+1,perky
+1,obsessive
+
+;nonsexual_relationship
+1,childhood friend
+1,college friend
+1,direct supervisor at work
+1,gym buddy
+1,friend of a friend
+1,sibling of a best friend
+
+;work_relationship
+1,lunch server
+1,mail clerk
+1,cubicle mate
+1,weird accountant
+1,copy machine technician
+1,tech support helper
+1,familiar stranger
+1,mid-level manager
+1,account executive
+
+;acquaintance
+1,pizza delivery guy
+1,neighbour
+1,girl next door
+1,postman
+1,flowershop owner
+1,dentist
+1,college professor
+
+;all_relationships
+1,[work_relationship]
+1,[nonsexual_relationship]
+1,[acquaintance]
+
+;facestabby_allpurpose
+1,The [nonsexual_relationship]'s younger sister, out to prove she's more desirable
+1,The [nonsexual_relationship]'s father, [emotional_state] and newly divorced
+1,The ex's [nonsexual_relationship], or possibly more
+1,The [all_relationships], newly engaged and having nothing but doubts
+
+;zany_relationship
+1,homeless vagabond
+1,proctologist
+1,identical twin
+1,television personality
+1,Internet superstar
+1,strange cousin
+
+

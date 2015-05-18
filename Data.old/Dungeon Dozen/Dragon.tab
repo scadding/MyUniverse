@@ -1,0 +1,229 @@
+
+
+;Start
+1,The Dragon has a [Head] Head, with a [Body plan] body.
+_The Dragon demands -[The Dragons Demands], or he threatens [Terroristic Threats].<br>
+_It seems [State of Mind].<br>
+_[Additional].<br>
+_[Additional].<br>
+_[Additional].<br>
+_[Additional].<br>
+
+;Additional
+1,favorite Item[Current Favorite Items in Hoard]
+1,is upset about[Something Has Upset the Ancient Dragon]
+1,[Menu]
+1,[Gourmet Night Guest List]
+1,[The Intelligent Dragon's Current Obsession]
+1,[Formerly Secret Weakness]
+1,[Down the World Dragon's Gullet]
+1,[Duct destination subtable]
+1,[Weird Dragon Breath]
+1,[Other Prisoners]
+
+:The Dragons Demands
+1,Must be honored with the celebration of elaborate festivals
+2,To be depicted upon all regional coinage
+3,New song to be composed (and performed) in honor fortnightly
+4,Constant stream of tasty virgins
+5,Staff of skilled attendants shall be provided for primping/preening
+6,Full security force dispatched for (100% guaranteed) hoard protection during hunting trips and other sojourns
+7,Monumental architecture/colossal statuary to be erected in image following demolition of offensive depictions of local heroes/deities
+8,Crafting of enormous bedazzled crown, set with every conceivable gemstone in grotesque, ostentatious abundance
+9,Human sacrifices to be made weekly to draconic deity
+10,Nearby dungeon treasuries to be raided, contents delivered (intelligence provided)
+11,Knighthood abolished
+12,Destruction, subsequent ban of all anti-draconic weaponry
+
+:Terroristic Threats
+1,Will hunt down and burn the families, friends and acquaintances of any who dare enter lair
+2,Will release toxic bile into the water table, perverting it for all time
+3,Will topple every tower in the kingdom starting with the tallest
+4,Will enter a state of preternatural fecundity, spreading it's vile progeny like a plague upon the land
+5,After establishing air supremacy, will burn only most favored crops
+6,Will unceasingly bombard royal palaces with its foulest excrement
+7,Will take a single virgin each night starting with the most ravishing
+8,Will assume the form of a man, rise to the throne, resume dragon form, and set forth to establish empire of open evil
+9,Will intercept each and every shipment of wine entering the realm
+10,Will intimidate the various regional forces of evil into fealty and embark upon unprecedented campaign of terror and wanton destruction
+11,Will self-detonate it's massive inner stores of fire, exploding with the force of a smaller atomic bomb, taking the adventures and everything in the dungeon with it in a final act of defiance
+12,Will escape with its hoard to squander ancient treasures on games of chance and other trivial amusements
+
+
+:Head
+1,Smilodon
+2,Swan
+3,Caiman
+4,Eagle
+5,Snail
+6,T-rex
+7,Hippopotamus
+8,Lemur
+9,Toad
+10,Pit bull
+11,Housefly
+12,Human
+
+:Body plan
+1,Serpent
+2,Centipede
+3,Rooster
+4,Mantis
+5,Quadrupedal anthropoid
+6,Hyena
+7,Polar bear
+8,Peacock
+9,Apatosaurus
+10,Pangolin
+11,Gecko
+12,Land whale
+
+
+:State of Mind
+1,Deep ennui mitigated only by the momentary twinkle of baubles, gewgaws and trinkets (amassed hoard comprised largely of shiny junk)
+2,Bestial: if famished eats anything that moves; if sated chiefly concerned with defending territory, 1% chance of being concerned with reproduction
+3,Egomaniacal but rather charming: intolerant of any more charming than itself
+4,False modesty hides mean streak: likes to play with food, takes prisoners for personal amusement
+5,Laconic detachment: Dragon With No Name, minimal dialogue, lots of disdainful grunting, shoots first
+6,Ironic bemusement: reflects view that life is just a joke and one should at least try to see the humor in it
+7,Scarred, bitter, resents the very cosmos that spawned it
+8,Quite upset (see Something has Upset the Ancient Dragon)
+9,Dispassionate, clinical yet curious: thinks of life as a science experiment, human data particularly interesting
+10,Ablaze with generalized hostility, raging full-on
+11,Unflappable: the 007 of dragons
+12,Has convinced self of cool, collected condition, but just under the surface pent-up frustrations stand by to explode with volcanic force at the slightest provocation
+
+
+:Current Favorite Items in Hoard
+1,Dragon-size, talon-friendly scroll featuring transcriptions of various acknowledged classics of forbidden literature
+2,Bejewelled sarcophagus from unknown civilization: intact but inert super-mummy within
+3,Masterfully crafted miniature replica of fabled golden dragon temple
+4,Nearly complete set of (singed) royal arms and armor from extinct clan displayed on dwarf mannequins in realistic action poses
+5,Uncut ruby of astonishing size: likes to play with ideas for possible workings but can't commit
+6,Thousands of gold pieces fused by dragon fire into single mass of dubious aesthetic value
+7,Gold-dipped skull & tusks of mammoth suspended from the ceiling
+8,Giant-king's platinum necklace of office (frequently worn by dragon)
+9,Huge crimson diamond: imprisoned demon prince visible within
+10,Zeus' false teeth on ornate obsidian stand
+11,Hovering opalescent sphere of unknown origin: emits hypnotic white noise
+12,Hyper-prism: impossible to count facets due to extra-dimensional nature, under sunlight projects searing heat ray, under moonlight produces cone of reanimation
+
+
+:Something Has Upset the Ancient Dragon
+1,Found religion but only just heard of requisite tithe for his income bracket
+2,Unable to locate favored bauble, vaporized most of staff in accusatory huff, obsessively searching through hoard again and again
+3,Injury to pride due to recent string of humiliating defeats on once-routine sorties against local settlements, still licking numerous arrow wounds
+4,Nagging health issues: arthritic joints, wing troubles, diminishing fires, explosive coughing jags
+5,Mating trouble: eligible suitors all unsatisfactory in one way or another, can't commit, expecting next contestant any minute
+6,Preternatural dragon senses tingle with forebodings of doom, high anxiety, jumpy, trigger-happy
+7,Psychological imbalance aggravated by deficiencies in dwarf-based diet: epic irrational rages over anything and everything
+8,Hasn't been able to get a good fortnight's sleep in ages due to incessant howling of monster in dragon-inaccessible lair
+9,Bamboozled out of nice chunk of hoard by expert confidence trickster
+10,Lost huge wager over outcome of leadership change in nearby realm, new administration rumored to favor strong anti-draconic measures
+11,Barely survived attempted coup led by demon major domo (dispatched)
+12,Disobliging review of achievements in newly published history, ready to launch into obscenity-laced tirade of self-justification should anyone care to listen
+
+:Menu
+1,Man-chowder w/bone meal toast points
+2,Catoblepas surprise: kobold tribe baked inside
+3,Gently killed warriors, lightly seared: served in their armor in various attack poses
+4,Virgin pie
+5,Flailsnails braised in pork fat w/bile reduction
+6,Team of roast oxen yoked to wagon full of kraken ceviche
+7,Soft boiled roc egg over man-hash
+8,Unicorn medallions presented uncooked w/individual salt lick
+9,Humanoid melange in exotic spices
+10,Rustic ape stew
+11,Megalodon & giant bivalve paella
+12,Exceedingly fresh (live) giant beetle larvae tossed w/garlic in a light vinaigrette
+
+:Gourmet Night Guest List
+1,Dune giant sultan, body guards, travel-size harem toting barrels of exceedingly rare spirits
+2,Gaggle of big city idle rich thrill seekers going for the gusto w/their most outlandish binge ever
+3,Sphinx w/mummy retainers: launches into ranging monologue, dragon can't get a word in edgewise
+4,Dragon's black lotus connection & shabby entourage
+5,Fire giant lord and lady: he's a physical disaster after too many years of conquest, she's a ferocious wrecking machine despite demure bearing 
+6,Swarm of telepathic giant bats: dining on the ceiling
+7,Impatient demon w/places to go humoring dragon for political expediency
+8,Vassal ogre king and most of his extended family
+9,Cabal of once-human sorcerers embracing their twisted natures
+10,Pair of juvenile dragons from neighboring mountain range claiming to seek mentorship, actually casing the joint
+11,Rival ancient dragon: after lifetime of territorial disputes w/host, celebrating anniversary of détente with verbal contest of wits
+12,Last minute cancellations w/barely plausible excuses: a bitter dinner for one, looking for excuse to unleash pent-up frenzy of destruction
+
+:The Intelligent Dragon's Current Obsession
+1,Development of draconic haute cuisine: has filed talons into precision food prep implements
+2,Composition of epic poem celebrating self and accomplishments while minimizing those of rivals, scribes on staff to take dictations
+3,Negotiating complex treaties w/two-bit human lords and then gleefully pulling the rug out from under them
+4,Dungeon extortion racket: legwork carried out by deputized hench-monsters, doesn't really pay off but provides amusing bedevilment
+5,Health and wellness: meditation, (human) juice fast, brutal exercise regimen w/charismatic personal trainer/guru in residence
+6,Interior cave design: multi-tiered water features, sculpted and enhanced columns, stalactites and stalagmites, attractive fungi arrangements, etc.
+7,Exotic creature husbandry: extensive menagerie maintained by staff of expert monster wranglers
+8,Researching theoretical means of draconic space travel, intends to capture moon for dragon-kind
+9,Trying hand at designing self-aggrandizing monumental architecture: still hatching schemes to acquire requisite host of slave laborers
+10,Amassing preeminent library of esoteric knowledge, several demon librarians on staff, hiring buyers/thieves
+11,LARPing w/bored vampire guests and lich acquaintance: likes to play halflings
+12,Recently sworn off frivolous obsessions: right back to default treasure hoarding/virgin eating
+
+:Formerly Secret Weakness
+1,Due to upper respiratory fungal infection breath weapon subject to 50% failure
+2,Such a megalomaniacal ass all henchmen and servitors actively plotting coup d'etat
+3,Heavy opiate habit after accidentally eating heavily-laden dealer: intense lassitude, skewed priorities
+4,Inflamed intestinal blockage from hastily devoured iron-clad warrior: constitutionally compromised
+5,Anger management issue: easily provoked into blind rage featuring total loss of reason
+6,Quite insane, unpredictable but somewhat suggestible
+7,Allergic to fresh cut grasses: exposure induces convulsive sneezes, reduces vision
+8,Devoted to fine brandy by the cask, commisioned giant snifter, frequently loaded
+9,Actually quite fond of humans: a scholarly authority on the subject eager to test pet theories, readily charmed
+10,Severely infected fang: claw, claw, no bite
+11,Arrow shaft barely protruding from difficult-to-reach spot on back: an inch away from spine
+12,A terror back in the day, now frail with immeasurable age, flames diminished, passions forgotten, stiff w/arthritis, scales dropping off, a shadow of former self
+
+:Down the World Dragon's Gullet
+2,Whirlpool: forcefully excretes anything caught within into random world
+3,Aggressive phagocytes: attack as giant black puddings
+4,Age-withered questing hero and party in iron clad vessel: lost to madness
+5,Series of ducts lead to...(see subtable below)
+6,Levitating parasitic worm-oracle dispensing trans-planar wisdom
+7,Wizard and homonculi crew piloting experimental bathysphere
+8,Hygiene cells studded with indigestible treasures
+9,Cyst-shrine of the dragon cult
+10,Corpse-strewn and blasted battlefield: site of ancient autoimmune malfunction
+11,Ruined keep atop crystalline outcropping (devoured centuries ago)
+12,Skeletons and other partially digested remains of gods, demi-gods, and heroes
+
+:Duct destination subtable
+1-2,Heart: violently propelled to next destination (roll again)
+3-4,Spleen: exposure to fluids amplifies rage and hate
+5-6,Phlegm pits: trapped forever
+7-8,Lungs: filled with explosive gasses and gale force winds
+9-11,Brain: induces apoplexy in World Dragon w/potentially catastrophic results
+12,Colon (Hades-like zone of the mournful dead)
+
+:Weird Dragon Breath
+1,Cascading waves of time: massively accelerated aging
+2,Cone of serenity: save or achieve involuntary enlightenment
+3,Blast of revulsion: subject unable to remain in the same physical space as dragon
+4,Scintillant ray of hypnosis
+5,Cloud of pathogens: 1d6 random diseases attack simultaneously
+6,Miasma of resentment: dragon's assailants turn against one another
+7,Beam of luck: positive or negative at will
+8,Illusion breath: rolls over scene replacing reality with phantasmal nightmare visions, save for mere bewilderment
+9,Spatter of digestive enzymes
+10,Unstable gasses: torchbearers beware!
+11,Cloud of misery: uncontrollable emotional meltdown, save for melancholia
+12,Thunder storm breath: lightning, deafening peals, damaging winds propel massive hailstones
+
+:Other Prisoners
+1,Three former chiefs-of-staff serving life sentences for insolence and poor service
+2,The local lord: not previously known to be missing
+3,Bound halfling suspended upside-down from ceiling
+4,A lawful wizard encased in a life-sustaining plasm
+5,Hog-tied hill giant chief in extra-large cell block
+6,A still-smoldering fighting man in claw-rent armor
+7,The ogre guard captain who got overly ambitious: still retains loyalty of the guard, fomenting insurrection
+8,Malevolent mist-being in glass bio-dome: mutters about plans to depopulate the continent
+9,The heir of the griffin king awaiting delivery of ransom
+10,Sentient beetle-man from the distant past: claims to know a good deal about the future as well
+11,A six-dimensional fungus hovering in containment dome
+12,Ball-gagged bard weeping (silently) over the shattered remains of lute 

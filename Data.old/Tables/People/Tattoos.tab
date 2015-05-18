@@ -1,0 +1,83 @@
+
+;Start
+1,[Malemain]
+1,[Femalemain]
+
+;Malemain
+1,[LocationMale] is a tattoo of [Depiction]
+1,[Malemain], and [Malemain]
+
+;Femalemain
+7,[LocationFemale] is a tattoo of [Depiction]
+1,[Femalemain], and [Femalemain]
+
+
+;LocationMale
+4,On the small of his back
+20,On his entire back
+10,On his shoulders
+6,On his [Utility.LeftRight] shoulderblade area
+10,On his [Utility.LeftRight] shoulder
+8,On the [Utility.LeftRight] side of his neck
+2,Under his [Utility.LeftRight] eye
+8,On his [Utility.LeftRight] hand
+10,On his [Utility.LeftRight] upper arm
+20,On his [Utility.LeftRight] lower arm
+5,On his [Utility.LeftRight] ribcage
+8,On his sternum
+3,On his upper chest
+1,Near his navel
+1,On his [Utility.LeftRight] thigh
+1,On his [Utility.LeftRight] calf
+1,On his [Utility.LeftRight] ankle
+1,On his [Utility.LeftRight] foot
+6,On the back of his neck
+5,On his [Utility.LeftRight] wrist
+4,On his [Utility.LeftRight] palm
+1,On his [Utility.LeftRight] hip
+3,On his forehead
+2,Inbetween his shoulderblades
+3,On the [Utility.LeftRight] side of his chest
+2,On the back of his [Utility.LeftRight] hand
+
+;LocationFemale
+10,On the small of her back
+2,On her entire back
+1,On her shoulders
+4,On her [Utility.LeftRight] shoulderblade area
+3,On her [Utility.LeftRight] shoulder
+1,On the [Utility.LeftRight] side of her neck
+2,Under her [Utility.LeftRight] eye
+2,On her [Utility.LeftRight] hand
+2,On her [Utility.LeftRight] upper arm
+2,On her [Utility.LeftRight] lower arm
+5,On her [Utility.LeftRight] ribcage
+2,On her sternum
+3,On her upper chest
+10,Around her navel
+8,On her [Utility.LeftRight] thigh
+6,On her [Utility.LeftRight] calf
+6,On her [Utility.LeftRight] ankle
+3,On her [Utility.LeftRight] foot
+6,On the back of her neck
+2,On her [Utility.LeftRight] wrist
+4,On her [Utility.LeftRight] breast
+8,On her [Utility.LeftRight] buttock
+1,On her [Utility.LeftRight] palm
+10,On her [Utility.LeftRight] hip
+1,On her forehead
+4,Inbetween her shoulderblades
+2,On the back of her [Utility.LeftRight] hand
+
+;Depiction
+1,a family crest
+5,the symbol of [GheronUtility.DietySymbol]
+5,the symbol of [GheronUtility.OrganizationSymbol]
+7,[Utility.AnimalSymbol]
+7,[Utility.CreatureSymbol]
+2,[Utility.PlantSymbol]
+2,a simple [Utility.GeometricSymbol]
+2,runes in [Utility.RuneLanguage]
+4,the insignia of the [Fantasy Military Unit.Start]
+
+

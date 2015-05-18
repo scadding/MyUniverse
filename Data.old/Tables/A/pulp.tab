@@ -1,0 +1,1203 @@
+
+;Start
+1, The heroes must [action] [target] [preposition] [location], but have to contend with [contention], and opposition from [opposition] trying to [opposing action] [opposing target]
+
+;action
+1, aid
+1, ally
+1, assist
+1, attack
+1, avenge
+1, battle
+1, blackmail
+1, blow
+1, chase
+1, combat
+1, conceal
+1, contend
+1, defeat
+1, defend
+1, deliver
+1, destroy
+1, discover
+1, disguise
+1, encounter
+1, escape
+1, escort
+1, explore
+1, expose
+1, fight
+1, find
+1, foil
+1, get
+1, guard
+1, guide
+1, hold
+1, infiltrate
+1, investigate
+1, journey
+1, kill
+1, liberate
+1, locate
+1, make
+1, meet
+1, move
+1, obliterate
+1, oppose
+1, outwit
+1, protect
+1, race
+1, raid
+1, repel
+1, rescue
+1, resist
+1, retreive
+1, reveal
+1, safeguard
+1, save
+1, seize
+1, serve
+1, shield
+1, shut
+1, speak
+1, steal
+1, strike
+1, support
+1, take
+1, talk
+1, testify
+1, track
+1, train
+1, travel
+1, watch
+
+;target
+1, a bounty hunter
+1, a business magnate
+1, a captain
+1, a celebrity
+1, a child
+1, a crime lord
+1, a criminal mastermind
+1, a crooked banker
+1, a crooked cop
+1, a crooked politician
+1, a dance-hall girl
+1, a dictator
+1, advanced aliens
+1, a femme fatale
+1, a friend
+1, against a bounty hunter
+1, against a business magnate
+1, against a captain
+1, against a celebrity
+1, against a child
+1, against a crime lord
+1, against a criminal mastermind
+1, against a crooked banker
+1, against a crooked cop
+1, against a crooked politician
+1, against a dance-hall girl
+1, against a dictator
+1, against advanced aliens
+1, against a femme fatale
+1, against a friend
+1, against a gem
+1, against a hero turned villain
+1, against a hitman
+1, against a jewel
+1, against alien invaders
+1, against a lost civilisation
+1, against a love-interest
+1, against a low-life
+1, against a mad scientist
+1, against a magic talisman
+1, against a man
+1, against a map
+1, against a master thief
+1, against a murderer
+1, against an aircraft
+1, against an ally
+1, against an ancient evil
+1, against an artifact
+1, against an enemy
+1, against an enemy agent
+1, against a network
+1, against a newspaper editor
+1, against an invention
+1, against an occultist
+1, against a pilot
+1, against a scientist
+1, against a scoundrel
+1, against a secret
+1, against a secret society
+1, against a smuggler
+1, against a society swell
+1, against a stranger
+1, against a thief
+1, against a vehicle
+1, against a villain
+1, against a wealthy banker
+1, against a weapon
+1, against a woman
+1, against bounty hunters
+1, against foreigners
+1, against gangsters
+1, against information
+1, against innocent bystanders
+1, against Nazis
+1, against pirates
+1, against primitives
+1, against smugglers
+1, against the Ancients
+1, against the fleet
+1, against the government
+1, against the police
+1, a gambler
+1, a gem
+1, a hero turned villain
+1, a hitman
+1, a jewel
+1, alien invaders
+1, a lost civilisation
+1, a love-interest
+1, a low-life
+1, a mad scientist
+1, a magic talisman
+1, a man
+1, a map
+1, a master thief
+1, a murderer
+1, an aircraft
+1, an ally
+1, an ancient evil
+1, an artifact
+1, an enemy
+1, an enemy agent
+1, a network
+1, a newspaper editor
+1, an invention
+1, an occultist
+1, a pilot
+1, a scientist
+1, a scoundrel
+1, a secret
+1, a secret society
+1, a smuggler
+1, a society swell
+1, a stranger
+1, a thief
+1, a trade with a bounty hunter
+1, a trade with a business magnate
+1, a trade with a captain
+1, a trade with a child
+1, a trade with a crime lord
+1, a trade with a criminal mastermind
+1, a trade with a crooked banker
+1, a trade with a crooked politician
+1, a trade with a dance-hall girl
+1, a trade with a dictator
+1, a trade with advanced aliens
+1, a trade with a femme fatale
+1, a trade with a friend
+1, a trade with a gambler
+1, a trade with a gem
+1, a trade with a hero turned villain
+1, a trade with a hitman
+1, a trade with a lost civilisation
+1, a trade with a love-interest
+1, a trade with a low-life
+1, a trade with a mad scientist
+1, a trade with a magic talisman
+1, a trade with a man
+1, a trade with a map
+1, a trade with a master thief
+1, a trade with a murderer
+1, a trade with an aircraft
+1, a trade with an ally
+1, a trade with an ancient evil
+1, a trade with an artifact
+1, a trade with an enemy
+1, a trade with an enemy agent
+1, a trade with a network
+1, a trade with a newspaper editor
+1, a trade with an invention
+1, a trade with an occultist
+1, a trade with a pilot
+1, a trade with a scientist
+1, a trade with a scoundrel
+1, a trade with a secret
+1, a trade with a secret society
+1, a trade with a smuggler
+1, a trade with a society swell
+1, a trade with a stranger
+1, a trade with a thief
+1, a trade with a vehicle
+1, a trade with a villain
+1, a trade with a wealthy banker
+1, a trade with a weapon
+1, a trade with a woman
+1, a trade with bounty hunters
+1, a trade with foreigners
+1, a trade with gangsters
+1, a trade with information
+1, a trade with innocent bystanders
+1, a trade with Nazis
+1, a trade with pirates
+1, a trade with primitives
+1, a trade with smugglers
+1, a trade with the Ancients
+1, a trade with the fleet
+1, a trade with the government
+1, a trade with the police
+1, a vehicle
+1, a villain
+1, a wealthy banker
+1, a weapon
+1, a woman
+1, bounty hunters
+1, down a business magnate
+1, down a captain
+1, down a celebrity
+1, down a child
+1, down a crime lord
+1, down a criminal mastermind
+1, down a crooked banker
+1, down a crooked cop
+1, down a crooked politician
+1, down a dance-hall girl
+1, down a dictator
+1, down advanced aliens
+1, down a femme fatale
+1, down a friend
+1, down a gambler
+1, down a gem
+1, down a hitman
+1, down a jewel
+1, down a love-interest
+1, down a low-life
+1, down a mad scientist
+1, down a magic talisman
+1, down a map
+1, down a master thief
+1, down a murderer
+1, down an aircraft
+1, down an ally
+1, down an ancient evil
+1, down an artifact
+1, down an enemy
+1, down an enemy agent
+1, down a network
+1, down a newspaper editor
+1, down an invention
+1, down a pilot
+1, down a scientist
+1, down a scoundrel
+1, down a secret
+1, down a secret society
+1, down a society swell
+1, down a stranger
+1, down a thief
+1, down a vehicle
+1, down a villain
+1, down a wealthy banker
+1, down a weapon
+1, down a woman
+1, down bounty hunters
+1, down foreigners
+1, down gangsters
+1, down information
+1, down innocent bystanders
+1, down Nazis
+1, down primitives
+1, down smugglers
+1, down the Ancients
+1, down the fleet
+1, down the government
+1, down the police
+1, foreigners
+1, from a bounty hunter
+1, from a business magnate
+1, from a captain
+1, from a celebrity
+1, from a child
+1, from a crime lord
+1, from a criminal mastermind
+1, from a crooked banker
+1, from a crooked cop
+1, from a crooked politician
+1, from a dictator
+1, from advanced aliens
+1, from a femme fatale
+1, from a friend
+1, from a gambler
+1, from a gem
+1, from a hero turned villain
+1, from a hitman
+1, from a jewel
+1, from alien invaders
+1, from a lost civilisation
+1, from a love-interest
+1, from a low-life
+1, from a magic talisman
+1, from a man
+1, from a map
+1, from a master thief
+1, from a murderer
+1, from an aircraft
+1, from an ally
+1, from an ancient evil
+1, from an artifact
+1, from an enemy
+1, from a newspaper editor
+1, from an invention
+1, from an occultist
+1, from a scientist
+1, from a scoundrel
+1, from a secret
+1, from a secret society
+1, from a smuggler
+1, from a society swell
+1, from a stranger
+1, from a thief
+1, from a vehicle
+1, from a villain
+1, from a wealthy banker
+1, from a weapon
+1, from a woman
+1, from bounty hunters
+1, from foreigners
+1, from gangsters
+1, from information
+1, from pirates
+1, from primitives
+1, from smugglers
+1, from the Ancients
+1, from the government
+1, gangsters
+1, information
+1, innocent bystanders
+1, Nazis
+1, past a business magnate
+1, past a captain
+1, past a celebrity
+1, past a child
+1, past a crime lord
+1, past a criminal mastermind
+1, past a crooked banker
+1, past a crooked politician
+1, past a dance-hall girl
+1, past a dictator
+1, past advanced aliens
+1, past a friend
+1, past a gambler
+1, past a gem
+1, past a hero turned villain
+1, past a hitman
+1, past a jewel
+1, past alien invaders
+1, past a lost civilisation
+1, past a love-interest
+1, past a low-life
+1, past a mad scientist
+1, past a magic talisman
+1, past a man
+1, past a master thief
+1, past an aircraft
+1, past an ancient evil
+1, past an artifact
+1, past an enemy
+1, past an enemy agent
+1, past a network
+1, past a newspaper editor
+1, past an invention
+1, past an occultist
+1, past a pilot
+1, past a scientist
+1, past a scoundrel
+1, past a secret
+1, past a secret society
+1, past a smuggler
+1, past a society swell
+1, past a stranger
+1, past a thief
+1, past a vehicle
+1, past a villain
+1, past a wealthy banker
+1, past a weapon
+1, past a woman
+1, past bounty hunters
+1, past foreigners
+1, past gangsters
+1, past information
+1, past innocent bystanders
+1, past Nazis
+1, past pirates
+1, past primitives
+1, past smugglers
+1, past the Ancients
+1, past the fleet
+1, past the government
+1, past the police
+1, pirates
+1, primitives
+1, smugglers
+1, the Ancients
+1, the fleet
+1, the government
+1, the police
+1, to a bounty hunter
+1, to a business magnate
+1, to a captain
+1, to a celebrity
+1, to a child
+1, to a crime lord
+1, to a criminal mastermind
+1, to a crooked banker
+1, to a crooked cop
+1, to a crooked politician
+1, to a dance-hall girl
+1, to a dictator
+1, to advanced aliens
+1, to a femme fatale
+1, to a friend
+1, to a gambler
+1, to a gem
+1, to a hero turned villain
+1, to a hitman
+1, to alien invaders
+1, to a lost civilisation
+1, to a love-interest
+1, to a low-life
+1, to a mad scientist
+1, to a magic talisman
+1, to a man
+1, to a map
+1, to a master thief
+1, to a murderer
+1, to an aircraft
+1, to an ancient evil
+1, to an artifact
+1, to an enemy
+1, to an enemy agent
+1, to a network
+1, to a newspaper editor
+1, to an invention
+1, to an occultist
+1, to a scoundrel
+1, to a secret
+1, to a secret society
+1, to a smuggler
+1, to a society swell
+1, to a stranger
+1, to a vehicle
+1, to a villain
+1, to a weapon
+1, to a woman
+1, to foreigners
+1, to information
+1, to innocent bystanders
+1, to Nazis
+1, to pirates
+1, to primitives
+1, to smugglers
+1, to the Ancients
+1, to the fleet
+1, to the government
+1, to the police
+1, up a bounty hunter
+1, up a business magnate
+1, up a captain
+1, up a celebrity
+1, up a child
+1, up a crime lord
+1, up a criminal mastermind
+1, up a crooked banker
+1, up a crooked cop
+1, up a crooked politician
+1, up a dance-hall girl
+1, up a dictator
+1, up advanced aliens
+1, up a femme fatale
+1, up a friend
+1, up a gambler
+1, up a gem
+1, up a hero turned villain
+1, up a hitman
+1, up a jewel
+1, up alien invaders
+1, up a lost civilisation
+1, up a love-interest
+1, up a low-life
+1, up a mad scientist
+1, up a magic talisman
+1, up a man
+1, up a map
+1, up a master thief
+1, up a murderer
+1, up an aircraft
+1, up an ally
+1, up an ancient evil
+1, up an artifact
+1, up an enemy
+1, up an enemy agent
+1, up a network
+1, up a newspaper editor
+1, up an invention
+1, up an occultist
+1, up a pilot
+1, up a scientist
+1, up a scoundrel
+1, up a secret
+1, up a secret society
+1, up a smuggler
+1, up a society swell
+1, up a stranger
+1, up a thief
+1, up a vehicle
+1, up a villain
+1, up a wealthy banker
+1, up a weapon
+1, up a woman
+1, up bounty hunters
+1, up foreigners
+1, up gangsters
+1, up information
+1, up innocent bystanders
+1, up Nazis
+1, up pirates
+1, up primitives
+1, up smugglers
+1, up the Ancients
+1, up the fleet
+1, up the government
+1, up the police
+1, with a bounty hunter
+1, with a business magnate
+1, with a captain
+1, with a celebrity
+1, with a child
+1, with a crime lord
+1, with a criminal mastermind
+1, with a crooked banker
+1, with a crooked cop
+1, with a crooked politician
+1, with a dance-hall girl
+1, with a dictator
+1, with advanced aliens
+1, with a femme fatale
+1, with a friend
+1, with a gambler
+1, with a gem
+1, with a hero turned villain
+1, with a hitman
+1, with a jewel
+1, with alien invaders
+1, with a lost civilisation
+1, with a love-interest
+1, with a low-life
+1, with a mad scientist
+1, with a magic talisman
+1, with a man
+1, with a map
+1, with a master thief
+1, with a murderer
+1, with an aircraft
+1, with an ally
+1, with an ancient evil
+1, with an artifact
+1, with an enemy
+1, with an enemy agent
+1, with a network
+1, with a newspaper editor
+1, with an invention
+1, with an occultist
+1, with a pilot
+1, with a scientist
+1, with a scoundrel
+1, with a secret
+1, with a secret society
+1, with a smuggler
+1, with a society swell
+1, with a stranger
+1, with a thief
+1, with a vehicle
+1, with a villain
+1, with a wealthy banker
+1, with a weapon
+1, with a woman
+1, with bounty hunters
+1, with foreigners
+1, with gangsters
+1, with information
+1, with innocent bystanders
+1, with Nazis
+1, with pirates
+1, with primitives
+1, with smugglers
+1, with the Ancients
+1, with the fleet
+1, with the government
+1, with the police
+
+;preposition
+1, across
+1, at
+1, in
+1, on
+1, under
+
+;location
+1, a bar
+1, a bazaar
+1, a brothel
+1, a casino
+1, a citadel
+1, a city
+1, a foreign country
+1, a frozen wasteland
+1, a hideout
+1, a hotel
+1, a jazz club
+1, a lawless city
+1, a lost city
+1, a manor
+1, a mansion
+1, a military base
+1, a mountain
+1, an apartment
+1, an evil land
+1, an island
+1, an opium den
+1, another city
+1, a place that officially doesn't exist
+1, a port
+1, a rooftop
+1, a secret location
+1, a ship
+1, a skyscraper
+1, a slum
+1, a speakeasy
+1, a strange land
+1, a stronghold
+1, a subterranean city
+1, a temple
+1, a trade route
+1, a volcano
+1, a war zone
+1, Chinatown
+1, darkest Africa
+1, gang territory
+1, ground
+1, prison
+1, the airport
+1, the border
+1, the business district
+1, the desert
+1, the deserts of Arabia
+1, the entertainment district
+1, the Far East
+1, the frontier
+1, the heroes' home city
+1, the hills
+1, the jungle
+1, the sea
+1, the sky
+1, the villain's base
+1, the villain's lair
+1, transit
+1, water
+
+;contention
+1, a battle
+1, a curse
+1, a double-cross
+1, an abduction
+1, an ambush
+1, an invasion
+1, a power struggle
+1, a trap
+1, a travel problem
+1, a vendetta
+1, being falsely accused of a crime
+1, betrayal
+1, criminals
+1, desperation
+1, diplomacy
+1, drugs
+1, equipment failure
+1, exploration
+1, fear
+1, gold
+1, insanity
+1, lack of trust
+1, language
+1, legal troubles
+1, military influence
+1, misdirection
+1, mistaken identity
+1, organised crime
+1, politics
+1, puzzles
+1, riddles
+1, rivalry
+1, spies
+1, squabbling
+1, strange customs
+1, superstition
+1, theft
+1, their one weakness
+1, the laws
+1, the weather
+1, travel
+1, trickery
+1, war
+
+;opposition
+1, a conspiracy
+1, a cult
+1, a former ally
+1, a gang
+1, a group of villains
+1, an adventurer
+1, ape-men
+1, a recurring character
+1, a shadowy figure
+1, assassins
+1, a stranger
+1, a tycoon
+1, a veteran
+1, bandits
+1, fanatics
+1, government officials
+1, lunatics
+1, mercenaries
+1, merchants
+1, slavers
+1, traitors
+
+;opposing action
+1, acquire
+1, attack
+1, banish
+1, blackmail
+1, bomb
+1, bribe
+1, build
+1, burgle
+1, conquer
+1, control
+1, corrupt
+1, create
+1, destroy
+1, disguise
+1, enslave
+1, extort
+1, fire
+1, forge
+1, frame
+1, hijack
+1, hunt
+1, hypnotise
+1, implant
+1, infect
+1, infiltrate
+1, kidnap
+1, kill
+1, manipulate
+1, murder
+1, obliterate
+1, overthrow
+1, poison
+1, ransom
+1, rebuild
+1, rob
+1, rule
+1, sell
+1, smuggle
+1, steal
+1, summon
+1, take
+1, terrorise
+1, uncover
+1, win
+
+;opposing target
+1, a brilliant scientist.
+1, a child genius.
+1, a death ray at a brilliant scientist.
+1, a death ray at a child genius.
+1, a death ray at a famous magician.
+1, a death ray at a fortune in gold.
+1, a death ray at a jungle tribe.
+1, a death ray at a monster.
+1, a death ray at an ancient race.
+1, a death ray at ancient Atlantis.
+1, a death ray at an entire country.
+1, a death ray at a new form of energy.
+1, a death ray at a new super-weapon.
+1, a death ray at an experiment gone wrong.
+1, a death ray at a peaceful village.
+1, a death ray at a power-ring.
+1, a death ray at a reincarnated king.
+1, a death ray at a secret government agency.
+1, a death ray at a sorcerer-king.
+1, a death ray at a super-computer.
+1, a death ray at a woman.
+1, a death ray at corrupt police.
+1, a death ray at drug runners.
+1, a death ray at government scientists.
+1, a death ray at innocent victims.
+1, a death ray at mysterious alien technology.
+1, a death ray at Nazi gold.
+1, a death ray at one of the heroes' family.
+1, a death ray at someone famous.
+1, a death ray at the bank.
+1, a death ray at the Chosen One.
+1, a death ray at the Elder Gods.
+1, a death ray at the entire human race.
+1, a death ray at the entire world.
+1, a death ray at the Great Old Ones.
+1, a death ray at the heroes.
+1, a death ray at the heroes' friend.
+1, a death ray at the heroes' rivals.
+1, a death ray at the miners' payroll.
+1, a death ray at the Nazis.
+1, a death ray at the police.
+1, a death ray at the Police Chief.
+1, a death ray at the United States.
+1, a death ray at the water supply.
+1, a famous magician.
+1, a fortune in gold.
+1, a hypnotic suggestion in a brilliant scientist.
+1, a hypnotic suggestion in a child genius.
+1, a hypnotic suggestion in a famous magician.
+1, a hypnotic suggestion in a fortune in gold.
+1, a hypnotic suggestion in a jungle tribe.
+1, a hypnotic suggestion in a monster.
+1, a hypnotic suggestion in an ancient race.
+1, a hypnotic suggestion in ancient Atlantis.
+1, a hypnotic suggestion in an entire country.
+1, a hypnotic suggestion in a new form of energy.
+1, a hypnotic suggestion in a new super-weapon.
+1, a hypnotic suggestion in an experiment gone wrong.
+1, a hypnotic suggestion in a peaceful village.
+1, a hypnotic suggestion in a power-ring.
+1, a hypnotic suggestion in a reincarnated king.
+1, a hypnotic suggestion in a secret government agency.
+1, a hypnotic suggestion in a sorcerer-king.
+1, a hypnotic suggestion in a super-computer.
+1, a hypnotic suggestion in a woman.
+1, a hypnotic suggestion in corrupt police.
+1, a hypnotic suggestion in drug runners.
+1, a hypnotic suggestion in government scientists.
+1, a hypnotic suggestion in innocent victims.
+1, a hypnotic suggestion in mysterious alien technology.
+1, a hypnotic suggestion in Nazi gold.
+1, a hypnotic suggestion in one of the heroes' family.
+1, a hypnotic suggestion in someone famous.
+1, a hypnotic suggestion in the bank.
+1, a hypnotic suggestion in the Chosen One.
+1, a hypnotic suggestion in the Elder Gods.
+1, a hypnotic suggestion in the entire human race.
+1, a hypnotic suggestion in the entire world.
+1, a hypnotic suggestion in the Great Old Ones.
+1, a hypnotic suggestion in the heroes.
+1, a hypnotic suggestion in the heroes' friend.
+1, a hypnotic suggestion in the heroes' rivals.
+1, a hypnotic suggestion in the miners' payroll.
+1, a hypnotic suggestion in the Nazis.
+1, a hypnotic suggestion in the police.
+1, a hypnotic suggestion in the Police Chief.
+1, a hypnotic suggestion in the United States.
+1, a hypnotic suggestion in the water supply.
+1, a jungle tribe.
+1, a monster.
+1, an ancient race.
+1, ancient Atlantis.
+1, an entire country.
+1, a new form of energy.
+1, a new super-weapon.
+1, an experiment gone wrong.
+1, a peaceful village.
+1, a power-ring.
+1, a reincarnated king.
+1, a robot double of a brilliant scientist.
+1, a robot double of a child genius.
+1, a robot double of a famous magician.
+1, a robot double of a fortune in gold.
+1, a robot double of a jungle tribe.
+1, a robot double of a monster.
+1, a robot double of an ancient race.
+1, a robot double of ancient Atlantis.
+1, a robot double of an entire country.
+1, a robot double of a new form of energy.
+1, a robot double of a new super-weapon.
+1, a robot double of an experiment gone wrong.
+1, a robot double of a peaceful village.
+1, a robot double of a power-ring.
+1, a robot double of a reincarnated king.
+1, a robot double of a secret government agency.
+1, a robot double of a sorcerer-king.
+1, a robot double of a super-computer.
+1, a robot double of a woman.
+1, a robot double of corrupt police.
+1, a robot double of drug runners.
+1, a robot double of government scientists.
+1, a robot double of innocent victims.
+1, a robot double of mysterious alien technology.
+1, a robot double of Nazi gold.
+1, a robot double of one of the heroes' family.
+1, a robot double of someone famous.
+1, a robot double of the bank.
+1, a robot double of the Chosen One.
+1, a robot double of the Elder Gods.
+1, a robot double of the entire human race.
+1, a robot double of the entire world.
+1, a robot double of the Great Old Ones.
+1, a robot double of the heroes.
+1, a robot double of the heroes' friend.
+1, a robot double of the heroes' rivals.
+1, a robot double of the miners' payroll.
+1, a robot double of the Nazis.
+1, a robot double of the police.
+1, a robot double of the Police Chief.
+1, a robot double of the United States.
+1, a robot double of the water supply.
+1, a secret government agency.
+1, a sorcerer-king.
+1, a super-computer.
+1, a woman.
+1, corrupt police.
+1, drug runners.
+1, from a brilliant scientist.
+1, from a child genius.
+1, from a famous magician.
+1, from a fortune in gold.
+1, from a jungle tribe.
+1, from a monster.
+1, from an ancient race.
+1, from ancient Atlantis.
+1, from an entire country.
+1, from a new form of energy.
+1, from a new super-weapon.
+1, from an experiment gone wrong.
+1, from a peaceful village.
+1, from a power-ring.
+1, from a reincarnated king.
+1, from a secret government agency.
+1, from a sorcerer-king.
+1, from a super-computer.
+1, from a woman.
+1, from corrupt police.
+1, from drug runners.
+1, from government scientists.
+1, from innocent victims.
+1, from mysterious alien technology.
+1, from Nazi gold.
+1, from one of the heroes' family.
+1, from someone famous.
+1, from the bank.
+1, from the Chosen One.
+1, from the Elder Gods.
+1, from the entire human race.
+1, from the entire world.
+1, from the Great Old Ones.
+1, from the heroes.
+1, from the heroes' friend.
+1, from the heroes' rivals.
+1, from the miners' payroll.
+1, from the Nazis.
+1, from the police.
+1, from the Police Chief.
+1, from the United States.
+1, from the water supply.
+1, government scientists.
+1, innocent victims.
+1, mysterious alien technology.
+1, Nazi gold.
+1, one of the heroes' family.
+1, someone famous.
+1, the bank.
+1, the Chosen One.
+1, the credentials of a brilliant scientist.
+1, the credentials of a child genius.
+1, the credentials of a famous magician.
+1, the credentials of a fortune in gold.
+1, the credentials of a jungle tribe.
+1, the credentials of a monster.
+1, the credentials of an ancient race.
+1, the credentials of ancient Atlantis.
+1, the credentials of an entire country.
+1, the credentials of a new form of energy.
+1, the credentials of a new super-weapon.
+1, the credentials of an experiment gone wrong.
+1, the credentials of a peaceful village.
+1, the credentials of a power-ring.
+1, the credentials of a reincarnated king.
+1, the credentials of a secret government agency.
+1, the credentials of a sorcerer-king.
+1, the credentials of a super-computer.
+1, the credentials of a woman.
+1, the credentials of corrupt police.
+1, the credentials of drug runners.
+1, the credentials of government scientists.
+1, the credentials of innocent victims.
+1, the credentials of mysterious alien technology.
+1, the credentials of Nazi gold.
+1, the credentials of one of the heroes' family.
+1, the credentials of someone famous.
+1, the credentials of the bank.
+1, the credentials of the Chosen One.
+1, the credentials of the Elder Gods.
+1, the credentials of the entire human race.
+1, the credentials of the entire world.
+1, the credentials of the Great Old Ones.
+1, the credentials of the heroes.
+1, the credentials of the heroes' friend.
+1, the credentials of the heroes' rivals.
+1, the credentials of the miners' payroll.
+1, the credentials of the Nazis.
+1, the credentials of the police.
+1, the credentials of the Police Chief.
+1, the credentials of the United States.
+1, the credentials of the water supply.
+1, the Elder Gods.
+1, the entire human race.
+1, the entire world.
+1, the Great Old Ones.
+1, the heroes.
+1, the heroes' friend.
+1, the heroes' rivals.
+1, the love of a brilliant scientist.
+1, the love of a child genius.
+1, the love of a famous magician.
+1, the love of a fortune in gold.
+1, the love of a jungle tribe.
+1, the love of a monster.
+1, the love of an ancient race.
+1, the love of ancient Atlantis.
+1, the love of an entire country.
+1, the love of a new form of energy.
+1, the love of a new super-weapon.
+1, the love of an experiment gone wrong.
+1, the love of a peaceful village.
+1, the love of a power-ring.
+1, the love of a reincarnated king.
+1, the love of a secret government agency.
+1, the love of a sorcerer-king.
+1, the love of a super-computer.
+1, the love of a woman.
+1, the love of corrupt police.
+1, the love of drug runners.
+1, the love of government scientists.
+1, the love of innocent victims.
+1, the love of mysterious alien technology.
+1, the love of Nazi gold.
+1, the love of one of the heroes' family.
+1, the love of someone famous.
+1, the love of the bank.
+1, the love of the Chosen One.
+1, the love of the Elder Gods.
+1, the love of the entire human race.
+1, the love of the entire world.
+1, the love of the Great Old Ones.
+1, the love of the heroes.
+1, the love of the heroes' friend.
+1, the love of the heroes' rivals.
+1, the love of the miners' payroll.
+1, the love of the Nazis.
+1, the love of the police.
+1, the love of the Police Chief.
+1, the love of the United States.
+1, the love of the water supply.
+1, the miners' payroll.
+1, themselves as a brilliant scientist.
+1, themselves as a child genius.
+1, themselves as a famous magician.
+1, themselves as a fortune in gold.
+1, themselves as a jungle tribe.
+1, themselves as a monster.
+1, themselves as an ancient race.
+1, themselves as ancient Atlantis.
+1, themselves as an entire country.
+1, themselves as a new form of energy.
+1, themselves as a new super-weapon.
+1, themselves as an experiment gone wrong.
+1, themselves as a peaceful village.
+1, themselves as a power-ring.
+1, themselves as a reincarnated king.
+1, themselves as a secret government agency.
+1, themselves as a sorcerer-king.
+1, themselves as a super-computer.
+1, themselves as a woman.
+1, themselves as corrupt police.
+1, themselves as drug runners.
+1, themselves as government scientists.
+1, themselves as innocent victims.
+1, themselves as mysterious alien technology.
+1, themselves as Nazi gold.
+1, themselves as one of the heroes' family.
+1, themselves as someone famous.
+1, themselves as the bank.
+1, themselves as the Chosen One.
+1, themselves as the Elder Gods.
+1, themselves as the entire human race.
+1, themselves as the entire world.
+1, themselves as the Great Old Ones.
+1, themselves as the heroes.
+1, themselves as the heroes' friend.
+1, themselves as the heroes' rivals.
+1, themselves as the miners' payroll.
+1, themselves as the Nazis.
+1, themselves as the police.
+1, themselves as the Police Chief.
+1, themselves as the United States.
+1, themselves as the water supply.
+1, the Nazis.
+1, the police.
+1, the Police Chief.
+1, the secrets of a brilliant scientist.
+1, the secrets of a child genius.
+1, the secrets of a famous magician.
+1, the secrets of a fortune in gold.
+1, the secrets of a jungle tribe.
+1, the secrets of a monster.
+1, the secrets of an ancient race.
+1, the secrets of ancient Atlantis.
+1, the secrets of an entire country.
+1, the secrets of a new form of energy.
+1, the secrets of a new super-weapon.
+1, the secrets of an experiment gone wrong.
+1, the secrets of a peaceful village.
+1, the secrets of a power-ring.
+1, the secrets of a reincarnated king.
+1, the secrets of a secret government agency.
+1, the secrets of a sorcerer-king.
+1, the secrets of a super-computer.
+1, the secrets of a woman.
+1, the secrets of corrupt police.
+1, the secrets of drug runners.
+1, the secrets of government scientists.
+1, the secrets of innocent victims.
+1, the secrets of mysterious alien technology.
+1, the secrets of Nazi gold.
+1, the secrets of one of the heroes' family.
+1, the secrets of someone famous.
+1, the secrets of the bank.
+1, the secrets of the Chosen One.
+1, the secrets of the Elder Gods.
+1, the secrets of the entire human race.
+1, the secrets of the entire world.
+1, the secrets of the Great Old Ones.
+1, the secrets of the heroes.
+1, the secrets of the heroes' friend.
+1, the secrets of the heroes' rivals.
+1, the secrets of the miners' payroll.
+1, the secrets of the Nazis.
+1, the secrets of the police.
+1, the secrets of the Police Chief.
+1, the secrets of the United States.
+1, the secrets of the water supply.
+1, the United States.
+1, the water supply.

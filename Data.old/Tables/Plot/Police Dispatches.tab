@@ -1,0 +1,454 @@
+
+;Start
+1,"Clear for emergency traffic. [code]. [reportingsource] [report] [crimephrase], [location]. [detail] Respond."
+1,"[code]. [reportingsource] [report] [crimephrase], [location]. [detail] Over."
+1,"Calling patrol vehicle. I have a [code]. [reportingsource] [report] [crimephrase], [location]. Interview possible witness, [witnessrace] [gender][isminor], [location]. Please acknowledge."
+1,"Attention mobile unit.  [reportingsource] [report] [crimephrase], [location].  This is a [code]. [detail] Please respond."
+
+;code
+1,Code 1, respond at your convenience
+1,Code 2, clear nonessential calls and respond
+1,Code 3, respond immediately
+1,Code 4 Adam, suspect in vicinity
+1,Code 5, establish surveillance
+1,Code 5 Edward, explosive danger to low-altitude aircraft
+1,Code 6 Adam, assistance needed in investigation
+1,Code 6 George, gang-related investigation
+1,Code 8, backup requested
+1,Code 8, fire reported at location
+1,Code 9, roadblock requested
+1,Code 12, news media on scene
+1,Code 20, officer needs routine assistance
+1,Code 20, unusual public interest
+1,Code 25, detective needs routine assistance
+1,Code 30, officer needs emergency assistance
+1,Code 30 silent, silent alarm activated
+1,Code 30 ringer, alarm ringing at location
+1,Code 33, mobile emergency, clear this channel
+1,Code 43, tactical forces committed
+1,Code 100, possible escape route being surveilled
+
+;witnessrace
+1,a
+1,a White
+1,a Black
+1,an Asian
+1,a Hispanic
+1,a Native American
+1,an apparently biracial
+
+;isminor
+10,
+1, minor child
+
+;reportingsource
+1,Civilian flagdown
+1,Interrupted 911 call
+1,911 call
+1,Confidential informant
+1,88-CRIME tip
+1,Media tip
+1,Anonymous tip
+1,Federal Bureau of Investigation
+1,Fire Department
+1,Precinct station walk-in
+1,Officer
+2,Detective
+1,Crime Scene Investigation analyst
+1,Wiretap squad
+1,Surveillance team
+1,Organized Crime squad
+1,Undercover officer
+1,Prosecutor's office
+1,Adjoining law enforcement agency
+1,Drug Enforcement Administration
+1,Department of Justice
+1,Border Patrol
+1,Commissioner's Office
+1,Mayor's Office
+
+;report
+1,reports 
+1,suggests concern regarding
+1,suggests concern regarding possible
+1,reports possible
+1,provides information regarding
+1,provides information regarding possible
+
+;crimephrase
+1,attempted [crime]
+1,solicited [crime]
+1,conspiracy to commit [crime]
+1,facilitation of [crime]
+1,[crime] in progress
+1,attempted [crime] in progress
+1,solicitation of [crime] in progress
+1,conspiracy to commit [crime] in progress
+1,facilitation of [crime] in progress
+10,[crime]
+
+;crime
+1,Premeditated Murder
+1,Manslaughter
+1,Felony Murder
+1,Nonpremeditated Murder
+1,Endangerment
+1,Threatening and Intimidating
+1,Assault
+1,Aggravated Assault
+1,Aggravated Assault With Dangerous Instrument, [dangerousinstrument]
+1,Aggravated Assault On Peace Officer
+1,Poisoning
+1,Assault by Vicious Animal
+1,Drive-By Shooting
+1,Discharging a Firearm at a Structure
+1,Laser Pointer Aimed At Officer
+1,Custodial Interference
+1,Unlawful Imprisonment
+1,Kidnapping For Ransom
+1,Sex Trafficking
+1,Indecent Exposure
+1,Public Sexual Indecency
+1,Sexual Conduct With A Minor
+1,Sexual Assault
+1,Molestation of a Child
+1,Bestiality
+1,Sexual Assault Accompanied By Dangerous Instrument, [dangerousinstrument]
+1,Voyeurism
+1,Criminal Trespass, Remaining Unlawfully On Property After Reasonable Request to Leave
+1,Criminal Trespass
+1,Possession of Burglary Tools
+1,Burglary of a Motor Vehicle
+1,Burglary
+1,Criminal Damage
+1,Criminal Littering or Polluting
+1,Reckless Burning
+1,Arson
+1,Arson of an Occupied Structure
+1,Burning of Wildlands
+1,Unlawful Cross Burning
+1,Unlawful Symbol Burning
+1,Theft
+1,Theft by Extortion
+1,Shoplifting
+1,Unlawful Failure to Return Rented or Leased Property
+1,Issuing a Bad Check
+1,Theft of Means of Transportation
+1,Unlawful use of Power of Attorney
+1,Unlawful Removal of Theft Prevention Device
+1,Unlawful Alteration of Receipt
+1,Robbery
+1,Robbery with Accomplices Present
+1,Armed Robbery With [dangerousinstrument]
+1,Forgery
+1,Criminal Possession of a Forgery Device
+1,Theft of Credit Card
+1,Obtaining Credit Card by Fraudulent Means
+1,Fraudulent Use of Credit Card
+1,False Statement of Financial Condition or Identity
+1,Fraud by Person Authorized to give Goods or Services
+1,Credit Card Transaction Record Theft
+1,Unlawful Possession or Use of Scanning Device or Re-Encoder
+1,Deceptive Business Practices
+1,False Advertising
+1,Defrauding Secured Creditors
+1,Defrauding Judgment Creditors
+1,Fraud in Insolvency
+1,Usury
+1,Loansharking
+1,Collection of Credit by Extortionate Means
+1,Possession of Altered Property
+1,Trafficking in Stolen Property
+1,Participating in or Assisting a Criminal Syndicate
+1,Terrorism
+1,Bribery of Participants in Professional or Amateur Games
+1,Fraudulent Schemes and Artifices
+1,Illegal Control of an Enterprise
+1,Racketeering
+1,Computer Tampering
+1,Unauthorized Release of Proprietary or Confidential Computer Security Information
+1,Money Laundering
+1,Smuggling
+1,Mortgage Fraud
+1,Participating or Assisting Criminal Street Gang
+1,Obstructing Governmental Operations
+1,Impersonating A Public Servant
+1,Tampering with a Public Record
+1,Securing the Proceeds of an Offense
+1,Obstruction of Criminal Investigation
+1,Obstruction of Prosecution
+1,Escape From Jail
+1,Escape from Custody
+1,Promoting Prison Contraband
+1,Failure to Appear re: felony
+1,Failure to Appear re: misdemeanor
+1,Failure to Appear re: traffic offense
+1,Resisting Arrest
+1,Bribery of a Public Servant
+1,Trading in Public Office
+1,Commercial Bribery
+1,Offer to Exert Improper Influence on Public Officer for Consideration
+1,Perjury
+1,Influencing a Witness
+1,Bribery of a Witness
+1,Tampering with a Witness
+1,Influencing a Juror
+1,Receiving a Bribe by a Juror
+1,Jury Tampering
+1,Tampering with Physical Evidence
+1,Interference with Judicial Proceedings
+1,Unlawful Assembly
+1,Riot
+1,Disorderly Conduct
+1,Loitering
+1,Obstructing a Public Thoroughfare
+1,False Reporting to Law Enforcement
+1,False Reporting to Emergency Services
+1,Criminal Nuisance
+1,Residential Picketing
+1,Dogfighting
+1,Cockfighting
+1,Cruelty to Animals
+1,Unlawful Introduction of Disease or Parasite
+1,Noise Ordinance Violation
+1,Harassment
+1,Harassment with Threats
+1,Stalking
+1,Unlawful Solicitation of Tort Victims
+1,Hoax
+1,Abandonment or Concealment of Dead Body
+1,Sending Threatening Anonymous Letter
+1,Opening Letter of Another without Authority
+1,Interception of Telephone Communications
+1,Interception of Computer Communications
+1,Misconduct Involving Weapons
+1,Unlawful Discharge of Firearm
+1,Sale or Gift of Firearm to Minor
+1,Depositing Explosive Device
+1,Possession of Explosive Device
+1,Simulation of Explosive Device
+1,Minor In Possession of Firearm
+1,Prohibited Possession of Firearm
+1,Possession of Prohibited Firearm
+1,Enticement for Prostitution
+1,Procurement of Prostitution
+1,Placing Person in House of Prostitution
+1,Maintaining House of Prostitution
+1,Receiving Earnings of Prostitute
+1,Causing Spouse to become Prostitute
+1,Taking Child for purposes of Prostitution
+1,Residing in House of Prostitution
+1,Child Prostitution
+1,Prostitution
+1,Possession of a Gambling Device
+1,Illegal Gambling
+1,Drug Possession
+1,Drug Sales
+1,Drug Trafficking
+1,Drug Manufacturing
+1,Drug Preparation
+1,Possession of Imitation Drug
+1,Trafficking of Imitation Drug
+1,Preparation of Imitation Drug
+1,Provision of Obscene Materials to Minors
+1,Sexual Exploitation of a Minor
+1,Domestic Violence
+1,Domestic Violence with a Dangerous Instrument, [dangerousinstrument]
+1,Incest
+1,Bigamy
+1,Contributing to the Delinquency of a Minor
+1,Contributing to the Dependency of a Minor
+1,Neglect of a Child
+1,Abuse of a Child
+1,Trafficking in Children
+1,Unlawful use of Food Stamps
+1,Defacing or Damaging Archaeological Site
+1,Obtaining Cable Television Services Fraudulently
+1,Ticket Scalping
+1,Evasion of a Warrant
+
+
+;dangerousinstrument
+1,a Knife
+1,a Firearm
+1,an Assault Firearm
+1,an Explosive
+1,a Motor Vehicle
+1,a Chainsaw
+1,an Axe
+1,a Baseball Bat
+1,an Unknown Instrument
+
+;location
+1,on [direction] [streetname] [streettype]
+1,[direction] of [streetname] [streettype]
+1,in [neighborhood]
+1,location unknown
+1,location to follow
+1,at City Hall
+1,near your location
+1,in your patrol sector
+1,at gas station just off interstate exit [Dice.1d8][Dice.1d8], which is the [streetname] [streettype] exit
+1,at the corner of [direction] [streetname] and [streetname] [streettype]
+1,in residential area of [neighborhood]
+1,in private residence on [direction] [streetname] [streettype]
+1,in public park in [neighborhood]
+1,at business address on [direction] [streetname] [streettype]
+1,in [Dice.1d8]00 block of [streetname] [streettype]
+1,in [Dice.1d8][Dice.1d8]00 block of [streetname] [streettype]
+1,location provided on your screen
+1,location provided via TAC-COM
+
+;direction
+1,North
+1,South
+1,East
+1,West
+
+;streetname
+1,Washington 
+1,Jefferson
+1,Adams
+1,Davis
+1,Lee
+1,Grant
+1,Lincoln
+1,Polk
+1,Garfield
+1,Taft
+1,Roosevelt
+1,Eastwood
+1,Westwood
+1,Northwood
+1,Southwood
+1,Butler
+1,Fairview
+1,Midway
+1,Riverside
+1,Oak Grove
+1,Five Points
+1,Callaghan
+1,Dockside
+1,Sheridan
+1,Central
+1,Main
+1,Johnson
+1,Kennedy
+1,Martin Luther King
+1,Broadway
+1,White
+1,Water
+1,Bay
+1,Bridge
+1,Frontage
+1,Feeder
+
+;streettype
+1,Street
+1,Avenue
+1,Road
+1,Boulevard
+1,Place
+
+;detail
+11,Suspect is [race] [gender], [features]
+3,Suspect is [race] [gender], [features] Suspect has left the area.
+3,Suspect is [race] [gender], [features] Last seen in a vehicle on [streetname] [streettype].
+3,Suspect is [race] [gender], [features] Last seen on foot, [moving] [direction]bound on [streetname] [streettype].
+3,Suspect is [race] [gender], [features] Last seen riding a [Color.dull] bicycle [direction]bound on [streetname] [streettype].
+1,Suspect is [race] Male, with [Female Appearance.FacialHairMale], [features]
+1,Suspect is [race] Female, wearing heavy makeup and a [Color.bright] dress.
+1,No known information regarding suspect.
+1,Evidence left at scene.
+1,Possible involvement with federal court case.
+1,Minimal media presence requested by Chief.
+1,Patrol officers already on scene.
+1,First responder reports all quiet.
+1,First responder reports chaos.
+1,First officer on scene is not responding to radio call.
+1,*SKRRRRRRRKKKKT*
+1,I am showing you assigned to this report.
+1,You were assigned to this report previously.
+1,Citizen holding suspect.
+1,Suspect also wanted in connection with unrelated felony.
+1,Suspect may be armed and dangerous.
+1,Suspect is 390, clearly intoxicated [race] male, [features]
+1,Suspect is 390W, clearly intoxicated [race] female, [features]
+1,Suspect is clearly mentally ill [race] [gender], [features]
+1,Emergency medical support en route.
+1,Air support providing assistance.
+1,High speed chase in progress.
+1,Explosion reported.
+1,Gunfire reported.
+1,Violence reported.
+1,Excessive noise reported.
+1,Abandoned automobile on scene.
+1,Fire reported.
+1,Fire trucks en route.
+1,Fire Department on scene.
+1,Emergency medical support on scene.
+1,Tactical command set up on [direction] [streetname] [streettype].
+1,Automobile collision reported.
+1,Tow truck on scene.
+1,Hostage situation in progress.
+1,QT secrecy required regarding location.
+1,Hot-shot 911 transmission to follow.
+
+;moving
+1,moving
+1,proceeding
+1,fleeing
+1,running
+1,walking
+1,traveling
+1,driving
+
+;neighborhood
+1,Central Heights block
+1,Collinstown neighborhood
+1,Old City neighborhood
+1,Antelope Hills neighborhood
+1,Scarsdale neighborhood
+1,Northern Heights block
+1,Amsterdam Housing Project block
+
+;race
+1,White
+1,Black
+1,Hispanic
+1,Asian
+1,Native American
+1,
+1,apparently biracial
+
+;gender
+1,Male
+1,Female
+
+;features
+1,wearing a black business suit.
+1,carrying a large cardboard box.
+1,with visible bloodstains on clothing.
+1,highly agitated.
+1,prone and nonresponsive.
+1,accompanied by two minor children.
+1,carrying a grocery sack.
+1,carrying large number of one-dollar bills.
+1,wearing gang colors.
+1,heavily tattooed.
+1,has significant birthmark on face.
+1,wearing a thong swimsuit.
+1,wearing an athletic jersey and sweatpants.
+1,wearing only [Color.dull] clothing.
+1,with shaved head.
+1,accompanied by unknown female.
+1,carrying a baseball bat.
+1,carrying a set of garden shears.
+1,wearing gold chain necklace.
+1,wearing silver tooth decorations.
+1,wearing shirt with high collar.
+1,wearing cloth cap with brim pulled down.
+1,speaking only unknown Asian language.
+1,speaking Spanish only.
+
+

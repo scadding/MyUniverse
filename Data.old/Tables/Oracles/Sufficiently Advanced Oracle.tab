@@ -1,0 +1,281 @@
+
+#Oracle for [http://suffadv.wikidot.com/ Sufficiently Advanced], 
+#a Game of the Far Future, based on the existing 
+#[http://suffadv.wikidot.com/briefing Briefing Generator] and [http://suffadv.wikidot.com/situation Situation Generator].
+
+;Start
+1,<h2>Briefing from the Transcendentals</h2>
+_<sgdisplay iterations="1">
+_1. You must [You_Must] [And].<br/>
+_2. Then you will [Then_You_Will].<br/>
+_3. After which, [After_Which].
+_</sgdisplay>
+_
+_<h2>Facts on the Ground</h2>
+_<sgdisplay iterations="1">
+_<b>Red Herring:</b> [Problem]<br/>
+_<b>The Real Problem:</b> [Problem]<br/>
+_<b>Source of the Problem:</b> [Source_of_the_Problem]<br/>
+_<b>Human Complication:</b> [Human_Complication]<br/>
+_<b>Nonhuman Complication:</b> [Nonhuman_Complication]<br/>
+_<b>Inspector Hooks:</b> [Inspector_Hooks]. <br/>
+_<b>Consequences of Failure:</b> [Consequences_of_Failure]<br/>
+_</sgdisplay>
+_
+_<h2>Random Civiliations</h2>
+_<sgdisplay iterations="3">
+_<b>Name:</b> [Civilization_Name]<br/>
+_<b>Description:</b> [Bleakworld.Temperature], [Bleakworld.Colour] [Bleakworld.Terrain] world [Bleakworld.Function]<br/>
+_<b>Core Values:</b> [Core_Value] and [Core_Value]<br/>
+_<b>Inspector Status:</b> [Inspector_Status]<br/>
+_</sgdisplay>
+
+;You_Must
+1,wormhole to [Civilization]
+1,wormhole to (location)
+1,travel to (location), which is under a wormhole interdiction field,
+1,speak with (NPC)
+1,attend (event)
+1,negotiate with (large group) of [Civilization]
+1,infiltrate (large group) of [Civilization]
+1,find and apprehend (NPC)
+1,defend the Patent Office's recent actions to [Civilization]
+1,defend the Patent Office's recent actions in (location)
+1,take a vacation on (world)
+
+;Civilization
+1,Civilization #1
+1,Civilization #2
+1,Civilization #3
+
+;And
+1,unnoticed
+1,individually
+1,with an open mind
+1,as soon as possible
+1,at your convenience
+1,before (date)
+1,not before (date)
+1,with (NPC)
+1,in disquise
+1,as an official representative of the Transcendentals
+
+;Then_You_Will
+1,avoid human contact
+1,investigate the use of [Technology]
+1,prevent the activation of [Technology]
+1,speak with (NPC)
+1,prevent the spread of [Technology]
+1,simply observe
+1,insure that intellectual property law is being followed
+1,act as mediator
+1,make contact with (small group) of [Civilization]
+1,be the target of an attack
+
+;Technology
+1,[Technology_Type] [Technology_Application] technology
+
+;Technology_Type
+1,AI
+1,biotech
+1,cognitech
+1,decay-induction field
+1,empathic
+1,infosphere
+1,metatech
+1,psychohistory
+1,replicator
+1,nanophage
+1,nanotech
+1,neural meshes
+1,stringtech
+1,transmutation
+1,weather
+1,wormhole
+1,biofeedback
+
+;Technology_Application
+1,offensive
+1,protective
+1,medical
+1,transportation
+1,quality Of Life
+1,informational
+1,infrastructure
+1,self-replicating
+1,utility
+
+;After_Which
+1,we have no further information at this time
+1,you should be prepared for conflict.
+1,you should work as quickly as possible to resolve the problem.
+1,you can take a week off
+1,you will be updated in situ
+1,you will be unable to return for three weeks
+1,backup will be available as you need it
+1,you should contact the Central Office
+1,you should stand ready for a new mission immediately
+1,you will have to use your best judgment
+
+;Civilization_Name
+4,[Fantasy Names.MaleFirstName]
+4,[Arabesque Names.Start]
+2,[Aztec Names.Start]
+3,[Centaur Names.Male]
+3,[Centaur Names.Female]
+1,[Ancient Greek Female Names.Start]
+1,[Ancient Greek Island Names.Start]
+1,[Ancient Greek Male Names.Start]
+5,[SGNP orcish.Start]
+5,[Fantasy barbarian names.Female]
+5,[Fantasy barbarian names.Male]
+2,[Afrika Names.Start]
+1,[SGNP norse.female1]
+1,[SGNP norse.female2]
+1,[SGNP norse.female3]
+1,[SGNP norse.male1]
+1,[SGNP norse.male2]
+1,[SGNP norse.male3]
+
+;Core_Value
+1,Accountability
+1,Authenticity
+1,Caution
+1,Charity
+1,Community
+1,Competition
+1,Creation
+1,Creativity
+1,Diligence
+1,Discovery
+1,Diversity
+1,Efficiency
+1,Elegance
+1,Entitlement
+1,Expansion
+1,Exploration
+1,Expression
+1,Faith
+1,Family
+1,Freedom
+1,Friendship
+1,Growth
+1,Hierarchy
+1,Honesty
+1,Hospitality
+1,Humility
+1,Independence
+1,Information
+1,Invention
+1,Knowledge
+1,Law
+1,Logic
+1,Peace
+1,Pleasure
+1,Power
+1,Privacy
+1,Profit
+1,Property
+1,Questioning
+1,Recklessness
+1,Responsibility
+1,Ritual
+1,Safety
+1,Sanity
+1,Secrecy
+1,Security
+1,Serenity
+1,Silence
+1,Simplicity
+1,Solidarity
+1,Stories
+1,Teamwork
+1,The Future
+1,Tradition
+1,Travel
+1,Truth
+1,Unity
+1,Variety
+1,Wanderlust
+1,Winning
+1,Worship
+
+;Inspector_Status
+1,Personal guests of the head of government
+4,Equivalent to an FBI or customs agent
+5,Equivalent to a local police officer
+3,Non-citizen with no rights
+1,Ignored
+1,Unwelcome
+
+;Source_of_the_Problem
+1,Runaway technology
+1,A lone lunatic
+1,The Darwinians
+1,[Civilization]
+1,A Civilization that some of the PCs are from
+1,A Civilization that none of the PCs are from
+1,A Society that some of the PCs are from
+1,A Society that none of the PCs are from
+1,An entirely new faction - an unknown Civilization, Society, or alien species
+1,Well-intentioned fools
+
+;Problem
+1,Runaway technology
+1,Serious misuse of technology
+1,A patent violation
+1,The presence of human beings in this region
+1,A major misunderstanding between groups
+1,Long-running disagreements come to a head
+1,A personal feud with supporters on both sides
+1,Potential devastation
+1,A new Transcendental
+1,One of the Inspectors is the problem
+
+;Nonhuman_Complication
+1,Dangerous conditions. Examples inlude superhot planets, open vacuum and hard radiation.
+1,Fragile environment, such as underground, a starship, or an undersea city.
+1,Time limit - days, weeks, months or years.
+1,Cosmic disaster - supernova, gamma ray bursters, pulsars, etc.
+1,Nearby alien presence - Aia or Skotadi
+1,Total power outage
+1,Relics from an ancient alien civilization
+1,Planetary/Stellar destruction - intense solar flares, widespread vulcanism
+1,Hostile alien activity - Aia or Skotadi
+1,Ecological problems - new phase in life cycles, plague, emerging life form, natural pollution
+
+;Human_Complication
+1,Wartime conditions - bombardment, autonomous war machines, phage blooms, infosphere denial, memetic virii, martial law.
+1,Innocents caught in the middle - stranded travelers, an ill fated love affair caught between the sides, etc.
+1,Tremendous (and fragile) egos
+1,One or both sides outright lying about what they want
+1,Law enforcement conflicts with humanitarianism
+1,Heavy spying going on (e.g. a Roamer encampment nearby, rivals stepped up spying, unknown third party)
+1,The infosphere has problems - connectivity off world, its down, intermittent access, surveillance, censorship, I-war attacks or hostile a-life
+1,Inspectors lack legal authority here
+1,Unknown third party attempting to sabotage all others
+1,Total incompetence from someone the Inspectors must work with
+
+;Inspector_Hooks
+1,An Inspector's Core Value supports the mission
+1,An Inspector's Core Value opposes the mission
+1,Inspector's family or friends involved
+1,Mission takes place in an Inspector's home Civilization
+1,Mission takes place in a Civilization that is an enemy of an Inspector's home Civilization
+1,Mission revolves around an Inspector's Society
+1,Conflict between major NPC core values and an Inspector's
+1,One of the Inspectors is an expert in a particularly relevant Profession, and has been asked for by name
+
+;Consequences_of_Failure
+1,Massive death or destruction
+1,War between Civilizations
+1,One single very important person dies or loses their way
+1,Economic collapse for a particular Civilization
+1,Fragmentation of a particular Civilization - into 2 major Civilizations, minor Civilizations, civil war, etc.
+1,Rise or fall of a Society
+1,Rise or fall of a Civilization - ascent from minor to major, descent to a society (or societies), civil war
+1,A Civilization rejects the Transcendentals
+1,Distant, undefined consequences for the Desired Future
+1,Transcendentals incommunicado for X days/weeks/months/years
+
+

@@ -1,0 +1,72 @@
+
+;Start
+1,[male] [surnames]
+1,[female] [surnames]
+
+;male
+1,Boris (Boba, Borya) 
+1,Ivan (Vanya) 
+1,Sergei (Seryozha) 
+1,Nikolai (Kolya) 
+1,Alexander (Sasha) 
+1,Igor 
+1,Oleg (Olya) 
+1,Yevgeni (Zhenya) 
+1,Piotr (Petya) 
+1,Viktor (Vitya) 
+1,Vladimir (Volodya, Vova) 
+1,Arkady (Arkasha) 
+1,Fyodor (Fedya) 
+1,Mikhail (Misha) 
+1,Yakov (Yasha) 
+1,Vasili (Vasya) 
+1,Timofei (Tima, Timosha) 
+1,Anatoly (Tolya) 
+1,Viacheslav (Slava) 
+1,Valentin (Valya)
+
+;female
+1,Evgeniya (Zhenya) 
+1,Galina (Galya) 
+1,Olga (Olya) 
+1,Alexandra (Sasha) 
+1,Yekaterina (Katya) 
+1,Elena (Lena) 
+1,Irina (Ira, Irisha) 
+1,Elizaveta (Liza) 
+1,Lyudmila (Lyuda) 
+1,Svetlana (Sveta) 
+1,Natalya (Natasha) 
+1,Lyubov (Lyuba) 
+1,Yuliya (Yulya) 
+1,Tatyana (Tanya) 
+1,Ksenya (Ksyusha) 
+1,Valentina (Valya) 
+1,Mariya (Masha) 
+1,Anastasiya (Nastya) 
+1,Sofia (Sonya) 
+1,Dariya (Dasha) 
+
+;surnames
+1,Kuznetsov 
+1,Petrov 
+1,Berezovsky 
+1,Zubov 
+1,Yusupov 
+1,Trushin 
+1,Sheremetev 
+1,Gordievsky 
+1,Vorapaev 
+1,Batkin 
+1,Fomenko 
+1,Maltsev 
+1,Fedorov 
+1,Vasilievsky 
+1,Rokossovsky 
+1,Gerasimov 
+1,Malinovsky 
+1,Bulganin 
+1,Alexandrov 
+1,Yegorov
+
+

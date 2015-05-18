@@ -1,0 +1,502 @@
+EXPANDED STAR SYSTEM
+GENERATION CHECKLIST
+
+This checklist governs the generation
+of star systems without first generating
+a main world.
+1. Determine system presence.
+2. Determine star system features.
+A. System nature (solitary, binary,
+or trinary star system).
+B. Primary star type and size,
+C. Companion star type and size.
+D. Companion orbit.
+E. Number of orbits available.
+F. Unavailable, inner, habitable,
+and outer zones within the system.
+G. Captured planets and empty
+orbits.
+H. Presence and quantity of gas
+giants.
+I. Presence and quantity of
+planetoid belts.
+3. Place known components.
+A, Place gas giants.
+B. Place planetoid belts.
+4. Generate worlds within system.
+A, Orbit Location.
+B. Size: 2D-2. For orbit 0, DM-5;
+for orbit 1, DM-4; for orbit 2, DM-2. If
+type M star, DM-2 for all orbits. If
+size 0-, use S,
+C. Atmosphere: 2D-7 + size. If
+inner zone, DM-2; if outer zone, DM-4.
+If size 0 or S, then atmosphere 0. If
+outer zone +2, throw 12 for A.
+D. Hydrographies: 2D-7 + size. If
+inner zone, then 0; if outer zone, DM-2.
+If size 1- or S, then hydrographies 0.
+If atmosphere 1- or A+, DM-4.
+E. Population: 2D-2. If inner
+zone, DM-5; if outer zone, DM-3. If not
+atmosphere 0, 5, 6, or 8, DM-2.
+5. Determine number of satellites
+for each planet, or gas giant in the
+system. Disregard planetoid belts and
+size S worlds.
+A. Planets: 1D-3.
+B. Small gas giants: 2D-4.
+C. Large gas giants: 2D.
+6. Generate satellites within system.
+A, Size: Planetary size -1D. For
+large gas giant, 2D-4. For small gas
+giant, 2D-6. If size 0, use R. If size less
+than 0, use S.
+B. Orbit Location.
+C. Atmosphere: 2D-7 + satellite
+size. If inner zone, then DM -4. If outer
+zone, DM -4. If size 1-, then 0. If outer
+zone +2, throw 12 for A.
+D. Hydrographies: 2D-7 + satel-
+lite size. If inner zone, then 0; if outer
+zone, DM-4. If size 0-, then 0. If atmo-
+sphere 1- or A+, DM-4.
+E. Population: 2D-2. If inner
+zone, DM-5; if outer zone, DM -4. If
+atmosphere not 5, 6, or 8, DM-2. If
+size 4-, DM-2. If ring, then 0.
+7. Designate main world and deter-
+mine additional characteristics.
+A, Government: 2D-7+population
+B. Law Level: 2D-7+government.
+C. Starport Type.
+D. Tech Level: 1D + tech level
+table DMs.
+E. Note trade classifications.
+F. Note naval and scout bases.
+G. Note communications routes
+connecting system to other worlds.
+8. Determine additional planet and
+satellite characteristics.
+A. Subordinate Government: 1D.
+DM +2 if main world government 7+.
+Equals 6 if main world government 6.
+B. Subordinate Law Level: 1D-3
++ main world law level,
+C. Note subordinate facilities.
+D. Subordinate Tech Level: Main
+world level -1. Equals main world level
+if research lab or military base present.
+E. Spaceport Type.
+9. Record statistics and data.
+A. Map data on subsector grid.
+B. Note main world data on
+subsector data form.
+C. Note complete system data on
+system data form.
+
+SYSTEM CONTENTS TABLE
+Die, Starport, Navy Base, Scout Base, Gas Giant, Planetoid
+2, A, False, False, True, True
+3, A, False, False, True, True
+4, A, False, False, True, True
+5, B, False, False, True, True
+6, B, False, False, True, True
+7, C, False, True, True, False
+8, C, True, True, True, False
+9, D, True, True, True, False
+10, E, True, True, False, False
+11, E, True, True, False, False
+12, X, True, True, False, False
+
+
+Roll once for each column,
+Scout Base: Apply DM -1 if starport
+C; -2 if starport B; and -3 if starport A.
+Do not roll if starport E or X.
+Naval Base: Do not roll if starport
+C, D, E, or X.
+
+TECH LEVEL TABLE
+Digit, Starport, Size, Atmosphere, Hydrography, Popoulation, Government
+0, 0, 2, 1, 0, 0, 1
+1, 0, 2, 1, 0, 1, 0
+2, 0, 2, 1, 0, 1, 0
+3, 0, 1, 1, 0, 1, 0
+4, 0, 1, 0, 0, 1, 0
+5, 0, 1, 0, 0, 1, 1
+6, 0, 0, 0, 0, 0, 0
+7, 0, 0, 0, 0, 0, 0
+8, 0, 0, 0, 0, 0, 0
+9, 0, 0, 0, 1, 2, 0
+A, 6, 0, 1, 2, 4, 0
+B, 4, 0, 1, 0, 0, 0
+C, 2, 0, 1, 0, 0, 0
+D, 0, 0, 1, 0, 0, 2
+E, 0, 0, 1, 0, 0, 0
+F, 0, 0, 0, 0, 0, 0
+X, -4, 0, 0, 0, 0, 0
+
+Determine DMs from this table and
+apply them to 1D to find tech level.
+Note: Dashes indicate that there is
+no DM for the given digit; blanks indi-
+cate that there is no digit possible in
+that situation under this generation
+system.
+
+STARPORTS
+Type Description
+A Excellent quality with refined fuel, over-
+haul, shipyards.
+B Good quality with refined fuel, overhaul,
+shipyards for non-starships.
+C Routine quality with unrefined fuel, some
+repair facilities.
+D Poor quality with unrefined fuel; no re-
+pair facilities.
+E Frontier installation;no facilities.
+X No starport. Generally a red travel zone.
+Starports are established primarily to foster
+interstellar trade and commerce.
+
+SPACEPORTS
+Type Description
+F Good quality with unrefined fuel, minor
+repair facilities.
+G Poor quality with unrefined fuel; no
+repair facilities.
+H Primitive installation;no facilities,
+Y No spaceport.
+Spaceports are established primarily to
+foster in-system travel.
+
+TECHNOLOGICAL LEVELS
+Digit Description
+0 Stone Age. Primitive.
+1 Bronze Age to Middle Ages.
+2 circa 1400 to 1700.
+3 circa 1700 to 1860,
+4 circa 1860 to 1900.
+5 circa 1900 to 1939.
+6 circa 1940 to 1969.
+7 circa 1970 to 1979.
+8 circa 1980 to 1989.
+9 circa 1990 to 2000.
+A Interstellar community.
+B Average Imperial.
+C Average Imperial.
+D Above average Imperial.
+E Above average Imperial.
+F Technical maximum Imperial.
+G Occasional non-Imperial.
+
+Tech level labels in terms of historical
+dating are intended as a guide only, and indi-
+cate normally expected capabilities.
+
+
+SIZE
+
+0 Asteroid/Planetoid Belt
+R Ring (around a world)
+S Small World (200 km)
+1 1,000 miles (1,600 km)
+2 2,000 miles (3,200 km)
+3 3,000 miles (4,800 km)
+4 4,000 miles (6,400 km)
+5 5,000 miles (8,000 km)
+6 6,000 miles (9,600 km)
+7 7,000 miles (11.200 km)
+8 8,000 miles (12,800 km)
+9 9,000 miles (14,400 km)
+A 10,000 miles (16,000 km)
+
+
+ATMOSPHERE
+Digit Description
+0 No atmosphere.
+1 Trace.
+2 Very thin, tainted.
+3 Very thin.
+4 Thin, tainted.
+5 Thin.
+6 Standard.
+7 Standard, tainted.
+8 Dense.
+9 Dense, tainted.
+A Exotic.
+B Corrosive.
+C Insidious.
+D Dense, high.
+E Ellipsoid.
+F Thin, low.
+
+
+HYDROGRAPHICS
+Digit Description
+0 No free standing water.
+1 10% water.
+2 20% water.
+3 30% water.
+4 40% water.
+5 50% water.
+6 60% water.
+7 70% water.
+8 80% water.
+9 90% water.
+A No land masses.
+
+
+POPULATION
+Digit Description
+0, No inhabitants.
+1, Tens of inhabitants.
+2, Hundreds of inhabitants.
+3, Thousands of inhabitants.
+4, Tens of thousands.
+5, Hundreds of thousands,
+6, Millions of inhabitants.
+7, Tens of millions.
+8, Hundreds of millions.
+9, Billions of inhabitants.
+A, Tens of billions.
+
+The population digit is an exponent
+of 10 and refers to sophonts (intelligent
+beings; not necessarily human) on the
+world.
+
+
+
+LAW LEVEL
+Digit Description
+0, No prohibitions.
+1, Body pistols undetectable by stan-
+dard detectors, explosives (bombs, gren-
+ades), and poison gas prohibited.
+2, Portable energy weapons (laser
+carbine, laser rifle) prohibited. Ship's
+gunnery not affected.
+3, Weapons of a strict military
+nature (machine guns, automatic rifles)
+prohibited.
+4 Light assault weapons (sub-machineguns) prohibited.
+5 Personal concealable firearms (pistols, revolvers) prohibited.
+6 Most firearms (all except shot-guns) prohibited. The carrying of any type of weapon openly is discouraged.
+7 Shotguns are prohibited.
+8 Long bladed weapons (all but daggers) are controlled, and open pos- session is prohibited.
+9 Possession of any weapon outside one's residence is prohibited.
+A+ Weapon possession is prohibited.
+
+Note: Law level is also the general 
+throw to avoid harassment by police or 
+Note: Additional subordinate types
+other law enforcement agencies (usually
+throw once per day).
+
+GOVERNMENT
+Digit Description
+0 No
+government
+structure.
+In
+many cases, family bonds predominate.
+1 Company/Corporation.
+Govern-
+ment by a company managerial elite;
+citizens are company employees.
+2 Participating Democracy. Govern-
+ment by advice and consent of the
+citizen.
+3 Self-Perpetuating Oligarchy. Rule
+by a restricted minority, with little or
+no input from the masses.
+4 Representative Democracy. Rule
+by elected representatives.
+5 Feudal Technocracy. Government
+by specific individuals for those who
+agree to be ruled. Relationships are
+based on the performance of technical
+activities which are mutually beneficial.
+6 Captive Government. Government
+by a leadership answerable to an outside
+group; a colony or conquered area.
+7 Balkanization. No central ruling
+authority exists; rival governments
+compete for control.
+8 Civil Service Bureaucracy. Govern-
+ment by agencies employing individuals
+selected for their expertise.
+9 Impersonal Bureaucracy. Govern-
+ment by agencies which are insulated
+from the governed.
+A Charismatic Dictator. Government
+by a single leader enjoying the con-
+fidence of the citizens.
+B Non-Charismatic Leader. A pre-
+vious charismatic dictator has been
+replaced by a leader through normal
+channels.
+C Charismatic Oligarchy. Govern-
+ment by a select group, organization, (X
+class enjoying the overwhelming confi-
+dence of the citizenry.
+D Religious Dictatorship. Govern-
+ment by a religious organization with-
+out regard to the needs of the citizenry-
+Note: Additional subordinate types
+are in the subordinate government table.
+
+
+
+
+
+SYSTEM FEATURES
+Die Basic Primary — Companion —  Max - Gas Giant- - Planetoid -
+Roll Nature Type Size Type Size Orbit Orbits Present Qty Present Qty
+0 Solo B la - Ia Close 0 — — yes 3
+1 Solo B lb B Ib Close 1 yes 1 yes 2
+2 Solo A II A II Close 2 yes 1 yes 2
+3 Solo M III F III Close 3 yes 1 yes 2
+4 Solo M IV F IV 1 4 yes 2 yes 2
+5 Solo M D G D 2 5 yes 2 yes 2
+6 Solo M D G D 3 6 yes 3 yes 2
+7 Solo M V K V 4+1 D 7 yes 3 no 1
+8 Binary K V K V 5+D 8 yes 4 no 1
+9 Binary G V M VI 6+D 9 yes 4 no 1
+10 Binary F V M D 7+D 10 no 4 no 1
+11 Binary F VI M D 8+D 11 no 5 no 1
+12 Trinary F D M D Far 12 no 5 no 1
+
+Primary Star Type and Size: If main world has already been generated, apply
+DM +4 if it has atmosphere 4 - 9 or population 8+.
+Companion Type and Size: Apply the roll for primary star type as +DM on type,
+and the roll for primary star size as +DM on size.
+Companion Orbit: A binary companion uses this column as shown; a trinary
+companion implements DM +4 on this column. If the orbit location given results
+in a position within the star, the orbit is close (just outside the primary).
+Maximum Orbits: Apply DM +4 if star size III, DM +8 if star size is la, lb, or II.
+DM -4 if star type M; DM -2 if star type K.
+Gas Giant: The number present may not exceed the number of orbits in the
+system. For size, roll 1D: 3- is large gas giant;4+ is small gas giant.
+Planetoid Belt Present and Quantity: DM - number of gas grants in the system,
+but may not exceed the number of orbits remaining after gas giants are placed.
+
+
+
+PLANETARY ORBITS
+Orbit Radius (million km) Radius (AU)
+0 29.9 .2
+1 59.8 .4
+2 104.7 .7
+3 149.6 1.0
+4 239.3 1.6
+5 418.9 2.8
+6 777.9 5.2
+7 1,495.9 10
+8 2,932 19.6
+9 5,804 38.8
+10 11,548 77.2
+11 23,038 154
+12 46,016 307.4
+13 91,972 614.8
+14 183,885 1229.2
+15 367,711 2458
+
+
+SATELLITE ORBITS
+Roll Ring
+1 1 - - -
+2 1 3 15 75
+3 1 4 20 100
+4 2 5 25 125
+5 2 6 30 150
+6 3 7 35 175
+7 0 8 40 200
+8 0 9 45 225
+9 0 10 50 250
+10 0 11 55 275
+11 0 12 60 300
+12 0 13 65 325
+Throw 2D for orbit type (7- is close,
+8+ is far; if gas giant, 12+ is extreme).
+Then throw for orbit distance. Distance
+in central planet radii.
+
+
+TABLE OF ZONES
+Orbit ———— Star Type (Sub Dwarf) ----- Star Type (White Dwarf)-
+No. F5 G0 G5 K0 K5 M0 M5 M9 DB DA DF DG DK DM
+0 I I I I O O O O H O O O O O
+1 I I H H O O O O O O O O O O
+2 I H O O O O O O O O O O O O
+3 H O O O O O O O O O O O O O
+4 O O O O O O O O O O O O O O
+For all tables of zones, the following codes apply: O indicates outer zone. H
+indicates habitable zone. I indicates inner zone. — indicates unavailable orbit (due
+to heat from the star). - indicates an orbit within the sphere of the star.
+
+
+CAPTURED PLANETS
+AND EMPTY ORBITS
+ Captured Planets Empty Orbits
+Die Presence Qty Vacant Qty
+1 no 1 no 1
+2 no 1 no 1
+3 no 2 no 2
+4 no 2 no 3
+5 yes 3 yes 3
+6 yes 3 yes 3
+Apply DM +1 to all columns if
+the star is type B or A.
+Captured Planet Location: Roll
+2D for orbit number closest to its
+location. Roll 2D-7 and multiply by
+10% for deviation from that orbit.
+Empty Orbit: Roll 2D for the
+number of the empty orbit,
+
+SPACEPORT TABLE
+Spaceport Type
+1 Y No spaceport.
+2 Y No spaceport.
+3 H Primitive facilities.
+4 G Poor quality.
+5 G Poor quality.
+6 F Good quality.
+Note: If population 6+, DM +2.
+If population 1, DM -2. If popula-
+tion 0, DM -3,
+
+
+SUBORDINATE LAW LEVEL
+Subordinate law level is based on
+main world law level. Throw 1D-3+
+main world law level. Less than 0 is
+0. If population 0. then 0.
+
+
+SUBORDINATE GOVERNMENT
+Die Code Description
+1 0 No government
+2 1 Company/Corporation
+3 2 Participating Democracy
+4 3 Self-Perpetuating Oligarchy
+5+ 6 Captive Government
+
+Roll 1D, If main world government 6, DM
++ population. If main world government 7+,
+DM +1. If population 0, then 0.
+
+
+
+
+
+
+
+
+
+
+
+

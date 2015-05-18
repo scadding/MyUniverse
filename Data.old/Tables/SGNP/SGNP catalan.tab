@@ -1,0 +1,135 @@
+
+;Start
+1,[MALE] (male)
+1,[FEMALE] (female)
+;MALE
+1,[MALEFIRST] [SURNAME]
+
+;FEMALE
+1,[FEMALEFIRST] [SURNAME]
+
+;MALEFIRST
+1,Francesc
+1,Bernat
+1,Joan
+1,Carles
+1,Llorenç
+1,Vicens
+1,Narcís
+1,Benet
+1,Bartomeu
+1,Gaspar
+1,Andreu
+1,Jaume
+1,Pere
+1,Mateu
+1,Gil
+1,Jacme
+1,Martí
+1,Miquel
+1,Nicolau
+1,Celdoni
+1,Alfons
+1,Arnau
+1,Berenguer
+1,Bertran
+1,Bonadona
+1,Calvet
+1,Dalmu
+1,Dolcet
+1,Ferrer
+1,Gilabert
+1,Guillem
+1,Hug
+1,Miró
+1,Olivar
+1,Pere
+1,Perpinyà
+1,Ponç
+1,Ricart
+1,Seguinus
+1,Vidal
+;FEMALEFIRST
+1,Beatriu
+1,Geralla
+1,Anglesa
+1,Aldinícia
+1,Bartomeua
+1,Brígida
+1,Caterina
+1,Elionor
+1,Elisabet
+1,Eufràsia
+1,Eulàlia
+1,Francina
+1,Jaumeta
+1,Joana
+1,Margarida
+1,Maria
+1,Miquela
+1,Samuela
+1,Segimona
+1,Tecla
+;SURNAME
+1,Amalric
+1,Berenguer
+1,de Villagut
+1,d\'Eures
+1,de Rodes
+1,Bofill
+1,Coqui
+1,de Giró
+1,de la Sclusa
+1,Amat
+1,Baró
+1,de Muntanyola
+1,Salamó
+1,de Sargantans
+1,Domènec
+1,Ermengol
+1,Foget
+1,de Montrodon
+1,Guifre
+1,Sumar
+1,Fisnerola
+1,Queralt
+1,Colom
+1,Dardarich
+1,Puig
+1,Gorgoll
+1,Canyelles
+1,de Cubells
+1,Prat
+1,Mateu
+1,Esteve
+1,Domènech
+1,Fontanills
+1,Palau
+1,Paguer
+1,Carbó
+1,Vilagrassa
+1,Muntargull
+1,Obradors
+1,Nabet
+1,Rofreo
+1,Roca
+1,Paguer
+1,Pariquet
+1,Moreu
+1,Torner
+1,Guiscart
+1,Torens
+1,Sala
+1,Parés
+1,Mas
+1,Gilabert
+1,Llorens
+1,Rossolló
+1,Bosens
+1,Lió
+1,Barberà
+1,Goscemps
+1,Reguera
+1,Roca 
+
+

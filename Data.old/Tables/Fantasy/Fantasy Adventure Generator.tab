@@ -1,0 +1,236 @@
+
+;Start
+1,A[Theme] tale where the party attempts to [Goal]. They are drawn in because of [Hook]. It mostly takes place [GeneralSetting], with key events also at [SpecificSetting] and [SpecificSetting]. Aided by [AlliesNeutrals] but opposed by the [MasterVillains] and his minions, the [MinorVillains] and the [MinorVillains], the basic plot is [Plot], ending with [Climax]. Along the way, they will have to fight a [MonsterEncounters], deal with a [CharacterEncounters], and maybe even avoid getting caught in a [Traps].<br><br>  
+
+;Theme
+8,n Action/Adventure
+2, Comedy
+3,n Espionage
+4, Horror
+3, Mystery
+1, Revenge
+1, Romance
+
+
+;Goal
+1,clear their name
+1,escape
+2,explore a new area
+1,encounter an old villain
+2,gain money
+2,gain power
+2,protect endangered NPCs
+1,rescue NPCs
+1,retrieve an item
+1,settle a debt
+2,survive the environment
+3,thwart a monstrous plan
+1,win a war
+1,prevent a war
+
+;Hook
+4,a dying delivery
+2,grim necessity
+2,a Hero offended
+2,legend and rumour
+1,a case of mistaken identity
+2,a mysterious woman
+3,an old enemy
+2,an old friend
+2,someone pressing the PC's buttons
+
+;GeneralSetting
+1,on an alternate Plane
+38,in a cosmopolitan city
+5,in an exotic distant land
+5,in a hero's home town
+20,on the road
+10,on the sea
+10,in torturous terrain
+8,underground
+2,under the sea
+
+;SpecificSetting
+5,catacombs
+5,caves of magical folk
+10,a classic dungeon
+9,the docks
+2,a laboratory
+5,a Legendary Forest
+5,a lost city
+5,a madman's fortress
+2,a magical lake
+9,the mansion of powerful NPC
+4,a military encampment
+3,the palace of the ruler or local lord
+4,ancient ruins
+3,the slums
+10,a tavern or inn
+10,a temple or church
+15,[Art Grace and Guts Oracle.Locations Lcase]
+4,[Poetic Destinations.Start]
+
+;AlliesNeutrals
+2,Absent-minded expert
+1,Arrogant snob
+1,Childhood friend with a dark secret
+1,Congenial madman
+1,Crusty old professional
+1,Gibbering madman
+1,Government observer
+1,Hero-worshipper
+1,Ingenue in distress
+1,Inquisitive chronicler
+2,Merry minstrel
+1,Obsequious merchant
+1,Romantic loony
+1,Talkative barkeep
+1,Tragic fellow hero
+1,Villain ally
+
+;MasterVillains
+1,Agent Provacateur
+2,Advance Agent
+1,Avenger
+2,Conqueror
+2,Corruptor
+2,Destroyer
+1,Chance or circumstance
+2,Lovable Rogue
+2,Organizer
+2,Ravager
+1,Sufferer
+2,Zealot
+
+;MinorVillains
+1,Avenger
+2,Chief assassin
+2,Childhood friend with a dark secret
+1,Corrupted hero
+1,Coward
+1,Hard-eyed advisor
+2,Inquisitor
+2,Lovable rogue
+1,Misguided moralist
+2,Mistress or daughter with a heart of gold
+2,Moronic muscleman
+2,Single-minded soldier
+1,Snivelling vizier
+1,[Secret Society Title.SecretSocietyName]
+1,Corrupted relative
+
+;Plot
+2,A->B->C Quest
+2,Accumulation of events
+1,The Event
+2,Geographic progression
+1,Series of villains
+1,a [MinorVillains] pretends to ally with the heroes before stabbing them in the back
+
+;Climax
+1,Bloody battle
+2,Chase to ground ([Chase])
+1,Divine retribution
+2,Prevented deed
+2,Scattered duels
+2,Throne-room duel
+
+;MonsterEncounters
+2,Assassin-beast
+2,Beast amok
+2,Foreshadowing monster
+2,King beast
+2,Loving deceiver
+1,Noble beast
+3,Nocturnal predator
+2,Powerful tester
+3,Ravager
+1,Reconnaissance monster
+1,Stampede
+2,Terrain monster
+
+;CharacterEncounters
+1,Bandit gang
+2,Belligerent soldier
+3,Blackmailer
+1,Bureaucrat
+2,Inquisitive official
+1,Lying accuser
+2,Old friend at the wrong time
+2,Mean drunk
+2,New enemy
+1,Press gang
+2,Seducer
+2,Thief
+1,Truthful accuser
+
+;Traps
+2,Animal pit
+1,Avalanche
+1,Coliseum
+2,Demolition zone
+1,Framed
+2,Mutually assured destruction
+3,Pit and the pendulum
+4,Rock and a hard place
+1,Stampede
+2,Tomb deathtraps
+
+;SpecialConditions
+3,Coping with curse
+2,Magic doesn't work right
+2,No hurting the villain
+2,No lawbreaking
+2,No weapons allowed
+1,Omnipresent observer
+1,Stolen identities
+7,Time limit
+
+;RedHerrings
+1,Artifact doesn't work
+1,Extraneous details
+3,False path to solution step
+1,Loony has it all wrong
+4,Lying rumour
+
+;Omens
+1,Birthmark pertains
+1,Comet's progress
+1,Fortune-teller predicts doom
+3,Hero fulfills prophecy
+2,Innocent fulfills prophecy
+1,Reincarnation
+1,Totem animal
+
+;Quandaries
+3,Ally Quandary
+3,Friend Quandary
+6,Honor Quandary
+4,Respect Quandary
+4,Saving Quandary
+
+;Chase
+1,Aerial
+1,Endurance
+2,Footrace
+2,Horseback
+6,Special terrain
+1,Water
+
+;VillainWeakness
+1,Element or ingredient
+1,Holy symbol
+1,Lack of familiarity
+1,Love
+1,Secret Embarrasment
+1,Pride
+
+;Complications
+1,Heroes must work with villain
+2,Mission is a ruse
+2,NPC turns traitor
+1,Villain accompanies party
+1,Villain related to hero
+3,Wanted by the law
+
+

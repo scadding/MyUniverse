@@ -1,0 +1,367 @@
+
+;Start
+1,[common_male] (common_male)
+1,[common_female] (common_female)
+1,[ancient_male] (ancient_male)
+1,[ancient_female] (ancient_female)
+1,[pharaoh] (pharaoh)
+1,[gods] (god)
+1,[goddess] (goddess)
+
+;common_male
+1,Chafulumisa
+1,Lateef
+1,Donkor
+1,Chigaru
+1,Jumoke
+1,Edjo
+1,Baniti
+1,Fenuku
+1,Kalfani
+1,Maskini
+1,Ngozi
+1,Quasshie
+1,Sadiki
+1,Tsekani
+1,Azibo
+1,Gyasi
+1,Hakizimana
+1,Kamuzu
+1,Khnemu
+1,Lisimba
+1,Nourbese
+1,Hanif
+1,Agymah
+1,Sefu
+1,Mbizi
+1,Ubaid
+1,Wamukota
+1,Zuberi
+1,Mudads
+1,Yahya
+1,Darwishi
+1,Ishaq
+1,Osaze
+1,Nkosi
+1,Najja
+1,Abubakar
+1,Jibade
+1,Akhenaten
+1,Idogbe
+1,Onuris
+
+;common_female
+1,Bennu
+1,Fukayna
+1,Habibah
+1,Theoris
+1,Umayma
+1,Walidah
+1,Acenath
+1,Jamila
+1,Mert
+1,Panya
+1,Sagira
+1,Masika
+1,Rehema
+1,Nabirye
+1,Oseye
+1,Meht-urt
+1,Kakra
+1,Lapis
+1,Maibe
+1,Zaliki
+1,Muminah
+1,Sharifa
+1,Olabisi
+1,Nathifa
+1,Nile
+1,Urbi
+1,Anippe
+1,Ode
+1,Mukantagara
+1,Omorose
+1,Rabiah
+1,Siti
+1,Subira
+1,Talibah
+1,Femi
+1,Ife
+1,Chione
+1,Mafuane
+1,Pili
+1,Salihah
+
+;ancient_male
+1,Menetnashté
+1,Anok Sabé
+1,Buikhu
+1,Hêtshepsu
+1,Mkalbuti
+1,Fanté
+1,Mdjai
+1,Kamenwati
+1,Wakhakwi
+1,Nifé-en-Ankh
+1,Mtidja
+1,Wakhashem
+1,Benipé
+1,Semni
+1,Udjai
+1,Kemosiri
+1,Nebibi
+1,Suten Hamu
+1,Alu
+1,Itafé
+1,Amahté
+1,Djadao
+1,Urshé
+1,Suten Anu
+1,Sokkwi
+1,Baraka
+1,Shushu
+1,Muntuhotep
+1,Kahotep
+1,Sinuhé
+1,Panahasi
+1,Top Betuké
+1,Adjo
+1,Ibenré
+1,Khenti
+1,Anhuri
+1,Kemnebi
+1,Rasui
+1,Nomti
+1,Remmao
+1,Ahmose
+1,Medhu
+1,Akhenaton
+1,Seti
+1,Rameses
+1,Imhotep
+1,Menes
+1,Abana
+1,Bek
+1,Djau
+1,Nahti
+1,Nebnefer
+1,Em-sa-f
+1,Hekhemmut
+1,Hemon
+1,Sainhur
+1,Horemheb
+1,Imhotep
+1,Senh
+1,Taw
+1,Iteti
+1,Khafre
+1,Yuya
+1,Amenhotep
+1,Wenamun
+1,Maya
+1,Menkure
+1,Senufer
+1,Wakare
+1,Merti
+1,Nat-nh
+1,Ahmose
+1,Ani
+1,Neshi
+1,Nikaure
+1,Paheri
+1,Iurudef
+1,Paneb
+1,Ramose
+1,Sabestet
+
+;ancient_female
+1,DjaDja
+1,Betuké
+1,Afrikaisi
+1,Djabenusiri
+1,Kemreit
+1,Ekibé
+1,Hêtshepsit
+1,Nubiti
+1,Boki
+1,Hebony
+1,Irisi
+1,Amenitré
+1,Mehnit
+1,Sêshafi
+1,Mkitiris
+1,Emuishéré
+1,Woserit
+1,Kebi
+1,Djeserit
+1,Nafré
+1,Meskenit
+1,Paniwi
+1,Kemsê
+1,Kepi
+1,Shamisé
+1,Mnoti
+1,Tinubiti
+1,Banafrit
+1,Suten Himé
+1,Shai-nefer
+1,Kemamonit
+1,Kemisi
+1,Tiankhit
+1,AnkhesenAmen
+1,Haréré
+1,Shantefeiré
+1,Tanafriti
+1,Oshairana
+1,Kiwu
+1,Salidji
+1,Ahhotep
+1,Ashayt
+1,Bameket
+1,Khety
+1,Ahmose
+1,Bint-Anath
+1,Sarenenutet
+1,Dedet
+1,Sheftu
+1,Shepset
+1,Nebet
+1,Nebta
+1,Henuttawi
+1,Kentkawes
+1,Hepeti
+1,Ijneferti
+1,Ipwet
+1,Henhenet
+1,Isis
+1,Itakayt
+1,Kawit
+1,Khamaat
+1,Tia
+1,Meritates
+1,Webkhet
+1,Mutemwia
+1,Neferu
+1,Nefertari
+1,Hekenu
+1,Aneksi
+1,Nefret
+1,Tausret
+1,Nesmut
+1,Takharu
+1,Qalhata
+1,Rennefer
+1,Rwut
+1,Sadeh
+1,Samenkhet
+1,Bunefer
+
+;pharaoh
+1,Hor-Aha
+1,Merneith
+1,Djet
+1,Anedjib
+1,Semerkhet
+1,Qa'a
+1,Hotepsekhemwy
+1,Raneb
+1,Nynetjer
+1,Senedj
+1,Seth-Peribsen
+1,Khasekhemwy
+1,Sanakhte
+1,Djoser
+1,Sekhemkhet
+1,Khaba
+1,Huni
+1,Sneferu
+1,Khufu
+1,Djedefra
+1,Khafra
+1,Sobeknefru (Queen)
+1,Shepseskaf
+1,Neferkara Khendu
+1,Qakare Ibi
+1,Ahmose
+1,Amenhotep
+1,Hatshepsut (Queen)
+1,Thutmose
+1,Tutankhamun
+1,Akhenaten
+1,Kheperkheprure Ai
+1,Horemheb
+1,Ramesses
+1,Merneptah
+1,Amenemses
+1,Merneptah Siptah
+1,Twosret (Queen)
+1,Sobekhotep
+1,Imyremeshaw
+
+;gods
+1,Amun
+1,Maahes
+1,Heryshaf
+1,Khepri
+1,Shu
+1,Chnum
+1,Min
+1,Ptah
+1,Bes
+1,Hapy
+1,Apep
+1,Saa
+1,Aten
+1,Set
+1,Wepwawet
+1,Chons
+1,Nehebkau
+1,Geb
+1,Djehuty
+1,Anhur
+
+;goddess
+1,Neith
+1,Shai
+1,Renenutet
+1,Satis
+1,Tefnut
+1,Seshat
+1,Ma'at
+1,Nephthys
+1,Sekhmnet
+1,Bast
+1,Isis
+1,Nephthys
+1,Tawaret
+1,Nekhebet
+1,Uadjet
+1,Pakhet
+1,Nuit
+1,Meskhenet
+1,Hathor
+1,Renpet
+
+;concepts
+1,Nome, also Sepat - A province of Egypt, administered by a Nomarch
+1,Sensen - The lotus, a flower that is a powerful symbol of life and the dawn
+1,Amenta - The Underworld
+1,Cartouche - Heiroglyphs surrounded by the oval/circular line for protection
+1,Menat - A Magical Amulet
+1,Scarab - A dung beetleThe symbol of creation and rejuvenation
+1,Abtu - The Seat of Osiris, where the sun sets
+1,Tuat - The Land of the Dead
+1,Tiet - An ankh where the arms curve downwards
+1,Cenotaph - A tomb built for ceremony (not for burying people)
+1,Sobek - The fierce god with the head of a crocodile
+1,Sistrum - A noise-makingdevice (like coins tied in a can), used to attract the Gods
+1,Amun - King of all Gods
+1,Festival of Sed - A great festival held at the 30 year benchmark of a pharoh's reign
+1,Ba - The personality/soul/spirit, which can leave your body to visit other planes
+1,Ieb - The heart, the center of life
+1,Ka - A duplicate of your soul that lives on after your body dies
+1,Maat - Truth, justice, and the universe being "in right order"
+1,Menhed - A palette that scribes use (black and red colors)Used with brush and water
+1,Nebu - The egyptian word for "gold"
+
+

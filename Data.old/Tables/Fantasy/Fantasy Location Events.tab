@@ -1,0 +1,47 @@
+
+;Start
+1,[SUBJECT] [ACTION] [OBJECT]
+;SUBJECT
+1,A miracle
+1,A crime
+1,A natural disaster
+1,A scandal
+1,A religious group
+1,A bizarre occurrence
+1,An outlaw gang
+1,A monster
+1,Foreign trade
+1,A shortage
+1,A magical group
+1,An injustice
+1,A rumor
+1,A disease
+1,An incursion
+
+;ACTION
+1, delays
+1, takes over
+1, changes
+1, destroys
+1, hides
+1, purifies
+1, exposes
+1, decreases
+1, increases
+1, speeds up
+
+;OBJECT
+1, communications
+1, social mobility
+1, treasure
+1, medicine
+1, education
+1, trade
+1, magic
+1, a prominent family
+1, government
+1, art
+1, religion
+1, the criminal world
+
+

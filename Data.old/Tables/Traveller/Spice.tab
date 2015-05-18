@@ -1,0 +1,149 @@
+
+
+;Start
+1,Parents [Number of Parents]
+1,Siblings [Number of Siblings]
+1,Status [Status]
+10,Cause of Death %junk% { dice~6,3 [Cause of Death] }
+1,Friend [Time Known]
+
+@Roll
+#i,2d6,3d6
+1,2,3
+1,2,4
+2,3,5
+5,3,6
+5,4,7
+10,5,8
+15,6,9
+10,7,10
+10,7,11
+15,8,12
+10,9,13
+5,10,14
+5,11,15
+3,11,16
+2,12,17
+1,12,18
+
+;3D6
+1,3
+1,4
+2,5
+5,6
+5,7
+10,8
+15,9
+10,10
+10,11
+15,12
+10,13
+5,14
+5,15
+3,16
+2,17
+1,18
+
+;2D6
+2,2
+7,3
+5,4
+10,5
+15,6
+20,7
+15,8
+10,9
+5,10
+8,11
+3,12
+
+;1D6+1
+1,2
+1,3
+1,4
+1,5
+1,6
+1,7
+
+;1D6
+1,1
+1,2
+1,3
+1,4
+1,5
+1,6
+
+;Number of Parents
+2,[2D6]
+7,[1D6+1]
+5,[1D6+1]
+10,2
+15,2
+20,2
+15,2
+10,2
+5,[1D6]
+8,[1D6+1]
+3,[2D6]
+
+;Number of Siblings
+1,0
+2,1
+3,2
+4,[1D6]
+5,[2D6]
+6,[3D6]
+
+;Sibling Rank
+2,Younger
+7,Younger
+5,Younger
+10,Younger
+15,Younger
+20,Older
+15,Older
+10,Older
+5,Older
+8,Older
+3,Multiple Birth
+
+;Status
+2,Deceased
+7,Deceased
+5,Deceased
+10,Ill
+15,Ill
+20,Ill
+15,Alive
+10,Alive
+5,Alive
+8,Alive
+3,Alive
+
+;Cause of Death
+2,Suicide
+7,Executed
+5,Homocide
+10,War
+15,Natural Causes
+20,Natural Causes
+15,Natural Causes
+10,Accident
+5,Unusual Illness
+8,Natural Disaster
+3,Vanished
+
+;Time Known
+2,Since Childhood
+7,[2D6]+[3D6] years
+5,[2D6]+[2D6] years
+10,[3D6] years
+15,[2D6] years
+20,[1D6] years
+15,[2D6]+[2D6] months
+10,[3D6] months
+5,[2D6] months
+8,[1D6] months
+3,less than 1 month
+
+

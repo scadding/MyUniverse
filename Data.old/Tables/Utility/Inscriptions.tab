@@ -1,0 +1,770 @@
+
+;Start
+1,[DefiniteNoun]
+1,[AbstractNoun]
+3,[Secret Society Title.TitleDescriptor] [DefiniteNoun]
+5,[Secret Society Title.TitleDescriptor] [AbstractNoun]
+5,[DefiniteNoun] of [AbstractNoun]
+5,[AbstractNoun]'s [AbstractNoun]
+3,[AbstractNoun] of [Creatures]
+3,[Secret Society Title.Title] of [AbstractNoun]
+3,[Secret Society Title.Title] of [DefiniteNoun]s
+1,[AbstractNounPositive][SuffixPositive]
+1,[AbstractNounNegative][SuffixPositive]
+1,[AbstractNounPositive][SuffixNegative]
+1,[AbstractNounNegative][SuffixNegative]
+5,[DefiniteNoun][SuffixNegative]
+25,[Advice]
+
+;Creatures
+1,the [DefiniteNoun]
+1,Ten [DefiniteNoun]s
+1,a Hundred [DefiniteNoun]s
+1,a Thousand [DefiniteNoun]s
+
+;AbstractNoun
+2,[AbstractNounPositive]
+1,[AbstractNounNegative]
+
+;AbstractNounPositive
+5,Battle
+5,Beauty
+5,Bravery
+5,Clarity
+5,Courage
+5,Destiny
+5,Determination
+3,Dream
+5,Eternity
+5,Faith
+5,Fate
+5,Fire
+5,Focus
+5,Fortune
+5,Glory
+5,Health
+5,Heritage
+5,Honor
+5,Independence
+5,Invulnerability
+5,Justice
+5,Knowledge
+5,Labor
+5,Leadership
+5,Legend
+5,Life
+5,Light
+5,Lightning
+5,Loyalty
+5,Luck
+5,Magic
+10,Might
+5,Order
+5,Patience
+5,Peace
+5,Pleasure
+10,Power
+5,Prestige
+5,Prosperity
+5,Protection
+5,Prowess
+5,Purpose
+5,Reason
+5,Redemption
+5,Resistance
+5,Respect
+5,Riches
+5,Sacrifice
+5,Salvation
+5,Soul
+5,Spirit
+5,Steadfastness
+5,Stealth
+5,Storm
+5,Strength
+5,Success
+5,Survival
+5,Thunder
+5,Treasure
+5,Truth
+5,Unity
+5,Valor
+5,Victory
+5,Vigor
+5,Virtue
+5,Vision
+5,Wealth
+5,Willpower
+5,Wisdom
+3,Balance
+2,Brilliance
+5,Control
+2,Cunning
+2,Dawn
+2,Dignity
+3,Endurance
+5,Grace
+2,Judgment
+3,Law
+2,Splendor
+2,Wind
+
+;AbstractNounNegative
+2,Agony
+2,Anger
+2,Annihilation
+1,Avarice
+2,Blood
+2,Bloodshed
+2,Carnage
+2,Chaos
+2,Darkness
+3,Death
+2,Despair
+2,Destruction
+2,Devastation
+2,Disaster
+2,Discord
+2,Dishonor
+2,Doom
+2,Dread
+2,Evil
+2,Fear
+2,Fire
+1,Frost
+1,Fury
+2,Greed
+2,Hatred
+1,Lust
+1,Murder
+2,Night
+2,Pain
+2,Pestilence
+1,Plague
+2,Pride
+2,Rage
+2,Revenge
+2,Ruin
+2,Shadow
+2,Sin
+2,Slaughter
+2,Suffering
+2,Temptation
+2,Terror
+2,Thunder
+1,Torture
+2,Vengeance
+2,War
+1,Winter
+1,Wrath
+
+;DefiniteNoun
+1,Adder
+1,Angel
+2,Archon
+1,Army
+1,Asp
+1,Avenger
+1,Badger
+1,Banshee
+2,Basilisk
+1,Bastion
+1,Bat
+3,Bear
+3,Beast
+1,Boar
+1,Brawler
+1,Buckler
+2,Bull
+1,Centaur
+1,Chalice
+1,Chameleon
+1,Child
+1,Chimera
+2,Claw
+1,Cockatrice
+1,Condor
+2,Constrictor
+1,Crocodile
+1,Crow
+1,Crown
+1,Crusher
+1,Death
+3,Demon
+3,Devil
+1,Dog
+8,Dragon
+1,Drake
+3,Eagle
+1,Eel
+1,Eye
+2,Falcon
+1,Fang
+1,Felldrake
+1,Ferret
+1,Feyfolk
+3,Fiend
+6,Foe
+1,Fortress
+4,Fox
+1,Fury
+3,Ghost
+1,Giant
+1,Goblin
+1,Griffon
+1,Gryphon
+1,Hammer
+1,Hand
+1,Harpy
+1,Harrier
+2,Hawk
+1,Helmet
+1,Horn
+1,Hornet
+2,Hound
+3,Hunter
+4,Hydra
+1,Hyena
+1,Infiltrator
+3,Jackal
+1,Jaguar
+2,Juggernaut
+1,King
+1,Knave
+1,Knife
+2,Knight
+1,Kobold
+1,Kraken
+1,Lamprey
+1,Leopard
+1,Leviathan
+4,Lion
+1,Lizard
+1,Locust
+1,Manticore
+2,Mantis
+1,Mastiff
+1,Minotaur
+1,Monkey
+1,Ogre
+1,Osprey
+1,Owl
+1,Owlbear
+2,Panther
+1,Phantom
+2,Phoenix
+1,Prince
+1,Python
+1,Raider
+2,Ram
+1,Ravager
+2,Raven
+1,Reaper
+1,Reaver
+1,Rhino
+1,Rogue
+1,Rook
+1,Scarab
+3,Scorpion
+1,Scythe
+2,Seeker
+3,Serpent
+1,Shadow
+2,Shark
+1,Shield
+1,Siren
+2,Skull
+1,Snake
+1,Sphinx
+1,Spider
+3,Stag
+3,Stalker
+1,Stallion
+1,Stirge
+1,Stone
+1,Storm
+1,Stronghold
+1,Talon
+2,Tiger
+1,Titan
+1,Troll
+2,Vampire
+2,Viper
+1,Vulture
+2,Warlord
+2,Warrior
+2,Wasp
+1,Werewolf
+1,Whirlwind
+4,Wolf
+1,Wolfhound
+1,Wolverine
+1,Woman
+1,Wraith
+2,Wyrm
+1,Wyvern
+
+;AdjPosNeut
+2,[AdjectivePositive]
+1,[AdjectiveNeutral]
+
+;AdjNegNeut
+2,[AdjectiveNegative]
+1,[AdjectiveNeutral]
+
+;AdjectivePositive
+1,Admirable
+1,Almighty
+1,Almighty
+1,Ancient
+1,Anointed
+1,Ascendant
+1,Avenging
+1,Beatific
+1,Beautiful
+1,Best
+1,Blessed
+1,Blessed
+1,Bright
+1,Brilliant
+1,Calm
+1,Celestial
+1,Chosen
+1,Chosen
+1,Courageous
+1,Cunning
+1,Dauntless
+1,Dedicated
+1,Determined
+1,Devoted
+1,Enchanted
+1,Enlightened
+1,Enlightened
+1,Essential
+1,Esteemed
+1,Eternal
+1,Exalted
+1,Exalted
+1,Excellent
+1,Extraordinary
+1,Faithful
+1,Favored
+2,Fearless
+1,Fierce
+1,Fierce
+1,Flawless
+1,Fortunate
+1,Glorious
+1,Glorious
+1,Golden
+1,Grand
+1,Great
+1,Great
+1,Hallowed
+1,Hallowed
+1,Heavenly
+1,Holy
+1,Honored
+1,Honourable
+1,Humble
+1,Illuminated
+1,Illuminated
+1,Illustrious
+1,Illustrious
+1,Immortal
+1,Incomparable
+1,Inestimable
+1,Just
+1,Learned
+1,Legendary
+1,Loyal
+1,Loyal
+1,Majestic
+1,Matchless
+1,Matchless
+2,Mighty
+1,Mighty
+1,Noble
+1,Omnipotent
+1,Peaceful
+1,Penitent
+1,Perfect
+1,Pious
+1,Profound
+1,Pure
+2,Radiant
+1,Radiant
+1,Relentless
+1,Resplendant
+1,Revered
+1,Royal
+1,Sacred
+1,Serene
+1,Shining
+1,Silver
+1,Steadfast
+1,Swift
+1,Tenacious
+
+;AdjectiveNeutral
+10,Black
+1,Ancient
+1,Arcane
+1,Astral
+1,Awakened
+1,Azure
+1,Bearded
+6,Blue
+1,Bone
+2,Brazen
+1,Ceaseless
+1,Changing
+1,Constant
+1,Copper
+1,Crimson
+1,Divided
+1,Divine
+1,Dormant
+2,Ebony
+1,Elder
+1,Eldritch
+1,Elemental
+1,Emerald
+1,Emerald
+1,Endless
+1,Epic
+1,Eternal
+1,Ethereal
+1,Fifth
+1,Final
+1,Final
+1,First
+1,Fourth
+1,Fundemental
+7,Green
+8,Grey
+1,Hidden
+1,Imperial
+1,Inner
+1,Inscrutable
+7,Invisible
+8,Iron
+1,Ivory
+1,Last
+1,Legitimate
+1,Lonely
+1,Lost
+1,Misty
+1,Mysterious
+1,Mystic
+1,Naked
+1,New
+1,Obscure
+1,Outer
+1,Pale
+1,Penultimate
+3,Phantom
+1,Platinum
+1,Primary
+1,Prime
+1,Primeval
+1,Prophetic
+1,Proud
+1,Recognized
+7,Red
+1,Red
+1,Reknowned
+1,Relentless
+1,Royal
+1,Ruby
+1,Sapphire
+2,Scarlet
+1,Second
+1,Seventh
+3,Silent
+1,Sixth
+3,Sleeping
+3,Steel
+1,Stone
+1,Sublime
+1,Third
+1,Wandering
+6,White
+3,Wild
+
+;AdjectiveNegative
+1,Abyssal
+1,Barren
+1,Bitter
+1,Blind
+5,Blind
+8,Bloody
+1,Burning
+1,Chthonic
+1,Concealed
+1,Conquering
+1,Corrupted
+1,Crazy
+1,Creeping
+1,Cryptic
+1,Cursed
+8,Dark
+1,Dark
+1,Desolate
+1,Destroying
+1,Faithless
+1,Fallen
+1,Fiery
+8,Fiery
+1,Foolish
+1,Forbidden
+1,Forgotten
+1,Frenzied
+1,Furious
+1,Hidden
+1,Horned
+1,Infernal
+8,Night
+1,Profane
+1,Proud
+2,Raging
+1,Reaping
+2,Screaming
+1,Secret
+1,Serpentine
+7,Shadow
+1,Stupid
+1,Stygian
+1,Unholy
+1,Untamed
+1,Useless
+2,Venomous
+3,Warlike
+1,Weak
+1,Withered
+
+;SuffixPositive
+20,-Bringer
+2,-Dancer
+3,-Maker
+3,-Singer
+2,-Spreader
+3,-forger
+1, Speaker
+1,'s Avenger
+2,'s Essence
+2,'s Herald
+1,'s Servant
+2,'s Spirit
+1,'s Voice
+
+;SuffixNegative
+1,-Destroyer
+1,-Hunter
+1,-Killer
+1,-Ravager
+3,-Slayer
+1,-Stalker
+2, Blight
+1, Breaker
+2, Cleaver
+1, Crusher
+1, Master
+3, Piercer
+1, Reaper
+2, Reaver
+3, Slayer
+1, Stealer
+1, Taker
+1, Ward
+1,'s Curse
+1,'s Dark Curse
+1,'s Eternal Curse
+1,'s Eternal Wrath
+1,'s Harbinger
+1,'s Revenge
+1,'s Vengeance
+1,'s Wrath
+
+;Advice
+5,Beware the [AdjNegNeut] [DefiniteNoun]
+5,He who [VerbageThirdPerson] [AbstractNoun] also [VerbageThirdPerson] [AbstractNoun]
+5,He who [VerbageThirdPerson] [AbstractNoun] is as [AdjectivePositive] as the [DefiniteNoun]
+3,Only through [AbstractNounPositive] can [AbstractNounPositive] be achieved
+3,The [EssenceWord] [AbstractNoun] is [AbstractNoun]
+2,The [TimePeriod] of [AbstractNoun] is [TimeProximity]
+3,Those who seek [AbstractNounPositive] are doomed to [AbstractNounNegative]
+2,Trust in the [AbstractNoun] of the [AdjPosNeut] [DefiniteNoun] and [AbstractNounPositive] shall be yours
+3,Trust in the [AdjPosNeut] [DefiniteNoun] and [AbstractNounPositive] shall be yours
+3,When faced with [AbstractNounNegative] or [AbstractNounNegative], choose [AbstractNounPositive]
+3,Who can have [AbstractNounPositive] when confronted with [AbstractNounNegative]?
+3,Without [AbstractNounPositive] there can be no [AbstractNounPositive]
+2,[AbstractNounNegative] can never break my [AbstractNounPositive]
+5,[AbstractNounPositive] comes to He who has the [AbstractNounPositive] of the [AdjPosNeut] [DefiniteNoun]
+3,[AbstractNounPositive] precedes [AbstractNounPositive]
+1,[AbstractNounPositive] can only be gained by [AbstractNoun]
+3,[AbstractNounPositive] will overcome [AbstractNounNegative]
+3,[AbstractNounNegative] only begets [AbstractNounNegative]
+5,[AbstractNoun] comes from [AbstractNoun], not from [AbstractNoun]
+5,[AbstractNoun] is worth more than [AbstractNoun]
+#1,[DesireWord] [FamousPeople.HumanRacialEnemies] Blood!
+5,[GuardWord] against the [AdjNegNeut] [DefiniteNoun]
+5,[GuardWord] ye well this [AdjPosNeut] [AbstractNounPositive]
+5,[OnlyWord] [AbstractNoun] [ImportanceVerb]
+5,[OnlyWord] the [AdjectivePositive] [VerbEffect]
+5,[TrustWord] the [AdjPosNeut] [DefiniteNoun] for [AbstractNounPositive]
+5,[VerbageSecondPerson1] [VerbageSecondPerson2] the [AbstractNoun], lest it [Effect]
+15,[AbstractNoun] is the [Relationship] [AbstractNoun]
+
+;Relationship
+1,True Source of
+1,Embodiment of
+1,Roblest Reason for
+1,Root of all
+1,Purest Form of
+1,Companion of
+1,Harbinger of
+1,Herald of
+1,Daughter of
+1,Child of
+1,Son of
+1,Father of
+1,Mother of
+1,Master of
+1,Slave of
+1,Price of
+1,Reward of
+1,Wages of
+
+;VerbageThirdPerson
+1,Attains
+1,Becomes one with
+1,Comprehends
+1,Conquers
+1,Controls
+1,Emulates
+1,Fights against
+1,Learns
+1,Masters
+1,Resists
+1,Seeks after
+1,Understands
+
+;VerbageSecondPerson1
+1,Aspire to
+1,Attempt to
+1,Endeavor to
+1,It is time to
+1,Learn to
+1,Look to
+1,Seek to
+1,Strive to
+1,Try to
+2,You must
+
+;VerbageSecondPerson2
+1,Attain
+1,Bridle
+1,Command
+1,Comprehend
+1,Constrain
+1,Control
+1,Dominate
+1,Expand
+1,Give in to
+1,Govern
+1,Master
+1,Restrain
+1,Surrender to
+1,Tame
+1,Unleash
+1,Yeild to
+
+;VerbEffect
+10,Survive
+2,Can Withstand My [AbstractNoun]
+1,Endure
+2,Shall Live
+2,Shall Prosper
+1,Will Inherit the Earth
+
+;Effect
+5,Become your Master
+5,Become your downfall
+5,Find you unprepared
+5,Lead to [AbstractNounNegative]
+5,Rule over you
+5,Take from you that which you hold most dear
+
+;TimePeriod
+3,Age
+1,Dawn
+1,Day
+1,Epoch
+1,Era
+2,Rise
+2,Time
+
+;DesireWord
+1,Bathe me in
+1,Forged in
+1,I Covet
+3,I Desire
+1,I Long for
+3,I Need
+5,I Thirst for
+2,I Want
+1,Quench me in 
+1,Thirsty for
+
+;GuardWord
+2,Defend
+8,Guard
+3,Protect
+1,Safeguard
+4,Ward
+
+;TrustWord
+3,Believe in
+2,Confide in
+1,Depend on 
+1,Lean towards
+6,Look to
+4,Rely upon
+5,Trust in
+
+;TimeProximity
+2,Beginning
+2,Dawning
+2,Ended
+2,Near
+4,Nigh
+2,Over
+2,Past
+2,Rising
+1,Starting
+1,Upon us
+
+;EssenceWord
+2,Basis of
+5,Essence of
+3,Key to 
+2,Secret to
+1,Soul of 
+1,Source of 
+
+;ImportanceVerb
+1,Can Save You
+1,Can Stop Me Now
+1,Is Important
+5,Matters
+
+;OnlyWord
+5,Only
+1,Nothing but
+
+;Language
+4,[GheronUtility.HumanLanguagesWritten]
+1,[GheronUtility.NonHumanLanguagesWritten]
+
+

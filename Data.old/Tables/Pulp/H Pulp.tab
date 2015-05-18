@@ -1,0 +1,115 @@
+
+;Start
+1,[hPulpHeroNovel]
+
+;hPulpNoun
+1,Hailstorm
+1,Hankering
+1,Happenstance
+1,Hats
+1,Haven
+1,Heights
+1,Heroes
+1,Heiroglyph
+1,Hippies
+1,Hive
+1,Hotties
+1,Hunger
+1,Hunks
+
+;hPulpAdjNegative
+1,Ha Ha
+1,Halloween
+1,Hateful
+1,Hazardous
+1,Headstrong
+1,Heathen
+1,Heaving
+1,Heavy
+1,Heinous
+1,Hidden
+1,Hideous
+1,Horn Headed
+1,Huge
+1,Humongous
+1,Hungry
+
+;hPulpAdjPositive
+1,Hale
+1,Hallowed
+1,Handsome
+1,Handy
+1,Hard Charging
+1,Hard Hittin'
+1,Hardluck
+1,Hatted
+1,Healthy
+1,Hearty
+1,Hefty
+1,Helpful
+1,Heroic
+1,Hilarious
+1,Holy
+1,Honest
+1,Honorable
+1,Hygienic
+
+;hPulpMaleFirstName
+1,Hal
+1,Hank
+1,Hans
+1,Henry
+1,Herschel
+1,Hombre
+1,Homeboy
+1,Homer
+1,Hunk
+
+;hPulpFemaleFirstName
+1,Halley
+1,Hattie
+1,Heather
+1,Helen
+1,Helena
+1,Henrietta
+1,Hillary
+1,Honey
+1,Hostess
+1,Hottie
+
+;hPulpLastName
+1,Hamburg
+1,Hangman
+1,Hanks
+1,Hanson
+1,Hazzard
+1,Heinz
+1,Henderson
+1,Hershey
+1,Hightower
+1,Highwater
+1,Hoover
+1,Hudson
+1,Hurst
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the Hazards of the
+1,and the Haze of the
+1,and the Happening of the
+1,helps
+1,hires
+1,in:
+1,versus the
+
+;pulpend
+1,[hPulpAdjNegative] [hPulpNoun]
+
+;hPulpHeroNovel
+10,[hPulpAdjPositive] [hPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[hPulpMaleFirstName] [hPulpLastName] [pulpmiddle] [pulpend]
+3,[hPulpAdjPositive] [hPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[hPulpFemaleFirstName] [hPulpLastName] [pulpmiddle] [pulpend]
+
+

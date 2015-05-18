@@ -1,0 +1,492 @@
+
+;Start
+1,[WesternTown]
+1,[WesternCounty]
+1,[WesternState]
+1,[MexicanPlace]
+1,[Terrains]
+
+;WesternPlace
+1,[DitV Town Name.Start]
+2,[WesternState]
+4,[WesternTown]
+5,[WesternCounty]
+1,[MexicanPlace]
+
+;MexicanPlace
+1,Acapulco
+1,Ahumada
+1,Aldama
+1,Allende
+1,Altamira
+1,Aquiles Serdan
+1,Ascension
+1,Balleza
+1,Buenaventura
+1,Buenavista
+1,Boca Del Rio
+1,Camargo
+1,Casas Grandes
+1,Chihuahua
+1,Coahuila
+1,Coronado
+1,Cuernavaca
+1,Ciudad Acuña
+1,Ciudad Frontera
+1,Cuidad Madero
+1,Cuidad Mante
+1,Cuidad Victoria
+1,Delicias
+1,Durango
+1,El Tule
+1,Ensenada
+1,Fresnillo
+1,Galeana
+1,Gomez Farias
+1,Gran Morelos
+1,Guadalajara
+1,Guerrero
+1,Hermosillo
+1,Higaldo del Parral
+1,Iguala
+1,Irapuato
+1,Janos
+1,Juarez
+1,La Cruz
+1,La Paz
+1,Leon
+1,Lopez
+1,Madera
+1,Matamoros
+1,Merida
+1,Mexicali
+1,Mexico
+1,Mexico City
+1,Miramar
+1,Monclova
+1,Monterrey
+1,Morelos
+1,Nogales
+1,Nuevo Casas Grandes
+1,Nuevo Leon
+1,Nuevo Loredo
+1,Nueva Rosita
+1,Ojinaga
+1,Oaxaca
+1,Parral
+1,Parras de la Fuente
+1,Piedras Negras
+1,Playa del Carmen
+1,Puebla
+1,Queretaro
+1,Ramos Arizpe
+1,Reynosa
+1,Rio Bravo
+1,Rio Grande
+1,Riva Palacio
+1,Rosales
+1,Rosario
+1,Sabinas
+1,Saltillo
+1,San Luis Potosi
+1,San Pedro
+1,Santa Barbara
+1,Santa Isabel
+1,Satevo
+1,Saucillo
+1,Sonora
+1,the Border
+1,the Mexican border
+1,Tamaulipas
+1,Tampico
+1,Tijuana
+1,Tobasco
+1,Toluca
+1,Torreon
+1,Urique
+1,Uruachi
+1,Valle de Zaragoza
+1,Villahermosa
+1,Xalapa
+1,Xico
+1,Zapopan
+
+
+;WesternCounty
+1,[County] County
+
+;County
+1,Anderson
+1,Andrews
+1,Angelina
+1,Apache
+1,Aransas
+1,Archer
+1,Armstrong
+1,Atascosa
+1,Austin
+1,Bailey
+1,Bandera
+1,Bastrop
+1,Baylor
+1,Bee
+1,Bell
+1,Bexar
+1,Blanco
+1,Borden
+1,Bosque
+1,Bowie
+1,Brazoria
+1,Brazos
+1,Brewster
+1,Briscoe
+1,Brooks
+1,Brown
+1,Burleson
+1,Burnet
+1,Caldwell
+1,Calhoun
+1,Callahan
+1,Cameron
+1,Camp
+1,Carson
+1,Cass
+1,Castro
+1,Chambers
+1,Cherokee
+1,Childress
+1,Clay
+1,Cochise
+1,Cochran
+1,Coconino
+1,Coke
+1,Coleman
+1,Collin
+1,Collingsworth
+1,Colorado
+1,Comal
+1,Comanche
+1,Concho
+1,Cooke
+1,Coryell
+1,Cottle
+1,Crane
+1,Crockett
+1,Crosby
+1,Culberson
+1,Dallam
+1,Dallas
+1,Dawson
+1,Deaf Smith
+1,Delta
+1,Denton
+1,DeWitt
+1,Dickens
+1,Dimmit
+1,Donley
+1,Duval
+1,Eastland
+1,Ector
+1,Edwards
+1,Ellis
+1,ElPaso
+1,Erath
+1,Falls
+1,Fannin
+1,Fayette
+1,Fisher
+1,Floyd
+1,Foard
+1,Fort Bend
+1,Franklin
+1,Freestone
+1,Frio
+1,Gaines
+1,Galveston
+1,Garza
+1,Gila
+1,Gillespie
+1,Glasscock
+1,Goliad
+1,Gonzales
+1,Graham
+1,Gray
+1,Grayson
+1,Greenlee
+1,Gregg
+1,Grimes
+1,Guadalupe
+1,Hale
+1,Hall
+1,Hamilton
+1,Hansford
+1,Hardeman
+1,Hardin
+1,Harris
+1,Harrison
+1,Hartley
+1,Haskell
+1,Hays
+1,Hemphill
+1,Henderson
+1,Hidalgo
+1,Hill
+1,Hockley
+1,Hood
+1,Hopkins
+1,Houston
+1,Howard
+1,Hudspeth
+1,Hunt
+1,Hutchinson
+1,Irion
+1,Jack
+1,Jackson
+1,Jasper
+1,Jeff Davis
+1,Jefferson
+1,Jim Hogg
+1,Jim Wells
+1,Johnson
+1,Jones
+1,Karnes
+1,Kaufman
+1,Kendall
+1,Kenedy
+1,Kent
+1,Kerr
+1,Kimble
+1,King
+1,Kinney
+1,Kleberg
+1,Knox
+1,Lamar
+1,Lamb
+1,Lampasas
+1,La Paz
+1,La Salle
+1,Lavaca
+1,Lee
+1,Leon
+1,Liberty
+1,Limestone
+1,Lipscomb
+1,LiveOak
+1,Llano
+1,Loving
+1,Lubbock
+1,Lynn
+1,Madison
+1,Maricopa
+1,Marion
+1,Martin
+1,Mason
+1,Matagorda
+1,Maverick
+1,McCulloch
+1,McLennan
+1,McMullen
+1,Medina
+1,Menard
+1,Midland
+1,Milam
+1,Mills
+1,Mitchell
+1,Montague
+1,Montgomery
+1,Mohave
+1,Moore
+1,Morris
+1,Motley
+1,Nacogdoches
+1,Navajo
+1,Navarro
+1,Newton
+1,Nolan
+1,Nueces
+1,Ochiltree
+1,Oldham
+1,Orange
+1,PaloPinto
+1,Panola
+1,Parker
+1,Parmer
+1,Pecos
+1,Pima
+1,Pinal
+1,Polk
+1,Potter
+1,Presidio
+1,Rains
+1,Randall
+1,Reagan
+1,Real
+1,RedRiver
+1,Reeves
+1,Refugio
+1,Roberts
+1,Robertson
+1,Rockwall
+1,Runnels
+1,Rusk
+1,Sabine
+1,San Augustine
+1,San Jacinto
+1,San Patricio
+1,San Saba
+1,Santa Cruz
+1,Schleicher
+1,Scurry
+1,Shackelford
+1,Shelby
+1,Sherman
+1,Smith
+1,Somervell
+1,Starr
+1,Stephens
+1,Sterling
+1,Stonewall
+1,Sutton
+1,Swisher
+1,Tarrant
+1,Taylor
+1,Terrell
+1,Terry
+1,Throckmorton
+1,Titus
+1,TomGreen
+1,Travis
+1,Trinity
+1,Tyler
+1,Upshur
+1,Upton
+1,Uvalde
+1,ValVerde
+1,VanZandt
+1,Victoria
+1,Walker
+1,Waller
+1,Ward
+1,Washington
+1,Webb
+1,Wharton
+1,Wheeler
+1,Wichita
+1,Wilbarger
+1,Willacy
+1,Williamson
+1,Wilson
+1,Winkler
+1,Wise
+1,Wood
+1,Yavapai
+1,Yoakum
+1,Young
+1,Yuma
+1,Zapata
+1,Zavala
+
+;WesternState
+1,Arizona
+1,Arkansas
+1,California
+1,Colorado
+1,Indiana
+1,Kansas
+1,Kentucky
+1,Louisiana
+1,Mississippi
+1,Montana
+1,Nebraska
+1,Nevada
+1,New Mexico
+1,North Dakota
+1,Oklahoma
+1,Oregon
+1,South Dakota
+1,Tennessee
+1,Texas
+1,Utah
+1,Washington
+1,Wisconsin
+1,Wyoming
+
+;WesternTown
+1,Alamo
+1,Alamosa
+1,Arlington
+1,Austin
+1,Boulder
+1,Broken Arrow
+1,Casper
+1,Cheyenne
+1,Colby
+1,Colorado Springs
+1,Corpus Christi
+1,Dallas
+1,Denver
+1,El Paso
+1,Flagstaff
+1,Fort Bliss
+1,Fort Smith
+1,Fort Sumter
+1,Fort Worth
+1,Gillette
+1,Grand Junction
+1,Houston
+1,Lander
+1,Laramie
+1,Laredo
+1,Lawton
+1,Little Big Horn
+1,Little Rock
+1,Jackson
+1,Jacksonville
+1,Junction City
+1,Nashville
+1,Nevada City
+1,Oklahoma City
+1,Phoenix
+1,Pioneertown
+1,Plano
+1,Pueblo
+1,Reno
+1,San Antonio
+1,Santa Ana
+1,Santa Fe
+1,Sheridan
+1,Tucson
+1,Tulsa
+1,Wichita
+1,Winslow
+1,Yuma
+
+
+;Terrains
+1,badlands
+1,brush
+1,butte
+1,canyon
+1,desert
+1,desolate
+1,ditch
+1,gulch
+1,hole
+1,hot springs
+1,oasis
+1,open range
+1,oxbow
+1,prairie
+1,range
+1,river
+1,riverbed
+1,rocky
+1,salt flats
+1,scrub grass
+1,scrub pine
+1,springs
+1,stream
+1,streambed
+1,valley
+
+

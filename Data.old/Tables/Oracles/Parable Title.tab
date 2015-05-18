@@ -1,0 +1,208 @@
+
+;Start
+3,<b>[Title]</b>: [Premise]
+1,<b>[Title]</b>: The moral of this story is "[Inscriptions.Advice]"
+
+;Title
+2,The [Animal] and the [Animal]
+1,The [Animal] and the [Object]
+1,The [Animal] that [didSomething]
+1,The [Person] and the [Animal]
+1,The [Person] and the [Person]
+1,The [Person] that [didSomething]
+1,The [Person] and the [Object]
+1,The [Person] and the [Nature]
+1,The [Nature] and the [Animal]
+1,The [Nature] and the [Nature]
+1,[Originals]
+
+;Person
+1,Boy
+1,King
+1,Princess
+1,Prince
+1,Queen
+1,Girl
+1,Farmer
+1,Peasant
+1,Beggar
+1,Minstrel
+1,Shepherd
+1,Man
+1,Woman
+1,Sailor
+1,Soldier
+1,Tailor
+1,Cobbler
+
+;Animal
+1,Ant
+1,Grasshopper
+1,Crow
+1,Dog
+1,Cat
+1,Donkey
+1,Horse
+1,Fox
+1,Tortoise
+1,Hare
+1,Frog
+1,Ox
+1,Goose
+1,Chicken
+1,Swan
+1,Pig
+1,Cow
+1,Bull
+1,Wolf
+1,Mouse
+1,Scorpion
+1,Lion
+1,Rabbit
+1,Caterpillar
+1,Butterfly
+1,Billy Goat
+1,Dove
+1,Hawk
+1,Eagle
+1,Bear
+1,Turkey
+1,Rooster
+1,Hen
+1,Lamb
+1,Ram
+1,Owl
+
+;Object
+1,Grapes
+1,Honey
+1,Bread
+1,Oxcart
+1,Oven
+1,Kettle
+1,Pitcher
+1,Hay Wain
+1,Pitchfork
+1,Blacksmith
+1,Road
+1,Rosebush
+1,Stone Wall
+
+;didSomething
+1,thought he was a [Animal]
+1,lived with the [Animal]
+1,made fun of the [Animal]
+1,wanted to be a [Person]
+1,wanted to be a [Animal]
+1,wished he were the [Nature]
+
+;Nature
+1,Sun
+1,Moon
+3,[Compass direction.4] Wind
+1,Sea
+1,Rain
+1,Clouds
+1,Thunder
+1,Summer
+1,Springtime
+1,Autumn
+1,Winter
+1,Snow
+1,Trees
+1,Stars
+1,Night
+1,Day
+1,Mountain
+1,Darkness
+
+;Originals
+1,The Ant and the Grasshopper
+1,The Boy Who Cried Wolf
+1,The Crow and the Pitcher
+1,The Dog and the Bone
+1,The Dog in the Manger
+1,The Frog and the Ox
+1,The Frogs Who Desired a King
+1,The Fox and the Grapes
+1,The Goose that Laid the Golden Eggs
+1,The Lion and the Mouse
+1,The North Wind and the Sun
+1,The Scorpion and the Frog
+1,The Tortoise and the Hare
+1,The Town Mouse and the Country Mouse
+1,The Wolf in Sheep's Clothing
+
+;Premise
+1,When is it right to use force?
+1,Why should you serve others before yourself?
+1,Why should you serve yourself before others?
+1,How can you show compassion to your enemy?
+1,How can you show disapproval to your friend?
+1,Why is honor more important than duty?
+1,Why is duty more important than honor?
+1,To what point should you remain loyal to your family?
+10,Why is [Principle] more important than [Principle]?
+1,How can a teacher know what is best for the student?
+1,Why is who you are more important than what you are?
+1,How can a student know what is best for his teacher?
+1,What makes a good leader?
+1,What makes a bad leader?
+1,What makes us worthy?
+5,What makes us worthy of [Principle]?
+5,What is the price of [Principle]?
+4,Who is deserving of [Principle]?
+1,When is it wrong to speak the truth?
+1,How can we recognize true [Principle]?
+1,Is it better to be judged by your [Principle], or your [Principle]?
+
+
+;Principle
+1,honor
+1,compassion
+1,mercy
+1,justice
+1,duty
+1,family
+1,loyalty
+1,keeping your word
+1,honesty
+1,keeping your dignity
+1,passion
+1,respect
+1,true love
+1,preserving the life of another
+1,desire
+1,instinct
+1,learning
+1,society's expectations
+1,reputation
+1,the truth
+1,pride
+1,helping others
+1,power
+1,following orders
+1,romantic attraction
+1,revenge
+1,following the law
+1,forgiving another
+1,maintaining your station in life
+1,following your dreams
+1,keeping a promise
+1,protecting those you love
+1,desire for acceptance
+1,fear of death
+1,freedom
+1,devotion to a cause
+1,religious conviction
+1,security
+1,vigilance
+1,beauty
+1,happiness
+1,poverty
+1,wealth
+1,virtue
+1,wisdom
+1,invention
+
+

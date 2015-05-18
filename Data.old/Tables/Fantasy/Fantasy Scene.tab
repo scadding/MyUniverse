@@ -1,0 +1,24 @@
+
+;Start
+1,You're with [Character] at [Location]. Situation: [Situation]<br>
+
+;Character
+1,[Pickpocket.NPCDescriptor] [Quick NPC.RichNPC]
+1,[Pickpocket.NPCDescriptor] [Quick NPC.MidNPC]
+1,[Pickpocket.NPCDescriptor] [Quick NPC.PoorNPC]
+3,[Art Grace and Guts Oracle.Characters Lcase]
+
+;Situation
+1,[Parable Title.Premise]
+1,[Art Grace and Guts Oracle.Events]
+1,[Art Grace and Guts Oracle.Threats]
+
+;Location
+1,[Fantasy Landmarks.Start]
+1,[Fantasy Town Feature.Start]
+1,[Art Grace and Guts Oracle.Locations Lcase]
+
+;Motivation
+
+
+

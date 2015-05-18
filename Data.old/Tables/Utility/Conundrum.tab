@@ -1,0 +1,109 @@
+
+;Start
+1,[question]
+
+;question
+1,Will you let [motivebad] keep you from [motivegood]?
+1,Is [motiveneutral] going to get in the way of [motivegood]?
+1,What will you do when you have to choose between [motivegood] and [motivegood]?
+1,When [motivebad] interferes with [motiveneutral], which will you follow?
+2,Is [motiveany] [better] than [motiveany]?
+1,Is it possible to overcome [motivebad] and still end up [motivegood]?
+1,When it comes down to it, the choice is between [motivegood] and [motivegood], isn't it?
+1,Is [motiveneutral] enough to keep you from [motivegood]?
+1,Will [motiveneutral] be enough to keep you from [motivebad]?
+1,Now its just a question of which will pull you down - [motivebad] or [motivebad]?
+1,Will you give in to [motivebad] or is there still a chance of [motivegood]?
+1,Will [motivegood] be enough to keep you from [motivebad]?
+1,Once, [motivebad] nearly killed you - will [motivegood] finish the job?
+1,If it's only [motiveneutral], why are you so nervous?
+1,Is her [motivegood] enough to stop [motivebad] from destroying you?
+1,You survived [motivebad]; can you survive [motiveany]?
+
+;better
+1,better
+1,stronger
+1,more important
+
+;motiveany
+1,[motivegood]
+1,[motivebad]
+1,[motiveneutral]
+
+;motivegood
+1, searching for the Truth
+1, helping those in need
+1, saving a friendship
+1, acting honorably
+1, obeying the law
+1, forgiving someone
+1, bestowing mercy
+1, following a dream
+1, protecting a loved one
+1, keeping your family together
+1, being free
+1, satisfying justice
+1, finding true love
+1, preserving a shred of dignity
+1, saving your marriage
+1, accepting who you really are
+1, saving the life of a child
+1, honoring tradition
+1, respecting your elders
+1, discovering the truth
+1, setting things right
+1, standing your ground
+
+;motivebad
+1, the desire for wealth
+1, selfish pride
+1, thirst for power
+1, an inner darkness
+1, guilt over a past transgression
+1, the desire for revenge
+1, deep-seated prejudice 
+1, fear of commitment
+1, addiction
+1, racism
+1, mental illness
+1, social awkwardness
+1, fear of death
+1, a physical impairment
+1, narcissism
+1, a family secret
+1, an irrational fear
+1, a suitcase full of drugs
+1, a loaded gun
+1, slow-burning rage
+1, moral depravity
+1, forbidden desire
+1, a natural disaster
+1, the shame of your sin
+1, naked ambition
+1, an ill-advised promise
+1, a single foolish night
+1, a dangerous impulse
+1, the horrors of war
+
+;motiveneutral
+1, what society expects
+1, maintaining a reputation
+1, a command from a superior
+1, romantic attraction
+1, preserving social station
+1, a solemn promise
+1, wanting to be popular
+1, devotion to a cause
+1, religious conviction
+1, wanting to be normal
+1, a high-stakes gamble
+1, doing the right thing
+1, swallowing your pride
+1, letting someone go
+1, a buried secret
+1, fear of change
+1, an accident
+1, a magnificent obsession
+1, moving to a new town
+
+

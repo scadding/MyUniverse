@@ -1,0 +1,182 @@
+
+;Start
+1,A [personality] [profession] is [personal goal].
+1,[Pickpocket.NPCDescriptor] [NPC] is [personal goal].
+
+;NPC
+1,[Pickpocket.PoorNPC]
+1,[Pickpocket.MidNPC]
+1,[Pickpocket.RichNPC]
+
+;personality
+1,arrogant
+1,bitter
+1,blind
+1,brave
+1,charming
+1,cheerful
+1,clever
+1,clumsy
+1,compassionate
+1,confused
+1,cowardly
+1,crazed
+1,cunning
+1,cynical
+1,desperate
+1,experienced
+1,foolhardy
+1,foolish
+1,foppish
+1,forlorn
+1,humble
+1,irresponsible
+1,lovesick
+1,lustful
+1,lying
+1,mean
+1,misguided
+1,naive
+1,nebbish
+1,noble
+1,nosy
+1,overeager
+1,pious
+1,proud
+1,rebellious
+1,remorseful
+1,resourceful
+1,ruthless
+1,seasoned
+1,silver-tongued
+1,sly
+1,thoughtful
+1,untrustworthy
+1,vengeful
+1,veteran
+1,well-meaning but dull-witted
+1,wise
+1,young and impressionable
+1,zealous
+1,[Character Concept of Mu.personality]
+
+;profession
+1,acolyte
+1,air pirate
+1,alchemist
+1,archer
+1,archmage
+1,assassin
+1,bandit
+1,barbarian
+1,bard
+1,barkeep
+1,baron
+1,beggar
+1,charlatan
+1,conjurer
+1,druid
+1,duchess
+1,duke
+1,farmboy
+1,farmer
+1,fisherman
+1,god
+1,healer
+1,hunter
+1,innkeeper
+1,jester
+1,knight
+1,martial artist
+1,merchant
+1,monarch
+1,necromancer
+1,oracle
+1,peddler
+1,pickpocket
+1,pirate
+1,priest(ess)
+1,prince(ss)
+1,prophet
+1,rogue
+1,savage
+1,shaman
+1,slave
+1,smuggler
+1,sorcerer
+1,sorceress
+1,spy
+1,squire
+1,summoner
+1,swashbuckler
+1,thief
+1,urchin
+1,village idiot
+1,warlord
+1,warrior
+1,watchman
+1,witch
+1,wizard
+1,youth
+7,[Quick NPC.RichNPC]
+7,[Quick NPC.MidNPC]
+7,[Quick NPC.PoorNPC]
+
+;personal goal
+1,afraid of being recognized by an old acquaintaince
+1,afraid of her uncontrollable powers
+1,being assaulted and pursued by mysterious, demonic spirits
+1,captured and enslaved by an army of Orcs
+1,doomed to wander the world
+1,engineering the downfall of the Empire
+1,fighting for the rights of the common people
+1,fighting to regain the throne
+1,fleeing a dark past
+1,hoping to escape the destruction of the world
+1,hoping to undo the tragedy he has wrought
+1,looking for redemption
+1,looking to take over a powerful crime syndicate
+1,losing his mind after the death of his beloved
+1,masquerading as a [personality] [profession] who is the heir to a fortune
+1,out for revenge
+1,planning the heist of the decade
+1,plotting to overthrow an oppressive ruler
+1,raising an army of mercenaries
+1,reduced to stealing to survive
+1,reluctant to fight, despite great skill at it
+1,searching for a holy relic
+1,searching for a legendary weapon
+1,suddenly caught up in the middle of an epic war
+1,trying to find a cure before it is too late
+1,trying to find a place to call home
+1,trying to get a date
+1,trying to kill a dragon to acquire its treasure
+1,trying to prove himself to his unrequited love
+1,trying to restore an ancient kingdom
+1,trying to rid herself of a curse
+1,trying to unite the barbarian tribes against a common enemy
+4,seeking the [legendary location]
+1,desperately fighting [Secret Society Title.Start]
+1,[Character Concept of Mu.goal]
+
+;legendary location
+1,Castle in the Clouds
+1,City of Gold
+1,Edge of the World
+1,Entrance to the Underworld
+1,Garden of Earthly Delights
+1,Grave of the Lost Kings
+1,Hall of Ancient Heroes
+1,Invisible City
+1,Labyrinth of Insanity
+1,Lost Gold Mines of the Dead
+1,Lost Isle
+1,Mountain of the Gods
+1,Sunken City
+1,Temple of the Mad God
+1,Tomb of the Demon
+1,Universal Library
+5,[Poetic Destinations.Start]
+
+
+

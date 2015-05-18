@@ -1,0 +1,57 @@
+
+;Rank
+1,Lieutenant
+1,Captain
+1,Major
+1,Lt Colonel
+1,Colonel
+1,General
+
+;Personal Development
+1,Strength
+1,Dexterity
+1,Endurance
+1,Gambling
+1,Brawling
+1,Blade Combat
+
+;Service Skills
+1,Vehicle
+1,Vacc Suit
+1,Blade Combat
+1,Gun Combat
+1,Blade Combat
+1,Gun Combat
+
+;Education
+1,Vehicle
+1,Mechanical
+1,Electronics
+1,Tactics
+1,Blade Combat
+1,Gun Combat
+
+;Advanced Education
+1,Medical
+1,Tactics
+1,Tactics
+1,Computer
+1,Leader
+1,Admin
+
+@Muster Benefit
+1,Low Passage,0
+1,Intelligence,2
+1,Education
+1,[Traveller.Blade]
+1,Travellers Aid,0
+1,High Passage,0
+1,Social,2
+1,Cash,2000
+2,Cash,5000
+1,Cash,10000
+1,Cash,20000
+1,Cash,30000
+1,Cash,40000
+
+

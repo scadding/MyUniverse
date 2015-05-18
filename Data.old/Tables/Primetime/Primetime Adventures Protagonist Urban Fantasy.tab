@@ -1,0 +1,295 @@
+
+;Start
+3,Name: [genderfirstname] [surname]<br/> <br/> [edgecon]  <br/> Arc: [arc]  <br/> Issue: [issue]  <br/> [secretchance][NemesisChance]<br/> <hr>
+
+;secretchance
+3,
+2,Secret: [secret] <br/> 
+
+;edgecon
+5,Edges:<ul><li>[edge]<li>[edge]</ul>Connection:<ul><li>[connection]</ul>
+5,Edge:<ul><li>[edge]</ul>Connections:<ul><li>[connection]<li>[connection]</ul>
+
+;NemesisChance
+3,
+1,[Nemesis]<br/>
+
+;genderfirstname
+1,[American Census Names.male]
+1,[American Census Names.female]
+
+;surname
+1,[American Census Names.surname]
+
+;edge
+4,[fakeornot] [profession]
+8,[magicalornot] [profession]
+2,[Modern Hobby.hobby]
+
+;fakeornot
+15,
+1,Fake
+
+;magicalornot
+3,
+2,Magical
+
+;profession
+5,[Modern Profession.profession]
+1,[Super Edge]
+6,[Other Religious]
+10,[Supernatural Edge]
+1,Mysterious Past
+1,Amnesiac
+
+
+;IsCrooked
+4,
+1,Crooked
+
+;connection
+2,Mother [neverknew]
+2,Father [neverknew]
+2,Best Friend
+1,Best Friend From [past]
+2,Old Flame (a/an [edge])
+2,Significant Other
+2,Child [neverknew]
+2,Old Master
+2,Old Teacher
+2,Pilot
+1,[Modern Profession.Military]
+1,[Modern Profession.Medical]
+2,Surgeon
+2,Priest
+2,Kid
+1,[school] Sweetheart
+1,[Modern Profession.Academic]
+2,Lawyer
+1,[Modern Profession.Federal Agent]
+1,[Modern Profession.Cop]
+2,Private Eye
+2,[Super Connection]
+20,[Supernatural Connection]
+
+;neverknew
+3,
+1,He/She Never Knew
+
+;issue
+1,Guilt
+1,Anger
+1,Lust
+1,Pride
+1,Sloth
+1,Avarice
+1,Atonement
+1,Fear of Commitment
+1,Control Freak
+1,Grief
+1,Unlucky In Love
+1,Self Destruction
+1,Self Doubt
+1,Self Worth
+1,Temptation
+1,Amnesia
+
+;secret
+1,Once Killed Someone
+1,Slept With Friend's [Spouse]
+1,Is Sleeping With Friend's [Spouse]
+1,Cheated On [Significant Other]
+1,Is Cheating On [Significant Other]
+1,[Addiction] Addict
+1,Alcoholic
+1,Has A Criminal Record
+1,Had A Homosexual Relationship In [past]
+1,Once Appeared In A Pornographic [vorm]
+1,Amnesiac
+1,Sold His/Her Soul To The Devil
+1,In League With Dark Powers
+1,Oathbound
+1,Necromancer
+1,Is A Light Wizard
+1,In League With Powers of Light
+1,Touched By Demon
+
+
+;Spouse
+1,Husband
+1,Wife
+
+;Significant Other
+1,[Spouse]
+1,Boyfriend
+1,Girlfriend
+
+;vorm
+1,Video
+1,Magazine
+1,Web Site
+
+;past
+1,[school]
+1,the [Modern Profession.Service]
+1,the War
+1,the Academy
+
+;arc
+1,1 1 2 2 3
+1,1 2 1 2 3
+1,1 2 2 1 3
+1,2 1 1 2 3
+1,2 1 2 1 3
+1,2 2 1 1 3
+1,1 1 2 3 2 
+1,1 2 1 3 2 
+1,1 2 2 3 1 
+1,2 1 1 3 2 
+1,2 1 2 3 1 
+1,2 2 1 3 1 
+1,1 1 3 2 2 
+1,1 2 3 1 2 
+1,1 2 3 2 1 
+1,2 1 3 1 2 
+1,2 1 3 2 1 
+1,2 2 3 1 1 
+1,1 3 1 2 2 
+1,1 3 2 1 2 
+1,1 3 2 2 1 
+1,2 3 1 1 2 
+1,2 3 1 2 1 
+1,2 3 2 1 1 
+1,3 1 1 2 2 
+1,3 1 2 1 2 
+1,3 1 2 2 1 
+1,3 2 1 1 2 
+1,3 2 1 2 1 
+1,3 2 2 1 1 
+
+
+;school
+1,High School
+1,College
+
+;Supernatural Edge
+1,Angel
+2,Demon
+1,Saint
+3,Wizard
+1,Priest/Priestess Of A Dark God
+1,Incredibly Lucky
+3,Knows A Spell
+2,Owns A Magical Sword
+2,Owns A Magical Artifact
+1,Relic of a Saint
+1,Subordinate Death
+2,Vampire
+2,Werewolf
+2,Faerie
+2,Ghost
+2,Monster Slayer
+1,Zombie
+2,Magical [Modern Profession.profession]
+1,Supernatural [Modern Profession.profession]
+
+;Supernatural Connection
+1,Angel
+1,Demon
+1,Saint
+1,Satan
+1,God
+1,Death
+1,Nature
+1,Fate
+3,A Wizard
+2,A Light Council Member
+1,A Grey Council Member
+2,A Dark Council Member
+
+;urban fantasy nemesis
+4,[Supernatural Edge]
+2,[Supernatural Connection]
+2,Magical [profession]
+1,[profession]
+
+;Super Edge
+1,Psychic
+1,Superhero
+1,Martial Arts Expert
+1,[Super Power]
+1,Super Weapon
+1,[Psionic Power]
+1,Super Vehicle
+
+;Super Connection
+1,Psychic
+2,Sorceror
+1,Superhero
+1,Supervillain
+1,Martial Arts Expert
+
+;Super Power
+2,Flight
+1,Bat Wings
+1,Feathered Wings
+1,Eye Lasers
+2,Super Strength
+1,Super Speed
+1,X-Ray Vision
+1,Photographic Memory
+2,Invulnerable
+2,Immortal
+2,Magical Knack
+2,Fireball
+2,Lightning Bolt
+2,Second Sight
+1,Teleporter
+1,Breath Weapon
+1,Venom
+1,Magical Gaze
+1,Super Power
+
+;Psionic Power
+2,Telepathy
+1,Telekinesis
+2,Teleportation
+2,ESP
+2,Psychometry
+2,Precognition
+2,Retrocognition
+2,Clairvoyance
+3,Astral Projection
+2,Mind Control
+1,Psionic Power
+
+;Other Religious
+1,Fringe Cultist
+1,Polygamist
+1,Voodoo Priest(ess)
+
+
+;Addiction
+1,Magic
+1,Dark Magic
+1,[Drug]
+
+
+;Drug
+1,Meth
+1,Cocaine
+1,Crack
+1,Heroin
+1,Speed
+1,Steroids
+2,Prescription Drug
+1,Prescription Antidepressant
+1,Prescription Painkiller
+1,PCP
+1,Morphine
+
+
+;Nemesis
+1,Nemesis: [genderfirstname] [surname], [urban fantasy nemesis]
+
+

@@ -1,0 +1,11 @@
+HKEY_LOCAL_MACHINE (or HKEY_CURRENT_USER)
+   SOFTWARE
+      Microsoft
+         Internet Explorer
+            Main
+               FeatureControl
+                  FEATURE_BROWSER_EMULATION
+                     python.exe = (DWORD) 00011000
+
+
+0x2AF9

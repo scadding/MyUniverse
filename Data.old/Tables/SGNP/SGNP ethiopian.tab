@@ -1,0 +1,79 @@
+#Compiled by Moyra Turkington
+#
+#===NOTES===
+#Names are comprised of a personal name followed by the personal name of the person's father or grandfather. A child's #surname is the personal name of the father rather than an inherited surname (e.g. Lebne Azmera, son of Azmera Kifle). #Women do not necessarily change their name on marriage, but when they do they take the surname used by their husband. In #dining, dishes are shared: “those who eat from the same plate will not betray each other”. They are served on and eaten #with injera, a flatbread made of the grain teff. When one diner wishes to honor another, they arrange a morsel of food #and hand feed it into the mouth of the recipient; this practice is called a Gursha. The traditional alcoholic beverage is #a honey wine called Tej.
+
+
+
+;Start
+1,[male] (male)
+1,[female] (female)
+1,[dishes] (dish)
+
+;male
+1,Abebe 
+1,Afework 
+1,Azmera 
+1,Bogale 
+1,Daniachew 
+1,Kebede 
+1,Kifle 
+1,Lebna 
+1,Mamo 
+1,Miruts 
+1,Negasi 
+1,Selam 
+1,Selassiee 
+1,Tamirat 
+1,Teferi 
+1,Tesfaye 
+1,Tewodros 
+1,Wendimu 
+1,Yekuno 
+1,Zere 
+
+;female
+1,Adhiambo 
+1,Alitash 
+1,Ayanna 
+1,Berhane 
+1,Cherika 
+1,Desta 
+1,Fana 
+1,Hullanta 
+1,Lielit 
+1,Lishan 
+1,Makeda 
+1,Melke 
+1,Misrak 
+1,Nishan 
+1,Sisay 
+1,Teru 
+1,Wegaye 
+1,Worknesh 
+1,Yeshi 
+1,Zema
+
+;dishes
+1,Aterkik Alitcha - split peas in light sauce 
+1,Atkilt Salata - boiled potatoes and hot peppers mixed in salad dressing 
+1,Atkilt Wat - potatoes, cabbage, and carrots simmered in sauce 
+1,Azifah - whole brown lentils with onions, green chili peppers, spices and a fresh lime juice 
+1,Buticha - chickpea dip mixed with lemon juice 
+1,Doro Wat - dark chicken marinated in lemon sautéed in butter and stewed in berbere 
+1,Fasolia - string beans and carrots sautéed in caramelized onion 
+1,Gomen - collard green cooked to perfection with spices 
+1,Inguday Tibs - mushroom sautéed with onions 
+1,Kinche - crushed wheat salad 
+1,Kitfo - (a dessert) steak tartar in butter sauce, served (raw) or lebleb (slightly sautéed) 
+1,Lega Yebeg Tibs - cubes of seasoned lamb stir-fried with onions, rosemary and garlic 
+1,Misir Alitcha - pureed split red lentil simmered in mild sauce 
+1,Misir Wat - pureed split red lentil stew in hot berbere sauce 
+1,Senge Karya - hot peppers stuffed with sautéed tomatoes, onions, garlic and shallots 
+1,Shimbra Asa - chickpea flour dumplings, cooked directly in the wat (stew) 
+1,Shiro Alitcha - mild, milled slow cooked split peas are 
+1,Timatim Fitfit - tomatoes, shallots and green peppers in dressing mixed with injera 
+1,Yebeg Alitcha - lamb cooked in a mild green pepper sauce 
+1,Zilzil Tibs - charbroiled beef seasoned with garlic, blackened green chills and rosemary
+
+

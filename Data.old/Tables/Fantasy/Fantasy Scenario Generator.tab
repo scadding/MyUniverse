@@ -1,0 +1,186 @@
+
+;Start
+1,The story takes place in the [PlaceName] [PlaceType]. The scenario begins [Beginning]. The trouble is [Trouble] caused by [CulpritRace] [CulpritType]. To solve the problem, the adventurers must [MainObjective]. If a big fight happens, it'll be at [BattlefieldName] [BattlefieldType].<br>
+
+;Beginning
+1,in a gloomy tavern
+1,in a strange monastery
+1,in a deserted village
+1,in the annual market of a great city
+1,in a plain near some ruins
+1,climbing a mountain during a storm
+1,on a lost boat
+1,listening to a seer's prophecies
+1,in the middle of a blizzard/storm
+1,with a circus
+1,in a besieged fortress
+1,in a bordello
+1,at a deserted campsite
+1,in a crowded marketplace
+1,in a haunted keep
+1,in the audience chamber of a local lord
+1,during a quiet evening over drinks at the inn
+1,outside a quiet hamlet
+1,deep in the woods
+1,in a dark cave
+1,on a moonless night
+
+;Trouble
+1,a disappearance (object, person, place)
+1,a crime wave
+1,a discovery (ruins, goldmine...)
+1,mistaken identity with the adventurers
+1,a strange phenomenon (eclipse...)
+1,a siege
+1,a direct attack against the adventurers
+1,mass hysteria
+1,a religious problem
+1,a plague
+1,the escape of dangerous prisoners
+1,an undead invasion
+1,missing people
+1,crops are dying or the well went dry
+
+;CulpritRace
+1,snake people
+1,Elven
+1,a dead god's
+1,Dwarven
+1,undead
+1,Human
+1,Orcish
+1,Halfling
+1,Krisling
+1,Gylven
+1,a sorcerer's
+1,mysterious
+1,the Old One's
+1,Goblin
+1,Troll
+1,ghostly
+
+;CulpritType
+1,army
+1,assassins
+1,bandits
+1,cultists
+1,disease
+1,fools
+1,gladiators
+1,monks
+1,nobles
+1,pirates
+1,militia
+1,thieves
+1,vagabonds
+
+;MainObjective
+1,participate in a tournament/contest
+1,find/steal an object
+1,find/capture an individual
+1,protect a place
+1,storm a place
+1,sneak into a place
+1,help an alliance/negotiations
+1,prevent an alliance/negotiations
+1,chart an unexplored land/place
+1,deliver an object
+1,escort an individual
+1,find the culprits identity
+1,manage a commerce/village/caravan
+1,close/condemn a portal/temple
+1,escape from a prison/besieged city
+1,destroy/kill an object or individual
+
+;BattlefieldName
+1,Reaver's
+1,Silent
+1,Greycrane
+1,Moonstone
+1,Engulfed
+1,Autarch's
+1,Mournblood
+1,Darkness
+1,Tempest
+1,Floating
+1,Stars
+1,Darksteel
+1,Clearsign
+1,Heavysky
+1,Longtale
+
+;BattlefieldType
+1,castle
+1,cemetery
+1,monastery
+1,village
+1,boat
+1,ruins
+1,port
+1,prison
+1,labyrinth
+1,volcano
+1,mines
+1,necropolis
+1,bridge
+1,gate
+
+;PlaceName
+1,Thousand Moons
+1,Obsidian
+1,Seven Wars
+1,Last Unicorn's
+1,Blood Ashes
+1,Butcher's
+1,Golden Throne
+1,Redskull
+1,Black Rain
+1,Dusk
+1,Opale
+1,Greenwind
+1,Shadow
+1,Twin
+1,the White Spider
+1,First Men
+1,Nine Blades
+1,Fallen
+1,Prophet's
+1,Iron
+1,Fallen Dragon's
+1,Grey
+1,Farwatch
+1,Twilight
+1,Border
+1,Crystal
+1,Jagged
+1,Windwail
+
+;PlaceType
+1,territories
+1,range
+1,coast
+1,plains
+1,archipelago
+1,jungle
+1,cities
+1,desert
+1,hills
+1,woods
+1,pass
+1,havens
+1,towns
+1,lake
+1,marsh
+1,realms
+1,forests
+1,sea
+1,bay
+1,tundra
+1,lands
+1,valley
+1,falls
+1,wall
+1,bridge
+1,harbor
+
+

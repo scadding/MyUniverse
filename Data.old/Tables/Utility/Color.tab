@@ -1,0 +1,429 @@
+
+;Start
+1,Bright colors<br>
+_<sgdisplay iterations="1">[bright]</sgdisplay><br>
+_Dull colors<br>
+_<sgdisplay iterations="1">[dull]</sgdisplay><br>
+_Light colors<br>
+_<sgdisplay iterations="1">[light]</sgdisplay><br>
+_Dark colors<br>
+_<sgdisplay iterations="1">[dark]</sgdisplay><br>
+_Metallic colors<br>
+_<sgdisplay iterations="1">[metallic]</sgdisplay><br>
+_Hues<br>
+_<sgdisplay iterations="1">[hues]</sgdisplay><br>
+_All colors<br>
+_<sgdisplay iterations="1">[all]</sgdisplay><br>
+_Color in color<br>
+_<sgdisplay iterations="1">[color in color]</sgdisplay><br>
+_Color in color simple<br>
+_<sgdisplay iterations="1">[color in color simple]</sgdisplay><br>
+_Eye color<br>
+_<sgdisplay iterations="1">[eye] eyes</sgdisplay><br>
+
+
+;bright
+2,pink
+6,red
+2,orange
+5,yellow
+2,lime green
+7,green
+2,sky blue
+6,blue
+2,lavender
+2,purple
+1,spring green
+
+;brightCap
+2,Pink
+6,Red
+2,Orange
+5,Yellow
+2,Lime green
+7,Green
+2,Sky blue
+6,Blue
+2,Lavender
+2,Purple
+1,Spring green
+
+;dull
+10,gray
+2,charcoal
+3,brown
+3,sand-colored
+2,olive green
+2,mustard yellow
+2,cream-colored
+3,black
+
+;dullCap
+10,Gray
+2,Charcoal
+3,Brown
+3,Sand-colored
+2,Olive green
+2,Mustard yellow
+2,Cream-colored
+3,Black
+
+;dark
+10,black
+7,gray
+3,charcoal
+2,midnight blue
+3,maroon
+3,pine green
+5,dark green
+3,navy blue
+2,indigo
+7,dark brown
+5,blue-gray
+3,forest green
+
+;darkCap
+10,Black
+7,Gray
+3,Charcoal
+2,Midnight blue
+3,Maroon
+3,Pine green
+5,Dark green
+3,Navy blue
+2,Indigo
+7,Dark brown
+5,Blue-gray
+3,Forest green
+
+;light
+20,white
+15,ivory
+10,cream-colored
+6,sand-colored
+6,light blue
+6,light pink
+6,pale yellow
+6,lavender
+6,light gray
+
+;lightCap
+20,White
+15,Ivory
+10,Cream-colored
+6,Sand-colored
+6,Light blue
+6,Light pink
+6,Pale yellow
+6,Lavender
+6,Light gray
+
+;metallic
+5,silvery
+5,golden
+3,copper
+3,steely
+
+;metallicCap
+5,Silvery
+5,Golden
+3,Copper
+3,Steely
+
+;hues
+3,reddish
+4,golden
+4,white
+4,bluish
+3,greenish
+1,lavender
+
+;huesCap
+3,Reddish
+4,Golden
+4,White
+4,Bluish
+3,Greenish
+1,Lavender
+
+;all
+1,[bright]
+1,[dull]
+1,[dark]
+1,[light]
+1,[metallic]
+1,[hues]
+
+;allCap
+1,[brightCap]
+1,[dullCap]
+1,[darkCap]
+1,[lightCap]
+1,[metallicCap]
+1,[huesCap]
+
+;color in color
+1,<span style="color:#000000;">black</span>
+1,<span style="color:#000033;">obscure weak blue</span>
+1,<span style="color:#000066;">obscure dull blue</span>
+1,<span style="color:#000099;">dark faded blue</span>
+1,<span style="color:#0000cc;">dark hard blue</span>
+1,<span style="color:#0000ff;">blue</span>
+1,<span style="color:#003300;">obscure weak green</span>
+1,<span style="color:#003333;">obscure weak cyan</span>
+1,<span style="color:#003366;">obscure dull azure</span>
+1,<span style="color:#003399;">dark azure-blue</span>
+1,<span style="color:#0033cc;">dark blue-azure</span>
+1,<span style="color:#0033ff;">blue-blue-azure</span>
+1,<span style="color:#006600;">obscure dull green</span>
+1,<span style="color:#006633;">obscure dull teal</span>
+1,<span style="color:#006666;">obscure dull cyan</span>
+1,<span style="color:#006699;">dark azure-cyan</span>
+1,<span style="color:#0066cc;">dark hard azure</span>
+1,<span style="color:#0066ff;">azure-azure-blue</span>
+1,<span style="color:#009900;">dark faded green</span>
+1,<span style="color:#009933;">dark teal-green</span>
+1,<span style="color:#009966;">dark teal-cyan</span>
+1,<span style="color:#009999;">dark faded cyan</span>
+1,<span style="color:#0099cc;">dark cyan-azure</span>
+1,<span style="color:#0099ff;">azure-azure-cyan</span>
+1,<span style="color:#00cc00;">dark hard green</span>
+1,<span style="color:#00cc33;">dark green-teal</span>
+1,<span style="color:#00cc66;">dark hard teal</span>
+1,<span style="color:#00cc99;">dark cyan-teal</span>
+1,<span style="color:#00cccc;">dark hard cyan</span>
+1,<span style="color:#00ccff;">cyan-cyan-azure</span>
+1,<span style="color:#00ff00;">green</span>
+1,<span style="color:#00ff33;">green-green-teal</span>
+1,<span style="color:#00ff66;">teal-teal-green</span>
+1,<span style="color:#00ff99;">teal-teal-cyan</span>
+1,<span style="color:#00ffcc;">cyan-cyan-teal</span>
+1,<span style="color:#00ffff;">cyan</span>
+1,<span style="color:#330000;">obscure weak red</span>
+1,<span style="color:#330033;">obscure weak magenta</span>
+1,<span style="color:#330066;">obscure dull violet</span>
+1,<span style="color:#3300cc;">dark blue-violet</span>
+1,<span style="color:#3300ff;">blue-blue-violet</span>
+1,<span style="color:#333300;">obscure weak yellow</span>
+1,<span style="color:#333333;">obscure gray</span>
+1,<span style="color:#333333;">obscure gray</span>
+1,<span style="color:#333333;">obscure gray</span>
+1,<span style="color:#333333;">obscure gray</span>
+1,<span style="color:#333366;">dark weak blue</span>
+1,<span style="color:#333399;">dark dull blue</span>
+1,<span style="color:#3333cc;">medium faded blue</span>
+1,<span style="color:#3333ff;">light hard blue</span>
+1,<span style="color:#336600;">obscure dull spring</span>
+1,<span style="color:#336633;">dark weak green</span>
+1,<span style="color:#336666;">dark weak cyan</span>
+1,<span style="color:#336699;">dark dull azure</span>
+1,<span style="color:#3366cc;">medium azure-blue</span>
+1,<span style="color:#3366ff;">light blue-azure</span>
+1,<span style="color:#339900;">dark spring-green</span>
+1,<span style="color:#339933;">dark dull green</span>
+1,<span style="color:#339966;">dark dull teal</span>
+1,<span style="color:#339999;">dark dull cyan</span>
+1,<span style="color:#3399cc;">medium azure-cyan</span>
+1,<span style="color:#3399ff;">light hard azure</span>
+1,<span style="color:#33cc00;">dark green-spring</span>
+1,<span style="color:#33cc33;">medium faded green</span>
+1,<span style="color:#33cc66;">medium teal-green</span>
+1,<span style="color:#33cc99;">medium teal-cyan</span>
+1,<span style="color:#33cccc;">medium faded cyan</span>
+1,<span style="color:#33ccff;">light cyan-azure</span>
+1,<span style="color:#33ff00;">green-green-spring</span>
+1,<span style="color:#33ff33;">light hard green</span>
+1,<span style="color:#33ff66;">light green-teal</span>
+1,<span style="color:#33ff99;">light hard teal</span>
+1,<span style="color:#33ffcc;">light cyan-teal</span>
+1,<span style="color:#33ffff;">light hard cyan</span>
+1,<span style="color:#660000;">obscure dull red</span>
+1,<span style="color:#660033;">obscure dull pink</span>
+1,<span style="color:#660066;">obscure dull magenta</span>
+1,<span style="color:#660099;">dark violet-magenta</span>
+1,<span style="color:#660099;">dark violet-magenta</span>
+1,<span style="color:#6600cc;">dark hard violet</span>
+1,<span style="color:#663300;">obscure dull orange</span>
+1,<span style="color:#663333;">dark weak red</span>
+1,<span style="color:#663366;">dark weak magenta</span>
+1,<span style="color:#663399;">dark dull violet</span>
+1,<span style="color:#6633ff;">light blue-violet</span>
+1,<span style="color:#666600;">obscure dull yellow</span>
+1,<span style="color:#666633;">dark weak yellow</span>
+1,<span style="color:#666666;">dark gray</span>
+1,<span style="color:#666666;">dark gray</span>
+1,<span style="color:#666666;">dark gray</span>
+1,<span style="color:#666666;">dark gray</span>
+1,<span style="color:#666699;">medium weak blue</span>
+1,<span style="color:#6666cc;">light dull blue</span>
+1,<span style="color:#6666ff;">light faded blue</span>
+1,<span style="color:#669900;">dark spring-yellow</span>
+1,<span style="color:#669933;">dark dull spring</span>
+1,<span style="color:#669966;">medium weak green</span>
+1,<span style="color:#669999;">medium weak cyan</span>
+1,<span style="color:#6699cc;">light dull azure</span>
+1,<span style="color:#6699ff;">light azure-blue</span>
+1,<span style="color:#66cc00;">dark hard spring</span>
+1,<span style="color:#66cc33;">medium spring-green</span>
+1,<span style="color:#66cc66;">light dull green</span>
+1,<span style="color:#66cc99;">light dull teal</span>
+1,<span style="color:#66cccc;">light dull cyan</span>
+1,<span style="color:#66ccff;">light azure-cyan</span>
+1,<span style="color:#66ff00;">spring-spring-green</span>
+1,<span style="color:#66ff33;">light green-spring</span>
+1,<span style="color:#66ff66;">light faded green</span>
+1,<span style="color:#66ff99;">light teal-green</span>
+1,<span style="color:#66ffcc;">light teal-cyan</span>
+1,<span style="color:#66ffff;">light faded cyan</span>
+1,<span style="color:#990000;">dark faded red</span>
+1,<span style="color:#990033;">dark pink-red</span>
+1,<span style="color:#990066;">dark pink-magenta</span>
+1,<span style="color:#990099;">dark faded magenta</span>
+1,<span style="color:#9900cc;">dark magenta-violet</span>
+1,<span style="color:#9900ff;">violet-violet-magenta</span>
+1,<span style="color:#9900ff;">violet-violet-magenta</span>
+1,<span style="color:#993300;">dark orange-red</span>
+1,<span style="color:#993333;">dark dull red</span>
+1,<span style="color:#993366;">dark dull pink</span>
+1,<span style="color:#993399;">dark dull magenta</span>
+1,<span style="color:#9933cc;">medium violet-magenta</span>
+1,<span style="color:#9933cc;">medium violet-magenta</span>
+1,<span style="color:#9933ff;">light hard violet</span>
+1,<span style="color:#996600;">dark orange-yellow</span>
+1,<span style="color:#996633;">dark dull orange</span>
+1,<span style="color:#996666;">medium weak red</span>
+1,<span style="color:#996699;">medium weak magenta</span>
+1,<span style="color:#9966cc;">light dull violet</span>
+1,<span style="color:#999900;">dark faded yellow</span>
+1,<span style="color:#999933;">dark dull yellow</span>
+1,<span style="color:#999966;">medium weak yellow</span>
+1,<span style="color:#999999;">light gray</span>
+1,<span style="color:#999999;">light gray</span>
+1,<span style="color:#999999;">light gray</span>
+1,<span style="color:#999999;">light gray</span>
+1,<span style="color:#9999cc;">light weak blue</span>
+1,<span style="color:#9999ff;">pale dull blue</span>
+1,<span style="color:#99cc00;">dark yellow-spring</span>
+1,<span style="color:#99cc33;">medium spring-yellow</span>
+1,<span style="color:#99cc66;">light dull spring</span>
+1,<span style="color:#99cc99;">light weak green</span>
+1,<span style="color:#99cccc;">light weak cyan</span>
+1,<span style="color:#99ccff;">pale dull azure</span>
+1,<span style="color:#99ff00;">spring-spring-yellow</span>
+1,<span style="color:#99ff33;">light hard spring</span>
+1,<span style="color:#99ff66;">light spring-green</span>
+1,<span style="color:#99ff99;">pale dull green</span>
+1,<span style="color:#99ffcc;">pale dull teal</span>
+1,<span style="color:#99ffff;">pale dull cyan</span>
+1,<span style="color:#cc0000;">dark hard red</span>
+1,<span style="color:#cc0033;">dark red-pink</span>
+1,<span style="color:#cc0066;">dark hard pink</span>
+1,<span style="color:#cc0099;">dark magenta-pink</span>
+1,<span style="color:#cc00cc;">dark hard magenta</span>
+1,<span style="color:#cc00ff;">magenta-magenta-violet</span>
+1,<span style="color:#cc3300;">dark red-orange</span>
+1,<span style="color:#cc3333;">medium faded red</span>
+1,<span style="color:#cc3366;">medium pink-red</span>
+1,<span style="color:#cc3399;">medium pink-magenta</span>
+1,<span style="color:#cc33cc;">medium faded magenta</span>
+1,<span style="color:#cc33ff;">light magenta-violet</span>
+1,<span style="color:#cc6600;">dark hard orange</span>
+1,<span style="color:#cc6633;">medium orange-red</span>
+1,<span style="color:#cc6666;">light dull red</span>
+1,<span style="color:#cc6699;">light dull pink</span>
+1,<span style="color:#cc66cc;">light dull magenta</span>
+1,<span style="color:#cc66ff;">light violet-magenta</span>
+1,<span style="color:#cc66ff;">light violet-magenta</span>
+1,<span style="color:#cc9900;">dark yellow-orange</span>
+1,<span style="color:#cc9933;">medium orange-yellow</span>
+1,<span style="color:#cc9966;">light dull orange</span>
+1,<span style="color:#cc9999;">light weak red</span>
+1,<span style="color:#cc99cc;">light weak magenta</span>
+1,<span style="color:#cc99ff;">pale dull violet</span>
+1,<span style="color:#cccc00;">dark hard yellow</span>
+1,<span style="color:#cccc33;">medium faded yellow</span>
+1,<span style="color:#cccc66;">light dull yellow</span>
+1,<span style="color:#cccc99;">light weak yellow</span>
+1,<span style="color:#cccccc;">pale gray</span>
+1,<span style="color:#cccccc;">pale gray</span>
+1,<span style="color:#cccccc;">pale gray</span>
+1,<span style="color:#cccccc;">pale gray</span>
+1,<span style="color:#ccccff;">pale weak blue</span>
+1,<span style="color:#ccff00;">yellow-yellow-spring</span>
+1,<span style="color:#ccff33;">light yellow-spring</span>
+1,<span style="color:#ccff66;">light spring-yellow</span>
+1,<span style="color:#ccff99;">pale dull spring</span>
+1,<span style="color:#ccffcc;">pale weak green</span>
+1,<span style="color:#ccffff;">pale weak cyan</span>
+1,<span style="color:#ff0000;">red</span>
+1,<span style="color:#ff0033;">red-red-pink </span>
+1,<span style="color:#ff0066;">pink-pink-red</span>
+1,<span style="color:#ff0099;">pink-pink-magenta</span>
+1,<span style="color:#ff00cc;">magenta-magenta-pink</span>
+1,<span style="color:#ff00ff;">magenta</span>
+1,<span style="color:#ff3300;">red-red-orange</span>
+1,<span style="color:#ff3333;">light hard red</span>
+1,<span style="color:#ff3366;">light red-pink</span>
+1,<span style="color:#ff3399;">light hard pink</span>
+1,<span style="color:#ff33cc;">light magenta-pink</span>
+1,<span style="color:#ff33ff;">light hard magenta</span>
+1,<span style="color:#ff6600;">orange-orange-red</span>
+1,<span style="color:#ff6633;">light red-orange</span>
+1,<span style="color:#ff6666;">light faded red</span>
+1,<span style="color:#ff6699;">light pink-red</span>
+1,<span style="color:#ff66cc;">light pink-magenta</span>
+1,<span style="color:#ff66ff;">light faded magenta</span>
+1,<span style="color:#ff9900;">orange-orange-yellow</span>
+1,<span style="color:#ff9933;">light hard orange</span>
+1,<span style="color:#ff9966;">light orange-red</span>
+1,<span style="color:#ff9999;">pale dull red</span>
+1,<span style="color:#ff99cc;">pale dull pink</span>
+1,<span style="color:#ff99ff;">pale dull magenta</span>
+1,<span style="color:#ffcc00;">yellow-yellow-orange</span>
+1,<span style="color:#ffcc33;">light yellow-orange</span>
+1,<span style="color:#ffcc66;">light orange-yellow</span>
+1,<span style="color:#ffcc99;">pale dull orange</span>
+1,<span style="color:#ffcccc;">pale weak red</span>
+1,<span style="color:#ffccff;">pale weak magenta</span>
+1,<span style="color:#ffff00;">yellow</span>
+1,<span style="color:#ffff33;">light hard yellow</span>
+1,<span style="color:#ffff66;">light faded yellow</span>
+1,<span style="color:#ffff99;">pale dull yellow</span>
+1,<span style="color:#ffffcc;">pale weak yellow</span>
+1,<span style="color:#ffffff;">white</span>
+;color in color simple
+1,<span style="color:#000000;">black</span>
+1,<span style="color:#000080;">navy</span>
+1,<span style="color:#0000ff;">blue</span>
+1,<span style="color:#008000;">green</span>
+1,<span style="color:#008080;">teal</span>
+1,<span style="color:#00ff00;">lime</span>
+1,<span style="color:#00ffff;">aqua</span>
+1,<span style="color:#800000;">maroon</span>
+1,<span style="color:#800080;">purple</span>
+1,<span style="color:#808000;">olive</span>
+1,<span style="color:#808080;">gray</span>
+1,<span style="color:#c0c0c0;">silver</span>
+1,<span style="color:#ff0000;">red</span>
+1,<span style="color:#ff00ff;">fuchsia</span>
+1,<span style="color:#ffff00;">yellow</span>
+1,<span style="color:#ffffff;">white</span>
+
+;eye
+5,amber
+1,black
+10,light blue
+10,dark blue
+10,blue-grey
+30,light brown
+20,brown
+30,dark brown
+10,gray
+10,gray-green
+10,green
+10,hazel
+5,red
+2,violet
+2,yellow
+
+

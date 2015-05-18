@@ -1,0 +1,306 @@
+
+;Start
+1,[who] is reading [what] (written in [ancientlanguages]) at [campuslocations].
+1,[who] is translating [what] from [ancientlanguages] into [ancientlanguages] at [campuslocations].
+1,[who] is secretly in love with [who].
+1,[who] is plagiarizing the work of [who].
+;who
+1,[maleprofessor]
+1,[femaleprofessor]
+1,[malestudent]
+1,[femalestudent]
+;what
+2,[realmagicaltexts]
+1,[imaginarymagicaltexts]
+;maleprofessor
+1,Underwood Mayfield-Carter 
+1,Juan Santiago Ramos-Torres 
+1,Ward Younghusband 
+1,Archibald Woolidge 
+1,Lafeyette Horner 
+1,Jean-Jacques Brasseur 
+1,August Ransom-Lowell 
+1,Howard Murray Sharpless 
+1,Bentinck Krahn 
+1,Alphonso Deane 
+1,Wallace Rutland-Mosteller 
+1,Erkenfried Moeller-Heilemann 
+1,Everett Charles Blackburn 
+1,William Asher Church 
+1,Urban Blazej Kusnierewicz 
+1,Percival Dorsett-McNelly 
+1,Franklin Oglethorpe-Waite 
+1,Maynard Creasy III 
+1,Benedict Willard-Makepeace 
+1,Manchester Clematis-Frost
+
+;femaleprofessor
+1,Augusta Monck 
+1,Gertje Hoogduytscher 
+1,Dorothy Thorton Shaw 
+1,Marie Venable 
+1,Fidelia Harwood 
+1,Kätchen Iris Von Schroeder 
+1,Valeria Ulrich-Womble 
+1,Nova St. Pierre 
+1,Pasqualena Zuccaro-Fazio 
+1,Hazel Tolley-Speer 
+1,Alice Cobley-Evans 
+1,Ekaterina Hlutev 
+1,Sarah Stevenson 
+1,Tabitha Rockworth Butterfield 
+1,Marie-Zéphyrine La Pérouse 
+1,Alba Chaplin-Davis-Dow 
+1,Edith Fogg 
+1,Eudora Bryngel 
+1,Zlatka Moulton-Gardner 
+1,Bernadette Eulalia Peterson
+1,Christa Wolfe
+1,Circe Christian
+1,Deidre Blood
+1,Deidre King
+1,Delilah Maldonado
+1,Delilah Rasputin
+1,Esmeralda Frost
+1,Esmeralda Phibes
+1,Eva Phibes
+1,Evangeline Victor
+1,Hope Drabek
+1,Isabella Vondrak
+1,Jacqueline Strangelove
+1,Jezebel Bloodgood
+1,Kristina Morningstar
+1,Lenore Blood
+1,Lucia Vorhis
+1,Nicole Gray
+1,Rosetta Sturmer
+1,Salome Vorkink
+1,Samantha Vonner
+1,Selene Shade
+1,Serena Vosmus
+1,Sheeba Strangelove
+1,Sophia Delacroix
+
+;malestudent
+1,Winthrop "Winnie" Chaplin-Brown 
+1,King "King" Burkey 
+1,Courtney "Butterball" Craybeck 
+1,Phillip "Poncey" Burns, Jr. 
+1,James "Stumpy" Frazier 
+1,Patrick Henry "Cookie" Stevens 
+1,Gerald "Goat" Tucker 
+1,Ronald "Pinch" Jackson 
+1,Townsend "Gorilla" Van Foy 
+1,Cross "Minty" McGowan 
+1,Prescott "Rusty" French 
+1,Hamilton "Buzzy" Mantooth III 
+1,Cornelius "Raccoon" Huntoon 
+1,Adam "Grampy" Harris-Sibley 
+1,Woodrow "Woody" Harding, Jr. 
+1,Fenton "Fenty" Gilchrist 
+1,Karl "Hamburger" Deitrich 
+1,Edward "Popsy" Olsen 
+1,Joseph "Sour-Blood" Cutter, Jr. 
+1,Liam "Toad" McIvey
+1,Evan "Hurricane" McKinley
+1,Abel Phibes
+1,Adam Luther
+1,Aleister Mock
+1,Armando Le Torneau
+1,Bernardo Crowley
+1,Bernardo Doom
+1,Bryce Delgado
+1,Cain Du Pompadour
+1,Dante Sharpe
+1,Donovan Mortenson
+1,Emmanuel Black
+1,Enoch Tobin
+1,Isaac Bloodgood
+1,Jacob Nix
+1,Kristopher Dark
+1,Leonardo Cromwell
+1,Lucas Sangrey
+1,Lucas Stark
+1,Nikolai Vorkink
+1,Pollux Lestat
+1,Pollux Vonner
+1,Raphael Dupree
+1,Ricardo Von Hagen
+
+;femalestudent
+1,Lottie Anne Werther
+1,Clementine Dupree
+1,Hester Hollingsworth
+1,Edwina Cobb
+1,Rosebud Grampian-Kettering
+1,Eliza-Jane Overton
+1,Helen Mogg-Wilson
+1,Irma Louise Plunkett
+1,Mina Todd Watson
+1,Jenny Biggs
+1,Capella Rausch
+1,Renee Fitzhugh-Camperdown
+1,Mildred Toynbee
+1,Button Hastings
+1,Roxie Brackett
+1,Louise Warner
+1,Loretta Potts
+1,Alice Bamberton-Willy
+1,Susan Peach
+1,Delia Wannamaker Levy
+1,Discordia Prima
+1,Stormy Whittington
+1,"Bandit" Lewis
+1,"Gadget" Armstrong
+1,"Loner" Jordan
+1,Angry Elizabeth Parker
+1,Charlotte Lewis "the Demon"
+1,Dancing Vera Daniels
+1,Edith "Damnation" Hughes
+1,Ella Chapman "the Gravedigger"
+1,Ellen "Black Apostle" Fleming
+1,Gloria Miles "the Gambler"
+1,Happy Hicks
+1,Katie Meyer "the Gentlewoman"
+1,Laurie "Lonesome Rider" Adams
+1,Lucy "Gadget" Grant
+1,Pauline Matthews "the Girl"
+1,Riding Emily Marshall
+1,Rose "Endgame" Russell
+1,Rosemary "Cursed" Lee
+1,Ruth "Locoweed" Williamson
+1,Viola "Tracker" McKinney
+
+
+;campuslocations
+1,Scadwell auditorium
+1,Watkin-Tench conservatory of music
+1,Manders library and annex
+1,Drummond laboratory
+1,Hohenleutner observatory
+1,Muzetti gymnasium and ballroom
+1,Museum of Art and Science
+1,Physical plant and laundry
+1,Gamma Gamma Gamma house
+1,"Hillview", the Chancellor's house
+1,Brotherton chapel
+1,Theodore Roosevelt athletic field
+1,Braithewaite field-house
+1,Westcote-Kern arboretum
+1,Rowing club shed on Sexton lake
+1,"The green acre" quadrangle
+1,The Old Oak
+1,The statue of "Old Incorrigible"
+1,Passion Point above Sexton lake
+1,The ruins of the Old Rectory
+
+;ancientlanguages
+1,Latin (Rome, Latin alphabet)
+1,Mycenaean (Ancient Greece, Linear B)
+1,Eteocretan (Ancient Minoan Crete, Linear A, non translated)
+1,Classical and Hellenistic Greece (Classical Greece, Hellenistic Greece, Greek alphabet)
+1,Paninian Sanskrit (Classical India, Devanagari script, Gupta script, Sharada script, etc.)
+1,Vedic Saskrit (Ancient India, Brahmi script, Devanagari script)
+1,Pahlavi (Middle Persian, Pahlavi script and sometimes Manichean script)
+1,Avestan (Ancient Persian religious language, Den Dabireh script added late in history)
+1,Old Persian (Ancient Persia, cuneiform script)
+1,Akkadian (Assyria and Babylon, cuneiform script)
+1,Sumerian (Mesopotamia, cuneiform script)
+1,Aramaic (Ancient and Biblical Middle East, Phoenician script, then Syriac alphabet)
+1,Classical Hebrew (Ancient Israel, Hebrew alphabet)
+1,Elamite (Linear Elamite, cuniform Elamite script, non-translated proto-Elamite script)
+1,Harappan (Harappa – very ancient India, Indus Script, non translated)
+1,Classical Nahuatl (Aztec, pictographic)
+1,Classic Maya (Mayans, Maya hieroglyphics)
+1,Phoenician (Phoenicians, Phoenician alphabet)
+1,Ancient Egyptian (Ancient Egypt, Egyptian hieroglyphic)
+1,Demotic Egyptian (Classical Egypt, Demotic script)
+1,Coptic (Medieval Egypt, Coptic alphabet)
+1,Ge'ez (Classical Ethiopia, Ge'ez abugida script)
+1,Ammonite (Ancient Jordan, Canaanite alphabet)
+1,Edomite (Ancient Jordan, Canaanite alphabet)
+1,Nesite (Hittites, Akkadian cuneiform)
+1,Lydian (Ancient Turkey, related to Nesite, Lydian alphabet)
+1,Khitan ("small script" derived from Han characters, "large script" derived from Uighur)
+1,Tocharian (Ancient China/Central Asia, slanting Brahmi script)
+1,Kuchean (Ancient China/Central Asia, slanting Brahmi script)
+1,Gudian Hànyu - Classical Chinese (Ancient China Zhou to Han period, Hàn characters)
+1,Classical Arabic (Language of the Qur'an, Arabic alphabet)
+1,Khazarian (Khazars, Medieval Kazakhstan, Turkic runiform script and Hebrew alphabet)
+1,Nabataean (Classical Arabia, Syriac alphabet)
+1,Sabaean (Classical Yemen, South Arabian alphabet)
+1,Hurrian (Northern Mesopotamia, Akkadian cuneiform script)
+1,Chagatai (Central Asia, Arabic alphabet)
+1,Etruscan (Pre-Roman Italy, Etruscan alphabet, dubious translation only)
+1,Lusitanian (Ancient Portugal, Latin alphabet)
+1,Scythian (Ancient Central Asia and Near East, very dubious, Hieroglyphic Hittite)
+1,Jurchen (Ancient China/Manchuria/Central Asia, Jurchen script)
+
+;realmagicaltexts
+1,Mishkat al-anwar
+1,Fama Fraternitatis Rosae Crucis
+1,Datttreya
+1,Monas Hieroglyphica
+1,On the Ogdoad and Ennead
+1,The Vaishashik Darshana of Kanada
+1,Rasaratanakaram
+1,Kitab al-Kimya
+1,Declarations of the Perfected
+1,Sefer Yetzirah
+1,The Zohar
+1,Heptaplus
+1,The Kybalion
+1,Atharva-Veda
+1,Asclepius
+1,Mahanirvana Tantra
+1,The Divine Pymander
+1,The Book of the Sacred Magic of Abra-Melin the Mage
+1,Guhyasamja Tantra
+1,Sworn Book of Honorius
+1,Tabaqat al-Awliya
+1,The Black Pullet
+1,Bodhicaryvatra
+1,Greater Key of Solomon
+1,Hatha Yoga Pradipika
+1,Lemegeton Clavicula Salomonis
+1,Le Grand Grimoire
+1,Mahvairocanbhisambodhi Tantra
+1,Voynich manuscript
+1,Taittiriya
+1,De Occulta Philosophia Libri Tres
+1,The Mystery of the Cathedrals
+1,De Mysteriis Aegyptiorum
+1,Hayagrava
+1,The Scrolls of Mahendrath
+1,Markandeya Purana
+1,Secrets of the Jade Chamber
+1,Shivastotravali
+1,Orus Apollo
+1,Yog'c'bh'mi
+1,Malles Maleficarum
+
+;imaginarymagicaltexts
+1,Scrolls of Skelos
+1,The Necronomicon
+1,Black Tome of Alsophocus
+1,Seven Cryptical Books of Hsan
+1,Cthaat Aquadingen
+1,Sevil-el-Mafouh Whash
+1,Les Fleurs du Mal
+1,Testament of Carnamagos
+1,Zaywar andar'a'Baagh
+1,Red Book of Yarrow
+1,White Book of Cavalonia
+1,Acta Sanctorum
+1,Liber Ivonis
+1,The 17 Blasphemous books of Zan
+1,The Book of Eibon
+1,Unaussprechlichen Kulten
+1,The Blasphemies of King Yama
+1,Prassidia Finium
+1,Faded Librum of His Hunters
+1,Catechism of the Wild Swan
+1,De Senectutae
+1,Dazhdbog's Garden
+
+

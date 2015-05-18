@@ -1,0 +1,134 @@
+
+;Start
+1,[mPulpHeroNovel]
+
+;mPulpNoun
+1,Maggots
+1,Magma
+1,Malady
+1,Man
+1,Man of Mystery
+1,Margarita
+1,Marksman
+1,Martian
+1,Mastermind
+1,Men
+1,Mercenary
+1,Mesmerist
+1,Millionaire
+1,Missile
+1,Mistress
+1,Mobster
+1,Mole Men
+1,Monkey
+1,Monster
+1,Morphine
+1,Morgue
+1,Mortician
+1,Motor
+1,Mountain
+1,Moustache
+1,Murderer
+1,Mummy
+1,Mung Bean
+1,Manhole
+1,Mystery
+
+;mPulpAdjNegative
+1,Macedonian
+1,Mad
+1,Malevolent
+1,Malignant
+1,Mechanical
+1,Melancholy
+1,Menacing
+1,Mind-Controlling
+1,Morbid
+1,Moustachioed 
+1,Murdered
+1,Murderous
+1,Mutant
+1,Mysterious
+1,Mystical
+1,Moribund
+
+;mPulpAdjPositive
+1,Magical
+1,Magnificent
+1,Mill Valley
+1,Marvelous
+1,Mechanical
+1,Mighty
+1,Million-Dollar
+1,Miraculous
+1,Mournful
+1,Merciless
+
+;mPulpMaleFirstName
+1,Mack
+1,Malvolio
+1,Mandrake
+1,Mark
+1,Marmaduke
+1,Mick
+1,Mike
+1,Marvin
+1,Manley
+1,Murray
+1,Marcus
+1,Malcolm
+1,Max
+1,Maximilian
+
+;mPulpFemaleFirstName
+1,Mabel
+1,Mae
+1,Maggie
+1,Margaret
+1,Marion
+1,Mary
+1,Mattie
+1,Maude
+1,Maureen
+1,Maxine
+1,Megan
+1,Melissa
+1,Michaela
+1,Millicent
+1,Minnie
+1,Missy
+1,Moira
+1,Mollie
+
+;mPulpLastName
+1,Mace
+1,Magic
+1,Mannock
+1,Martin
+1,Master
+1,Maul
+1,McMichael
+1,Mephistopheles
+1,Morningstar
+1,Moustache
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the Murder of the
+1,and the Mystery of the
+1,in:
+1,maddens
+1,versus the
+1,and [mPulpAdjPositive] [mPulpMaleFirstName]'s 
+
+;pulpend
+1,[mPulpAdjNegative] [mPulpNoun]
+
+;mPulpHeroNovel
+10,[mPulpAdjPositive] [mPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[mPulpMaleFirstName] [mPulpLastName] [pulpmiddle] [pulpend]
+3,[mPulpAdjPositive] [mPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[mPulpFemaleFirstName] [mPulpLastName] [pulpmiddle] [pulpend]
+
+

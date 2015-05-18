@@ -1,0 +1,43 @@
+
+;Start
+1,[Staff]
+1,[Club][Weapon.MilitaryIssueChance]
+
+;NoDescription
+1,[StaffType]
+1,[ClubType]
+
+;Staff
+1,{{ucfirst:a}} [StaffType] made of [Utility.WoodWeapon] wood. [StaffDecor]
+
+;StaffType
+5,quarterstaff
+1,longstaff
+1,cudgel
+
+;StaffDecor
+10,
+1,The staff is hexagonal in shape and has been well oiled.
+3,The staff has grips wrapped in [Utility.LeatherHide].
+1,The staff has numerous small studs made of [Utility.MetalWeapon] protruding from it.
+1,The staff is octagonal in shape and has been well oiled.
+3,The staff is capped on one end with a small [Utility.MetalWeapon] carving of [Swords.PommelShapes].
+4,The staff is [Utility.MetalWeapon]-shodded.
+
+;Club
+35,[HaftedWeapons.Quality] [ClubType] made of [Utility.WoodWeapon] wood. [ClubDecor]
+1,A length of metal that may be used as [Swords.Quality] [ClubType]. It is made of [Utility.MetalWeapon]. 
+
+;ClubType
+10,club
+1,greatclub
+1,shillelagh
+1,truncheon
+
+;ClubDecor
+20,
+4,Large spikes made of [Utility.MetalWeapon] have been driven through the wood, allowing piercing damage.
+2,Bands of [Utility.MetalWeapon] are wrapped around the club.
+3,Studs of [Utility.MetalWeapon] protrude from the surface of the club.
+
+

@@ -1,0 +1,36 @@
+
+;Start
+1,[OtherWeaponsType]
+
+;NoDescription
+1,siangham
+1,kama
+1,pair of nunchaku
+1,pair of sai
+1,latajang
+5,sap
+5,net
+
+;OtherWeaponsType
+10,[Swords.Quality] pair of [Utility.MetalWeapon] gauntlets.
+2,[Swords.Quality] pair of [Utility.MetalWeapon] spiked gauntlets
+8,[MonkWeapons].
+7,[Swords.Quality] net.
+3,[Swords.Quality] sap made of [Utility.LeatherHide].
+3,A bag of caltrops. The bag is made of [BagMaterial] and the caltrops are made of [Utility.MetalWeapon].
+
+;BagMaterial
+1,[Utility.LeatherHide]
+1,[Utility.Fur] fur
+12,[Color.dark] cloth
+2,heavy [Color.dark] canvas
+
+;MonkWeapons
+1-5,[Swords.Quality] siangham
+6-10,[Swords.Quality] kama with a head made of [Utility.MetalWeapon] and a haft of [Utility.WoodWeapon]
+11-16,[Swords.Quality] pair of nunchaku made of [Utility.WoodWeapon] with a chain of [Utility.MetalWeapon]
+17-21,[Swords.Quality] sai made of [Utility.MetalWeapon]
+22-25,[Swords.Quality] [Dice.2d6]-pointed shuriken made of [Utility.MetalWeapon]
+26-29,[Swords.Quality] latajang made of [Utility.WoodWeapon] with [Utility.MetalWeapon] blades at each end.
+
+

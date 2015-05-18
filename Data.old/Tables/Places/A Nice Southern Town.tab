@@ -1,0 +1,188 @@
+
+;Start
+1,<strong>It's a nice southern town, mostly.  Except for [relationship] - they're [trouble]. <br/></strong><br><br>
+
+;relationship
+1,[family]
+1,[work] 
+1,[friendship]
+1,[romance]
+1,[crime]
+1,[community] 
+
+;family
+1,[inlaws] 
+1,[distant_kin]
+1,[siblings]
+1,[parent_child] 
+1,[grands] 
+1,[weird_kin]
+
+;inlaws
+1,this father-in-law and his son-in-law
+1,this father-in-law and his daughter's no-account husband
+1,this tramp and her father-in-law
+1,this mother-in-law and her daughter's loser of a husband
+
+;distant_kin
+1,this weirdo set of cousins
+1,this dude and his creepy uncle
+1,this girl and her Pentecostal aunt
+
+;siblings
+1,this bizarre brother and sister
+1,this pair of knucklehead brothers
+1,this pair of weird sisters
+1,this set of freaky-ass twins
+
+;parent_child
+1,this father and son team
+1,this identical mother and daughter
+1,this old man and his step-son
+1,this old lady and her step-son
+1,this skeevy old dude and his beautiful step-daughter
+
+;grands
+1,this old grandpa and his son's boy
+1,this granny and her dutiful grandson
+1,this old guy and his devoted grand-daughter
+
+;weird_kin
+1,this guy and his freaky "blood brother"
+1,this girl and her second-cousin boyfriend
+1,this old man and his rich step-uncle or something
+
+;work 
+1,this pair or losers that used to work together [workplace]
+2,this wonder team of co-workers [workplace]
+3,this supervisor [workplace] and his employee
+4,this couple - one's always calling the other for some [blue_collar]
+5,this funny pair - one's a salesman and the other likes to buy stuff 
+6,this big-shot [white_collar] around here and his goofy friend 
+
+;blue_collar
+1,painting
+1,plumbing
+1,carpentry
+1,yard work
+
+;white_collar
+1,pastor
+1,doctor
+1,lawyer
+1,banker
+1,accountant
+1,real estate broker
+1,dentist
+1,drug dealer 
+
+;friendship 
+1,this manipulative bitch and the guy she'd claimed
+2,this pair of old buddies 
+3,these sad druggie hipsters
+4,this pair of friendly rivals 
+5,these friends with benefits, if you know what I mean
+6,these ladies - they're church friends and hate each other
+
+;romance 
+1,this divorced couple
+2,this married couple
+3,this guy whose had a crush on this girl his entire life 
+4,these two nobodies who had a fling one time
+5,these hot-and-heavy lovers
+6,these former lovers, on the rocks
+
+;crime 
+1,this dirty alderman and his friend the local big shot
+2,this crazy gambler and his bookie
+3,[thieves]
+4,this total con man and his poor mark
+5,[hoodlums] 
+6,[drugs]
+
+;thieves
+1,these pathetic shoplifters
+1,this pair of clumsy cat burglars
+1,this second story man and his wannabe burglar pal
+1,these two car thieves
+
+;hoodlums
+1,these juvenile delinquents
+1,this pair of knuckleheads
+1,these two shameless racketeers
+
+;drugs
+1,this meth dealer and his toady
+1,these two wannabe drug dealers
+1,the biggest dope grower in the county and his best gal
+1,this whacked-out drug chemist and his wife
+
+;community 
+1,This [elected] and his pal the [elected2]
+2,[civic_vols] 
+3,the [church_vols] and the [church_vols2]
+4,These two guys in the rec league
+5,This loser and [services]
+6,This Narcanon sponsor and his druggie follower 
+
+;elected
+1,alderman
+1,mayor
+1,councilman
+1,county supervisor
+
+;elected2
+1,sheriff
+1,register of deeds
+1,board of elections supervisor
+1,editor of the Ripple
+
+;civic_vols
+1,this pair of dubious election officials
+1,these yokels in the chamber of commerce
+1,these guys in the Rotary
+1,this pair of ladies in the bird-watching club
+
+;church_vols
+1,lay reader
+1,Sunday school teacher
+1,Church newsletter lady
+
+;church_vols2
+1,deacon
+1,church secretary
+1,church treasurer
+
+;services
+1,his case worker
+1,his literacy coach
+1,his parole officer
+1,his former guardian ad litem from when he was a kid
+1,her case worker
+1,her literacy coach
+1,her parole officer
+1,her former guardian ad litem from when she was a kid
+
+;trouble
+1,up to no good
+1,a pox on this Christian community
+1,trouble
+1,pure evil
+1,some kind of tornado of stupidity
+1,a shameful mess, bless their hearts
+1,wearing on us all
+1,poised for something truly remarkable and tragic
+1,dumber than a sack of hammers
+1,mean as snakes and twice as ambitious
+1,real dumb
+1,people who don't know how to act, that's for sure
+1,mean and low
+1,faster than Teaberry's cat and twice as sneaky
+
+;workplace
+1,at the IGA
+1,in the medical records office
+1,down at the bag plant
+1,at the Chicken Hut
+
+

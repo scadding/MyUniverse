@@ -1,0 +1,224 @@
+;Start
+1,Positive: [positive]<br/>Negative: [negative]*<br/>Mask: [mask]<br/>
+1,Positive: [positive]*<br/>Negative: [negative]<br/>Mask: [mask]<br/>
+1,Positive: [positive]<br/>Negative: [negative]<br/>Mask: [mask]<br/>
+1,Positive: [positive]<br/>Negative: [negative]*<br/>
+1,Positive: [positive]*<br/>Negative: [negative]<br/>
+1,Positive: [positive]<br/>Negative: [negative]<br/>
+
+;all
+1,[positive]
+1,[negative]
+1,[mask]
+
+;positive
+1,Self-Disciplined
+1,Visionary
+1,Innovator
+1,Leader
+1,Organizer
+1,Generous
+1,Peacemaker
+1,Loyal
+1,Helpful
+1,Innocent
+1,Pure
+1,Just (fair and just to all)
+1,Fair
+1,Purposeful
+1,Goal-Oriented
+1,Wise
+1,Mature
+1,Nurturer
+1,Provider
+1,Comforter
+1,Healer
+1,Brave
+1,Indomitable
+1,Protector
+1,Humble
+1,Hopeful
+1,Optimist
+1,Rational
+1,Wise
+1,Self reliant
+1,Strong Presence
+1,Stoic
+1,Self Sacrificing
+1,Problem Solver
+1,Pragmatist
+1,Builder
+1,Crafter/Artist
+1,Learned
+1,Teacher
+1,Clever/Witty
+1,Performer/Comedian
+1,Saintly/Angelic
+1,Focused
+1,Compassionate
+1,Cooprorative
+1,Passionate
+1,Organized
+1,Creative
+1,Responsible
+1,Daring
+1,Outgoing
+
+;negative
+1,Controlling
+1,Compulsive (addiction or competitive)
+1,Hidebound
+1,Conformist
+1,Rebel
+1,Greedy
+1,Selfish
+1,Contrarian
+1,Sower of Discord
+1,Backstabber
+1,Unquestioning Follower
+1,Naive
+1,Gullible
+1,Vengeful
+1,Distracted
+1,Dilettante
+1,Impulsive
+1,Immature
+1,Hedonist
+1,Thrill seeker
+1,Glutton
+1,Sadist
+1,Masochist
+1,Coward
+1,Weak willed
+1,Bully
+1,Prideful
+1,Arrogant
+1,Perfectionist
+1,Bitter
+1,Cynical
+1,Impulsive
+1,Foolish (not stupid - foolish value system)
+1,Dependent
+1,Low Self-Esteem
+1,Guilt-Ridden
+1,Martyr
+1,Complicator (procrastinates or obstructs others)
+1,Trickster
+1,Schemer
+1,Fanatic
+1,False Prophet
+1,Dullard
+1,Humourless
+1,Loner
+1,Arrogant
+1,Flirt
+1,Reckless
+1,Intolerant
+1,Uncouth
+1,Pennypincher
+
+;mask
+1,Self-Disciplined
+1,Visionary
+1,Innovator
+1,Leader
+1,Organizer
+1,Generous
+1,Peacemaker
+1,Loyal
+1,Helpful
+1,Innocent
+1,Pure
+1,Just (fair and just to all)
+1,Fair
+1,Purposeful
+1,Goal-Oriented
+1,Wise
+1,Mature
+1,Nurturer
+1,Provider
+1,Comforter
+1,Healer
+1,Brave
+1,Indomitable
+1,Protector
+1,Humble
+1,Hopeful
+1,Optimist
+1,Rational
+1,Wise
+1,Self reliant
+1,Strong Presence
+1,Stoic
+1,Self Sacrificing
+1,Problem Solver
+1,Pragmatist
+1,Builder
+1,Crafter/Artist
+1,Learned
+1,Teacher
+1,Clever/Witty
+1,Performer/Comedian
+1,Saintly/Angelic
+1,Controlling
+1,Compulsive (addiction or overly competitive)
+1,Hidebound
+1,Conformist
+1,Rebel
+1,Greedy
+1,Selfish
+1,Contrarian
+1,Sower of Discord
+1,Backstabber
+1,Unquestioning Follower
+1,Naive
+1,Gullible
+1,Vengeful
+1,Distracted
+1,Dilettante
+1,Impulsive
+1,Immature
+1,Hedonist
+1,Thrill seeker
+1,Glutton
+1,Sadist
+1,Masochist
+1,Coward
+1,Weak willed
+1,Bully
+1,Prideful
+1,Arrogant
+1,Perfectionist
+1,Bitter
+1,Cynical
+1,Impulsive
+1,Foolish (not stupid - foolish value system)
+1,Dependent
+1,Low self image
+1,Guilt-Ridden
+1,Martyr
+1,Complicator (procrastinates or obstructs others)
+1,Trickster
+1,Schemer
+1,Fanatic
+1,False Prophet
+1,Dullard
+1,Humourless
+1,Loner
+1,Cool
+1,Calm
+1,Flirt
+1,Focused
+1,Compassionate
+1,Cooprorative
+1,Passionate
+1,Organized
+1,Creative
+1,Responsible
+1,Daring
+1,Flamboyant
+1,Reckless
+1,Intolerant
+1,Outgoing
+
+

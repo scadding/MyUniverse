@@ -1,0 +1,148 @@
+
+;Start
+1,A [BAD_ADJ] [VILLAIN] [MENACE_VERB] [GOOD_ADJ] [VICTIM] but [HERO_ADJ] [HERO] [MEDIATION].
+
+;BAD_ADJ
+3,cold and calculating
+1,beautiful but depraved
+1,wily and stubborn
+1,decrepit and lecherous
+5,villainous
+1,deceitful
+1,lustful
+1,monstrous
+1,cunning
+1,honey-tongued
+1,cowardly
+3,greedy
+3,prideful
+1,slovenly and ill-tempered
+1,raving mad
+1,reluctant but unyielding
+
+;GOOD_ADJ
+1,a plucky
+1,a somewhat dim-witted
+1,a beautiful
+1,a cursed
+1,a kindly
+1,an innocent
+1,a much-loved
+1,a poor but honest
+1,an honest
+
+;VILLAIN
+1,merchant prince
+1,noblewoman
+1,nobleman
+1,sorceror
+1,sorceress
+1,wizard
+1,high priest
+1,high priestess
+1,sacerdote
+1,ecclesiarch
+1,old witch
+1,vizier
+1,bully
+1,old king
+1,stepmother
+1,tyrant
+1,warlock
+1,bandit king
+1,pirate
+1,vampire
+
+;VICTIM
+1,young apprentice
+1,maiden
+1,youth
+1,child
+1,wife
+1,peasant
+1,yeoman farmer
+1,group of monks
+1,hermit
+1,old woman
+1,old man
+1,young prince
+1,young princess
+1,fisherman
+1,soldier
+1,dancer
+1,wanderer
+1,fairy creature
+1,puppy
+
+;MENACE_VERB
+1,menaces
+1,murders
+1,blackmails
+1,pesters
+1,harasses
+1,threatens
+1,slanders
+1,coerces
+1,destroys
+1,denounces
+1,steals from
+1,accuses
+1,imprisons
+1,abducts
+1,sequesters
+1,deceives
+1,tricks
+1,spies on
+1,seduces
+1,suborns
+1,bedevils
+1,tempts
+1,binds
+1,tortures
+1,enchants
+
+;HERO_ADJ
+6,a brave
+6,a clever
+6,a wise
+6,an honest
+1,a pious
+1,a foolhardy
+1,a naive
+1,an irreverent
+1,a rebellious
+1,a reluctant
+1,an oblivious
+1,a stalwart
+1,a strong
+1,a bright
+1,a venerable
+
+;HERO
+1,hero
+1,warrior
+1,wizard
+1,boy
+1,girl
+1,knight
+1,barbarian
+1,former slave
+1,priest
+1,nobleman
+1,prince
+1,princess
+
+;MEDIATION
+5,happens upon the scene
+1,has a vivid dream
+4,receives word from a [VICTIM]
+1,is visited by a ghost
+1,is privy to the counsels of the villain
+5,is passing by
+1,already has a bone to pick with the villain
+2,knows the victim
+1,has sworn vengeance
+1,has sworn to make restitution for the crime
+5,is dispatched by a [VILLAIN]
+
+

@@ -1,0 +1,336 @@
+
+;Start
+3,You're with [character] [locationindoor], when [situationindoor]...
+1,You're with [character] [locationoutdoor], when [situationoutdoor]...
+
+;character
+3,[Quick NPC.NPCDescriptor] [nationality] [profession]
+1,[Quick NPC.NPCDescriptor] [nationality] [profession] and [Quick NPC.NPCDescriptor] [nationality] [profession]
+
+;nationality
+1,Afghan
+1,American
+1,Australian
+1,Belgian
+1,Brazilian
+1,Bulgarian
+1,Chinese
+1,Danish
+1,Dutch
+1,Egyptian
+1,English
+1,Fascist
+1,Finnish
+1,French
+1,German
+1,Greek
+1,Indian
+1,Indonesian
+1,Iranian
+1,Iraqi
+1,Irish
+1,Islamist
+1,Israeli
+1,Italian
+1,Japanese
+1,Jordanian
+1,Korean
+1,Lebanese
+1,Leftist
+1,Marxist
+1,Mexican
+1,Moroccan
+1,Norwegian
+1,Palestinian
+1,Polish
+1,Portuguese
+1,Romanian
+1,Russian
+1,Saudi
+1,Scottish
+1,Serbian
+1,South African
+1,Spanish
+1,Swedish
+1,Swiss
+1,Syrian
+1,Texan
+1,Thai
+1,Turkish
+1,Ukrainian
+1,Vietnamese
+1,Welsh
+1,Yemeni
+1,Zionist
+1,Basque
+1,stateless
+1,Iraqi
+1,Iranian
+1,Azeri
+1,Pakistani
+1,Tamil
+1,Argentinian
+1,Columbian
+
+;profession
+1,arms dealer
+1,artist
+1,assassin
+1,athlete
+1,author
+1,biochemist
+1,bodyguard
+1,[business] magnate
+1,[business] mogul
+1,case officer
+1,circus performer
+1,con man
+1,corporate executive
+1,counterfeiter
+1,crime lord
+1,diamond trader
+1,drug dealer
+1,drug mule
+1,fashion designer
+1,fence
+1,fixer
+1,forger
+1,gambler
+1,government official
+1,hacker
+1,heiress
+1,helicopter pilot
+1,heroin addict
+1,housewife
+1,hunter
+1,informant
+1,interrogator
+1,jewel thief
+1,jihadist
+1,journalist
+1,mercenary
+1,middleman
+1,mobster
+3,[model]
+1,musician
+1,native guide
+1,neurosurgeon
+1,nuclear scientist
+1,philanthropist
+1,policeman
+1,politician
+1,priest
+1,private military contractor
+1,prostitute
+1,research librarian
+1,revolutionary
+1,safecracker
+1,seductress
+1,socialite
+1,special forces operator
+1,spy
+1,starlet
+1,stripper
+1,student
+1,suicide bomber
+1,thug
+1,tourist
+1,transvestite
+1,undercover cop
+1,venture capitalist
+2,[writer] writer
+1,celebrity
+
+;business
+1,import/export
+1,oil
+1,telecommunications
+1,shipping
+1,electronics
+1,internet
+1,timber
+1,arms smuggling
+1,human trafficking
+1,pharmaceutical
+1,organized crime
+1,drug
+1,diamond
+1,publishing
+1,fast food
+1,media
+
+;writer
+1,travel
+1,food
+1,sports
+1,technical
+1,romance
+1,business
+1,thriller
+
+;model
+1,fashion model
+1,supermodel
+1,lingerie model
+1,swimsuit model
+
+;game
+1,blackjack
+1,baccarat
+1,craps
+1,roulette
+1,poker
+1,betting on horses
+1,Texas Hold-Em
+
+;himher
+1,him
+1,her
+
+;heshe
+1,he
+1,she
+
+;previousencounter
+1,at a diplomatic party
+1,at a cocktail party
+1,at a high-stakes [game] tournament
+1,at that gunfight
+1,during that deal that went wrong
+1,as the other party in a double-booked assassination 
+1,at a 'trade show' 
+1,during a bodyguard detail you worked together
+1,during the 'late unpleasantness'
+1,when you both did a job for that [nationality] [profession]
+1,during a 'training exercise'
+1,in that [nationality] prison
+1,in a half-remembered blur of interrogations and beatings
+
+;locationindoor
+1,at a concert in [World Cities.Start], backstage before the show
+1,in a dimly lit aquarium hallway looking in on the shark tank
+1,at a high-stakes poker game, down to your last chips
+1,at a loud and crazy nightclub in [World Cities.Start], about to win the dance contest
+1,at a members-only dining establishment having a quiet dinner
+1,at a penthouse suite, waiting for room service
+1,on a private yacht, about to leave the party together
+1,at a ski lodge having hot chocolate
+1,at the opera house in a private box, talking business
+1,at a hotel cafe, about to begin an operation against [Spycraft Triggering Event.badpeople]
+1,at a strip club, counting the small bills in your wallet
+1,in a spacious library, looking for a particular book
+1,at a train station, wondering why the 9:18 hasn't arrived yet
+1,in a darkened movie theater, whispering beneath the sound of a particularly loud scene
+1,seated at a bar trying to drink each other under the table while plying each other for secrets
+1,at a convenience store, waiting in line to pay for your Slurpee
+1,in an abandoned Lada factory in the Ukraine
+1,in a back room at a club teaching rich kids how to play poker
+1,at the craps table in Monte Carlo, about to throw the dice
+1,at a safehouse, checking to make sure nothing has been disturbed
+1,in a stall in the bazaar in Istanbul, where your host [Turkish Names.MaleFirst] has just sent for hot tea
+1,at a gun market somewhere near the Khyber Pass, getting ready to squeeze off a few test rounds from an AK-47
+1,at a government records office, trying to obtain the blueprints for the offices of the [nationality] company you suspect is a front
+1,in the conference room of a [nationality] [business] conglomerate, recruiting an industrial spy from within its ranks
+1,in the entrance to a diamond mine in Botswana, about to descend the elevators into darkness
+1,riding the London Underground, wondering why your train has stopped moving
+1,in the ruins of a Scottish castle, trying to distinguish the figures coming towards you through the morning mist
+1,at a busy casino, having a good run of luck at [game]
+1,at an art gallery opening in [World Cities.Start], about to show off your unique way of opening a champagne bottle
+
+;locationoutdoor
+1,at a rooftop overlook of the city
+1,at the side of the road with a broken-down vehicle, running low on water
+1,at a sidewalk cafe, sipping cappuccino
+1,at a golf course, stuck in a sand trap
+1,on a black diamond ski slope, headed into the moguls
+1,at a racetrack, watching your bet begin to break ahead
+1,at a zoo, waiting for the lion feeding to begin
+1,at an amusement park, midway up the first hill of a roller coaster
+1,on a big game hunt, taking a break in the only shade around
+1,on white water raft, approaching a difficult set of rapids
+1,at a private villa, sipping Mai-Tais by the pool
+1,midway up a mountain, double checking your gear before the big ascent
+1,on a Caribbean beach, waiting for your Mojito to arrive
+1,on a river-boat, leaning over the edge to watch the wake
+1,in a quiet forest, approaching the GPS coordinates you were given
+1,on horseback on a dusty trail, discussing your mutual friend
+1,outside a poorly lit warehouse, late at night, with a briefcase full of cash
+1,at an open air market in Banja Luka
+1,beneath "the foot of the horse" in Prague's Vaclavske Nameste
+1,in a U-Bahn tunnel beneath Berlin
+1,in a sewage treatment plant in Ludlow, Kentucky
+1,outside the Deli Pu train station in Budapest
+1,on the busy streets of Antwerp, clutching the pouch of uncut diamonds in your pocket
+1,leading a team of stubborn mules through a pass in the mountains of Waziristan
+1,on a rooftop in Casablanca, trying to keep track of [character] in the busy street below
+1,on a bench in Central Park, feeding the pigeons and waiting for someone to exchange attache cases with you
+1,in a Ferris wheel at a county fair, making out
+1,at a protest for disaffected [nationality] youth, passing out brass knuckles and gasmasks in the hopes you can spark violence
+1,in a Palestinian refugee camp, looking for your contact
+1,on the roof of a hotel in Macao with a sniper rifle and binoculars, waiting for the right limo to arrive at the casino across the street
+1,in the jungles of Borneo, praying that you're reading what's left of your map correctly
+1,at the entrance to a deep sinkhole in the Yucatan peninsula, wondering if you brought enough rope
+
+
+;situationindoor
+10,[situationany]
+1,black-clad commandos crash through the windows with submachine guns at the ready
+1,a man bursts in, fully engulfed in flames
+1,a knife hits the wall by your head
+1,you notice a stranger staring at you from across the room
+1,the lights suddenly go out
+1,a flashbang goes off, blinding you
+1,you hear the rattling whine of a propane valve about to burst
+1,a stranger clutches his chest in distress - but you can tell it's an act
+1,a frightened woman hands you a sweaty, crumbled note
+1,you distinctly smell natural gas
+1,a nervous-looking man approaches you and asks you to light his cigarette
+1,you feel a gun at your back and the voice of the [nationality] [profession] telling you to keep calm and act normal. Dammit! You never should have trusted [himher]
+
+;situationoutdoor
+10,[situationany]
+1,it begins to rain heavily
+1,the earth begins to tremble
+1,bird poo lands on your shirt
+1,you feel a sharp prick like the bite of an insect in a hard-to-reach place
+1,the howl of wolves interrupts what you were saying
+1,a pair of attack helicopters rise above the horizon
+1,a far-off glint tells you you're being watched through optics
+1,a legless beggar drags himself over
+1,an enormous shadow falls over both of you
+
+
+;situationany
+1,you suddenly remember what the [profession] said before she died, and you realize it's all a setup
+1,you realize it had to have been the [profession] who sold you out
+1,[Quick NPC.NPCDescriptor] ex-lover shows up unexpectedly
+1,an old rival shows up unexpectedly: its The [nationality]. This could be very bad.
+1,armed thugs arrive, firing guns into the air
+1,the red dot of a laser sight begins to creep across your companion's face
+1,smoke from an unknown source begins to seep into the area
+1,a dangerous wild animal enters the area
+1,you spot a concealed explosive device, which may be on a timer or remote-activated
+1,gunfire erupts nearby
+1,you begin to suspect you've been drugged
+1,a nearby explosion knocks you to the ground
+1,you notice that your companion's cell phone is better than yours
+1,you get the distinct impression your luck is about to change
+1,your companion asks you a question you know you shouldn't answer truthfully
+1,you begin to wonder which side you're really working for
+1,you notice an earpiece in your companion's ear
+1,your palms begin to sweat; always a bad sign
+1,you notice your companion's unusual tattoo - the same one the  [nationality] [profession] that you met [previousencounter] had
+1,you smell gunpowder and a woman's perfume
+1,floodlights come on instantly, blinding you
+1,your companion mutters a code phrase under their breath
+1,you notice a poorly hidden camera, tracking you
+1,you recognize the ring your companion is wearing
+1,your cellphone rings - it's your mother ... again
+1,you hear the distinct 'click' of a pistol's safety being turned off
+1,you realize the gun you were carrying is no longer in its shoulder holster
+1,you are engulfed in tear gas as canisters fall all around you
+1,you notice the case with the cash in it somehow feels different
+1,you see that [nationality] [profession] that you met [previousencounter], but how could [heshe] have survived?
+1,you realize that the '[profession]' you're there to meet with is no such thing: you've seen [himher] before, [Dice.2d4] years ago, [previousencounter] in [World Cities.Start]
+
+

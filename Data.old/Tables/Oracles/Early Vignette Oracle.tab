@@ -1,0 +1,84 @@
+
+;Start
+1,[EarlyVignetteOracleResult]
+
+;EarlyVignetteOracleResult
+1,[People] (Person)
+1,[Places] (Location)
+1,[Things] (Thing)
+1,[Events] (Event)
+;People
+1,[Youth People]
+1,[Experience People]
+;Youth People
+1,Finishing each other\'s sentences.
+1,Old friends - now something more?
+1,Mutual attraction can\'t be denied.
+1,Everybody said we should get together.
+1,True friends - more than lovebirds.
+1,Our friends want us to be a couple
+;Experience People
+1,It\'s puppy love, nothing more.
+1,Uncertainty and insecurity.
+1,My parents disapprove.
+1,We can heal the rift between our families.
+1,We have their blessing.
+1,A serious talk about love, patriotism, and family.
+
+;Places
+1,[Youth Places]
+1,[Experience Places]
+;Youth Places
+1,Grandfather\'s house, in Mokotów\'s Pulawska neighborhood.
+1,The Polonia football grounds on Konwiktorska street.
+1,The sidewalk behind the royal castle in Old Town.
+1,The campus of Warsaw Polytechnic.
+1,The Main post office, awaiting a letter.
+1,The shady grounds of Brühl Palace.
+;Experience Places
+1,Boating near the Palace on the Water in beautiful Lazienki park.
+1,On Srednikowy bridge beneath the moonlight.
+1,In the National Museum, in sad disrepair.
+1,At the wall of the Powarkowska street ghetto, with a package.
+1,Grzednik\'s, on Ordynacka street, a popular restaurant and bar that 
+_seems to feed half of Warsaw for free.
+1,A flower shop in the Dluga neighborhood in Old Town.
+
+;Things
+1,[Youth Things]
+1,[Experience Things]
+;Youth Things
+1,Stolen beer, still cold.
+1,A hastily-written love note.
+1,A flamboyant bouquet of cheap flowers.
+1,A formal gown.
+1,A lock of hair bound with twine.
+1,A locked diary.
+;Experience Things
+1,Hearty sandwiches and fresh fruit.
+1,A tiny box of chocolates.
+1,A pack of Russian cigarettes with cardboard filters.
+1,A single, fragile gladiolus stem.
+1,A christening blanket.
+1,Home-distilled 190 proof "bimber", mixed with raspberry juice.
+
+;Events
+1,[Youth Events]
+1,[Experience Events]
+;Youth Events
+1,The world can wait.  We\'re footloose and fancy-free!
+1,Writing a very serious note.
+1,Spying.  Quizzing your love\'s friends, observing them from afar.
+1,Pranks and Flirting.
+1,A meaning-filled conversation.
+1,A chaste kiss, but an important one.
+;Experience Events
+1,A supervised visit.
+1,Fortune telling beneath warm August skies.
+1,Mother, we\'re young and need to have fun.
+1,A drunken woman outside the Under the Palm cafe on Grus street,
+_begging for a few zlotys "for bread for her children".
+1,Gardening with his grandparents.
+1,An ill-considered comment and the harm it causes.
+
+

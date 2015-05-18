@@ -1,0 +1,56 @@
+
+
+;Rank
+1,4th Officer
+1,3rd Officer
+1,2nd Officer
+1,1st Officer
+1,Captain
+
+;Personal Development
+1,Strength
+1,Dexterity
+1,Endurance
+1,Strength
+1,Blade Combat
+1,Bribery
+
+;Service Skills
+1,Vehicle
+1,Vacc Suit
+1,Jack of all trades
+1,Steward
+1,Electronics
+1,Gun Combat
+
+;Education
+1,Streetwise
+1,Mechanical
+1,Electronics
+1,Navigation
+1,Gunnery
+1,Medical
+
+;Advanced Education
+1,Medical
+1,Navigation
+1,Engineering
+1,Computer
+1,Pilot
+1,Admin
+
+@Muster Benefit
+1,Low Passage,0
+1,Intelligence
+1,Education
+1,[Traveller.Blade]
+1,[Traveller.Gun]
+1,Low Passage,0
+1,Free Trader,10
+1,Cash,1000
+1,Cash,5000
+1,Cash,10000
+2,Cash,20000
+2,Cash,40000
+
+

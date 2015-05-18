@@ -1,0 +1,47 @@
+
+;Start
+1,[SUBJECT][ACTION][OBJECT]
+
+;SUBJECT
+1,A child
+1,A mob
+1,A fool
+1,A noble
+1,A priest
+1,An official
+1,An animal
+1,A wizard
+1,A monster
+1,A criminal
+1,A warrior
+1,A natural feature (or building)
+1,An artist
+
+;ACTION
+1, leaving
+1, guarding
+1, using
+1, following
+1, communicating about
+1, restoring
+1, offering
+1, attacking
+1, holding
+1, taking
+1, moving away from
+
+;OBJECT
+1, a mysterious person
+1, an important person
+1, a mysterious object
+1, an animal
+1, a monster
+1, a wanted person
+1, nothing
+1, an important document
+1, a valuable object
+1, food
+1, a weapon
+1, a corpse
+
+

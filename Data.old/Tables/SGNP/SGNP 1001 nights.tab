@@ -1,0 +1,226 @@
+
+;Start
+1,<sgdisplay iterations="25">[Startshowgender]</sgdisplay><br>
+_===Food===<br>
+_<sgdisplay iterations="5">[food]</sgdisplay><br>
+
+;Startshowgender
+1,[male] (male)
+1,[female] (female)
+
+;male
+5,[malefirst] [malesurname]
+1,[malefirst]
+
+;female
+5,[femalefirst] [femalesurname]
+1,Umm [malefirst], [femalefirst]
+
+;malefirst
+1,Ahmed
+1,Hasad
+1,Behman
+1,Schraiaz
+1,Cassim
+1,Mahmoud
+1,Danash
+1,Abdalla
+1,Mustapha
+1,Douban
+1,Gifar
+1,Haroun
+1,Marzaman
+1,Mihrage
+1,Damriat
+1,Perviz
+1,Firouz
+1,Rashid
+1,Sidi
+1,Zouman
+
+;femalefirst
+1,Amira
+1,Ismalia
+1,Balsora
+1,Nisam
+1,Serendib
+1,Dinarzade
+1,Nour
+1,Imma
+1,Maimoune
+1,Melia
+1,Badoura
+1,Malika
+1,Zara
+1,Nourigan
+1,Aziza
+1,Morgiana
+1,Parizade
+1,Maryam
+1,Serit
+1,Zoulika
+
+;cities
+1,[Arabcities]
+1,[Othercities]
+
+;Arabcities
+1,Aden
+1,Ammam
+1,Ashdod
+1,Baghdad
+1,Baghlan
+1,Bakkah
+1,Balad
+1,Beirut
+1,Bishkek
+1,Bokhara
+1,Buraydah
+1,Gardez
+1,Herat
+1,Hit
+1,Hormuz
+1,Isfahan
+1,Isfara
+1,Istaravshan
+1,Marrakesh
+1,Masqat
+1,Mecca
+1,Medina
+1,Medinat
+1,Morocco
+1,Mosul
+1,Peshawar
+1,Qandahar
+1,Qonduz
+1,Qum
+1,Rabat
+1,Riyad
+1,Said
+1,Samarkand
+1,Sanaa
+1,Shiraz
+1,Suez
+1,Surat
+1,Tabuk
+1,Tehran
+1,Tikrit
+1,Toshkent
+1,Tunis
+
+;Othercities
+1,Abu Dhabi
+1,Agra
+1,Ahmadabad
+1,Alexandria
+1,Almaty
+1,Bangladesh
+1,Bhutan
+1,Chennai
+1,Constantinople
+1,Damascus
+1,Delhi
+1,Dhaka
+1,Dhangadhi
+1,Dubai
+1,Dushanbe
+1,Gujarat
+1,Haifa
+1,Haryana
+1,Hebron
+1,Islamabad
+1,Jerusalem
+1,Jharkhand
+1,Kabul
+1,Kairouan
+1,Karachi
+1,Karnataka
+1,Kathmandu
+1,Khowst
+1,Maharastra
+1,Mumbai
+1,Nashik
+1,Nazareth
+1,Ninewa
+1,Osh
+1,Punjab
+1,Qurgonteppa
+1,Rajasthan
+1,Rome
+1,Sharm
+
+;malesurname
+10,ibn [malefirst]
+5,Al-[alsurnames]
+3,Fi [cities]
+1,Al [Arabcities]i
+
+;femalesurname
+1,bint [malefirst]
+
+;alsurnames
+1,Rashid (line of Rashid)
+1,Jahmi (line of Jahm)
+1,Tahiri (line of Tahir)
+1,Ghassani (line of Ghassan)
+1,Suli (line of Sul)
+1,Iskafi (Iskafiyah sect)
+1,Sufi (Sufi mystic)
+1,Uqlids (studier of Euclid)
+1,Nasrani (Christian)
+1,Hindi (Hindu/Indian)
+1,Rawand (Persian)
+1,Ikmim (Egyptian)
+1,Ifriq (North African)
+1,Badaw (Bedouin)
+1,Rum (Roman)
+1,Sakhaw (Eygptian)
+1,Abarta (near Baghdad)
+1,Samar (from Sammarkand)
+1,Jurash (Yemen)
+1,Maghrib (West African)
+1,Najjar (carpenter)
+1,Husayn (beautiful)
+1,Rabi (spring)
+1,Abbas (frowner)
+1,Khalil (friend)
+1,Azhar (shining)
+1,Basir (wise)
+1,Fayyad (generous)
+1,Katib (scribe/author)
+1,Hakam (judge)
+1,Walid (newcomer)
+1,Sagher (young)
+1,Awar (one-eyed)
+1,Darir (blind)
+1,Kabib (elder)
+1,Hasib (respected)
+1,Abrash (leper)
+1,Mubarak (lucky)
+1,Quatan (cloth worker)
+1,Hadad (blacksmith)
+
+;food
+1,coffee, raisin wine, shaved ice with fruit syrups
+1,anise seed drink, mint tea, fruit juices
+1,dates, figs, cashews, walnuts
+1,garlic and sesame paste with vegetables and pita to dip
+1,safron rice with cashews and raisins
+1,almond coil cake
+1,hummus and pita
+1,taboule - bulgar wheat, onions, parsley, lemon, cucumber,
+1,grape leaves stuffed with lamb and rice
+1,baklaba - pistachios and honey pastry
+1,roast goat or lamb with coriander, cumin and pepper
+1,babaganoush - eggplant dip
+1,zalata - yogurt, cucumbers, herbs
+1,lentil and vegetable stew
+1,fried pudding with syrup
+1,rabbit or fowl, marinated and roasted, with herbs and couscous
+1,oranges, pomegranetes, peaches, grapes, apricots
+1,sugared cubes of jellied fruit
+1,tagine - meat or vegetable stew on couscous
+1,grape leaves stuffed with raisins, rice and almonds
+
+
+

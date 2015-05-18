@@ -1,0 +1,234 @@
+
+
+;Start
+1,At first, the PCs will see [Numberonetwelve] towers. Each has about [Numberonefour] defender(s) visible (there are actually [Numberonetwelve] times that number total) and about [Numberonefour] will arrive per round in the case of an alarm. The outer walls are [Threedtwentyptone][Threedtwentypttwo] feet tall and the towers extend [Numberonetwenty] feet above them.<br />*If it's a seafront fort, there will be [Numberonefour][Threedtwentypttwo] feet of [Terraintype] ground before the walls start.<br />*Due to the condition of the walls, climb checks are at [Climbchecknumber]. <br />*The lowest windows are [Dtwentyplusthirtydigitone][Threedtwentypttwo] feet up.<br />*The initial volley from the towers in case of an unexpected attack will be [Missiletype]. The second volley in case of a siege, an anticipated attack, or a small but persistent raiding party (like a bunch of PCs) will consist of [Secondaryfire]--unless it is a goblin fortress, in which case the response will consist of [Goblinfire].<br />*''Additional security measures include:'' <br />[Barbican] [Stair] [Moat] [Secondarywalls]<br />*''Also:''<br /> [Complications] [Complicationstwentyfive] [Complicationstwentyfive] [Complicationstwentyfive]<br><br>
+
+;Complications
+1,There is a secret entrance located at [Numberonetwelve] o'clock on the map.
+1,The fortress garrison is being attacked by a local faction when PCs arrive.
+1,The fortress garrison is being attacked by a monster when PCs arrive.
+1,The fortress garrison is dealing werewolf/changeling/The Thing, other "enemy-within" type monster when PCs arrive.
+1,The fortress garrison is a bunch of lazy drunken debaucherous irresponsible louts.
+1,A crazy dangerous beast is being transported to the capital and being housed here in the meantime.
+1,Mad treasure is kept below: [Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo] gp worth.
+1,Interesting treasure is kept below: [Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo]gp worth plus one magic item.
+1,There is internecine warfare within the garrison.
+1,The garrison has a horrible disease.
+1,Important prisoners are kept in the dungeon.
+1,The fortress is built on stilts, struts and pillars.
+1,The fortress is built of some bizarre semitranslucent stone--shadows move and wells of torchlight flicker within.
+1,The fortress is partially made of a colossal animal skeleton.
+1,The fortress architecture is bizarre.
+1,Poisonous or carnivorous mold, vines, algae cover everything. The garrison protects itself with bizarre filter masks or injections.
+1,A crazy wizard's lab is within.
+1,It has important visitors--lords or ladies or something.
+1,Weird chaos cult or demon worship is going on here.
+1,A recent natural disaster has created a crack in the castle's defenses.
+1,The garrison's expecting people and think the PCs are them.
+1,The fortress's garrison is rebelling against the lords that nominally control it. They may attempt to enlist the PCs to their cause.
+1,A feast or somesuchlike is being celebrated when the PCs arrive. Garrison's probably distracted
+1,The garrison is cursed. Hollow-eyed and hopeless
+1,A princess locked up in a tower needs to be rescued.
+1,This is a desolate area. The garrison is low on supplies. May trade or run outta arrows
+1,Freaks! The garrison is all mutated in an identical way. What's the score here?
+1,The garrison has a lotta time on their hands. They make cheese or wine or tapestries here.
+1,The garrison has a lotta time on their hands. They gamble on basilisk fights or whatever here.
+1,The captain of garrison is cordial and curious about outsiders. Or pretending to be...
+1,The captain of the garrison is insane.
+1,A member of the garrison falls in love with a party member.
+1,A member of the garrison owes a party member a favor.
+1,The garrison captain intends to the capture PCs and pump them for information about some intriguing scheme they actually know nothing about.
+1,The interior architecture is irrational--dead ends, pointlessly sloping passages, etc.
+
+;Complicationstwentyfive
+75,
+1,There is a secret entrance located at [Numberonetwelve] o'clock on the map.
+1,The fortress garrison is being attacked by a local faction when PCs arrive.
+1,The fortress garrison is being attacked by a monster when PCs arrive.
+1,The fortress garrison is dealing werewolf/changeling/The Thing, other "enemy-within" type monster when PCs arrive.
+1,The fortress garrison is a bunch of lazy drunken debaucherous irresponsible louts.
+1,A crazy dangerous beast is being transported to the capital and being housed here in the meantime.
+1,Mad treasure is kept below: [Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo] gp worth.
+1,Interesting treasure is kept below: [Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo][Threedtwentypttwo]gp worth plus one magic item.
+1,There is internecine warfare within the garrison.
+1,The garrison has a horrible disease.
+1,Important prisoners are kept in the dungeon.
+1,The fortress is built on stilts, struts and pillars.
+1,The fortress is built of some bizarre semitranslucent stone--shadows move and wells of torchlight flicker within.
+1,The fortress is partially made of a colossal animal skeleton.
+1,The fortress architecture is bizarre.
+1,Poisonous or carnivorous mold, vines, algae cover everything. The garrison protects itself with bizarre filter masks or injections.
+1,A crazy wizard's lab is within.
+1,It has important visitors--lords or ladies or something.
+1,Weird chaos cult or demon worship is going on here.
+1,A recent natural disaster has created a crack in the castle's defenses.
+1,The garrison's expecting people and think the PCs are them.
+1,The fortress's garrison is rebelling against the lords that nominally control it. They may attempt to enlist the PCs to their cause.
+1,A feast or somesuchlike is being celebrated when the PCs arrive. Garrison's probably distracted
+1,The garrison is cursed. Hollow-eyed and hopeless
+1,A princess locked up in a tower needs to be rescued.
+1,This is a desolate area. The garrison is low on supplies. May trade or run outta arrows
+1,Freaks! The garrison is all mutated in an identical way. What's the score here?
+1,The garrison has a lotta time on their hands. They make cheese or wine or tapestries here.
+1,The garrison has a lotta time on their hands. They gamble on basilisk fights or whatever here.
+1,The captain of garrison is cordial and curious about outsiders. Or pretending to be...
+1,The captain of the garrison is insane.
+1,A member of the garrison falls in love with a party member.
+1,A member of the garrison owes a party member a favor.
+1,The garrison captain intends to capture the PCs and pump them for information about some intriguing scheme they actually know nothing about.
+1,The interior architecture is irrational--dead ends, pointlessly sloping passages, etc.
+
+;Dtwentyplusthirtydigitone
+1,3
+1,4
+
+;Barbican
+1,A gatehouse with inner portcullises that cut off the gatehouse at both ends.
+1,A gatehouse with arrow slits.
+1,A gatehouse with murder holes,
+1,A barbican with murder holes and arrow slits in front of the gatehouse [Roof].
+1,A barbican with murder holes and arrow slits in front of the gatehouse [Roof] as well as portcullises that cut off escape.
+
+;Stair
+3,
+1,A winding staircase 80 feet long in front of the front gate.
+
+;Moat
+1,A moat [Dsixplusfourtimesten] feet across [Withmonster] [Causeway]. [Moathazard]
+1,
+
+;Secondarywalls
+2,
+1,A series of secondary walls--[Numberonetwenty] feet higher than the outer walls. There are [Numberonefour] fewer inner towers than outer ones.
+
+
+;Roof
+1,
+1,it has no roof
+
+;Moathazard
+1,The moat is full of acid.
+1,The moat gives off hallucinogenic fumes.
+1,The moat is acidic and gives off hallucinogenic fumes.
+12,
+
+;Withmonster
+3,
+1,with a monster in it
+
+;Causeway
+3,
+1,and a [Zeroone][Threedtwentypttwo][Threedtwentypttwo] foot curving causeway across it
+
+;Zeroone
+1,
+1,1
+
+;Dsixplusfourtimesten
+1,50
+2,60
+3,70
+4,80
+5,90
+6,100
+
+;Secondaryfire
+1,more standard bowfire
+1,flaming arrows or bolts
+1,poisoned arrows or bolts
+1,boiling oil (-3 to hit, d6+3 damage)
+
+;Goblinfire
+1,green slime vats
+1,an assault by [Numberonefour] pig balloon riders
+1,an assault by [Numberonefour] trained, dyed, drugged war-baboons (per tower)
+1,floating, biting, gas-spore like beings w/hallucinogenic spores
+1,a goblin witch casting a spell
+1,an attack by a goblin alchemist with [Numberonefour] weird devices
+1,a goblin maggot priest
+1,[Numberonefour] snake with hands for heads and eyes embedded in their palms (per tower)
+
+;Missiletype
+6,crossbow fire
+3,bow fire
+
+;Terraintype
+1,ordinary
+1,muddy and slow-going
+1,muddy and slippery
+1,rocky and slippery
+
+;Numberonetwelve
+1,two
+1,three
+1,four
+1,five
+1,six
+1,seven
+1,eight
+1,nine
+1,ten
+1,eleven
+1,twelve
+
+;Numberonefour
+1,1
+1,2
+1,3
+1,4
+
+;Threedtwentyptone
+1,
+1,1
+1,2
+1,3
+1,4
+1,5
+
+;Threedtwentypttwo
+1,0
+1,1
+1,2
+1,3
+1,4
+1,5
+1,6
+1,7
+1,8
+1,9
+
+;Numberonetwenty
+1,1
+1,2
+1,3
+1,4
+1,5
+1,6
+1,7
+1,8
+1,9
+1,10
+1,11
+1,12
+1,13
+1,14
+1,15
+1,16
+1,17
+1,18
+1,19
+1,20
+
+;Climbchecknumber
+1,plus one
+1,plus two
+1,plus three
+1,plus four
+1,plus five
+1,minus one
+1,minus two
+1,minus three
+1,minus four
+1,minus five
+
+

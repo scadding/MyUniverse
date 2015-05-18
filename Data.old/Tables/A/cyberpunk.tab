@@ -1,0 +1,758 @@
+
+;Start
+1, The heroes must [action] [target] [preposition] [location], but have to contend with [contention], and opposition from [opposition] trying to [opposing action] [opposing target]
+
+;action
+1, aid
+1, ally
+1, assassinate
+1, assist
+1, attack
+1, avenge
+1, beset
+1, change
+1, chase
+1, combat
+1, conceal
+1, contend
+1, copy
+1, create
+1, debug
+1, defeat
+1, defend
+1, deliver
+1, destroy
+1, disguise
+1, erase
+1, escort
+1, fight
+1, find
+1, guard
+1, guide
+1, hack
+1, infiltrate
+1, investigate
+1, join
+1, kill
+1, locate
+1, make
+1, meet
+1, move
+1, negotiate
+1, obliterate
+1, observe
+1, oppose
+1, outwit
+1, protect
+1, race
+1, raid
+1, repel
+1, rescue
+1, resist
+1, retreive
+1, reveal
+1, ruin
+1, safeguard
+1, save
+1, seize
+1, serve
+1, shield
+1, shut
+1, steal
+1, strike
+1, support
+1, take
+1, talk
+1, testify
+1, track
+1, travel
+1, watch
+
+;target
+1, a building
+1, a businessman
+1, a celebrity
+1, a child
+1, a computer
+1, a corporation
+1, a crooked banker
+1, a cyborg
+1, a dealer
+1, a file
+1, a friend
+1, against a building
+1, against a businessman
+1, against a celebrity
+1, against a child
+1, against a computer
+1, against a corporation
+1, against a crooked banker
+1, against a cyborg
+1, against a dealer
+1, against a file
+1, against a friend
+1, against a group of outcasts
+1, against a group of soldiers
+1, against a hacker
+1, against a hitman
+1, against a love-interest
+1, against a low-life
+1, against a man
+1, against a multi-national
+1, against a murderer
+1, against an aircraft
+1, against an android
+1, against an animal
+1, against an artifact
+1, against an enemy
+1, against an enemy agent
+1, against an energy source
+1, against a network
+1, against a newspaper editor
+1, against an invention
+1, against an outcast
+1, against a robot
+1, against artificial intelligence
+1, against a satellite
+1, against a scientist
+1, against a secret
+1, against a smuggler
+1, against a stranger
+1, against a technician
+1, against a terrorist
+1, against a treasure
+1, against a vehicle
+1, against a warlord
+1, against a wealthy banker
+1, against a weapon
+1, against a woman
+1, against citizens
+1, against foreigners
+1, against information
+1, against innocent bystanders
+1, against rebels
+1, against royalty
+1, against samurai
+1, against smugglers
+1, against technology
+1, against terrorists
+1, against the government
+1, against the police
+1, against the Russian Mafia
+1, against the Yakuza
+1, against workers
+1, a group of outcasts
+1, a group of soldiers
+1, a hacker
+1, a hitman
+1, a love-interest
+1, a low-life
+1, a man
+1, a multi-national
+1, a murderer
+1, an aircraft
+1, an android
+1, an animal
+1, an artifact
+1, an enemy
+1, an enemy agent
+1, an energy source
+1, a network
+1, a newspaper editor
+1, an invention
+1, an outcast
+1, a robot
+1, artificial intelligence
+1, a satellite
+1, a scientist
+1, a secret
+1, a smuggler
+1, a stranger
+1, a technician
+1, a terrorist
+1, a trade with a building
+1, a trade with a businessman
+1, a trade with a celebrity
+1, a trade with a child
+1, a trade with a computer
+1, a trade with a corporation
+1, a trade with a crooked banker
+1, a trade with a cyborg
+1, a trade with a dealer
+1, a trade with a file
+1, a trade with a group of outcasts
+1, a trade with a group of soldiers
+1, a trade with a hacker
+1, a trade with a hitman
+1, a trade with a love-interest
+1, a trade with a low-life
+1, a trade with a man
+1, a trade with a multi-national
+1, a trade with a murderer
+1, a trade with an aircraft
+1, a trade with an android
+1, a trade with an animal
+1, a trade with an artifact
+1, a trade with an enemy agent
+1, a trade with an energy source
+1, a trade with a network
+1, a trade with a newspaper editor
+1, a trade with an invention
+1, a trade with an outcast
+1, a trade with a robot
+1, a trade with artificial intelligence
+1, a trade with a satellite
+1, a trade with a scientist
+1, a trade with a secret
+1, a trade with a smuggler
+1, a trade with a stranger
+1, a trade with a technician
+1, a trade with a terrorist
+1, a trade with a treasure
+1, a trade with a vehicle
+1, a trade with a warlord
+1, a trade with a wealthy banker
+1, a trade with a weapon
+1, a trade with a woman
+1, a trade with citizens
+1, a trade with foreigners
+1, a trade with information
+1, a trade with innocent bystanders
+1, a trade with rebels
+1, a trade with royalty
+1, a trade with samurai
+1, a trade with smugglers
+1, a trade with technology
+1, a trade with terrorists
+1, a trade with the government
+1, a trade with the police
+1, a trade with the Russian Mafia
+1, a trade with the Yakuza
+1, a trade with workers
+1, a treasure
+1, a vehicle
+1, a warlord
+1, a wealthy banker
+1, a weapon
+1, a woman
+1, citizens
+1, down a building
+1, down a businessman
+1, down a celebrity
+1, down a child
+1, down a computer
+1, down a corporation
+1, down a crooked banker
+1, down a cyborg
+1, down a dealer
+1, down a friend
+1, down a group of outcasts
+1, down a group of soldiers
+1, down a hacker
+1, down a hitman
+1, down a low-life
+1, down a man
+1, down a multi-national
+1, down a murderer
+1, down an aircraft
+1, down an android
+1, down an animal
+1, down an artifact
+1, down an enemy
+1, down an enemy agent
+1, down an energy source
+1, down a network
+1, down a newspaper editor
+1, down an invention
+1, down an outcast
+1, down a robot
+1, down artificial intelligence
+1, down a satellite
+1, down a scientist
+1, down a secret
+1, down a smuggler
+1, down a technician
+1, down a terrorist
+1, down a treasure
+1, down a warlord
+1, down a wealthy banker
+1, down a woman
+1, down citizens
+1, down foreigners
+1, down information
+1, down innocent bystanders
+1, down rebels
+1, down royalty
+1, down smugglers
+1, down technology
+1, down terrorists
+1, down the government
+1, down the police
+1, down the Russian Mafia
+1, down the Yakuza
+1, down workers
+1, foreigners
+1, information
+1, innocent bystanders
+1, rebels
+1, royalty
+1, samurai
+1, smugglers
+1, technology
+1, terrorists
+1, the government
+1, the police
+1, the Russian Mafia
+1, the Yakuza
+1, with a building
+1, with a businessman
+1, with a celebrity
+1, with a child
+1, with a computer
+1, with a corporation
+1, with a crooked banker
+1, with a cyborg
+1, with a dealer
+1, with a file
+1, with a friend
+1, with a group of outcasts
+1, with a group of soldiers
+1, with a hacker
+1, with a hitman
+1, with a love-interest
+1, with a low-life
+1, with a man
+1, with a multi-national
+1, with a murderer
+1, with an aircraft
+1, with an android
+1, with an animal
+1, with an artifact
+1, with an enemy
+1, with an enemy agent
+1, with an energy source
+1, with a network
+1, with a newspaper editor
+1, with an invention
+1, with an outcast
+1, with a robot
+1, with artificial intelligence
+1, with a satellite
+1, with a scientist
+1, with a secret
+1, with a smuggler
+1, with a stranger
+1, with a technician
+1, with a terrorist
+1, with a treasure
+1, with a vehicle
+1, with a warlord
+1, with a wealthy banker
+1, with a weapon
+1, with a woman
+1, with citizens
+1, with foreigners
+1, with information
+1, with innocent bystanders
+1, with rebels
+1, with royalty
+1, with samurai
+1, with smugglers
+1, with technology
+1, with terrorists
+1, with the government
+1, with the police
+1, with the Russian Mafia
+1, with the Yakuza
+1, with workers
+1, workers
+
+;preposition
+1, at
+1, in
+1, on
+1, under
+
+;location
+1, a bank
+1, a bar
+1, a brothel
+1, a casino
+1, a church
+1, a city
+1, a corporate headquarters
+1, a data haven
+1, a foreign country
+1, a fortress
+1, a garage
+1, a gated community
+1, a ghetto
+1, a government installation
+1, a hidden zone
+1, a hideout
+1, a highway
+1, a hotel
+1, a laboratory
+1, a mansion
+1, a market
+1, a military base
+1, a musuem
+1, an apartment
+1, a nightclub
+1, an island
+1, an oil platform
+1, another city
+1, a place that officially doesn't exist
+1, a police station
+1, a research facility
+1, a restaurant
+1, a rooftop
+1, a secret location
+1, a ship
+1, a shopping centre
+1, a skyscraper
+1, a slum
+1, a space station
+1, a sporting event
+1, a TV station
+1, a university
+1, a vault
+1, a warehouse
+1, a war zone
+1, a wasteland
+1, cyberspace
+1, gang territory
+1, ground
+1, line
+1, orbit
+1, prison
+1, the airport
+1, the border
+1, the business district
+1, the entertainment district
+1, the jungle
+1, the moon
+1, the subway
+1, the Third World
+1, the villain's base
+1, transit
+1, virtual reality
+1, water
+
+;contention
+1, a computer crash
+1, a double-cross
+1, an abduction
+1, an ambush
+1, a power struggle
+1, artificial life
+1, a trap
+1, a travel problem
+1, a vendetta
+1, a virus
+1, betrayal
+1, computer failure
+1, corporate influence
+1, criminals
+1, cybernetics
+1, desperation
+1, diplomacy
+1, drugs
+1, encryption
+1, equipment failure
+1, fear
+1, hacking
+1, lack of trust
+1, legal troubles
+1, media attention
+1, military influence
+1, misdirection
+1, mistaken identity
+1, organised crime
+1, politics
+1, riots
+1, rivalry
+1, serving two masters
+1, spies
+1, theft
+1, travel
+1, trickery
+1, war
+
+;opposition
+1, a computer
+1, a conspiracy
+1, a former ally
+1, a gang
+1, a recurring character
+1, a shadowy figure
+1, assassins
+1, a stranger
+1, a tycoon
+1, a veteran
+1, clones
+1, government officials
+1, mercenaries
+1, slavers
+1, technology gone amok
+1, the army
+1, the ghost in the machine
+1, traitors
+
+;opposing action
+1, acquire
+1, attack
+1, blackmail
+1, bomb
+1, bribe
+1, build
+1, burgle
+1, control
+1, copy
+1, corrupt
+1, create
+1, destroy
+1, enslave
+1, extort
+1, forge
+1, frame
+1, hijack
+1, hunt
+1, implant
+1, infect
+1, infiltrate
+1, kidnap
+1, kill
+1, manipulate
+1, murder
+1, obliterate
+1, overthrow
+1, poison
+1, ransom
+1, rebuild
+1, rob
+1, rule
+1, sell
+1, smuggle
+1, steal
+1, take
+1, terrorise
+1, uncover
+
+;opposing target
+1, a brilliant scientist.
+1, a child genius.
+1, a fortune in gold.
+1, a hypnotic suggestion in a brilliant scientist.
+1, a hypnotic suggestion in a child genius.
+1, a hypnotic suggestion in a fortune in gold.
+1, a hypnotic suggestion in a jungle tribe.
+1, a hypnotic suggestion in an entire country.
+1, a hypnotic suggestion in a new form of energy.
+1, a hypnotic suggestion in a new super-weapon.
+1, a hypnotic suggestion in an experiment gone wrong.
+1, a hypnotic suggestion in a peaceful village.
+1, a hypnotic suggestion in a secret government agency.
+1, a hypnotic suggestion in a super-computer.
+1, a hypnotic suggestion in a woman.
+1, a hypnotic suggestion in corrupt police.
+1, a hypnotic suggestion in drug runners.
+1, a hypnotic suggestion in government scientists.
+1, a hypnotic suggestion in innocent victims.
+1, a hypnotic suggestion in Nazi gold.
+1, a hypnotic suggestion in one of the heroes' family.
+1, a hypnotic suggestion in someone famous.
+1, a hypnotic suggestion in the bank.
+1, a hypnotic suggestion in the entire world.
+1, a hypnotic suggestion in the heroes.
+1, a hypnotic suggestion in the heroes' friend.
+1, a hypnotic suggestion in the Nazis.
+1, a hypnotic suggestion in the police.
+1, a hypnotic suggestion in the United States.
+1, a hypnotic suggestion in the water supply.
+1, a jungle tribe.
+1, an entire country.
+1, a new form of energy.
+1, a new super-weapon.
+1, an experiment gone wrong.
+1, a peaceful village.
+1, a robot double of a brilliant scientist.
+1, a robot double of a child genius.
+1, a robot double of a fortune in gold.
+1, a robot double of a jungle tribe.
+1, a robot double of an entire country.
+1, a robot double of a new form of energy.
+1, a robot double of a new super-weapon.
+1, a robot double of an experiment gone wrong.
+1, a robot double of a peaceful village.
+1, a robot double of a secret government agency.
+1, a robot double of a super-computer.
+1, a robot double of a woman.
+1, a robot double of corrupt police.
+1, a robot double of drug runners.
+1, a robot double of government scientists.
+1, a robot double of innocent victims.
+1, a robot double of Nazi gold.
+1, a robot double of one of the heroes' family.
+1, a robot double of someone famous.
+1, a robot double of the bank.
+1, a robot double of the entire world.
+1, a robot double of the heroes.
+1, a robot double of the heroes' friend.
+1, a robot double of the Nazis.
+1, a robot double of the police.
+1, a robot double of the United States.
+1, a robot double of the water supply.
+1, a secret government agency.
+1, a super-computer.
+1, a woman.
+1, corrupt police.
+1, drug runners.
+1, from a brilliant scientist.
+1, from a child genius.
+1, from a fortune in gold.
+1, from a jungle tribe.
+1, from an entire country.
+1, from a new form of energy.
+1, from a new super-weapon.
+1, from an experiment gone wrong.
+1, from a peaceful village.
+1, from a secret government agency.
+1, from a super-computer.
+1, from a woman.
+1, from corrupt police.
+1, from drug runners.
+1, from government scientists.
+1, from innocent victims.
+1, from Nazi gold.
+1, from one of the heroes' family.
+1, from someone famous.
+1, from the bank.
+1, from the entire world.
+1, from the heroes.
+1, from the heroes' friend.
+1, from the Nazis.
+1, from the police.
+1, from the United States.
+1, from the water supply.
+1, government scientists.
+1, innocent victims.
+1, Nazi gold.
+1, one of the heroes' family.
+1, someone famous.
+1, the bank.
+1, the credentials of a brilliant scientist.
+1, the credentials of a child genius.
+1, the credentials of a fortune in gold.
+1, the credentials of a jungle tribe.
+1, the credentials of an entire country.
+1, the credentials of a new form of energy.
+1, the credentials of a new super-weapon.
+1, the credentials of an experiment gone wrong.
+1, the credentials of a peaceful village.
+1, the credentials of a secret government agency.
+1, the credentials of a super-computer.
+1, the credentials of a woman.
+1, the credentials of corrupt police.
+1, the credentials of drug runners.
+1, the credentials of government scientists.
+1, the credentials of innocent victims.
+1, the credentials of Nazi gold.
+1, the credentials of one of the heroes' family.
+1, the credentials of someone famous.
+1, the credentials of the bank.
+1, the credentials of the entire world.
+1, the credentials of the heroes.
+1, the credentials of the heroes' friend.
+1, the credentials of the Nazis.
+1, the credentials of the police.
+1, the credentials of the United States.
+1, the credentials of the water supply.
+1, the data on a brilliant scientist.
+1, the data on a child genius.
+1, the data on a fortune in gold.
+1, the data on a jungle tribe.
+1, the data on an entire country.
+1, the data on a new form of energy.
+1, the data on a new super-weapon.
+1, the data on an experiment gone wrong.
+1, the data on a peaceful village.
+1, the data on a secret government agency.
+1, the data on a super-computer.
+1, the data on a woman.
+1, the data on corrupt police.
+1, the data on drug runners.
+1, the data on government scientists.
+1, the data on innocent victims.
+1, the data on Nazi gold.
+1, the data on one of the heroes' family.
+1, the data on someone famous.
+1, the data on the bank.
+1, the data on the entire world.
+1, the data on the heroes.
+1, the data on the heroes' friend.
+1, the data on the Nazis.
+1, the data on the police.
+1, the data on the United States.
+1, the data on the water supply.
+1, the DNA of a brilliant scientist.
+1, the DNA of a child genius.
+1, the DNA of a fortune in gold.
+1, the DNA of a jungle tribe.
+1, the DNA of an entire country.
+1, the DNA of a new form of energy.
+1, the DNA of a new super-weapon.
+1, the DNA of an experiment gone wrong.
+1, the DNA of a peaceful village.
+1, the DNA of a secret government agency.
+1, the DNA of a super-computer.
+1, the DNA of a woman.
+1, the DNA of corrupt police.
+1, the DNA of drug runners.
+1, the DNA of government scientists.
+1, the DNA of innocent victims.
+1, the DNA of Nazi gold.
+1, the DNA of one of the heroes' family.
+1, the DNA of someone famous.
+1, the DNA of the bank.
+1, the DNA of the entire world.
+1, the DNA of the heroes.
+1, the DNA of the heroes' friend.
+1, the DNA of the Nazis.
+1, the DNA of the police.
+1, the DNA of the United States.
+1, the DNA of the water supply.
+1, the entire world.
+1, the heroes.
+1, the heroes' friend.
+1, the Nazis.
+1, the police.
+1, the secrets of a brilliant scientist.
+1, the secrets of a child genius.
+1, the secrets of a fortune in gold.
+1, the secrets of a jungle tribe.
+1, the secrets of an entire country.
+1, the secrets of a new form of energy.
+1, the secrets of a new super-weapon.
+1, the secrets of an experiment gone wrong.
+1, the secrets of a peaceful village.
+1, the secrets of a secret government agency.
+1, the secrets of a super-computer.
+1, the secrets of a woman.
+1, the secrets of corrupt police.
+1, the secrets of drug runners.
+1, the secrets of government scientists.
+1, the secrets of innocent victims.
+1, the secrets of Nazi gold.
+1, the secrets of one of the heroes' family.
+1, the secrets of someone famous.
+1, the secrets of the bank.
+1, the secrets of the entire world.
+1, the secrets of the heroes.
+1, the secrets of the heroes' friend.
+1, the secrets of the Nazis.
+1, the secrets of the police.
+1, the secrets of the United States.
+1, the secrets of the water supply.
+1, the United States.
+1, the water supply.

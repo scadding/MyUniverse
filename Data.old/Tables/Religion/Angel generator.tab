@@ -1,0 +1,63 @@
+
+;Start
+1,[Name], [Title Type]
+
+;Name
+1,Raziel
+1,Metatron
+1,Balberith
+1,Uriel
+1,Joshiphiel
+1,Arakiel
+1,Phalia
+1,Tariel
+1,Zephon
+1,Iriel
+1,Jaziel
+1,Atatesua
+1,Pahribna
+1,Ozocars
+1,Zersohat
+1,Esrad
+1,Musiel
+1,Ahael
+1,Rustodrazon
+4,[SGNP angels and demons.male]
+4,[SGNP angels and demons.female]
+
+;Title Type
+1,Herald of [theme 1]
+4,[Title] of [theme 1]
+1,[SGNP angels and demons.title]
+
+;Title
+3,Lord
+3,King
+4,Prince
+4,Archduke
+8,Duke
+12,Bringer
+30,Knight
+20,Servant
+10,[Secret Society Title.Title]
+
+
+;theme 1
+2,Light
+2,Hope
+2,Wisdom
+2,Mercy
+2,Justice
+2,Law
+2,Trust
+2,Faith
+2,Love
+2,Forgiveness
+1,Elysium
+1,Heaven
+1,Celestia
+1,Beauty
+3,[Inscriptions.AbstractNounPositive]
+
+
+

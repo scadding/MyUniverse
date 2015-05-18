@@ -1,0 +1,14 @@
+
+;Start
+1,[Motorcycle Gang.Start]
+7,[malerider]
+7,[femalerider]
+
+
+;malerider
+1,[SGNP bikers.MALE], real name [American Census Names.male] [American Census Names.surname], a [Modern Profession.Criminal]
+
+;femalerider
+1,[SGNP bikers.FEMALE], real name [American Census Names.female] [American Census Names.surname], a [Modern Profession.Criminal]
+
+

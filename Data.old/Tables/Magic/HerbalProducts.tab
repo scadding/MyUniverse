@@ -1,0 +1,84 @@
+
+;Start
+2,[Pre] [Herb Names.Start]
+4,[Herb Names.Start] [Post]
+2,[Mix] of [Herb Names.Start] and [Herb Names.Start]
+1,[Mix] of [Herb Names.Start], [Herb Names.Start][List of Herb Names]and [Herb Names.Start]
+
+;List of Herb Names
+10,, 
+3,, [Herb Names.Start][List of Herb Names]
+
+;Pre
+1,Infusion of
+1,Tincture of
+1,Oil of
+1,Essential Oil of
+1,Essence of
+1,Diffusion of
+1,Extract of
+1,Concentrate of
+1,Powdered
+1,Pressings of
+1,Squeezings of
+1,clarified
+1,Ground
+1,Crushed
+1,Boiled
+1,Decoction of
+1,Cream of
+1,Ointment of
+1,Balm of
+1,Vapors of
+1,Distilled
+1,Oil Infused with
+
+;Post
+1,Paste
+1,Tea
+1,Oil
+1,Concentrate
+1,Infusion
+1,Spirits
+1,Extract
+1,Vinegar
+1,Juice
+1,Nectar
+1,Powder
+1,Dust
+1,Leaf
+1,Root
+1,Stem Juice
+1,Flower
+1,Perfume
+1,Pollen
+1,Bark
+1,Bitters
+1,Berries
+1,Decoction
+2,Salve
+1,Gel
+1,Cream
+1,Powder
+1,Balm
+1,Ointment
+1,Unguent
+1,Admixture
+
+;Mix
+1,Admixture
+1,Decoction
+1,Ointment
+1,Mixture
+1,Paste
+1,Infusion
+1,Ointment
+1,Unguent
+1,Cream
+1,Paste
+1,Blend
+1,Distillation
+1,Compress
+1,Poultice
+
+

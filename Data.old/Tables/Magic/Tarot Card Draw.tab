@@ -1,0 +1,56 @@
+
+;Start
+22,[MajorArcana]
+56,[TarotValue] of [TarotSuit][Facing]
+
+;TarotSuit
+1,Wands
+1,Cups
+1,Swords
+1,Pentacles
+
+;TarotValue
+1,Ace
+1,Two
+1,Three
+1,Four
+1,Five
+1,Six
+1,Seven
+1,Eight
+1,Nine
+1,Ten
+1,Page
+1,Knight
+1,Queen
+1,King
+
+;MajorArcana
+1,Fool
+1,Magician
+1,High Priestess
+1,Empress
+1,Emperor
+1,Hierophant
+1,Lovers
+1,Chariot
+1,Strength
+1,Hermit
+1,Wheel of Fortune
+1,Justice
+1,Hanged Man
+1,Death
+1,Temperance
+1,Devil
+1,Tower
+1,Star
+1,Moon
+1,Sun
+1,Judgment
+1,World
+
+;Facing
+1, (Reversed)
+1,
+
+

@@ -1,0 +1,165 @@
+# This generator is part of the [[Story Games Name Project]]. The following are 
+# lists of serial killers, titles of law enforcement authorities, crime scene 
+# locations, murder weapons, poisons, prisons and forensic techniques. The titles 
+# may be combined with any country's modern lists (E.g. Modern American or 
+# Psuedo-English) to generate police names, FBI Agents, Mounties or Bobbies - 
+# whatever is required. It was compiled by Moyra Turkington
+
+;Start
+1,serial killers: [serial killers]
+1,authority titles: [authority titles]
+1,crime scene locations: [crime scene locations]
+1,murder weapons: [murder weapons]
+1,poisons:''' [poisons]
+1,prisons: [prisons]
+1,forensic techniques: [forensic techniques]
+
+;serial killers
+1,The Cadillac Killer
+1,Bloodthirsty Bill
+1,The Accountant
+1,The Night Stabber
+1,The Lady of Night
+1,The Butcher of Barstow
+1,The Pigman
+1,The Spinster Strangler
+1,The Die and Dasher
+1,Redhand Ricky
+1,The Alphabet Killer
+1,The Southside Slasher
+1,The Phantom Whisper
+1,Steel Tooth
+1,The Shopping-cart Strangler
+1,The Dawn Slayer
+1,The Blue Bombshell
+1,The Preying Mantis
+1,Crocodile Sam
+1,Vampire Casanova
+;authority titles
+1,Detective
+1,Special Agent
+1,Constable
+1,Inspector
+1,Corporal
+1,Sergeant
+1,Trooper
+1,Lieutenant
+1,Bureau Chief
+1,Superintendent
+1,Inspector General
+1,Commander
+1,Captain
+1,Commissioner
+1,Deputy Chief Constable
+1,Staff Sergeant
+1,Battalion Chief
+1,Federal Agent
+1,Brevet Sergeant
+1,Gendarmes
+;crime scene locations
+1,Hotel Room
+1,Restaurant Walk-in Freezer
+1,Dumpster
+1,Bomb Shelter
+1,Church Confessional
+1,High School Boiler Room
+1,Storage Locker
+1,Bathhouse 
+1,Swimming Pool
+1,Construction Site
+1,Barn Loft
+1,Factory Vat
+1,Farmer's Field
+1,Parking Lot
+1,Garden Shed
+1,Meat Locker
+1,Warehouse
+1,Country Club
+1,Boardroom
+1,Playground
+;murder weapons
+1,Telephone Cord
+1,Baseball bat
+1,Car
+1,Chef's Knife
+1,Pillow (Asphyxiation)
+1,Boxcutter
+1,Ice Pick
+1,Axe
+1,Piano Wire
+1,Beer Stein
+1,Broken Bottle
+1,Television Set
+1,Rebar
+1,Plumber's Wrench
+1,Screwdriver
+1,Chainsaw
+1,Handgun
+1,Machete
+1,Sledgehammer
+1,Brick/Rock
+;poisons
+1,Ricin, ingest
+1,Potassium Cyanide (KCN), ingest
+1,Hyosine, ingest
+1,Tubocurarine, inject
+1,Fentanyl, inject
+1,Dushuqiang, ingest
+1,Ethylene glycol, ingest
+1,Methanol, ingest, absorb
+1,Antimony, ingest
+1,Thallium, ingest
+1,Selenium, ingest
+1,Tellurium, ingest
+1,Copper Acetoarsenite (Paris Green), ingest, inhale
+1,Taxine, ingest
+1,Nicotine, ingest
+1,Prussic Acid, inhale
+1,Adrenalin, inject
+1,Strophanthin, inject
+1,Solanine, ingest
+1,Aconitine, ingest
+;prisons
+1,ADX Florence (USA, Colorado)
+1,Marion (USA, Illinois)
+1,Rikers Island (USA, New York)
+1,Sing Sing (USA, New York)
+1,Angola Farm (USA, Louisiana)
+1,Attica (USA, New York)
+1,San Quentin (USA, California)
+1,Devil's Island (French Guyana)
+1,Fresnes (France, Paris)
+1,Abu Ghraib (Iraq)
+1,Werl (Germany, Werl)
+1,Mountjoy (Ireland, Dublin)
+1,Kingston Penitentiary (Canada, Ontario)
+1,Presidente Venceslau (Brazil, Sao Paulo)
+1,Fuchu (Japan, Tokyo)
+1,Qincheng (China, Beijing)
+1,Lubyanka (Russia, Moscow)
+1,Manchester "Strangeways" (England, Manchester)
+1,Goulburn (Australia, New South Wales)
+1,Puente Grande (Mexico, Mexico City)
+;forensic techniques
+1,Computer Facial Reconstruction (identification of skeletal remains using software)
+1,Polymerase Chain Reaction (DNA replication using a catalyst to produce a sample sufficient for testing)
+1,Electrophoresis (the process of sorting DNA fragments according to size so that they can be charged and compared)
+1,Forensic Odontology (dental matching to identify human remains)
+1,Integrated Automated Fingerprint Identification System (IAFIS) (A computerized digital imaging system that captures and compares digital photographs of fingerprints on file)
+1,Refractive Index Analysis (examination of the light-bending ability of glass samples)
+1,Integrated Ballistics Identification System (IBIS) (A computerized digital imaging system that captures and compares digital photographs of fired bullets and cartridge cases)
+1,Cyanoacrylate Fuming (developing fingerprints for preservation)
+1,Voiceprint Identification
+1,Voice Spectrography (examination of the amplitude of the voice in relation to background noise to locate or identify a suspect)
+1,Gas Chromatography (differentiation of different kinds of liquids based on the speed at which they move in gas as an essential processes in identifying poisons and toxins)
+1,Specialized Digital Media Analysis and Recovery (used to recover encrypted evidence stored on a computer)
+1,Handwriting Analysis (differentiation of handwriting samples to identify fraudulent documents)
+1,Mass Spectrometry (exposes ionized solvents to a magnetic field to differentiate the kind of fuel used in explosive devices)
+1,Microspectrophotometry (electronically differentiating paint samples by analysis of their energy wavelengths)
+1,P300 Monitoring via Electroencephalograph Analysis (monitors the activity of the P300 brain wave which becomes active when the subject recognizes something familiar)
+1,Infrared Spectroscopy (identifies if ink samples that appear similar originated from the same source)
+1,Forensic Phonetics (used to determine race, age, sex of a recorded, disguised or digitally altered voice)
+1,Forensic Entomology (used in assessing the time of death by examining the extent of insect infestation in a corpse)
+1,Thin-layer Chromatography (used to identify specific solvents used as fuel in explosives)
+
+

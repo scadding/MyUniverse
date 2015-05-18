@@ -1,0 +1,150 @@
+
+;Start
+1,[MALE] (male)
+1,[FEMALE] (female)
+
+;MALE
+10,[COMMON MALE]
+5,[UNCOMMON MALE]
+1,[UNUSUAL MALE]
+
+;FEMALE
+10,[COMMON FEMALE]
+5,[UNCOMMON FEMALE]
+1,[UNUSUAL FEMALE]
+
+;COMMON MALE
+1,Joseph
+1,John
+1,Paul
+1,Adam
+1,James
+1,Mark
+1,Luke
+1,Mathew
+1,Michael
+1,Gabriel
+1,Noah
+1,Moses
+1,Joshua
+1,Gideon
+1,David
+1,Abel
+1,Cain
+1,Benjamin
+1,Samson
+1,Judas
+;COMMON FEMALE
+1,Mary
+1,Sarah
+1,Ruth
+1,Esther
+1,Rachel
+1,Magdalene
+1,Judith
+1,Miriam
+1,Rebecca
+1,Salome
+1,Eve
+1,Sari
+1,Naomi
+1,Tamar
+1,Leah
+1,Hannah
+1,Abigail
+1,Delilah
+1,Martha
+1,Deborah
+;UNCOMMON MALE
+1,Peter
+1,Solomon
+1,Abraham
+1,Issac
+1,Enoch
+1,Jason
+1,Cyrus
+1,Isaiah
+1,Bartholomew
+1,Ham
+1,Japheth
+1,Saul
+1,Phillip
+1,Nathan
+1,Daniel
+1,Ira
+1,Caleb
+1,Zachariah
+1,Timothy
+1,Marcus
+;UNCOMMON FEMALE
+1,Rhoda
+1,Jemima
+1,Anna
+1,Dorcas
+1,Phoebe
+1,Eunice
+1,Joanna
+1,Lois
+1,Lydia
+1,Tabitha
+1,Lilith
+1,Julia
+1,Bernice
+1,Chloe
+1,Kezia
+1,Ishtar
+1,Priscilla
+1,Diana
+1,Susanna
+1,Drusilla
+;UNUSUAL MALE
+1,Nebuchanezer
+1,Almodad
+1,Jephunneh
+1,Shimrath
+1,Malluch
+1,Hagarene
+1,Gog
+1,Lud
+1,Kemuel
+1,Ephron
+1,Riphath
+1,Methuselah
+1,Theudas
+1,Henoch
+1,Ozem
+1,Potiphar
+2,Jeroboam
+1,Rehoboam
+1,Jesher
+1,Nadab
+1,Baasha
+1,Elah
+1,Zimri
+1,Omri
+1,Dumah
+1,Perida
+1,Zoheth
+;UNUSUAL FEMALE
+1,Hagar
+1,Jezebel
+1,Hephzibah
+1,Zilpah
+1,Bathsheba
+1,Mehitabel
+1,Tryphosa
+1,Ephrata
+1,Syntyche
+1,Diblaim
+1,Lapidoth
+1,Peninnah
+1,Rahab
+1,Hoglah
+1,Abishag
+1,Jochebed
+1,Gomer
+1,Sherah
+1,Mahalath
+1,Asenath 
+
+

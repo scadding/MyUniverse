@@ -1,0 +1,121 @@
+
+;Start
+1,[pPulpHeroNovel]!
+
+;pPulpNoun
+1,Pain-Ray
+1,Panic
+1,Panther
+1,Particles
+1,Pasha
+1,Pearl
+1,Peril
+1,Pills
+1,Pilsner
+1,Pilot
+1,Piranhas
+1,Pirates
+1,Phantom
+1,Plasma
+1,Pod-People
+1,Poison
+1,Poltergeist
+1,Portal
+1,Power
+1,Priest
+1,Prism
+1,Prison
+1,Prisoner
+1,Problem
+1,Professor
+1,Punishment
+1,Python
+
+;pPulpAdjNegative
+1,Painful
+1,Pale
+1,Parasitic
+1,Peculiar
+1,Penultimate
+1,Perilous
+1,Pernicious
+1,Persian
+1,Peruvian
+1,Persuasive
+1,Phantom
+1,Pipe-Smoking
+1,Poisonous
+1,Primeval
+1,Prismatic
+1,Profane
+1,Psychotic
+1,Purple
+
+;pPulpAdjPositive
+1,Paragon
+1,Patriotic
+1,Pecos
+1,Penitent
+1,Perfect
+1,Phantom
+1,Peregrine
+1,Phenomenal
+1,Photonic
+1,Pious
+1,Pretty
+1,Portly
+
+;pPulpMaleFirstName
+1,Patrick
+1,Paul
+1,Percy
+1,Pete
+1,Phil
+1,Pierce
+1,Porter
+1,Parker
+1,Pinkerton
+1,Preston
+1,Professor
+
+;pPulpFemaleFirstName
+1,Patty
+1,Pauline
+1,Pearl
+1,Peggy
+1,Penny
+1,Phoebe
+1,Phyllis
+1,Polly
+1,Priscilla
+1,Portia
+
+;pPulpLastName
+1,Patriot
+1,Peril
+1,Pistol
+1,Plasma
+1,Power
+1,Profound
+1,Pemberton
+1,Pureheart
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the Problem of the
+1,and the Puzzle of the
+1,picks on
+1,in:
+1,versus the
+
+;pulpend
+1,[pPulpAdjNegative] [pPulpNoun]
+
+;pPulpHeroNovel
+10,[pPulpAdjPositive] [pPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[pPulpMaleFirstName] [pPulpLastName] [pulpmiddle] [pulpend]
+3,[pPulpAdjPositive] [pPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[pPulpFemaleFirstName] [pPulpLastName] [pulpmiddle] [pulpend]
+
+

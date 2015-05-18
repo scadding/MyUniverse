@@ -1,0 +1,116 @@
+
+;Start
+1,[kPulpHeroNovel]
+
+;kPulpNoun
+1,Kabbalists
+1,Kaleidoscope
+1,Kebabs
+1,Kelp
+1,Keno
+1,Key
+1,Keyboards
+1,Kibble
+1,Kidney
+1,Kilt
+1,Kimono
+1,Kink
+1,Kinsmen
+1,Knaves
+1,Knickers
+1,Knife
+1,Knights
+1,Knives
+
+;kPulpAdjNegative
+1,Kahn
+1,Kabuki
+1,Kaiser
+1,Kalishnikov
+1,Kamchatka
+1,Kaput
+1,Kenya
+1,Kerosene
+1,Kevlar
+1,Khaki
+1,Killer
+1,Knave
+
+;kPulpAdjPositive
+1,Kangaroo
+1,Kansas
+1,Karate
+1,Katana
+1,Keen
+1,Kendo
+1,Kentucky
+1,Kickin'
+1,Kingly
+1,Knightly
+
+;kPulpMaleFirstName
+1,Kane
+1,Karl
+1,Kasey
+1,Kelsey
+1,Kelvin
+1,Ken
+1,Kendall
+1,Kid
+1,Kleetus
+
+;kPulpFemaleFirstName
+1,Kassandra
+1,Kat
+1,Kate
+1,Katherine
+1,Katy
+1,Keira
+1,Kelly
+1,Kendra
+1,Kiki
+1,Kim
+1,Kimmy
+1,Kira
+1,Koko
+1,Kristen
+1,Kristy
+
+;kPulpLastName
+1,Kahn
+1,Kalamazoo
+1,Kant
+1,Kashmir
+1,Kaufman
+1,Keaton
+1,Keats
+1,Keel Hauler
+1,Keillor
+1,Kennedy
+1,Kent
+1,Keystone
+1,Kidd
+1,Kimber
+1,Kleine
+1,Knight
+1,Koontz
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the Key of the
+1,and the Killing of the
+1,in:
+1,versus the
+1,and [kPulpAdjPositive] [kPulpMaleFirstName]'s 
+
+;pulpend
+1,[kPulpAdjNegative] [kPulpNoun]
+
+;kPulpHeroNovel
+10,[kPulpAdjPositive] [kPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[kPulpMaleFirstName] [kPulpLastName] [pulpmiddle] [pulpend]
+3,[kPulpAdjPositive] [kPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[kPulpFemaleFirstName] [kPulpLastName] [pulpmiddle] [pulpend]
+
+

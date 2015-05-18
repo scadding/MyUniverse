@@ -1,0 +1,59 @@
+
+;Start
+5,[room] of [the][bad] [badness]
+5,[bad] [room] of [the][badness]
+2,[bad] [room]
+1,[room] of [the][badness]
+1,[bad] [room] of [the][bad] [badness]
+1,[bad] [room] of [Creepy Fantasy Villain.Scary]
+
+;the
+1,the 
+1,
+
+;room
+3,Hall
+3,Halls
+3,Chamber
+3,Chasm
+3,Caves
+3,Labyrinth
+3,Mines
+3,Caverns
+2,Temple
+1,Undercroft
+1,Pit
+1,Sanctuary
+1,Lair
+1,Bridge
+1,Stronghold
+1,Holdfast
+3,Tunnels
+1,Sewers
+3,Passages
+1,Sinkhole
+1,Warrens
+1,Hive
+1,Den
+1,Undercity
+1,Necropolis
+1,Canyon
+3,Dungeon
+3,Tomb
+3,Crypt
+3,Shrine
+1,Nest
+1,Ruins
+
+
+;bad
+4,[Secret Society Title.NounDescriptor]
+3,[Inscriptions.AdjectiveNeutral]
+7,[Inscriptions.AdjectiveNegative]
+
+;badness
+4,[Secret Society Title.Noun]
+7,[Inscriptions.AbstractNounNegative]
+
+
+

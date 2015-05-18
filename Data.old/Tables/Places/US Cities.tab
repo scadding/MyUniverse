@@ -1,0 +1,580 @@
+
+;Start
+1,New York-Northern New Jersey-Long Island NY-NJ         
+1,Los Angeles-Riverside-Orange County CA     
+1,Chicago-Gary-Kenosha IL-IN-WI            
+1,Washington-Baltimore DC-MD-VA-WV     
+1,San Francisco-Oakland-San Jose CA          
+1,Philadelphia-Wilmington-Atlantic City PA-NJ     
+1,Boston-Worcester-Lawrence MA-NH-ME-CT     
+1,Detroit-Ann Arbor-Flint MI              
+1,Dallas-Fort Worth TX                   
+1,Houston-Galveston-Brazoria TX             
+1,Atlanta GA                              
+1,Miami-Fort Lauderdale FL              
+1,Seattle-Tacoma-Bremerton WA             
+1,Phoenix-Mesa AZ                       
+1,Minneapolis-St Paul MN-WI             
+1,Cleveland-Akron OH                   
+1,San Diego CA                           
+1,St Louis MO-IL                         
+1,Denver-Boulder-Greeley CO                
+1,San Juan-Caguas-Arecibo PR                
+1,Tampa-St Petersburg-Clearwater FL          
+1,Pittsburgh PA                           
+1,Portland-Salem OR-WA                
+1,Cincinnati-Hamilton OH-KY-IN              
+1,Sacramento-Yolo CA                   
+1,Kansas City MO-KS                      
+1,Milwaukee-Racine WI                  
+1,Orlando FL                              
+1,Indianapolis IN                          
+1,San Antonio TX                          
+1,Norfolk-Virginia Beach-Newport News VA-NC     
+1,Las Vegas NV-AZ                        
+1,Columbus OH                           
+1,Charlotte-Gastonia-Rock Hill NC-SC          
+1,New Orleans LA                         
+1,Salt Lake City-Ogden UT                 
+1,Greensboro-Winston-Salem-High Point NC 
+1,Austin-San Marcos TX                   
+1,Nashville TN                            
+1,Providence-Fall River-Warwick RI-MA        
+1,Raleigh-Durham-Chapel Hill NC              
+1,Hartford CT                             
+1,Buffalo-Niagara Falls NY                 
+1,Memphis TN-AR-MS                    
+1,West Palm Beach-Boca Raton FL              
+1,Jacksonville FL                          
+1,Rochester NY                           
+1,Grand Rapids-Muskegon-Holland MI         
+1,Oklahoma City OK                       
+1,Louisville KY-IN                         
+1,Richmond-Petersburg VA                
+1,Greenville-Spartanburg-Anderson SC         
+1,Dayton-Springfield OH                   
+1,Fresno CA                              
+1,Birmingham AL                          
+1,Honolulu HI                             
+1,Albany-Schenectady-Troy NY            
+1,Tucson AZ                              
+1,Tulsa OK                                
+1,Syracuse NY                            
+1,Omaha NE-IA                           
+1,Albuquerque NM                        
+1,Knoxville TN                            
+1,El Paso TX                              
+1,Bakersfield CA                          
+1,Allentown-Bethlehem-Easton PA             
+1,Harrisburg-Lebanon-Carlisle PA          
+1,Scranton-Wilkes-Barre-Hazleton PA          
+1,Toledo OH                              
+1,Baton Rouge LA                         
+1,Youngstown-Warren OH                
+1,Springfield MA                          
+1,Sarasota-Bradenton FL                  
+1,Little Rock-North Little Rock AR           
+1,McAllen-Edinburg-Mission TX            
+1,Stockton-Lodi CA                       
+1,Charleston-North Charleston SC          
+1,Wichita KS                              
+1,Mobile AL                              
+1,Columbia SC                            
+1,Colorado Springs CO                     
+1,Fort Wayne IN                          
+1,Daytona Beach FL                       
+1,Lakeland-Winter Haven FL               
+1,Johnson City-Kingsport-Bristol TN-VA        
+1,Lexington KY                            
+1,Augusta-Aiken GA-SC                   
+1,Melbourne-Titusville-Palm Bay FL        
+1,Lancaster PA                            
+1,Chattanooga TN-GA                     
+1,Des Moines IA                           
+1,Kalamazoo-Battle Creek MI              
+1,Lansing-East Lansing MI                 
+1,Modesto CA                            
+1,Fort Myers-Cape Coral FL                
+1,Jackson MS                             
+1,Boise City ID                            
+1,Madison WI                             
+1,Spokane WA                            
+1,Pensacola FL                           
+1,Canton-Massillon OH                   
+1,Saginaw-Bay City-Midland MI           
+1,Salinas CA                              
+1,Santa Barbara-Santa Maria-Lompoc CA       
+1,Shreveport-Bossier City LA              
+1,Lafayette LA                            
+1,Beaumont-Port Arthur TX               
+1,York PA                                
+1,Corpus Christi TX                       
+1,Reading PA                             
+1,Rockford IL                             
+1,Provo-Orem UT                        
+1,Visalia-Tulare-Porterville CA            
+1,Biloxi-Gulfport-Pascagoula MS          
+1,Ponce PR                              
+1,Davenport-Moline-Rock Island IA-IL         
+1,Appleton-Oshkosh-Neenah WI              
+1,Peoria-Pekin IL                         
+1,Huntsville AL                           
+1,Hickory-Morganton-Lenoir NC          
+1,Reno NV                               
+1,Brownsville-Harlingen-San Benito TX         
+1,Montgomery AL                        
+1,Springfield MO                         
+1,Eugene-Springfield OR                  
+1,Macon GA                             
+1,Fort Pierce-Port St Lucie FL             
+1,Huntington-Ashland WV-KY-OH             
+1,Killeen-Temple TX                      
+1,Fayetteville-Springdale-Rogers AR           
+1,Fayetteville NC                         
+1,Utica-Rome NY                        
+1,Evansville-Henderson IN-KY             
+1,New London-Norwich CT-RI             
+1,Savannah GA                           
+1,Tallahassee FL                          
+1,Erie PA                                
+1,Columbus GA-AL                       
+1,South Bend IN                          
+1,Anchorage AK                          
+1,Ocala FL                               
+1,Mayaguez PR                           
+1,Binghamton NY                         
+1,Charleston WV                         
+1,Fort Collins-Loveland CO                
+1,Naples FL                              
+1,Lincoln NE                             
+1,San Luis Obispo-Atascadero-Paso Robles CA M    
+1,Duluth-Superior MN-WI                
+1,Portland ME                            
+1,Lubbock TX                             
+1,Odessa-Midland TX                     
+1,Roanoke VA                            
+1,Wilmington NC                         
+1,Johnstown PA                          
+1,Green Bay WI                          
+1,Asheville NC                            
+1,Yakima WA                             
+1,Gainesville FL                           
+1,Amarillo TX                            
+1,Lynchburg VA                          
+1,Waco TX                               
+1,Merced CA                             
+1,Longview-Marshall TX                  
+1,Fort Smith AR-OK                      
+1,Clarksville-Hopkinsville TN-KY           
+1,Chico-Paradise CA                      
+1,Springfield IL                           
+1,Myrtle Beach SC                        
+1,Houma LA                              
+1,Laredo TX                              
+1,Richland-Kennewick-Pasco WA              
+1,Cedar Rapids IA                         
+1,Lake Charles LA                         
+1,Lafayette IN                            
+1,Elkhart-Goshen IN                      
+1,Medford-Ashland OR                   
+1,Champaign-Urbana IL                   
+1,Mansfield OH                          
+1,Tyler TX                                
+1,Las Cruces NM                          
+1,Fargo-Moorhead ND-MN               
+1,Sioux Falls SD                           
+1,Fort Walton Beach FL                    
+1,Topeka KS                              
+1,Burlington VT                          
+1,St Cloud MN                           
+1,Bellingham WA                         
+1,Tuscaloosa AL                          
+1,Redding CA                            
+1,Barnstable-Yarmouth MA               
+1,Benton Harbor MI                      
+1,Yuma AZ                               
+1,Charlottesville VA                       
+1,Jackson MI                             
+1,Joplin MO                              
+1,Lima OH                               
+1,Athens GA                             
+1,Wheeling WV-OH                      
+1,Bryan-College Station TX                
+1,Janesville-Beloit WI                     
+1,Parkersburg-Marietta WV-OH           
+1,Bloomington-Normal IL                 
+1,Jacksonville NC                         
+1,Terre Haute IN                          
+1,Eau Claire WI                           
+1,Panama City FL                         
+1,Santa Fe NM                           
+1,Monroe LA                             
+1,Aguadilla PR                            
+1,Decatur AL                             
+1,Rocky Mount NC                        
+1,Florence AL                            
+1,Punta Gorda FL                         
+1,Pueblo CO                             
+1,Wichita Falls TX                         
+1,Jamestown NY                          
+1,Yuba City CA                           
+1,Dothan AL                             
+1,State College PA                        
+1,Columbia MO                          
+1,Greenville NC                          
+1,Steubenville-Weirton OH-WV          -
+1,Texarkana TX-Texarkana AR             
+1,Billings MT                             
+1,Altoona PA                             
+1,Waterloo-Cedar Falls IA                 
+1,La Crosse WI-MN                       
+1,Dover DE                              
+1,Abilene TX                             
+1,Alexandria LA                          
+1,Wausau WI                            
+1,Florence SC                            
+1,Glens Falls NY                          
+1,Rochester MN                          
+1,Sioux City IA-NE                        
+1,Flagstaff AZ-UT                        
+1,Albany GA                             
+1,Bloomington IN                         
+1,Sharon PA                             
+1,Williamsport PA                        
+1,Muncie IN                              
+1,Grand Junction CO                      
+1,Auburn-Opelika AL                     
+1,Lawton OK                             
+1,Decatur IL                              
+1,Goldsboro NC                          
+1,Sheboygan WI                          
+1,Anniston AL                            
+1,Hattiesburg MS                         
+1,Iowa City IA                            
+1,Sherman-Denison TX                   
+1,Danville VA                             
+1,Jackson TN                             
+1,Sumter SC                             
+1,San Angelo TX                          
+1,Gadsden AL                            
+1,St Joseph MO                          
+1,Cumberland MD-WV                   
+1,Kokomo IN                             
+1,Lawrence KS                           
+1,Grand Forks ND-MN                    
+1,Missoula MT                           
+1,Bismarck ND                           
+1,Owensboro KY                          
+1,Elmira NY                              
+1,Bangor ME                             
+1,Lewiston-Auburn ME                   
+1,Dubuque IA                            
+1,Rapid City SD                           
+1,Pittsfield MA                           
+1,Pine Bluff AR                           
+1,Victoria TX                             
+1,Jonesboro AR                           
+1,Cheyenne WY                          
+1,Great Falls MT                          
+1,Corvallis OR                            
+1,Pocatello ID                            
+1,Casper WY                             
+1,Enid OK  
+
+;simplified
+1,New York City, NY
+1,Newark, NJ
+1,Los Angeles, CA
+1,Long Beach, CA
+1,Hollywood, CA
+1,Riverside, CA
+1,Compton, CA
+1,Watts, CA
+1,Chicago, IL
+1,Washington, DC
+1,Baltimore, MD
+1,San Francisco, CA
+1,Oakland, CA
+1,San Jose, CA
+1,Philadelphia, PA
+1,Atlantic City, NJ
+1,Boston, MA
+1,Detroit, MI
+1,Dallas, TX
+1,Fort Worth, TX
+1,Houston, TX
+1,Atlanta, GA
+1,Miami, FL
+1,Seattle, WA
+1,Phoenix, AZ
+1,Minneapolis, MN
+1,St Paul, MN
+1,Cleveland, OH
+1,Akron, OH
+1,San Diego, CA
+1,St Louis, MO
+1,Denver, CO
+1,Boulder, CO
+1,San Juan, PR
+1,Tampa, FL
+1,Pittsburgh, PA
+1,Portland, OR
+1,Cincinnati, OH
+1,Sacramento, CA
+1,Kansas City, MO
+1,Milwaukee, WI
+1,Orlando, FL
+1,Indianapolis, IN
+1,San Antonio, TX
+1,Norfolk, VA
+1,Las Vegas, NV
+1,Columbus, OH
+1,Charlotte, NC
+1,New Orleans, LA
+1,Salt Lake City, UT
+1,Greensboro, NC
+1,Austin, TX
+1,Nashville, TN
+1,Providence, RI
+1,Raleigh, NC
+1,Hartford, CT
+1,Buffalo, NY
+1,Memphis, TN
+1,West Palm Beach, FL
+1,Jacksonville, FL
+1,Rochester, NY
+1,Grand Rapids, MI
+1,Oklahoma City, OK
+1,Louisville, KY
+1,Richmond, VA
+1,Greenville, SC
+1,Dayton, OH
+1,Fresno, CA
+1,Birmingham, AL
+1,Honolulu, HI
+1,Albany, NY
+1,Tucson, AZ
+1,Tulsa, OK 
+1,Syracuse, NY
+1,Omaha, NE
+1,Albuquerque, NM
+1,Knoxville, TN
+1,El Paso, TX
+1,Bakersfield, CA
+1,Allentown, PA
+1,Harrisburg, PA
+1,Scranton, PA
+1,Toledo, OH
+1,Baton Rouge, LA
+1,Youngstown, OH
+1,Springfield, MA
+1,Sarasota, FL
+1,Little Rock, AR
+1,McAllen, TX
+1,Stockton, CA
+1,Charleston, SC
+1,Wichita, KS
+1,Mobile, AL
+1,Columbia, SC
+1,Colorado Springs, CO
+1,Fort Wayne, IN
+1,Daytona Beach, FL
+1,Lakeland, FL
+1,Johnson City, TN
+1,Lexington, KY
+1,Augusta, GA
+1,Palm Bay, FL
+1,Lancaster, PA
+1,Chattanooga, TN
+1,Des Moines, IA
+1,Kalamazoo, MI
+1,Lansing, MI
+1,Modesto, CA
+1,Fort Myers, FL
+1,Jackson, MS
+1,Boise City, ID
+1,Madison, WI
+1,Spokane, WA
+1,Pensacola, FL
+1,Canton, OH
+1,Saginaw City, MI
+1,Salinas, CA
+1,Santa Barbara, CA
+1,Shreveport, LA
+1,Lafayette, LA
+1,Beaumont, TX
+1,York, PA 
+1,Corpus Christi, TX
+1,Reading, PA
+1,Rockford, IL
+1,Provo, UT
+1,Visalia, CA
+1,Biloxi, MS
+1,Ponce, PR
+1,Davenport, IA
+1,Appleton, WI
+1,Peoria, IL
+1,Huntsville, AL
+1,Hickory, NC
+1,Reno, NV
+1,Brownsville, TX
+1,Montgomery, AL
+1,Springfield, MO
+1,Eugene, OR
+1,Macon, GA
+1,Fort Pierce, FL
+1,Huntington, WV
+1,Killeen, TX
+1,Fayetteville, AR
+1,Fayetteville, NC
+1,Utica, NY
+1,Evansville, IN
+1,New London, CT
+1,Savannah, GA
+1,Tallahassee, FL
+1,Erie, PA 
+1,Columbus, GA
+1,South Bend, IN
+1,Anchorage, AK
+1,Ocala, FL
+1,Mayaguez, PR
+1,Binghamton, NY
+1,Charleston, WV
+1,Fort Collins, CO
+1,Naples, FL
+1,Lincoln, NE
+1,San Luis Obispo, CA
+1,Duluth, MN
+1,Portland, ME
+1,Lubbock, TX
+1,Odessa, TX
+1,Roanoke, VA
+1,Wilmington, NC
+1,Johnstown, PA
+1,Green Bay, WI
+1,Asheville, NC
+1,Yakima, WA
+1,Gainesville, FL
+1,Amarillo, TX
+1,Lynchburg, VA
+1,Waco, TX
+1,Merced, CA
+1,Longview, TX
+1,Fort Smith, AR
+1,Clarksville, TN
+1,Chico, CA
+1,Springfield, IL
+1,Myrtle Beach, SC
+1,Houma, LA
+1,Laredo, TX
+1,Richland, WA
+1,Cedar Rapids, IA
+1,Lake Charles, LA
+1,Lafayette, IN
+1,Elkhart, IN
+1,Medford, OR
+1,Champaign, IL
+1,Mansfield, OH
+1,Tyler, TX 
+1,Las Cruces, NM
+1,Fargo, ND
+1,Sioux Falls, SD
+1,Fort Walton, FL
+1,Topeka, KS
+1,Burlington, VT
+1,St Cloud, MN
+1,Bellingham, WA
+1,Tuscaloosa, AL
+1,Redding, CA
+1,Barnstable, MA
+1,Benton Harbor, MI
+1,Yuma, AZ
+1,Charlottesville, VA
+1,Jackson, MI
+1,Joplin, MO
+1,Lima, OH
+1,Athens, GA
+1,Wheeling, WV
+1,Bryan Station, TX
+1,Janesville, WI
+1,Parkersburg, WV
+1,Bloomington, IL
+1,Jacksonville, NC
+1,Terre Haute, IN
+1,Eau Claire, WI
+1,Panama City, FL
+1,Santa Fe, NM
+1,Monroe, LA
+1,Aguadilla, PR
+1,Decatur, AL
+1,Rocky Mount, NC
+1,Florence, AL
+1,Punta Gorda, FL
+1,Pueblo, CO
+1,Wichita Falls, TX
+1,Jamestown, NY
+1,Yuba City, CA
+1,Dothan, AL
+1,State College, PA
+1,Columbia, MO
+1,Greenville, NC
+1,Steubenville, OH          -
+1,Texarkana, TX, AR
+1,Billings, MT
+1,Altoona, PA
+1,Waterloo Falls, IA
+1,La Crosse, WI
+1,Dover, DE
+1,Abilene, TX
+1,Alexandria, LA
+1,Wausau, WI
+1,Florence, SC
+1,Glens Falls, NY
+1,Rochester, MN
+1,Sioux City, IA
+1,Flagstaff, AZ
+1,Albany, GA
+1,Bloomington, IN
+1,Sharon, PA
+1,Williamsport, PA
+1,Muncie, IN
+1,Grand Junction, CO
+1,Auburn, AL
+1,Lawton, OK
+1,Decatur, IL
+1,Goldsboro, NC
+1,Sheboygan, WI
+1,Anniston, AL
+1,Hattiesburg, MS
+1,Iowa City, IA
+1,Sherman, TX
+1,Danville, VA
+1,Jackson, TN
+1,Sumter, SC
+1,San Angelo, TX
+1,Gadsden, AL
+1,St Joseph, MO
+1,Cumberland, MD
+1,Kokomo, IN
+1,Lawrence, KS
+1,Grand Forks, ND
+1,Missoula, MT
+1,Bismarck, ND
+1,Owensboro, KY
+1,Elmira, NY
+1,Bangor, ME
+1,Lewiston, ME
+1,Dubuque, IA
+1,Rapid City, SD
+1,Pittsfield, MA
+1,Pine Bluff, AR
+1,Victoria, TX
+1,Jonesboro, AR
+1,Cheyenne, WY
+1,Great Falls, MT
+1,Corvallis, OR
+1,Pocatello, ID
+1,Casper, WY
+1,Enid, OK
+
+

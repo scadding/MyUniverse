@@ -1,0 +1,142 @@
+
+;Start
+2,[FoodStuffs]
+3,[AnimalTraces]
+4,[MaterialLeftovers]
+4,[ArcanistLeavings]
+1,a smudge of [impromptuInk]
+1,[Marks] in the [MarkLocales]
+1,[leftpaper2] piece of [papertype] [leftpaper]
+1,shaved bits of {{ia|[Utility.HornIvory]}}
+1,filings perhaps of [Utility.Metal]
+
+
+#these may be more 'stuff' and belong in Sights
+#1,cobwebs hang from the ceiling
+
+;MarkLocales
+1,dirt
+1,dust
+
+;Marks
+1,scratches
+1,claw marks
+1,strange symbols drawn
+
+;ArcanistLeavings
+1,[leftorgan] [MonsterParts.Organs]
+1,[leftliquid] [MonsterParts.Liquids]
+1,a small amount of [MonsterParts.DryGoods]
+1,a pinch of powdered [MonsterParts.Powders]
+
+;MaterialLeftovers
+1,[leftfabric] [Utility.Cloth]
+1,[leftfabric] [Utility.LeatherHide]
+1,[leftwood] [Utility.Wood]
+1,[leftstone] [Utility.StoneDecorative]
+
+;FoodStuffs
+1,[leftfruit] [Utility.Fruit]
+1,[leftfood] {{lc:[FantasyMenu.MainMeals]}}
+
+;AnimalTraces
+1,a single scale from {{ia|[Animal.fantasyScaled]}}
+1,a bit of hair from {{ia|[Animal.fantasyFurred]}}
+1,[leftanimaltrace] {{ia|[Animal.fantasyLand]}}
+
+;impromptuInk
+1,mud
+1,ash
+1,clay
+1,ink
+1,a rust colored substance that could have been blood
+
+;leftpaper2
+1,a mostly burned
+1,a crumpled up
+
+;leftpaper
+2,
+1,with some letters in [Utility.RuneLanguage] on it
+1,with a blot of [Color.all] ink
+1,with the words ''[Magic Incantation.Start]'' [WriteTypes]
+
+;WriteTypes
+1,scrawled on it [sometimesink]
+1,written on it [sometimesink]
+
+;sometimesink
+5,
+1,in [Color.all] ink
+1,in a shakey hand
+
+;papertype
+1,parchment
+1,vellum
+1,scroll
+1,paper
+1,papyrus
+1,sheepskin
+1,thin leather
+
+;leftliquid
+1,a drying puddle of
+1,a dried puddle of
+1,a splash of
+
+;leftorgan
+1,a gnawed upon
+1,dried
+
+;leftanimaltrace
+1,the spoor of
+1,a track on the floor perhaps from
+
+;leftfruit
+1,a rotted
+1,some rotting
+1,drips of juice from a
+1,a half-eaten
+
+;leftstone
+1,crushed bit of
+1,broken slab of
+1,dust of
+
+;leftwood
+1,splintered bit of
+1,small sliver of
+1,twig of
+1,rotting log of
+
+;leftfood
+1,moldy
+1,half-eaten
+1,crumbs from a meal of
+1,barely identifiable
+1,almost petrified bit of
+
+;modfabric
+1,torn
+1,threadbare
+1,motheaten
+1,moldering
+
+;leftfabric
+1,[modfabric] [fabricbit] of
+1,[modfabric] old [partofclothing] made of
+
+;fabricbit
+1,bit
+1,patch
+1,thread
+1,runner
+
+;partofclothing
+1,sleeve
+1,pant leg
+1,waistband
+1,collar
+1,cuff
+
+

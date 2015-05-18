@@ -1,0 +1,83 @@
+
+;Start
+1,[MALE] (Sigil: [SIGIL]) (male)
+1,[FEMALE] (Sigil: [SIGIL]) (female)
+1,[MALE], [Secret Society Title.Start] (Sigil: [SIGIL]) (male)
+1,[FEMALE], [Secret Society Title.Start] (Sigil: [SIGIL]) (female)
+
+;MALE 
+1,Apis Malefica
+1,Labecula
+1,Quintus 
+1,Lachesis Mutus
+1,Acanthus
+1,Eki of Bjornaer
+1,Severin
+1,Claris Sol
+1,Acerbus Anquero
+1,Lucere
+1,Puliarus 
+1,Andredeo
+1,Silenus Vox
+1,Declamare
+1,Circensus
+1,Libra Mentum
+1,Vassili Mercere
+1,Ardesco Tremere
+1,Badger of Bjornaer
+1,Nikolas Abelafia
+
+;FEMALE 
+1,Murinus Mus
+1,Soraya filia Tytalus
+1,Damvild filia Eki
+1,Pax Triumphia
+1,Oldoyni
+1,Domma Portia
+1,Manuela filia Manuela
+1,Ludmilla
+1,Sorcha Diadnea
+1,Alysium
+1,Respondete Omuns Una
+1,Repugnata
+1,Diligentia
+1,Zarya Flambeau
+1,Alethia
+1,Shade of Silver Spring
+1,Clementia
+1,Joslynn, the Merinita
+1,Lillian Wright
+1,Ernestina the Rabbit
+1,Zorica
+1,Dissonantia
+1,Jezebel of Endor
+
+;SIGIL
+1,Extremely tangled hair
+1,Sickening blue miasma
+1,Scent of honey
+1,Sound of crows calling
+1,Feathers 
+1,Flowers 
+1,Bleeding
+1,Bits of wood 
+1,Throbbing headache
+1,Scent of sulfur
+1,Singing 
+1,Flash of light
+1,Smoke
+1,Ice 
+1,Pain 
+1,Small, temporary physical change
+1,A certain number 
+1,Geometric patterns
+1,Glowing
+1,Sound of wind
+1,burning feeling
+1,Fire
+1,cold feeling
+1,temporary blindness
+1,temporary loss of hearing
+1,loud explosion
+
+

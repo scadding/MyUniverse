@@ -1,0 +1,165 @@
+
+;Start
+1,[MALE] (male)
+1,[FEMALE] (female)
+
+;MALE
+5,[MALEFIRST] [MALESURNAMESET]
+1,[MALEFIRST] [MALESURNAMESET] [BYNAME]
+
+;FEMALE
+1,[FEMALEFIRST] [FEMALESURNAME]
+5,[FEMALEFIRST] [MALESURNAMESET] [FEMALESURNAME]
+2,[FEMALEFIRST] [FEMALEFIRST] [FEMALESURNAME]
+
+;MALESURNAMESET
+4,[MALESURNAME]
+2,[MALESURNAME] [MALESURNAMESET]
+
+;MALEFIRST
+1,Christophoros
+1,Ioannes
+1,Konstantinos
+1,Makarios
+1,Niphon
+1,Theodoulos
+1,Alexandros
+1,Bardas
+1,Andreas
+1,Gregoras
+1,Alexios
+1,Nikolaos
+1,Phillipos
+1,Theodoros
+1,Iakobos
+1,Leontios
+1,Nikodemos
+1,Basileios
+1,Petros
+1,Andronikos
+;FEMALEFIRST
+1,Maria
+1,Anna
+1,Eugenia
+1,Xene
+1,Leonta
+1,Thomais
+1,Theodora
+1,Eirene
+1,Helene
+1,Elaiodora
+1,Ioanna
+1,Eudokia
+1,Simonis
+1,Zoe
+1,Theodosia
+1,Dragna
+1,Stania
+1,Theofana
+1,Christina
+1,Xanthe
+;MALESURNAME
+1,Dalassenos
+1,Gabras
+1,Komnenos
+1,Melachrinos
+1,Doukas
+1,Asanes
+1,Limpidares
+1,Balsamon
+1,Koresses
+1,Trichas
+1,Tzamplakon
+1,Zarides
+1,Skleros
+1,Adrianos
+1,Palaiologos
+1,Chrysaphes
+1,Aprenos
+1,Eirenikos
+1,Kaloethes
+1,Paraspondylos
+1,Choumnos
+1,Glabas
+1,Kontostephanos
+1,Agallon
+1,Boumbalis
+1,Sgouros
+1,Tagaris
+1,Mouzalon
+1,Laskaris
+1,Manouelites
+1,Argyros
+1,Kalamanos
+1,Chrysoloras
+1,Doukas
+1,Tsaphas
+1,Pleustes
+1,Angelos
+1,Philanthropenos
+1,Sebastopoulos
+1,Rossatas
+;FEMALESURNAME
+1,Dalassene
+1,Gabrina
+1,Komnene
+1,Melachrine
+1,Doukina
+1,Asanina
+1,Limpidarina
+1,Balsamina
+1,Koressina
+1,Trichina
+1,Tzamplakina
+1,Zaridina
+1,Sklerina
+1,Adriane
+1,Palaiologina
+1,Chrysaphina
+1,Aprene
+1,Eirenikina
+1,Kaloethina
+1,Paraspondylina
+1,Choumne
+1,Glabina
+1,Kontostephane
+1,Agallina
+1,Boumbalina
+1,Sgourina
+1,Tagarina
+1,Mouzalina
+1,Laskarina
+1,Manouelitessa
+1,Argyros
+1,Kalamane
+1,Chrysolorina
+1,Doukina
+1,Tsaphina
+1,Pleustina
+1,Angelina
+1,Philanthropene
+1,Sebastopoulina
+1,Rossatina
+;BYNAME
+1,Trykalas (potter)
+1,Alieus (fisherman)
+1,Makellares (butcher)
+1,Iereus (priest)
+1,Chalkeus (smith)
+1,Kalligas (shoe-maker)
+1,Vagenas (barrel-maker)
+1,Raptes (tailor)
+1,Mylonas (miller)
+1,Diakonos (deacon)
+1,Yfantes (weaver)
+1,Kepouros (gardener)
+1,Skiadas (hat-maker)
+1,Flevotomos (doctor)
+1,Neropoles (water-seller)
+1,Tzangares (shoemaker)
+1,Krasopolia (wineseller)
+1,Gounaras (furrier)
+1,Ktistes (mason)
+1,Pelekanos (carpenter) 
+
+

@@ -1,0 +1,41 @@
+
+;Start
+5,[HaftedWeapons.Quality] [LanceType] lance made of [Utility.WoodWeapon]. [LanceDecor][Weapon.MilitaryIssueChance]
+2,[HaftedWeapons.Quality] [LanceType] lance made of [Utility.WoodWeapon] and tipped with [Utility.MetalWeapon]. [LanceDecor][Weapon.MilitaryIssueChance]
+
+;StartNoDescription
+1,[LanceType] lance
+
+;LanceType
+20,light
+15,heavy
+1,ceremonial
+1,ornamental
+
+;LanceDecor
+6,
+3,The lance has a[StreamerQuality] streamer of[StreamerColor] [Utility.ClothFancy].
+3,The lance has been painted with spiraling [Color.dark] and [Color.bright].
+1,The lance is painted solid [Color.bright].
+1,The lance is painted solid [Color.dark].
+1,The lance has stripes of [Color.bright] and [Color.dark].
+
+;StreamerQuality
+5,
+1, heavy
+1, long
+1, ragged
+1, short
+1, torn
+
+;StreamerColor
+1,
+1, [Utility.DarkColors]
+1, [Utility.DarkColors] and [Utility.BrightColors]
+1, [Utility.DarkColors] and [Utility.LightColors]
+1, [Utility.DullColors]
+1, [Utility.DullColors] and [Utility.BrightColors]
+1, [Utility.BrightColors]
+1, [Utility.LightColors]
+
+

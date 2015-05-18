@@ -1,0 +1,75 @@
+
+;Start
+1,[qPulpHeroNovel]!
+
+;qPulpNoun
+1,Quagmire
+1,Quake
+1,Quaker
+1,Quarrel
+1,Query
+1,Quill
+1,Quip
+1,Quiver
+1,Quitter
+1,Quiz
+
+;qPulpAdjNegative
+1,Quack
+1,Quaffable
+1,Quarreling
+1,Quarrelsome
+1,Quavering
+1,Queer
+1,Querulous
+1,Questioning
+
+;qPulpAdjPositive
+1,Quaint
+1,Queenly
+1,Questing
+1,Quiet
+1,Quirky
+1,Quite
+1,Quivered
+1,Quixotic
+1,Quizzical
+
+;qPulpMaleFirstName
+1,Q.
+1,Quimby
+1,Quincy
+1,Quinlan
+1,Quinn
+
+;qPulpFemaleFirstName
+1,Quail
+1,Queen
+1,Queenie
+1,Quiana
+1,Quintina
+
+;qPulpLastName
+1,Qatar
+1,Quark
+1,Quasar
+1,Quizzer
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the Quest of the
+1,and the Question of the
+1,in:
+1,versus the
+
+;pulpend
+1,[qPulpAdjNegative] [qPulpNoun]
+
+;qPulpHeroNovel
+10,[qPulpAdjPositive] [qPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[qPulpMaleFirstName] [qPulpLastName] [pulpmiddle] [pulpend]
+3,[qPulpAdjPositive] [qPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[qPulpFemaleFirstName] [qPulpLastName] [pulpmiddle] [pulpend]
+
+

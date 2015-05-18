@@ -1,0 +1,133 @@
+
+;Start
+1,[fPulpHeroNovel]
+
+;fPulpNoun
+1,Fisherman
+1,Fireballer
+1,Fire
+1,Firebrand
+1,Fireman
+1,Fish Story
+1,Forensics
+1,Fortune
+1,Fifth Column
+1,Fifth
+1,Fiver
+1,Finery
+1,Fiddle
+1,Fiddler
+1,Fine
+1,Finish Line
+1,Finishing
+1,Fin
+1,Foray
+1,Finesse
+1,Fidelity
+1,Finch
+1,Fish
+1,Filcher
+1,Ferret
+1,Fox
+1,Foundling
+1,Fable
+1,Freak-Show
+
+;fPulpAdjNegative
+1,Fading
+1,Farfetched
+1,Fishy
+1,Fist-fighting
+1,Frayed
+1,Fraudulent
+1,Falsifying
+1,Fungus-infested
+1,False
+1,Fake
+1,Foolish
+1,Foolhardy
+1,Foppish
+1,Furious
+1,Foul
+1,Forged
+1,Freakish
+1,Forceful
+
+;fPulpAdjPositive
+1,Fabulous
+1,Fantastic
+1,Friendly
+1,Famous
+1,Fail-safe
+1,Fair
+1,Free
+1,Fancy
+1,Foolproof
+1,Fame-worthy
+1,Flashy
+
+;fPulpMaleFirstName
+1,Frank
+1,Fred
+1,Faulkner
+1,Ford
+1,Ferris
+1,Farley
+1,Foster
+1,Fabian
+1,Frederic
+1,Floyd
+1,Franklin
+1,Fisher
+1,Fitzroy
+
+;fPulpFemaleFirstName
+1,Fay
+1,Fallon
+1,Frances
+1,Florence
+1,Flossie
+1,Faith
+1,Fiona
+1,Felicity
+1,Faustina
+1,Fifi
+1,Freda
+1,Flora
+1,Flo
+1,Flannery
+1,Felice
+1,Felicia
+1,Fatima
+1,Francine
+
+;fPulpLastName
+1,Fianchetto
+1,Firework
+1,Feline
+1,Finesse
+1,Finback
+1,Firebrand
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the Fight of the
+1,and the Feud of the
+1,and the Fellowship of the
+1,and the Followers of the
+1,in:
+1,fights
+1,versus the
+1,and [fPulpAdjPositive] [fPulpMaleFirstName]'s 
+
+;pulpend
+1,[fPulpAdjNegative] [fPulpNoun]
+
+;fPulpHeroNovel
+10,[fPulpAdjPositive] [fPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[fPulpMaleFirstName] [fPulpLastName] [pulpmiddle] [pulpend]
+10,[fPulpAdjPositive] [fPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[fPulpFemaleFirstName] [fPulpLastName] [pulpmiddle] [pulpend]
+
+

@@ -1,0 +1,144 @@
+# The language of the Zoma is derived from the language of the Gods, 
+# but is much simpler.  Whereas the Language of the Gods is used by 
+# the Zoma to enact magic, the tongue of the Zoma is much simpler 
+# and is used in normal conversation.
+# 
+# Zoma is a simple alternating consonant sound/vowel sound language.
+# 
+# á as in c'''a'''t
+# 
+# a as in f'''a'''ther
+# 
+# e as in mors'''e'''l (schwa)
+# 
+# ı as in c'''i'''ty
+# 
+# í as in t'''i'''pi
+# 
+# ó as in g'''o'''
+# 
+# o as in g'''o'''t
+# 
+# ú as in pr'''u'''ne
+# 
+# u as in b'''u'''cket
+# 
+# dh as in '''th'''ey
+# 
+# zh as in geor'''g'''e
+# 
+# th as in '''th'''orough
+# 
+# all others consonants as standard Canadian english
+
+;Start
+1,<sgdisplay iterations = "3">[zomaword]</sgdisplay>
+1,<sgdisplay iterations = "3">[zomaname]</sgdisplay>
+
+
+;zomaword
+1,[vowel][consonant]
+1,[consonant][vowel]
+1,[vowel][consonant][vowel]
+1,[consonant][vowel][consonant]
+1,[vowel][consonant][vowel][consonant]
+1,[consonant][vowel][consonant][vowel]
+1,[vowel][consonant][vowel][consonant][vowel]
+1,[consonant][vowel][consonant][vowel][consonant]
+1,[vowel][consonant][vowel][consonant][vowel][consonant]
+1,[consonant][vowel][consonant][vowel][consonant][vowel]
+1,[vowel][consonant][vowel][consonant][vowel][consonant][vowel]
+1,[consonant][vowel][consonant][vowel][consonant][vowel][consonant]
+1,[vowel][consonant][vowel][consonant][vowel][consonant][vowel][consonant]
+1,[consonant][vowel][consonant][vowel][consonant][vowel][consonant][vowel]
+1,[vowel][consonant][vowel][consonant][vowel][consonant][vowel][consonant][vowel]
+
+;zomaname
+1,[Capvowel][consonant]
+1,[Capconsonant][vowel]
+1,[Capvowel][consonant][vowel]
+1,[Capconsonant][vowel][consonant]
+1,[Capvowel][consonant][vowel][consonant]
+1,[Capconsonant][vowel][consonant][vowel]
+1,[Capvowel][consonant][vowel][consonant][vowel]
+1,[Capconsonant][vowel][consonant][vowel][consonant]
+1,[Capvowel][consonant][vowel][consonant][vowel][consonant]
+1,[Capconsonant][vowel][consonant][vowel][consonant][vowel]
+1,[Capvowel][consonant][vowel][consonant][vowel][consonant][vowel]
+1,[Capconsonant][vowel][consonant][vowel][consonant][vowel][consonant]
+1,[Capvowel][consonant][vowel][consonant][vowel][consonant][vowel][consonant]
+1,[Capconsonant][vowel][consonant][vowel][consonant][vowel][consonant][vowel]
+1,[Capvowel][consonant][vowel][consonant][vowel][consonant][vowel][consonant][vowel]
+
+;vowel
+1,á
+1,a
+1,e
+1,ı
+1,í
+1,ó
+1,o
+1,ú
+1,u
+
+
+;Capvowel
+1,A
+1,A
+1,E
+1,I
+1,I
+1,O
+1,O
+1,U
+1,U
+
+
+;consonant
+1,b
+1,d
+1,g
+1,k
+2,p
+2,t
+1,h
+2,m
+2,n
+2,r
+2,s
+2,sh
+2,th
+2,dh
+2,z
+2,zh
+2,l
+2,f
+2,v
+1,w
+1,y
+1,'
+
+;Capconsonant
+1,B
+1,D
+1,G
+1,K
+2,P
+2,T
+1,H
+2,M
+2,N
+2,R
+2,S
+2,Sh
+2,Th
+2,Dh
+2,Z
+2,Zh
+2,L
+2,F
+2,V
+1,W
+1,Y
+
+

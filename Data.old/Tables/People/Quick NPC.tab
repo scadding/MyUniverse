@@ -1,0 +1,1510 @@
+
+
+;Start
+1,[NPCDescriptor] [RichNPC]
+1,[NPCDescriptor] [MidNPC]
+1,[NPCDescriptor] [PoorNPC]
+
+
+
+;NPCDescriptor
+1,a bald
+1,a battle-ready
+1,a bawdy
+1,a bearded
+1,a beleaguered
+1,a big
+1,a big-hearted
+1,a bigoted
+1,a bitter
+1,a black-haired
+1,a black-eyed
+1,a black-hearted
+1,a blank-looking
+1,a blind
+1,a blond
+1,a blood-stained
+1,a bloodthirsty
+1,a blue-eyed
+1,a blushing
+1,a blustery
+1,a boastful
+1,a boisterous
+1,a bold
+1,a bookish
+1,a boorish
+1,a bored
+1,a boring
+1,a brave
+1,a brilliant
+1,a brooding
+1,a brown-eyed
+1,a brown-haired
+1,a bucolic
+1,a business-like
+1,a callous
+1,a calm
+1,a candid
+1,a canny
+1,a carefree
+1,a careful
+1,a careless
+1,a cautious
+1,a charismatic
+1,a chatty
+1,a cherubic
+1,a childish
+1,a childlike
+1,a clear-thinking
+1,a comical
+1,a compassionate
+1,a competent
+1,a complaining
+1,a composed
+1,a condemned
+1,a confident
+1,a confiding
+1,a confused
+1,a conniving
+1,a conspiratorial
+1,a courageous
+1,a cowardly
+1,a cowed
+1,a craggy
+1,a cranky
+1,a crazy
+1,a crippled
+1,a cruel
+1,a curious
+1,a cynical
+1,a dangerous
+1,a dark-skinned
+1,a dark-eyed
+1,a daydreaming
+1,a deaf
+1,a deep-voiced
+1,a delicate
+1,a delusional
+1,a depressed
+1,a desperate
+1,a devilish
+1,a devious
+1,a dimpled
+1,a diplomatic
+1,a discontented
+1,a diseased
+1,a dishonest
+1,a dishonourable
+1,a disloyal
+1,a disorganized
+1,a disrespectful
+1,a distressed
+1,a distrusting
+1,a dogmatic
+1,a domineering
+1,a driven
+1,a drowsy
+1,a drunk
+1,a drunken
+1,a dying
+1,a euphoric
+1,a fair-skinned
+1,a familiar-looking
+1,a famous
+1,a fashionable
+1,a fat
+1,a fatalistic
+1,a fast-talking
+1,a fearless
+1,a fidgety
+1,a filthy
+1,a flamboyant
+1,a flea-infested
+1,a flirtatious
+1,a florid
+1,a foolhardy
+1,a foolish
+1,a foppish
+1,a forbidding
+1,a foreign
+1,a forgetful
+1,a forgiving
+1,a foul-smelling
+1,a foul-mouthed
+1,a fragrant
+1,a free-spirited
+1,a friendly
+1,a frightened
+1,a frowning
+1,a frustrated
+1,a gap-toothed
+1,a garrulous
+1,a generous
+1,a gentle
+1,a giddy
+1,a giggly
+1,a glaring
+1,a glum
+1,a gluttonous
+1,a golden-haired
+1,a good-looking
+1,a gossipy
+1,a gnarled
+1,a graceful
+1,a grateful
+1,a greedy
+1,a green-eyed
+1,a gregarious
+1,a grief-stricken
+1,a grim
+1,a grubby
+1,a gruff
+1,a guarded
+1,a guilt-ridden
+1,a gullible
+1,a hale
+1,a hairy
+1,a happy
+1,a hallucinating
+1,a hard-hearted
+1,a hard-nosed
+1,a hardworking
+1,a harmless
+1,a harried
+1,a haughty
+1,a haunted
+1,a heart-faced
+1,a heartbroken
+1,a hearty
+1,a heavy-set
+1,a hedonistic
+1,a helpful
+1,a hero-worshipping
+1,a high-voiced
+1,a hollow-eyed
+1,a homesick
+1,a hopeful
+1,a hospitable
+1,a hostile
+1,a hot-tempered
+1,a humble
+1,a hung-over
+1,a hunchbacked
+1,a hungry
+1,a husky
+1,a hypochondriac
+1,a jaded
+1,a jaundiced
+1,a jealous
+1,a jumpy
+1,a kind
+1,a klutsy
+1,a laconic
+1,a law-abiding
+1,a laughing
+1,a lazy
+1,a learned
+1,a lecherous
+1,a limping
+1,a lisping
+1,a little
+1,a little-known
+1,a lively
+1,a lonely
+1,a loud
+1,a low-voiced
+1,a lovable
+1,a lovesick
+1,a loyal
+1,a lusty
+1,a machiavellian
+1,a maimed
+1,a malevolent
+1,a masked
+1,a mean-spirited
+1,a melancholy
+1,a merry
+1,a meddlesome
+1,a meticulous
+1,a middle-aged
+1,a milk-eyed
+1,a mischievous
+1,a miserly
+1,a modest
+1,a monstrous
+1,a moody
+1,a morose
+1,a mute
+1,a mysterious
+1,a naive
+1,a narrow-minded
+1,a nervous
+1,a neurotic
+1,a nostalgic
+1,a nosy
+1,a near-sighted
+1,a pain-stricken
+1,a pampered
+1,a passionate
+1,a paranoid
+1,a patient
+1,a patriotic
+1,a patronizing
+1,a peace-loving
+1,a peaceful
+1,a perceptive
+1,a pessimistic
+1,a philosophical
+1,a pierced
+1,a pining
+1,a pious
+1,a pitiable
+1,a poker-faced
+1,a polite
+1,a popular
+1,a pouting
+1,a proud
+1,a public-spirited
+1,a quick-witted
+1,a quiet
+1,a rash
+1,a rasping
+1,a reasonable
+1,a rebellious
+1,a reclusive
+1,a red-haired
+1,a refined
+1,a relaxed
+1,a remorseful
+1,a repentant
+1,a resentful
+1,a reserved
+1,a respectable
+1,a respected
+1,a respectful
+1,a restless
+1,a roguish
+1,a rosy-cheeked
+1,a rotund
+1,a ruddy
+1,a sallow
+1,a salty
+1,a saucy
+1,a sauntering
+1,a scheming
+1,a scholarly
+1,a self-absorbed
+1,a self-pitying
+1,a self-possessed
+1,a selfish
+1,a sensitive
+1,a shallow
+1,a shameless
+1,a shapely
+1,a shell-shocked
+1,a shifty
+1,a shivering
+1,a short
+1,a shrewd
+1,a shrewish
+1,a shy
+1,a sickly
+1,a silent
+1,a simple-minded
+1,a singing
+1,a skeletal
+1,a skeptical
+1,a skillful
+1,a sleepy
+1,a slim
+1,a slouching
+1,a slow-witted
+1,a slothful
+1,a smiling
+1,a smirking
+1,a smitten
+1,a smug
+1,a snarling
+1,a sneering
+1,a sneezing
+1,a sociable
+1,a soft-hearted
+1,a soft-skinned
+1,a solemn
+1,a sorrowful
+1,a sour
+1,a sour-faced
+1,a sniffling
+1,a spiteful
+1,a squinting
+1,a submissive
+1,a sun-bronzed
+1,a starving
+1,a stern
+1,a stiff
+1,a stooped
+1,a strong-willed
+1,a strutting
+1,a studious
+1,a stuttering
+1,a stylish
+1,a suffering
+1,a sunburned
+1,a surly
+1,a superstitious
+1,a surprised
+1,a suspicious
+1,a sweating
+1,a sweet-talking
+1,a sweet-tempered
+1,a sympathetic
+1,a tactful
+1,a tactless
+1,a tall
+1,a tattooed
+1,a tearful
+1,a tedious
+1,a tense
+1,a territorial
+1,a terror-stricken
+1,a thrifty
+1,a ticklish
+1,a tidy
+1,a tight-lipped
+1,a timid
+1,a tiny
+1,a tongue-tied
+1,a tough
+1,a trembling
+1,a triumphant
+1,a trusting
+1,a truthful
+1,a twitching
+1,a tyrannical
+1,a tyrannous
+1,a vain
+1,a veiled
+1,a vengeful
+1,a violent
+1,a vivacious
+1,a weak-willed
+1,a weary
+1,a well-armed
+1,a well-fed
+1,a well-known
+1,a well-mannered
+1,a well-muscled
+1,a whining
+1,a whistling
+1,a white-haired
+1,a wide-eyed
+1,a wiley
+1,a witty
+1,a wise
+1,a world-weary
+1,a worried
+1,a wounded
+1,a wrinkled
+1,a xenophobic
+1,a young
+1,a youthful
+1,an absent-minded
+1,an accomplished
+1,an accusatory
+1,an adoring
+1,an affectionate
+1,an agitated
+1,an agreeable
+1,an alarmist
+1,an alert
+1,an amber-eyed
+1,an ambitious
+1,an amused
+1,an angry
+1,an angst-ridden
+1,an apathetic
+1,an apologetic
+1,an appreciative
+1,an attentive
+1,an armored
+1,an earnest
+1,an easily offended
+1,an eccentric
+1,an efficient
+1,an egotistical
+1,an elated
+1,an elderly
+1,an eloquent
+1,an embarrassed
+1,an energetic
+1,an enraged
+1,an ensorcelled
+1,an enterprising
+1,an envious
+1,an even-tempered
+1,an exhausted
+1,an honourable
+1,an idealistic
+1,an ignorant
+1,an imaginative
+1,an impatient
+1,an imperious
+1,an impudent
+1,an incompetent
+1,an incorrigible
+1,an indecisive
+1,an independent
+1,an indignant
+1,an indulgent
+1,an infamous
+1,an injured
+1,an innocent
+1,an inquisitive
+1,an insane
+1,an intimidating
+1,an intoxicated
+1,an intrusive
+1,an irrational
+1,an irresistable
+1,an irritable
+1,an irreverent
+1,an obsequious
+1,an olive-skinned
+1,an oracular
+1,an open-minded
+1,an opinionated
+1,an optimistic
+1,an over-emotional
+1,an over-sensitive
+1,an ugly
+1,an unconventional
+1,an unfashionable
+1,an unflappable
+1,an unfriendly
+1,an unhappy
+1,an unorthodox
+1,an unrefined
+1,an unruly
+1,an unscrupulous
+1,an unsociable
+1,an unsuspecting
+1,a [Fantasy Character Concept.personality]
+1,a [Character Concept of Mu.personality]
+
+;NPCDescriptor-noarticle
+1,bald
+1,battle-ready
+1,bawdy
+1,bearded
+1,beleaguered
+1,big
+1,big-hearted
+1,bigoted
+1,bitter
+1,black-haired
+1,black-eyed
+1,black-hearted
+1,blank-looking
+1,blind
+1,blond
+1,blood-stained
+1,bloodthirsty
+1,blue-eyed
+1,blushing
+1,blustery
+1,boastful
+1,boisterous
+1,bold
+1,bookish
+1,boorish
+1,bored
+1,boring
+1,brave
+1,brilliant
+1,brooding
+1,brown-eyed
+1,brown-haired
+1,bucolic
+1,business-like
+1,callous
+1,calm
+1,candid
+1,canny
+1,carefree
+1,careful
+1,careless
+1,cautious
+1,charismatic
+1,chatty
+1,cherubic
+1,childish
+1,childlike
+1,clear-thinking
+1,comical
+1,compassionate
+1,competent
+1,complaining
+1,composed
+1,condemned
+1,confident
+1,confiding
+1,confused
+1,conniving
+1,conspiratorial
+1,courageous
+1,cowardly
+1,cowed
+1,craggy
+1,cranky
+1,crazy
+1,crippled
+1,cruel
+1,curious
+1,cynical
+1,dangerous
+1,dark-skinned
+1,dark-eyed
+1,daydreaming
+1,deaf
+1,deep-voiced
+1,delicate
+1,delusional
+1,depressed
+1,desperate
+1,devilish
+1,devious
+1,dimpled
+1,diplomatic
+1,discontented
+1,diseased
+1,dishonest
+1,dishonourable
+1,disloyal
+1,disorganized
+1,disrespectful
+1,distressed
+1,distrusting
+1,dogmatic
+1,domineering
+1,driven
+1,drowsy
+1,drunk
+1,drunken
+1,dying
+1,euphoric
+1,fair-skinned
+1,familiar-looking
+1,famous
+1,fashionable
+1,fat
+1,fatalistic
+1,fast-talking
+1,fearless
+1,fidgety
+1,filthy
+1,flamboyant
+1,flea-infested
+1,flirtatious
+1,florid
+1,foolhardy
+1,foolish
+1,foppish
+1,forbidding
+1,foreign
+1,forgetful
+1,forgiving
+1,foul-smelling
+1,foul-mouthed
+1,fragrant
+1,free-spirited
+1,friendly
+1,frightened
+1,frowning
+1,frustrated
+1,gap-toothed
+1,garrulous
+1,generous
+1,gentle
+1,giddy
+1,giggly
+1,glaring
+1,glum
+1,gluttonous
+1,golden-haired
+1,good-looking
+1,gossipy
+1,gnarled
+1,graceful
+1,grateful
+1,greedy
+1,green-eyed
+1,gregarious
+1,grief-stricken
+1,grim
+1,grubby
+1,gruff
+1,guarded
+1,guilt-ridden
+1,gullible
+1,hale
+1,hairy
+1,happy
+1,hallucinating
+1,hard-hearted
+1,hard-nosed
+1,hardworking
+1,harmless
+1,harried
+1,haughty
+1,haunted
+1,heart-faced
+1,heartbroken
+1,hearty
+1,heavy-set
+1,hedonistic
+1,helpful
+1,hero-worshipping
+1,high-voiced
+1,hollow-eyed
+1,homesick
+1,hopeful
+1,hospitable
+1,hostile
+1,hot-tempered
+1,humble
+1,hung-over
+1,hunchbacked
+1,hungry
+1,husky
+1,hypochondriac
+1,jaded
+1,jaundiced
+1,jealous
+1,jumpy
+1,kind
+1,klutsy
+1,laconic
+1,law-abiding
+1,laughing
+1,lazy
+1,learned
+1,lecherous
+1,limping
+1,lisping
+1,little
+1,little-known
+1,lively
+1,lonely
+1,loud
+1,low-voiced
+1,lovable
+1,lovesick
+1,loyal
+1,lusty
+1,machiavellian
+1,maimed
+1,malevolent
+1,masked
+1,mean-spirited
+1,melancholy
+1,merry
+1,meddlesome
+1,meticulous
+1,middle-aged
+1,milk-eyed
+1,mischievous
+1,miserly
+1,modest
+1,monstrous
+1,moody
+1,morose
+1,mute
+1,mysterious
+1,naive
+1,narrow-minded
+1,nervous
+1,neurotic
+1,nostalgic
+1,nosy
+1,near-sighted
+1,pain-stricken
+1,pampered
+1,passionate
+1,paranoid
+1,patient
+1,patriotic
+1,patronizing
+1,peace-loving
+1,peaceful
+1,perceptive
+1,pessimistic
+1,philosophical
+1,pierced
+1,pining
+1,pious
+1,pitiable
+1,poker-faced
+1,polite
+1,popular
+1,pouting
+1,proud
+1,public-spirited
+1,quick-witted
+1,quiet
+1,rash
+1,rasping
+1,reasonable
+1,rebellious
+1,reclusive
+1,red-haired
+1,refined
+1,relaxed
+1,remorseful
+1,repentant
+1,resentful
+1,reserved
+1,respectable
+1,respected
+1,respectful
+1,restless
+1,roguish
+1,rosy-cheeked
+1,rotund
+1,ruddy
+1,sallow
+1,salty
+1,saucy
+1,sauntering
+1,scheming
+1,scholarly
+1,self-absorbed
+1,self-pitying
+1,self-possessed
+1,selfish
+1,sensitive
+1,shallow
+1,shameless
+1,shapely
+1,shell-shocked
+1,shifty
+1,shivering
+1,short
+1,shrewd
+1,shrewish
+1,shy
+1,sickly
+1,silent
+1,simple-minded
+1,singing
+1,skeletal
+1,skeptical
+1,skillful
+1,sleepy
+1,slim
+1,slouching
+1,slow-witted
+1,slothful
+1,smiling
+1,smirking
+1,smitten
+1,smug
+1,snarling
+1,sneering
+1,sneezing
+1,sociable
+1,soft-hearted
+1,soft-skinned
+1,solemn
+1,sorrowful
+1,sour
+1,sour-faced
+1,sniffling
+1,spiteful
+1,squinting
+1,submissive
+1,sun-bronzed
+1,starving
+1,stern
+1,stiff
+1,stooped
+1,strong-willed
+1,strutting
+1,studious
+1,stuttering
+1,stylish
+1,suffering
+1,sunburned
+1,surly
+1,superstitious
+1,surprised
+1,suspicious
+1,sweating
+1,sweet-talking
+1,sweet-tempered
+1,sympathetic
+1,tactful
+1,tactless
+1,tall
+1,tattooed
+1,tearful
+1,tedious
+1,tense
+1,territorial
+1,terror-stricken
+1,thrifty
+1,ticklish
+1,tidy
+1,tight-lipped
+1,timid
+1,tiny
+1,tongue-tied
+1,tough
+1,trembling
+1,triumphant
+1,trusting
+1,truthful
+1,twitching
+1,tyrannical
+1,tyrannous
+1,vain
+1,veiled
+1,vengeful
+1,violent
+1,vivacious
+1,weak-willed
+1,weary
+1,well-armed
+1,well-fed
+1,well-known
+1,well-mannered
+1,well-muscled
+1,whining
+1,whistling
+1,white-haired
+1,wide-eyed
+1,wiley
+1,witty
+1,wise
+1,world-weary
+1,worried
+1,wounded
+1,wrinkled
+1,xenophobic
+1,young
+1,youthful
+1,absent-minded
+1,accomplished
+1,accusatory
+1,adoring
+1,affectionate
+1,agitated
+1,agreeable
+1,alarmist
+1,alert
+1,amber-eyed
+1,ambitious
+1,amused
+1,angry
+1,angst-ridden
+1,apathetic
+1,apologetic
+1,appreciative
+1,attentive
+1,armored
+1,earnest
+1,easily offended
+1,eccentric
+1,efficient
+1,egotistical
+1,elated
+1,elderly
+1,eloquent
+1,embarrassed
+1,energetic
+1,enraged
+1,ensorcelled
+1,enterprising
+1,envious
+1,even-tempered
+1,exhausted
+1,honourable
+1,idealistic
+1,ignorant
+1,imaginative
+1,impatient
+1,imperious
+1,impudent
+1,incompetent
+1,incorrigible
+1,indecisive
+1,independent
+1,indignant
+1,indulgent
+1,infamous
+1,injured
+1,innocent
+1,inquisitive
+1,insane
+1,intimidating
+1,intoxicated
+1,intrusive
+1,irrational
+1,irresistable
+1,irritable
+1,irreverent
+1,obsequious
+1,olive-skinned
+1,oracular
+1,open-minded
+1,opinionated
+1,optimistic
+1,over-emotional
+1,over-sensitive
+1,ugly
+1,unconventional
+1,unfashionable
+1,unflappable
+1,unfriendly
+1,unhappy
+1,unorthodox
+1,unrefined
+1,unruly
+1,unscrupulous
+1,unsociable
+1,unsuspecting
+1,[Fantasy Character Concept.personality]
+1,[Character Concept of Mu.personality]
+
+;PoorNPC
+1,acrobat
+1,actor
+1,ally
+1,amnesiac
+1,animal trainer
+1,apprentice
+1,artist
+1,assassin
+1,bandit
+1,barmaid
+1,basket maker
+1,beast tamer
+1,beauty
+1,beggar
+1,boy
+1,brawler
+1,bride
+1,child
+1,cobbler
+1,commoner
+1,con artist
+1,condemned man
+1,contortionist
+1,corporal
+1,country bumpkin
+1,cowherd
+1,cripple
+1,crone
+1,dock worker
+1,dogcatcher
+1,driver
+1,druid
+1,drunk
+1,enemy
+1,entertainer
+1,errand boy
+1,escaped convict
+1,escapee
+1,executioner
+1,exorcist
+1,exterminator
+1,farmer
+1,father
+1,ferryman
+1,fisherman
+1,flower seller
+1,foreigner
+1,fortune teller
+1,friend
+1,gatekeeper
+1,girl
+1,goatherd
+1,gossip
+1,grandfather
+1,grandmother
+1,grave robber
+1,gravedigger
+1,gypsy
+1,hedge witch
+1,hermit
+1,hired hand
+1,holy man
+1,hunter
+1,immigrant
+1,indentured servant
+1,invalid
+1,itinerant
+1,kidnapper
+1,laborer
+1,leper
+1,look-alike
+1,lover
+1,madman
+1,madwoman
+1,man
+1,messenger
+1,midget
+1,milkmaid
+1,miner
+1,miracle worker
+1,missionary
+1,morning person
+1,mother
+1,musician
+1,mystic
+1,native
+1,nemesis
+1,night owl
+1,nun
+1,outcast
+1,page
+1,panhandler
+1,passerby
+1,pauper
+1,peasant
+1,peddler
+1,philosopher
+1,pigherd
+1,pilgrim
+1,pirate
+1,poet
+1,potter
+1,prankster
+1,pregnant woman
+1,private
+1,prophet
+1,prostitute
+1,rabble-rouser
+1,rat catcher
+1,rebel
+1,refugee
+1,relative
+1,reveler
+1,rover
+1,runaway
+1,sage
+1,sailor
+1,saint
+1,serial killer
+1,serf
+1,servant
+1,shaman
+1,shepherd
+1,shepherdess
+1,singer
+1,slave
+1,soldier
+1,spy
+1,stableman
+1,stonecutter
+1,storyteller
+1,stranger
+1,student
+1,sucker
+1,supplicant
+1,survivor
+1,swineherd
+1,teacher
+1,thief
+1,tinker
+1,town crier 
+1,townsperson
+1,trespasser
+1,tribesman
+1,troubadour
+1,twin
+1,urchin
+1,vagabond
+1,veteran
+1,village idiot
+1,villager
+1,visitor
+1,washerwoman
+1,widow
+1,widower
+1,woman
+1,woodcutter
+1,zealot
+1,zombie
+
+;MidNPC
+1,accountant
+1,acrobat
+1,advocate (lawyer)
+1,alchemist
+1,alewife
+1,ally
+1,amnesiac
+1,animal trainer
+1,apprentice
+1,archer
+1,architect
+1,artisan
+1,artist
+1,assassin
+1,baker
+1,bandit
+1,barber
+1,bard
+1,barmaid
+1,beast tamer
+1,beauty
+1,beekeeper
+1,bodyguard
+1,boy
+1,brewer
+1,bride
+1,businessman
+1,butcher
+1,butler
+1,captain
+1,caravan leader
+1,carpenter
+1,cartographer
+1,chandler
+1,child
+1,cleric
+1,clerk
+1,cobbler
+1,commoner
+1,composer
+1,con artist
+1,condemned man
+1,constable
+1,contortionist
+1,cook
+1,copyist
+1,courier
+1,court jester
+1,craftsman
+1,cripple
+1,dancer
+1,detective
+1,doctor
+1,druid
+1,enemy
+1,entertainer
+1,executioner
+1,exorcist
+1,expert
+1,explorer
+1,exterminator
+1,farmer
+1,father
+1,fisherman
+1,fishmonger
+1,fletcher
+1,foreigner
+1,fortune hunter
+1,friend
+1,furrier
+1,gambler
+1,gardener
+1,gatekeeper
+1,genius
+1,girl
+1,glassblower
+1,goatherd
+1,gossip
+1,grandfather
+1,grandmother
+1,grave robber
+1,guard
+1,guide
+1,hangman
+1,hatmaker
+1,healer
+1,hedge witch
+1,herbalist
+1,heretic
+1,homesteader
+1,hunter
+1,imposter
+1,innkeeper
+1,intellectual
+1,interpreter
+1,invalid
+1,inventor
+1,jeweler
+1,journeyman
+1,kidnapper
+1,locksmith
+1,look-alike
+1,lover
+1,mage
+1,maid
+1,maidservant
+1,man
+1,master of hounds
+1,matchmaker
+1,mathematician
+1,matriarch
+1,matron
+1,mercenary
+1,messenger
+1,midget
+1,midwife
+1,milkmaid
+1,miller
+1,miracle worker
+1,monk
+1,morning person
+1,mother
+1,musician
+1,mystic
+1,native
+1,navigator
+1,nemesis
+1,night owl
+1,nurse
+1,officer
+1,pacifist
+1,page
+1,painter
+1,passerby
+1,patriarch
+1,peasant
+1,performer
+1,philosopher
+1,pilgrim
+1,pirate
+1,poet
+1,policeman
+1,prankster
+1,pregnant woman
+1,priest
+1,prize-winner
+1,protégé
+1,rebel
+1,recruiter
+1,refugee
+1,relative
+1,reveler
+1,rogue
+1,rover
+1,sage
+1,sailor
+1,saint
+1,scholar
+1,scientist
+1,scribe
+1,seamstress
+1,serial killer
+1,servant
+1,serving wench
+1,shepherd
+1,shepherdess
+1,ship's captain
+1,shoemaker
+1,singer
+1,soldier
+1,spy
+1,stableman
+1,storyteller
+1,stranger
+1,student
+1,sucker
+1,supplicant
+1,survivor
+1,tailor
+1,tanner
+1,tattoo artist
+1,teacher
+1,thief
+1,torturer
+1,tourist
+1,townsperson
+1,toymaker
+1,trader
+1,trapper
+1,traveler
+1,trespasser
+1,troubadour
+1,twin
+1,veteran
+1,villager
+1,vintner
+1,visitor
+1,wastrel
+1,watchman
+1,weaponsmith
+1,weaver
+1,widow
+1,widower
+1,woman
+1,wrestler
+1,zealot
+1,zombie
+
+;RichNPC
+1,administrator
+1,admiral
+1,advisor
+1,aide
+1,alchemist
+1,ally
+1,ambassador
+1,amnesiac
+1,aristocrat
+1,artist
+1,assassin
+1,bandit
+1,banker
+1,baron
+1,baroness
+1,baronet
+1,beauty
+1,belle
+1,boy
+1,bride
+1,bureaucrat
+1,businessman
+1,captain
+1,captain of industry
+1,caravan leader
+1,cartographer
+1,celebrity
+1,chief of police
+1,child
+1,collector
+1,commander
+1,composer
+1,condemned man
+1,counselor
+1,court jester
+1,courtesan
+1,cripple
+1,criminal mastermind
+1,dame
+1,dandy
+1,diplomat
+1,diva
+1,doctor
+1,drug dealer
+1,duchess
+1,duke
+1,emperor
+1,empress
+1,enemy
+1,entertainer
+1,exorcist
+1,explorer
+1,father
+1,foreigner
+1,fortune hunter
+1,friend
+1,gambler
+1,general
+1,genius
+1,girl
+1,gossip
+1,grand dame
+1,grandfather
+1,grandmother
+1,grave robber
+1,guard captain
+1,hedonist
+1,heretic
+1,hero
+1,high official
+1,high priest
+1,imposter
+1,invalid
+1,judge
+1,king
+1,knight
+1,lady
+1,landowner
+1,look-alike
+1,lord
+1,lover
+1,mage
+1,magistrate
+1,man
+1,man of letters
+1,man of many talents
+1,man of skill
+1,marquis
+1,master artisan
+1,master carpenter
+1,master craftsman
+1,master jeweler
+1,master performer
+1,master scribe
+1,master smith
+1,master weaver
+1,matriarch
+1,mayor
+1,mercenary
+1,merchant
+1,midget
+1,miracle worker
+1,moneychanger
+1,money-lender
+1,mother
+1,musician
+1,native
+1,nemesis
+1,noble
+1,nobleman
+1,noblewoman
+1,nurse
+1,pacifist
+1,passenger
+1,passerby
+1,patriarch
+1,philanthropist
+1,philosopher
+1,physic
+1,physician
+1,pilgrim
+1,pirate
+1,poet
+1,politician
+1,pregnant woman
+1,priest
+1,prince
+1,princess
+1,prize-winner
+1,protégé
+1,queen
+1,relative
+1,reveler
+1,rival
+1,ruler
+1,sage
+1,scholar
+1,seductress
+1,serial killer
+1,ship's captain
+1,spice merchant
+1,spy
+1,steward
+1,stranger
+1,sucker
+1,surgeon
+1,thief
+1,tourist
+1,traveler
+1,treasure seeker
+1,twin
+1,userer
+1,veteran
+1,visitor
+1,vizier
+1,wastrel
+1,widow
+1,widower
+1,woman
+1,woman of means
+
+

@@ -1,0 +1,410 @@
+#===Individual Pieces===
+#<sgdisplay iterations="8">[Start]<br/></sgdisplay>
+#
+#===Full Outfits===
+#<sgdisplay iterations="8">[FemaleOutfit]<br/></sgdisplay>
+
+
+;Start
+1,[Masks]
+7,A [UniformFemale]
+35,[FemaleClothing]
+
+;FemaleClothing
+2,A woman's [FemaleUpperSinglePiece]
+2,A woman's [FemaleLower]
+2,A woman's [FemaleFullBody]
+2,A pair of women's [FemaleFootwear]
+2,A woman's [FemaleUpperSinglePiece]
+2,A woman's [FemaleLower]
+2,A woman's [FemaleFullBody]
+2,A pair of women's [FemaleFootwear]
+2,A woman's [FemaleAccessories]
+1,A woman's [FemaleHats]
+
+;FemaleOutfit
+20,She is wearing a [FemaleUpperOutfit], a [FemaleLower], a [FemaleLegwear], and [FemaleFootwear] 
+7,She is wearing a [FemaleFullBody] and [FemaleFootwear]
+3,She is wearing a [UniformFemale]
+
+;MaterialCombosCommon
+20,[MaterialsCommon]
+10,[MaterialsCommon] and [MaterialsCommon]
+3,[MaterialCombosFancy]
+
+;MaterialCombosFancy
+21,[MaterialsFancy]
+10,[MaterialsFancy] and [MaterialsFancy]
+5,[MaterialsFancy] and [MaterialsCommon]
+
+;MaterialCombosLeather
+4,[Utility.LeatherHide]
+2,[Utility.LeatherHide] and [Utility.LeatherHide]
+1,[Utility.LeatherHide] with [Utility.Fur] trim
+
+;MaterialCombosChainmailable
+4,[MaterialsChainmailableCommon]
+2,[MaterialsChainmailableCommon] and [MaterialsFancy]
+2,[MaterialsChainmailableCommon] and [Utility.LeatherHide]
+1,[MaterialsChainmailableCommon] and [MaterialsCommon]
+
+;FemaleUpperSinglePiece
+1,[FemaleUpperLayer1]
+1,[FemaleUpperLayer2]
+
+;FemaleUpperOutfit
+1,[FemaleUpperLayer1] 
+1,[FemaleUpperLayer1] and a woman's [FemaleUpperLayer2]
+
+;FemaleUpperLayer1
+20,corset made of [MaterialCombosChainmailable]
+7,brassiere made of [MaterialCombosChainmailable]
+30,[FemaleShirtType] blouse made of [MaterialCombosFancy]
+25,[FemaleShirtType] shirt made of [MaterialCombosCommon]
+15,[FemaleShirtType] tunic made of [MaterialCombosCommon]
+20,[FemaleShirtType] chemise made of [MaterialCombosCommon]
+6,[FemaleShirtType] top made of [MaterialCombosCommon]
+2,[FemaleShirtType] nightshirt made of [MaterialCombosFancy]
+7,camisole made of [MaterialCombosChainmailable]
+5,bustier made of [MaterialCombosChainmailable]
+5,halter top made of [MaterialCombosChainmailable]
+5,strapless top made of [MaterialCombosChainmailable]
+
+;FemaleUpperLayer2
+15,vest made of [MaterialCombosCommon]
+10,tabard made of [MaterialCombosCommon]
+8,mantle made of [MaterialCombosCommon]
+10,doublet made of [MaterialCombosCommon]
+10,jerkin made of [MaterialCombosLeather]
+5,overtunic made of [MaterialCombosCommon]
+10,coat made of [MaterialCombosCommon]
+5,opencoat made of [MaterialCombosLeather]
+10,jacket made of [MaterialCombosCommon]
+7,girdle made of [MaterialCombosFancy]
+30,bodice made of [MaterialCombosChainmailable]
+
+;FemaleShirtType
+5,[FemaleTopNeckline] [FemaleTopSleeves] [FemaleTopBack]
+1,[FemaleTankTopType]
+
+;FemaleTopNeckline
+5,high-necked
+5,v-necked
+5,low-cut
+3,square-necked
+3,v-necked (with lace-up)
+1,open-front
+2,collared
+1,lapelled
+1,turtlenecked
+1,off the shoulder
+1,revealing
+1,draped-neck
+2,drawstring-necked
+2,scoop-necked
+5,
+
+;FemaleTopSleeves
+10,sleeveless
+5,short-sleeved
+4,long-sleeved
+1,long-sleeved (with cuffs)
+4,half-sleeved
+5,"wizard"-sleeved
+4,"poofy"-sleeved
+
+;FemaleTopBack
+15,
+1,backless
+1,scoop-backed
+1,lace-up backed
+1,tie-back
+1,button-backed
+
+;FemaleTankTopType
+1,strapless
+1,spaghetti-strapped
+1,halter necked
+1,single-shoulder
+1,capelet-sleeved
+
+;FemaleLower
+4,long [FemaleLowerSkirtType] skirt made of [MaterialCombosCommon]
+4,mid-calf length [FemaleLowerSkirtType] skirt made of [MaterialCombosCommon]
+4,knee-length [FemaleLowerSkirtType] skirt made of [MaterialCombosCommon]
+5,kilt made of [ClothingColors] and [ClothingColors] plaid wool
+6,short [FemaleLowerSkirtType] skirt made of [MaterialCombosCommon]
+2,pair of breeches made of [MaterialCombosCommon]
+2,pair of pantaloons made of [MaterialCombosCommon]
+2,pair of culottes made of [MaterialCombosCommon]
+1,barbarian-style loincloth made of [Utility.Fur] fur and [Utility.LeatherHide]
+2,mini [FemaleLowerSkirtType] skirt made of [MaterialCombosCommon]
+
+;FemaleLowerSkirtType
+1,pleated
+1,wrap-type
+1,slitted
+1,plain-front
+1,bell-shaped
+1,frilly
+
+;FemaleLegwear
+1,pair of full-length stockings made of [LegWearColors] silk
+2,pair of thigh-high stockings made of [LegWearColors] silk
+2,pair of knee-high stockings made of [LegWearColors] silk
+1,pair of midcalf-high stockings made of [LegWearColors] silk
+1,pair of full-length tights made of [LegWearColors] wool
+2,pair of thigh-high tights made of [LegWearColors] wool
+2,pair of knee-high socks made of [LegWearColors] wool
+1,pair of midcalf-high socks made of [LegWearColors] wool
+1,pair of full-length tights made of [LegWearColors] cotton
+2,pair of thigh-high tights made of [LegWearColors] cotton
+2,pair of knee-high socks made of [LegWearColors] cotton
+1,pair of midcalf-high socks made of [LegWearColors] cotton
+
+;FemaleFullBody
+10,[FemaleShirtType] knee-length [FemaleLowerSkirtType] dress made of [MaterialCombosCommon]
+15,[FemaleShirtType] short [FemaleLowerSkirtType] dress made of [MaterialCombosCommon]
+15,[FemaleShirtType] mid-calf length [FemaleLowerSkirtType] dress made of [MaterialCombosCommon]
+25,[FemaleShirtType] long [FemaleLowerSkirtType] dress made of [MaterialCombosCommon]
+5,[FemaleShirtType] long hooped dress made of [MaterialCombosFancy]
+5,[FemaleShirtType] formal dress made of [MaterialCombosFancy]
+3,chainmail bikini made of [Utility.MetalDecor] rings with cups of [Utility.MetalDecor], lined with [Utility.LeatherHide] on the inside
+7,[FemaleShirtType] [FemaleLowerSkirtType] gown made of [MaterialCombosFancy]
+3,toga made of [MaterialCombosCommon]
+10,robe made of [MaterialCombosCommon]
+10,hooded robe made of [MaterialCombosCommon]
+3,catsuit made of [MaterialCombosChainmailable]
+
+
+;FemaleFootwear
+5,open-toed sandals made of [MaterialCombosLeather]
+5,close-toed sandals made of [MaterialCombosLeather]
+8,slippers made of [MaterialCombosFancy]
+15,low boots made of [MaterialCombosLeather]
+10,mid-calf boots made of [MaterialCombosLeather]. The boots have [FemaleBootShape] and [FemaleBootsHeel] heels.
+15,knee-high boots made of [MaterialCombosLeather]. The boots have [FemaleBootShape] and [FemaleBootsHeel] heels.
+10,thigh-high boots made of [MaterialCombosLeather]. The boots have [FemaleBootShape] and [FemaleBootsHeel] heels.
+10,hip-high (wading) boots made of [MaterialCombosLeather]. The boots have [FemaleBootShape] and [FemaleBootsHeel] heels.
+10,riding boots made of [MaterialCombosLeather]. The boots have [FemaleBootShape] and low heels with spurs made of [Utility.MetalWeapon].
+1,jester shoes made of [MaterialCombosCommon].
+25,common shoes made of [MaterialCombosLeather].
+
+;FemaleBootsHeel
+5,flat
+7,low
+4,high
+1,stiletto
+1,platform
+3,low, hollow (smuggler's)
+
+;FemaleBootShape
+8,pointed toes
+2,pointed toes capped with [Utility.MetalDecor]
+8,rounded toes
+2,squared toes
+1,"tabi" toes
+
+;FemaleAccessories
+4,spiked collar made of [MaterialCombosLeather] with [Utility.MetalArmor] spikes
+4,gorget made of [MaterialCombosLeather]
+10,cape made of [MaterialCombosCommon]
+5,half-cape made of [MaterialCombosCommon]
+10,belt made of [MaterialCombosLeather]
+7,baldric made of [MaterialCombosFancy]
+10,pair of gloves made of [MaterialCombosFancy] with [Utility.Fur] trim
+5,pair of long gloves made of [MaterialCombosFancy] with [Utility.Fur] trim
+6,sash made of [MaterialCombosFancy]
+2,apron made of [ServantApronMaterial]
+3,purse made of [MaterialCombosLeather]
+2,headband made of [MaterialCombosLeather]
+4,scarf made of [ClothingColors] wool
+
+;FemaleAccessoriesChance
+4,
+2, She is also wearing [FemaleAccessories]
+1, She is also wearing [FemaleAccessories] and a [FemaleAccessories]
+2, She is also wearing [FemaleAccessories] and [Jewelry.Start]
+1, She is also wearing a [Jewelry.JewelryMaterial] [Jewelry.Item] and [Jewelry.Start]
+
+
+;FemaleHatChance
+60,
+20, On her head there is a [FemaleHats].
+1, On her face there is [Masks]
+
+
+;FemaleHats
+8,open hood made of [MaterialsHat]
+8,princess hat made of [MaterialsHat]
+9,bonnet made of [MaterialsHat] and [ClothingColors] lace
+6,lirapipe hat made of [MaterialsHat]
+4,broad-brimmed hat made of [MaterialsHat]
+3,straw hat
+4,beret made of [MaterialsHat]
+6,coif made of [MaterialsHat]
+6,buttoned hood made of [MaterialsHat]
+6,"tailed" hood made of [MaterialsHat]
+6,bordered hood made of [MaterialsHat]
+6,simple hood made of [MaterialsHat]
+1,jester's hat made of [MaterialsHat]
+3,wizard's hat made of [MaterialsHat]
+3,cavalier's hat made of [MaterialsHat]
+2,buccaneer's hat made of [MaterialsHat]
+
+;Masks
+1,A mask depicting a [MaskSubject] made of [Utility.LeatherHide] and intended to cover the [MaskCoverage].
+1,A mask depicting a [MaskSubject] made of [Utility.MetalArmor] and intended to cover the [MaskCoverage].
+
+;MaskSubject
+1,demon
+1,devil
+1,faerie
+1,eagle
+1,moon
+1,leaf-man
+1,leopard
+1,tiger
+1,lion
+1,horse
+1,bull
+1,goat
+1,wolf
+1,bear
+1,simple 
+1,tragedy face
+1,comedy face
+1,illithid
+1,dragon
+1,sun
+4,tribal face
+1,lizardman
+1,satyr
+5,fool
+1,skull
+1,ghost
+
+;MaskCoverage
+2,full head
+8,upper face only
+8,full face
+1,left full face
+1,right full face
+
+;UniformFemale
+10,set of woman's [Vestments]
+15,[ServantUniformFemale]
+1,[MilitaryUniformGeneric] It is cut for a female soldier.
+
+;Vestments
+20,low-level vestments of [GheronUtility.Diety] made with [MaterialsFancy] and [MaterialsFancy].
+5,mid-level vestments of [GheronUtility.Diety] made with [MaterialsFancy] and [MaterialsFancy]. 
+2,high-level vestments of [GheronUtility.Diety] made with [MaterialsFancy] and [MaterialsFancy].
+1,ancient or unusual vestments of [GheronUtility.Diety] made with [MaterialsFancy] and [MaterialsFancy].
+
+
+;ServantUniformFemale
+1,[ServantTypeFemale]'s uniform consisting of a [FemaleFullBody],[ServantUniformFemaleApron] and low boots made of [Utility.LeatherHide].
+1,[ServantTypeFemale]'s uniform consisting of a [FemaleUpperOutfit], a long skirt made of [MaterialCombosCommon],[ServantUniformFemaleApron] and low boots of [Utility.LeatherHide]. The boots have [FemaleBootShape] and [FemaleBootsHeel] heels.
+
+;ServantUniformFemaleApron
+2,
+3, an apron made of [ServantApronMaterial],
+3, a half-apron made of [ServantApronMaterial],
+
+;ServantApronMaterial
+10,[Utility.LightColors] [Utility.ClothFancy]
+5,[Utility.LightColors] [Utility.Cloth]
+2,[Utility.LeatherHide]
+
+;ServantTypeFemale
+3,maid
+1,maidservant
+4,female cook
+2,laundress
+2,washerwoman
+3,governess
+1,ladiesmaid
+1,kitchenmaid
+3,housekeeper
+1,parlour-maid
+1,scullery-maid
+1,nursemaid
+1,chambermaid
+
+;MilitaryUniformGeneric
+5,horseman's dress uniform consisting of [Utility.LeatherHide] riding boots, [Utility.LeatherHide] gauntlets, [ClothingColors] wool breeches lined with [Utility.LeatherHide],[Military Uniform.MilitaryAccessoriesChance] and a tailed jacket made of [ClothingColors] wool with [Color.metallic] braided epaulets and embroidery and buttons of shiny [Utility.MetalDecor].
+5,foot soldier's dress uniform consisting of [Utility.LeatherHide] boots, [ClothingColors] canvas breeches lined with [MaterialsFancy],[Military Uniform.MilitaryAccessoriesChance] and a jacket made of [ClothingColors] wool with [Color.metallic] embroidery and buttons of shiny [Utility.MetalDecor].
+5,guard's dress uniform consisting of [Utility.LeatherHide] boots, [MaterialsCommon] breeches lined with [MaterialsFancy],[Military Uniform.MilitaryAccessoriesChance] and a jacket made of [ClothingColors] wool with [Color.metallic] embroidery and buttons of shiny [Utility.MetalDecor].
+5,pikeman's dress uniform consisting of [Utility.LeatherHide] boots, [MaterialsCommon] breeches lined with [MaterialsFancy],[Military Uniform.MilitaryAccessoriesChance] and a jacket made of [ClothingColors] wool with [Color.metallic] embroidery and buttons of shiny [Utility.MetalDecor].
+1,sapper's uniform consisting of [Utility.LeatherHide] boots, a thick [Utility.LeatherHide] apron, [MaterialsCommon] breeches lined with [MaterialsFancy], and a jacket made of [ClothingColors] wool with [Color.metallic] embroidery and buttons of shiny [Utility.MetalDecor].
+
+;ClothingColors
+4,[Color.dark]
+4,[Color.dull]
+3,[brightadj] [Color.bright]
+2,[Color.light]
+
+;brightadj
+3,
+1,bright
+1,brilliant
+1,intense
+1,vibrant
+1,vivid
+1,muted
+1,faded
+
+;MaterialsCommon
+16,[PatternsColors] [Utility.Cloth]
+1,[PatternsColors] [Utility.ClothFancy]
+1,[Utility.LeatherHide]
+
+;MaterialsFancy
+80,[PatternsColors] [Utility.ClothFancy]
+5,[PatternsColors] [Utility.ClothFancy] with [Utility.Fur] fur trim
+5,[PatternsColors] [Utility.Cloth]
+1,[PatternsColors] [Utility.Cloth] with [Utility.Fur] fur trim
+3,[Utility.LeatherHide]
+1,[Utility.LeatherHide] with [Utility.Fur] fur trim
+8,sheer [ClothingColors] gauze
+8,[ClothingColors] lace
+
+;MaterialsChainmailableCommon
+17,[MaterialsCommon]
+2,[MaterialsCommon] with [Utility.Fur] fur trim
+4,tight [MaterialsCommon]
+4,<b>tight [Utility.LeatherHide]</b>
+2,<b>tight [Utility.LeatherHide] with [Utility.Fur] fur trim</b>
+2,<b>tight [Utility.LeatherHide] with [Utility.MetalArmor] Studs</b>
+3,<b>[Utility.MetalDecor] chainmail over [MaterialsCommon]</b>
+
+;MaterialsHat
+3,[ClothingColors] [Utility.Cloth]
+2,[Utility.LeatherHide]
+1,[Utility.Fur] fur
+1,[ClothingColors] felt
+1,[ClothingColors] [Utility.ClothFancy]
+
+;LegwearColors
+2,[PatternsColors]
+1,black
+1,gray
+1,white
+
+;PatternsColors
+85,[ClothingColors]
+5,checkered [ClothingColors] and [ClothingColors]
+5,lozenged [ClothingColors] and [ClothingColors]
+5,[ClothingColors] and [ClothingColors] plaid
+5,[StripeType]striped [ClothingColors] and [ClothingColors]
+5,ornately embroidered [ClothingColors]
+5,patchwork [ClothingColors] and [ClothingColors]
+2,[ClothingColors] (with [ClothingColors] polka-dots)
+
+;StripeType
+2,thin-
+5,
+2,wide-
+
+

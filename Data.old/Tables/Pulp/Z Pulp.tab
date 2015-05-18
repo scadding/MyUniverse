@@ -1,0 +1,82 @@
+
+;Start
+1,[zPulpHeroNovel]
+
+;zPulpNoun
+1,Zealots
+1,Zebra
+1,Zeitgeist
+1,Zima
+1,Zoo
+1,Zookeepers
+1,Zone
+1,Zucchini
+1,Zulus
+
+;zPulpAdjNegative
+1,Zambia
+1,Zany
+1,Zero
+1,Zilch
+1,Zimbabwe
+1,Zip-Gun
+1,Zippered
+1,Zit-Faced
+1,Zodiac
+1,Zoroastrian
+
+;zPulpAdjPositive
+1,Zaire
+1,Zap-ray
+1,Zealous
+1,Zesty
+1,Zig-Zag
+1,Zinc
+1,Zinger
+1,Zippy
+1,Zirconium
+1,Zulu
+
+;zPulpMaleFirstName
+1,Zach
+1,Zachariah
+1,Zachary
+1,Zain
+1,Zane
+1,Zed
+1,Zeus
+
+;zPulpFemaleFirstName
+1,Zabrina
+1,Zamora
+1,Zatara
+1,Zena
+1,Zirconia
+1,Zuna
+
+;zPulpLastName
+1,Zapata
+1,Zapp
+1,Zappa
+1,Zaxby
+1,Zeno
+1,Zoltan
+1,Zorro
+
+;pulpmiddle
+1,against the
+5,and the
+1,zoinks the
+1,in:
+1,and [zPulpAdjPositive] [zPulpMaleFirstName]'s 
+
+;pulpend
+1,[zPulpAdjNegative] [zPulpNoun]
+
+;zPulpHeroNovel
+10,[zPulpAdjPositive] [zPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[zPulpMaleFirstName] [zPulpLastName] [pulpmiddle] [pulpend]
+3,[zPulpAdjPositive] [zPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[zPulpFemaleFirstName] [zPulpLastName] [pulpmiddle] [pulpend]
+
+

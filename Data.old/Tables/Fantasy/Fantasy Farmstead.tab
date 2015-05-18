@@ -1,0 +1,213 @@
+
+;Start
+1,A [SettlementType] where they [Product]. In addition to [FarmhouseType], there is [SomeOutbuildings].
+
+;SomeOutbuildings
+1,[Outbuildings]
+1,[Outbuildings] and [Outbuildings]
+1,[Outbuildings], [Outbuildings], and [Outbuildings]
+1,[Outbuildings], [Outbuildings], [Outbuildings] and [OtherBuildings]
+
+;SettlementType
+1,borough
+1,farm house
+1,family farm
+1,homestead
+1,large estate
+1,manor house
+1,orchard
+1,ranch
+1,village
+1,vineyard
+2,farm
+2,farmstead
+2,hamlet
+2,plantation
+
+;Product
+1,grow [AgricultureProduct]
+1,grow [AgricultureProduct] and [AgricultureProduct]
+1,raise [AnimalProduct]
+1,raise [AnimalProduct] and [AnimalProduct]
+1,grow [AgricultureProduct] and raise [AnimalProduct]
+
+;AgricultureProduct
+23,[grain]
+3,tobacco
+1,grapes
+2,squash
+7,[Fruits]
+2,cotton
+1,hemp
+3,potatoes
+3,assorted vegetables
+4,[FantasyMenu.Veggies]
+1,hops
+3,[Herbs]
+
+;Fruits
+5,several varieties of fruit, especially [Fruit] and [Fruit]
+3,[Fruit]
+
+;Fruit
+7,apples
+5,pears
+5,black cherries
+5,sour cherries
+4,melons
+8,red grapes
+8,white grapes
+4,peaches
+2,apricots
+3,plums
+2,quinces
+1,coconuts
+1,crabapples
+1,figs
+1,persimmons
+1,pomegranates
+1,tamarind
+30,[Berry]
+6,[Citrus]
+
+;Citrus
+5,oranges
+5,limes
+5,lemons
+2,kumquats
+2,white grapefruits
+4,pink grapefruits
+4,tangerines
+
+;Berry
+1,bilberries
+10,blackberries
+6,blueberries
+7,cranberries
+7,black currants
+7,red currants
+2,dewberries
+4,elderberries
+3,gooseberries
+5,cloudberries
+1,hackberries
+3,huckleberries
+6,lingonberries
+4,mulberries
+10,raspberries
+6,black raspberries
+10,strawberries
+1,whortleberries
+
+;Herbs
+1,several types of herbs such as [Herb] and [Herb]
+1,[Herb]
+
+;Herb
+5,garlic
+2,rosemary
+2,thyme
+1,sage
+2,basil
+1,marjoram
+3,ginger
+1,oregano
+1,bay leaves
+1,spring onions
+1,parsley
+1,coriander
+
+;grain
+6,several varieties of wheat
+3,winter wheat
+6,oats
+6,barley
+3,rye
+1,amaranth
+1,buckwheat
+1,millet
+1,sorghum
+1,quinoa
+1,spelt wheat
+1,long grain rice
+1,short grain rice
+1,several types of rice
+1,wild rice
+
+;AnimalProduct
+4,beef cows
+4,chickens
+4,dairy cows
+2,ducks
+4,geese
+4,goats
+1,hogs
+2,honeybees
+1,horses
+2,pigs
+4,sheep
+1,swine
+2,turkeys
+1,[UnusualAnimalProduct]
+
+;UnusualAnimalProduct
+1,birds as tall as a man
+1,foxes for fur
+1,giant bees for honey
+1,minks and ermines for fur
+1,purebred dogs
+1,rothe in caves
+1,salmon in ponds
+1,songbirds
+1,trout in ponds
+
+;FarmhouseType
+1,a small stone farmhouse
+1,a mottle-and-daub farmhouse with thatched roof
+1,a collection of peasant houses
+1,a two-story manor house
+1,a longhouse that houses several families
+1,a large manor house surrounded by a moat
+
+;Outbuildings
+1,a barn
+1,a cheesemaking cottage
+1,a curing shed
+1,a granary
+1,a gristmill
+3,a kitchen
+1,a livestock enclosure
+1,a mill
+1,a potter's kiln
+1,a root cellar
+1,a servant's house
+1,a small chicken coop
+1,a small kennel
+1,a smokehouse
+1,a stable
+1,a storage shed
+1,a tool shed
+1,a weaver's loom
+1,a woodshed
+3,an outhouse
+3,[OtherBuildings]
+
+;OtherBuildings
+2,a smithy
+2,a chapel for worshipping mainly [Fantasy Pantheon.Start] and [Fantasy Pantheon.Start]
+2,a guesthouse
+1,a fishing pond
+1,a druidic stone circle
+1,an ancestral burial mound
+1,a cemetery
+1,an animal fighting pit
+1,a tinker's cottage
+1,a shrine to [Fantasy Pantheon.Start]
+1,a well-manicured ornamental garden
+1,an extensive vegetable garden
+1,a well-stocked herb garden
+1,a large refuse pile
+1,a large rune-carved menhir
+1,a statue of [Fantasy Male Military Hero.Start]
+
+

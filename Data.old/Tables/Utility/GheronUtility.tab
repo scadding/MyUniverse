@@ -1,0 +1,403 @@
+
+;Start
+1,====Deity====<br>
+_<sgdisplay iterations="5">[Diety]</sgdisplay><br>
+_====Organization====<br>
+_<sgdisplay iterations="5">[Organization]</sgdisplay><br>
+_====Culture====<br>
+_<sgdisplay iterations="5">[Cultures]</sgdisplay><br>
+_====Non-Common Language====<br>
+_<sgdisplay iterations="5">[NonCommonLanguage]</sgdisplay><br>
+
+
+;Diety
+10,Athena
+2,Auril
+5,Azuth
+11,Chauntea
+5,Gond
+5,Helm
+6,Kelemvor
+2,Lolth
+3,Mask
+5,Oghma
+1,the Patient One
+10,Pelor
+9,Selune
+6,Tempus
+6,Thor
+6,Tyr
+3,Valkur
+1,Velsharoon
+1,[FiendLords]
+
+;DietyEvil
+5,[FiendLords]
+1,Auril
+1,the Patient One
+1,Velsharoon
+1,Lolth
+1,Mask
+
+;FiendLords
+1,Graz'zt
+1,Juiblex
+1,Orcus
+1,Yeenoghu
+1,Asmodeus
+1,Baalzebub
+1,Dispater
+1,Levistus
+1,Mammon
+1,Mephistopheles
+
+;DietyDruidic
+1,Auril
+20,Chauntea
+17,Pelor
+15,Selune
+6,Tempus
+10,Thor
+4,Valkur
+
+;DietyPaladin
+30,Athena
+3,Azuth
+9,Chauntea
+35,Helm
+20,Kelemvor
+30,Pelor
+25,Tyr
+
+;DietyNonEvil
+3,Athena
+1,Azuth
+2,Chauntea
+2,Gond
+3,Helm
+2,Kelemvor
+1,Oghma
+3,Pelor
+2,Selune
+2,Tempus
+2,Thor
+2,Tyr
+2,Valkur
+
+;DietyMale
+5,Azuth
+5,Gond
+5,Helm
+6,Kelemvor
+3,Mask
+5,Oghma
+10,Pelor
+6,Tempus
+6,Thor
+6,Tyr
+3,Valkur
+
+;DietyFemale
+10,Athena
+2,Auril
+11,Chauntea
+2,Lolth
+9,Selune
+
+;DietySymbol
+10,Athena (an owl)
+2,Auril (a snowflake)
+5,Azuth (left hand pointing upwards)
+11,Chauntea (a sheaf of grain or an oak leaf)
+5,Gond (a hammer superimposed on an anvil)
+5,Helm (a staring eye on the back of a war gauntlet)
+6,Kelemvor (a skeletal hand grasping scales)
+2,Lolth (an elf-headed spider)
+3,Mask (a twisted mask)
+5,Oghma (a blank scroll)
+1,the Patient One (a mass of writhing tentacles)
+10,Pelor (the sun)
+9,Selune (a half moon)
+6,Tempus (crossed swords or spears)
+6,Thor (a lightning bolt and a hammer)
+6,Tyr (a sword with scales for quillions)
+3,Valkur (a cloud with three lightning bolts on a shield shape)
+1,Velsharoon (a flaming skull)
+
+;Organization
+10,The Builders
+4,Cranford Conservatory of Music
+4,The Chosen (Cult of Graz'zt)
+8,The Faceless (Cult of Juiblex)
+4,The Skulls (Cult of Orcus)
+1,The Beastblessed (Cult of Yeenoghu)
+4,Servants of the Dark Lord (Cult of Asmodeus)
+2,The Baalim (Cult of Baalzebub)
+2,The Iron Fist (Cult of Dispater)
+3,The Bladeravers (Cult of Levistus)
+2,The Covetors (Cult of Mammon)
+3,The Hellfire Stewards (Cult of Mephistopheles)
+5,The Guardians of the Gate
+10,The Hospitalers
+6,The Knights of the Chalice
+6,The League of Explorers
+6,the Order of the Claw
+6,the Order of the Harvest
+8,the Order of the Leaf
+8,the Order of the Moon
+10,the Order of the Sun
+6,the Order of the Tempest
+2,The Pale Brotherhood of Eternal Winter
+2,The Risen
+8,The Schools of Magic
+4,The Submissive Servants of the Radiant Flame
+4,The Thieves Guilds of [Cities]
+8,The Torchbearers
+2,The Whisperers in Darkness
+5,The Workmen
+3,The Men's Brigade
+
+;OrganizationDruidic
+4,the Order of the Claw
+10,the Order of the Harvest
+6,the Order of the Leaf
+7,the Order of the Moon
+8,the Order of the Sun
+4,the Order of the Tempest
+
+;OrganizationGoodMember
+4,Builder
+4,Guardian of the Gate
+4,Hospitaler
+2,Knight of the Chalice
+1,member of the League of Explorers
+1,Servant of the Radiant Flame
+4,Torchbearer
+
+;OrganizationEvil
+
+;OrganizationSymbol
+10,The Builders (a compass and square)
+4,Cranford Conservatory of Music (a lute)
+4,The Chosen (two crescents, one facing up, the other down)
+4,The Faceless (a mass of eyes in an amorphous shape)
+4,The Skulls (a skull)
+1,The Beastblessed (a gnoll head)
+4,Servants of the Dark Lord (a pentagram)
+2,The Baalim (a fly)
+2,The Iron Fist (a clenched fist)
+3,The Bladeravers (a rapier stabbed through a face)
+2,The Covetors (ancient rune for "wealth")
+3,The Hellfire Stewards (a flaming hand)
+5,The Guardians of the Gate (cemetery gates)
+10,The Hospitalers (a cross)
+6,The Knights of the Chalice (a chalice)
+6,The League of Explorers (crossed map and telescope)
+6,the Order of the Claw (a wolf's claw)
+6,the Order of the Harvest (a scythe superimposed on a sheaf of grain)
+8,the Order of the Leaf (a sickle superimposed on an oak leaf or acorn)
+8,the Order of the Moon (a crescent moon)
+10,the Order of the Sun (a "spiky" radiant sun)
+6,the Order of the Tempest (lightning bolt)
+2,The Pale Brotherhood of Eternal Winter (ancient rune for "winter")
+2,The Risen (skull with bat wings)
+8,The Schools of Magic (the symbol of the particular School)
+4,The Submissive Servants of the Radiant Flame (crossed forearms ending in flaming fists)
+4,a theives' guild or gang (various)
+8,The Torchbearers (a burning torch)
+2,The Whisperers in Darkness (mass of writhing tentacles)
+5,The Workmen (hammer in a hexagon)
+3,The Men's Brigade ("spades" symbol)
+
+;OrganizationLessEvil
+50,The Builders
+40,Cranford Conservatory of Music
+6,The Chosen (Cult of Graz'zt)
+5,The Faceless (Cult of Juiblex)
+8,The Skulls (Cult of Orcus)
+4,The Beastblessed (Cult of Yeenoghu)
+8,Servants of the Dark Lord (Cult of Asmodeus)
+5,The Baalim (Cult of Baalzebub)
+5,The Iron Fist (Cult of Dispater)
+5,The Bladeravers (Cult of Levistus)
+5,The Covetors (Cult of Mammon)
+7,The Hellfire Stewards (Cult of Mephistopheles)
+40,The Guardians of the Gate
+50,The Hospitalers
+40,The Knights of the Chalice
+50,The League of Explorers
+40,the Order of the Claw
+60,the Order of the Harvest
+50,the Order of the Leaf
+60,the Order of the Moon
+60,the Order of the Sun
+40,the Order of the Tempest
+8,The Pale Brotherhood of Eternal Winter
+6,The Risen
+50,The Schools of Magic
+30,The Submissive Servants of the Radiant Flame
+10,The Thieves Guilds of [Cities]
+60,The Torchbearers
+8,The Whisperers in Darkness
+50,The Workmen
+30,The Men's Brigade
+
+;Cities
+1,[GheronEastCities]
+1,[FarawayCities]
+1,[Fantasy Town Names.Start]
+
+;GheronEastCities
+50,Bryene
+40,Knighton
+40,Kesteven
+20,Marcheford
+20,Stoweford
+15,Haversham
+16,Loveney
+15,Langeton
+15,Cranford
+15,Higate
+20,Engeham
+
+;FarawayCities
+2,Quom
+2,Swansea
+1,Lisano
+6,[Fantasy Town Names.Start]
+
+;HumanNations
+10,Gheron
+6,Figalia
+3,Melanos
+3,Helanos
+3,Loanza
+5,Arcadia
+5,the Northland
+
+;Cultures
+5,Gheronese
+2,East Gheronese
+2,Central Gheronese
+2,West Gheronese
+2,Desertfolk
+2,Figalian
+2,Northmen
+1,Halfling
+1,High Elven
+1,Wood Elven
+2,Melanosian
+2,Helanosian
+1,Gnomish
+2,Dwarvish
+1,Merfolk
+1,Sahaugin
+1,Orcish
+1,Goblinoid
+1,Drow
+1,Duergar
+1,Illithid
+1,Draconic
+1,Aquatic
+1,Barbarian
+1,Faerie
+1,Fey
+1,Lizardfolk
+1,Yuan-Ti
+1,Sylvan
+4,Arcadian
+
+;CulturesHuman
+10,Gheronese
+3,East Gheronese
+3,Central Gheronese
+3,West Gheronese
+2,Desertfolk
+3,Figalian
+2,Northlander
+3,Melanosian
+3,Helanosian
+5,Barbarian
+2,Dervish
+5,Arcadian
+
+;NonCommonLanguage
+5,Aquatic
+2,Auran
+2,Terran
+5,Undercommon
+2,Illithid
+15,Elvish
+10,Halfling
+3,Gnomish
+4,Druidic
+15,Draconic
+25,Melanosian
+25,Loanzan
+25,Arcadian
+10,Quomish
+10,Desertspeak
+8,Orcish
+4,Goblin
+10,Dwarvish
+15,Northlandic
+25,Figalian
+25,Helanosian
+8,Sylvan
+
+;DefaultLanguage
+1,Common
+
+;HumanLanguagesWritten
+200,Common
+10,Northlander
+10,Arcadian
+15,Figalian
+10,Desertspeak
+4,Quomish
+10,an Unknown Tongue
+10,Helanosian
+7,Loanzan
+3,Old Kestevian
+4,Old Gheronese
+
+;NonHumanLanguagesWritten
+100,[LanguageElvishDialect]
+60,Dwarvish
+25,Halfling
+10,Gnomish
+25,Draconic
+8,Giant
+20,Merfolk
+15,DeepCommon
+8,UnderCommon
+10,Orcish
+2,Goblin
+2,Goblin (Hobgoblin Dialect)
+2,Goblin (Bugbear Dialect)
+3,Gnoll
+1,Kuo-Toa
+1,Illithidrune
+1,Locothah
+3,Sahaugin
+2,Yuan-Ti
+6,Sylvan
+
+;LanguageElvishDialect
+1,High Elvish
+1,Wood Elvish
+1,Wild Elvish
+1,Drow Elvish
+1,Sea Elvish
+
+
+;PlanarLanguages
+20,Celestial
+10,Abyssal
+10,Infernal
+3,Ignan
+5,Terran
+1,Aquatic
+1,Auran
+
+

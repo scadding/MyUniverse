@@ -1,0 +1,123 @@
+
+;Start
+1,[oPulpHeroNovel]
+
+;oPulpNoun
+1,Off-day
+1,Outburst
+1,Offramp
+1,Onramp
+1,Omentum
+1,Oleander
+1,Orthodontist
+1,Oddity
+1,Oddment
+1,Olympics
+1,Ogler
+1,Oncologist
+1,Overpass
+1,Outparcel
+1,Outsourcing
+1,Outplacement
+1,Overcrowding
+1,Ostrich
+1,Octagon
+1,Octopus
+1,Owl
+1,Orchard
+1,Operetta
+1,Ornithologist
+
+;oPulpAdjNegative
+1,Obnoxious
+1,Offensive
+1,Off-color
+1,Odious
+1,Odorous
+1,Obsequious
+1,Overpriced
+1,Overburdened
+1,Onion-eyed
+1,Old-hat
+1,Odoriferous
+1,Oily
+
+;oPulpAdjPositive
+1,Outstanding
+1,Olympian
+1,Overachieving
+1,OK
+1,One-of-a-kind
+1,Orderly
+1,Organized
+1,Original
+1,Operative
+1,Operational
+1,Outflanking
+1,Out-of-this-world
+
+;oPulpMaleFirstName
+1,Orlando
+1,Odin
+1,Oliver
+1,Ollie
+1,Otto
+1,Orson
+1,Orrin
+1,Osiris
+1,Orion
+1,Ogden
+1,Ornette
+1,Oberon
+
+;oPulpFemaleFirstName
+1,Olivia
+1,Oakley
+1,Oona
+1,Olive
+1,Olga
+1,Ottilie
+1,Octavia
+1,Octaviana
+1,Orinda
+1,Orissa
+1,Ouida
+1,Ouisa
+1,Oma
+1,Orlanda
+1,Orly
+1,Orli
+1,Olina
+1,Oceana
+
+;oPulpLastName
+1,Orange
+1,Oklahoma
+1,Oxgoad
+1,Oasis
+1,Outcropping
+1,Overlord
+1,Odyssey
+1,Oregon
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the Origin of the
+1,and the Odyssey of the
+1,in:
+1,overpowers
+1,ousts
+1,versus the
+1,and [oPulpAdjPositive] [oPulpMaleFirstName]'s 
+
+;pulpend
+1,[oPulpAdjNegative] [oPulpNoun]
+
+;oPulpHeroNovel
+10,[oPulpAdjPositive] [oPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[oPulpMaleFirstName] [oPulpLastName] [pulpmiddle] [pulpend]
+10,[oPulpAdjPositive] [oPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[oPulpFemaleFirstName] [oPulpLastName] [pulpmiddle] [pulpend]
+
+

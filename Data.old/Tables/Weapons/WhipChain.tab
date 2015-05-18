@@ -1,0 +1,30 @@
+
+;Start
+5,[Whip]
+1,[Scourge]
+1,[SpikedChain]
+
+;NoDescription
+25,whip
+2,single-stranded scourge
+2,many-stranded scourge
+5,spiked chain
+
+;Whip
+1,[Swords.Quality] whip made of [Utility.LeatherHide].
+
+;Scourge
+10,[Swords.Quality] single-stranded scourge made of [Utility.LeatherHide] and embedded with [ScourgeBits].
+10,[Swords.Quality] multi-stranded scourge (cat o'nine tails) made of [Utility.LeatherHide] and embedded with [ScourgeBits].
+1,[Swords.Quality] scorpion-tail whip with a hilt wrapped in [Swords.SwordHiltWrapping].
+
+;ScourgeBits
+2,shards of glass
+1,bits of [Utility.MetalWeapon]
+1,shards of bone
+1,briars and thorns
+
+;SpikedChain
+1,[Swords.Quality] spiked chain made of [Utility.MetalWeapon].
+
+

@@ -1,0 +1,109 @@
+
+;Start
+1,[iPulpHeroNovel]
+
+;iPulpNoun
+1,Ice Storm
+1,Idiots
+1,Igloos
+1,Imbeciles
+1,Ingrates
+1,Inquisition
+1,Infantry
+1,Interns
+
+;iPulpAdjNegative
+1,Icy
+1,Idiotic
+1,Iffy
+1,Ill
+1,Illegal
+1,Ignorant
+1,Impotent
+1,Improper
+1,Infamous
+1,Inglorious
+1,Inky
+1,Invisible
+1,Invoker
+1,Ironic
+1,Intergalactic
+1,Imperialist
+
+;iPulpAdjPositive
+1,Illinois
+1,Important
+1,Impossible
+1,Incredible
+1,Indian
+1,Indigo
+1,Innocent
+1,Interesting
+1,Invincible
+1,Ion
+1,Iowa
+1,Israeli
+1,Ivory
+
+;iPulpMaleFirstName
+1,Ian
+1,Ibrahim
+1,Icarus
+1,Ichabod
+1,Ignatius
+1,Igor
+1,Ike
+1,Indiana
+1,Ira
+1,Isaac
+1,Isaiah
+1,Ivan
+
+;iPulpFemaleFirstName
+1,Ilene
+1,Imogene
+1,Inga
+1,Ingrid
+1,Iona
+1,Irene
+1,Iris
+1,Irma
+1,Isabel
+1,Isabella
+1,Isadore
+1,Ivana
+1,Ivy
+
+;iPulpLastName
+1,Iceman
+1,Inglebert
+1,Ingram
+1,Injurer
+1,Innis
+1,Inquisitor
+1,Intern
+1,Ironman
+1,Irving
+1,Ishtar
+1,Iverson
+1,Ives
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the Illness of the
+1,and the Internment of the
+1,and the Ingratitude of the
+1,in:
+1,versus the
+
+;pulpend
+1,[iPulpAdjNegative] [iPulpNoun]
+
+;iPulpHeroNovel
+10,[iPulpAdjPositive] [iPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[iPulpMaleFirstName] [iPulpLastName] [pulpmiddle] [pulpend]
+3,[iPulpAdjPositive] [iPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[iPulpFemaleFirstName] [iPulpLastName] [pulpmiddle] [pulpend]
+
+

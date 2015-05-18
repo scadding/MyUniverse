@@ -1,0 +1,456 @@
+
+;Start
+5,[COMMON MALE]
+5,[COMMON FEMALE]
+5,[UNCOMMON MALE]
+5,[UNCOMMON FEMALE]
+5,[STRANGE MALE] [STRANGE SURNAME]
+5,[RARE FEMALE] [STRANGE SURNAME]
+5,[PROFESSION]
+10,[MODERN AMERICAN YOUTH MALE] [American Census Names.surname]
+10,[MODERN AMERICAN YOUTH FEMALE] [American Census Names.surname]
+
+
+
+;COMMON MALE
+1,Shawn McEwen
+1,Billy Nolen
+1,Martin Twomey
+1,Allen Crossley
+1,Ryan Dillman
+1,Terry Collard
+1,Eric Pinkard
+1,Gregory Mangrum
+1,Willie Harkness
+1,Martin Blaylock
+1,Raymond Magnuson
+1,Willie Fontenot
+1,Russell Raphael
+1,Bryan Murdock
+1,Curtis Zander
+1,Stephen Merkel
+1,Ryan Deanda
+1,Joshua Shoemaker
+1,Russell Toner
+1,Jack Oakes
+1,George Van Horn
+5,[American Census Names.male] [American Census Names.surname]
+;COMMON FEMALE
+1,Dora Maxson
+1,Kristi Bynum
+1,Gina Grasso
+1,Thelma Shoemaker
+1,Cathy Addis
+1,Kay Mccrory
+1,Gina Bates
+1,Nicole Reeves
+1,Stella Lattimore
+1,Brandi Forrest
+1,Emma Fredericks
+1,Pamela Pino
+1,Debbie Brodeur
+1,Angela Shockey
+1,Beth Buster
+1,Kayla Brandon
+1,Emily Erdman
+1,Kay Michell
+1,Jenny Hamill
+1,Virginia Roman
+1,Bonnie Watkins
+1,Laura Ross
+1,Katherine Foster
+5,[American Census Names.female] [American Census Names.surname]
+;UNCOMMON MALE
+1,Shon Cosca
+1,Nathanael Bryum
+1,Lindsay Persch
+1,Cedrick Greto
+1,Eldridge Daughetee
+1,Broderick Alfredo
+1,Cristopher Crookston
+1,Ezequiel Haggis
+1,Rey Mcgarraugh
+1,Ellsworth Frankenfeld
+1,Filiberto Lansey
+1,Gaylord Kanjirathinga
+1,Kristofer Daurizio
+1,Tuan Gedris
+1,Gaston Conoly
+1,Wes Dekine
+1,Michal Hoyne
+1,Lynwood Parsh
+1,Lonny Cierley
+1,Kraig Earenfight
+1,Edison Polk
+;UNCOMMON FEMALE
+1,Zorica Ludovica
+1,Signe Nalty
+1,Joselyn Losavio
+1,Fredia Lustberg
+1,Kaylene Ogunyemi
+1,Gulini Gazo
+1,Nga Kuklenski
+1,Wai Minehan
+1,Brittni Frawkin
+1,Dania Araneo
+1,Alysha Leasher
+1,Rebbecca Aceveda
+1,Laticia Hettenhausen
+1,Delana Mesmer
+1,Falha Gruesbeck
+1,Celestina Ahalt
+1,Zita Neddo
+1,Ema Graue
+1,Kimmie-Sue Biddle
+1,Kiesha Bloedel
+1,Velvet Chetelat
+;RARE MALE
+1,Hazari
+1,Suphachad
+1,Laru
+1,Abundie
+1,Dalis
+1,Goncalo
+1,Sovanrithy
+1,Seungyong
+1,Ish
+1,Oryan
+1,Yunlong
+1,Beegie
+1,Wattie
+1,Nattapong
+1,Laksmono
+1,Subhi
+1,Rykeir
+1,Siberio
+1,Sovandara
+1,Nyklus
+;RARE FEMALE
+1,Ralina
+1,Bophary
+1,Lan-Dai
+1,Mridula
+1,Suchin
+1,Shealin
+1,Cynthanie
+1,Saraswathi
+1,Berneatha
+1,Thembisa
+1,Tanta
+1,Nirawan
+1,Sherilin
+1,Chrystee
+1,Toshya
+1,Katheron
+1,Tannette
+1,Ramonda
+1,Samfira
+1,Chantle
+1,Pornwadee
+1,Mathann
+1,Etelani
+1,Lalofau
+1,Kumiyo
+1,Genovela
+1,Quocvan
+1,Wan-Chih
+1,Tersa
+1,Nali
+1,Almaadele
+1,Sora
+1,Xuqiu
+1,Jiae
+1,Zeenab
+1,Jolle
+1,Canada
+1,Nikoletta
+1,Iwona
+1,Shaunene
+1,Teya
+1,Kaelyne
+1,Lavizsia
+1,Loewen
+1,Jeehee
+1,Jonola
+1,Nyleen
+1,Fortina
+1,Nachele
+1,Yan-Ying
+1,Milynne
+1,Ludmela
+1,Merrian
+1,Affanita
+1,Thanhthu
+1,Deolanda
+1,Reyene
+1,Mistymarie
+1,Donisha
+1,Sengchan
+;MODERN AMERICAN YOUTH MALE
+1,Tayshaun
+1,Lance
+1,Zack
+1,Patrick
+1,Gabe
+1,Anthony
+1,Andrew
+1,Cedric
+1,Shelby
+1,Jordan
+1,Will
+1,Jake
+1,Lonney
+1,Jeremey
+1,Steven
+1,Morgan
+1,Nathan
+1,Avery
+1,Farren
+1,Everet
+;MODERN AMERICAN YOUTH FEMALE 
+1,Tiara
+1,Tenile
+1,Kim
+1,Morgan
+1,Shelby
+1,Jordan
+1,Shiori
+1,Brittany
+1,Stephanie
+1,Julie
+1,Jontavia
+1,Allyson
+1,Siera
+1,Nattalie
+1,Winter
+1,Bray
+1,Chelsea
+1,Terra
+1,Kelly
+1,Bobby
+1,Nina
+;STRANGE MALE
+1,Kelley
+1,Vincenzo
+1,Rueben
+1,Lucius
+1,Rolf
+1,Colton
+1,Malik
+1,Gaston
+1,Arlen
+1,Del
+1,Arden
+1,Milan
+1,Ambrose
+1,Chas
+1,Renaldo
+1,Andreas
+1,Darell
+1,Raleigh
+1,Teodoro
+1,Huey
+1,Theo
+1,Darrick
+1,Thanh
+1,Nigel
+1,Augustus
+1,Glanard
+1,Zavier
+1,Cyclone
+1,Trinidad
+1,Mel
+1,Deon
+1,Lyman
+1,Trey
+1,Stanford
+1,Quinn
+1,Jonah
+1,Olen
+1,Newton
+1,Milo
+1,Dario
+1,Brice
+1,Chance
+1,Morton
+
+;STRANGE FEMALE
+1,Malena
+1,Ardelia
+1,Pei
+1,Veronika
+1,Carlita
+1,Candra
+1,Evelynn
+1,Keira
+1,Audria
+1,Jaquelyn
+1,Dakota
+1,Madalene
+1,Rosette
+1,September
+1,Bryanna
+1,Shandi
+1,Jestine
+1,Kallie
+1,Tawna
+1,Basilia
+1,Casimira
+1,Zenia
+1,Marielle
+1,Shin
+1,Tula
+1,Emelina
+1,Venetta
+1,Ardelle
+1,Dede
+1,Storm
+1,Moon
+1,Sirena
+1,Crysta
+1,Kirstie
+1,Layne
+1,Lilli
+1,Maisie
+1,Cammy
+1,Charmain
+1,Tilda
+1,Anja
+
+;STRANGE SURNAME
+1,Clavey
+1,Mitter
+1,Blonigan
+1,Mandler
+1,Borycz
+1,Blochberger
+1,Yanai
+1,Tullison
+1,Pecatoste
+1,Gavula
+1,Phelp
+1,Marsell
+1,Passerino
+1,Simmond
+1,Canatella
+1,Strachman
+1,Guevana
+1,Heroth
+1,Reagey
+1,Cambronne
+1,Seratti
+1,Bawks
+1,Linderleaf
+1,Brunback
+1,Spyrakos
+1,Kruzel
+1,McGlohon
+1,Klitzner
+1,Polton
+1,Fontneau
+1,Shindel
+1,Greenrose
+1,Lazurek
+1,Shefte
+1,Bourlier
+1,Sarnes
+1,Belfast
+1,Vlasak
+1,Hilsgen
+1,Lahne
+
+;PROFESSION
+1,Message Board Administrator 
+1,Product Manager
+1,Clinical Applications Trainer
+1,Grinder
+1,Systems Analyst
+1,Accessibility Coordinator
+1,Financial Consultant
+1,DVD Supervisor
+1,Geotechnical Engineer
+1,Home Economics Teacher
+1,Video Conferencing Engineer
+1,Character Animator
+1,Apartment Manager
+1,Mortician
+1,CAD Operator
+1,Maintenance Mechanic
+1,Machinist
+1,Assembly Line Worker
+1,Mortgage Loan Processor
+1,Bilingual Customer Service Agent
+1,Air Traffic Controller 
+1,Lab Tech
+1,Checker / Teller
+1,Collections and/or Credit Analyst
+1,Display Marketing Representative
+1,Payroll Coordinator
+1,Aerospace Supply Chain Specialist  
+1,Demolitions Crew
+1,Loss Prevention Specialist
+1,Visual Coordinator
+1,Pharmaceutical Representative
+1,Tool and Die Operator 
+1,Tour Guide
+1,Legal File Clerk 
+1,Receptionist
+1,Nuclear P3 Planner
+1,Tax CPA
+1,Substitute Teacher
+1,Barista
+1,Business Skills Teacher
+1,Arcade Attendant
+1,Attendant at Homeless Shelter for own gender
+1,Sheltered Workshop Director
+1,Assistant Internet Researcher
+1,Federal X-Ray Inspector
+1,Vending Route Driver
+1,Upholstery Repair Supervisor 
+1,Pallet Jack Mechanic
+1,Commercial Estimator
+1,Applications Architect
+1,Headhunter
+1,Cowpuncher
+1,Surgical Technician
+1,Dietitian
+1,Remedial Math Teacher
+1,Runaway Shelter Operator
+1,Kayak Tour Guide
+1,Fast Food Worker
+1,Environmental Lobbyist
+1,Nanny
+1,FEMA Reservist
+1,Fortune Teller
+1,Aide to Autistic Adult
+1,Specimen Processing Supervisor
+1,Physical Therapist
+1,Telemarketer 
+1,Chef
+1,Temp
+1,Virtual Assistant
+1,Professional Chess Player
+1,Medical Transcriptionist
+1,Legal Transcriptionist
+1,Focus Group Transcriptionist
+1,Poisonous Snake Milker
+1,Hybrid Car Dealer
+1,HIV Counselor
+1,Charity Fundraiser
+1,Professional Runner
+1,Counter-Terrorist
+1,Recycling Center Worker
+1,Animal Impersonator
+1,Senior Buyer
+1,Martial Arts Instructor
+1,Professional Baby-Sitter
+1,Bus Driver
+1,Staff Subcontracts Manager
+1,Adult Day Care Coordinator
+1,Coin and Paper Money Dealer
+1,Auditor
+1,Editor
+1,Lion Tamer
+1,Sunglass Clip Attacher
+1,Department Manager at Grocery Store
+

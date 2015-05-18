@@ -1,0 +1,236 @@
+
+;Start
+1,<sgdisplay iterations="10">[Disaster] has struck [Location]. [Report].</sgdisplay>
+
+;Disaster
+10,Category [Category] Hurricane [Hurricane]
+1,Flood
+1,Tornado
+2,Tropical Storm [Hurricane]
+1,F1 Tornado
+1,F2 Tornado
+1,F3 Tornado
+1,F4 Tornado
+1,A multiple-tornado storm
+1,A big downburst
+
+;Category
+5,1
+4,2
+3,3
+2,4
+1,5
+
+;Hurricane
+1,Amanda
+1,Jenny
+1,Jessica
+1,Katherine
+1,Kimberly
+1,Megan
+1,Nicole
+1,Alexis
+1,Amber
+1,Amy
+1,Andrea
+1,Angela
+1,Anne
+1,Ashley
+1,Barbara
+1,Brittany
+1,Caitlin
+1,Caroline
+1,Christine
+1,Cindy
+1,Claire
+1,Courtney
+1,Cynthia
+1,Dana
+1,Danielle
+1,Deborah
+1,Denise
+1,Beth
+1,Erica
+1,Erin
+1,Gina
+1,Heather
+1,Jackie
+1,Jamie
+1,Janet
+1,Julie
+1,Karen
+1,Kelly
+1,Kirsten
+1,Kristin
+1,Laura
+1,Lindsay
+1,Lori
+1,Marcy
+1,Margaret
+1,Maria
+1,Mary
+1,Maureen
+1,Melanie
+1,Melissa
+1,Miguela
+1,Monica
+1,Natalie
+1,Nora
+1,Becky
+1,Aaron
+1,Adam
+1,Benjamin
+1,Brad
+1,Brandon
+1,Craig
+1,Doug
+1,Eric
+1,Evan
+1,Gregory
+1,Jacob
+1,Jason
+1,Jeffrey
+1,Jeremy
+1,John
+1,Jonathan
+1,Joey
+1,Joshua
+1,Justin
+1,Kenneth
+1,Kevin
+1,Nathan
+1,Nick
+1,Adrian
+1,Alec
+1,Ali
+1,Angelo
+1,Arthur
+1,Austin
+1,Beau
+1,Bernard
+1,Blake
+1,Boyd
+1,Brendan
+1,Brent
+1,Bruce
+1,Bryce
+1,Byron
+1,Calvin
+1,Cameron
+1,Carlos
+1,Carson
+1,Casey
+1,Chad
+1,Chase
+1,Clay
+1,Clifford
+1,Clint
+1,Cody
+1,Cole
+1,Colin
+1,Connor
+1,Corey
+1,Curtis
+1,Cyrus
+1,Dale
+1,Damian
+1,Darren
+1,Darryl
+1,Derek
+1,Desmond
+1,Devin
+1,Diego
+1,Dominic
+1,Donald
+1,Dustin
+1,Dylan
+1,Edward
+1,Eli
+1,Ethan
+1,Eugene
+1,Fraser
+1,Garth
+1,Gary
+1,Gavin
+1,Glenn
+1,Gordon
+1,Graham
+1,Grant
+1,Harold
+1,Henry
+1,Howard
+1,Hugh
+1,Isaac
+1,Isaiah
+1,Jared
+1,Jay
+1,Jerome
+1,Jesse
+1,Joel
+1,Jordan
+1,Julio
+1,Karl
+1,Kurt
+1,Lance
+1,Lawrence
+1,Lee
+1,Leonard
+1,Logan
+1,Lucas
+1,Luke
+1,Malcolm
+1,Manuel
+1,Marco
+1,Martin
+1,Max
+1,Miles
+
+;Location
+1,Cocoa, Florida
+1,Ocala, Florida
+1,Yulee, Florida
+1,Florence, South Carolina
+1,Escambia County, Florida
+1,Escambia County, Alabama
+1,St. Petersburg, Florida
+1,Bunnell, Florida
+1,Pascagoula, Mississippi
+1,Slidell, Louisiana
+1,the Seven Cities area of Virginia
+1,Gulfport, Mississippi
+1,Brownsville, Texas
+1,Kenedy County (sic!), Texas
+1,Lake Charles, Louisiana
+1,Miami, Florida
+1,Tampa, Florida
+1,Savannah, Georgia
+1,St. Augustine, Florida
+1,Brunswick, Georgia
+1,Mobile, Alabama
+1,Hilton Head Island, South Carolina
+1,Vero Beach, Florida
+1,Fort Pierce, Florida
+1,Nassau County, Florida
+1,Naples, Florida
+1,Inverness, Florida
+1,Gilchrist County, Florida
+
+;Report
+1,Evacuation ordered
+1,Damage estimates are not available
+1,Shelters are packed
+1,The runaway shelter was damaged
+1,No major injuries reported
+1,Two deaths reported
+1,Eighteen buildings report minor damage
+1,Two buildings report major damage
+1,Weather spotters report all quiet
+1,Small plane found wrecked at scene
+1,Only [Category] found with major injuries
+1,A secondary storm is also approaching
+1,Lightning has struck a building and set it on fire
+1,Voluntary evacuation order in force
+1,No deaths reported
+1,Reported [Dice.1d8] killed and [Dice.1d8][Dice.1d8] injured
+
+

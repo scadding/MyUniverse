@@ -1,0 +1,148 @@
+
+;Start
+1,[lPulpHeroNovel]
+
+;lPulpNoun
+1,Labyrinth
+1,Lad
+1,Lady
+1,Lady-Killer
+1,Lagoon
+1,Land
+1,Lair
+1,Lake
+1,Larceny
+1,Lava
+1,Leader
+1,Legion
+1,Libertarians
+1,Libertine
+1,Librarian
+1,Limbo Line
+1,Linebacker
+1,Links
+1,Lions
+1,List
+1,Llama
+1,Loan Shark
+1,Lock
+1,Locomotive
+1,Logo
+1,Loophole
+1,Lounge
+1,Lout
+1,Lothario
+1,Lovers
+1,Lumberjack
+1,Lycanthropes
+
+;lPulpAdjNegative
+1,Laborious
+1,Lamentable
+1,Lascivious
+1,Last
+1,Lazy
+1,Leggy
+1,Lewd
+1,Limp
+1,Limping
+1,Livid
+1,Loathsome
+1,Logheaded
+1,Lonely
+1,Lonesome
+1,Long
+1,Long-limbed
+1,Loony
+1,Loose
+1,Loose Lipped
+1,Lost
+1,Loud
+1,Lousy
+1,Lowbrow
+1,Lunky
+1,Lush
+1,Lusty
+
+;lPulpAdjPositive
+1,Lanky
+1,Large
+1,Lawful
+1,Leaping
+1,Legitimate
+1,Level-headed
+1,Levitating
+1,Lightfooted
+1,Lighthearted
+1,Likeable
+1,Lionhearted
+1,Lively
+1,Locquaicious
+1,Logical
+1,Long-lived
+1,Lovely
+1,Loyal
+2,Lucky
+1,Lunar
+1,Luscious
+
+;lPulpMaleFirstName
+1,Lane
+1,Lefty
+1,Lenny
+1,Leo
+1,Lewis
+1,Liam
+1,Lionel
+1,Lisander
+1,Lou
+1,Louie
+1,Lucas
+1,Luke
+
+;lPulpFemaleFirstName
+1,Lana
+1,Laura
+1,Lena
+1,Leslie
+1,Libby
+1,Lilah
+1,Lisa
+1,Liz
+1,Lizzy
+1,Liza
+1,Lois
+1,Lorelei
+1,Louise
+
+;lPulpLastName
+1,Lane
+1,Laser
+1,Lasher
+1,Latham
+1,Leaper
+1,Lingerer
+1,Lobos
+1,Luger
+1,Lunger
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the Last of the
+1,and the Land of the
+1,and the Lost Link of the
+1,in:
+1,versus the
+1,and [lPulpAdjPositive] [lPulpMaleFirstName]'s 
+
+;pulpend
+1,[lPulpAdjNegative] [lPulpNoun]
+
+;lPulpHeroNovel
+10,[lPulpAdjPositive] [lPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[lPulpMaleFirstName] [lPulpLastName] [pulpmiddle] [pulpend]
+3,[lPulpAdjPositive] [lPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[lPulpFemaleFirstName] [lPulpLastName] [pulpmiddle] [pulpend]
+
+

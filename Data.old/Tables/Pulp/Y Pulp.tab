@@ -1,0 +1,65 @@
+
+;Start
+1,[yPulpHeroNovel]
+
+;yPulpNoun
+1,Yak
+1,Yankees
+1,Yard
+1,Yes-man
+1,Yuppies
+
+;yPulpAdjNegative
+1,Yappy
+1,Yawning
+1,Yesteryear
+1,Yielding
+1,Yuma
+
+;yPulpAdjPositive
+1,Yankee
+1,Yeoman
+1,Yosemite
+1,Young
+1,Yukon
+
+;yPulpMaleFirstName
+1,Yitzhak
+1,Yosef
+1,Yuri
+1,Yusef
+1,Yves
+
+;yPulpFemaleFirstName
+1,Yancey
+1,Ynez
+1,Yoko
+1,Yolanda
+1,Yumiko
+1,Yuriko
+1,Yvette
+1,Yvonne
+
+;yPulpLastName
+1,Yale
+1,Yates
+1,Yikes
+1,York
+1,Young
+
+;pulpmiddle
+1,against the
+5,and the
+1,in:
+1,and [yPulpAdjPositive] [yPulpMaleFirstName]'s 
+
+;pulpend
+1,[yPulpAdjNegative] [yPulpNoun]
+
+;yPulpHeroNovel
+10,[yPulpAdjPositive] [yPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[yPulpMaleFirstName] [yPulpLastName] [pulpmiddle] [pulpend]
+3,[yPulpAdjPositive] [yPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[yPulpFemaleFirstName] [yPulpLastName] [pulpmiddle] [pulpend]
+
+

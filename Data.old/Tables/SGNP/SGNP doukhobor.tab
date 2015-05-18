@@ -1,0 +1,72 @@
+
+;Start
+1,[male] [surname] (male)
+1,[female] [surname] (female)
+
+;male
+1,Arkady (Archie)
+1,Ivan (Ewan)
+1,Gerasim (Harry)
+1,Feodor (Theodore)
+1,Mikhailo (Michael)
+1,Terentii (Terry)
+1,Evstafy (Joeseph)
+1,Prokofy (Frank)
+1,Alexei (Alec)
+1,Vasilii (William)
+1,Vladimir (Walter)
+1,Nikolai (Nicholaus)
+1,Pavel (Paul)
+1,Savely (Stanley)
+1,Danilil (Daniel)
+1,Kirill (Cyril)
+1,Lukian (Lewis)
+1,Filat (Phillip)
+1,Efin (Eugene)
+1,Moisei (Massey)
+
+;female
+1,Uliana (Julie)
+1,Agafia (Hattie)
+1,Serafima (Sarah)
+1,Matrona (Martha)
+1,Pelagea (Polly)
+1,Yakov (Jacob)
+1,Nadezhda (Nadine)
+1,Fedosia (Florence)
+1,Lukeria (Louise)
+1,Aksinya (Maxine)
+1,Larissa (Laura)
+1,Klavdia (Claudia)
+1,Malania (Melanie)
+1,Stepanida (Stephanie)
+1,Arina (Irene)
+1,Elena (Lillian)
+1,Avdotia (Dora)
+1,Praskovia (Pearl)
+1,Tatiana (Tina)
+1,Elizaveta (Elizabeth)
+
+;surname
+1,Verigin
+1,Zeabin
+1,Postnikov
+1,Konkin
+1,Plotnikov
+1,Restantsev
+1,Makhortov
+1,Strelyaev
+1,Popov
+1,Semenov
+1,Anyutushkin
+1,Bozhiy
+1,Markin
+1,Chernov
+1,Chuvil'deev
+1,Gorkov
+1,Kazakov
+1,Stuchnov
+1,Tarasov
+1,Uverenniy
+
+

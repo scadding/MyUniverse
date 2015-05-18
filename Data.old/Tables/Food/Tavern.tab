@@ -1,0 +1,167 @@
+
+;Start
+1,==<sgdisplay iterations="1">[Inn and Tavern Names.Start]</sgdisplay>==<br>
+_<sgdisplay iterations="1">[Fantasy Names.Start], Proprietor</sgdisplay><br>
+_<br>
+_===Drinks===<br>
+_<sgdisplay iterations="1">[DrinksMenu]</sgdisplay><br>
+_<br>
+_===Food===<br>
+_<sgdisplay iterations="1">[FoodMenu]</sgdisplay><br>
+_<br>
+_===Other Services===<br>
+_<sgdisplay iterations="1">[OtherServicesMenu]</sgdisplay><br>
+
+
+;DrinksMenu
+1,<ul><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.DrinkNames] [FantasyDrinks.BeersNAles] Ale</li></ul>
+2,<ul><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.DrinkNames] [FantasyDrinks.BeersNAles] Ale</li></ul>
+3,<ul><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.DrinkNames] [FantasyDrinks.BeersNAles] Ale</li></ul>
+3,<ul><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.DrinkNames] [FantasyDrinks.BeersNAles] Ale</li></ul>
+2,<ul><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.DrinkNames] [FantasyDrinks.BeersNAles] Ale</li></ul>
+1,<ul><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.DrinkNames] [FantasyDrinks.BeersNAles] Ale</li></ul>
+1,<ul><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.Start]</li><li>[FantasyDrinks.DrinkNames] [FantasyDrinks.BeersNAles] Ale</li></ul>
+
+;FoodMenu
+1,<ul><li>[FantasyMenu.Start]</li><li>[FantasyMenu.veggiemain]</li></ul>
+2,<ul><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.veggiemain]</li></ul>
+3,<ul><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.veggiemain]</li></ul>
+3,<ul><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.veggiemain]</li></ul>
+2,<ul><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.veggiemain]</li></ul>
+1,<ul><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.veggiemain]</li></ul>
+1,<ul><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.Start]</li><li>[FantasyMenu.veggiemain]</li></ul>
+
+;OtherServicesMenu
+1,For a small fee, the tavern will provide:[OtherTavernServicesMenu]<br/>[IllegalServicesChance]
+1,Rooms are available here by the day or by the week:[RoomsMenu]<br/>The Inn also has available:[OtherInnServicesMenu]<br/>[IllegalServicesChance]
+1,For a small fee, the tavern will provide:[OtherTavernServicesMenu]<br/>Rooms are available here by the day or by the week:[RoomsMenu]<br/>The Inn also has available:[OtherInnServicesMenu]<br/>[IllegalServicesChance]
+1,Rooms are available here by the day or by the week:[RoomsMenu]<br/>[IllegalServicesChance]
+
+;OtherTavernServicesMenu
+1,<ul><li>[OtherTavernServices]</li></ul>
+2,<ul><li>[OtherTavernServices]</li><li>[OtherTavernServices]</li></ul>
+3,<ul><li>[OtherTavernServices]</li><li>[OtherTavernServices]</li><li>[OtherTavernServices]</li></ul>
+1,<ul><li>[OtherTavernServices]</li><li>[OtherTavernServices]</li><li>[OtherTavernServices]</li><li>[OtherTavernServices]</li></ul>
+
+;OtherTavernServices
+10,Private Room
+3,Musician
+3,Storyteller
+3,Poetry Recitation
+1,Illusionist Storyteller
+3,Bard
+3,Fortune Teller
+3,Messenger Boy
+1,Juggler
+1,Jester
+1,Attractive Company for Dinner
+
+;RoomsMenu
+1,<ul><li>[Rooms]</li></ul>
+2,<ul><li>[Rooms]</li><li>[Rooms]</li></ul>
+3,<ul><li>[Rooms]</li><li>[Rooms]</li><li>[Rooms]</li></ul>
+1,<ul><li>[Rooms]</li><li>[Rooms]</li><li>[Rooms]</li><li>[Rooms]</li></ul>
+
+;Rooms
+50,Common Room
+10,Suite
+10,Suite with Fireplace
+10,Suite with Hot Bath
+25,Private Room
+10,Private Room with Latrine
+5,Suite and Company for the Night
+4,Private Cottage
+30,Bunkroom
+20,Private Room with a View
+10,Suite with a View
+
+;OtherInnServicesMenu
+1,<ul><li>[OtherInnServices]</li></ul>
+2,<ul><li>[OtherInnServices]</li><li>[OtherInnServices]</li></ul>
+3,<ul><li>[OtherInnServices]</li><li>[OtherInnServices]</li><li>[OtherInnServices]</li></ul>
+1,<ul><li>[OtherInnServices]</li><li>[OtherInnServices]</li><li>[OtherInnServices]</li><li>[OtherInnServices]</li></ul>
+
+;OtherInnServices
+20,Horse Grooming
+15,Saddle Polish
+15,Boot Polish
+8,Armor Polish
+7,Gear & Clothing Mending
+7,Errand Boy
+12,Laundry
+3,Masseuse
+7,Hot Bath
+10,Storyteller
+10,Musician
+10,Weapon Sharpening
+5,Wake Up Call
+10,Courier Services
+6,Souvenir Horseshoe 
+
+;IllegalServicesChance
+3, 
+2,If you know who to ask, you may also be able to find:[IllegalServicesMenu]
+1,It's pretty obvious to anyone around that this is the place to find:[IllegalServicesMenu]
+
+
+;IllegalServicesMenu
+10,<ul><li>[IllegalServices]</li></ul>
+6,<ul><li>[IllegalServices]</li><li>[IllegalServices]</li></ul>
+3,<ul><li>[IllegalServices]</li><li>[IllegalServices]</li><li>[IllegalServices]</li></ul>
+1,<ul><li>[IllegalServices]</li><li>[IllegalServices]</li><li>[IllegalServices]</li><li>[IllegalServices]</li></ul>
+1,<ul><li>RAID!  The townwatch has learnt that [IllegalServices]</li></ul>
+
+
+;IllegalServices
+3,Gambling: [Gambling]
+2,Prostitution
+1,Pit-Fighting: [PitFighting]
+1,[Drugs]
+1,Criminal Services: [CriminalServices]
+1,The secret base of [Secret Society Title.SecretSocietyName]
+1,Poisons for sale
+1,Shady Items for sale
+
+;Gambling
+1,Cards: Poker
+1,Cards: Blackjack
+1,Cards: Baccarat
+1,Dice: Craps
+1,Dice: Liar's Dice
+1,Dice: Threes
+1,Roulette
+1,Bingo
+1,Cards: Faro
+1,Backgammon
+1,Wheel of Fortune
+
+;PitFighting
+5,Cockfighting
+5,Dogfighting
+5,Bear-Baiting
+2,Bull-Baiting
+2,Badger-Baiting
+2,Hog-Baiting
+3,Gladiatorial Combat
+2,Female-only Gladiatorial Combat
+5,Monster-Baiting
+
+;Drugs
+1,Drugs: Hallucinogens
+1,Drugs: Magical
+1,Drugs: Psychotropic
+1,Drugs: Stimulants
+1,Drugs: Depressants
+1,Drugs: Barbituates
+
+;CriminalServices
+1,Body Disposal
+3,Stolen Goods Storage
+3,Forgery
+3,Fencing of Stolen Goods
+1,Slave Trade Connections
+3,Thugs for Hire
+1,Assassins for Hire
+3,Burglars for Hire
+
+

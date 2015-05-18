@@ -1,0 +1,133 @@
+
+;Start
+1,[male] (male)
+1,[female] (female)
+
+;male
+8,[male1] [surname]
+8,[male2] [surname]
+1,[male1] [male1] [surname]
+1,[male1] [male2] [surname]
+1,[male2] [male1] [surname]
+1,[male2] [male2] [surname]
+
+;female
+8,[female1] [surname]
+8,[female2] [surname]
+1,[female1] [female1] [surname]
+1,[female1] [female2] [surname]
+1,[female2] [female1] [surname]
+1,[female2] [female2] [surname]
+
+;male1
+1,Magnus
+1,Oliver
+1,Frederik
+1,Emil
+1,Mikkel
+1,Tobias
+1,Nikolaj
+1,Victor
+1,Sebastian
+1,Mads
+1,Christian
+1,Rasmus
+1,Jakob
+1,Jonas
+1,Marcus
+1,Kasper
+1,Andreas
+1,Simon
+1,Lucas
+1,Mathias
+
+;male2
+1,Noah
+1,Nicklas
+1,Lasse
+1,Jeppe
+1,Valdemar
+1,Gustav
+1,William
+1,Alexander
+1,Malthe
+1,Daniel
+1,Benjamin
+1,Philip
+1,Christoffer
+1,Anders
+1,Anton
+1,Jonathan
+1,Carl
+1,Adam
+1,Silas
+1,Marius
+
+;female1
+1,Mathilde
+1,Emma
+1,Laura
+1,Sofie
+1,Freja
+1,Caroline
+1,Ida
+1,Sara
+1,Julie
+1,Anna
+1,Josefine
+1,Maja
+1,Cecilie
+1,Clara
+1,Katrine
+1,Amalie
+1,Victoria
+1,Emilie
+1,Lærke
+1,Signe
+
+;female2
+1,Anne
+1,Jasmin
+1,Nicoline
+1,Frederikke
+1,Mille
+1,Sofia
+1,Camilla
+1,Maria
+1,Alberte
+1,Frida
+1,Marie
+1,Isabella
+1,Nanna
+1,Liva
+1,Louise
+1,Andrea
+1,Thea
+1,Line
+1,Rebecca
+1,Johanne
+1,Tille
+
+;surname
+1,Jensen
+1,Nielsen
+1,Hansen
+1,Pedersen
+1,Andersen
+1,Christensen
+1,Larsen
+1,Sørensen
+1,Rasmussen
+1,Jørgensen
+1,Petersen
+1,Madsen
+1,Kristensen
+1,Olsen
+1,Thomsen
+1,Christiansen
+1,Poulsen
+1,Johansen
+1,Knudsen
+1,Mortensen
+
+

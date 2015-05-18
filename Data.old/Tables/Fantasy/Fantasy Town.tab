@@ -1,0 +1,45 @@
+
+
+;Start
+1,=<sgdisplay iterations="1">[Fantasy Town Names.Start]</sgdisplay>=
+_==Taverns & Inns==
+_<ul>
+_<sgdisplay iterations="6"><li>[Inn and Tavern Names.Start], famous for its 
+_[FantasyMenu.Descriptor][FantasyMenu.MainMeals]</sgdisplay>
+_</ul>
+_
+_==Other Points of Interest in Town==
+_<ul>
+_<sgdisplay iterations="7"><li>[Fantasy Town Feature Description.Start]</sgdisplay>
+_</ul>
+_
+_==Nearby Farms==
+_<ul>
+_<sgdisplay iterations="4"><li>[Fantasy Farmstead.Start]</sgdisplay>
+_</ul>
+_
+_==Points of Interest Nearby==
+_<ul>
+_<sgdisplay iterations="8"><li>[Fantasy Landmarks.Start]</sgdisplay>
+_</ul>
+_
+_==Local Customs==
+_<ul>
+_<sgdisplay iterations="3"><li>"[TownCustomsIntro] [Rituals.eventAny] [Rituals.riteClause]."</sgdisplay>
+_</ul>
+_
+_==Recent News==
+_<ul>
+_<sgdisplay iterations="5"><li>"[Fantasy Town Event.Start]"</sgdisplay>
+_</ul>
+
+
+;TownCustomsIntro
+1,It is the custom in this town
+1,Strangers often find it curious here
+1,One thing you should know: here it is completely normal
+1,This is the only town I know where folks do this, but here it isn't at all unusual 
+1,New in town, eh? Well, don't be surprised
+5,[Rituals.ritualStart]
+
+

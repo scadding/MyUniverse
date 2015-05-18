@@ -1,0 +1,178 @@
+
+<center>
+<TABLE BORDER=2 BORDERCOLOR="BLACK"
+	   CELLPADDING=0 CELLSPACING=0 WIDTH=770 FRAME=VOID RULES=NONE>
+	<TR><TD WIDTH=42%(PRC)s ROWSPAN=2><IMG SRC=%(gimagePath)s></TD>
+		<TH WIDTH=44%(PRC)s ALIGN=LEFT VALIGN=TOP>%(name)s</TH> <TD WIDTH=25%(PRC)s>%(webLink)s<BR>&nbsp;</TD> </TR>
+	<TR><TD>&nbsp;&nbsp;&nbsp;%(age)s-year-old %(sex)s with %(hair)s hair and %(eyes)s eyes,  <BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;standing %(height)s, weighing %(weight)s</TD>
+		<TD>ads: %(adPoints)s &nbsp;&nbsp;&nbsp;disads: %(disadPoints)s<BR>
+		    skills: %(skillPoints)s stats: %(statPoints)s<TD></TR>        
+	<TR><TH>NPC Type: %(className)s</TH><TD><B>Nationality: %(nationality)s  &nbsp;&nbsp;Tech-level: %(tech-level)s  &nbsp;&nbsp;Genre: %(genre)s</B></TD>
+	                                    <TD><B>Total Points: %(totalPoints)s</B></TD></TR>
+</TABLE>
+
+
+<BR>
+<TABLE BORDER=2 BORDERCOLOR="BLACK" BORDERCOLORLIGHT="GRAY" BORDERCOLORDARK="BLACK"
+	   CELLPADDING=0 CELLSPACING=0 WIDTH=770 FRAME=BOX RULES=NONE>
+
+	<TR><TD WIDTH=80%(PRC)s VALIGN=TOP>
+			<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=100%(PRC)s>
+		
+				<!-- STATS and other scores -->
+				<TR><TD WIDTH=46%(PRC)s>
+					<TABLE BORDER=1 BORDERCOLOR="BLACK" BORDERCOLORLIGHT="GRAY" BORDERCOLORDARK="BLACK" RULES=ALL FRAME=BOX
+						   CELLPADDING=2 CELLSPACING=0 WIDTH=100%(PRC)s>
+					 <TR><TD WIDTH=37%(PRC)s><FONT CLASS=stats><B>ST</B> %(strength)s</TD><TD WIDTH=32%(PRC)s><FONT CLASS=attribs>HP: %(hit-points)s</TD> <TD WIDTH=31%(PRC)s>Current:</TD></TR>
+					 <TR><TD VALIGN=TOP><FONT CLASS=stats><B>DX</B> %(dexterity)s</TD>
+						 <TD ROWSPAN=2>Will: %(will)s<BR><BR>
+									   Vision: %(vision)s<BR><BR>
+									   Hearing: %(hearing)s<BR><BR>
+									   Taste/Smell: %(taste-smell)s</TD>
+					     <TD ROWSPAN=2><CENTER><B>Damage</B></CENTER><BR>%(DAMAGESET)s</TD></TR>
+					 <TR><TD VALIGN=TOP><FONT CLASS=stats><B>IQ</B> &nbsp;%(intelligence)s</TD></TR>
+					 <TR><TD ><FONT CLASS=stats><B>HT</B> %(health)s</TD><TD><FONT CLASS=attribs>FP: %(fatigue)s</TD><TD>Current:</TD></TR>
+					 <TR><TD COLSPAN=3 WIDTH=100%(PRC)s></TD></TR>
+					 <TR><TD ><FONT SIZE=+1>Encumbrance<BR></FONT>%(ENCUMBRANCE)s</TD>
+						 <TD ><CENTER><FONT SIZE=+1>Speed<BR>%(speed)s</CENTER></TD>
+						 <TD><CENTER><FONT SIZE=+1>Move<BR></FONT>unencumbered: <FONT SIZE=+1>%(move)s<BR></FONT>encumbered: <FONT SIZE=+1>%(encMove)s</CENTER></TD></TR>
+					 <TR><TH ALIGN=LEFT COLSPAN=3><CENTER>ACTIVE DEFENSES</CENTER></TH></TR>
+					 <TR><TD ALIGN=CENTER><FONT SIZE=+1>Dodge<BR></FONT>unencumbered: <FONT SIZE=+1>%(dodge)s<BR></FONT>encumbered: <FONT SIZE=+1>%(encDodge)s</CENTER></TD>
+						 <TD ALIGN=CENTER><FONT SIZE=+1>Parry<BR></FONT>%(weaponSkill)s: <FONT SIZE=+1>%(weaponParry)s
+																  <BR></FONT>%(parrySkill)s: <FONT SIZE=+1>%(parry)s</TD>
+						 <TD ALIGN=CENTER><FONT SIZE=+1>Block<BR>%(block)s</TD></TR>
+					</TABLE>
+					</TD>
+
+					<!-- NPC Image -->
+					<TD HEIGHT=100%(PRC)s>
+						<TABLE BORDER=1 BORDERCOLOR="BLACK" BORDERCOLORLIGHT="GRAY" BORDERCOLORDARK="BLACK" RULES=NONE FRAME=BOX
+							   CELLPADDING=2 CELLSPACING=0 HEIGHT=100%(PRC)s WIDTH=100%(PRC)s>
+							<TR><TD>
+								<IMG SRC=%(imagePath)s WIDTH="303" HEIGHT="100%(PRC)s" BORDER="0" ALT="NPC Image">
+							</TD></TR>
+						</TABLE>
+					</TD>
+					</TR>
+
+				<!-- Armor -->
+				<TR><TD WIDTH=47%(PRC)s VALIGN=TOP>
+					<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=100%(PRC)s>
+
+					<TR>
+					<TD VALIGN=TOP>
+					<TABLE BORDER=1 BORDERCOLOR="BLACK" BORDERCOLORLIGHT="GRAY" BORDERCOLORDARK="BLACK" FRAME=BOX RULES=COLS
+						   CELLPADDING=2 CELLSPACING=0 WIDTH=100%(PRC)s>
+						<TR><TH WIDTH=44%(PRC)s ALIGN=LEFT><B>Armor</B></TH>
+							<TD WIDTH=5%(PRC)s><B>DB</B></TD>
+							<TD WIDTH=5%(PRC)s><B>DR</B></TD>
+							<TD WIDTH=19%(PRC)s><B>Area</B></TD>
+							<TD WIDTH=12%(PRC)s><B>Weight</B></TD></TR>
+						%(ARMOR)s
+					</TABLE>
+					</TD>
+					</TR>
+
+					<!-- Equipment -->
+					<TR>
+					<TD VALIGN=TOP>
+					<TABLE BORDER=1 BORDERCOLOR="BLACK" BORDERCOLORLIGHT="GRAY" BORDERCOLORDARK="BLACK" FRAME=BOX RULES=COLS
+						   CELLPADDING=2 CELLSPACING=0 WIDTH=100%(PRC)s>
+						<TR><TH WIDTH=41%(PRC)s ALIGN=LEFT><B>Equipment</B></TH>
+							<TD WIDTH=34%(PRC)s><B>Note</B></TD>
+							<TD WIDTH=3%(PRC)s><B>qty</B></TD>
+							<TD WIDTH=12%(PRC)s><B><CENTER>Weight</B><BR>(total)</CENTER></TD></TR>
+						%(EQUIPMENT)s
+						%(EPADDING)s
+					</TABLE>
+					</TD>
+					</TR>
+
+					</TABLE>
+					</TD>
+
+					<!-- Weapons -->
+					<TD VALIGN=TOP>
+					<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=100%(PRC)s>
+
+					<TR>
+					<TD VALIGN=TOP>
+					<TABLE BORDER=1 BORDERCOLOR="BLACK" BORDERCOLORLIGHT="GRAY" BORDERCOLORDARK="BLACK" FRAME=BOX RULES=COLS
+						   CELLPADDING=2 CELLSPACING=0 WIDTH=100%(PRC)s>
+						<TR><TH WIDTH=40%(PRC)s ALIGN=LEFT><B>Weapons</B></TH>
+							<TD WIDTH=25%(PRC)s><B><CENTER>damage</B><BR>thrust, swing</CENTER></TD>
+							<TD WIDTH=2%(PRC)s><B>st</B></TD>
+							<TD WIDTH=2%(PRC)s><B>rch</B></TD>
+							<TD WIDTH=27%(PRC)s><B>note</B></TD></TR>
+						%(WEAPONS)s
+					</TABLE>
+					</TD>
+					</TR>
+
+					<!-- Weapons (ranged) -->
+					<TR>
+					<TD VALIGN=TOP>
+					<TABLE BORDER=1 BORDERCOLOR="BLACK" BORDERCOLORLIGHT="GRAY" BORDERCOLORDARK="BLACK" FRAME=BOX RULES=COLS
+						   CELLPADDING=2 CELLSPACING=0 WIDTH=100%(PRC)s>
+						<TR><TH WIDTH=35%(PRC)s ALIGN=LEFT><B>Weapons (ranged)</B></TH>
+							<TD WIDTH=3%(PRC)s><B>rel</B></TD>
+							<TD WIDTH=20%(PRC)s><B><CENTER>dmg(dv)</CENTER></B></TD>
+							<!-- <TD WIDTH=3%(PRC)s><B>ss</B></TD> -->
+							<TD WIDTH=3%(PRC)s><B>acc</B></TD>
+							<TD WIDTH=3%(PRC)s><B>rof</B></TD>
+							<TD WIDTH=3%(PRC)s><B>shts</B></TD>
+							<TD WIDTH=3%(PRC)s><B>st</B></TD>
+							<TD WIDTH=3%(PRC)s><B>rc</B></TD>
+						%(RANGEDWEAPONS)s
+						%(WPADDING)s
+					</TABLE>
+					</TD>
+					</TR>
+
+					</TABLE>
+					</TD>
+					</TR>
+
+
+
+				<TR>
+					<!-- ADVANTAGES -->
+					<TD WIDTH=50%(PRC)s VALIGN=TOP>
+						<TABLE BORDER=1 BORDERCOLOR="BLACK" BORDERCOLORLIGHT="GRAY" BORDERCOLORDARK="BLACK" FRAME=BOX RULES=ROWS
+							   CELLPADDING=1 CELLSPACING=0 WIDTH=100%(PRC)s>
+							<TR><TH ALIGN=LEFT><B>ADVANTAGES</B></TH><TD ALIGN=RIGHT><B>level</B></TD></TR>
+							%(ADVANTAGES)s
+							%(ADPADDING)s
+						</TABLE>
+					</TD>
+					<!-- DISADVANTAGES -->
+					<TD WIDTH=50%(PRC)s VALIGN=TOP>
+						<TABLE BORDER=1 BORDERCOLOR="BLACK" BORDERCOLORLIGHT="GRAY" BORDERCOLORDARK="BLACK" FRAME=BOX RULES=ROWS
+							   CELLPADDING=1 CELLSPACING=0 WIDTH=100%(PRC)s>
+							<TR><TH ALIGN=LEFT><B>DISADVANTAGES</B></TH><TD ALIGN=RIGHT><B>level</B></TD></TR>
+							%(DISADVANTAGES)s
+							%(QUIRKSET)s
+							%(DISADPADDING)s
+						</TABLE>
+					</TD>
+					</TR>
+
+			</TABLE>
+		</TD>
+	
+		<!-- Skills -->
+		<TD WIDTH=22%(PRC)s VALIGN=TOP>
+			<TABLE BORDER=1 BORDERCOLOR="BLACK" BORDERCOLORLIGHT="GRAY" BORDERCOLORDARK="BLACK" FRAME=BOX RULES=NONE
+				   CELLPADDING=1 CELLSPACING=0 WIDTH=100%(PRC)s>
+				<TR><TH ALIGN=LEFT><B>SKILLS</B></TH><TD ALIGN=RIGHT><B>level</B></TD></TR>
+				%(SKILLS)s
+			</TABLE>
+		</TD>
+	</TR>
+
+</TABLE>
+</center>
+
+<!-- NPC RAW Data, do NOT edit!
+##!!##%(npc)s##!!##
+-->

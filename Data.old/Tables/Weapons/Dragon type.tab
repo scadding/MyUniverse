@@ -1,0 +1,182 @@
+
+
+;Start
+90,[proper]
+1,An illusion of [proper].
+1,The mouldering corpse of once infamous [proper].
+
+;proper
+10,[fullname], a two-headed [dragon] with heads that breathe [breath] and [breath][special].
+50,[fullname], a [dragon] that breathes [breath][special].
+1,[fullname], a ten-headed [dragon] with heads that all breathe [breath][special].
+1,[fullname] and [fullname], a pair of identical dragons. Each is a [dragon] that breathes [breath][special].
+;fullname
+3,[name] the [awful]
+1,[name]
+
+;name
+50,[name1][name2][name3]
+10,[name1][name2][name3] [name1][name2][name3]
+3,[name1][name2][name3][name2][name3]
+
+;name1
+1,Anc
+1,Bar
+1,Bomb
+1,Cam
+1,Dur
+1,Ert
+1,Flash
+1,Flar
+1,Gral
+1,Hagr
+1,Ish
+1,Jab
+1,Krall
+1,Liz
+1,Mad
+1,Nak
+1,Od
+1,Prak
+1,Quex
+1,Rat
+1,Salm
+1,Sm
+1,Tur
+1,Un
+1,Ver
+1,Worm
+1,Xyg
+1,Yzz
+1,Zy
+
+;name2
+12,
+1,ala
+1,ali
+1,ama
+1,ane
+1,au
+1,ei
+1,eli
+1,io
+1,isu
+1,oo
+1,ura
+
+;name3
+1,brash
+1,cur
+1,dur
+1,gar
+1,gor
+1,head
+1,kron
+1,lammer
+1,lash
+1,mite
+1,rack
+1,tesh
+1,trash
+1,yask
+
+;awful
+1,astonishing
+1,awful
+1,bringer of death
+1,conqueror
+1,cunning
+1,dread
+1,feared
+1,fearsome
+1,fierce
+1,gigantic
+1,herald of doom
+1,immense
+1,indestructible
+1,inescapable
+1,infamous
+1,infinite
+1,irredeemable
+1,life taker
+1,mad
+1,mighty
+1,ruin maker
+1,serpent
+1,shameful
+1,shunned
+1,slimy
+1,stinker
+1,swift
+1,terrible
+1,treacherous
+1,undoubted
+1,undoubted
+1,unforgetable
+1,unforgiving
+1,winged terror
+1,worm
+
+;breath
+1,fire
+1,cold
+1,acid
+1,boiling water
+1,poison gas
+1,poison spray
+1,lightning
+
+;dragon
+8,[horned][colour][sex] dragon
+1,striped[horned][colour] and[colour][sex] dragon
+1,[horned][colour][sex] dragon with[colour] spots
+1,[horned][colour][sex] dragon with a[colour] head
+1,[horned][colour][sex] dragon with a[colour] tail
+
+;sex
+9,
+1, female
+
+;sex2
+9,man
+1,woman
+
+;colour
+50, red
+30, green
+30, blue
+20, white
+20, black
+10, grey
+10, gold
+10, silver
+10, copper
+5, orange
+5, purple
+1, invisible
+
+;horned
+5,
+1, horned
+1, spiny
+1, underwater
+
+;special
+1,
+1,, who [specialList]
+1,, who [specialList] and [specialList]
+
+;specialList
+1,has the power of speech
+1,has a spiked tail
+1,has spikes along its back
+1,is covered in slime
+1,has a mighty tail whose strike causes earthquakes
+1,can appear in the guise of a [sex2]
+1,is a mighty sorceror
+1,been alive since the dawn of time
+1,has escaped from the depths of the earth
+1,is ravenously hungry
+1,is cunning beyond measure
+
+

@@ -1,0 +1,1129 @@
+
+;Start
+30,Mumbai, India
+29,Karachi,Pakistan
+28,Delhi, India
+27,Shanghai, China
+26,Moscow, Russia
+25,Seoul, South Korea
+24,Sao Paulo, Brazil
+23,Istanbul, Turkey
+22,Lima, Peru
+21,Ciudad de Mexico, Mexico
+20,Jakarta, Indonesia
+19,Tokyo, Japan
+18,Beijing, China
+17,Bogota, Colombia
+16,Cairo, Egypt
+15,Tehran, Iran
+14,Riyadh, Saudi Arabia
+13,London, England
+12,Bogota, Colombia
+11,Lagos, Nigeria
+10,Baghdad, Iraq
+9,Bangkok, Thailand
+8,Lahore, Pakistan
+7,Dacca, Bangladesh
+6,Rio de Janeiro, Brazil
+5,Bangalore, India
+4,Wuhan, China
+3,Tianjin, China
+2,Canton, China
+1,Toronto, Canada
+1,Jiddah, Saudi Arabia
+1,Abidjan, Cote d'Ivoire
+1,Chongqing, China
+1,Santiago, Chile
+1,Calcutta, India
+1,Singapore, Singapore
+1,Chennai, India
+1,Leningrad, Russia
+1,Shenyang, China
+1,Ahmadabad,  India
+1,Busan, South Korea
+1,Alexandria, Egypt
+1,Hyderabad, India
+1,Ankara, Turkey
+1,P'yongyang, North Korea
+1,Yokohama, Japan
+1,Montreal, Canada
+1,Casablanca, Morocco
+1,Ho Chi Minh City, Vietnam
+1,Berlin, Germany
+1,Nanjing, China
+1,Addis Abeba, Ethiopia
+1,Poona, India
+1,Medellin, Colombia
+1,Kano, Nigeria
+1,Omdurman, Sudan
+1,Surat, India
+1,Madrid, Spain
+1,Sian, China
+1,Kanpur, India
+1,Havana, Cuba
+1,Jaipur, India
+1,Nairobi, Kenya
+1,Harbin, China
+1,Buenos Aires, Argentina
+1,Incheon, South Korea
+1,Surabaya, Indonesia
+1,Kiev, Ukraine
+1,Hangchou, China
+1,Salvador, Brazil
+1,Taipei, Taiwan
+1,Hai Phong, Vietnam
+1,Dar es Salaam, Tanzania
+1,Daegu, South Korea
+1,Bekasi, Indonesia
+1,Chengdu, China
+1,Osaka, Japan
+1,Karaj, Iran
+1,Al-Jizah, Egypt
+1,Ibadan, Nigeria
+1,Izmir, Turkey
+1,Rome, Italy
+1,Faisalabad, Pakistan
+1,Lucknow, India
+1,Cali, Colombia
+1,Quezon City, Philippines
+1,Sana, Yemen
+1,Changchun, China
+1,Cali, Colombia
+1,Cape Town, South Africa
+1,Belo Horizonte, Brazil
+1,Fortaleza, Brazil
+1,Mashhad, Iran
+1,Namp'o, North Korea
+1,Aleppo, Syria
+1,Dairen, China
+1,Nagpur, India
+1,Tashkent, Uzbekistan
+1,Bandung, Indonesia
+1,Nagoya, Japan
+1,Brasilia, Brazil
+1,Jinan, China
+1,Guayaquil, Ecuador
+1,Vancouver, Canada
+1,Chittagong, Bangladesh
+1,Paris, France
+1,Qingdao, China
+1,Durban, South Africa
+1,Baki, Azerbaijan
+1,Taiyuan, China
+1,Medan, Indonesia
+1,Medellin, Colombia
+1,Jiulong, Hong Kong
+1,Agadir, Morocco
+1,Dakar, Senegal
+1,Shijiazhuang, China
+1,de Morelos, Mexico
+1,Zhengzhou, China
+1,Santo Domingo, Dominican Republic
+1,Bucuresti, Romania
+1,Yaounde, Cameroon
+1,Minsk, Belarus
+1,Kaesong, North Korea
+1,Sapporo, Japan
+1,Rabat, Morocco
+1,Douala, Cameroon
+1,Makkah, Saudi Arabia
+1,Indore, India
+1,Caracas, Venezuela
+1,Barranquilla, Colombia
+1,Shangqiu, China
+1,Kunming, China
+1,Maracaibo, Venezuela
+1,Si Racha, Thailand
+1,Hamburg, Germany
+1,Rawalpindi, Pakistan
+1,Al-Khartum, Sudan
+1,Budapest, Hungary
+1,Al-Khartum Bahri, Sudan
+1,Curitiba, Brazil
+1,Zibo, China
+1,Warsaw, Poland
+1,Damascus, Syria
+1,Palembang, Indonesia
+1,Guadalajara, Mexico
+1,Lanzhou, China
+1,Accra, Ghana
+1,Gujranwala, Pakistan
+1,Antananarivo, Madagascar
+1,Patna, India
+1,Bhopal, India
+1,Changsha, China
+1,Tangerang, Indonesia
+1,Manaus, Brazil
+1,Harare, Zimbabwe
+1,Manila, Philippines
+1,Ludhiana, India
+1,Wien, Austria
+1,Suzhou, China
+1,Esfahan, Iran
+1,Semarang, Indonesia
+1,Bamako, Mali
+1,Kaohsiung, Taiwan
+1,Algiers, Algeria
+1,Quito, Ecuador
+1,Kobe, Japan
+1,Thana, India
+1,Daejeon, South Korea
+1,Peshawar, Pakistan
+1,Recife, Brazil
+1,Kharkiv, Ukraine
+1,Depok, Indonesia
+1,Multan, Pakistan
+1,Samut Prakan, Thailand
+1,Kyoto, Japan
+1,Bursa, Turkey
+1,Tijuana, Mexico
+1,Barcelona, Spain
+1,Nanchang, China
+1,Johannesburg, South Africa
+1,Ciudad Juarez, Mexico
+1,Gwangju, South Korea
+1,Novosibirsk, Russia
+1,Caloocan, Philippines
+1,Agra, India
+1,Urumqi, China
+1,Baroda, India
+1,Guiyang, China
+1,Puebla, Mexico
+1,Tabriz, Iran
+1,Santa Cruz, Bolivia
+1,Conakry, Guinea
+1,Belem, Brazil
+1,Barranquilla, Colombia
+1,Fukuoka, Japan
+1,Kuala Lumpur, Malaysia
+1,Kaduna, Nigeria
+1,Wuxi, China
+1,Porto Alegre, Brazil
+1,Santa Cruz, Bolivia
+1,Tangshan, China
+1,Montevideo, Uruguay
+1,Hyderabad, Pakistan
+1,Kampala, Uganda
+1,Valencia, Venezuela
+1,Shenzhen, China
+1,Cordoba, Argentina
+1,Gor'kij, Russia
+1,La Matanza, Argentina
+1,Jekaterinburg, Russia
+1,Jilin, China
+1,Al-Madinah, Saudi Arabia
+1,Fuzhou, China
+1,Nashik, India
+1,Amman, Jordan
+1,Anshan, China
+1,Pimpri-Chinchwad, India
+1,Dubai, United Arab Emirates
+1,Faridabad, India
+1,Ghaziabad, India
+1,Abadan, Iran
+1,Kawasaki, Japan
+1,Kalyan, India
+1,Adana, Turkey
+1,Shiraz, Iran
+1,Hefei, China
+1,Fushun, China
+1,Port-au-Prince, Haiti
+1,Munchen, Germany
+1,Xuzhou, China
+1,Meerut, India
+1,Fez, Morocco
+1,Baotou, China
+1,Milan, Italy
+1,Bogor, Indonesia
+1,Ha Noi, Vietnam
+1,Ujungpandang, Indonesia
+1,Nezahualcayotl, Mexico
+1,Rajkot, India
+1,Ad-Dammam, Saudi Arabia
+1,Guarulhos, Brazil
+1,Alma-Ata, Kazakhstan
+1,Tripoli, Libya
+1,Benares, India
+1,Al-Mawsil, Iraq
+1,Goiania, Brazil
+1,Leon, Mexico
+1,Zapopan, Mexico
+1,Handan, China
+1,Glasgow, Scotland
+1,Kujbyiev, Russia
+1,Prague, Czech Republic
+1,Omsk, Russia
+1,Hiroshima, Japan
+1,Qiqihar, China
+1,Brazzaville, Congo
+1,Luoyang, China
+1,Belgrade, Serbia
+1,Yantai, China
+1,Kazan, Russia
+1,Monterrey, Mexico
+1,Ottawa, Canada
+1,Ulsan, South Korea
+1,Suweon, South Korea
+1,Amritsar, India
+1,Al-Basrah, Iraq
+1,Shantou, China
+1,Nanning, China
+1,Sofia, Bulgaria
+1,Datong, China
+1,Pretoria, South Africa
+1,Cel'abinsk, Russia
+1,Rostov-na-Donu, Russia
+1,Yerevan, Armenia
+1,Soweto, South Africa
+1,Allahabad, India
+1,Maputo, Mozambique
+1,Goyang, South Korea
+1,Visakhpatnam, India
+1,Dnepropetrovsk, Ukraine
+1,Victoria, Hong Kong
+1,Benin City, Nigeria
+1,T'aichung, Taiwan
+1,Ahvaz, Iran
+1,Ufa, Russia
+1,Sendai, Japan
+1,Jabalpur, India
+1,Tbilisi, Georgia
+1,Qom, Iran
+1,Calgary, Canada
+1,Haora, India
+1,Odesa, Ukraine
+1,Aurangabad, India
+1,Seongnam, South Korea
+1,Shubra al-Khaymah, Egypt
+1,Volgograd, Russia
+1,Donetsk, Ukraine
+1,Campinas, Brazil
+1,Gaziantep, Turkey
+1,Sholapur, India
+1,Kitakyushu, Japan
+1,Ouagadougou, Burkina Faso
+1,Perm, Russia
+1,Sao Luis, Brazil
+1,Bucaramanga, Colombia
+1,Cartagena, Colombia
+1,Edmonton, Canada
+1,Koln, Germany
+1,Napoli, Italy
+1,Port Harcourt, Nigeria
+1,Navi Mumbai, India
+1,Marrakech, Morocco
+1,Coimbatore, India
+1,Ranchi, India
+1,Ciudad de Guatemala, Guatemala
+1,Birmingham, England
+1,Tiruchchirappalli, India
+1,Zaozhuang, China
+1,Cartagena, Colombia
+1,Islamabad, Pakistan
+1,Batam, Indonesia
+1,Brisbane, Australia
+1,Chandigarh, India
+1,Bandar Lampung, Indonesia
+1,Ningbo, China
+1,Jodhpur, India
+1,Daqing, China
+1,Managua, Nicaragua
+1,Changzhou, China
+1,Rosario, Argentina
+1,Krasnojarsk, Russia
+1,Huainan, China
+1,Madurai, India
+1,Gauhati, India
+1,Chiba, Japan
+1,Arbil, Iraq
+1,Ulaanbaatar, Mongolia
+1,Cotonou, Benin
+1,Hengyang, China
+1,Hohhot, China
+1,Gwalior, India
+1,Salem, India
+1,Maceio, Brazil
+1,Vijayawada, India
+1,Mysore, India
+1,Saratov, Russia
+1,Liuzhou, China
+1,Khulna, Bangladesh
+1,Barquisimeto, Venezuela
+1,Juarez, Mexico
+1,Padang, Indonesia
+1,Kelang, Malaysia
+1,Voronei, Russia
+1,Konya, Turkey
+1,Maiduguri, Nigeria
+1,Thiruvananthapuram, India
+1,Tanger, Morocco
+1,Bucheon, South Korea
+1,Arequipa, Peru
+1,Zaria, Nigeria
+1,Hubli-Dharwar, India
+1,Benxi, China
+1,Bishkek, Kyrgyzstan
+1,Xiamen, China
+1,Khlong Luang, Thailand
+1,Cicuta, Colombia
+1,Yichang, China
+1,Torino, Italy
+1,Lome, Togo
+1,Duque de Caxias, Brazil
+1,Zaporizhzhya, Ukraine
+1,Bakhtaran, Iran
+1,Quetta, Pakistan
+1,La Paz, Bolivia
+1,Malang, Indonesia
+1,Kathmandau, Nepal
+1,Yichun, China
+1,Davao, Philippines
+1,Weifang, China
+1,Mombasa, Kenya
+1,Niamey, Niger
+1,Zhuhai, China
+1,Jalandhar, India
+1,Mira Bhayandar, India
+1,Tai'an, China
+1,Sakai, Japan
+1,Lodz, Poland
+1,Jixi, China
+1,Antalya, Turkey
+1,Cebu, Philippines
+1,Guadelupe, Mexico
+1,El Alto, Bolivia
+1,Bouaka, Cote d'Ivoire
+1,Marseille, France
+1,Oran, Algeria
+1,Stockholm, Sweden
+1,Bhubaneswar, India
+1,Kota, India
+1,Hims, Syria
+1,Tunis, Tunisia
+1,Nova Iguazu, Brazil
+1,Krakow, Poland
+1,Natal, Brazil
+1,T'ainan, Taiwan
+1,Aligarh, India
+1,Sao Bernardo do Campo, Brazil
+1,Riga, Latvia
+1,Pekanbaru, Indonesia
+1,Ndjamena, Chad
+1,Chihuahua, Mexico
+1,Merida, Mexico
+1,Bareilly, India
+1,Moradabad, India
+1,L'viv, Ukraine
+1,Trujillo, Peru
+1,Acapulco, Mexico
+1,Amsterdam, Netherlands
+1,Tabuk, Saudi Arabia
+1,Cancun, Mexico
+1,Port Elizabeth, South Africa
+1,Pingdingshan, China
+1,Ilorin, Nigeria
+1,Valencia, Spain
+1,Teresina, Brazil
+1,Bangui, Central African Republic
+1,Jinzhou, China
+1,Toljatti, Russia
+1,Linyi, China
+1,Jiangling, China
+1,Hamhung-Hungnam, North Korea
+1,Zhanjiang, China
+1,Campo Grande, Brazil
+1,Zhangjiakou, China
+1,San Luis Potosi, Mexico
+1,Athens, Greece
+1,Nouakchott, Mauritania
+1,Kigali, Rwanda
+1,Ansan, South Korea
+1,Bulawayo, Zimbabwe
+1,Bhiwandi, India
+1,Aguascalientes, Mexico
+1,Baoding, China
+1,Ch'ongjin, North Korea
+1,Fuxin, China
+1,Jos, Nigeria
+1,Ciudad Guayana, Venezuela
+1,Kingston, Jamaica
+1,Kumamoto, Japan
+1,Jerusalem, Israel
+1,Huaibei, China
+1,Mudanjiang, China
+1,Tlalnepantla, Mexico
+1,Zagreb, Croatia
+1,Quebec, Canada
+1,Yangzhou, China
+1,Osasco, Brazil
+1,Aba, Nigeria
+1,Blantyre, Malawi
+1,Ipoh, Malaysia
+1,Hamilton, Canada
+1,Chimalhuacan, Mexico
+1,Sevilla, Spain
+1,Palermo, Italy
+1,As-Sulaymaniyah, Iraq
+1,Xiangfan, China
+1,Xinxiang, China
+1,Gorakhpoor, India
+1,Raipur, India
+1,Winnipeg, Canada
+1,Xining, China
+1,Kryvyy Rih, Ukraine
+1,At-Ta'if, Saudi Arabia
+1,Banghazi, Libya
+1,Saltillo, Mexico
+1,Pereira, Colombia
+1,Santo Andre, Brazil
+1,Chisinau, Moldova
+1,Simbirsk, Russia
+1,Lilongwe, Malawi
+1,Krasnodar, Russia
+1,Yongin, South Korea
+1,Colombo, Sri Lanka
+1,Denpasar, Indonesia
+1,Phnom Penh, Cambodia
+1,Kumasi, Ghana
+1,Rajshahi, Bangladesh
+1,Joao Pessoa, Brazil
+1,Chonju, South Korea
+1,Frankfurt, Germany
+1,Diyarbakir, Turkey
+1,Wroclaw, Poland
+1,Samarinda, Indonesia
+1,Okayama, Japan
+1,Irel, Turkey
+1,Morelia, Mexico
+1,Sagamihara, Japan
+1,General Sarmiento, Argentina
+1,Huangshi, China
+1,Cheongju, South Korea
+1,Hermosillo, Mexico
+1,Shiliguri, India
+1,Pointe-Noire, Congo
+1,Jining, China
+1,Dandong, China
+1,Jiaozuo, China
+1,Wenzhou, China
+1,Tirunelveli, India
+1,Bhilai, India
+1,Tlaquepaque, Mexico
+1,Haikou, China
+1,Khorramshahr, Iran
+1,Zaragoza, Spain
+1,dos Guararapes, Brazil
+1,Jiamusi, China
+1,Glasgow, Scotland
+1,Mexicali, Mexico
+1,Kirkuk, Iraq
+1,Asansol, India
+1,Jaroslavl, Russia
+1,Cagayan de Oro, Philippines
+1,Hegang, China
+1,Anyang, South Korea
+1,Cochin, India
+1,Barnaul, Russia
+1,Amravati, India
+1,Lianyungang, China
+1,Glasgow, United Kingdom
+1,Zhuzhou, China
+1,Nanyang, China
+1,Tagig, Philippines
+1,Kaifeng, China
+1,Lomas de Zamora, Argentina
+1,Hamamatsu, Japan
+1,Rotterdam, Netherlands
+1,Puente Alto, Chile
+1,Vladivostok, Russia
+1,Liaoyang, China
+1,Irkutsk, Russia
+1,Dongying, China
+1,Zhenjiang, China
+1,Ogbomoso, Nigeria
+1,Sangli, India
+1,Tais, Yemen
+1,Cuttack, India
+1,Khamis Mushayt, Saudi Arabia
+1,Anyang, China
+1,Kayseri, Turkey
+1,Stuttgart, Germany
+1,Cochabamba, Bolivia
+1,Yueyang, China
+1,Chabarovsk, Russia
+1,Dortmund, Germany
+1,Genova, Italy
+1,Buraydah, Saudi Arabia
+1,Orumiyeh, Iran
+1,Ciudad Lopez Mateos, Mexico
+1,Abu Dhabi, United Arab Emirates
+1,Essen, Germany
+1,Las Pisas, Philippines
+1,Dushanbe, Tajikistan
+1,Poznan, Poland
+1,Yinchuan, China
+1,Sao Jose dos Campos, Brazil
+1,Zahedan, Iran
+1,Bikaner, India
+1,Sargodha, Pakistan
+1,Contagem, Brazil
+1,Guilin, China
+1,Bengbu, China
+1,Bucaramanga, Colombia
+1,Wuhu, China
+1,Qinhuangdao, China
+1,Bandar Petaling Jaya, Malaysia
+1,Chon Buri, Thailand
+1,San Nicoles de los Garzas, Mexico
+1,Banjarmasin, Indonesia
+1,Dusseldorf, Germany
+1,Valenzuela, Philippines
+1,Ash-Shariqah, United Arab Emirates
+1,Shah Alam, Malaysia
+1,Tuxtla Gutierrez, Mexico
+1,Hachioji, Japan
+1,Helsingfors, Finland
+1,La Plata, Argentina
+1,Chiclayo, Peru
+1,Al-Mubarraz, Saudi Arabia
+1,Xiangtan, China
+1,Mar del Plata, Argentina
+1,Enugu, Nigeria
+1,Pasig, Philippines
+1,Warangal, India
+1,Orenburg, Russia
+1,Rasht, Iran
+1,Bhaunagar, India
+1,Torreon, Mexico
+1,Kagoshima, Japan
+1,Funabashi, Japan
+1,Nantong, China
+1,Vilnius, Lithuania
+1,Libreville, Gabon
+1,Thrissur, India
+1,Novokuzneck, Russia
+1,Hamadan, Iran
+1,Changwon, South Korea
+1,San Miguel , Argentina
+1,Gomel, Belarus
+1,Al-Hudaydah, Yemen
+1,Almirante Brown, Argentina
+1,Asmara, Eritrea
+1,Dehra Dun, India
+1,Sorocaba, Brazil
+1,Yingkou, China
+1,Bremen, Germany
+1,Breznev, Russia
+1,Ribeiro Preto, Brazil
+1,Pancho'iao, Taiwan
+1,Bahawalpur, Pakistan
+1,Kerman, Iran
+1,Bur Sa'id, Egypt
+1,Guntur, India
+1,Quilmes, Argentina
+1,Lisboa, Portugal
+1,T'umen', Russia
+1,R'azan', Russia
+1,Toluca, Mexico
+1,Dukou, China
+1,Mykolayiv, Ukraine
+1,Oslo, Norway
+1,Malaga, Spain
+1,Eskisehir, Turkey
+1,Sialkot, Pakistan
+1,Penza, Russia
+1,Tuen Mun, Hong Kong
+1,Narayanganj, Bangladesh
+1,Durgapur, India
+1,San Salvador, El Salvador
+1,Ajmer, India
+1,Asuncion, Paraguay
+1,Kollam, India
+1,Ulhasnagar, India
+1,Hannover, Germany
+1,Kolhapur, India
+1,Lipeck, Russia
+1,Ananindeua, Brazil
+1,Urawa, Japan
+1,Pohang, South Korea
+1,Bien Hoa, Vietnam
+1,Higashiosaka, Japan
+1,Nanded, India
+1,Oyo, Nigeria
+1,Arak, Iran
+1,Astrachan, Russia
+1,Bhatpara, India
+1,Cuautitlan Izcalli, Mexico
+1,As-Suways, Egypt
+1,Niigata, Japan
+1,Duisburg, Germany
+1,Aden, Yemen
+1,Constantine, Algeria
+1,Copenhagen, Denmark
+1,Pontianak, Indonesia
+1,Bur Sudan, Sudan
+1,Beira, Mozambique
+1,Salta, Argentina
+1,An-Najaf, Iraq
+1,Merlo, Argentina
+1,Warri, Nigeria
+1,Dublin, Ireland
+1,Jamnagar, India
+1,Nyala, Sudan
+1,Tomsk, Russia
+1,Ghazzah, Palestine
+1,Nurnberg, Germany
+1,Gold Coast, Australia
+1,Mariupol', Ukraine
+1,Ciudad de Panama, Panama
+1,Aracaju, Brazil
+1,Machackala, Russia
+1,Himeji, Japan
+1,Gulbarga, India
+1,Abeokuta, Nigeria
+1,Juiz de Fora, Brazil
+1,Kemerovo, Russia
+1,Saharanpur, India
+1,Matsuyama, Japan
+1,Al-Mahallah al-Kubra, Egypt
+1,Jambi, Indonesia
+1,Leipzig, Germany
+1,Armenia, Colombia
+1,Az-Zarqa', Jordan
+1,Onitsha, Nigeria
+1,Durango, Mexico
+1,Surakarta, Indonesia
+1,Cheonan, South Korea
+1,Reynosa, Mexico
+1,Ha'il, Saudi Arabia
+1,Omiya, Japan
+1,Goteborg, Sweden
+1,Tula, Russia
+1,Sanliurfa, Turkey
+1,Sha Tin, Hong Kong
+1,Gaya, India
+1,Santiago, Dominican Republic
+1,Dresden, Germany
+1,Den Haag, Netherlands
+1,Kawaguchi, Japan
+1,Belford Roxo, Brazil
+1,Matsudo, Japan
+1,Shizuoka, Japan
+1,Feira de Santana, Brazil
+1,Balikpapan, Indonesia
+1,Kirov, Russia
+1,Londrina, Brazil
+1,Matola, Mozambique
+1,Edinburgh, Scotland
+1,Luhans'k, Ukraine
+1,Bacolod, Philippines
+1,Joinville, Brazil
+1,Kanazawa, Japan
+1,Gdansk, Poland
+1,Manizales, Colombia
+1,Mangalore, India
+1,Skopje, Macedonia
+1,Ujjain, India
+1,Ceboksary, Russia
+1,Liverpool, England
+1,Oujda, Morocco
+1,Sokoto, Nigeria
+1,Yamoussoukro, Co e d'Ivoire
+1,Lyon, France
+1,Karbala, Iraq
+1,Cilegon - Merak, Indonesia
+1,Ichikawa, Japan
+1,Amagasaki, Japan
+1,London, Canada
+1,Bissau, Guinea-Bissau
+1,Tonala, Mexico
+1,Adygeja, Russia
+1,Utsunomiya, Japan
+1,Da Nang, Vietnam
+1,Veracruz, Mexico
+1,Al-Ladhiqiyah, Syria
+1,Oita, Japan
+1,Mymensingh, Bangladesh
+1,Antwerpen, Belgium
+1,Matamoros, Mexico
+1,Mikum, South Korea
+1,Masan, South Korea
+1,Nishinomiya, Japan
+1,Calicut, India
+1,Leeds, England
+1,Edinburgh, Scotland
+1,Shiheung, South Korea
+1,Gimhae, South Korea
+1,Makati, Philippines
+1,Kaliningrad, Russia
+1,Carrefour, Haiti
+1,Malegaon, India
+1,Kitchener, Canada
+1,Kurashiki, Japan
+1,Br'ansk, Russia
+1,Marikina, Philippines
+1,Muntinglupa, Philippines
+1,Sheffield, England
+1,Yazd, Iran
+1,Ciudad Apodaca, Mexico
+1,Pereira, Colombia
+1,Jalgaon, India
+1,Jalapa Enriquez, Mexico
+1,Okene, Nigeria
+1,Edinburgh, United Kingdom
+1,Belgaum, India
+1,Santa Marta, Colombia
+1,Akola, India
+1,Calabar, Nigeria
+1,Ivanovo, Russia
+1,Manado, Indonesia
+1,Al-Hillah, Iraq
+1,Malatya, Turkey
+1,Kenitra, Morocco
+1,Touba, Senegal
+1,Yokosuka, Japan
+1,Iquitos, Peru
+1,Auckland, New Zealand
+1,Udaipur, India
+1,Cimahi, Indonesia
+1,An-Nasiriyah, Iraq
+1,Bratislava, Slovakia
+1,Sunch'on, North Korea
+1,Namangan, Uzbekistan
+1,Kulti, India
+1,Bristol, England
+1,Macau, Macau
+1,San Juan, Puerto Rico
+1,Magnitogorsk, Russia
+1,Jhansi, India
+1,Bokaro Steel City, India
+1,Aparecida de Goionia, Brazil
+1,Moreno, Argentina
+1,Szczecin, Poland
+1,Al-Mansurah, Egypt
+1,Euijeongbu, South Korea
+1,Kursk, Russia
+1,Johor Baharu, Malaysia
+1,Samsun, Turkey
+1,Santos, Brazil
+1,Nagasaki, Japan
+1,Asyut, Egypt
+1,Chungho, Taiwan
+1,Bacoor, Philippines
+1,Maheshtala, India
+1,Davanagere, India
+1,Kalinin, Russia
+1,Korba, India
+1,General San Martin, Argentina
+1,Hirakata, Japan
+1,Maracay, Venezuela
+1,Nellore, India
+1,Nampula, Mozambique
+1,Karaganda, Kazakhstan
+1,Toulouse, France
+1,Tirupper, India
+1,Tanta, Egypt
+1,Chilung, Taiwan
+1,Hsinchuang, Taiwan
+1,Sinuiju, North Korea
+1,Gifu, Japan
+1,Villahermosa, Mexico
+1,Ardabil, Iran
+1,Al-Ubayyid, Sudan
+1,Al-Butnan, Libya
+1,Iloilo, Philippines
+1,Sukkur, Pakistan
+1,Kisumu, Kenya
+1,Larkana, Pakistan
+1,Bello, Colombia
+1,Tallinn, Estonia
+1,Fujisawa, Japan
+1,Erzurum, Turkey
+1,Concepcion, Chile
+1,Machida, Japan
+1,Bochum, Germany
+1,Yogyakarta, Indonesia
+1,Shekhupura, Pakistan
+1,Al-Hufuf, Saudi Arabia
+1,Hsinchu, Taiwan
+1,Sanch'ung, Taiwan
+1,Manchester, United Kingdom
+1,Manchester, England
+1,Bobo Dioulasso, Burkina Faso
+1,Kassala, Sudan
+1,Fukuyama, Japan
+1,Vila Velha, Brazil
+1,Bujumbura, Burundi
+1,Murcia, Spain
+1,Toyonaka, Japan
+1,Huancayo, Peru
+1,Makiyivka, Ukraine
+1,Noida, India
+1,Pasto, Colombia
+1,Sarajevo, Bosnia and Herzegovina
+1,Annaba, Algeria
+1,Wakayama, Japan
+1,Diadema, Brazil
+1,St. Catharines, Canada
+1,Bhagalpur, India
+1,Santa Fe, Argentina
+1,Panihati, India
+1,Florencio Varela, Argentina
+1,P'yongt'aek, South Korea
+1,Campos dos Goytacazes, Brazil
+1,Bengkulu, Indonesia
+1,Vicebsk, Belarus
+1,Al-'Ayn, United Arab Emirates
+1,Toyohashi, Japan
+1,Tirana, Albania
+1,Ahmadnagar, India
+1,Bydgoszcz, Poland
+1,Manukau, New Zealand
+1,Florianopolis, Brazil
+1,Delmas, Haiti
+1,Gumi, South Korea
+1,Halifax, Canada
+1,Al-Isma'iliyah, Egypt
+1,Tongi, Bangladesh
+1,Cimkent, Kazakhstan
+1,Nara, Japan
+1,Irapuato, Mexico
+1,Cuernavaca, Mexico
+1,Van, Turkey
+1,Olinda, Brazil
+1,T'aoyian, Taiwan
+1,Pietermaritzburg, South Africa
+1,Sao Jose do Rio Preto, Brazil
+1,Jhang Maghiana, Pakistan
+1,Mazatlan, Mexico
+1,Serra, Brazil
+1,Barcelona, Venezuela
+1,Dhule, India
+1,Malabon, Philippines
+1,Betim, Brazil
+1,Udon Thani, Thailand
+1,Christchurch, New Zealand
+1,Adapazari, Turkey
+1,Kaunas, Lithuania
+1,Stavropol', Russia
+1,Ulan-Ude, Russia
+1,Samarkand, Uzbekistan
+1,Nagano, Japan
+1,Caxias do Sul, Brazil
+1,Maturin, Venezuela
+1,Brno, Czech Republic
+1,Tel Aviv-Jaffa, Israel
+1,Vinnytsya, Ukraine
+1,Kahramanmaras, Turkey
+1,Lublin, Poland
+1,Petare, Venezuela
+1,Hama, Syria
+1,Wuppertal, Germany
+1,Iwaki, Japan
+1,Santiago de Cuba, Cuba
+1,Zanjan, Iran
+1,Manizales, Colombia
+1,Turmero, Venezuela
+1,Asahikawa, Japan
+1,Benoni, South Africa
+1,Toyota, Japan
+1,Bologna, Italy
+
+
+
+;WorldCapital
+1,Kabul
+1,Tirana
+1,Algiers
+1,Andorra la Vella
+1,Luanda
+1,St. John's
+1,Buenos Aires
+1,Yerevan
+1,Canberra
+1,Vienna
+1,Baku
+1,Nassau
+1,Manama
+1,Dhaka
+1,Bridgetown
+1,Minsk
+1,Brussels
+1,Belmopan
+1,Porto-Novo
+1,Thimphu
+1,La Paz 
+1,Sarajevo
+1,Gaborone
+1,Brasília
+1,Bandar Seri 
+1,Begawan
+1,Sofia
+1,Ouagadougou
+1,Bujumbura
+1,Phnom Penh
+1,Yaoundé
+1,Ottawa
+1,Praia
+1,Bangui
+1,N'Djamena
+1,Santiago 
+1,Beijing
+1,Taipei
+1,Bogotá
+1,Moroni
+1,Brazzaville
+1,Kinshasa
+1,San José
+1,Yamoussoukro 
+1,Zagreb
+1,Havana
+1,Nicosia
+1,Prague
+1,Copenhagen
+1,Djibouti
+1,Roseau
+1,Santo Domingo
+1,Dili
+1,Quito
+1,Cairo
+1,San Salvador
+1,Malabo
+1,Asmara
+1,Tallinn
+1,Addis Ababa
+1,Suva
+1,Helsinki
+1,Paris
+1,Libreville
+1,Banjul
+1,Tbilisi
+1,Berlin
+1,Accra
+1,Athens
+1,St. George's
+1,Guatemala City
+1,Conakry
+1,Bissau
+1,Georgetown
+1,Port-au-Prince
+1,Vatican City
+1,Tegucigalpa
+1,Budapest
+1,Reykjavík
+1,New Delhi
+1,Jakarta
+1,Tehran
+1,Baghdad
+1,Jerusalem
+1,Rome
+1,Kingston
+1,Tokyo
+1,Amman
+1,Astana
+1,Nairobi
+1,Tarawa
+1,Kuwait City
+1,Bishkek
+1,Vientiane
+1,Riga
+1,Beirut
+1,Maseru
+1,Monrovia
+1,Tripoli
+1,Vaduz
+1,Vilnius
+1,Luxembourg
+1,Skopje
+1,Antananarivo
+1,Lilongwe
+1,Kuala Lumpur 
+1,Malé
+1,Bamako
+1,Valletta
+1,Majuro
+1,Nouakchott
+1,Port Louis
+1,Mexico City
+1,Palikir
+1,Chişinău
+1,Monaco
+1,Ulaanbaatar
+1,Podgorica
+1,Rabat
+1,Maputo
+1,Naypyidaw
+1,Windhoek
+1,Kathmandu
+1,Amsterdam 
+1,Wellington
+1,Managua
+1,Niamey
+1,Abuja
+1,Pyongyang
+1,Oslo
+1,Muscat
+1,Islamabad
+1,Melekeok
+1,Panama City
+1,Port Moresby
+1,Asunción
+1,Lima
+1,Manila
+1,Warsaw
+1,Lisbon
+1,Doha
+1,Dublin
+1,Bucharest
+1,Moscow
+1,Kigali
+1,Basseterre
+1,Castries
+1,Kingstown
+1,Apia
+1,San Marino
+1,São Tomé
+1,Riyadh
+1,Dakar
+1,Belgrade
+1,Victoria
+1,Freetown
+1,Singapore
+1,Bratislava
+1,Ljubljana
+1,Honiara
+1,Mogadishu
+1,Pretoria 
+1,Seoul
+1,Madrid
+1,Colombo 
+1,Khartoum
+1,Paramaribo
+1,Mbabane 
+1,Stockholm
+1,Bern
+1,Damascus
+1,Dushanbe
+1,Dodoma 
+1,Bangkok
+1,Lomé
+1,Nuku'alofa
+1,Port of Spain
+1,Tunis
+1,Ankara
+1,Ashgabat
+1,Funafuti
+1,Kampala
+1,Kiev
+1,Abu Dhabi
+1,London
+1,Montevideo
+1,Tashkent
+1,Port Vila
+1,Caracas
+1,Hanoi
+1,Sanaa
+1,Lusaka
+1,Harare
+
+

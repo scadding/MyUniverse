@@ -1,0 +1,196 @@
+
+;Start
+1,[Fantasy Names.MaleFirstName], [DeityMale]
+1,[DeityRoleMale] [DeityMale]
+1,[Fantasy Names.FemaleFirstName], [DeityFemale]
+1,[DeityRoleFemale], [DeityFemale]
+
+;fulldescription
+5,[Fantasy Names.MaleFirstName], [DeityMale], [AppearancePhrase] [MaleForm]
+1,The [Secret Society Title.NounDescriptor] God, [AppearancePhrase] [MaleForm]
+1,The [Secret Society Title.NounDescriptor] Goddess, [AppearancePhrase] [FemaleForm]
+5,[Fantasy Names.FemaleFirstName], [DeityFemale], [AppearancePhrase] [FemaleForm]
+
+;unnamed
+1,[DeityMale]
+1,[DeityFemale]
+
+;DeityGender
+1,God
+1,Goddess
+
+;DeityMale
+1,the God of [Domains]
+1,the God of [Domains] and [Domains]
+1,the God of [Domains] and [DeityRoleMale]
+1,[DeityRoleMale]
+
+;DeityFemale
+1,the Goddess of [Domains]
+1,the Goddess  of [Domains] and [Domains]
+1,the Goddess of [Domains] and [DeityRoleFemale]
+1,[DeityRoleFemale]
+
+;DeityRoleMale
+10,the [Secret Society Title.NounDescriptor] God
+2,[Secret Society Title.Start]
+2,[DeityRoleEither]
+2,King of [Domains]
+2,Father of [Domains]
+2,Lord of [Domains]
+1,Master of [Domains]
+1,Prince of [Domains]
+1,Father of the Gods
+
+;DeityRoleFemale
+10,the [Secret Society Title.NounDescriptor] Goddess
+1,[DeityRoleEither]
+2,Queen of [Domains]
+2,Mother of [Domains]
+2,Lady of [Domains]
+1,Mistress of [Domains]
+1,Princess of [Domains]
+1,Mother of the Gods
+
+;DeityRoleEither
+1,Judge of the Dead
+1,Herald of the Gods
+1,Messenger of the Gods
+3,Patron of [Fantasy Profession.Start]s
+2,Protector of [Fantasy Profession.Start]s
+
+;Domains
+1,[AbstractPositive]
+1,[AbstractNegative]
+1,[Natural]
+
+;AbstractPositive
+10,[Inscriptions.AbstractNounPositive]
+1,Agriculture
+1,Athletics
+1,Beauty
+1,Commerce
+1,Community
+1,Craftwork
+1,Creation
+1,Creativity
+1,Duty
+1,Exploration
+1,Fate
+1,Fertility
+1,Freedom
+1,Good Fortune
+1,Grace
+1,Invention
+1,Joy
+1,Justice
+1,Knowledge
+1,Love
+1,Loyalty
+1,Luck
+1,Magic
+1,Music
+1,Perseverance
+1,Protection
+1,Renewal
+1,Royalty
+1,Sensuality
+1,Song and Dance
+1,Strength
+1,the Harvest
+1,the Hunt
+1,Travel
+1,Truth
+1,Victory
+1,Wine
+1,Wisdom
+
+;AbstractNegative
+10,[Inscriptions.AbstractNounNegative]
+1,Agony
+1,Battle
+1,Betrayal
+1,Chaos
+1,Cruelty
+1,Darkness
+1,Death
+1,Deception
+1,Destruction
+1,Disease
+1,Fear
+1,Hatred
+1,Hedonism
+1,Intrigue
+1,Lies
+1,Loss
+1,Lost Trails
+1,Mischief
+1,Misfortune
+1,Murder
+1,Pestilence
+1,Revenge
+1,Secrets
+1,Shadows
+1,Spiders
+1,Strife
+1,Suffering
+1,the Dead
+1,the Deep Places
+1,Thieves
+1,Torment
+1,Tyranny
+1,War
+
+;Natural
+4,[Elements.basicCap]
+3,[Utility.TerrainsCap]s
+1,Autumn
+1,Beasts
+1,Cats
+1,Caverns
+1,Cliffs
+1,Earthquakes
+1,Fire
+1,Horses
+1,Lakes and Rivers
+1,Oceans
+1,Springtime
+1,Storms
+1,Summertime
+1,the Cold
+1,the Dawn
+1,the Day
+1,the Deep
+1,the Earth
+1,the Moon
+1,the Night
+1,the Rains
+1,the Sea
+1,the Sky
+1,the Stars
+1,the Sun
+1,the Wild Places
+1,the Winds
+1,Thunder
+1,Volcanoes
+1,Wintertime
+1,Woodlands
+
+;AppearancePhrase
+1,who appears as
+1,most often depicted as
+1,who visits in visions as
+1,having the form of
+1,seen in dreams as
+1,visible to mortals only as
+
+;MaleForm
+3,[SpiritForm.HumanFormMainMale]
+1,[SpiritForm.AnimalFormMain]
+
+;FemaleForm
+3,[SpiritForm.HumanFormMainFemale]
+1,[SpiritForm.AnimalFormMain]
+
+
+

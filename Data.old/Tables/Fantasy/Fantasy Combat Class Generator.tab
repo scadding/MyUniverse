@@ -1,0 +1,320 @@
+
+;Start
+1,'''Name:''' [combatclass], [combatclass], [combatclass]<br />'''Class Themes:''' [themes], [themes]<br />'''Key Abilities:''' [combatability], [combatability]<br />'''Weapons:''' [combatweapons]<br />'''Armor:''' [combatarmor][combatshield]<br />'''Hit Dice:''' [combathitdice]<br />
+
+;combatclass
+10,{{ucfirst: [pre]}}[combatant]
+1,{{ucfirst: [combatant]}}
+3,{{ucfirst: [pre][pre] [combatant]}}
+
+;combatability
+3,Strength
+3,Dexterity
+3,Constitution
+1,Intelligence
+1,Wisdom
+1,Charisma
+
+;combatant
+1,fighter
+1,blade
+1,knight
+1, Cultist
+1,hunter
+1,rager
+1, Ranger
+1, Paladin
+1, Templar
+1, Warlord
+1, Barbarian
+1, Tribesman
+1, Soldier
+1, Striker
+
+;pre
+4,[element]
+4,[concept]
+3,[material]
+3,[object]
+3,[color]
+2,[place]
+2,[beast]
+
+;element
+1,void
+1,lunar
+1,solar
+1,mind
+1,shadow
+1,rune
+1,ice
+1,flame
+1,spirit
+1,frost
+1,earth
+1,wind
+1,air
+1,fire
+1,dust
+1,stone
+1,umbral
+1,sonic
+1,force
+1,radiance
+1,lightning
+1,storm
+1,mirror
+1,ooze
+1,salt
+1,steam
+1,smoke
+1,soul
+
+;color
+1,red
+1,blue
+1,white
+1,black
+1,grey
+1,yellow
+1,green
+1,purple
+
+;concept
+1,battle
+1,war
+1,doom
+1,bane
+1,life
+1,moon
+1,star
+1,night
+1,rage
+1,sun
+1,shadow
+1,storm
+1,heart
+
+;object
+1,bone
+1,blood
+1,axe
+1,spear
+1,wand
+1,coin
+1,gem
+1,shield
+1,sapphire
+1,ruby
+
+;place
+1,astral
+1,ethereal
+1,forest
+1,sea
+1,mountain
+1,marsh
+1,desert
+1,cave
+
+;beast
+1,boar
+1,beast
+1,ape
+1,worm
+1,cat
+1,beetle
+1,serpent
+1,lion
+1,tiger
+1,spider
+1,hound
+1,bear
+1,wolf
+1,rat
+1,snake
+1,wasp
+1,dragon
+1,goblin
+1,hawk
+
+;material
+1,steel
+1,bone
+1,wood
+1,brass
+1,iron
+1,stone
+1,fire
+1,silver
+1,lava
+1,dust
+1,bronze
+1,copper
+1,oak
+1,ash
+1,ivory
+1,mithril
+1,crystal
+1,glass
+1,ice
+1,horn
+1,frost
+1,scale
+1,obsidian
+
+;themes
+1,Arcane
+1,Cunning
+1,Divine
+1,Influence
+1,Martial
+1,Mundane
+1,Nature
+1,Urban
+1,Artifacts
+1,Chaos
+1,Feudal
+1,Law
+1,Light
+1,Lore
+1,Primal
+1,Shadow
+1,Psionic
+1,Runic
+1,Ki
+1,Occult
+1,Fey
+1,Elemental
+1,Fiendish
+1,Angelic
+
+;combatweapons
+6,[broadgroups]
+1,[martialweapons], [martialweapons]
+3,[martialweapons], [martialweapons], [martialweapons]
+
+;broadgroups
+6,all weapons
+2,blunt weapons
+2,light weapons
+
+;martialweapons
+2,axes
+4,daggers
+4,swords
+3,clubs, maces
+2,flails
+4,spear
+2,polearms
+1,[exoticweapons]
+5,[rangeweapons]
+
+;rangeweapons
+1,javelin
+1,sling
+3,bows
+2,crossbows
+
+;exoticweapons
+1,two-handed weapon
+1,whip
+1,net
+2,unarmed attack
+
+;combatarmor
+1,none
+2,light armor
+1,non-metal armor
+3,light and medium armor
+5,any armor
+
+;combatshield
+5,, any shield
+2,, light shield
+1,
+
+
+
+;combathitdice
+2,d8 (d6+1)<br />'''Special Features:''' [combatfeatures], [combatfeatures], [combatfeatures], [combatfeatures], [combatfeatures]<br />
+7,d10 (d6+2)<br />'''Special Features:''' [combatfeatures], [combatfeatures], [combatfeatures], [combatfeatures]<br />
+1,d12 (d6+3)<br />'''Special Features:''' [combatfeatures], [combatfeatures], [combatfeatures]<br />
+
+;combatfeatures
+1,attack bonus against [foes]
+1,attack bonus when [attackbonuswhen]
+1,attack bonus with [martialweapons]
+1,damage bonus against [foes]
+1,damage bonus when [damagebonuswhen]
+1,damage bonus with [martialweapons]
+1,bonus language
+1,bonus skill
+1,channel [Elements.4e] energy
+1,companion ([combatcompanion])
+1,create magical items
+1,immune to [immunity]
+1,innate spell
+1,minor spellcasting ability ([Wizard schools.d20])
+1,resistant to [resistances]
+1,[Fantasy Spellcasting Class Generator.spellfeatures]
+1,(skill ability)
+
+;attackbonuswhen
+1,[condition]
+1,in [favored environment] environment
+
+;damagebonuswhen
+1,[condition]
+1,in [favored environment] environment
+
+;foes
+2,goblins
+2,orcs
+2,giants
+1,dragons
+1,demi-humans
+1,spellcasters
+1,priests
+
+;condition
+1,enraged
+1,focused
+1,at half health or lower
+
+;favored environment
+1,aquatic
+1,desert
+1,forest
+1,jungle
+1,arctic
+1,hills
+1,marsh
+1,mountain
+1,plains
+1,urban
+1,underground
+
+;combatcompanion
+1,intelligent weapon
+1,guardian spirit
+1,mundane follower
+1,squire
+1,magical beast
+
+;resistances
+1,[Fantasy Spellcasting Class Generator.spellthemes]
+1,[immunity]
+1,[Elements.4e]
+
+;immunity
+2,disease
+3,poison
+4,charm
+3,sleep
+4,fear
+1,damage
+4,[Elements.d20]
+
+
+

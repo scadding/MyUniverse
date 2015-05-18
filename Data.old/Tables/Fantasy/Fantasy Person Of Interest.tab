@@ -1,0 +1,579 @@
+
+;Start
+1,A[Gender] [Race] [Job], [Relationtwo] [Relationone]
+
+;Relationone
+3,& rumored to be possessed
+1,& rumored to be a werewolf
+1,& rumored to be a demon
+1,& rumored to be a vampire
+1,& rumored to be a doppelganger
+7,& rumored to actually be a[Gender] [Race] [Job] in disguise
+5,& rumored to be [Leader]
+5,& rumored to be allied to a group of [Humanoids]
+5,& rumored to possess [Found in a crate.Start] of unusual properties
+5,& rumored to possess a magical [Weapon]
+5,& rumored to possess an important book
+8,& rumored to be the lover of a powerful [Job]
+20,
+
+;Relationtwo
+5,spouse to a powerful [Job]
+5,ex-lover of a powerful [Job]
+5,lover of a powerful [Job]
+5,soon to be wed to a powerful [Job]
+5,possessor of an important book
+5,possessor of a magical [Weapon]
+5,possessor of [Found in a crate.Start] of unusual properties
+1,secretly a doppelganger
+5,secretly a[Gender] [Race] [Job] in disguise
+1,secretly a(n) [Weird Fantasy Monster.Start]
+5,secretly allied to a group of [Humanoids]
+5,secretly [Leader]
+1,actually an automaton
+5,sibling of a powerful [Job]
+5,spouse of an NPC known to the players
+5,lover of an NPC known to the players
+5,ex-lover of an NPC known to the players
+1,a treacherous creature
+1,
+
+;Weapon
+1,weasel
+1,idol
+1,disc
+1,symbol
+1,skull
+1,crown
+1,tiara
+1,mask
+1,teacup
+1,pair of gloves
+1,cloak
+1,hat
+1,emerald
+1,pearl
+1,diamond
+1,sapphire
+1,onyx
+1,opal
+1,jade
+1,amulet
+1,shield
+1,sword
+1,bow
+1,net
+1,whip
+1,staff
+1,mace
+1,morning-star
+1,scythe
+1,sickle
+1,warhammer
+1,war axe
+1,throwing axe
+1,spiked chain
+1,dagger
+1,ring
+1,egg
+1,torch
+1,bracelet
+1,grape
+1,jewel
+1,lamp
+1,oven
+1,ruby
+
+;Humanoids
+1,goblinoids
+1,dark elves
+1,jackal-headed warriors
+1,hyena-like humanoids
+1,crow-headed creatures
+1,leopard-people
+1,goat-headed warriors
+1,lizardfolk
+1,snake-people
+1,cannibal halflings
+1,devildwarves
+1,unnatural humans
+
+;Leader
+1,a toad demon
+1,a gnoll
+1,a hobgoblin
+1,a lizardperson
+1,a half-orc
+1,a werejaguar
+1,a werewolf
+1,a spider centaur
+1,a dryad
+1,a flesh golem
+1,a hag
+1,a lamia
+1,a manticore
+1,a medusa
+1,a naga
+1,a night hag
+1,a rakshasa
+1,a troll
+1,a wraith
+1,a cthuloid demon
+1,a witch
+
+;Gender
+30, male
+30, female
+1,n androgynous
+
+;Race
+60,
+15,elven
+5,dwarven
+5,halfling
+5,half-orc
+5,half-elf
+1,possibly doppelganger
+1,possibly not-entirely human
+
+;Level
+5,-Lvl 1-
+6,-Lvl 2-
+7,-Lvl 3-
+8,-Lvl 4-
+7,-Lvl 5-
+6,-Lvl 6-
+5,-Lvl 7-
+4,-Lvl 8-
+3,-Lvl 9-
+2,-Lvl 10-
+1,-Lvl 11-
+1,-Lvl 12-
+1,-Lvl 13-
+1,-Lvl 14-
+1,-Lvl 15-
+1,-Lvl 20-
+
+;Job
+1,harlot
+1,cleric ([Level])
+1,fighter ([Level])
+1,paladin ([Level])
+1,barbarian ([Level])
+1,wizard ([Level])
+1,thief ([Level])
+1,assassin ([Level])
+1,druid ([Level])
+1,ranger ([Level])
+1,witch ([Level])
+1,archer ([Level])
+1,assassin ([Level])
+1,bandit ([Level])
+1,jester 
+1,battlemage ([Level])
+1,battlepriest ([Level])
+1,caravan leader ([Level])
+1,cavalier ([Level])
+1,cleric ([Level])
+1,duelist ([Level])
+1,exorcist
+1,explorer
+1,geomancer
+1,guide
+1,healer
+1,hunter ([Level])
+1,huntsman ([Level])
+1,knight ([Level])
+1,mercenary ([Level])
+1,pirate ([Level])
+1,priest ([Level])
+1,raider ([Level])
+1,ranger ([Level])
+1,sailor
+1,scout
+1,ship's captain ([Level] fighter)
+1,soldier ([Level])
+1,soldier of fortune ([Level])
+1,strategist
+1,swashbuckler ([Level])
+1,templar ([Level])
+1,warlord ([Level])
+1,warrior ([Level])
+1,armorer
+1,armorsmith
+1,blacksmith
+1,coppersmith
+1,cooper
+1,ferrier
+1,goldsmith
+1,jeweler
+1,journeyman
+1,leathersmith
+1,locksmith
+1,master jeweler
+1,master smith
+1,metalsmith
+1,milliner
+1,silversmith
+1,tanner
+1,tinsmith
+1,trapsmith
+1,weaponsmith
+1,architect
+1,artisan
+1,bricklayer
+1,carpenter
+1,cartwright
+1,craftsman
+1,draftsman
+1,fletcher
+1,framer
+1,furrier
+1,gemcutter
+1,glassblower
+1,glovemaker
+1,glover
+1,journeyman
+1,mason
+1,master artisan
+1,master carpenter
+1,master craftsman
+1,master weaver
+1,miller
+1,painter
+1,potter
+1,roofer
+1,shipwright
+1,shoemaker
+1,stonecutter
+1,tailor
+1,tanner
+1,tinker
+1,toymaker
+1,trapper
+1,stonemason
+1,thatcher
+1,weaver
+1,woodcutter
+1,auctioneeer
+1,baker
+1,basket maker
+1,brewer
+1,butcher
+1,chandler
+1,cobbler
+1,eelmonger
+1,fishmonger
+1,flower seller
+1,haberdasher
+1,hatter
+1,hawker
+1,huckster
+1,ironmonger
+1,merchant
+1,peddler
+1,shieldmonger
+1,shopkeep
+1,spice merchant
+1,trader
+1,vendor
+1,vintner
+1,waremonger
+1,weaponmonger
+1,acrobat
+1,actor
+1,animal trainer
+1,artist
+1,author
+1,bandmaster
+1,bear-tamer
+1,beast tamer
+1,choirmember
+1,chorister
+1,composer
+1,contortionist
+1,dancer
+1,drummer
+1,fire-breather
+1,gladiator
+1,jester
+1,jongleur
+1,juggler
+1,lutist
+1,master performer
+1,minstrel
+1,musician
+1,painter
+1,piper
+1,pit fighter
+1,playwright
+1,poet
+1,puppeteer
+1,singer
+1,soothsayer
+1,stage magician
+1,storyteller
+1,tattoo artist
+1,troubadour
+1,wrestler
+1,writer
+1,abbot 
+1,battlepriest ([Level])
+1,chanter
+1,cleric ([Level])
+1,clerk
+1,counselor
+1,cultist ([Level] cleric)
+1,fanatic ([Level] cleric) 
+1,healer
+1,heirophant
+1,herbalist
+1,hermit
+1,high priest ([Level] cleric)
+1,inquisitor
+1,itinerant
+1,medic
+1,missionary
+1,monk
+1,pardoner
+1,philosopher
+1,pilgrim
+1,priest ([Level])
+1,prophet
+1,religious fanatic
+1,sage
+1,saint
+1,scribe
+1,supplicant
+1,templar
+1,thaumaturge
+1,vicar
+1,zealot
+1,aeromancer ([Level])
+1,alchemist ([Level])
+1,archmage ([Level])
+1,battlemage ([Level])
+1,blood mage ([Level])
+1,bonecaster 
+1,conjurer ([Level])
+1,demonologist ([Level])
+1,diviner
+1,druid ([Level])
+1,enchanter ([Level])
+1,evoker ([Level])
+1,exorcist ([Level])
+1,geomancer ([Level])
+1,hedge witch ([Level])
+1,hex witch ([Level])
+1,hydromancer ([Level])
+1,illusionist ([Level])
+1,invoker ([Level])
+1,mage ([Level])
+1,necromancer ([Level])
+1,oracle 
+1,pyromancer ([Level])
+1,rune caster 
+1,sorcerer ([Level])
+1,warlock ([Level])
+1,witch ([Level])
+5,wizard ([Level])
+1,academic
+1,alchemist
+1,author
+1,cartographer
+1,copyist
+1,counselor
+1,dean
+1,draftsman
+1,engineer
+1,eggler (sells eggs)
+1,inventor
+1,librarian
+1,man of letters
+1,master scribe
+1,mathematician
+1,navigator
+1,professor
+1,sage
+1,scholar
+1,shoolmaster
+1,scientist
+1,scribe
+1,student
+1,writer
+1,advisor
+1,advocate (lawyer)
+1,ambassador
+1,appraiser
+1,bailiff
+2,baron
+1,baronet
+1,chancellor
+1,clerk
+1,collector
+1,count
+1,courier
+1,detective
+1,diplomat
+2,duke
+5,emissary
+1,executioner
+1,grand advisor
+1,grand inquisitor
+1,hangman
+1,empress/emperor
+1,monarch
+1,inquisitor
+1,judge
+1,lawyer
+1,lord/lady
+1,magistrate
+1,mayor
+3,page
+1,ruler
+1,scribe
+1,tax collector
+1,torturer
+1,warden
+1,archer ([Level])
+1,bodyguard ([Level])
+1,captain ([Level])
+1,cavalier ([Level])
+1,chief of the watch ([Level])
+1,constable ([Level])
+1,gatekeeper ([Level])
+1,general ([Level])
+1,guard ([Level])
+1,hunter ([Level])
+1,huntsman ([Level])
+1,master of hounds ([Level])
+1,militia ([Level])
+1,ranger ([Level])
+1,recruiter
+1,sailor ([Level])
+1,scout ([Level])
+1,sharpshooter ([Level])
+1,soldier ([Level])
+1,warlord ([Level])
+1,warrior ([Level])
+1,watchman ([Level])
+1,accountant
+1,aristocrat
+1,banker
+1,baron
+1,baronet
+1,bureaucrat
+1,businessman
+1,butler
+1,chancellor
+1,count
+1,dandy
+1,doctor
+1,duelist
+1,duke
+1,falconer
+1,fop
+1,high official
+1,horseman
+1,husbandryman
+1,interpreter
+1,king/queen
+1,knight ([Level])
+1,landlord
+1,landowner
+1,lord/lady
+1,messenger
+1,moneychanger
+1,noble
+1,philanthropist
+1,scholar
+1,scientist
+1,servant
+1,slave
+1,slavemaster
+1,usurer
+1,arsonist 
+1,assassin ([Level])
+1,bandit ([Level])
+1,beggar
+1,lunatic
+1,idiot
+1,brawler
+1,burglar ([Level])
+1,cad
+1,con artist
+1,crime lord ([Level])
+1,criminal mastermind ([Level])
+1,crook ([Level])
+1,cutpurse ([Level])
+1,drug dealer
+1,escaped convict
+1,fortune teller
+1,gambler
+1,grave robber
+1,gypsy
+1,hired hand
+1,highwayman ([Level])
+1,kidnapper ([Level] thief)
+1,mercenary ([Level])
+1,pickpocket ([Level])
+1,pirate ([Level] fighter ([Level]) thief)
+1,prankster
+1,saboteur
+1,swashbuckler ([Level])
+1,thief ([Level])
+1,thug
+1,vagabond
+1,wastrel
+1,barber
+1,barkeep
+1,barman
+1,beekeeper
+1,beggar
+1,boatman
+1,chimneysweep
+1,commoner
+1,cook
+1,dogcatcher
+1,dock worker
+1,drunk
+1,elder
+1,exterminator of insects and rats
+1,ferryman
+1,fisherman
+1,gardener
+1,gravedigger
+1,handyman
+1,hunter ([Level])
+1,immigrant
+1,indentured servant
+1,innkeeper
+1,leper
+1,longshoreman
+1,madman
+1,matchmaker
+1,miner
+1,miser
+1,panhandler
+1,outcast
+1,pacifist
+1,pauper
+1,peasant
+1,pigherd
+1,rat catcher
+1,refugee
+1,runaway
+1,serf
+1,servant
+1,slave
+1,stableman
+1,student
+1,town crier 
+1,traveler
+1,undertaker
+1,urchin
+1,village idiot
+1,widow
+1,woodsman
+
+

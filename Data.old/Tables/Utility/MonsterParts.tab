@@ -1,0 +1,732 @@
+
+;Start
+1,[OrganContainer] of [Organs]s preserved in [PreservationSubstance]
+1,[LiquidContainer] of [Liquids]
+1,[DryGoodsContainer] of [DryGoods]s [DryPackingMethod]
+1,[PowderContainer] of powdered [Powders]
+
+;StartItemOnly
+4,[Organs]
+3,[Liquids]
+2,[DryGoods]
+1,[Powders] Powder
+
+;OrganContainer
+1,large glass jar
+1,reliquary
+1,large bottle
+1,carafe
+
+;LiquidContainer
+1,stoppered flask
+1,phial
+1,vial
+1,beaker
+1,decanter
+1,alchemical tube
+1,sample tube
+1,small bottle
+1,carafe
+1,boiling (dome-bottomed) flask
+1,stoppered jar
+1,alembic
+1,wineskin
+
+;DryGoodsContainer
+1,jar
+1,coffer
+1,belt pouch
+1,basket
+1,leather sack
+1,canvas sack
+1,burlap sack
+1,small chest
+
+;PowderContainer
+1,canister
+1,leather sack
+1,canvas sack
+1,hemp sack
+1,coffer
+1,belt pouch
+1,component pouch
+1,jar
+
+;PreservationSubstance
+5,brine
+5,alcohol
+5,oil
+2,salt packing
+2,pickling fluid
+2,clear gelatin
+2,clear syrup
+1,ether
+1,an unknown preservative
+4,[Liquids]
+
+;DryPackingMethod
+10,
+4,packed in salt
+4,packed in sand
+2,packed in rice
+1,packed in ashes
+3,packed in wool
+3,packed in straw
+2,packed in wood shavings
+2,packed in pistachio shells
+1,packed in sawdust
+2,packed in [Powders]
+2,packed in [Utility.Metal] filings and powder
+
+;Organs
+3,aboleth eye
+3,aboleth brain center
+3,astral deva heart
+3,planetar heart
+3,solar heart
+8,ankheg spittle gland
+8,aranea eye
+8,aranea spinneret
+3,hound archon heart
+3,hound archon ear
+8,athach [CommonOrgans]
+3,azer [CommonOrgans]
+3,barghest [CommonOrgans]
+3,behir [CommonOrgans]
+8,basilisk [CommonOrgans]
+8,behir tongue
+8,blink dog brain stem
+3,blink dog [CommonOrgans]
+3,bodak eye
+1,bulette [CommonOrgans]
+8,bulette tremorsensory organ
+3,chaos beast tentacle
+3,chaos beast eye
+3,chimera [CommonOrgans]
+8,choker tentacle
+8,choker [CommonOrgans]
+8,chuul tentacle
+3,chuul [CommonOrgans]
+3,jabberwock [CommonOrgans]
+8,cockatrice head
+8,cockatrice [CommonOrgans]
+3,couatl [CommonOrgans]
+8,darkmantle [CommonOrgans]
+8,darkmantle tentacle
+8,darkmantle inksac
+200,[HumanoidType] [HumanoidOrgan]
+200,[MonstrousHumanoidType] [HumanoidOrgan]
+175,[GiantType] [HumanoidOrgan]
+1,destrachan vocal chords
+1,destrachan [CommonOrgans]
+3,[Dragon Type] [DragonOrgan]
+1,drider spinneret
+1,drider [CommonOrgans]
+1,ettercap [CommonOrgans]
+1,formian antennae
+1,frost worm sound nodule
+1,frost worm mandible
+1,shrieker mushroom
+1,violet fungus mushroom
+1,gibbering mouther eye
+1,gibbering mouther tongue
+1,girallon [CommonOrgans]
+1,gray render [CommonOrgans]
+1,grick tentacle
+1,grick beak
+1,grick [CommonOrgans]
+1,griffon [CommonOrgans]
+1,hell hound [CommonOrgans]
+1,hell hound breath weapon gland
+1,hippogriff [CommonOrgans]
+1,howler [CommonOrgans]
+1,hydra [CommonOrgans]
+1,kraken tentacle
+1,kraken [CommonOrgans]
+1,krenshar [CommonOrgans]
+50,[MonsterHumanlikeAnatomy] [CommonOrgans]
+1,manticore [CommonOrgans]
+1,medusa snakes
+5,myconid cap
+5,myconid sap
+1,naga [CommonOrgans]
+5,gelatinous cube chunk
+1,owlbear [CommonOrgans]
+1,owlbear beak
+1,pegasus [CommonOrgans]
+1,rakshasa [CommonOrgans]
+1,remorhaz [CommonOrgans]
+1,rust monster antenna
+1,rust monster [CommonOrgans]
+1,skum [CommonOrgans]
+1,spider eater [CommonOrgans]
+1,triton [CommonOrgans]
+1,pyrohydra breath weapon gland
+1,cryohydra breath weapon gland
+1,otyugh tentacle
+1,remorhaz heat gland
+1,roper eye
+1,roper tentacle
+1,salamander heart
+1,whole grig
+1,whole stirge
+4,[Vermin]
+100,[MammalianAnimal] [MammalianOrgans]
+30,[ReptilianAnimal] [ReptilianOrgans]
+20,[AvianAnimal] [AvianOrgans]
+20,[ArthropodAnimal] [ArthropodOrgans]
+20,[CephalopodAnimal] [CephalopodOrgans]
+
+;Liquids
+3,aboleth slime
+3,aboleth blood
+3,aboleth mucus
+3,aboleth bile
+1,astral deva tears
+1,planetar tears
+1,solar tears
+1,astral deva blood
+1,planetar blood
+1,solar blood
+8,ankheg spittle
+8,ankheg bile
+8,aranea webfluid
+8,aranea poison
+1,trumpet archon tear
+1,hound archon tear
+8,assassin vine sap
+8,athach poison
+3,athach [HumanoidLiquids]
+3,azer blood
+3,barghest [CommonLiquids]
+8,basilisk [CommonLiquids]
+3,behir [CommonLiquids]
+8,blink dog [CommonLiquids]
+8,bulette stomach acid
+8,chuul spittle
+8,choker [CommonLiquids]
+3,chimera [CommonLiquids]
+8,cockatrice [CommonLiquids]
+3,couatl poison
+200,[HumanoidType] [HumanoidLiquids]
+200,[MonstrousHumanoidType] [HumanoidLiquids]
+170,[GiantType] [HumanoidLiquids]
+3,digester fluid
+10,[Dragon Type] blood
+1,ghaele tears
+1,ghaele blood
+8,destrachan [CommonLiquids]
+20,[Dragon Type] [CommonLiquids]
+8,ettercap [CommonLiquids]
+8,girallon [CommonLiquids]
+3,gray render [CommonLiquids]
+8,grick [CommonLiquids]
+8,griffon [CommonLiquids]
+8,hell hound [CommonLiquids]
+8,hippogriff [CommonLiquids]
+8,howler [CommonLiquids]
+3,hydra [CommonLiquids]
+8,krenshar [CommonLiquids]
+50,[MonsterHumanlikeAnatomy] [CommonLiquids]
+3,manticore [CommonLiquids]
+3,medusa [CommonLiquids]
+3,naga [CommonLiquids]
+8,owlbear [CommonLiquids]
+8,pegasus [CommonLiquids]
+2,rakshasa [CommonLiquids]
+2,remorhaz [CommonLiquids]
+3,rust monster [CommonLiquids]
+3,skum [CommonLiquids]
+4,jabberwock [CommonLiquids]
+8,purple worm digestive juice
+3,treant sap
+8,troglodyte musk oil
+100,[MammalianAnimal] [MammalianLiquids]
+30,[ReptilianAnimal] [ReptilianLiquids]
+20,[AvianAnimal] [AvianLiquids]
+20,[ArthropodAnimal] [ArthropodLiquids]
+20,[CephalopodAnimal] [CephalopodLiquids]
+
+;DryGoods
+3,achaierai feather
+3,achaierai talon
+1,astral deva feather
+1,planetar feather
+1,solar feather
+5,ankheg claw
+1,trumpet archon feather
+5,arrowhawk feather
+5,assassin vine leaf
+5,barghest hair
+5,basilisk spine
+5,basilisk scale
+5,behir scale
+5,bugbear claw
+5,centaur hoof
+5,choker spine
+5,cockatrice beak
+5,cockatrice foot
+1,couatl feather
+50,[HumanoidType] [HumanoidDryGoods]
+5,withered [HumanoidType] finger
+10,[MonstrousHumanoidType] [HumanoidDryGoods]
+6,[GiantType] [HumanoidDryGoods]
+5,delver claw
+20,[Dragon Type] claw
+20,[Dragon Type] tooth
+20,[Dragon Type] scale
+5,[Dragon Type] gizzard stone
+5,[Dragon Type] bone
+5,dryad hair
+5,roc feather
+5,owlbear feather
+5,hippogriff feather
+5,griffon feather
+5,pegasus feather
+5,gray render claw
+5,grick beak
+5,howler spine
+5,griffon talon
+5,jabberwock claw
+5,jabberwock tooth
+5,dwarf beard hair
+5,giant eagle feather
+5,giant owl feather
+5,elf ear
+5,drow elf ear
+5,ethereal marauder tooth
+5,ettercap claw
+5,ettercap [HumanoidDryGoods]
+5,formian antennae
+5,efreet horn
+5,djinnie beard hair
+5,ghoul tooth
+5,girallon hair
+5,gnoll ear
+5,goblin ear
+5,hag hair
+5,harpy talon
+5,harpy hair
+5,hippogriff talon
+5,howler claw
+5,krenshar hair
+5,kuo-toa scale
+5,lammasu feather
+5,lillend feather
+5,manticore spike
+5,medusa scale
+5,merfolk scale
+5,nymph hair
+5,owlbear claw
+5,remorhaz scale
+5,satyr hoof
+5,sphinx feather
+5,phoenix feather
+5,pixie wing
+5,treant leaf
+5,treant bark
+2,unicorn horn
+50,[MammalianAnimal] [MammalianDryGoods]
+20,[ReptilianAnimal] [ReptilianDryGoods]
+10,[AvianAnimal] [AvianDryGoods]
+10,[ArthropodAnimal] [ArthropodDryGoods]
+10,[CephalopodAnimal] [CephalopodDryGoods]
+
+;Powders
+5,achaierai talon
+5,ankheg claw
+5,ankheg chitin
+5,athach tooth
+5,basilisk spine
+5,behir scale
+5,blink dog claw
+5,bulette claw
+5,centaur hoof
+5,chuul chitin
+5,cockatrice claw
+10,[HumanoidType] bone meal
+10,[MonstrousHumanoidType] bone meal
+6,[GiantType] bone meal
+5,delver claw
+5,destrachan claw
+5,digester claw
+8,[Dragon Type] claw
+8,[Dragon Type] tooth
+2,[Dragon Type] bone meal
+1,[Dragon Type] scales
+1,lich skull
+5,minotaur horn
+5,Pixie Dust
+5,unicorn horn
+5,giant bee pollen
+
+;CommonOrgans
+5,eye
+4,tongue
+6,heart
+1,spleen
+4,brain
+1,gland
+1,stomach
+1,lung
+1,kidney
+1,liver
+1,reproductive organ
+
+;CommonLiquids
+10,blood
+6,bile
+5,stomach acid
+2,spittle
+1,spinal fluid
+3,urine
+1,tears
+1,pus
+
+;HumanoidType
+50,bugbear
+50,dwarf
+40,duergar
+40,elf
+30,drow
+50,gnoll
+50,gnome
+60,goblin
+50,halfling
+50,hobgoblin
+60,human
+60,kobold
+50,lizardfolk
+30,locathah
+45,merfolk
+60,orc
+40,troglodyte
+2,changeling
+3,doppelganger
+
+;HumanoidOrgan
+7,brain
+10,heart
+5,liver
+5,spleen
+3,brain
+7,eye
+2,gland
+3,pancreas
+2,kidney
+2,bladder
+1,testes
+3,tongue
+2,ear
+2,finger
+2,toe
+1,lung
+1,stomach
+
+;HumanoidLiquids
+10,blood
+4,urine
+4,bile
+1,spittle
+2,tears
+1,spinal fluid
+1,stomach acid
+1,pus
+2,sweat
+
+;HumanoidDryGoods
+1,tooth
+1,bone
+1,skull
+1,ear
+
+;MonstrousHumanoidType
+60,centaur
+20,derro
+20,doppelganger
+5,gargoyle
+40,grimlock
+40,hag
+40,harpy
+50,kuo-toa
+30,medusa
+50,minotaur
+60,sahaugin
+2,armand
+10,goatfolk
+1,witchknife
+10,aarakocra
+5,alaghi
+5,chitine
+5,dekanter goblin
+6,firenewt
+5,groundling
+5,meazel
+5,quaggoth
+40,wemic
+5,abeil
+5,boggle
+2,braxat
+20,desmodu
+10,kopru
+10,loxo
+5,ormyrr
+10,scorpionfolk
+10,thri-kreen
+5,yakfolk
+;GiantType
+100,troll
+100,ogre
+60,ettin
+30,ogre mage
+30,hill giant
+10,frost giant
+10,cloud giant
+10,fire giant
+10,storm giant
+4,cave troll
+4,war troll
+1,death giant
+1,eldritch giant
+20,forest troll
+4,geriviar
+5,sand giant
+5,skullcrusher ogre
+6,fog giant
+2,phaerlin giant
+5,stone giant
+
+;MonsterHumanlikeAnatomy
+1,lamia
+1,satyr
+1,nymph
+1,hybsil
+1,werebat
+1,werecrocodile
+1,wereshark
+1,werewolf
+1,werebear
+1,wereboar
+1,wererat
+1,jermlaine
+1,sirine
+1,triton
+
+;Dragon Type
+1,Dragon
+1,Jabberwock
+1,Wyvern
+
+;DragonOrgan
+3,heart
+2,brain
+2,tongue
+3,breath weapon gland
+1,brain stem
+1,spleen
+3,eye
+
+;ReptilianAnimal
+1,crocodile
+1,giant crocodile
+1,lizard
+1,monitor lizard
+1,shocker lizard
+1,constrictor snake
+1,viper
+1,toad
+
+;ReptilianOrgans
+5,[CommonOrgans]
+1,tongue
+1,egg
+
+;ReptilianLiquids
+10,[CommonLiquids]
+2,egg fluid
+
+;ReptilianDryGoods
+5,tooth
+1,fang
+3,skull
+5,scale
+
+;MammalianAnimal
+1,ape
+1,baboon
+1,badger
+1,bat
+1,black bear
+1,brown bear
+1,polar bear
+1,bison
+1,boar
+1,camel
+1,cat
+1,cheetah
+1,dog
+1,donkey
+1,elephant
+1,horse
+1,warhorse
+1,hyena
+1,leopard
+1,lion
+1,monkey
+1,mule
+1,pony
+1,rat
+1,rhinoceros
+1,tiger
+1,weasel
+1,wolf
+1,worg
+1,wolverine
+1,winter wolf
+1,dire rat
+1,dire boar
+1,dire bear
+1,dire wolf
+1,dire lion
+
+;MammalianOrgans
+10,brain
+10,heart
+1,spleen
+1,liver
+1,kidney
+1,bladder
+1,tongue
+1,ear
+5,eye
+
+;MammalianLiquids
+10,blood
+1,pus
+1,sweat
+1,tears
+1,spinal fluid
+1,stomach acid
+3,bile
+3,urine
+1,saliva
+
+;MammalianDryGoods
+1,bone
+1,skull
+1,hair
+1,tooth
+
+;AvianAnimal
+1,eagle
+1,hawk
+1,owl
+1,raven
+1,giant eagle
+1,giant owl
+1,chicken
+
+;AvianOrgans
+5,[CommonOrgans]
+1,beak
+3,egg
+
+;AvianLiquids
+3,blood
+1,egg fluid
+
+;AvianDryGoods
+5,beak
+1,foot
+3,claw
+5,feather
+2,bone
+
+;IchthyoidAnimal
+1,manta ray
+1,shark
+1,baracuda
+1,giant gar
+1,giant eel
+
+;IchthyoidOrgans
+5,[CommonOrgans]
+3,egg
+1,fin
+1,gill
+
+;IchthyoidLiquids
+3,blood
+1,egg fluid
+
+;IchthyoidDryGoods
+5,tooth
+1,fin
+1,scale
+1,skull
+
+;ArthropodAnimal
+1,giant bee
+1,giant ant
+1,giant beetle
+1,giant crab
+1,monstrous centipede
+1,monstrous spider
+1,monstrous scorpion
+
+;ArthropodOrgans
+5,[CommonOrgans]
+3,egg
+
+;ArthropodLiquids
+3,blood
+1,egg fluid
+3,venom
+
+;ArthropodDryGoods
+5,chitin plate
+1,mandible
+1,leg
+
+;Vermin
+1,centipede
+1,spider
+1,stag beetle
+1,scorpion
+1,hellwasp
+
+;CephalopodAnimal
+1,octopus
+1,giant octopus
+1,squid
+1,Posionous octopus
+1,cuttlefish
+1,amonite
+1,nautilus
+1,morkoth
+1,golden amonite
+1,giant natulus
+1,giant squid
+1,kraken
+1,star-sqid
+1,star-spawn of cthulhu
+1,sky kraken
+
+;CephalopodOrgans
+5,[CommonOrgans]
+5,tentacle
+3,egg
+3,luminescent organs
+5,inksac
+
+;CephalopodLiquids
+1,blood
+1,bile
+3,ink
+
+;CephalopodDryGoods
+1,beak
+1,bone
+1,dried sucker
+
+

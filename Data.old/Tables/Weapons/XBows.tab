@@ -1,0 +1,25 @@
+
+;Start
+1,{{ucfirst:a}} [Swords.Quality] [XBowType] made of [Utility.WoodWeapon], with the bow made of [Utility.WoodBow]. [XBowStockDecor] [BoltQuiver]<br>
+
+;XBowType
+5,hand crossbow
+55,light crossbow
+35,heavy crossbow
+3,great crossbow
+1,repeating crossbow
+2,double crossbow
+
+;XBowStockDecor
+4,
+1,The stock has a depiction of [Utility.Symbols].
+
+;BoltQuiver
+6,
+2,Accompanying the crossbow is a quiver of [Utility.LeatherHide] with [Utility.Fur] fur trim. It contains [AmmunitionThrown.Bolt]
+1,Accompanying the crossbow is a quiver of [Utility.LeatherHide]. It contains [AmmunitionThrown.Bolt]
+1,Accompanying the crossbow is a quiver of [Utility.Fur] fur with [Utility.LeatherHide] trim. It contains [AmmunitionThrown.Bolt]
+2,Accompanying the crossbow is a quiver of [Utility.LeatherHide] with [Utility.MetalDecor] trim. It contains [AmmunitionThrown.Bolt]
+
+
+

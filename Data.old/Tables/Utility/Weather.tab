@@ -1,0 +1,58 @@
+
+;Start
+9,[pre][materialsuffix] [separatesuffix]
+1,hurricane force winds [separatesuffix]
+1,[suffix]
+
+;pre
+8,almost
+20,
+20,fairly
+10,very
+10,quite
+5,dangerously
+20,lightly
+10,slightly
+5,barely
+1,destructively 
+
+;materialsuffix
+4, cloudy
+4, windy
+2, misty
+1, foggy
+4, rainy
+
+;suffix
+1,its raining blood
+10,its raining fire
+8,meteorite
+5,the sky is falling
+1,a giant vortex of swirling arcane energies has formed in the sky
+1,a terrible plague is sweeping through the world
+70,the sky is clear
+1,Category [SGNP weather.Category] hurricane force winds with gates to other dimensions opening at random times
+1,a whole gale is threatening to become a violent storm
+1,four separate storm cells are going to collide
+2,a beautiful rainbow has appeared
+1,a Category 5 hurricane is heading your way
+1,F4 tornadoes are all over the place
+1,three twisters have descended on the city
+7,it's raining cats and dogs and hailing taxicabs
+7,arcane storm with F[SGNP weather.Category] tornado reported
+1,the seventh bowl of God's wrath has been poured out
+
+;separatesuffix
+20, and warm out
+10, and hot out
+10, and really hot out
+5, with a heat wave
+2, and dangerously hot out
+20, and cool out
+10, and cold out
+10,and it's below freezing
+5, and freezing out
+2, and it's dangerously cold out
+30, and temperate
+
+

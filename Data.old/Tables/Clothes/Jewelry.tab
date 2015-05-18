@@ -1,0 +1,446 @@
+#The Jewelry generator creates random valuable items that may be worn or carried on a person. Items are typically made of metal, though not exclusively, and includes <sgdisplay iterations="1">actual wearable jewelry ([Wearable], [Wearable]), trinkets ([Trinkets], [Trinkets]), tools and weapons ([ToolsAndWeapons], [ToolsAndWeapons]) and simple armor ([ArmorPieces], [ArmorPieces]).</sgdisplay> 
+#
+#For predominantly cloth wearable items, see the [[ClothingMale]] or [[ClothingFemale]]. For more complex weapons and armor, see [[Weapon]] and [[Armor]] or other associated tables. For items you might find in a household, see [[Household Treasures]].
+#
+#==Random Pieces of Jewelry:==
+#<sgdisplay iterations="5">{{ia|[Start]}}</sgdisplay>
+#
+#==Without extra description:==
+#<sgdisplay iterations="5">{{ia|[startItemOnly]}}</sgdisplay>
+#
+#==Wearable Jewelry Only==
+#<sgdisplay iterations="5">{{ia|[StartWearableOnly]}}</sgdisplay>
+#
+#==Nonwearable Jewelry Only==
+#<sgdisplay iterations="5">{{ia|[StartNonwearableOnly]}}</sgdisplay>
+#
+#==Armor Pieces Only==
+#<sgdisplay iterations="5">{{ia|[StartArmorPiecesOnly]}}</sgdisplay>
+#
+#==Rings Only==
+#<sgdisplay iterations="5">{{ia|[JewelryMaterialClause]}} ring [Predicate]</sgdisplay>
+
+
+;Start
+5,[JewelryMaterialClause] [Item][Predicate]
+1,matching pair of [JewelryMaterialClause] [Item]s, each [Predicate]
+
+;StartItemOnly
+1,[JewelryMaterialClause] [Item]
+
+;Predicate
+4, set with {{ia|[Utility.GemType]}}. [Craftsmanship]
+3, set with {{plural|[Dice.2d6] [Utility.GemType]}}. [Craftsmanship]
+4, [Design]. [Craftsmanship]
+2, [Design] and set with {{ia|[Utility.GemType]}}. [Craftsmanship]
+2, [Design] and set with {{plural|[Dice.2d6] [Utility.GemType]}}. [Craftsmanship]
+4, with [Utility.Symbols]. [Craftsmanship]
+2, with [Utility.Symbols] and set with {{ia|[Utility.GemType]}}. [Craftsmanship]
+2, with [Utility.Symbols] and set with {{plural|[Dice.1d12] [Utility.GemType]}}. [Craftsmanship]
+2, with the inscription "[Inscriptions.Start]" written in [Inscriptions.Language]. [Craftsmanship]
+2, with the inscription "[Inscriptions.Start]" written in [Inscriptions.Language] and set with {{plural|[Dice.2d6] [Utility.GemType]}}. [Craftsmanship]
+
+;StartWearableOnly
+4,[JewelryMaterialClause] [Wearable], [Predicate]
+1,matching pair of [JewelryMaterialClause] [Wearable]s, each [Predicate]
+
+;StartNonwearableOnly
+4,[JewelryMaterialClause] [Nonwearable], [Predicate]
+1,matching pair of [JewelryMaterialClause] [Nonwearable]s, each [Predicate]
+
+;StartArmorPiecesOnly
+1,[JewelryMaterialClause] [ArmorPieces], [Predicate]
+
+;JewelryMaterialClause
+5,[JewelryMaterial]
+2,[MaterialAdj] [JewelryMaterial]
+
+;MaterialAdj
+1,twisted
+1,quite elaborate
+1,simple but elegant
+1,fearsome-looking
+1,magnificent
+1,beautiful
+1,small
+1,giant-sized
+1,well-used
+1,most unusual
+1,probably ornamental
+1,gaudy
+
+;Item
+6,[Wearable]
+3,[Trinkets]
+2,[ToolsAndWeapons]
+1,[ArmorPieces]
+
+;Wearable
+2,amulet
+1,ankle chain
+3,anklet
+1,arm spiral
+1,armband
+2,artificial eye
+1,artificial nose
+1,badge
+1,bangle
+2,belt
+1,belt buckle
+2,bracelet
+1,brassiere
+2,brooch
+1,ceremonial mask
+1,choker
+1,circlet
+2,clasp
+8,cloak pin
+1,codpiece
+1,costume mask
+1,crown
+1,double ring
+2,earring
+1,eyepatch
+1,false hand
+1,false nose
+1,girdle
+1,hair net
+1,hair ornament
+1,hair pin
+1,hair ring
+1,hat pin
+1,headband
+1,headdress
+1,hook-hand
+1,kilt pin
+2,locket
+2,mask
+1,medal
+1,medallion
+1,military insignia
+1,monocle
+1,navel piercer
+1,neck ring
+2,necklace
+1,necklace chain
+1,nose ring
+1,ornamental breastplate
+1,peg-leg
+2,pendant
+1,periapt
+1,pin
+4,ring
+2,set of earrings
+1,set of manacles
+1,set of spectacles
+1,set of spurs
+1,signet ring
+1,string of prayer beads
+1,talisman
+1,tiara
+1,toe ring
+1,torc
+1,waist chain
+
+;ArmorPieces
+1,"chainmail bikini" top
+4,breastplate
+2,chainmail
+1,codpiece
+1,cuirass
+1,great helm
+4,helmet
+4,pair of gauntlets
+4,pair of greaves
+4,set of bracers
+1,shoulder clasp
+
+;Nonwearable
+3,[Trinkets]
+2,[ToolsAndWeapons]
+2,[Kitchenware]
+
+;Kitchenware
+1,bottle
+1,bottle stopper
+1,bowl
+1,candle snuffer
+1,carafe
+1,cauldron
+1,chalice
+1,charger
+1,cheese knife
+1,corkscrew
+1,cup
+1,decanter
+1,dish
+1,drinking horn
+1,drinking vessel
+1,flagon
+1,fork
+1,goblet
+2,hip flask
+1,kettle
+1,mug
+1,pepper grinder
+1,pitcher
+1,plate
+1,platter
+1,salt celler
+1,salt shaker
+1,serving fork
+1,serving spoon
+1,set of [Dice.2d4] nested bowls
+1,spoon
+1,stein
+1,tankard
+1,tray
+1,urn
+1,vase
+
+
+;Trinkets
+1,ashtray
+1,ball
+1,band
+1,basin
+1,bird cage
+1,brazier
+1,button
+1,candelabra
+1,candlestick
+1,cane head
+1,casket
+1,censer
+1,chamber pot
+1,chandelier
+1,chess set
+1,chest
+1,cigarillo case
+1,coffer
+2,comb
+1,crystal ball stand
+1,cube
+1,cup
+2,dice
+4,dice cup
+1,dice set
+1,disc
+1,doll
+1,door knocker
+1,door latch
+1,egg
+1,fan
+1,gambling chip
+1,gong
+2,hand bell
+1,hookah (water pipe)
+1,hourglass
+1,incense burner
+1,inkpot
+1,jewelry box
+1,lamp
+1,leash
+1,letter opener
+1,lock and key
+1,mousetrap
+1,music box
+1,orb
+1,paperweight
+1,pen/quill set
+1,puzzle box
+1,pyramid
+4,rod
+2,scarab
+4,scepter
+1,screen
+4,scroll tube
+1,seal
+1,set of [Dice.2d4] buttons
+1,skull
+1,small animal cage
+1,small box
+3,smoking pipe
+1,snuff box
+1,sphere
+1,stick
+1,stylus
+1,sundial
+1,tooth
+1,torch sconce
+1,vial with stopper
+4,wand
+1,wreath
+
+
+;ToolsAndWeapons
+3,[Dice.1d10] foot chain with [Dice.1d4] inch links
+1,[Dice.1d4] sewing needle(s)
+1,abacus
+1,arrowhead
+1,astrolabe
+2,axe head
+1,back scratcher
+1,barbed spearhead
+1,bit and bridle
+1,blade
+2,boot knife
+1,cane
+2,dagger
+1,dagger sheath
+1,[Dice.2d6] arrowheads
+4,eating knife
+1,fishhook
+1,fishing rod
+1,grappling hook
+4,hammer
+2,hand mirror
+3,key
+4,knife
+1,knife handle
+1,lantern
+1,magnifying glass
+1,manacles
+1,miner's pick
+1,punching dagger
+1,razor
+1,scabbard
+2,scissors
+1,set of caltrops
+1,set of scales
+1,set of thieves' picks
+1,sextant
+1,sickle
+1,small hourglass
+1,spearhead
+1,spyglass
+4,staff head
+1,stiletto
+3,sword
+2,sword hilt
+4,thimble
+2,throwing dagger
+4,tinderbox and fire starter
+1,tweezers
+1,umbrella
+1,walking stick
+2,whistle
+
+
+;Design
+1,[DesignForm] with strange symbols
+1,[DesignForm] with concentric circles
+1,[DesignForm] with a twisting, vine-like pattern
+4,inlaid with a pattern of [Utility.MetalPrecious]
+1,inlaid with a pattern of [Utility.MetalExotic]
+1,[DesignForm] with an ancient proverb: "[Inscriptions.Advice]"
+1,[DesignForm] with a dragon-like shape
+1,[DesignForm] with the likeness of an ancient king
+1,[DesignForm] with the figures of the old gods
+1,[DesignForm] with a curious map
+1,[DesignForm] with a genealogical record of the maker's family
+1,[DesignForm] with the figure of naked woman
+1,covered in a web-like pattern of [DesignForm] lines
+1,[DesignForm] with an image of the sun
+1,inlaid with [Utility.StoneDecorative]
+1,inlaid with [Utility.Chitin] chitin
+1,inlaid with [Utility.HornIvory]
+4,[DesignForm] with folk symbols said to [FolkSymbolEffects]
+3,[DesignForm] with [SpiritForm.Start]
+1,[DesignForm] with the name of the creature whose essence is in it: [SGNP angels and demons.Start]
+1,with [Utility.MetalPrecious] inlay
+1,with [Utility.MetalPrecious] filigree
+1,with [Utility.MetalPrecious] mounting in the shape of [SpiritForm.Start]
+1,with [Utility.MetalPrecious] accents
+
+
+;DesignForm
+2,engraved
+1,carved
+1,etched
+1,painted
+1,decorated
+
+;FolkSymbolEffects
+1,allow the owner to discern the truth
+1,attract the owner's true love
+5,bring the owner financial success
+4,bring the owner good luck
+1,bring the owner true love
+1,help the owner affect animals
+1,help the owner learn and study
+1,help the owner notice things noone else would
+1,increase the 'life force' of the owner
+5,increase the owner's attractiveness
+1,increase the owner's fertility
+1,increase the owner's virility
+1,make the owner taller over time
+1,protect against aberrations
+3,protect against diseases
+1,protect against fey influence
+1,protect against fiends and their minions
+2,protect against lycanthropes
+1,protect against the evil eye
+2,protect against the undead
+1,protect the owner against [Utility.CreatureTypes]s
+1,protect the owner from drowning
+1,protect the owner from lightning
+1,ward against evil spirits
+2,ward off chaos
+5,ward off evil
+
+;JewelryMaterial
+1,[Utility.Chitin] chitin
+40,[Utility.MetalPrecious]
+3,[Utility.MetalExotic]
+3,[Utility.StoneDecorative]
+3,[Utility.HornIvory]
+4,[Utility.MetalPrecious] and [JewelryMaterial]
+
+;Craftsmanship
+7,
+3,It is of [workmanshiptype] workmanship.
+1,Its design is reminiscent of other, similar pieces known to have been made by [craftculture]
+1,It seems to be a relatively recent replica of an older style made famous by [craftculture]
+1,It appears to have been made by [craftculture]
+1,[ValueDerivation]
+
+;workmanshiptype
+2,ancient
+1,average
+1,beautiful
+1,exotic
+1,exquisite
+1,extraplanar
+2,fine
+1,kingly
+1,legendary
+1,magical
+1,marvelous
+1,masterly
+2,noteworthy
+1,simple but elegant
+1,strangely organic
+1,unremarkable
+
+;craftculture
+1,sophisticated but savage humanoid tribes
+1,dwellers under the waves
+1,an underground race of men
+1,dwarves
+1,elves
+1,a long-vanished race of desert folk
+1,the same culture that produced the ruins scattered throughout the area
+1,an ancient race of craftsmen known only by their artifacts
+1,demons
+
+
+;ValueDerivation
+1,Much of the piece's value comes from the fact that it is obviously quite old.
+1,Much of the piece's value comes from the rarity of the style it is done in.
+1,Much of the piece's value is due to the fame of the crafter, [Fantasy Names.Start].
+1,Much of its value stems from the fact that it was famously owned by [Fantasy Names.Start].
+1,The piece is valuable because it was involved in [Art Grace and Guts Oracle.Events Lcase].
+1,The piece would be worth much less had it not been used to deter [Art Grace and Guts Oracle.Threats Lcase].
+
+

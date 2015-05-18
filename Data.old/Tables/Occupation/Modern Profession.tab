@@ -1,0 +1,363 @@
+
+;Start
+1,[profession]
+
+;profession
+1,Pilot
+2,[Military]
+2,[Medical]
+2,[Religious]
+1,Teacher
+1,Firefighter
+2,[Academic]
+2,[Journalism]
+2,[IsCrooked]Lawyer
+2,[Entertainer]
+2,[Modeltype] Model
+2,[Cop]
+1,Private Eye
+2,[Criminal]
+2,[IsCrooked][Politician]
+1,Entrepreneur
+1,Tycoon
+1,Astronaut
+1,Exterminator
+1,Mechanic
+1,Construction Worker
+1,Architect
+1,Florist
+1,Bookkeeper
+1,Homemaker
+1,Legal Transcriptionist
+1,Storm Chaser
+1,Toll Collector
+1,Fast Food Worker
+1,Adoption Counselor
+1,[IsCrooked]CEO
+1,Tennis Instructor
+1,Swimming Instructor
+1,Carpenter
+1,Pro Chess Player
+1,Recent Lottery Winner
+1,Farmer
+1,Office Assistant
+1,Cowpuncher
+1,Assembly Line Worker
+
+;Modeltype
+3,
+1,Fashion 
+1,Artistic 
+1,Nude 
+1,Spokes 
+1,Hand
+1,Promotional 
+
+;IsCrooked
+2,
+1,Crooked 
+
+;Politician
+1,President
+1,Big City Mayor
+1,Small Town Mayor
+1,State [Legislator]
+1,U.S. [Legislator]
+1,Governor
+1,Sheriff
+1,Judge
+1,County Commissioner
+1,Politician
+1,Clerk of the Court
+
+;Legislator
+1,Representative
+1,Senator
+
+;Federal Agent
+1,CIA Agent
+1,FBI Agent
+1,Scret Service Agent
+1,US Marshall
+
+;Cop
+1,[squad][grade]
+1,Beat Cop
+1,Rookie Cop
+
+;squad
+1,Homicide 
+1,Narcotics 
+1,Vice 
+
+;grade
+1,Detective
+1,Lieutenant
+1,Captain
+1,Cop
+
+;Military
+1,Air Force [AFspec]
+1,Army [Aspec]
+1,Navy [Nspec]
+1,Marine Corps [Mspec]
+
+;Service
+1,Air Force
+1,Army
+1,Navy
+1,Marine Corps
+
+;AFspec
+1,Pilot
+1,Demolitions Expert
+1,Security Police
+1,Intelligence
+1,Office of Special Investigations
+1,Adjutant
+1,Medic
+1,Surgeon
+1,Search and Rescue
+1,Special Forces
+1,Military Training Instructor
+1,Chaplain
+1,Base Commander
+1,Officer
+1,General
+
+;Aspec
+1,Infantry
+1,Demolitions Expert
+1,Military Police
+1,Intelligence
+1,Criminal Investigations Division 
+1,Adjutant
+1,Medic
+1,Surgeon
+1,Chaplain
+1,Drill Instructor
+1,Tanker
+1,Tank Commander
+1,Special Forces
+1,Infantry Commander
+1,Officer
+1,General
+
+;Nspec
+1,Shore Patrol
+1,Seaman
+1,Skipper
+1,Demolitions Expert
+1,SEAL
+1,First Officer
+1,Admiral
+1,Chaplain
+1,Intelligence
+1,Investigator
+1,Search and Rescue
+1,Corpsman
+1,Surgeon
+1,Pilot
+1,Drill Instructor
+
+;Mspec
+1,Infantry
+1,Military Police
+1,Intelligence
+1,Search and Rescue
+1,Demolitions Expert
+1,Special Forces
+1,Chaplain
+1,Infantry Commander
+1,Pilot
+1,Drill Instructor
+
+;Academic
+1,[major]Professor
+1,Graduate Student in [major]
+1,Undergrad in [major]
+1,Bachelors in [major]
+1,Ph.D in [major]
+1,[clique]
+
+;major
+1,Mathematics 
+1,Physics 
+1,Chemistry 
+1,Sociology 
+1,Psychology 
+1,Biology 
+1,Drama 
+1,English Literature 
+1,Creative Writing 
+1,Science 
+1,Liberal Arts 
+1,Theater
+1,Equine Management
+1,Anthropology
+1,Sociology
+1,Women's Studies
+1,Linguistics
+1,Economics
+1,International Relations
+1,Political Science
+1,Business
+1,Jewish Studies
+1,Kinesiology
+1,Dance
+1,Classics
+1,Music
+1,Education
+1,Law
+1,Consumer Studies
+1,French Studies
+1,German Studies
+1,Asian Studies
+1,African Studies
+1,Italian Studies
+1,American Studies
+1,Ethnic Studies
+1,Italian Studies
+
+;clique
+1,Stoner
+1,Nerd
+1,Jock
+1,Cheerleader
+1,Metalhead
+1,Drama Geek
+1,Artiste
+1,Goth
+
+;Medical
+1,[SurgSpecialty]Surgeon
+1,[Doctor]
+1,[Dentist]
+1,Medical Transcriptionist
+
+;Doctor
+1,Podiatrist
+1,Psychiatrist
+1,Doctor (GP)
+1,Pediatrician
+1,OB/GYN
+1,Optometrist
+1,Ophthalmologist
+1,Paramedic
+1,Medical Technician
+1,Prosthetist
+1,Psychotherapist
+1,Pharmacist
+1,Faith Healer
+1,Reflexologist
+1,Massage Therapist
+1,Physical Therapist
+
+;Dentist
+1,Dentist
+1,Orthodontist
+1,Dental Hygienist
+
+;SurgSpecialty
+1,
+1,Thoracic 
+1,Brain 
+1,Cardiac 
+1,Flight 
+
+;Religious
+1,[Protestant] Minister
+1,Televangelist
+2,[Jewish]
+2,[Catholic]
+2,[Other]
+
+;Jewish
+1,Rabbi
+1,Cantor
+1,Mohel
+1,Matchmaker
+
+;Catholic
+1,Priest
+1,Monk
+1,Nun
+1,Exorcist
+1,Pope
+1,Cardinal
+1,Archbishop
+1,Bishop
+
+;Other
+1,Buddhist
+1,Hare Krishna
+1,Mormon Missionary
+1,Jehovah's Witnesses
+
+;Protestant
+1,Methodist
+1,Presbyterian
+1,Baptist
+1,Lutheran
+1,Episcopal/Anglican
+1,Mormon
+1,AME Zion
+1,Seventh Day Adventist
+1,Protestant
+
+;Journalism
+1,Photographer
+1,Newspaper Columnist
+1,Writer
+1,Filmmaker
+1,Novelist
+1,Screenwriter
+
+;Criminal
+1,Brawler
+1,Murderer
+2,Burglar
+1,Professional Assassin
+1,Rapist
+2,Con Artist
+1,Getaway Driver
+2,Hacker
+2,Pickpocket
+1,Car Thief
+2,Mugger
+2,Prostitute
+1,Forger
+1,Embezzler
+1,Counterfeiter
+1,Literary Forger
+1,Jewel Thief
+1,Voyeur
+1,Pyromaniac
+2,Habitual Petty Offender
+1,False Informant
+1,Terrorist
+
+;Entertainer
+1,[Actingtype] Actor
+1,Singer
+1,Musician
+1,[Exotic] Dancer
+1,Escort
+1,Singing Telegram
+1,Comedian
+1,Caricaturist
+
+;Exotic
+3,
+1,Exotic
+
+;Actingtype
+3,
+1,Dramatic
+1,Supernumerary (Extra)
+1,Broadway
+2,Film
+2,Television
+1,Commercial
+
+

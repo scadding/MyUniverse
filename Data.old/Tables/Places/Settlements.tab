@@ -1,0 +1,82 @@
+
+;Start
+1,A [Type] [EnvironmentPhrase]. <br>
+
+
+;Type
+8,[TinyAdj] [Tiny]
+4,[SmallAdj] [Small]
+2,[Adjective] [Medium]
+1,[Adjective] [Large]
+
+;EnvironmentPhrase
+2,in the countryside
+1,in the desert
+2,in the hills
+1,in the mountains
+2,in the woodlands
+1,on the seaside
+1,on the riverside
+
+;Tiny
+1,bazaar
+1,convent
+1,guard station
+1,garrison
+1,hermitage
+1,market
+1,sanctuary
+1,trade station
+1,watchtower
+3,farmstead
+4,homestead
+
+;Small
+1,abbey
+1,cloister
+1,colony
+1,friary
+1,manor
+1,plantation
+1,priory
+1,settlement
+1,small fort
+1,trade outpost
+1,tribal camp
+1,villa
+2,hamlet
+3,crossroads
+3,village
+
+;Medium
+1,burg
+1,commune
+1,keep
+1,stronghold
+1,trade town
+2,township
+2,town
+
+;Large
+3,city
+1,castle
+1,citadel
+1,monastery
+
+;TinyAdj
+1,[Adjective]
+1, nearly-empty
+
+;SmallAdj
+1,[Adjective]
+1, bandit-infested
+1, starving
+1, rugged
+
+;Adjective
+1, prosperous
+1, run-down
+1, peaceful
+1, well-fortified
+
+

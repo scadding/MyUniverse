@@ -1,0 +1,43 @@
+
+
+;Start
+1,[4]
+1,[8]
+1,[Weighted]
+
+
+;4
+1,North
+1,South
+1,East
+1,West
+
+;8
+1,North
+1,Northeast
+1,East
+1,Southeast
+1,South
+1,Southwest
+1,West
+1,Northwest
+
+;Weighted
+4,North
+1,North by Northeast
+2,Northeast
+1,East by Northeast
+4,East
+1,East by Southeast
+2,Southeast
+1,South by Southeast
+4,South
+1,South by Southwest
+2,Southwest
+1,West by Southwest
+4,West
+1,West by Northwest
+2,Northwest
+1,North by Northwest
+
+

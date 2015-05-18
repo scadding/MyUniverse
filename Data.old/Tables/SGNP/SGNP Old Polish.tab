@@ -1,0 +1,514 @@
+
+;Start
+1,[OldPolishMFirst] [OldPolishMSurname] (male)
+1,[OldPolishFFirst] [OldPolishFSurname] (female)
+
+;OldPolishMFirst
+1,Achacy
+1,Adam
+1,Albert
+1,Aleksander
+1,Ambroży
+1,Andrzej
+1,Antoni
+1,August
+1,Balcer
+1,Baltazar
+1,Bartłomiej
+1,Bazyli
+1,Benedykt
+1,Błażej
+1,Bogdan
+1,Boguchwał
+1,Bogumił
+1,Bogusław
+1,Bolesław
+1,Bonawentura
+1,Bożydar
+1,Bożywoj
+1,Bronisław
+1,Chwalimir
+1,Ciesław
+1,Cieszyrad
+1,Cyprian
+1,Czcisław
+1,Damian
+1,Daniel
+1,Dawid
+1,Dobiesław
+1,Dobran
+1,Dobromir
+1,Dominik
+1,Dytrych
+1,Dziebor
+1,Eliasz
+1,Erazm
+1,Ernest
+1,Falmirz
+1,Fedor
+1,Filip
+1,Franciszek
+1,Fryderyk
+1,Gnierat
+1,Gniewomir
+1,Gorazd
+1,Grzegorz
+1,Hawryła
+1,Henryk
+1,Herman
+1,Hieronim
+1,Iwaszko
+1,Izabor
+1,Jakub
+1,Jan
+1,Janusza
+1,Jaropełk
+1,Jerzy
+1,Joachim
+1,Jutrowoj
+1,Karol
+1,Kasper
+1,Kazimierz
+1,Klemens
+1,Konrad
+1,Konstanty
+1,Kornel
+1,Krystyn
+1,Krzesąd
+1,Krzysztof
+1,Lech
+1,Lesław
+1,Leszek
+1,Lubomił
+1,Lutobor
+1,Lutogniew
+1,Lutosław
+1,Łękomir
+1,Łukasz
+1,Małowid
+1,Marcin
+1,Marek
+1,Masław
+1,Mateusz
+1,Melchior
+1,Michał
+1,Mieszko
+1,Mikołaj
+1,Miłobrat
+1,Miłogniew
+1,Mirosław
+1,Mściwój
+1,Namysław
+1,Nażyr
+1,Niebylec
+1,Niepełka
+1,Okrzesław
+1,Pakosław
+1,Paweł
+1,Piotr
+1,Pomścibor
+1,Przemęt
+1,Przemysł
+1,Przybulut
+1,Radosław
+1,Rafał
+1,Rościsław
+1,Rzędzimir
+1,Sambor
+1,Sebastian
+1,Siebąd
+1,Sieciech
+1,Siemion
+1,Siemoradz
+1,Stanisław
+1,Stefan
+1,Sulibrat
+1,Szymon
+1,Teodor
+1,Tomasz
+1,Twardostoj
+1,Ubysław
+1,Walenty
+1,Wasyl
+1,Wawrzyniec
+1,Wielimir
+1,Wit
+1,Władysław
+1,Włościbyt
+1,Wojciech
+1,Wojsław
+1,Wszebąd
+1,Zachariasz
+1,Zdziebąd
+1,Ziemowit
+1,Zybult
+1,Żegota
+1,Żelimysł
+
+;OldPolishFFirst
+1,Adelajda
+1,Agnieszka
+1,Aldona
+1,Aleksandra
+1,Alicja
+1,Aniela
+1,Anna
+1,Barbara
+1,Bogumiła
+1,Bolesława
+1,Bolka
+1,Bożena
+1,Bronisława
+1,Celina
+1,Danuta
+1,Dobrawa
+1,Dobromiła
+1,Dorota
+1,Edyta
+1,Elżbieta
+1,Franciszka
+1,Godzimira
+1,Grodzisława
+1,Gryfina
+1,Grzymisława
+1,Guta
+1,Helena
+1,Jadwiga
+1,Judyta
+1,Katarzyna
+1,Kazimiera
+1,Kinga
+1,Konstancja
+1,Krystyna
+1,Kunegunda
+1,Ludgarda
+1,Ludmiła
+1,Ludomira
+1,Łucja
+1,Małgorzata
+1,Maria
+1,Marianna
+1,Matylda
+1,Mieczysława
+1,Modliboga
+1,Mszczuja
+1,Nawojka
+1,Oda
+1,Pakosława
+1,Przybysława
+1,Radochna
+1,Rycheza
+1,Ryksa
+1,Ryksa
+1,Ryksa
+1,Rzepicha
+1,Salomea
+1,Sława
+1,Ścibora
+1,Święta
+1,Tolisława
+1,Wierzchosława
+1,Wiola
+1,Wisława
+1,Wszebora
+1,Zbysława
+1,Zofia
+1,Zuzanna
+1,Zwinisława
+1,Żelisława
+
+;OldPolishMSurname
+1, Adamowic
+1, Aksantowic
+1, Ambroszkiewic
+1, Arendt
+1, Bazylik
+1, Bełza
+1, Białokurowicz
+1, Bielski
+1, Bierzyński
+1, Borek
+1, Brzezecki
+1, Byliński
+1, Czapliński
+1, Czernic
+1, Czyż
+1, Dudycz
+1, Gęba
+1, Głowic
+1, Głuchowski
+1, Gniewski
+1, Gromadzki
+1, Gruby
+1, herbu Awdaniec
+1, herbu Bazylik
+1, herbu Beczę
+1, herbu Bekiesz
+1, herbu Dęboróg
+1, herbu Dolaczko
+1, herbu Dołęga
+1, herbu Drzewica
+1, herbu Dudycz
+1, herbu Janina
+1, herbu Jeleń
+1, herbu Jelita
+1, herbu Kościesza
+1, herbu Kotwic
+1, herbu Koźlakowski
+1, herbu Leworyb
+1, herbu Limanowski
+1, herbu Łabędź
+1, herbu Nałęcz
+1, herbu Newlin
+1, herbu Nowina
+1, herbu Odrowąż
+1, herbu Ostoja
+1, herbu Pogoń
+1, herbu Pomian
+1, herbu Poraj
+1, herbu Przestrzał
+1, herbu Radzie
+1, herbu Rawa
+1, herbu Rogala
+1, herbu Rola
+1, herbu Strzała
+1, herbu Świnka
+1, herbu Wężyk
+1, Janczewski
+1, Juchnowski
+1, Jurewicz
+1, kanonik warmiński
+1, Kanty
+1, kapitan straży morskiej
+1, Kędzierzawy
+1, Kierl
+1, Kita
+1, Koniecki
+1, Kosmas
+1, Królikowski
+1, Krzepicki
+1, Kulawy
+1, lekarz królewski
+1, Liczbiński
+1, Łączyński
+1, Mazur
+1, Michnowycz
+1, Miciun
+1, mieszczanin gdański
+1, mieszczanin krakowski
+1, mieszczanin lwowski
+1, mieszczanin łukowski
+1, mieszczanin stężycki
+1, mieszczanin toruński
+1, Mileński
+1, Mohyła
+1, Nabialek
+1, notariusz kancelarii królewskiej
+1, Oczko
+1, Ofanasowicz
+1, Paczko
+1, Panasewicz
+1, Powsiński
+1, Pudłowski
+1, rajca gdański
+1, rajca krakowski
+1, rotmistrz królewski
+1, Rzepkowski
+1, Sambor
+1, Sienicki
+1, Sienko
+1, Sieroszewski
+1, sołtys z Wodzisławia
+1, Sprośny
+1, Stebnicki
+1, Strobicz
+1, Strojec
+1, Sudoł
+1, syn kasztelana
+1, syn Łątka bartnika
+1, syn Siraka bednarza
+1, Szczudlik
+1, Szydłowski
+1, Ślepy
+1, Wąsowicz
+1, Wielkołucki
+1, Wierzchlejski
+1, Wojewodzic
+1, z Braniewa
+1, z Brzezia
+1, z Byczyny
+1, z Chojnic
+1, z Gdańska
+1, z Kazimierza
+1, z Krakowa
+1, z Litwy
+1, z Łowicza
+1, z Malborka
+1, z Mińska
+1, z Sieradza
+1, z Torunia
+1, z Urzędowa
+1, Zaleski
+1, Zawada
+1, ze Lwowa
+1, ze Strażnicy
+1, ze Śląska
+1, zwany Białym
+1, zwany Bogiel
+1, zwany Bydgosta z Poznania
+1, zwany Choykowicz
+1, zwany Doktor
+1, zwany Konicz z Brzezin
+1, zwany Kulawym
+1, zwany Ligęza z Gorzyc
+1, zwany Łysym
+1, zwany Pękawka
+1, zwany Słówką ze Szczawina
+1, zwany Szyszka z Górki
+1, zwany Zajączek
+1, Żarowski
+1, Żurek
+
+;OldPolishFSurname
+1, Adamowa
+1, Andrzejowa
+1, Arendtowa
+1, Bazylik
+1, Bełza
+1, Białokurowicz
+1, Bielska
+1, Bierzyńska
+1, Borek
+1, Brzezecka
+1, Bylińska
+1, córka Barnaby kołodzieja
+1, córka Godzięby stelmacha
+1, córka kasztelana kłodawskiego
+1, Czaplińska
+1, Czernicówna
+1, Czyżanka
+1, Dudyczowa
+1, Gęba
+1, Głowic
+1, Głuchowska
+1, Gniewska
+1, Gromadzka
+1, Gruba
+1, herbu Awdaniec
+1, herbu Bazylik
+1, herbu Beczę
+1, herbu Bekiesz
+1, herbu Dęboróg
+1, herbu Dolaczko
+1, herbu Dołęga
+1, herbu Drzewica
+1, herbu Dudycz
+1, herbu Janina
+1, herbu Jeleń
+1, herbu Jelita
+1, herbu Kościesza
+1, herbu Kotwic
+1, herbu Koźlakowski
+1, herbu Leworyb
+1, herbu Limanowski
+1, herbu Łabędź
+1, herbu Newlin
+1, herbu Nowina
+1, herbu Odrowąż
+1, herbu Ostoja
+1, herbu Pogoń
+1, herbu Pomian
+1, herbu Poraj
+1, herbu Przestrzał
+1, herbu Radzie
+1, herbu Rawa
+1, herbu Rogala
+1, herbu Rola
+1, herbu Strzała
+1, herbu Świnka
+1, herbu Wężyk
+1, Janczewska
+1, Juchnowska
+1, Jurewiczowa
+1, Kanty
+1, Kierlowa
+1, Kitowa
+1, Koniecka
+1, Kosmas
+1, Królikowska
+1, Krzepicka
+1, Kulawa
+1, Liczbińska
+1, Łączyńska
+1, Mazur
+1, Michnowyczowa
+1, Miciunowa
+1, mieszczka gdańska
+1, mieszczka krakowska
+1, mieszczka lwowska
+1, mieszczka łukowska
+1, mieszczka stężycka
+1, mieszczka toruńska
+1, Mileńska
+1, Mohyłowa
+1, Nabialek
+1, Oczko
+1, Paczkówna
+1, Panasewiczowa
+1, Powsińska
+1, przekupka krakowska
+1, Pudłowska
+1, rotmistrzowa
+1, Rzepkowska
+1, Sambor
+1, Sienicka
+1, Sienko
+1, Sieroszewska
+1, sołtysowa wodzisławska
+1, Sprośna
+1, Stebnicka
+1, Strobiczowa
+1, Strojecka
+1, Sudołówna
+1, Szczudlikówna
+1, Szydłowska
+1, Ślepa
+1, Wąsowicz
+1, Wielkołucka
+1, Wierzchlejska
+1, z Braniewa
+1, z Brzezia
+1, z Byczyny
+1, z Chojnic
+1, z Gdańska
+1, z Kazimierza
+1, z Krakowa
+1, z Litwy
+1, z Łowicza
+1, z Malborka
+1, z Mińska
+1, z Sieradza
+1, z Torunia
+1, z Urzędowa
+1, Zaleska
+1, Zawadowa
+1, ze Lwowa
+1, ze Strażnicy
+1, ze Śląska
+1, zwana Bartoszową
+1, zwana Beznogą
+1, zwana Błogosławioną
+1, zwana Bogiel
+1, zwana Konicz z Brzezin
+1, zwana Kotulanką
+1, zwana Kwaśną 
+1, zwana Ligęza z Gorzyc
+1, zwana Maryną z Piotrkowa
+1, zwana Prędką 
+1, zwana Ropuchą
+1, zwana Słówką z Wiślicy
+1, zwana Szyszką z Gostynia
+1, Żarowska
+1, Żurkowa
+
+

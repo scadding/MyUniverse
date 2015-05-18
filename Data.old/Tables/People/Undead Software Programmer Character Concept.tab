@@ -1,0 +1,29 @@
+
+;Start
+1,[Quick NPC.NPCDescriptor] [undeadType] must balance between the demands of a career as [Technical Job Title.Start] working to [Web Economy BS.Start] and [personalConflict].
+
+;undeadType
+1,vampire
+1,ghoul
+1,zombie
+1,lich
+1,ghost
+1,revenant
+1,banshee
+1,wendigo
+1,Norse draugr
+1,nature spirit
+1,spectre
+
+;personalConflict
+1,letting go of the last shreds of its humanity
+1,giving in to the cold, Alaska winters once and for all
+1,finding time for leisure pursuits
+1,seeking out brains to eat
+1,designing games for on-line challenges
+1,seeking out others of its kind
+1,limiting dinner visits to Thai Palace on 36th in Anchorage
+1,finding love
+1,its responsibilities as a creature of legend to the local Inuit
+
+

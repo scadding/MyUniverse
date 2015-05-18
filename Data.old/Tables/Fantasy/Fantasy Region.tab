@@ -1,0 +1,259 @@
+
+;Start
+1,[PlaceName] is a [NationQuality] [NationType] [NationPlace]. <br/>The weather there is usually [Weather.Start] <br/>It is ruled by [Ruler]. <br/>The people of this domain are [CitizenQuality]. <br/>This domain is famous because [LandQuality]. <br/>The laws of this domain are [Laws].  Punishments for misdeeds tend to [Punishment]. <br/>Recently, [RecentEvent]
+1,[PlaceName] is a [NationQuality] [NationType] [NationPlace]. <br/>The weather there is usually [Weather.Start] <br/>It is ruled by [Ruler]. <br/>This domain gives a strong sense of being [LandPersonality]. <br/>This domain is famous because [LandQuality]. <br/>The laws of this domain are [Laws].  Punishments for misdeeds tend to [Punishment]. <br/>Recently, [RecentEvent]
+1,[PlaceName] is a [NationQuality] [NationType] [NationPlace]. <br/>The weather there is usually [Weather.Start] <br/>It is ruled by [Ruler]. <br/>This domain gives a strong sense of being [LandPersonality].<br/>The people of this domain are [CitizenQuality].<br/>This domain is famous because [LandQuality]. <br/>The laws of this domain are [Laws].  Punishments for misdeeds tend to [Punishment]. <br/>Recently, [RecentEvent]
+
+;Display
+1,[PlaceName] is a [NationQuality] [NationType] [NationPlace].
+
+;PlaceName
+1,[Fantasy Town Names.Start] 
+1,[DitV Town Name.Start]
+1,[Fantasy Landmarks.Start]
+
+;NationType
+1,city-state
+1,colony
+1,farmland
+1,kingdom
+1,metropolis
+1,nation
+1,principality
+1,tribe
+
+;NationQuality
+1,dangerous
+1,desperate
+1,independent
+1,large
+1,new-found
+1,poor
+1,ruined
+1,secretive
+1,small
+1,thriving
+1,wealthy
+
+;NationPlace
+5,in a tropical paradise
+5,in a desert wasteland
+5,in the frozen north
+5,in a grassy plain
+5,in an archipelago
+5,in a deep forest
+5,in a volcanic area
+5,near a great river
+5,in the high mountains
+5,in a lush river valley
+5,in a wet jungle
+5,in a murky swampland
+1,deep in the ocean
+1,suspended over a mighty gorge
+1,drifting through the clouds
+1,floating over the seas
+1,in a vast underground cavern
+1,built on a gigantic tree
+
+;Ruler
+5,[RulerQuality] leader
+1,a byzantine bureaucracy
+1,a council of elders
+1,a council of elected officials
+1,a crime lord
+1,a dragon
+1,a judge
+1,a matriarch
+1,a monarch
+1,a monster
+1,a newcomer
+1,a patriarch
+1,a powerful magus
+1,a prominent guild
+1,a regent
+1,a spirit
+1,a tribal chief
+1,a usurper
+1,a wealthy merchant
+1,an individual selected by lottery
+1,no one - it is a commune
+1,no one - it is an anarchy
+1,priests
+1,the aristocracy
+1,the military
+1,the most prominent landowner
+1,a genius
+1,an ancient vampire
+
+;RulerQuality
+1,a charismatic
+1,a divinely chosen
+1,a foolish
+1,a paranoid
+1,a popular
+1,a tyranical
+1,a wise
+1,a youthful
+1,an aged
+1,an earnest
+1,an evil
+1,an unpopular
+1,an unpredictable
+1,an unwed
+1,an insane
+1,a clever
+1,a cunning
+1,an educated
+1,a virtuous
+1,a pious
+1,a greedy
+1,a scheming
+1,a ruthless
+
+;CitizenQuality
+1,elves
+1,humans
+1,dwarves
+1,orcs
+1,gnomes
+1,halflings
+1,undead
+1,monsters
+1,giants
+1,cannibals
+1,vegetarians
+1,psychic
+1,magic-users
+1,very superstitious
+1,very xenophobic
+1,very pious
+1,generally law-abiding
+1,revolting against their leader
+1,excellent craftsmen
+1,farmers
+1,invisible
+1,barbarians
+1,impoverished
+1,generally wealthy
+1,happy
+1,miserable
+1,unusually tall
+1,unusually short
+1,fond of good food, drink, and merrymaking
+1,hard workers
+1,violent
+1,easily offended
+1,very gullible
+1,very suspicious
+1,very warlike
+1,cuthroats and pirates
+1,cuthroat businessmen
+1,oppressed
+
+;LandPersonality
+1,worn and weary
+1,friendly and hospitable
+1,bright and cheerful
+1,full of ensorcellment and illusion
+1,very ancient
+1,guarded, ready for battle at any moment
+1,boisterous and lively
+1,gray and gloomy
+1,very dangerous
+1,calm and peaceful
+1,grim and forboding
+1,hardworking and prosperous
+1,greedy and grasping
+1,haunted
+1,boorish and unsophisticated
+1,filthy and disease-ridden
+1,dark and forbidding
+1,efficient and business-like
+1,suppressed and cowed
+1,in harmony with the nature around it
+1,green and full of life
+1,drab and hopeless
+1,foreign and apart from the civilization(s) around it
+1,shiny and new
+1,neglected and dying out
+1,strict and dogmatic
+1,very poorly organized
+1,tense and desperate
+1,a sleepy little place
+1,harsh and hostile
+1,grubby and poorly cared for
+1,idealistic and hopeful
+1,strong and independent
+1,innocent and gullible
+1,laid-back and lazy
+1,cold and lonely
+1,full of brooding malevolence
+1,filled with a spirit of goodness and harmony
+1,a place of deep mystery
+1,old-fashioned and full of nostalgia
+1,very pious
+1,eerily quiet
+1,full of seething rebellion
+1,sophisticated and refined
+1,very respectable
+1,shifty and untrustworthy
+1,merry and sociable
+1,solemn and proud
+1,neat and tidy
+
+;LandQuality
+1,a great hero came from this land
+1,a great hero performed mighty deeds in this land
+1,a well-known craftsman practices here
+1,a well-known holy person lives here
+1,an infamous villain lives here
+1,it is very ancient, and has many ruins from a lost civilization
+1,it is a place of spectacular natural beauty
+1,it is a place of uncanny magical occurances
+1,of its amazing hanging gardens
+1,of a giant statue whose form dominates the landscape
+1,of its beautiful temple
+1,its impregnable defences
+1,of the vile disease that all if its inhabitants suffer from
+1,of the exceptional horses that are bred here
+1,of the cloth that is woven here
+1,of the crops that are grown here
+1,of the gems that are mined here
+1,of the metals that are mined here
+1,of the horrible monsters that inhabit the countryside
+1,a miracle happened here, and many devout people visit on pilgrimage
+1,of a large festival that happens here every year
+1,of its exceptional hunting grounds
+1,a terrible battle happened here
+1,the citizens [Fantasy Farmstead.Product]
+1,[Secret Society Title.SecretSocietyName] are based here
+
+;Laws
+1,almost nonexistent
+1,favorable to one class of citizens over another
+1,harsh and unjust
+1,just and fair
+1,nonsensical
+1,very strict
+1,more like “guidelines”
+
+;Punishment
+1,be almost nonexistent
+1,be banishment
+1,be conducted behind closed doors, so no one is sure what happens - except that the survivors emerge changed and broken
+1,be enacted or strongly supported by enraged citizenry
+1,be fatal
+1,be harsh and public
+1,be just and fair
+1,be much harsher for one class of citizens than another
+1,fit the crime
+1,involve loss of property
+1,lean heavily toward public humiliation
+
+;RecentEvent
+3,the land has experienced [Art Grace and Guts Oracle.Events Lcase].
+2,the land has been threatened by [Art Grace and Guts Oracle.Threats Lcase].
+1,the land has been threatened by [Champion of darkness.champion].
+
+
+

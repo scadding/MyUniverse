@@ -1,0 +1,120 @@
+
+;Start
+1,[ePulpHeroNovel]
+
+;ePulpNoun
+1,Elephant
+1,Elevator
+1,Escalator
+1,Evacuation
+1,Evacuee
+1,Exit Ramp
+1,Emerald
+1,Enologist
+1,Entomologist
+1,Evaluation
+1,EMT
+1,Enigma
+1,Earnings
+1,E-mail
+1,Encyclopedia
+1,Emergency
+1,Eddy
+1,Emulator
+1,Estoppel
+1,Eviction
+1,Endgame
+1,Entrance Ramp
+1,Evening
+1,Earmark
+
+;ePulpAdjNegative
+1,Edged
+1,Edgy
+1,Edumacated
+1,Eerie
+1,Egotist
+1,Egotistical
+1,Emetophobic
+1,Endangered
+1,Ergophobic
+1,Ergot-infested
+1,Evanescent
+1,Evasive
+1,Evil
+
+;ePulpAdjPositive
+1,Eager
+1,Early-rising
+1,Easy
+1,Educated
+1,Effective
+1,Effervescent
+1,Efficient
+1,Effusive
+1,Elegant
+1,Eloquent
+1,Endowed
+1,Even-Tempered
+1,Excellent
+
+;ePulpMaleFirstName
+1,Ed
+1,Eb
+1,Earl
+1,Edward
+1,Eddie
+1,Edwin
+1,Evan
+1,Ernie
+1,Edison
+1,Evander
+1,Excalibur
+1,Egbert
+
+;ePulpFemaleFirstName
+1,Emily
+1,Elyse
+1,Emma
+1,Ellie
+1,Estella
+1,Eleanor
+1,Eloise
+1,Eden
+1,Eva
+1,Eve
+1,Eliza
+1,Ellen
+1,Emmeline
+1,Elizabeth
+1,Evandine
+1,Emily
+1,Ella
+1,Erin
+
+;ePulpLastName
+1,Effect
+1,Evictor
+1,Euchre
+1,Eberhart
+1,Evening
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the Enigma of the
+1,and the End of the
+1,in:
+1,versus the
+1,and [ePulpAdjPositive] [ePulpMaleFirstName]'s 
+
+;pulpend
+1,[ePulpAdjNegative] [ePulpNoun]
+
+;ePulpHeroNovel
+10,[ePulpAdjPositive] [ePulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[ePulpMaleFirstName] [ePulpLastName] [pulpmiddle] [pulpend]
+10,[ePulpAdjPositive] [ePulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[ePulpFemaleFirstName] [ePulpLastName] [pulpmiddle] [pulpend]
+
+

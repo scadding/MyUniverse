@@ -1,0 +1,19 @@
+text {font-size: 16pt; font-family: Optima, Helvetica, sans-serif; text-anchor: middle;}
+text a {fill: blue; text-decoration: underline;}
+.coordinates {fill-opacity: 0.5;}
+.starport, .base {font-size: 20pt; text-anchor: middle;}
+.direction {font-size: 24pt;}
+.legend {text-anchor: start; font-size: 14pt;}
+tspan.comm {fill: #ff6347; /* tomato */}
+line.comm {stroke-width: 10pt; stroke: #ff6347; /* tomato */}
+polyline.trade {stroke-width: 1pt; stroke-linecap: round; stroke-linejoin: round; stroke: grey; fill: none; display: none;}
+tspan.trade {fill: #afeeee; /* pale turquoise */}
+line.main {stroke-width: 6pt; stroke: #afeeee; /* pale turquoise */ fill: none;}
+.code {opacity: 0.3;}
+.amber {fill: none; stroke-width: 1pt; stroke: black;}
+.red {fill: red;}
+.hydro {fill: none; stroke-width: 2pt; stroke: black;}
+#hex {stroke-width: 3pt; fill: none; stroke: black;}
+#hexblue {stroke-width: 3pt; fill: blue; stroke: black;}
+#hexgreen {stroke-width: 3pt; fill: green; stroke: black;}
+#hexbrown {stroke-width: 3pt; fill: #eedd82; stroke: black;}

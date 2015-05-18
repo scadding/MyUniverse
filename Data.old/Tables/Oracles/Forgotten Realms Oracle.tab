@@ -1,0 +1,1517 @@
+
+;Start
+1,[Faerun]
+
+;Faerun
+10,[Aglarond]
+10,[Akanul]
+10,[Amn]
+1,[Baldurs Gate]
+1,[Beastlands]
+1,[Calimshan]
+1,[Chessenta]
+1,[Chult]
+1,[Cormyr]
+1,[Dalelands]
+1,[Damara]
+1,[Dambrath]
+1,[Dragon Coast]
+1,[Durpar]
+1,[East Rift]
+1,[Elfharrow]
+1,[Elturgard]
+1,[Erlkazar]
+1,[Estagund]
+1,[Evereska]
+1,[Evermeet]
+1,[Great Dale]
+1,[Halruaa]
+1,[High Imaskar]
+1,[Hordelands]
+1,[Impiltur]
+1,[Lake of Steam]
+1,[Luruar]
+1,[Luskan]
+1,[Many-Arrows]
+1,[Moonsea]
+1,[Moonshae Isles]
+1,[Murghom]
+1,[Myth Drannor]
+1,[Najara]
+1,[Narfell]
+1,[Nelanther Isles]
+1,[Netheril]
+1,[Okoth]
+1,[Rashemen]
+1,[Raurin]
+1,[Sea of Fallen Stars]
+1,[Sembia]
+1,[Tethyr]
+1,[Thay]
+1,[Thesk]
+1,[Turmish]
+1,[Tymanther]
+1,[Vaasa]
+1,[Var the Drowned]
+1,[Velen]
+1,[Vesperin]
+1,[Vilhon Wilds]
+1,[Waterdeep]
+
+
+;Aglarond
+2,[Aglarond Individuals]
+1,[Aglarond Relationships]
+1,[Aglarond Places]
+1,[Aglarond Events]
+1,[Aglarond Objects]
+1,[Aglarond Monsters]
+
+;Aglarond Individuals
+1,Seriadne, a malaugrym disguised as an elf Simbarch of Aglarond, seeking to advance her own sinister agenda.
+1,The former Simbul of Aglarond, living in the Dalelands but assumed dead in her own country.
+1,A soldier of the Army of the Green Drake in Aglarond, patrolling the Watchwall against the horrors of the Umber Marshes
+1,A born defender of Aglarond, sworn to do her duty to defend against Thay and its undead menace.
+1,A Thayan refugee in Aglarond, hoping to restore the Red Wizards to their rightful place and unseat the undead-obsessed necromancers.
+1,A ranger of the Yuirwood, willing to sacrifice anything to preserve the wild places from evil or encroachment.
+
+;Aglarond Relationships
+1,A sinister alliance between Ambal, leader of the Stone Bears theives ring, and Ertrel, a Simbarch of Aglarond.
+1,Human nobles of Aglarond, unhappy with being ruled by spellcasters, funneling money to Ambal of the Stone Bears in the hope of a revolution.
+
+;Aglarond Places
+1,The slums of Old Velprintalar in Aglarond, abandoned to squatters and street gangs.
+1,Undumor, a Thayan outpost in Aglarond, commanded by a sinister necromancer and his vampire knights.
+1,The sunken city of Laokuth the Drowned in Aglaron, and its treasures.
+
+;Aglarond Events
+1,An army of Thayan undead, marching to retake Wizard's Reach from Aglarond.
+1,An attempt by the untried woodsmen and youths of Citadel Dantalien in Aglarond to retake Undumor from the Thayans.
+1,The disappearance of a family member in western Aglarond, which the locals attribute to the 'Velprin Witches' who haunt the Yuirwood.
+
+;Aglarond Objects
+1,The corpse of the god Velsharoon, safeguarded from evil hands by an elite and holy guardsman at a secret location in Aglarond.
+1,An ancient, malfunctioning portal deep within the Yuirwood of Aglarond, and its fey guardian.
+
+;Aglarond Monsters
+1,An opportunistic and large tribe of goblins in the Tannath Mountains of Aglarond, and their half-demon king.
+1,A wild tribe of half-elves and elves in the Yuirwood, disdainful of the Simbul Council who now control Aglarond. 
+
+
+;Akanul
+2,[Akanul Individuals]
+1,[Akanul Relationships]
+1,[Akanul Places]
+1,[Akanul Events]
+1,[Akanul Objects]
+1,[Akanul Monsters]
+
+;Akanul Individuals
+1,An air genasi patrolman in Airspur, Akunul, and his war-drake mount.
+1,Arathane, queen of Akanul, ruling from her spiretop throne but aloof to the danger that threatens it.
+1,Tradrem Kethtrod, Earth Steward of Akanul and head of its legion of spies.
+1,Magnol, Fire Steward of Akanul and head of its armed forces.
+1,Myxofin, Sea Steward of Akanul, entrusted with the business of the realm.
+1,Lehaya, Sky Steward of Akanul, and administrator of its laws.
+1,A genasi youth of Akanul, fleeing from the merchant's life in search of adventure and danger.
+1,An Airspur Mercenary, determined to strike out against the Abolethic Sovreignty that threatens Akanul.
+
+
+;Akanul Relationships
+1,The rivalry between two master drake-breeders in Akanul.
+
+;Akanul Places
+1,The swaying suspension bridges of Alkanul, home to drake drawn carriages.
+1,The Brassune Safehold in Akanul, under seige by kuo-toa servants of the Abolethic Sovreignty.
+
+;Akanul Events
+1,A patrol of The Firestorm Cabal on the northeastern frontier of Akanul, looking for trouble.
+
+;Akanul Objects
+1,The Glass Mesa in Akanul, taboo to its citizens but sought after by those who know its true purpose.
+
+;Akanul Monsters
+1,A freefloating junglemote in the Chondalwood southwest of Akanul, ruled by a spellscarred satyr.
+1,The elves of Wildhome in the Chondalwood near Akanul, fierce defenders against human influence.
+
+;Amn
+2,[Amn Individuals]
+1,[Amn Relationships]
+1,[Amn Places]
+1,[Amn Events]
+1,[Amn Objects]
+1,[Amn Monsters]
+
+;Amn Individuals
+1,The Tessarch of Amn, secret master over the notorious Shadow Theives.
+1,An Amnian merchant, voracious in his greed and shrewd in his dealings.
+1,The captain of an Amnian merchant ship, due to sail from port with valuable but secret cargo.
+1,An independent thief with a score to settle against the Shadow Thieves in Crimmor of Amn.
+1,A young and impressionable recruit of the Blazing Swords adventuring company in Amn.
+
+
+
+;Amn Relationships
+1,A Cowled Wizard assassin, hunting down the enemies of Amn's Meisarch and House Selemchant.
+1,An agent of the Church of Cyric, working by subtlety to elevate the Pommarch of Amn to the head of the Council of Five.
+1,A monster hunter of Amn, guiding a wealthy noble on a hunting expedition so he can boast of the beasts he has slain to his posh cronies.
+
+;Amn Places
+1,The marketplace of Athkatla, capital of Amn, where absolutely anything can be obtained for the right price.
+1,The Mountain of Skulls, a hidden temple of Cyric in the Cloud Peaks of Northern Amn, and its chief priest.
+1,The mysterious Spellhold in Anm, once a Cowled Wizard sanctuary but now a place of death and danger.
+
+;Amn Events
+1,The departure of an important caravan from Crimmor in Amn, loaded with every variety of valuable commodities.
+
+;Amn Objects
+
+
+;Amn Monsters
+1,The Great Mur, king of the monsters in Muranndin, south of Amn.
+
+
+;Baldurs Gate
+1,[Baldurs Gate Individuals]
+1,[Baldurs Gate Relationships]
+1,[Baldurs Gate Places]
+1,[Baldurs Gate Events]
+1,[Baldurs Gate Objects]
+1,[Baldurs Gate Monsters]
+
+;Baldurs Gate Individuals
+
+;Baldurs Gate Relationships
+
+;Baldurs Gate Places
+
+;Baldurs Gate Events
+
+;Baldurs Gate Objects
+
+;Baldurs Gate Monsters
+
+;Beastlands
+1,[Beastlands Individuals]
+1,[Beastlands Relationships]
+1,[Beastlands Places]
+1,[Beastlands Events]
+1,[Beastlands Objects]
+1,[Beastlands Monsters]
+
+;Beastlands Individuals
+
+;Beastlands Relationships
+
+;Beastlands Places
+
+;Beastlands Events
+
+;Beastlands Objects
+
+;Beastlands Monsters
+
+;Calimshan
+1,[Calimshan Individuals]
+1,[Calimshan Relationships]
+1,[Calimshan Places]
+1,[Calimshan Events]
+1,[Calimshan Objects]
+1,[Calimshan Monsters]
+
+;Calimshan Individuals
+
+;Calimshan Relationships
+
+;Calimshan Places
+
+;Calimshan Events
+
+;Calimshan Objects
+
+;Calimshan Monsters
+
+;Chessenta
+1,[Chessenta Individuals]
+1,[Chessenta Relationships]
+1,[Chessenta Places]
+1,[Chessenta Events]
+1,[Chessenta Objects]
+1,[Chessenta Monsters]
+
+;Chessenta Individuals
+
+;Chessenta Relationships
+
+;Chessenta Places
+
+;Chessenta Events
+
+;Chessenta Objects
+
+;Chessenta Monsters
+
+;Chult
+1,[Chult Individuals]
+1,[Chult Relationships]
+1,[Chult Places]
+1,[Chult Events]
+1,[Chult Objects]
+1,[Chult Monsters]
+
+;Chult Individuals
+
+;Chult Relationships
+
+;Chult Places
+
+;Chult Events
+
+;Chult Objects
+
+;Chult Monsters
+
+;Cormyr
+1,[Cormyr Individuals]
+1,[Cormyr Relationships]
+1,[Cormyr Places]
+1,[Cormyr Events]
+1,[Cormyr Objects]
+1,[Cormyr Monsters]
+
+;Cormyr Individuals
+
+;Cormyr Relationships
+
+;Cormyr Places
+
+;Cormyr Events
+
+;Cormyr Objects
+
+;Cormyr Monsters
+
+;Dalelands
+1,[Dalelands Individuals]
+1,[Dalelands Relationships]
+1,[Dalelands Places]
+1,[Dalelands Events]
+1,[Dalelands Objects]
+1,[Dalelands Monsters]
+
+;Dalelands Individuals
+
+;Dalelands Relationships
+
+;Dalelands Places
+
+;Dalelands Events
+
+;Dalelands Objects
+
+;Dalelands Monsters
+
+;Damara
+1,[Damara Individuals]
+1,[Damara Relationships]
+1,[Damara Places]
+1,[Damara Events]
+1,[Damara Objects]
+1,[Damara Monsters]
+
+;Damara Individuals
+
+;Damara Relationships
+
+;Damara Places
+
+;Damara Events
+
+;Damara Objects
+
+;Damara Monsters
+
+;Dambrath
+1,[Dambrath Individuals]
+1,[Dambrath Relationships]
+1,[Dambrath Places]
+1,[Dambrath Events]
+1,[Dambrath Objects]
+1,[Dambrath Monsters]
+
+;Dambrath Individuals
+
+;Dambrath Relationships
+
+;Dambrath Places
+
+;Dambrath Events
+
+;Dambrath Objects
+
+;Dambrath Monsters
+
+;Dragon Coast
+1,[Dragon Coast Individuals]
+1,[Dragon Coast Relationships]
+1,[Dragon Coast Places]
+1,[Dragon Coast Events]
+1,[Dragon Coast Objects]
+1,[Dragon Coast Monsters]
+
+;Dragon Coast Individuals
+
+;Dragon Coast Relationships
+
+;Dragon Coast Places
+
+;Dragon Coast Events
+
+;Dragon Coast Objects
+
+;Dragon Coast Monsters
+
+;Durpar
+1,[Durpar Individuals]
+1,[Durpar Relationships]
+1,[Durpar Places]
+1,[Durpar Events]
+1,[Durpar Objects]
+1,[Durpar Monsters]
+
+;Durpar Individuals
+
+;Durpar Relationships
+
+;Durpar Places
+
+;Durpar Events
+
+;Durpar Objects
+
+;Durpar Monsters
+
+;East Rift
+1,[East Rift Individuals]
+1,[East Rift Relationships]
+1,[East Rift Places]
+1,[East Rift Events]
+1,[East Rift Objects]
+1,[East Rift Monsters]
+
+;East Rift Individuals
+
+;East Rift Relationships
+
+;East Rift Places
+
+;East Rift Events
+
+;East Rift Objects
+
+;East Rift Monsters
+
+;Elfharrow
+1,[Elfharrow Individuals]
+1,[Elfharrow Relationships]
+1,[Elfharrow Places]
+1,[Elfharrow Events]
+1,[Elfharrow Objects]
+1,[Elfharrow Monsters]
+
+;Elfharrow Individuals
+
+;Elfharrow Relationships
+
+;Elfharrow Places
+
+;Elfharrow Events
+
+;Elfharrow Objects
+
+;Elfharrow Monsters
+
+;Elturgard
+1,[Elturgard Individuals]
+1,[Elturgard Relationships]
+1,[Elturgard Places]
+1,[Elturgard Events]
+1,[Elturgard Objects]
+1,[Elturgard Monsters]
+
+;Elturgard Individuals
+
+;Elturgard Relationships
+
+;Elturgard Places
+
+;Elturgard Events
+
+;Elturgard Objects
+
+;Elturgard Monsters
+
+;Erlkazar
+1,[Erlkazar Individuals]
+1,[Erlkazar Relationships]
+1,[Erlkazar Places]
+1,[Erlkazar Events]
+1,[Erlkazar Objects]
+1,[Erlkazar Monsters]
+
+;Erlkazar Individuals
+
+;Erlkazar Relationships
+
+;Erlkazar Places
+
+;Erlkazar Events
+
+;Erlkazar Objects
+
+;Erlkazar Monsters
+
+;Estagund
+1,[Estagund Individuals]
+1,[Estagund Relationships]
+1,[Estagund Places]
+1,[Estagund Events]
+1,[Estagund Objects]
+1,[Estagund Monsters]
+
+;Estagund Individuals
+
+;Estagund Relationships
+
+;Estagund Places
+
+;Estagund Events
+
+;Estagund Objects
+
+;Estagund Monsters
+
+;Evereska
+1,[Evereska Individuals]
+1,[Evereska Relationships]
+1,[Evereska Places]
+1,[Evereska Events]
+1,[Evereska Objects]
+1,[Evereska Monsters]
+
+;Evereska Individuals
+
+;Evereska Relationships
+
+;Evereska Places
+
+;Evereska Events
+
+;Evereska Objects
+
+;Evereska Monsters
+
+;Evermeet
+1,[Evermeet Individuals]
+1,[Evermeet Relationships]
+1,[Evermeet Places]
+1,[Evermeet Events]
+1,[Evermeet Objects]
+1,[Evermeet Monsters]
+
+;Evermeet Individuals
+
+;Evermeet Relationships
+
+;Evermeet Places
+
+;Evermeet Events
+
+;Evermeet Objects
+
+;Evermeet Monsters
+
+;Great Dale
+1,[Great Dale Individuals]
+1,[Great Dale Relationships]
+1,[Great Dale Places]
+1,[Great Dale Events]
+1,[Great Dale Objects]
+1,[Great Dale Monsters]
+
+;Great Dale Individuals
+
+;Great Dale Relationships
+
+;Great Dale Places
+
+;Great Dale Events
+
+;Great Dale Objects
+
+;Great Dale Monsters
+
+;Halruaa
+1,[Halruaa Individuals]
+1,[Halruaa Relationships]
+1,[Halruaa Places]
+1,[Halruaa Events]
+1,[Halruaa Objects]
+1,[Halruaa Monsters]
+
+;Halruaa Individuals
+
+;Halruaa Relationships
+
+;Halruaa Places
+
+;Halruaa Events
+
+;Halruaa Objects
+
+;Halruaa Monsters
+
+;High Imaskar
+1,[High Imaskar Individuals]
+1,[High Imaskar Relationships]
+1,[High Imaskar Places]
+1,[High Imaskar Events]
+1,[High Imaskar Objects]
+1,[High Imaskar Monsters]
+
+;High Imaskar Individuals
+
+;High Imaskar Relationships
+
+;High Imaskar Places
+
+;High Imaskar Events
+
+;High Imaskar Objects
+
+;High Imaskar Monsters
+
+;Hordelands
+1,[Hordelands Individuals]
+1,[Hordelands Relationships]
+1,[Hordelands Places]
+1,[Hordelands Events]
+1,[Hordelands Objects]
+1,[Hordelands Monsters]
+
+;Hordelands Individuals
+
+;Hordelands Relationships
+
+;Hordelands Places
+
+;Hordelands Events
+
+;Hordelands Objects
+
+;Hordelands Monsters
+
+;Impiltur
+1,[Impiltur Individuals]
+1,[Impiltur Relationships]
+1,[Impiltur Places]
+1,[Impiltur Events]
+1,[Impiltur Objects]
+1,[Impiltur Monsters]
+
+;Impiltur Individuals
+
+;Impiltur Relationships
+
+;Impiltur Places
+
+;Impiltur Events
+
+;Impiltur Objects
+
+;Impiltur Monsters
+
+;Lake of Steam
+1,[Lake of Steam Individuals]
+1,[Lake of Steam Relationships]
+1,[Lake of Steam Places]
+1,[Lake of Steam Events]
+1,[Lake of Steam Objects]
+1,[Lake of Steam Monsters]
+
+;Lake of Steam Individuals
+
+;Lake of Steam Relationships
+
+;Lake of Steam Places
+
+;Lake of Steam Events
+
+;Lake of Steam Objects
+
+;Lake of Steam Monsters
+
+;Luruar
+1,[Luruar Individuals]
+1,[Luruar Relationships]
+1,[Luruar Places]
+1,[Luruar Events]
+1,[Luruar Objects]
+1,[Luruar Monsters]
+
+;Luruar Individuals
+
+;Luruar Relationships
+
+;Luruar Places
+
+;Luruar Events
+
+;Luruar Objects
+
+;Luruar Monsters
+
+;Luskan
+1,[Luskan Individuals]
+1,[Luskan Relationships]
+1,[Luskan Places]
+1,[Luskan Events]
+1,[Luskan Objects]
+1,[Luskan Monsters]
+
+;Luskan Individuals
+
+;Luskan Relationships
+
+;Luskan Places
+
+;Luskan Events
+
+;Luskan Objects
+
+;Luskan Monsters
+
+;Many-Arrows
+1,[Many-Arrows Individuals]
+1,[Many-Arrows Relationships]
+1,[Many-Arrows Places]
+1,[Many-Arrows Events]
+1,[Many-Arrows Objects]
+1,[Many-Arrows Monsters]
+
+;Many-Arrows Individuals
+
+;Many-Arrows Relationships
+
+;Many-Arrows Places
+
+;Many-Arrows Events
+
+;Many-Arrows Objects
+
+;Many-Arrows Monsters
+
+;Moonsea
+1,[Moonsea Individuals]
+1,[Moonsea Relationships]
+1,[Moonsea Places]
+1,[Moonsea Events]
+1,[Moonsea Objects]
+1,[Moonsea Monsters]
+
+;Moonsea Individuals
+
+;Moonsea Relationships
+
+;Moonsea Places
+
+;Moonsea Events
+
+;Moonsea Objects
+
+;Moonsea Monsters
+
+;Moonshae Isles
+1,[Moonshae Isles Individuals]
+1,[Moonshae Isles Relationships]
+1,[Moonshae Isles Places]
+1,[Moonshae Isles Events]
+1,[Moonshae Isles Objects]
+1,[Moonshae Isles Monsters]
+
+;Moonshae Isles Individuals
+
+;Moonshae Isles Relationships
+
+;Moonshae Isles Places
+
+;Moonshae Isles Events
+
+;Moonshae Isles Objects
+
+;Moonshae Isles Monsters
+
+;Murghom
+1,[Murghom Individuals]
+1,[Murghom Relationships]
+1,[Murghom Places]
+1,[Murghom Events]
+1,[Murghom Objects]
+1,[Murghom Monsters]
+
+;Murghom Individuals
+
+;Murghom Relationships
+
+;Murghom Places
+
+;Murghom Events
+
+;Murghom Objects
+
+;Murghom Monsters
+
+;Myth Drannor
+1,[Myth Drannor Individuals]
+1,[Myth Drannor Relationships]
+1,[Myth Drannor Places]
+1,[Myth Drannor Events]
+1,[Myth Drannor Objects]
+1,[Myth Drannor Monsters]
+
+;Myth Drannor Individuals
+
+;Myth Drannor Relationships
+
+;Myth Drannor Places
+
+;Myth Drannor Events
+
+;Myth Drannor Objects
+
+;Myth Drannor Monsters
+
+;Najara
+1,[Najara Individuals]
+1,[Najara Relationships]
+1,[Najara Places]
+1,[Najara Events]
+1,[Najara Objects]
+1,[Najara Monsters]
+
+;Najara Individuals
+
+;Najara Relationships
+
+;Najara Places
+
+;Najara Events
+
+;Najara Objects
+
+;Najara Monsters
+
+;Narfell
+1,[Narfell Individuals]
+1,[Narfell Relationships]
+1,[Narfell Places]
+1,[Narfell Events]
+1,[Narfell Objects]
+1,[Narfell Monsters]
+
+;Narfell Individuals
+
+;Narfell Relationships
+
+;Narfell Places
+
+;Narfell Events
+
+;Narfell Objects
+
+;Narfell Monsters
+
+;Nelanther Isles
+1,[Nelanther Isles Individuals]
+1,[Nelanther Isles Relationships]
+1,[Nelanther Isles Places]
+1,[Nelanther Isles Events]
+1,[Nelanther Isles Objects]
+1,[Nelanther Isles Monsters]
+
+;Nelanther Isles Individuals
+
+;Nelanther Isles Relationships
+
+;Nelanther Isles Places
+
+;Nelanther Isles Events
+
+;Nelanther Isles Objects
+
+;Nelanther Isles Monsters
+
+;Netheril
+1,[Netheril Individuals]
+1,[Netheril Relationships]
+1,[Netheril Places]
+1,[Netheril Events]
+1,[Netheril Objects]
+1,[Netheril Monsters]
+
+;Netheril Individuals
+
+;Netheril Relationships
+
+;Netheril Places
+
+;Netheril Events
+
+;Netheril Objects
+
+;Netheril Monsters
+
+;Okoth
+1,[Okoth Individuals]
+1,[Okoth Relationships]
+1,[Okoth Places]
+1,[Okoth Events]
+1,[Okoth Objects]
+1,[Okoth Monsters]
+
+;Okoth Individuals
+
+;Okoth Relationships
+
+;Okoth Places
+
+;Okoth Events
+
+;Okoth Objects
+
+;Okoth Monsters
+
+;Rashemen
+1,[Rashemen Individuals]
+1,[Rashemen Relationships]
+1,[Rashemen Places]
+1,[Rashemen Events]
+1,[Rashemen Objects]
+1,[Rashemen Monsters]
+
+;Rashemen Individuals
+
+;Rashemen Relationships
+
+;Rashemen Places
+
+;Rashemen Events
+
+;Rashemen Objects
+
+;Rashemen Monsters
+
+;Raurin
+1,[Raurin Individuals]
+1,[Raurin Relationships]
+1,[Raurin Places]
+1,[Raurin Events]
+1,[Raurin Objects]
+1,[Raurin Monsters]
+
+;Raurin Individuals
+
+;Raurin Relationships
+
+;Raurin Places
+
+;Raurin Events
+
+;Raurin Objects
+
+;Raurin Monsters
+
+;Sea of Fallen Stars
+1,[Sea of Fallen Stars Individuals]
+1,[Sea of Fallen Stars Relationships]
+1,[Sea of Fallen Stars Places]
+1,[Sea of Fallen Stars Events]
+1,[Sea of Fallen Stars Objects]
+1,[Sea of Fallen Stars Monsters]
+
+;Sea of Fallen Stars Individuals
+
+;Sea of Fallen Stars Relationships
+
+;Sea of Fallen Stars Places
+
+;Sea of Fallen Stars Events
+
+;Sea of Fallen Stars Objects
+
+;Sea of Fallen Stars Monsters
+
+;Sembia
+1,[Sembia Individuals]
+1,[Sembia Relationships]
+1,[Sembia Places]
+1,[Sembia Events]
+1,[Sembia Objects]
+1,[Sembia Monsters]
+
+;Sembia Individuals
+
+;Sembia Relationships
+
+;Sembia Places
+
+;Sembia Events
+
+;Sembia Objects
+
+;Sembia Monsters
+
+;Tethyr
+1,[Tethyr Individuals]
+1,[Tethyr Relationships]
+1,[Tethyr Places]
+1,[Tethyr Events]
+1,[Tethyr Objects]
+1,[Tethyr Monsters]
+
+;Tethyr Individuals
+
+;Tethyr Relationships
+
+;Tethyr Places
+
+;Tethyr Events
+
+;Tethyr Objects
+
+;Tethyr Monsters
+
+;Thay
+1,[Thay Individuals]
+1,[Thay Relationships]
+1,[Thay Places]
+1,[Thay Events]
+1,[Thay Objects]
+1,[Thay Monsters]
+
+;Thay Individuals
+
+;Thay Relationships
+
+;Thay Places
+
+;Thay Events
+
+;Thay Objects
+
+;Thay Monsters
+
+;Thesk
+1,[Thesk Individuals]
+1,[Thesk Relationships]
+1,[Thesk Places]
+1,[Thesk Events]
+1,[Thesk Objects]
+1,[Thesk Monsters]
+
+;Thesk Individuals
+
+;Thesk Relationships
+
+;Thesk Places
+
+;Thesk Events
+
+;Thesk Objects
+
+;Thesk Monsters
+
+;Turmish
+1,[Turmish Individuals]
+1,[Turmish Relationships]
+1,[Turmish Places]
+1,[Turmish Events]
+1,[Turmish Objects]
+1,[Turmish Monsters]
+
+;Turmish Individuals
+
+;Turmish Relationships
+
+;Turmish Places
+
+;Turmish Events
+
+;Turmish Objects
+
+;Turmish Monsters
+
+;Tymanther
+1,[Tymanther Individuals]
+1,[Tymanther Relationships]
+1,[Tymanther Places]
+1,[Tymanther Events]
+1,[Tymanther Objects]
+1,[Tymanther Monsters]
+
+;Tymanther Individuals
+
+;Tymanther Relationships
+
+;Tymanther Places
+
+;Tymanther Events
+
+;Tymanther Objects
+
+;Tymanther Monsters
+
+;Vaasa
+1,[Vaasa Individuals]
+1,[Vaasa Relationships]
+1,[Vaasa Places]
+1,[Vaasa Events]
+1,[Vaasa Objects]
+1,[Vaasa Monsters]
+
+;Vaasa Individuals
+
+;Vaasa Relationships
+
+;Vaasa Places
+
+;Vaasa Events
+
+;Vaasa Objects
+
+;Vaasa Monsters
+
+;Var the Drowned
+1,[Var the Drowned Individuals]
+1,[Var the Drowned Relationships]
+1,[Var the Drowned Places]
+1,[Var the Drowned Events]
+1,[Var the Drowned Objects]
+1,[Var the Drowned Monsters]
+
+;Var the Drowned Individuals
+
+;Var the Drowned Relationships
+
+;Var the Drowned Places
+
+;Var the Drowned Events
+
+;Var the Drowned Objects
+
+;Var the Drowned Monsters
+
+;Velen
+1,[Velen Individuals]
+1,[Velen Relationships]
+1,[Velen Places]
+1,[Velen Events]
+1,[Velen Objects]
+1,[Velen Monsters]
+
+;Velen Individuals
+
+;Velen Relationships
+
+;Velen Places
+
+;Velen Events
+
+;Velen Objects
+
+;Velen Monsters
+
+;Vesperin
+1,[Vesperin Individuals]
+1,[Vesperin Relationships]
+1,[Vesperin Places]
+1,[Vesperin Events]
+1,[Vesperin Objects]
+1,[Vesperin Monsters]
+
+;Vesperin Individuals
+
+;Vesperin Relationships
+
+;Vesperin Places
+
+;Vesperin Events
+
+;Vesperin Objects
+
+;Vesperin Monsters
+
+;Vilhon Wilds
+1,[Vilhon Wilds Individuals]
+1,[Vilhon Wilds Relationships]
+1,[Vilhon Wilds Places]
+1,[Vilhon Wilds Events]
+1,[Vilhon Wilds Objects]
+1,[Vilhon Wilds Monsters]
+
+;Vilhon Wilds Individuals
+
+;Vilhon Wilds Relationships
+
+;Vilhon Wilds Places
+
+;Vilhon Wilds Events
+
+;Vilhon Wilds Objects
+
+;Vilhon Wilds Monsters
+
+;Waterdeep
+1,[Waterdeep Individuals]
+1,[Waterdeep Relationships]
+1,[Waterdeep Places]
+1,[Waterdeep Events]
+1,[Waterdeep Objects]
+1,[Waterdeep Monsters]
+
+;Waterdeep Individuals
+
+;Waterdeep Relationships
+
+;Waterdeep Places
+
+;Waterdeep Events
+
+;Waterdeep Objects
+
+;Waterdeep Monsters
+
+
+
+;Returned Abeir
+1,[Dusk Ports]
+1,[Eskorn]
+1,[Fimbrul]
+1,[Melabrauth]
+1,[Relmaur]
+1,[Skelkor]
+1,[Sword Lands]
+1,[Tarmalune]
+1,[Windrise Ports]
+
+;Dusk Ports
+1,[Dusk Ports Individuals]
+1,[Dusk Ports Relationships]
+1,[Dusk Ports Places]
+1,[Dusk Ports Events]
+1,[Dusk Ports Objects]
+1,[Dusk Ports Monsters]
+
+;Dusk Ports Individuals
+
+;Dusk Ports Relationships
+
+;Dusk Ports Places
+
+;Dusk Ports Events
+
+;Dusk Ports Objects
+
+;Dusk Ports Monsters
+
+;Eskorn
+1,[Eskorn Individuals]
+1,[Eskorn Relationships]
+1,[Eskorn Places]
+1,[Eskorn Events]
+1,[Eskorn Objects]
+1,[Eskorn Monsters]
+
+;Eskorn Individuals
+
+;Eskorn Relationships
+
+;Eskorn Places
+
+;Eskorn Events
+
+;Eskorn Objects
+
+;Eskorn Monsters
+
+;Fimbrul
+1,[Fimbrul Individuals]
+1,[Fimbrul Relationships]
+1,[Fimbrul Places]
+1,[Fimbrul Events]
+1,[Fimbrul Objects]
+1,[Fimbrul Monsters]
+
+;Fimbrul Individuals
+
+;Fimbrul Relationships
+
+;Fimbrul Places
+
+;Fimbrul Events
+
+;Fimbrul Objects
+
+;Fimbrul Monsters
+
+;Melabrauth
+1,[Melabrauth Individuals]
+1,[Melabrauth Relationships]
+1,[Melabrauth Places]
+1,[Melabrauth Events]
+1,[Melabrauth Objects]
+1,[Melabrauth Monsters]
+
+;Melabrauth Individuals
+
+;Melabrauth Relationships
+
+;Melabrauth Places
+
+;Melabrauth Events
+
+;Melabrauth Objects
+
+;Melabrauth Monsters
+
+;Relmaur
+1,[Relmaur Individuals]
+1,[Relmaur Relationships]
+1,[Relmaur Places]
+1,[Relmaur Events]
+1,[Relmaur Objects]
+1,[Relmaur Monsters]
+
+;Relmaur Individuals
+
+;Relmaur Relationships
+
+;Relmaur Places
+
+;Relmaur Events
+
+;Relmaur Objects
+
+;Relmaur Monsters
+
+;Skelkor
+1,[Skelkor Individuals]
+1,[Skelkor Relationships]
+1,[Skelkor Places]
+1,[Skelkor Events]
+1,[Skelkor Objects]
+1,[Skelkor Monsters]
+
+;Skelkor Individuals
+
+;Skelkor Relationships
+
+;Skelkor Places
+
+;Skelkor Events
+
+;Skelkor Objects
+
+;Skelkor Monsters
+
+;Sword Lands
+1,[Sword Lands Individuals]
+1,[Sword Lands Relationships]
+1,[Sword Lands Places]
+1,[Sword Lands Events]
+1,[Sword Lands Objects]
+1,[Sword Lands Monsters]
+
+;Sword Lands Individuals
+
+;Sword Lands Relationships
+
+;Sword Lands Places
+
+;Sword Lands Events
+
+;Sword Lands Objects
+
+;Sword Lands Monsters
+
+;Tarmalune
+1,[Tarmalune Individuals]
+1,[Tarmalune Relationships]
+1,[Tarmalune Places]
+1,[Tarmalune Events]
+1,[Tarmalune Objects]
+1,[Tarmalune Monsters]
+
+;Tarmalune Individuals
+
+;Tarmalune Relationships
+
+;Tarmalune Places
+
+;Tarmalune Events
+
+;Tarmalune Objects
+
+;Tarmalune Monsters
+
+;Windrise Ports
+1,[Windrise Ports Individuals]
+1,[Windrise Ports Relationships]
+1,[Windrise Ports Places]
+1,[Windrise Ports Events]
+1,[Windrise Ports Objects]
+1,[Windrise Ports Monsters]
+
+;Windrise Ports Individuals
+
+;Windrise Ports Relationships
+
+;Windrise Ports Places
+
+;Windrise Ports Events
+
+;Windrise Ports Objects
+
+;Windrise Ports Monsters
+
+
+
+;Underdark
+1,[Deep Wastes]
+1,[Earthroot]
+1,[Great Bhaerynden]
+1,[Menzoberranzan]
+1,[Northdark]
+1,[Old Shanatar]
+
+;Deep Wastes
+1,[Deep Wastes Individuals]
+1,[Deep Wastes Relationships]
+1,[Deep Wastes Places]
+1,[Deep Wastes Events]
+1,[Deep Wastes Objects]
+1,[Deep Wastes Monsters]
+
+;Deep Wastes Individuals
+
+;Deep Wastes Relationships
+
+;Deep Wastes Places
+
+;Deep Wastes Events
+
+;Deep Wastes Objects
+
+;Deep Wastes Monsters
+
+;Earthroot
+1,[Earthroot Individuals]
+1,[Earthroot Relationships]
+1,[Earthroot Places]
+1,[Earthroot Events]
+1,[Earthroot Objects]
+1,[Earthroot Monsters]
+
+;Earthroot Individuals
+
+;Earthroot Relationships
+
+;Earthroot Places
+
+;Earthroot Events
+
+;Earthroot Objects
+
+;Earthroot Monsters
+
+;Great Bhaerynden
+1,[Great Bhaerynden Individuals]
+1,[Great Bhaerynden Relationships]
+1,[Great Bhaerynden Places]
+1,[Great Bhaerynden Events]
+1,[Great Bhaerynden Objects]
+1,[Great Bhaerynden Monsters]
+
+;Great Bhaerynden Individuals
+
+;Great Bhaerynden Relationships
+
+;Great Bhaerynden Places
+
+;Great Bhaerynden Events
+
+;Great Bhaerynden Objects
+
+;Great Bhaerynden Monsters
+
+;Menzoberranzan
+1,[Menzoberranzan Individuals]
+1,[Menzoberranzan Relationships]
+1,[Menzoberranzan Places]
+1,[Menzoberranzan Events]
+1,[Menzoberranzan Objects]
+1,[Menzoberranzan Monsters]
+
+;Menzoberranzan Individuals
+
+;Menzoberranzan Relationships
+
+;Menzoberranzan Places
+
+;Menzoberranzan Events
+
+;Menzoberranzan Objects
+
+;Menzoberranzan Monsters
+
+;Northdark
+1,[Northdark Individuals]
+1,[Northdark Relationships]
+1,[Northdark Places]
+1,[Northdark Events]
+1,[Northdark Objects]
+1,[Northdark Monsters]
+
+;Northdark Individuals
+
+;Northdark Relationships
+
+;Northdark Places
+
+;Northdark Events
+
+;Northdark Objects
+
+;Northdark Monsters
+
+;Old Shanatar
+1,[Old Shanatar Individuals]
+1,[Old Shanatar Relationships]
+1,[Old Shanatar Places]
+1,[Old Shanatar Events]
+1,[Old Shanatar Objects]
+1,[Old Shanatar Monsters]
+
+;Old Shanatar Individuals
+
+;Old Shanatar Relationships
+
+;Old Shanatar Places
+
+;Old Shanatar Events
+
+;Old Shanatar Objects
+
+;Old Shanatar Monsters
+
+

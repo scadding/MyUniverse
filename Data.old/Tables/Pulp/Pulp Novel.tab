@@ -1,0 +1,155 @@
+
+;Start
+1,[PulpHeroNovel]!
+
+;PulpHeroNovel
+1,[AlliterativeHero] [pulpmiddle] [pulpend]
+1,[AlliterativePulpHeroNovel]
+1,[FreeformPulpHeroNovel]
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the Case of the
+1,and the Mystery of the
+1,in:
+1,in Operation:
+1,versus the
+1,and [AlliterativeHero]'s 
+
+;pulpend
+1,[A Pulp.aPulpAdjNegative] [A Pulp.aPulpNoun]
+1,[B Pulp.bPulpAdjNegative] [B Pulp.bPulpNoun]
+1,[C Pulp.cPulpAdjNegative] [C Pulp.cPulpNoun]
+1,[D Pulp.dPulpAdjNegative] [D Pulp.dPulpNoun]
+1,[J Pulp.jPulpAdjNegative] [J Pulp.jPulpNoun]
+1,[M Pulp.mPulpAdjNegative] [M Pulp.mPulpNoun]
+1,[P Pulp.pPulpAdjNegative] [P Pulp.pPulpNoun]
+
+;AlliterativeHero
+3,[AlliterativeHeroMale]
+1,[AlliterativeHeroFemale]
+
+;AlliterativeHeroMale
+10,[AlliterativeMaleAdjFirst]
+1,[AlliterativeMaleFirstLast]
+
+;AlliterativeMaleAdjFirst
+1,[A Pulp.aPulpAdjPositive] [A Pulp.aPulpMaleFirstName]
+1,[B Pulp.bPulpAdjPositive] [B Pulp.bPulpMaleFirstName]
+1,[C Pulp.cPulpAdjPositive] [C Pulp.cPulpMaleFirstName]
+1,[D Pulp.dPulpAdjPositive] [D Pulp.dPulpMaleFirstName]
+1,[J Pulp.jPulpAdjPositive] [J Pulp.jPulpMaleFirstName]
+1,[M Pulp.mPulpAdjPositive] [M Pulp.mPulpMaleFirstName]
+1,[P Pulp.pPulpAdjPositive] [P Pulp.pPulpMaleFirstName]
+
+;AlliterativeMaleFirstLast
+1,[A Pulp.aPulpMaleFirstName] [A Pulp.aPulpLastName]
+1,[B Pulp.bPulpMaleFirstName] [B Pulp.bPulpLastName]
+1,[C Pulp.cPulpMaleFirstName] [C Pulp.cPulpLastName]
+1,[D Pulp.dPulpMaleFirstName] [D Pulp.dPulpLastName]
+1,[J Pulp.jPulpMaleFirstName] [J Pulp.jPulpLastName]
+1,[M Pulp.mPulpMaleFirstName] [M Pulp.mPulpLastName]
+1,[P Pulp.pPulpMaleFirstName] [P Pulp.pPulpLastName]
+
+;AlliterativeHeroFemale
+10,[AlliterativeFemaleAdjFirst]
+1,[AlliterativeFemaleFirstLast]
+
+;AlliterativeFemaleAdjFirst
+1,[A Pulp.aPulpAdjPositive] [A Pulp.aPulpFemaleFirstName]
+1,[B Pulp.bPulpAdjPositive] [B Pulp.bPulpFemaleFirstName]
+1,[C Pulp.cPulpAdjPositive] [C Pulp.cPulpFemaleFirstName]
+1,[D Pulp.dPulpAdjPositive] [D Pulp.dPulpFemaleFirstName]
+1,[J Pulp.jPulpAdjPositive] [J Pulp.jPulpFemaleFirstName]
+1,[M Pulp.mPulpAdjPositive] [M Pulp.mPulpFemaleFirstName]
+1,[P Pulp.pPulpAdjPositive] [P Pulp.pPulpFemaleFirstName]
+
+;AlliterativeFemaleFirstLast
+1,[A Pulp.aPulpFemaleFirstName] [A Pulp.aPulpLastName]
+1,[B Pulp.bPulpFemaleFirstName] [B Pulp.bPulpLastName]
+1,[C Pulp.cPulpFemaleFirstName] [C Pulp.cPulpLastName]
+1,[D Pulp.dPulpFemaleFirstName] [D Pulp.dPulpLastName]
+1,[J Pulp.jPulpFemaleFirstName] [J Pulp.jPulpLastName]
+1,[M Pulp.mPulpFemaleFirstName] [M Pulp.mPulpLastName]
+1,[P Pulp.pPulpFemaleFirstName] [P Pulp.pPulpLastName]
+
+;AlliterativePulpHeroNovel
+1,[A Pulp.aPulpHeroNovel]
+1,[B Pulp.bPulpHeroNovel]
+1,[C Pulp.cPulpHeroNovel]
+1,[D Pulp.dPulpHeroNovel]
+1,[J Pulp.jPulpHeroNovel]
+1,[M Pulp.mPulpHeroNovel]
+1,[P Pulp.pPulpHeroNovel]
+
+;FreeformPulpHeroNovel
+3,[FreeformHeroMale] [pulpmiddle] [Freeformpulpend]
+1,[FreeformHeroFemale] [pulpmiddle] [Freeformpulpend]
+
+;FreeformHeroMale
+5,[AdjPositive] [MaleFirstName]
+1,[MaleFirstName] [LastName]
+
+;FreeformHeroFemale
+5,[AdjPositive] [FemaleFirstName]
+1,[FemaleFirstName] [LastName]
+
+;Freeformpulpend
+1,[AdjNegative] [Noun]
+
+;AdjPositive
+1,[A Pulp.aPulpAdjPositive]
+1,[B Pulp.bPulpAdjPositive]
+1,[C Pulp.cPulpAdjPositive]
+1,[D Pulp.dPulpAdjPositive]
+1,[J Pulp.jPulpAdjPositive]
+1,[M Pulp.mPulpAdjPositive]
+1,[P Pulp.pPulpAdjPositive]
+
+;AdjNegative
+1,[A Pulp.aPulpAdjNegative]
+1,[B Pulp.bPulpAdjNegative]
+1,[C Pulp.cPulpAdjNegative]
+1,[D Pulp.dPulpAdjNegative]
+1,[J Pulp.jPulpAdjNegative]
+1,[M Pulp.mPulpAdjNegative]
+1,[P Pulp.pPulpAdjNegative]
+
+;MaleFirstName
+1,[A Pulp.aPulpMaleFirstName]
+1,[B Pulp.bPulpMaleFirstName]
+1,[C Pulp.cPulpMaleFirstName]
+1,[D Pulp.dPulpMaleFirstName]
+1,[J Pulp.jPulpMaleFirstName]
+1,[M Pulp.mPulpMaleFirstName]
+1,[P Pulp.pPulpMaleFirstName]
+
+;FemaleFirstName
+1,[A Pulp.aPulpFemaleFirstName]
+1,[B Pulp.bPulpFemaleFirstName]
+1,[C Pulp.cPulpFemaleFirstName]
+1,[D Pulp.dPulpFemaleFirstName]
+1,[J Pulp.jPulpFemaleFirstName]
+1,[M Pulp.mPulpFemaleFirstName]
+1,[P Pulp.pPulpFemaleFirstName]
+
+;LastName
+1,[A Pulp.aPulpLastName]
+1,[B Pulp.bPulpLastName]
+1,[C Pulp.cPulpLastName]
+1,[D Pulp.dPulpLastName]
+1,[J Pulp.jPulpLastName]
+1,[M Pulp.mPulpLastName]
+1,[P Pulp.pPulpLastName]
+
+;Noun
+1,[A Pulp.aPulpNoun]
+1,[B Pulp.bPulpNoun]
+1,[C Pulp.cPulpNoun]
+1,[D Pulp.dPulpNoun]
+1,[J Pulp.jPulpNoun]
+1,[M Pulp.mPulpNoun]
+1,[P Pulp.pPulpNoun]
+
+

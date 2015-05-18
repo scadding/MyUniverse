@@ -1,0 +1,229 @@
+
+;Start
+1,[orgname]
+
+;orgname
+20,[professionplural] [orgtype]
+7,[orgtype] of [professionplural]
+3,[orgtype] of [orgdescriptor] [professionplural]
+1,[orgtype] of [professionplural] and [professionplural]
+2,[cause] [orgtype]
+
+;cause
+1,Anti-Slavery
+1,Disaster Relief
+1,Charitable
+1,Chivalrous
+1,Humanoids Rights
+1,Geographic
+1,Exploration
+1,Enlightenment
+1,Gentleman's
+1,Ladies
+1,Gaming
+2,[preservation] Preservation
+1,Philosophers
+1,Sportsmens
+1,Artificers
+
+;preservation
+1,Wildlife
+1,Wilderness
+1,Village Green
+1,[Utility.CreatureTypes]
+1,[Utility.TerrainsCap]
+
+;professionplural
+1,Acrobats
+1,Adventurers
+1,Alchemists
+1,Animal Trainers
+1,Apothecaries
+1,Architects
+1,Architects & Builders
+1,Artists
+1,Artists & Sculptors
+1,Armorers
+1,Assassins
+1,Bakers
+1,Barbers
+1,Bards
+1,Bards & Jongleurs
+1,Basketweavers
+1,Beggars
+1,Blacksmiths
+1,Boatwrights
+1,Bookbinders
+1,Brewers
+1,Bricklayers
+1,Brickmakers
+1,Builders
+1,Butchers
+1,Cabinet Makers
+1,Carpenters
+1,Carriage Makers
+1,Carters, Coachmens, & Wagoners
+1,Cartwrights
+1,Chandlers
+1,Chirurgeons
+1,Clothiers
+1,Clothworkers
+1,Cobblers
+1,Coliseum Entertainers
+1,Coopers
+1,Coppersmiths
+1,Courtesans
+1,Diviners
+1,Dockworkers
+1,Drapers
+1,Dyemakers
+1,Embalmers
+1,Enchanters
+1,Engineers
+1,Entertainers & Actors
+1,Ferrymen
+1,Fishermen
+1,Fishmongers
+1,Foresters & Rangers
+1,Fortunetellers
+1,Foundryworkers
+1,Free Gladiators
+1,Fullers
+1,Furriers
+1,Gemcutters
+1,Glassblowers
+1,Goldsmiths
+1,Gravediggers
+1,Greengrocers
+1,Guides
+1,Haberdashers
+1,Hatters
+1,Healers
+1,Herbalists
+1,Horsebreeders
+1,Hunters
+1,Importers & Exporters
+1,Innkeepers
+1,Ironmongers
+1,Jewelers
+1,Jugglers & Jesters
+1,Lamplighters
+1,Leathersmiths
+1,Locksmiths
+1,Longshoremen
+1,Lumberjacks
+1,Magicians
+1,Mariners & Sailors
+1,Masons
+1,Mercenaries
+1,Merchant Adventurers
+1,Merchants
+1,Millers
+1,Minstrels
+1,Moneylenders
+1,Morticians
+1,Musicians
+1,Nightwatchmen
+1,Papermakers
+1,Pawnbrokers
+1,Pestkillers
+1,Potters
+1,Roofers
+1,Ropemakers
+1,Sages
+1,Saltrakers
+1,Scribes
+1,Sewerworkers
+1,Shipbuilders
+1,Shippers
+1,Shopkeepers
+1,Silversmiths
+1,Slavers
+1,Soothsayers
+1,Stablers
+1,Stonecutters
+1,Streetsweepers
+1,Swineherds
+1,Swordsmiths
+1,Tailors
+1,Tanners
+1,Tavernkeepers
+1,Teamsters
+1,Thatchers
+3,Thieves
+1,Tinkerers
+1,Trackers
+1,Traders
+1,Tumblers
+1,Undertakers
+1,Undertakers and Morticians
+1,Vintners
+1,Washerwomen
+1,Watersellers
+1,Weaponsmiths
+1,Weavers
+1,Wizards
+1,Woodcarvers
+
+;orgtype
+20,Guild
+1,Affiliate
+1,Affinity
+2,Alliance
+2,Assemblage
+3,Association
+2,Band
+3,Brotherhood
+2,Fraternal Brotherhood
+1,Cartel
+1,Club
+1,Coalition
+1,Collective
+1,Combination
+1,Community
+2,Company
+1,Concatenation
+1,Confederacy
+2,Confraternity
+2,Consortium
+2,Council
+2,Fellowship
+3,Fraternity
+3,League
+2,Order
+1,Sisterhood
+3,Society
+1,Sodality
+2,Syndicate
+3,Union
+
+;orgdescriptor
+5,Free and Accepted
+5,Independent
+5,Royal
+1,Accepted
+1,Ancient
+1,Blessed
+1,Chosen
+1,Common
+1,Consecrated
+1,Dedicated
+1,Devoted
+1,Elite
+1,Enlightened
+1,Essential
+1,Exalted
+1,Free
+1,Glorious
+1,Imperial
+1,Loyal
+1,Ordered
+1,Proven
+1,Sovereign
+1,Steadfast
+1,Sublime
+4,United
+1,Venerable
+1,Wandering
+
+

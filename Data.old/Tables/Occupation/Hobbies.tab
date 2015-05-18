@@ -1,0 +1,483 @@
+
+;Start
+1,[science]
+1,[animal]
+1,[crafts]
+1,Collecting [collecting]
+1,[computers]
+1,[cooking]
+1,[diy]
+1,[electronics]
+1,[film]
+1,[games]
+1,[gardening]
+2,[reenactment]
+1,[fiction] 
+1,[internet]
+1,[literature]
+1,[models]
+1,[music]
+1,[observation]
+1,[outdoor] 
+1,[performing]
+1,[photography]
+1,[sports]
+1,[transportation]
+
+;science
+1,Amateur astronomy
+1,Amateur microscopy
+1,Chemical experiments (or kitchen chemistry)
+1,Fireworks
+1,Lasers
+1,Mass-Observation
+1,Physics demos or experiments
+1,Robots
+
+;animal
+1,Fancy (animal breeding) (keeping pet or show animals)
+1,Animal rescue (injured or orphaned wild or domestic animals)
+1,Bird watching
+1,Beekeeping
+1,Dog breeding
+1,Falconry
+1,Fishkeeping
+1,Herpetoculture
+1,Horses
+1,Hunting
+1,Dog agility
+1,Dog training
+
+;crafts
+1,Altar art
+1,Anime fan art drawing
+1,Beading
+1,Blacksmithing
+1,Calligraphy
+1,Collaging
+1,Cosplay
+1,Crochet
+1,Cross-stitch
+1,Dollhouses
+1,Doll making
+1,Drawing
+1,Embroidery
+1,Enamels
+1,Engraving
+1,Figure painting
+1,Glassblowing
+1,Jewellery making
+1,Knitting
+1,Leather crafting
+1,Origami
+1,Figure painting
+1,Tole painting
+1,Watercolor
+1,Splatter painting
+1,Papercraft
+1,Pottery
+1,Quilting
+1,Scrapbooking
+1,Sculpture
+1,Sewing
+1,Soapmaking
+1,Stained glass
+1,Stamping
+1,Warm glass
+1,Weaving
+1,Wood carving
+1,Woodworking
+1,Watches
+
+;collecting
+1,antiques
+1,artwork
+1,autographs
+1,aviation archaeology
+1,B-movies
+1,banknotes
+1,baseball cards
+1,beetles
+1,books
+1,bottles
+1,business cards
+1,butterflies
+1,calendars
+1,cameras
+1,candlesticks
+1,cards
+1,coins
+1,conifer cones
+1,bottle caps
+1,Christmas accessories
+1,classic videogames
+1,clocks
+1,coasters
+1,coins
+1,comic books
+1,crystals
+1,currency
+1,dice
+1,die-cast toys
+1,enamels
+1,feathers
+1,fossils
+1,found objects
+1,fountain pens
+1,guitars
+1,guns
+1,hats
+1,jewelry
+1,keychains
+1,knives (pocket knives, hunting knives, kitchen knives)
+1,license Plates
+1,lunchboxes
+1,Manga
+1,matchcovers and matchboxes ("phillumenism")
+1,microchips
+1,militaria
+1,miniature figures
+1,moths
+1,newspapers
+1,patches
+1,photographs
+1,plates
+1,postcards
+1,posters
+1,quotations
+1,recordings (Records, CDs, Cassettes)
+1,rocks and minerals
+1,scale models
+1,salt and pepper shakers
+1,shopping lists
+1,snow globes
+1,souvenirs
+1,spoons
+1,stamps
+1,stickers
+1,swords
+1,teddy bears
+1,thimbles
+1,trading cards (such as baseball cards)
+1,toys
+1,watches and clocks
+1,yardsticks
+
+;computers
+1,3D computer graphics design
+1,Animation design
+1,Competitive programming - e.g. ACM International Collegiate Programming Contest or TopCoder
+1,Computer games
+1,Computer programming
+1,Distributed computing projects
+1,Image editing (with Adobe Photoshop for example)
+1,Modding / case modding / Overclocking
+1,Open source and the free software movement
+1,Retrocomputing
+
+;cooking
+1,Baking
+1,Barbecue (Grilling)
+1,Beer making
+1,Mead brewing
+1,OpenCola
+1,Home Canning
+1,Cake making / cake decorating
+
+;diy
+1,Home Repairs
+1,Interior Design
+1,Logging Inventing ideas
+1,Lock picking
+1,Low-tech
+1,Spud gun
+1,Go-Karting
+
+;electronics
+1,Amateur radio
+1,CB radio
+1,Circuit bending
+1,DIY audio
+1,Designing and building electronic circuits
+1,Hardware hacking
+1,TV and FM DXing
+1,Home theater
+
+;film
+1,Animation
+1,Short movies
+
+;games
+1,Board games 
+1,Backgammon
+1,Checkers
+1,Chess
+1,Carrom
+1,Chinese Checkers
+1,Computer games
+1,Clue
+1,German board games
+1,Go
+1,Monopoly
+1,Pente
+1,Risk
+1,Rummikub
+1,Tournament Scrabble
+1,Stratego
+1,Card games 
+1,Bridge
+1,Cribbage
+1,Gin rummy
+1,Hearts
+1,Poker
+1,Rook
+1,Spades
+1,Trading Card Games 
+1,euchre
+1,Cue sports
+1,Logic puzzles
+1,Dominoes
+1,Fantasy sports
+1,Role-playing games
+1,Sudoku
+1,Video games
+1,Wargaming 
+
+;gardening
+1,Bonsai
+1,Grafting
+1,Forest gardening
+1,Organic gardening
+1,Wildlife gardening
+1,Permaculture
+
+;reenactment
+1,Ancient reenactment 
+1,Dark Ages reenactment
+1,Early Medieval reenactment
+1,High Medieval reenactment
+1,Renaissance reenactment
+1,Jousting
+1,English Civil War reenactment
+1,Modern reenactment
+1,North America Fur Trade reenactments
+1,French and Indian War reenactment
+1,American Revolutionary War reenactment
+1,Napoleonic war reenactment
+1,Franco-Prussian War reenactment
+1,American Civil War reenactment
+1,Wild West reenactment
+1,Cowboy action shooting
+1,World War II
+
+;fiction 
+1,Collaborative fiction
+1,Gamebook
+1,Interactive storytelling
+1,Role-playing game
+
+;internet
+1,Blogging
+1,Currency bill tracking
+1,Facebooking
+1,GPS drawing
+1,Internet forums
+1,IRC
+1,MUD
+1,MSN
+1,MySpace
+1,Newsgroups
+1,Random surfing
+1,SETI@home
+1,StumbleUpon
+1,Trolling
+1,Twittering
+1,Wikipedia
+1,World Wide Web
+
+;literature
+1,Constructed languages 
+1,Geofiction, including model nations
+1,Learning foreign languages
+1,Reading and bibliophilia
+1,Penpal
+1,Writing
+1,Zines
+
+;models
+1,Live steam models
+1,Matchstick models
+1,Military models
+1,Model aircraft
+1,Model cars, including radio-controlled cars
+1,Model commercial vehicles
+1,Model engineering (Machining)
+1,Model houses
+1,Model figures
+1,Model military vehicles
+1,Model nations
+1,Model railways/railroads 
+1,Backyard railroads
+1,Model rockets
+1,Model ships
+1,Model yachting
+
+;music
+1,Karaoke
+1,Musical composition and MIDI composition
+1,Singing and playing musical instruments
+1,Songwriting
+
+;observation
+1,Amateur astronomy
+1,Bird watching
+1,Geyser gazing
+1,Horoscopes
+1,People/crowd watching
+1,Transportation spotting
+1,Transport spotting 
+1,Aircraft spotting
+1,Bus spotting
+1,Train spotting
+
+;outdoor 
+1,Airsoft
+1,Backpacking
+1,Birdfeeding, birding, and birdwatching
+1,Bouldering
+1,Buildering or urban climbing
+1,Butterfly watching
+1,Camping
+1,Caving
+1,Canoeing and kayaking
+1,Fishing
+1,Geocaching
+1,Ghost Hunting
+1,Hacky Sack/footbag
+1,Hiking
+1,Historical Trekking
+1,Horse riding
+1,Hunting
+1,Kite flying
+1,Laser skirmish
+1,Letterboxing
+1,Mountain climbing
+1,Paintball
+1,Rafting
+1,Rock climbing
+1,Rockhounding (rock and mineral hunting/collecting)
+1,Ice Skating
+1,Plinking
+1,Sailing
+1,Sight seeing
+1,Skiing
+1,Snowboarding
+1,Survival Camping
+1,Stone skipping
+1,Storm chasing
+1,SCUBA diving
+1,Traveling
+1,Treasure hunting (possibly with metal detectors)
+1,Urban Exploration
+1,Walking
+
+;performing 
+1,Amateur theater
+1,Dancing
+1,Juggling
+1,Magic tricks
+1,Singing
+1,Poetry reading
+
+;photography
+1,Astrophotography
+1,Darkroom work (developing and printing photographic film)
+1,Kite aerial photography
+
+;sports
+1,Aerobics
+1,Archery
+1,Badminton
+1,Baseball
+1,Softball
+1,Basketball
+1,Bowling
+1,Boxing
+1,Cheerleading
+1,Cricket
+1,Cycling
+1,Dance
+1,Diving
+1,Flying
+1,Fishing
+1,Fly fishing
+1,Saltwater fishing
+1,Fencing/Historical Fencing
+1,Football
+1,Football (soccer)
+1,Free Running
+1,Gliding
+1,Golf
+1,Gymnastics
+1,Hanggliding
+1,Horseshoes
+1,Hunting
+1,Ice skating
+1,Kitesurfing
+1,Lacrosse
+1,Marbles
+1,Martial arts
+1,netball
+1,Paintball
+1,Parkour
+1,Racquetball
+1,Ringette
+1,Rowing
+1,Running, Jogging
+1,Sailing
+1,Shooting rifles, pistols, and shotguns
+1,Surfing
+1,Table tennis
+1,Tae Kwon Do
+1,Tennis
+1,Trampolining
+1,Unicycling
+1,Ultimate
+1,Volleyball
+1,Walking
+1,Weight lifting
+1,Skating
+1,Swimming
+1,Skiing
+1,Snowboarding
+1,Yachting
+1,Yoga
+1,Soccer
+
+;transportation
+1,Automobiles
+1,Antique cars
+1,Aut1,detailing
+1,Autocross
+1,Kit cars
+1,Motorcycles
+1,Mopeds
+1,Scooters
+1,Motorsports (auto/motorcycle racing)
+1,Off-roading
+1,Rallying
+1,Trucks
+
+;kidscrafts
+1,Block printing
+1,Board game creation
+1,Weaving potholders
+1,Easel painting
+1,Origami
+1,Illustory book creation
+1,Scrapbooking
+1,Clay modeling
+1,Needlepoint
+1,Foam stamping
+
+

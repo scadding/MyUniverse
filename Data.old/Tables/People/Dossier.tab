@@ -1,0 +1,902 @@
+
+;Start
+1,==Male dossier==<br>
+_Name :[American Census Names.male] [American Census Names.surname]<br>
+_Gender : Male<br>
+_Age :[Age]<br>
+_Location of Birth :[US Cities.simplified]<br>
+_Languages :[SomeLanguages]<br>
+_Activities :[SomeActivities]<br>
+_Interests :[SomeInterests]<br>
+_Previous work :||<sgdisplay iterations="3">[MaleAmericanJobExperience], [JobLength]<br>
+_Current organization :[MaleAmericanJobExperience] <br>
+_Area of Expertise : [AreaofExpertise]<br><br>
+1,==Female dossier==<br>
+_Name :[American Census Names.female] [American Census Names.surname]<br>
+_Gender : Female<br>
+_Age :[Age]<br>
+_Location of Birth :[US Cities.simplified]<br>
+_Languages :[SomeLanguages]<br>
+_Activities :[SomeActivities]<br>
+_Interests :[SomeInterests]<br>
+_Previous work :||<sgdisplay iterations="3">[FemaleAmericanJobExperience], [JobLength]<br>
+_Current organization :[FemaleAmericanJobExperience] <br>
+_Area of Expertise : [AreaofExpertise]<br><br>
+
+;Age
+1,Unknown
+1,Classified
+15,2[Dice.1d8]
+15,3[Dice.1d10]
+5,4[Dice.1d10]
+1,5[Dice.1d8]
+
+;SomeActivities
+5,[Activity] and [Activity]
+3,[Activity], [Activity], and [Activity]
+1,[Activity], [Activity], [Activity], and [Activity]
+1,[Activity], [Activity], [Activity], [Activity], and [Activity]
+
+;Activity
+1,[MartialArts]
+8,[Athletics]
+2,[ExtremeSports]
+
+;MartialArts
+1,Brazilian Jujitsu
+1,Capoeira
+1,Eskrima (Filipino Stickfighting)
+1,Greco-Roman Wrestling
+1,Hapkido
+1,Jogo do Pau (Stick Fencing)
+1,Kalarippayattu
+1,Kendo
+1,Krav Maga
+1,Mongolian Wrestling
+1,Sikh Gatka
+1,Uzbek Kurash
+2,Fencing
+2,Jeet Koon Do
+2,Judo
+2,Mixed Martial Arts
+3,American Karate
+3,Boxing
+3,Muay Thai (Kickboxing)
+3,Okinawan Karate
+3,Tae Kwon Do
+4,[KungFu] Kung Fu
+2,Tang Soo Do
+1,Krav Maga
+
+;KungFu
+1,Black Tiger
+1,Do Pi
+1,Dragon
+1,Drunken Monkey
+1,Fujian White Crane
+1,Jow-Ga
+1,Leopard
+1,Praying Mantis
+1,Tai Chi
+1,Wing Chun
+3,Shaolin
+3,Wushu
+
+;Athletics
+1,American Football
+1,Archery
+1,Australian Football
+1,Badminton
+1,Baseball
+1,Cricket
+1,Cross Country Skiing
+1,Diving
+1,Downhill Skiing
+1,Fencing
+1,Football
+1,Gymnastics
+1,Hockey
+5,Jogging
+1,Lacrosse
+1,Long-Distance Running
+1,Marathons
+1,Pilates
+1,Rowing
+1,Rugby
+1,Snowboarding
+1,Softball
+5,Swimming
+1,Tennis
+1,Triathlons
+1,Walking
+5,Weight Lifting
+1,Yoga
+
+;ExtremeSports
+1,Alligator Wrestling
+1,ATV Racing
+1,BASE jumping
+1,BMX Freestyle
+1,BMX Racing
+1,Bungee Jumping
+1,Catfish Noodling
+1,Cave Diving
+1,Caving
+1,Cliff Diving
+1,Competitive Eating Competitions
+1,Glacier Exploration
+1,Hang Gliding
+1,Ice Climbing
+1,Motocross
+1,Motorcycle Racing
+1,Mountain Biking
+1,Mountaineering
+1,Paragliding
+1,Parkour Running
+1,Rally Car Racing
+1,Rock Climbing
+1,Scuba Diving
+1,Skeleton
+1,Skydiving
+1,Snocross
+1,Spelunking
+1,Street Luge
+1,Surfing
+1,Technical/Aid Climbing
+1,Ultramarathons
+1,Urban Exploration
+1,Waterskiing
+1,White Water Kayaking
+1,Wingsuit Flying
+1,Ocean Kayaking
+1,Trans-Oceanic Racing
+
+;SomeInterests
+1,[Interest] and [Interest]
+5,[Interest]
+
+;Interest
+1,[Scientific]
+1,[LiberalArts]
+1,[Hobby]
+1,[Modern Hobby.Start]
+4,[Hobbies.Start]
+
+;Scientific
+1,Anthropology
+1,Applied Mathematics
+1,Astronomy
+1,Bioinformatics
+1,Biology
+1,Chemistry
+1,Computer Science
+1,Cryptography
+1,Electronics
+1,Genetics
+1,Genomics
+1,Geology
+1,High Energy Physics
+1,Materials Science
+1,Paleobotany
+1,Particle Physics
+
+;LiberalArts
+6,[Language] History
+6,[Language] Literature
+1,Philosophy
+
+;Hobby
+1,Antiques
+1,Backgammon
+1,Bridge
+1,Camping
+1,Checkers
+1,Chess
+1,Comic Book Collecting
+1,Crochet
+1,Fishing
+1,Knitting
+1,Online Gaming
+1,Photography
+1,Pinochle
+1,Pipe smoking
+1,Poker
+1,Quilting
+1,Role Playing Games
+1,Scrapbooking
+1,Stained glass
+1,Stamp Collecting
+1,Texas Hold 'Em
+1,Xenopus African Clawed Frogs
+2,Cooking
+
+;SomeLanguages
+10,[Language]
+3,[Language] and [Language]
+1,[Language], [Language], and [Language]
+1,[Language], [Language], [Language], and [Language]
+1,[Language], [Language], [Language], [Language], and [Language]
+
+;Language
+7,[NonEnglishLanguage]
+1,[AncientLanguage]
+
+;NonEnglishLanguage
+1,[CommonLanguage]
+
+;CommonLanguage
+30,Mandarin
+30,Spanish
+20,Arabic
+18,Hindi
+17,Portuguese
+17,Bengali
+15,Russian
+12,Japanese
+10,German
+7,Javanese
+6,Telegu
+6,Marathi
+6,Vietnamese
+10,Korean
+6,Tamil
+16,French
+10,Italian
+6,Punjabi
+6,Urdu
+5,Cantonese
+5,Turkish
+4,Gujarati
+6,Polish
+4,Ukranian
+4,Persian
+3,Malayam
+3,Azerbaijani
+2,Burmese
+2,Thai
+2,Amharic
+2,Sundanese
+2,Romanian
+2,Kurdish
+4,Dutch
+4,Pashto
+2,Hausa
+2,Indonesian
+2,Oromo
+2,Tagalog
+2,Serbo-Croatian
+2,Uzbek
+2,Sindhi
+2,Yoruba
+1,Somali
+1,Lao
+1,Cebuano
+1,Greek
+1,Malay
+1,Nepali
+1,Khmer
+1,Hungarian
+1,Czech
+1,Zulu
+1,Quechua
+1,Khazakh
+1,Tajik
+1,Chichewa
+1,Haitian Creole
+1,Belarusian
+2,Hebrew
+2,Swedish
+2,Norwegian
+2,Danish
+2,Finnish
+1,Hmong
+1,Bulgarian
+1,Catalan
+1,Armenian
+1,Turkmen
+2,Afrikaans
+1,Mongolian
+1,Slovak
+1,Swahili
+10,[RareLanguages]
+
+;RareLanguages
+5,Guarani
+5,Kirundi
+3,Romani
+2,Tibetan
+3,Tswana
+2,Balinese
+2,Maltese
+2,Yiddish
+1,Kyrgyz
+1,Lithuanian
+1,Estonian
+1,Latvian
+1,Gaelic
+1,Vlax Romani
+1,Tongan
+1,Samoan
+1,Sardinian
+1,Basque
+1,Chechen
+1,Welsh
+1,American Sign Language
+1,British Sign Language
+1,Breton
+1,Icelandic
+1,Maori
+1,Navajo
+1,Dena'ina
+1,Holikachuk
+1,Inupiaq
+1,Khosian
+1,Marathi
+1,Siberian Yupik
+1,Sugpiaq
+1,Tamazight
+1,Aleut
+
+;AncientLanguage
+10,Latin
+1,Akkadian
+1,Ammonite
+3,Ancient Egyptian
+3,Aramaic
+1,Avestan
+1,Chagatai
+1,Classic Mayan
+3,Classical Arabic
+3,Classical Hebrew
+1,Classical Nahuatl
+1,Coptic
+1,Demotic Egyptian
+1,Edomite 
+1,Elamite
+1,Eteocretan
+1,Etruscan
+1,Ge'ez
+1,Gudian Hànyu
+1,Harappan
+3,Hellenistic Greek
+1,Hurrian
+1,Jurchen
+1,Khazarian
+1,Khitan
+1,Kuchean
+1,Lusitanian
+1,Lydian
+1,Mycenaean
+1,Nabataean
+1,Nesite
+1,Old Persian
+1,Pahlavi
+1,Paninian Sanskrit
+1,Phoenician
+1,Sabaean
+1,Scythian
+1,Sumerian
+1,Tocharian
+1,Vedic Saskrit
+
+;JobLength
+1,6 months
+1,1 year
+1,2 years
+1,3 years
+1,4 years
+1,(unknown duration)
+
+;MaleAmericanJobExperience
+1,[US Cities.Start] Police Department - [PoliceRole]
+1,[NationalLab] National Laboratory
+1,[PrivateMilitary]
+1,[PrivateIntelligence]
+1,Bureau of Alcohol, Tobacco, and Firearms
+1,Centers for Disease Control
+1,Central Intelligence Agency - [CIARole]
+1,Drug Enforcement Agency
+1,Department of Homeland Security
+1,Defense Intelligence Agency
+1,Federal Bureau of Investigation - [FBIRole]
+1,French Foreign Legion
+1,United Nations - [UNRole]
+1,National Security Agency
+1,Peace Corps
+1,Secret Service
+1,State Department - [StateRole]
+1,US Air Force - [MaleAirForceRole]
+1,US Army - [MaleArmyRole]
+1,US Coast Guard
+1,US Marine Corps - [MaleMarineRole]
+1,US Marshals
+1,US Navy - [MaleNavyRole]
+1,Volunteer Firefighter - [US Cities.simplified]
+5,[Modern Profession.Start] ([US Cities.simplified])
+1,Jailed for [Crime]
+1,Unknown, Probably Spent in [World Cities.Start]
+1,Unknown, Probably Spent in [US Cities.Start]
+1,Foreign Correspondent, ([World Cities.Start])
+1,Reporter in [US Cities.Start]
+1,Student in [US Cities.Start]
+1,Student in [World Cities.Start]
+1,[OtherJob] in [US Cities.Start]
+1,[OtherJob] in [World Cities.Start]
+1,Medical Leave
+1,Defense Advanced Research Projects Agency
+
+;FemaleAmericanJobExperience
+1,[US Cities.Start] Police Department - [PoliceRole]
+1,[NationalLab] National Laboratory
+1,Bureau of Alcohol, Tobacco, and Firearms
+1,Centers for Disease Control
+1,Central Intelligence Agency - [CIARole]
+1,Drug Enforcement Agency
+1,Department of Homeland Security
+1,Defense Intelligence Agency
+1,Federal Bureau of Investigation - [FBIRole]
+1,French Foreign Legion
+1,United Nations - [UNRole]
+1,National Security Agency
+1,Peace Corps ([World Cities.Start])
+1,Secret Service
+1,State Department - [StateRole]
+1,US Air Force - [FemaleAirForceRole]
+1,US Army - [FemaleArmyRole]
+1,US Coast Guard
+1,US Marine Corps - [FemaleMarineRole]
+1,US Marshals
+1,US Navy - [FemaleNavyRole]
+1,Volunteer Firefighter - [US Cities.simplified]
+5,[Modern Profession.Start] ([US Cities.simplified])
+1,Jailed for [Crime]
+1,Unknown, Probably Spent in [World Cities.Start]
+1,Unknown, Probably Spent in [US Cities.Start]
+1,Foreign Correspondent, ([World Cities.Start])
+1,Reporter in [US Cities.Start]
+1,Student in [US Cities.Start]
+1,Student in [World Cities.Start]
+1,Medical Leave
+1,Pregnancy and Family Leave
+1,Defense Advanced Research Projects Agency
+1,Antarctica - [Antarctica]
+1,[PrivateIntelligence]
+1,[OtherJob] in [US Cities.Start]
+1,[OtherJob] in [World Cities.Start]
+
+;Antarctica
+3,U.S. Antarctic Program - Amundsen-Scott station
+10,U.S. Antarctic Program - McMurdo station
+5,U.S. Antarctic Program - Palmer station
+1,Argentine Antarctic Program - Almirante station
+1,Argentine Antarctic Program - Belgrano II station
+2,Australian Antarctic Program - Casey station
+1,Franco-Italian Antarctic Program - Concordia station
+1,Chinese Antarctic Program - Great Wall station
+2,British Antarctic Survey - Halley station
+1,Russian Antarctic Program - GLeningradskaya station
+
+;UNRole
+1,UNHCR
+1,UNPROFOR Croatia
+1,UNMIK Kosovo
+1,UNOMIG Georgia
+1,UNIFIL Lebanon
+1,UNOMSIL, Sierra Leone
+1,Unknown role
+
+;NationalLab
+1,Sandia
+1,Los Alamos
+1,Livermore
+
+;OtherJob
+1,Bouncer
+1,Bartender
+1,Chef
+1,Protest Organizer
+1,Taxi Driver
+
+;CIARole
+1,Intelligence Analyst ([AnalystRegion])
+1,Special Operations Group
+1,Crime and Narcotics Center
+1,WINPAC
+1,Office of Transnational Issues
+1,Counter-Intelligence Center
+1,Counter-Terrorism Center
+1,Information Operations Center
+1,National Clandestine Service
+1,Liaison, Task Force 11
+1,Liaison, Task Force 121
+1,Liaison, Task Force 145
+1,Liaison, Task Force 6-26
+3,Liaison, [ForeignCounterTerror]
+3,Liaison, [ForeignIntel]
+1,(unknown role)
+
+;AnalystRegion
+1,Latin America
+1,Sub-Saharan Africa
+1,Asian Pacific
+1,Eastern Europe
+1,Western Europe
+1,Middle East
+1,South Asia
+
+;FBIRole
+1,Intelligence Analyst
+1,Field Agent ([US Cities.simplified])
+1,Cybercrime Unit
+1,Counter-Intelligence
+1,Counter-Terrorism
+1,Organized Crime Unit
+1,Gang Operations Unit
+1,Forensics Lab
+1,Hostage Rescue Team
+1,Critical Incident Response Group
+1,Liaison, Task Force 11
+1,Liaison, Task Force 121
+1,Liaison, Task Force 145
+1,Liaison, Task Force 6-26
+1,Liaison, [ForeignCounterTerror]
+
+;StateRole
+1,Foreign Service ([World Cities.WorldCapital])
+1,Diplomatic Security Service ([World Cities.WorldCapital])
+1,Advisor to the Chief of Staff
+1,Advisor to the Secretariat
+1,Office of the Coordinator for Counterterrorism
+1,Office of the Coordinator For Reconstruction
+1,Bureau of International Information Programs
+1,Office of the Science and Technology Adviser
+1,Office to Monitor and Combat Trafficking in Persons
+1,Office of War Crimes Issues
+1,Bureau of Intelligence and Research
+1,Bureau of Regional Affairs, [AnalystRegion]
+
+;PrivateMilitary
+3,Blackwater
+3,DynCorp
+1,Triple Canopy
+3,Custer Battles
+1,Alpha Point
+1,Airscan
+1,Braddock Dunn and McDonald 
+1,AQMI
+1,Critical Intervention Services
+3,Kellogg, Brown and Root
+1,Northbridge Services Group
+1,Ronin Worldwide Executive Protection
+1,Vinell
+1,Pathfinder
+1,Aegis Defence Services
+1,Hart Security Limited
+1,Blue Hackle
+1,EUBSA PMC
+1,Unity Resources Group
+1,Greystone International
+1,Omega Group
+1,Sharp End International
+1,ArmorGroup
+
+;PrivateIntelligence
+1,Diligence, New York
+1,Total Intelligence Solutions, Arlington, VA
+1,Business Intelligence Advisors, Boston, MA
+1,GlobalOptions Group, New York
+1,Kroll Inc.
+1,ArmorGroup International
+1,Trident Group, Arlington, VA
+1,Wackenhut Corporation
+1,Securitas Security Services USA, Inc.
+1,MVM, Inc.
+1,Inter-Con Security Systems, Inc.
+1,Pathfinder Security Services
+
+;PoliceRole
+1,Detective
+1,Internal Affairs
+1,Gang Squad
+1,Intelligence Analyst
+1,Vice Squad
+1,Narcotics Squad
+1,Special Victims Unit
+1,Homocide Detective
+1,Crime Scene Investigations
+1,Auxiliary
+1,EOD
+2,SWAT
+1,Fraud Squad
+1,Computer Crimes Division
+1,Aviation
+1,Firearms Instructor
+1,Offensive Driving Instructor
+
+;MaleArmyRole
+1,USAMRIID
+1,Helicopter Pilot
+1,160th Special Operations Aviation Regiment
+1,U.S. Army Special Operations Command (USASOC) HQ
+1,1st Special Forces Operational Detachment-Delta (Fort Bragg, North Carolina.)
+1,75th Ranger Regiment (Fort Benning, Georgia)
+1,United States Army Special Forces Command (USASFC)
+1,1st Special Forces Group (Okinawa, Japan)
+1,3rd Special Forces Group (Fort Bragg, North Carolina)
+1,5th Special Forces Group (Fort Campbell, Kentucky)
+1,7th Special Forces Group (Fort Bragg, North Carolina.)
+1,10th Special Forces Group (Stuttgart, Germany)
+1,19th Special Forces Group - National Guard
+1,20th Special Forces Group - National Guard
+1,160th Special Operations Aviation Regiment (Fort Campbell, Kentucky)
+1,4th Psychological Operations Group (Airborne) Psychological Operations
+1,95th Civil Affairs Battalion (Airborne) Civil Affairs (CA)
+1,U.S. Army Civil Affairs and Psychological Operations Command (USACAPOC) 
+1,Sustainment Brigade (Special Operations) (Airborne) (Provisional) SB(SO)(A)
+1,528th Special Operations Support Battalion (Airborne)
+1,Material Management Center (Airborne)
+1,John F. Kennedy Special Warfare Center (USAJFKSWCS) 
+1,Military Free Fall School – HALO/HAHO
+1,1st Armored Division, Wiesbaden Germany
+1,1st Cavalry Division, Fort Hood, Texas
+1,1st Infantry Division, Fort Riley, Kansas
+1,2nd Infantry Division, Camp Red Cloud, Korea
+1,3rd Infantry Division, Fort Stewart, Georgia
+1,4th Infantry Division, Fort Hood, Texas
+1,10th Mountain Division, Fort Drum, New York
+1,25th Infantry Division, Schofield Barracks, Hawaii
+1,82nd Airborne Division, Fort Bragg, North Carolina
+1,101st Airborne Division, Fort Campbell, Kentucky
+1,Combat Medic
+1,SIGINT Analyst
+1,Explosive Ordnance Disposal, Baghdad, Iraq
+1,Liaison, Task Force 11
+1,Liaison, Task Force 121
+1,Liaison, Task Force 145
+1,Liaison, Task Force 6-26
+1,Liaison, [ForeignCounterTerror]
+
+;MaleNavyRole
+1,Diver
+1,Cook
+1,Fighter Pilot
+1,Helicopter Pilot
+1,Naval Special Warfare Group ONE (SEAL Teams, Naval Amphibious Base Coronado, California)
+1,Naval Special Warfare Group THREE (SEAL Delivery Vehicle Teams, Naval Amphibious Base Coronado, California)
+1,Naval Special Warfare Group FOUR (Special Boat Teams, Naval Amphibious Base Little Creek, Virginia)
+1,Naval Special Warfare Development Group (Counter-terrorist DEVGRU, fmr. SEAL Team 6, Fleet Training Center Dam Neck, Virginia)
+
+;MaleAirForceRole
+1,Parajumper
+1,Fighter Pilot
+1,Aircraft Mechanic
+1,24th Special Tactics Squadron
+1,16th Special Operations Wing
+1,1st Special Operations Wing, Hurlburt Field, Florida
+1,27th Special Operations Wing, Cannon AFB, New Mexico
+1,352d Special Operations Group, RAF Mildenhall, England
+1,720th Special Tactics Group, Hurlburt Field, Florida
+1,US Air Force Special Operations School, Hurlburt Field, Florida
+1,18th Flight Test Squadron, Hurlburt Field, Florida
+1,919th Special Operations Wing, Duke Field, Florida
+1,193d Special Operations Wing, Harrisburg International Airport, Pennsylvania
+1,123d Special Tactics Squadron, Louisville International Airport, Kentucky
+1,125th Special Tactics Squadon, Portland International Airport, Oregon
+1,209th Civil Engineer Squadron, Gulfport, Mississippi
+1,280th Combat Communication Squadron, Dothan Regional Airport, Alabama
+1,107th Weather Flight, Selfridge Air National Guard Base, Michigan
+1,146th Weather Flight, Pittsburgh International Airport, Pennsylvania
+1,181st Weather Flight, Dallas, Texas
+
+;MaleMarineRole
+5,Infantry
+1,Embassy Guard ([World Cities.WorldCapital])
+1,1st MSOB (Camp Pendleton, CA)
+1,2nd MSOB (Camp Lejeune, NC)
+1,Marine Special Operations Advisor Group 
+1,Marine Special Operations Support Group 
+1,Marine Special Operations School (MSOS) 
+1,Special Mission Training Branch - East (Camp Lejeune, NC)
+1,Special Mission Training Branch - West (Camp Pendleton, CA)
+2,Force Recon
+3,Marine Recon
+1,Fleet Antiterrorism Security Team
+1,Anti-Terrorism Battalion, 2nd Marine Division
+2,Scout Sniper
+
+;FemaleArmyRole
+1,USAMRIID
+1,Helicopter Pilot
+1,4th Psychological Operations Group (Airborne) Psychological Operations
+1,95th Civil Affairs Battalion (Airborne) Civil Affairs (CA)
+1,U.S. Army Civil Affairs and Psychological Operations Command (USACAPOC) 
+1,Sustainment Brigade (Special Operations) (Airborne) (Provisional) SB(SO)(A)
+1,528th Special Operations Support Battalion (Airborne)
+1,Material Management Center (Airborne)
+1,Military Free Fall School – HALO/HAHO
+1,585th Engineer Company, Fort Lewis, WA
+1,Combat Medic
+1,SIGINT Analyst
+1,Military Police
+1,1st Armored Division, Wiesbaden Germany
+1,1st Cavalry Division, Fort Hood, Texas
+1,1st Infantry Division, Fort Riley, Kansas
+1,2nd Infantry Division, Camp Red Cloud, Korea
+1,3rd Infantry Division, Fort Stewart, Georgia
+1,4th Infantry Division, Fort Hood, Texas
+1,10th Mountain Division, Fort Drum, New York
+1,25th Infantry Division, Schofield Barracks, Hawaii
+1,82nd Airborne Division, Fort Bragg, North Carolina
+1,101st Airborne Division, Fort Campbell, Kentucky
+
+;FemaleNavyRole
+1,Diver
+1,Cook
+1,Fighter Pilot
+1,Helicopter Pilot
+1,Shore Patrol
+1,Flight Deck Operations
+1,Office of Naval Intelligence
+1,Space & Naval Systems Warfare Command
+1,Naval Strike & Air Warfare Center
+
+;FemaleAirForceRole
+1,Parajumper
+1,Fighter Pilot
+1,Aircraft Mechanic
+1,24th Special Tactics Squadron
+1,16th Special Operations Wing
+1,1st Special Operations Wing, Hurlburt Field, Florida
+1,27th Special Operations Wing, Cannon AFB, New Mexico
+1,352d Special Operations Group, RAF Mildenhall, England
+1,720th Special Tactics Group, Hurlburt Field, Florida
+1,US Air Force Special Operations School, Hurlburt Field, Florida
+1,18th Flight Test Squadron, Hurlburt Field, Florida
+1,919th Special Operations Wing, Duke Field, Florida
+1,193d Special Operations Wing, Harrisburg International Airport, Pennsylvania
+1,123d Special Tactics Squadron, Louisville International Airport, Kentucky
+1,125th Special Tactics Squadon, Portland International Airport, Oregon
+1,209th Civil Engineer Squadron, Gulfport, Mississippi
+1,280th Combat Communication Squadron, Dothan Regional Airport, Alabama
+1,107th Weather Flight, Selfridge Air National Guard Base, Michigan
+1,146th Weather Flight, Pittsburgh International Airport, Pennsylvania
+1,181st Weather Flight, Dallas, Texas
+
+;FemaleMarineRole
+5,Infantry
+1,Embassy Guard ([World Cities.WorldCapital])
+1,1st MSOB (Camp Pendleton, CA)
+1,2nd MSOB (Camp Lejeune, NC)
+1,Marine Special Operations Advisor Group 
+1,Marine Special Operations Support Group 
+1,Marine Special Operations School (MSOS) 
+1,Special Mission Training Branch - East (Camp Lejeune, NC)
+1,Special Mission Training Branch - West (Camp Pendleton, CA)
+2,Force Recon
+3,Marine Recon
+1,Fleet Antiterrorism Security Team
+1,Anti-Terrorism Battalion, 2nd Marine Division
+
+;Crime
+1,Manslaughter
+1,Murder
+1,Arson
+1,Armed Robbery
+1,Grand Theft Auto
+1,Narcotics Possession
+1,Burglary
+1,Assault with a Deadly Weapon
+1,Wire Fraud
+1,Espionage
+1,Corrupting a Minor
+1,Securities Fraud
+1,Racketeering
+1,War Crimes
+1,Insider Trading
+1,Smurfing
+1,Domestic Violence
+1,Drunk Driving
+1,Forgery
+1,Counterfeiting
+1,Theft
+1,Extortion
+1,Child Pornography
+1,Sexual Assault
+1,Possession with Intent to Distribute
+1,Aggravated Assault
+1,Manufacture of a Controlled Substance
+1,Drug Trafficking
+1,Negligent Homicide
+1,Prostitution
+1,Kidnapping
+1,Tax Evasion
+1,Perjury
+1,Hate Crimes
+1,Conspiracy
+1,Aiding and Abetting
+1,Hacking
+
+;ForeignCounterTerror
+1,21st SAS Regiment, London, UK
+1,22nd SAS Regiment, Hereford, UK
+1,23rd SAS Regiment, Birmingham, UK
+1,NZ SAS, Papakura, New Zealand
+1,Australian SASR, Swanbourne, Western Australia
+1,Special Boat Squadron, Poole, UK
+1,Special Reconnaissance Regiment, Hereford, UK
+1,Special Forces Support Group, RAF Saint Athan, Wales, UK
+1,GSG9, Bonn, Germany
+1,GIGN, Satory, France
+1,BOPE, Rio de Janeiro, Brazil
+1,OMON, Moscow, Russia
+1,KSK, Calw, Germany
+1,Singapore Special Operations Force, Singapore
+1,National Security Guards, New Delhi, India
+1,Para Commandos, Bangalore, India
+1,FSB Alfa Group, Moscow, Russia
+1,Grupo de Operações Especiais, Lisbon, Portugal
+1,GCGN, Tunis, Tunisia
+1,Carabinieri, Rome, Italy
+1,Mossad, Jerusalem, Israel
+
+;ForeignIntel
+3,MI5, United Kingdom
+5,MI6, United Kingdom
+2,GCHQ, United Kingdom
+1,SISMI, Italy
+1,SISDE, Italy
+1,GRU, Russia
+1,KGB, Russia
+1,DGSE, France
+1,DSD, Australia
+1,Viestikoelaitos, Finland
+1,Scotland Yard, United Kingdom
+1,FSB, Russia
+1,Intelligence Bureau, India
+1,ISI, Pakistan
+1,Czech Security Information Service, Czech Republic
+1,Danish Security Intelligence Service, Denmark
+1,National Intelligence Service, Greece
+1,SIRP, Portugal
+1,Agencja Wywiadu, Poland
+1,Centro Nacional de Inteligencia, Spain
+1,Departamento Administrativo de Seguridad, Colombia
+1,NIA, South Africa
+1,KCIA, South Korea
+1,Mossad, Israel
+1,Preventive Security Agency, Palistinian Authority
+1,Milli Istihbarat Teskilati, Turkey
+1,Bundesnachrichtendienst, Germany
+
+;AreaofExpertise
+3,[ExpertiseSimple]
+1,[ExpertiseComplex]
+
+;ExpertiseSimple
+1,Counter-Insurgency Tactics
+1,Non-Lethal Weaponry
+1,Special Weapons and Tactics
+1,SIGINT Analysis
+1,MASINT Analysis
+1,Hostage Negotiation
+1,HUMINT Analysis
+1,Psychological Warfare
+1,Electronic Warfare
+1,Network-Centric Warfare
+1,Urban Warfare
+1,Drone Warfare
+1,Counterterrorism Operations
+1,Counter-Narcotics
+1,Urban Tradecraft
+1,Cryptanalysis
+1,Personal Security
+1,--CLASSIFIED--
+
+;ExpertiseComplex
+1,[ExpertiseSimple] to facilitate [ExpertiseSimple]
+1,[ExpertiseSimple] of [ExpertiseSimple]
+1,[ExpertiseSimple] to improve [ExpertiseSimple]
+1,[ExpertiseSimple] as pertaining to [ExpertiseSimple]
+1,[ExpertiseSimple] as a technique in [ExpertiseSimple]
+
+

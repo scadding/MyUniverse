@@ -1,0 +1,119 @@
+
+;Start
+4,[male] [surname] (male)
+4,[female] [surname] (female)
+1,[lads] [surname] (male, smuggler)
+1,[lasses] [surname] (female, smuggler)
+
+;male
+1,Oscar
+1,William
+1,Lucas
+1,Ulf
+1,Filip
+1,Isak
+1,Elias
+1,Alexander
+1,Emil
+1,Hugo
+1,Viktor
+1,Axel
+1,Kristian
+1,Daniel
+1,Tobias
+1,Stefan
+1,Per
+1,Jonas
+1,Jon
+1,Joseph
+1,Mattias
+
+;female
+1,Ella
+1,Hanna
+1,Alva
+1,Emma
+1,Elin
+1,Linnéa
+1,Ida
+1,Alice
+1,Julia
+1,Maja
+1,Johanna
+1,Susanna
+1,Anna
+1,Anja
+1,Ester
+1,Kristina
+1,Rebecca
+1,Elisabeth
+1,Marianne
+1,Judith
+
+;surname
+1,Johansson
+1,Andersson
+1,Karlsson
+1,Nilsson
+1,Eriksson
+1,Larsson
+1,Olsson
+1,Persson
+1,Svensson
+1,Gustafsson
+1,Pettersson
+1,Jonsson
+1,Jansson
+1,Hansson
+1,Bengtsson
+1,Jönsson
+1,Petersson
+1,Carlsson
+1,Gustavsson
+1,Magnusson
+
+;lads
+1,Kolar-Alfred
+1,Axel Winkel
+1,Gösta i Broby
+1,Edvard Kron
+1,Vrak-Elof
+1,Rune Spetsig
+1,Kräk-Olle
+1,Janne Torpare
+1,Calle Cederström
+1,Ernst i Hulta
+1,Sundberg
+1,Gäddsnärjarn 
+1,Efraim
+1,Vesterman
+1,Kalle i Udden
+1,Landström
+1,pråmskeppar Jansson
+1,Sammel i Hyra
+1,Johan i Bogård
+1,Valfrid Lindholm
+
+;lasses
+1,Gerda
+1,Vera
+1,Lilly
+1,Hilma
+1,Alma
+1,Olivia
+1,Botilda
+1,Ida
+1,Olivia
+1,Agnes
+1,Magdalena
+1,Kerstin
+1,Rut
+1,Nanna
+1,Olga
+1,Ingeborg
+1,Selma
+1,Ingelöf
+1,Elna
+1,Märta
+
+

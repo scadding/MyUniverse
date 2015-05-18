@@ -1,0 +1,420 @@
+
+;display
+1,===Inland===<br>
+_<sgdisplay iterations="15">[inland]</sgdisplay><br>
+_===Coastal===<br>
+_<sgdisplay iterations="15">[coastal]</sgdisplay><br>
+
+;Start
+1,[inland]
+1,[coastal]
+
+
+;inland
+1,[preplaceinland] [inspiration]
+10,[inspiration] [postplace]
+4,[posessives] [postplace]
+1,Ruin[plural] [ruins]
+2,[postplace] of the [inspiration][plural]
+1,The [postplace] of [abstractevocative]
+
+;coastal
+1,[preplaceinland] [inspiration]
+2,[preplacecoast] [inspiration]
+14,[inspiration] [postplacecoast]
+6,[posessives] [postplacecoast]
+1,Ruin[plural] [ruins]
+3,[postplacecoast] of the [inspiration][plural]
+
+
+;preplaceinland
+3,Lake
+3,Mount
+2,Camp
+2,Loch
+1,Castle
+1,Fort
+1,Castra
+1,Crannog
+1,Fortress
+
+;preplacecoast
+3,Cape
+1,Key
+1,Isle of the
+
+;ruins
+7,of the settlement at [Fantasy Town Names.Start]
+2,of Castle [inspiration]
+2,of Fort [inspiration]
+1,of Castra [inspiration]
+2,of Fortress [inspiration]
+14,of [inspiration] [manmade]
+5,of [posessives] [manmade]
+3,at [inland]
+3,of [inspiration] [Fantasy Town Feature.buildings]
+3,of [inspiration] [Fantasy Town Feature.religious]
+1,of [Fantasy Town Feature.religiousplace]
+
+;postplace
+3,[manmade]
+11,[natural]
+
+;postplacecoast
+2,[manmade]
+5,[natural]
+10,[nautical]
+
+;manmade
+1,Abbey
+1,Bridge
+1,Canal
+1,Castle
+1,Citadel
+1,Croft
+1,Dam
+1,Dolmen
+1,Enclave
+1,Fortress
+1,Garrison
+1,Gate
+1,Haven
+1,Keep
+1,Lair
+1,Manor
+1,Menhir[plural]
+1,Mine[plural]
+1,Mound[plural]
+1,Oasis
+1,Obelisk
+1,Outpost
+1,Park
+1,Post
+1,Pyramid
+1,Quarry
+1,Station
+1,Temple
+1,Tower
+1,Watchtower
+1,Wells
+
+;natural
+1,Arch
+1,Badlands
+1,Barrow[plural]
+1,Basin
+1,Barrens
+1,Bayou
+1,Bend
+1,Bluff
+1,Bog
+1,Branch
+1,Brook
+1,Butte
+1,Cairn
+1,Canyon
+1,Cascades
+1,Cave
+1,Chasm
+1,Chimney
+1,Cliff[plural]
+1,Crag
+1,Crater
+1,Creek
+1,Crest
+1,Crossing
+1,Dale
+1,Delta
+1,Desert
+1,Downs
+1,Dunes
+1,Falls
+1,Fen
+1,Field[plural]
+1,Flatland[plural]
+1,Flats
+1,Floodplain
+1,Ford
+2,Forest
+1,Fork
+1,Gap
+1,Glade[plural]
+1,Glen
+1,Gorge
+1,Grove
+1,Gulch
+1,Gully
+1,Headwaters
+1,Heath
+1,Heights
+1,Highland[plural]
+1,Hill
+1,Hole
+1,Hollow
+1,Howe
+1,Knob
+1,Knoll
+1,Kurgan
+1,Lake
+1,Marches
+1,Marsh
+1,Meadow
+1,Mere
+1,Mill
+1,Mire
+1,Moor[plural]
+1,Morass
+1,Mound
+1,Mountain
+1,Oaks
+1,Park
+1,Pass
+1,Peak
+1,Perch
+1,Pillar[plural]
+1,Pinnacle[plural]
+1,Pines
+1,Plain[plural]
+1,Plateau
+1,Point
+1,Pond
+1,Pool
+1,Promontory
+1,Quagmire
+1,Rapids
+1,Ravine
+1,Ridge
+1,Rise
+1,Rift
+1,River
+1,Rock
+1,Run
+1,Sands
+1,Sinkhole
+1,Slough
+1,Spire
+1,Spring[plural]
+1,Steppe
+1,Stone
+1,Stream
+1,Summit
+1,Swamp
+1,Tableland[plural]
+1,Taiga
+1,Tam
+1,Tangle
+1,Thicket
+1,Tor
+1,Trail
+1,Tree
+1,Uplands
+1,Vale
+1,Valley
+1,Waterhole
+1,Wilds
+2,Wood[plural]
+
+;nautical
+1,Abyss
+1,Archipelago
+1,Bay
+1,Beach
+1,Cape
+1,Cay
+1,Channel
+1,Cliff[plural]
+1,Coast
+1,Cove
+1,Deep[plural]
+1,Doldrums
+1,Firth
+1,Fjord
+1,Grotto
+1,Gulf
+1,Harbor
+1,Headland
+1,Inlet
+1,Island
+1,Isle
+1,Landing
+1,Lagoon
+1,Mire
+1,Narrows
+1,Neck
+1,Peninsula
+1,Point
+1,Quay
+1,Reef
+1,Rock[plural]
+1,Sargasso
+1,Sea
+1,Shallows
+1,Shoal
+1,Shore[plural]
+1,Sound
+1,Strait[plural]
+1,Strand
+1,Trench
+
+;plural
+1,
+1,s
+
+;inspiration
+1,[Fantasy Town Names.Misc][Fantasy Town Names.Suffix][Fantasy Town Names.Suffix]
+1,[Fantasy Town Names.Group1][Fantasy Town Names.Group2]
+1,[Fantasy Town Names.Misc][Fantasy Town Names.Suffix]
+3,[Fantasy Military Unit.MascotAnimal]
+2,[Fantasy Military Unit.MascotModifier]
+1,[Secret Society Title.Title]
+2,[Secret Society Title.OrgDescriptor]
+2,[Secret Society Title.Noun]
+10,[moreinspirations]
+3,[Inscriptions.AbstractNounNegative]
+1,[Inscriptions.AbstractNounPositive]
+4,[Inscriptions.DefiniteNoun]
+6,[Fantasy Town Names.Englishy]
+
+;abstractevocative
+5,[Inscriptions.AbstractNounNegative]
+1,Hunger
+1,Desolation
+1,Broken Promises
+1,Forgotten Dreams
+1,Lost Souls
+1,the Old Ones
+1,the Ancients
+1,Sorrows
+1,Insanity
+1,Despair
+1,Woe
+1,the Dead
+1,Hell
+1,Prophecy
+
+;posessives
+1,[Fantasy Names.MaleFirstName]'s
+1,[Fantasy Town Names.Jobs]'s
+2,[Inn and Tavern Names.Person]'s
+1,[moreposessors]'s
+
+;moreposessors
+1,Bugbear
+1,Centaur
+1,Conjurer
+1,Crusader
+1,Demon
+1,Devil
+1,Dragon
+1,Drake
+1,Druid
+1,Dryad
+1,Dwarf
+1,Elf
+1,Faery
+1,Giant
+1,Gnoll
+1,Gnome
+1,Goblin
+1,Hag
+1,Harpy
+1,Hobgoblin
+1,Hunter
+1,Kobold
+1,Lover
+1,Manticore
+1,Medusa
+1,Minotaur
+1,Monk
+1,Ogre
+1,Orc
+1,Paladin
+1,Pirate
+1,Pixie
+1,Ranger
+1,Satyr
+1,Scout
+1,Shepherd
+1,Slave
+1,Sorcerer
+1,Trapper
+1,Wizard
+
+
+;moreinspirations
+2,[creature]
+1,[creature] [bodypart]
+1,[colors]
+1,[Inn and Tavern Names.Item]
+
+;colors
+1,Amber
+2,Argent
+1,Auburn
+3,Azure
+3,Black
+3,Blue
+1,Cerulean
+2,Copper
+3,Crimson
+1,Dun
+2,Ebony
+2,Golden
+3,Green
+3,Grey
+1,Indigo
+1,Ivory
+3,Red
+2,Scarlet
+3,Silver
+1,Smoky
+1,Umber
+1,Violet
+3,White
+
+;creature
+1,Angel
+1,Ankheg
+1,Basilisk
+1,Bear
+1,Behir
+1,Bugbear
+1,Chimera
+1,Cockatrice
+1,Displacer
+2,Dragon
+1,Drake
+1,Dryad
+1,Ghoul
+1,Giant
+1,Goblin
+1,Griffon
+1,Harpy
+1,Hippogriff
+1,Hobgoblin
+1,Kobold
+1,Landshark
+1,Lion
+1,Lizardmen
+1,Manticore
+1,Minotaur
+1,Monkey
+1,Otyugh
+1,Owlbear
+1,Pegasus
+1,Sahuagin
+1,Sphinx
+1,Tiefling
+1,Warhorse
+1,Werewolf
+1,Wolf
+1,Wraith
+1,Wyrm
+25,[Inn and Tavern Names.Creature]
+
+;bodypart
+5,Head
+2,Bones
+1,Skull
+
+

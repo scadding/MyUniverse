@@ -1,0 +1,509 @@
+
+;Start
+1,[Name], a [HumanMaleMilitaryProfession]. [HumanMaleMartialSentence]
+
+;Name
+1,[Fantasy Names.MaleFirstName] of [Fantasy Town Names.Start]
+1,[Fantasy Names.MaleFirstName] of [Fantasy Town Names.Englishy]
+1,[Fantasy Names.StartNoTitle] the [MaleHonorific]
+1,[Fantasy Names.StartNoTitle]
+
+;MaleHonorific
+1,Grey
+1,Red
+1,Blue
+1,White
+1,I
+1,II
+1,III
+1,IV
+1,Younger
+1,Elder
+1,Magnificent
+1,Pious
+1,Vile
+1,Learned
+1,Holy
+1,Unholy
+1,Great
+1,Unwashed
+1,Mad
+1,Humble
+1,Bloody
+50,[Secret Society Title.TitleDescriptor]
+
+;HumanMaleMilitaryProfession
+7,soldier in the [Fantasy Military Unit.Start]
+8,[MilitaryRank] in the [Fantasy Military Unit.Start]
+
+;HumanMaleMartialSentence
+10,[HumanMaleMartialDistinguishment] he [FoughtAdverb] [FoughtVerb] a [Group] of [NegativeAdjChance] [HumanRacialEnemies]s [HumanMaleWarReason].
+2,[HumanMaleMartialDistinguishment] he [FoughtAdverb] [FoughtVerb] [IndividualEnemy] [HumanMaleWarReason].
+1,[HumanMaleMartialSentence] [HumanMaleMartialSentence]
+
+;HumanMaleMartialDistinguishment
+5,He distinguished himself when
+5,He rose to fame after
+5,He became a legend when
+5,He became a local hero when
+1,He regained his family's lost honor after
+5,He was knighted after
+2,He was comemmorated in [WrittenRemembrances] about the time
+2,He is mainly known through the [WrittenRemembrances] about the incident when
+1,He commissioned [WrittenRemembrances] written about the time
+2,He was celebrated  in a [WrittenRemembrances] written about the time
+1,He personally wrote a [WrittenRemembrances] about the time
+1,He became a household name for a time because of the [WrittenRemembrances] written about the time
+5,He is depicted in a [ArtworkRemembrances] about the time
+2,He commissioned a [ArtworkRemembrances] about the time
+5,He is famous for the occasion on which
+4,He is best-known for the occasion on which
+3,He is sung about in bards' tales for the time
+5,He is remembered for the incident when
+5,He secured his place in history when
+5,He saved his town when
+2,He became mayor of his hometown after
+1,He received a field commission after
+2,He is considered a local legend for the time
+1,A statue erected in his hometown commemorates the occasion when 
+1,He is well remembered by his hometown for the time
+1,He enjoyed popularity at court after
+1,He commanded a crack squad of soldiers when
+1,He gave the credit to the men he commanded when
+1,Although stranded behind enemy lines, 
+1,Though seriously wounded,
+1,He was posthumously honored for the time
+1,There are those who claim that
+1,It is said that
+1,Many slightly different tales tell of the occasion when
+1,Everyone knows the story of when
+1,Among the tales told of him, the most famous was when
+1,Among his many exploits, perhaps the most famous was when
+1,Children all know the tale of the time
+1,Bards still sing of when
+1,Tacticians most admire him because 
+
+;MilitaryRank
+10,colonel
+10,commander
+2,aide-de-camp
+3,brigadier
+6,captain
+2,centurion
+3,commander
+2,corporal
+8,fieldmarshal
+8,general
+2,lance corporal
+4,leftenant
+4,lieutenant
+6,major
+9,marshal
+1,master seargent
+4,provost marshal
+3,seargent
+2,seargent-major
+1,specialist
+1,spymaster
+7,standard-bearer
+1,tactician
+2,warmage
+
+;MilitaryRankCap
+10,Colonel
+10,Commander
+2,Aide-de-camp
+3,Brigadier
+6,Captain
+2,Centurion
+3,Commander
+2,Corporal
+8,Fieldmarshal
+8,General
+2,Lance Corporal
+4,Leftenant
+4,Lieutenant
+6,Major
+9,Marshal
+1,Master Seargent
+4,Provost Marshal
+3,Seargent
+2,Seargent-Major
+1,Specialist
+7,Standard-Bearer
+2,Warmage
+1,Tactician
+1,Spymaster
+
+;Group
+5,whole army
+5,band
+5,brigade
+1,chosen champion
+5,clan
+4,company
+5,trained elite troop
+5,war encampment
+5,family
+5,horde
+1,marauding party
+1,mounted company
+5,patrol
+5,platoon
+5,raiding party
+2,regiment
+1,secret cell
+5,squad
+5,tribe
+5,war party
+
+;WrittenRemembrances
+2,ballad
+2,bard's tale
+3,book
+1,drinking song
+4,long-form epic poem
+1,limerick
+1,novella
+2,poignant opera
+4,poem
+1,propaganda leaflet
+4,song
+5,story
+1,three-volume novel
+
+;ArtworkRemembrances
+1,[ArtworkAdj] [ArtworkType]
+
+;ArtworkAdj
+1,finely crafted
+1,famous
+1,memorable
+1,well-known
+3,
+
+;ArtworkType
+4,illuminated book
+5,painting
+1,permanent illusion
+2,sculpture
+5,statue
+4,tapestry
+
+;IndividualEnemy
+15,[Orc Names.Start], leader of the [NegativeAdjChance] [Orc Tribe Name.Start] [TribalHumanoids] tribe
+7,[MilitaryRankCap] [Fantasy Names.StartNoTitle], who led the [NegativeAdjChance] [Fantasy Military Unit.Start],
+1,the [ArcaneEnemy] [ArcaneBooks.ArcaneAuthor]
+1,[Fantasy Names.StartNoTitle], the [Secret Society Title.Start]
+
+;ArcaneEnemy
+1,[NegativeAdj] [ArcaneTitle]
+
+;NegativeAdjChance
+1,[NegativeAdj]
+1,
+
+;NegativeAdj
+1,bloodthirsty
+1,brutish
+1,cold-blooded
+2,cruel
+1,depraved
+3,evil
+1,fell
+1,fierce
+2,foul
+1,harsh
+1,heartless
+1,hellish
+1,inhuman
+1,malevolent
+1,merciless
+1,murderous
+1,pitiless
+1,ravening
+1,remorseless
+1,ruthless
+1,sadistic
+1,savage
+1,vengeful
+2,vicious
+1,wild
+
+;ArcaneTitle
+1,wizard
+1,enchanter
+1,sorcerer
+1,arcanist
+1,demon-summoner
+1,warlock
+
+;TribalHumanoids
+10,gnoll
+10,goblin
+30,orc
+8,hobgoblin
+7,ogre
+4,sahaugin
+1,troll
+
+;HumanRacialEnemies
+10,barbarian
+10,gnoll
+10,goblin
+15,orc
+10,troll
+4,Northlander
+5,[GheronUtility.CulturesHuman] soldier
+4,bandit
+9,bugbear
+1,centaur
+4,desert nomad
+1,dragon
+7,drow
+4,dwarf
+5,elf
+1,feyfolk
+7,giant
+8,hobgoblin
+2,illithid
+7,kobold
+8,lizardfolk
+1,lycanthrope
+1,merfolk
+3,minotaur
+7,ogre
+3,pirate
+8,sahaugin
+3,thief
+2,undead warrior
+3,underdenizen
+
+;HumanMaleWarReason
+5,to defend his [HumanSettlement] against their incursions
+1,to protect his [HumanSettlement] against their invasions
+1,to defend his [HumanSettlement] against their ravages
+1,to avenge the pillaging of his [HumanSettlement]
+1,to shield his [HumanSettlement] from their constant raids
+1,to stem the tide of their onslaught
+1,to seek revenge for the death of his children at their hands
+1,to defend his [HumanSettlement] against their aggression
+1,to bring glory and prestige to his [HumanSettlement]
+1,to erase the dishonour of his [HumanSettlement]
+1,to honor the gods and his ancestors
+1,to fullfill his lover's wishes
+1,to avenge the death of his lover at their hands
+1,but tragically died of his wounds a few days later
+1,in order to revel in the joy of battle
+1,for many years until he was killed in battle
+1,until his death in battle
+1,for many years until the war was finished
+1,until he was killed when his [HumanSettlement] fell
+4,and was known for his skill with the [HumanRacialWeapon]
+2,and was distinctive for the unique [HumanRacialWeapon] that he used
+1,and was said to posess a magical [HumanRacialWeapon]
+2,who invaded his [HumanSettlement]
+1,who terrorized his [HumanSettlement]
+1,until their agents had him assassinated
+1,until they captured him in battle and executed him
+1,until they captured and enslaved him
+10,and was known for his [AdmirableQuality]
+1,and is still admired by many for his [AdmirableQuality]
+1,and is still considered unmatched for his [AdmirableQuality]
+1,and was the envy of many in his day for his [AdmirableQuality]
+1,in the hopes that he could inspire others to do the same
+1,because he was inspired by the legends of antiquity
+1,despite orders from his commander to hold back
+1,in a feat of self-sacrifice that is sung about to this day
+1,to avenge his fallen friends
+1,proving his skill with the [HumanRacialWeapon] to be the stuff of legend
+1,until he had to retreat in order to save his men from certain death at their hands
+1,until the remaining enemies surrendered to him
+1,until the remaining enemies scattered and fled
+1,until his troops scattered and fled, leaving him alone to die at the hands of his enemies
+1,,a feat for which he gave complete credit to his fellow soldiers
+1,and was well liked by the soldiers he served with
+1,and was easily recognizable because he rode a [HumanUnusualSteed] into combat
+1,and was distinctive for his pet [HumanUnusualPet], which accompanied him into combat
+1,
+
+;AdmirableQuality
+1,monstrous strength
+1,shrewdness and cunning
+1,adaptability
+1,resourcefulness
+1,honourable treatment of enemy prisoners
+1,rigid personal discipline
+1,calmness under pressure
+1,unassailable integrity 
+1,ability to predict the enemy's movements
+1,keen eye and quick [HumanRacialWeapon]
+1,mastery of military strategy
+1,clever use of spies and deception
+1,enviable moustache
+1,ability to lead men into battle
+1,skill at outmaneuvering the enemy
+1,uncompromising character
+1,singlemindedness
+1,mastery of tactics
+1,full and manly beard
+1,piercing eyes
+1,amazing speed
+1,mastery of weapons
+1,reputation among women
+
+;HumanSettlement
+4,city
+3,country
+2,farm
+1,hamlet
+4,home
+3,homeland
+1,island
+3,lands
+3,lord's castle
+3,nation
+5,town
+8,village
+
+;HumanRacialWeapon
+4,[HaftedWeapons.AxeType]
+2,[HaftedWeapons.MaceType]
+2,[HaftedWeapons.FlailType]
+8,[HaftedWeapons.PolearmType]
+14,[Swords.StartNoDescription]
+6,[Bows.BowType]
+3,[XBows.XBowType]
+1,[Lances.StartNoDescription]
+
+;HumanUnusualSteed
+3,dire boar
+3,dire lion
+3,dire stag
+4,dire wolf
+3,war elephant
+1,war bull
+1,war giraffe
+3,giant eagle
+5,griffon
+4,hippogriff
+5,pegasus
+2,rhinoceros
+1,roc
+1,wyvern
+1,dragon
+
+;HumanUnusualPet
+10,wolf
+2,bear
+1,blink dog
+3,cheetah
+1,dire badger
+1,displacer beast
+3,eagle
+3,falcon
+3,hawk
+3,hyena
+3,jaguar
+3,krenshar
+2,lion
+1,pseudodragon
+2,snake
+3,war hound
+1,wolverine
+
+;FoughtVerb
+1,ambushed
+1,annihilated
+1,assailed
+1,assassinated the leaders of
+3,assaulted
+4,attacked
+4,battled
+1,captured a bridge from
+1,captured a leader of
+2,captured an important [Utility.Terrains] from
+3,clashed with
+1,conducted raids against
+1,cut off supplies from
+1,decimated
+5,defended against
+1,destroyed
+3,engaged in battle with
+1,eradicated
+8,fought
+6,fought against
+1,guarded against
+2,harassed
+3,hunted down
+2,hunted down and killed
+1,hunted down and killed the leaders of
+1,inspired his warriors to fight against
+2,invaded the lairs of
+1,laid a successful ambush for
+1,laid siege against
+1,laid waste to
+1,led a charge against
+1,led forays deep into the territory of
+1,massacred
+1,outmaneouvered
+1,overcame
+1,overran
+1,protected his lord's standard from
+4,protected against
+1,provided key intelligence against
+1,raided the camps of
+1,rescued prisoners from
+1,resisted
+2,scouted against
+1,shielded his army from
+1,slaughtered
+1,spied on
+1,stole supplies from
+3,struggled against
+1,took on
+3,waged war on
+
+;FoughtAdverb
+3,
+2,aggressively
+2,boldly
+3,bravely
+1,brutally
+1,cautiously
+1,clandestinely
+1,cleverly
+1,confidently
+1,courageously
+1,cunningly
+1,daringly
+1,dauntlessly
+1,decisively
+1,determinedly
+1,famously
+2,fearlessly
+1,gallantly
+2,heroically
+2,honourably
+1,infamously
+1,intrepidly
+1,magnificently
+1,mercilessly
+1,nobly
+1,pitilessly
+1,recklessly
+2,resolutely
+2,ruthlessly
+1,savagely
+1,secretly
+2,singlehandedly
+1,stanchly
+1,strategically
+2,stubbornly
+1,tactically
+1,tirelessly
+1,uncompromisingly
+1,unwaveringly
+2,valiantly
+
+

@@ -1,0 +1,116 @@
+
+;sex
+50,Female
+50,Male
+
+@Roll
+#i,2d6,3d6
+1,2,3
+1,2,4
+2,3,5
+5,3,6
+5,4,7
+10,5,8
+15,6,9
+10,7,10
+10,7,11
+15,8,12
+10,9,13
+5,10,14
+5,11,15
+3,11,16
+2,12,17
+1,12,18
+
+
+@career
+#i,service,enlistment,survival,commission,promotion,reenlist
+1,Navy,8,5,10,8,6
+1,Marines,9,6,9,9,6
+1,Army,5,5,5,6,7
+1,Scouts,7,7,0,0,3
+1,Merchants,7,5,4,10,4
+1,Other,3,5,0,0,5
+
+:Noble Title Male
+10,
+11,Sir
+12,Baron
+13,Marquis
+14,Count
+15,Duke
+
+:Noble Title Female
+10,
+11,Dame
+12,Baroness
+13,Marquess
+14,Countess
+15,Duchess
+
+
+@DM
+#i,DM Title,DM,Attribute,Value
+1,Navy Enlistment,1,Intelligence,8
+1,Navy Enlistment,2,Education,9
+1,Marines Enlistment,1,Intelligence,8
+1,Marines Enlistment,2,Strength,8
+1,Army Enlistment,1,Dexterity,6
+1,Army Enlistment,2,Endurance,5
+1,Scouts Enlistment,1,Intelligence,6
+1,Scouts Enlistment,2,Strength,8
+1,Merchants Enlistment,1,Strength,7
+1,Merchants Enlistment,2,Intelligence,7
+1,Navy Survival,2,Intelligence,7
+1,Marines Survival,2,Endurance,8
+1,Army Survival,2,Education,9
+1,Scouts Survival,2,Intelligence,7
+1,Merchants Survival,2,Intelligence,9
+1,Navy Commission,1,Social,9
+1,Marines Commission,1,Education,7
+1,Army Commission,1,Endurance,7
+1,Merchants Commission,1,Intelligence,6
+1,Navy Promotion,1,Education,8
+1,Marines Promotion,1,Social,8
+1,Army Promotion,1,Education,7
+1,Merchants Promotion,1,Intelligence,9
+
+@Auto Skill
+#i,Condition,Skill
+1,Navy Captain,Social
+1,Navy Admiral,Social
+1,Marine,Cutlass
+1,Marine Lieutenant,Revolver
+1,Army,Rifle
+1,Army Lieutenant,SMG
+1,Merchant First Officer,Pilot
+1,Scouts,Pilot
+
+@Skill Types
+1,Personal Development,,
+1,Service Skills,,
+1,Education,,
+1,Advanced Education,Education,8
+
+;Gun
+1,Body Pistol
+1,Auto Pistol
+1,Revolver
+1,Carbine
+1,Rifle
+1,Auto Rifle
+1,Shotgun
+1,SMG
+1,Laser Carbine
+1,Laser Rifle
+
+;Blade
+1,Dagger
+1,Blade
+1,Foil
+1,Sword
+1,Cutlass
+1,Broadsword
+
+
+

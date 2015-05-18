@@ -1,0 +1,135 @@
+
+;Start
+1,[mundane]
+1,[strange]
+
+;mundane
+1,A skilled but aging spy-master forced to retire.
+1,A stern Russian chairman looking for asylum.
+1,A dead body in an alley whose ID doesn't match its face.
+1,A waiter carrying a secretly poisoned bottle of wine.
+1,A famous singer found dead, with no apparent wounds, in her dressing room.
+1,A weapons dealer waiting for his extremely late buyer to arrive.
+1,A man hiding in the back seat of a car, bullets shattering the windows of the vehicles around him.
+1,A clerk dousing desk, computer and cabinets with kerosene while smoke wafts in from other offices already burning.
+1,A betrayed agent gone AWOL, seeking revenge against his handlers.
+1,A double-agent, cover blown, attempting covert extraction.
+1,A [personality] [person] selling secrets to the other side.
+1,An infamous and efficient assassin casing his latest target.
+1,An undisclosed training facility: fluorescent lights and quiet corridors. 
+1,A dilapidated safe-house in a red-light district, marked for demolition.
+1,A bloodied prisoner huddled in the corner of a dimly lit interrogation room.
+1,A park bench marked for a clandestine pickup.
+1,A long-abandonded POW camp with fresh tire marks leading into its gates.
+1,A convoy of missile-trucks covertly surveilled by ambushers.
+1,A cache of man-portable surface-to-air missiles hidden in village elder's hut.
+1,A mysterious package containing a cryptic note and key labeled "#106".
+1,A plane descending out of control over the Korean Demilitarized Zone.
+1,A train station locker containing a booby-trapped leather case.
+1,Unmarked crates escorted through the jungle: sweat, machetes, and mosquitos.
+1,The robbery of a national bank, the culprits operating with military precision.
+1,A chopper downed in enemy territory, its passengers dead or injured.
+1,The release of a traitorous agent from prison in exchange for vital information.
+1,A missed rendezvous with no sign of the second party.
+1,The signing of a tentative treaty between two countries.
+1,The controversial decommission of a senior agent for alleged fraternization with an enemy agent.
+1,An internal [agency] document on the desk of an investigative reporter, its pages listing active field agents.
+1,The murder of an activist while delivering humanitarian aid, designed to look like local hostility. 
+1,A long-used dead-drop, compromised by foreign agents.
+1,A partisan putting the final touches on the the wiring on a explosive device.
+1,The arrival of an unexpected limo, VIP and security detail.
+1,A fugitive pursued into the night forest; guards, dogs and search-lights.
+1,A [personality] warden overseeing a secret prisoner exchange.
+1,A [person] charged with treason attempting to flee the country.
+1,A [personality] special forces captain seeking to regain the trust of his men.
+1,A driver and passenger exchange blows as their car speeds down the Autobahn.
+1,A local law enforcement officer stumbling across a 'false flag' operation intended to frame his government for a terrorist act.
+1,A blogger is found shot to death in his home, his last entry written in code.
+
+;strange
+1,Two sets of fingerprints taken from the same man twenty years apart... that don't match.
+1,An internal [agency] document on the desk of an investigative reporter, its pages listing active paranormal agents.
+1,Two satellite photos of same man -- one on a Paris street corner, the other at the Kremlin -- timestamped a minute apart.
+1,A poor [thirdworld] boy amusing his friends by raising pencils off his desk without touching them.
+1,A victim fallen from a twelfth-story balcony, stumbling into a nearby alley uninjured.
+1,A sniper waiting patiently on a rooftop, his eyes blind with white cataracts.
+1,A sleeper agent, brainwashed by the other side, a trigger-word buried in his subconscious.
+1,A dead man slumped over, tied to a chair with a handprint seared into his face.
+1,A woman, home late from work, turning on the TV to discover her suicide, broadcast live.
+1,A children's playground giving off high levels of radiation.
+1,A clear radar contact for an object that simply isn't there.
+1,A West-African warlord who leads his men into battle naked.  It is whispered his skin cannot be pierced.
+1,An old dead-drop, disused since the Cold War, receives a message from a presumed-dead operative.
+1,An airliner traveling from Rio to Paris, simply vanished after reporting strange lights over the ocean.
+1,Strange lights moving over a [nationality] military installation.
+1,A [nationality] covert operative fleeing in the night from strange lights in the sky.
+1,A dusty [agency] document on UFOs found in an unrelated file of a government archive.
+1,A dead [nationality] operative's body vanishes from a locked mortuary overnight.
+1,A spectral figure appears near the historic Checkpoint Charlie every night at two o'clock.
+1,A foreign operative is found dead with all his hair and teeth missing.
+1,An operative's routine physical reveals a strange metal object embedded in the bone behind his right ear.
+
+;nationality
+1,American
+1,British
+1,Russian
+1,Israeli
+1,Chinese
+1,Ukrainian
+1,Brazilian
+1,North Korean
+1,Iraqi
+
+;agency
+1,CIA
+1,MI6
+1,KGB
+1,Mossad
+1,FSB
+1,BND
+1,SIS
+1,MI5
+
+;thirdworld
+1,Mexican
+1,Chinese
+1,African
+1,Middle-Eastern
+1,Iraqi
+
+;maguffin
+1,nuclear warhead
+1,EMP device
+1,biological-agent canister
+1,computer virus
+1,set of coordinates
+1,flash drive
+1,CD
+1,portable hard drive
+
+;person
+1,general
+1,government worker
+1,high-level official
+1,husband
+1,intelligence agent
+1,scientific researcher
+1,spymaster
+1,wife
+1,secretary
+1,bodyguard
+
+;personality
+1,dedicated
+1,grieving
+1,idealistic
+1,opportunistic
+1,patriotic
+1,stern
+1,severe
+1,unbalanced
+
+;needswork
+1,An ICBM carrying a nuclear warhead disappears from radar 20 minutes after launch.
+
+

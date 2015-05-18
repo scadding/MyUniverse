@@ -1,0 +1,95 @@
+
+;Start
+1,[nPulpHeroNovel]
+
+;nPulpNoun
+1,Nannies
+1,Nails
+1,Narcs
+1,Navy
+1,Neice
+1,Nephew
+1,Nest
+1,Nincompoop
+1,Ninnies
+1,Node
+1,Noodles
+1,Nook
+1,Nooses
+1,Notes
+1,Novelist
+
+;nPulpAdjNegative
+1,Naive
+1,Naked
+1,Nasal
+1,Nasty
+1,Naughty
+1,Needlenose
+1,Needy
+1,Nefarious
+1,Nigerian
+1,Night
+1,Nitre
+1,Nutty
+
+;nPulpAdjPositive
+1,Napalm
+1,Navajo
+1,Naval
+1,Neighborly
+1,Never-ending
+1,New
+1,New England
+1,Nice
+1,Nickel
+1,Nitrous
+1,Nonchalant
+1,Nuclear
+
+;nPulpMaleFirstName
+1,Nate
+1,Ned
+1,Nero
+1,Nestor
+1,Nick
+1,Nicholas
+1,Nostradamus
+
+;nPulpFemaleFirstName
+1,Nanny
+1,Nikki
+1,Nina
+1,Nita
+1,Noelle
+1,Nora
+
+;nPulpLastName
+1,Nash
+1,Nevada
+1,Nighthawk
+1,Noir
+1,Noreaster
+1,Noose
+1,Nugget
+1,Nuke
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the Novel of the
+1,and the Night of the
+1,in:
+1,versus the
+1,and [nPulpAdjPositive] [nPulpMaleFirstName]'s 
+
+;pulpend
+1,[nPulpAdjNegative] [nPulpNoun]
+
+;nPulpHeroNovel
+10,[nPulpAdjPositive] [nPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[nPulpMaleFirstName] [nPulpLastName] [pulpmiddle] [pulpend]
+3,[nPulpAdjPositive] [nPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[nPulpFemaleFirstName] [nPulpLastName] [pulpmiddle] [pulpend]
+
+

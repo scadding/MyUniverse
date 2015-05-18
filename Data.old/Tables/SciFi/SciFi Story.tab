@@ -1,0 +1,461 @@
+
+;Start
+1,[Character]has a/an[Item]. [Descriptor], [Places], [Event], [Job], [Emotion]
+
+
+:Character
+0,Alien
+1,Animal
+2,Archaeologist
+3,Artist/sculptor
+4,Astronaut
+5,Baby
+6,Barbarian
+7,Beggar
+8,Being of Energy
+9,Bird/flying creature
+10,Brain ship
+11,Brother/Sister
+12,Cat
+13,Child
+14,Circus performer
+15,Clone
+16,Colonist
+17,Computer
+18,Cook
+19,Cyborg
+20,Detective
+21,Disembodied brain
+22,Doctor
+23,Dog
+24,Emotion sucker
+25,Enemy
+26,Farmer
+27,Gaseous alien
+28,Giant
+29,God
+30,Horse/riding beast
+31,Housekeeper
+32,Huntsman
+33,Husband/Wife
+34,Immortal
+35,Imposter
+36,King/Emperor/ruler
+37,Lawyer
+38,Little fuzzy animal (with big sharp teeth or with more brains than humans expect)
+39,Martian
+40,Military person
+41,Minister
+42,Miser
+43,Monk
+44,Monster
+45,Musician
+46,Mutant
+47,Nursemaid
+48,Old Man
+49,Old Woman
+50,Orphan
+51,Parent
+52,Peasant
+53,President
+54,Priest
+55,Prince
+56,Princess
+57,Queen/empress
+58,Robot
+59,Shepherd
+60,Sentient Plant
+61,Servant
+62,Scientist
+63,Silicon life form
+64,Space man/woman
+65,Spider/insectoid
+66,Starship crew
+67,Starship captain
+68,Stepmother
+69,Steward
+70,Superhuman
+71,Telepath
+72,Thief
+73,Time Traveler
+74,Vizier
+75,Warrior
+76,Whiz Kid
+
+:Item
+0,Aircar
+1,Alien artifact
+2,Artificial Intelligence
+3,Axe
+4,Belt/sash
+5,Boat
+6,Book
+7,Calculator
+8,Chest
+9,Coffin
+10,Communicator
+11,Computer
+12,Cooking pot
+13,Door
+14,Drum
+15,Fire
+16,Flute
+17,Food
+18,Gift
+19,Gown
+20,Harp
+21,Hat
+22,Hologram
+23,Hovercraft
+24,Hyperdrive
+25,Hypospray
+26,Key
+27,Laser pistol
+28,Matter transmitter
+29,Musical instrument
+30,Necklace
+31,Painting
+32,Ring
+33,Robe
+34,Rocketpack
+35,Screwdriver
+36,Self-heating rations
+37,Shoe/slipper/boot(s)
+38,Shuttlecraft
+39,Spacesuit
+40,Staff
+41,Starship
+42,Stasis box
+43,Teleporter
+44,Time machine
+45,Treasure
+46,Tree
+47,Trumpet
+48,Universal translator
+49,Utility belt
+50,Vehicle
+51,Vial
+52,Videotape
+53,Weapon
+54,Window
+55,Wrist radio
+
+
+:Descriptor
+0,Ancient
+1,Beautiful
+2,Blind
+3,Brusque
+4,Burly
+5,Cloned
+6,Crafty
+7,Cursed
+8,Deformed
+9,Dirty
+10,Disguised
+11,Elderly
+12,Evil
+13,Far Away
+14,Flying
+15,Frightened
+16,Gene-altered
+17,Genius
+18,Happy
+19,Hidden
+20,Hideous
+21,Incomprehensible
+22,Insane/Mad
+23,Long-Lost
+24,Lost
+25,Lucky
+26,Manipulative
+27,Misunderstood
+28,Musical
+29,Noisome
+30,Omnipotent
+31,Poisoned
+32,Psychic
+33,Psychokinetic
+34,Ragged
+35,Secret
+36,Sleeping
+37,Starving
+38,Stolen
+39,Strong
+40,Stupid
+41,Talking
+42,Telepathic
+43,Tiny
+44,Ugly
+45,Very Wise
+46,Very Strong
+47,Young
+
+
+:Places
+0,Agricultural planet
+1,Airless moon/planet
+2,Alien planet
+3,Alien ruin
+4,Alternate past
+5,Asteroid belt
+6,At sea
+7,Cargo starship
+8,Cathedral
+9,Cave
+10,Chapel
+11,City
+12,Colony world
+13,Cottage
+14,Densely populated planet
+15,Dome city
+16,Dungeon
+17,Forest
+18,Freighter starship
+19,Future Earth
+20,Generation ship
+21,Home
+22,Hyperspace
+23,Inhospitable planet
+24,Interspecies bar
+25,Island
+26,Kingdom
+27,Mars
+28,Merchant starship
+29,Monastery
+30,Moon (not necessarily Earth's)
+31,Mountain
+32,Newly colonized planet
+33,Night
+34,Outer space
+35,Overpopulated planet
+36,Palace
+37,Passenger starship
+38,Past Earth
+39,Prison
+40,Prison planet
+41,Rings of Saturn
+42,River
+43,Road
+44,Ruin
+45,Scout starship
+46,Space
+47,Spaceport
+48,Space station
+49,Space yacht
+50,Sparsely populated planet
+51,Stairs
+52,Starport
+53,Starship
+54,Starship graveyard
+55,Tower
+56,Town
+57,Underground city
+58,Undersea dome
+59,Village
+
+:Event
+0,Alien encounter
+1,Argument
+2,Astronomical event (meteor shower, nova, supernova, big bang etc.)
+3,Battle
+4,Birth
+5,Breakdown
+6,Celebration
+7,Chase
+8,Collapse
+9,Confrontation
+10,Contest
+11,Creation
+12,Daybreak
+13,Death
+14,Destruction
+15,Disaster
+16,Discovery
+17,Dream
+18,Escape
+19,Evolution
+20,Execution
+21,Explosion
+22,Extinction
+23,Famine
+24,Feast
+25,Fight
+26,Genocide
+27,Harvest
+28,Imprisonment
+29,Invasion
+30,Invention
+31,Journey
+32,Malfunction
+33,Meeting
+34,Mutation
+35,Object Breaks
+36,Object Lost
+37,Object Stolen
+38,Party
+39,People Meet
+40,People Part Company
+41,Plague
+42,Plan
+43,Rescue
+44,Revelation of Secret
+45,Revolution
+46,Search
+47,Someone/thing Dies
+48,Someone/thing Is Hurt
+49,Storm
+50,Suicide
+51,Sunset
+52,Time Passes
+53,Transformation
+54,Trap
+55,Two People Fall In Love
+56,War
+57,Flood
+
+
+:Job
+0,Astrogator
+1,Colonist
+2,Genetic engineer
+3,Starship crew
+4,Starship engineer
+5,Starship pilot
+6,Telepath
+7,Xenoarchaeologist
+8,Xenobiologist
+9,Xenobotanist
+10,Space marine
+
+:Emotion
+0,absorbed
+1,accepting
+2,affectionate
+3,alarmed
+4,angry
+5,annoyed
+6,anxious
+7,apprehensive
+8,bored
+9,brave
+10,calm
+11,carefree
+12,cautious
+13,cheerful
+14,close
+15,comfortable
+16,complacent
+17,concerned
+18,confused
+19,contented
+20,courageous
+21,cross
+22,cruel
+23,crushed
+24,defeated
+25,dependent
+26,depressed
+27,despairing
+28,disappointed
+29,dismal
+30,disregarded
+31,distant
+32,distrustful
+33,dreary
+34,dubious
+35,dull
+36,eager
+37,earnest
+38,ecstatic
+39,elated
+40,embarrassed
+41,empowered
+42,engrossed
+43,enraged
+44,enthusiastic
+45,envious
+46,evasive
+47,excited
+48,fascinated
+49,fearful
+50,festive
+51,frightened
+52,frustrated
+53,fuming
+54,furious
+55,glad
+56,grateful
+57,grumpy
+58,heartbroken
+59,helpless
+60,hesitant
+61,hopeless
+62,hostile
+63,humble
+64,humiliated
+65,impulsive
+66,indecisive
+67,independent
+68,indignant
+69,inquisitive
+70,insecure
+71,inspired
+72,intent
+73,intrigued
+74,irate
+75,irritated
+76,jealous
+77,joyous
+78,jubilant
+79,lighthearted
+80,low
+81,loyal
+82,melancholy
+83,miserable
+84,moody
+85,nervous
+86,offended
+87,optimistic
+88,passionate
+89,peaceful
+90,pessimistic
+91,petrified
+92,playful
+93,pleased
+94,powerless
+95,preoccupied
+96,provoked
+97,puzzled
+98,relaxed
+99,respected
+100,serene
+101,satisfied
+102,scared
+103,secure
+104,sharing
+105,shocked
+106,skeptical
+107,somber
+108,strong
+109,stubborn
+110,sulky
+111,suspicious
+112,tender
+113,terrified
+114,threatened
+115,thrilled
+116,timid
+117,torn
+118,uncertain
+119,uncomfortable
+120,understanding
+121,uninformed
+122,upset
+123,warm
+124,wavering
+125,weak
+126,worried
+
+
+

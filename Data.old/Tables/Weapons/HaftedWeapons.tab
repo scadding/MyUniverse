@@ -1,0 +1,249 @@
+
+;Start
+1,[AxeStart] [HaftDecor] [Weapon.MilitaryIssueChance]<br>
+_[PolearmStart] [HaftDecor] [Weapon.MilitaryIssueChance]<br>
+_[MaceFlailStart] [HaftDecor] [Weapon.MilitaryIssueChance]<br>
+_[OtherHaftedStart] [HaftDecor] [Weapon.MilitaryIssueChance]<br>
+
+;StartNoDescription
+1,[AxeType]
+1,[PolearmType]
+1,[MaceType]
+1,[FlailType]
+1,[OtherHaftedType]
+
+;AxeStart
+1,[Quality] [AxeType] with a haft of [Utility.WoodWeapon] and a head made of [Utility.MetalWeapon]. [AxeHeadSpike] [AxeHeadDepictionChance]
+1,[Quality] [AxeType] composed completely of [Utility.MetalWeapon]. [AxeHeadSpike] [AxeHeadDepictionChance]
+
+;AxeType
+10,throwing axe
+30,battleaxe
+10,greataxe
+116,handaxe
+5,orc double axe
+4,dwarven urgrosh
+8,dwarven waraxe
+3,ice axe 
+5,woodsman's axe
+1,minotaur's axe
+12,sweet axe
+
+;AxeHeadDepictionChance
+4,
+3,The axe head features an etched depiction of [AxeHeadDepiction].
+1,The axe head has [Dice.1d8] [Utility.RelativeSize] [Utility.GemQuality] [Utility.GemType] stones inset in it.
+1,The axe has an inscription on the head declaring it was made for [NorthlanderMale.Start].
+1,The axe head is decorated with a flame motif.
+1,The axe head is decorated with a serpent motif.
+1,The axe head is decorated with engravings of leaves and vines.
+1,The axe head is decorated with spiraling engravings.
+1,The axe head is decorated with runes in [Utility.RuneLanguage] that convey the meaning <b>"[Inscriptions.Start]"</b>.
+1,The axe head is decorated with knotwork.
+1,The axe head is painted with shiny [Color.dark] enamel.
+1,The axe head has been carbonized with a flat black paint to keep it from reflecting light except along the edges.
+3,The axe head is inscribed with the word(s) <b>"[Inscriptions.Start]"</b> in [Inscriptions.Language].
+1,[AxeHeadDepictionChance] [AxeHeadDepictionChance]
+
+;AxeHeadDepiction
+1,a berserker face in profile with its tongue out
+1,a charging ram's head
+1,a bearded dwarf in profile
+1,a charging bull
+1,a fire-breathing dragon
+2,[Utility.Symbols]
+1,an illithid with writhing tentacles
+1,a nature motif (ivy, leaves, etc)
+1,elaborate knotwork
+
+;AxeHeadSpike
+1,The axe haft is not capped, but is even with the top of the axe head.
+1,The axe haft is capped with a sharpened spike.
+1,The axe haft is capped with [Swords.PommelShapes].
+
+;PolearmStart
+1,[Quality] [PolearmType] with a haft of [Utility.WoodWeapon] and a head made of [Utility.MetalWeapon].
+
+;PolearmType
+1,glaive
+1,guisarme
+1,halberd
+1,longspear
+1,ranseur
+1,spear
+1,shortspear
+1,trident
+1,greatspear
+1,heavy poleaxe
+1,mancatcher
+1,lucerne hammer
+1,harpoon
+1,scythe
+5,[PolearmObscure]
+
+;PolearmObscure
+1,jedberg axe
+1,lochaber axe
+1,bardiche
+1,bec de corbin
+1,billhook
+1,bill guisarme
+1,fauchard
+1,fauchard fork
+1,fauchard guisarme
+1,military fork
+1,glaive-fork
+1,glaive-guisarme
+1,guisarme-fork
+1,hook-fauchard
+1,partizan
+1,spear-guisarme
+1,spetum
+1,spontoon
+1,voulge
+1,voulge-fork
+1,voulge-guisarme
+1,dwarven double spear
+1,dwarven warpike
+1,crescent scythe
+
+;MaceFlailStart
+1,[MaceFlailType] 
+
+;MaceFlailType
+1,[Quality] [FlailType] with a ball shaped like [FlailHead]. The ball and chain are made of [Utility.MetalWeapon] and the haft is made of [Utility.WoodWeapon].
+1,[Quality] [MaceType] with a head shaped like [MaceHead]. The head is made of [Utility.MetalWeapon] and the haft is made of [Utility.WoodWeapon].
+1,[Quality] [MaceType] with a head shaped like [MaceHead]. The entire weapon is made of [Utility.MetalWeapon].
+1,[Quality] [OtherMaceFlailType] with the metal portions made of [Utility.MetalWeapon] and the wooden portions made of [Utility.WoodWeapon].
+
+;FlailType
+1,flail
+1,heavy flail
+1,dire flail
+
+;MaceType
+10,light mace
+10,heavy mace
+7,warmace
+7,morningstar
+1,double mace
+;OtherMaceFlailType
+1,heavy aspergillum
+1,nunchaku
+
+;MaceHead
+1,a simple sphere
+1,a spiked sphere
+1,a fist
+1,a skull
+1,a horned demon head
+1,a face
+1,a cylinder
+1,a spiked cylinder
+1,intersecting sharpened plates (classic mace design)
+1,a beholder
+1,a minotaur head
+1,a ram's head
+1,a dragon's head
+1,a ball of antlers
+1,a design based on the symbol of [GheronUtility.DietySymbol]
+1,a design based on the symbol of [GheronUtility.OrganizationSymbol]
+
+
+;FlailHead
+1,a simple sphere
+1,a spiked sphere
+1,a clenched fist
+1,a skull
+1,a horned demon head
+1,a face
+1,a cylinder
+1,a spiked cylinder
+1,a ball of antlers
+1,a beholder
+1,a ram's head
+1,a design based on the symbol of [GheronUtility.DietySymbol]
+1,a design based on the symbol of [GheronUtility.OrganizationSymbol]
+
+;OtherHaftedStart
+1,[Quality] [OtherHaftedType] with a haft of [Utility.WoodWeapon] and a head made of [Utility.MetalWeapon].
+
+;OtherHaftedType
+1,light hammer [HammerShape]
+1,kama
+1,light pick[PickShape]
+1,heavy pick[PickShape]
+1,scythe
+1,sickle
+1,warhammer [HammerShape]
+1,double hammer [HammerShape]
+1,dire pick [PickShape]
+1,heavy sickle 
+1,gnome hooked hammer
+1,maul [HammerShape]
+
+;HammerShape
+1,(fist-shaped heads)
+1,(ram-shaped heads)
+1,(rounded heads)
+1,(square heads)
+1,(spherical heads)
+1,(one rounded head, the other cone-shaped)
+
+;PickShape
+1,
+1, (squid-shaped head with elongated tentacles coming to a point)
+1, (illithid-shaped head with elongated tentacles coming to a point)
+1, (crow-shaped head with elongated beak)
+1, (head shaped like a snake head with long forked tongue coming to a point)
+1, (spiraling square coming to a point)
+1, (spiraling circle, like a drill bit)
+
+
+;HaftDecor
+1,
+1,The haft is simple and unadorned.
+3,The haft is stained [Color.dark].
+3,The haft is stained [Color.dull].
+2,The haft is painted [Color.dark].
+2,The haft is painted [Color.dull].
+2,The haft is painted [Color.bright].
+1,The haft is engraved with cryptic runes in [Utility.RuneLanguage] that glow faintly with a [Color.hues] light when [Utility.CreatureTypes]s are nearby.
+1,The haft is engraved with cryptic runes in [Utility.RuneLanguage] that glow brightly with a [Utility.LightColors] light when [Utility.CreatureTypes]s are nearby.
+1,The haft is engraved with illegible runes.
+1,The haft has a brief engraving in the runes of a long-lost language.
+1,The haft seems to give off a faint light.
+2,The haft is inlaid with [Dice.2d4] [Utility.StoneDecorative]s.
+2,The haft is partially inlaid with [Utility.MetalPrecious].
+1,The haft is beautifully inlaid in [Utility.MetalExotic].
+1,The haft is decorated with [Utility.HornIvory] inlay.
+4,Knotwork is engraved into the haft.
+4,The head and haft are bloodstained from regular use in battle.
+2,The weapon is stained an ominous dark crimson.
+2,The haft has a raised ornate latticework pattern made of [Utility.WoodWeapon].
+2,The haft has a raised simple latticework pattern made of unknown wood.
+2,The haft is strong and well-balanced.
+1,The haft is well-oiled and highly polished.
+1,The haft has a long crack running down one side from disuse.
+3,The haft is smooth and well-weathered from use.
+2,The head and upper haft are dark and slippery from fresh grime and gore.
+1,The haft does not appear to be original, as it does not quite fit the head.
+1,The haft seems much more worn than the head; it was most likely reforged.
+1,The haft does not appear to be original, as it is much newer than the head.
+5,The haft is notched with [Dice.2d8] tally marks.
+3,The end of the haft is decorated with [Dice.2d6] [FletchingColor] feathers.
+4,The haft is ringed with [Utility.MetalWeapon] bands.
+6,The grip section of the haft is wrapped tightly with [Utility.LeatherHide].
+5,The grip section of the haft is wrapped with tattered [Utility.LeatherHide].
+4,The grip section of the haft is wrapped in battle-worn [Utility.LeatherHide].
+
+;FletchingColor
+2,[Color.dark]
+1,[Color.dull]
+1,[Color.bright]
+
+;Quality
+1,{{ucfirst:a}} 
+1,{{ucfirst:a}} [Swords.Quality]
+
+

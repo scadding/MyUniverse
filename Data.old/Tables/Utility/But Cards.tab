@@ -1,0 +1,49 @@
+
+;Start
+17,Yes, but [Everything]
+5,No, because [Statement]
+9,Yes, and [Positive]
+
+;Everything
+13,[Statement]
+5,[Question]
+
+;Positive
+1,something unrelated but useful also occurs
+1,your style and panache are duly noted
+1,a clue reveals itself
+1,you earn a reward
+1,you learn something about yourself in the process
+1,you learn something about your enemies in the process
+1,you make a fast friend
+
+;Statement
+1,it costs you something dear.
+1,it costs someone you care about something they care about.
+1,what you want isn't what you need.
+1,it works a little too well.
+1,an inconvenient attraction is struck.
+1,you can't do it by yourself.
+1,YOU TOTALLY ALMOST DIE OMG
+1,you get seriously hurt.
+1,your beloved is lost.
+1,it means closing the door on a future opportunity.
+1,it takes longer than you thought it would.
+1,in order to do it, you'll have to do something else first.
+1,it breaks the alignment of things.
+1,it only provides a temporary solution. It won't last that long!
+1,it's quiet... too quiet
+1,you're not even supposed to be here
+
+;Question
+1,what really made you want it?
+1,why you?
+1,what is that person doing over there?
+1,why is that character acting so strangely?
+1,why now?
+1,what does it mean for someone else?
+1,what does it mean for the enemy?
+1,not by the path you thought.
+1,didn't it seem a little too easy? What's really going on, here?
+
+

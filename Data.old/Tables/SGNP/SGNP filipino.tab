@@ -1,0 +1,293 @@
+
+;Start
+1,[male] [surnames]
+1,[female] [surnames]
+1,[neutral] [surnames]
+
+;male
+1,Boboy  
+1,Aprodicio  
+1,Earvin  
+1,Eadgee  
+1,Mark Laser  
+1,Juhn  
+1,Yam  
+1,Abdulaziz  
+1,Peng  
+1,Luis Buiton  
+1,Bocoy  
+1,Vandolph  
+1,Hercules  
+1,Bhoy  
+1,Jayjay  
+1,Totoy  
+1,Acy  
+1,Ahvic  
+1,Dondon  
+1,Eliutaro
+1,Ronron  
+1,Adonis  
+1,Tootsie  
+1,Rhob  
+1,Boy Blue  
+1,Bhen  
+1,Dandan  
+1,Wimpy  
+1,Kerwin  
+1,Gustave  
+1,Gomburza  
+1,Atom  
+1,Frumen  
+1,Adanjose  
+1,Heherson  
+1,Bongbong  
+1,Baldo  
+1,Titoy  
+1,Gutsy  
+1,Rommel
+
+;female
+1,Cherry Pie  
+1,Apples  
+1,Diday  
+1,Maritess  
+1,Spice  
+1,Mayouno  
+1,Kampupot  
+1,Chuchay  
+1,Chingbee  
+1,Mirinda  
+1,Maan  
+1,Sushi  
+1,Babes  
+1,Whisky  
+1,Mai-Mai  
+1,Apple Pie  
+1,Ditsi  
+1,Maricel  
+1,KitKat  
+1,Zsuzsanna
+1,Nice  
+1,Aphro(dite)  
+1,Mhel  
+1,Starlet  
+1,Computerlyn  
+1,Ai Ai  
+1,Jingjing  
+1,Thess  
+1,Ehmie  
+1,Girlie  
+1,Kryle Queen  
+1,Bamba  
+1,Lady Urania  
+1,Abril  
+1,Luzviminda  
+1,Chuchi  
+1,Bingbing  
+1,Melenaida  
+1,Jomari  
+1,Jejomar
+
+;neutral
+1,Buhay  
+1,Bekbek  
+1,Suplay  
+1,Sanorjo  
+1,Pepper  
+1,Jello  
+1,Magdiwang  
+1,Paraluman  
+1,Liwayway  
+1,Pechay  
+1,Chabet  
+1,TenTen  
+1,Luningning  
+1,Linbert  
+1,Letlet  
+1,Dalisay  
+1,Orange  
+1,Patat  
+1,Coke  
+1,Volks  
+1,Frumen  
+1,Bacon  
+1,Merry Christmas  
+1,Porsche  
+1,Cheese  
+1,Homobono  
+1,Chevy  
+1,Tuna  
+1,Tagumpay  
+1,Luwalhati  
+1,Uod  
+1,Binky  
+1,Congee  
+1,Adobo  
+1,Lenlen  
+1,Carrot  
+1,Bonbon  
+1,Ciriaca  
+1,Chabeng  
+1,Bathaluman  
+
+;surnames
+1,[spanish-surnames]
+1,[chinese-surnames]
+1,[indigenous-surnames]
+1,[mixed-surnames]
+
+;spanish-surnames
+1,Arroyo  
+1,Reyes  
+1,Santiago  
+1,Fernandez  
+1,Gonzales  
+1,Garcia  
+1,Lopez  
+1,Aquino  
+1,Velasquez  
+1,Vargas  
+1,Guzman  
+1,Ortega  
+1,Mariano  
+1,Montano  
+1,Mendez  
+1,Romero  
+1,Cruz  
+1,Dolorfino  
+1,Bautista  
+1,De Jesus
+
+;chinese-surnames
+1,Yap  
+1,Cojuangco  
+1,Tan  
+1,Songcuya  
+1,Tintiangco  
+1,Singson  
+1,Ayson  
+1,Lim  
+1,Sy  
+1,Locsin  
+1,Yuyitung  
+1,Tantoco  
+1,Tampingco  
+1,Tiaoqui  
+1,Diyakson  
+1,Samson  
+1,Ongpin  
+1,Mapua  
+1,Benzon  
+1,Quimpo
+
+;indigenous-surnames
+1,Magsaysay  
+1,Ongoy  
+1,Inding  
+1,Ysip  
+1,Macapagal  
+1,Tumibay  
+1,Silang  
+1,Pinpin  
+1,Agbay  
+1,Guani  
+1,Lacbawan  
+1,Dumlao  
+1,Bulatao  
+1,Puyat  
+1,Caparas  
+1,Salonga  
+1,Manlangit  
+1,Nakpil  
+1,Katapang  
+1,Carandang
+
+;mixed-surnames
+1,Anonuevo  
+1,Portero  
+1,Dagdag  
+1,Suero  
+1,Pagtakhan  
+1,Mamaril  
+1,Asis  
+1,Hagibis  
+1,Lakarin  
+1,Bocaycay  
+1,De Asis  
+1,Jurado  
+1,Mangubat  
+1,Malihim  
+1,Almundo  
+1,Reyes  
+1,Natividad  
+1,Tampipi  
+1,Fruto  
+1,Ignacio  
+
+;silly
+1,Mercedes Benzon  
+1,Maki Comida  
+1,Spice Arabia  
+1,Volks Baagen  
+1,Jonathon Livingstone Sy  
+1,Buhay Poe  
+1,Michael Jacks Ong  
+1,George Washing Tan  
+1,Apple Pie Poyatos  
+1,May Araw  
+1,Dingdong Pinto  
+1,Gucci Kho  
+1,Bhoy Bayani  
+1,Bill Clint Ong  
+1,Adonis de Dios  
+1,Ginger Ti  
+1,Rhaydz Ng Bayan  
+1,Edgar Allan Pe  
+1,Sushi Sy  
+1,Michael Jord Ang
+
+;meals
+1,Kalderetang Kambing - goat stew  
+1,Bistek - beef stir-fried in soy sauce and lemon  
+1,Lechon Kawali - roasted pig  
+1,Inihaw ni Liempo - grilled pork belly  
+1,Sinigang sa Miso - tamarind soup with bean curd  
+1,Lechon Manok - roasted chicken  
+1,Adobong Pusit - squid cooked in vinegar  
+1,Crispy Pata - deep-fried pork knuckle  
+1,Diniguan - blood stew accompanied by puto  
+1,Sinigang na Baka - tamarind soup with beef  
+1,Arroz a la Cubana - ground beef with tomatoes, peas, raisins served  
+1,with fried egg over rice  
+1,Chicken Barbeque - barbequed chicken in slightly sweet sauce  
+1,Tinolang Manok - gingery chicken soup with green papaya  
+1,Menudo - tomato pork stew  
+1,Lechon Paksiw - roasted pig, stewed in tangy sauce  
+1,Rellenong Bangus - stuffed smoked milkfish  
+1,Adobong Manok - chicken cooked in vinegar  
+1,Nilaga Baka - broth with beef and root vegetables  
+1,(Sizzling) Sisig - fried pig ear  
+
+;snacks
+1,Halo-Halo - mixed sweet things over ice with milk  
+1,Ginataa - coconut milk fruit soup  
+1,Bibingka - rice cake with brown sugar, shredded coconut, cheese, or egg 
+1,Champorado - chocolate rice porridge  
+1,Lumpia Ubod - spring roll with hearts of palm  
+1,Spaghetti - noodles with sweet tomato meat sauce and hot dogs  
+1,Taho - molasses sauce with soft bean curd and tapioca  
+1,Pancit Canton - glass noodles with mixed meat and vegetables in soy sauce  
+1,Mais Con Hielo - sweet corn with milk and ice  
+1,Pancit Palabok - noodles with pork and shrimp, with garlic and boiled eggs  
+1,Cheese Lumpia - fried cheese in wonton wrappers  
+1,Suman - steamed glutinous pressed rice  
+1,Siopao - barbeque pork bun  
+1,Ube - purple yam pudding  
+1,Arroz Caldo - chicken rice porridge  
+1,Polvoron - shortbread milk candy  
+1,Matamis na Saging - chilled banana in syrup  
+1,Puto - steamed rice cake  
+1,Turon - fried banana in wonton wrapper  
+1,Sago at Gulaman - molasses drink with tapioca and gelatin
+
+

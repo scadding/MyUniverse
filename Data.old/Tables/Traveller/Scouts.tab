@@ -1,0 +1,44 @@
+
+;Personal Development
+1,Strength
+1,Dexterity
+1,Endurance
+1,Intelligence
+1,Education
+1,Gun Combat
+
+;Service Skills
+1,Vehicle
+1,Vacc Suit
+1,Mechanical
+1,Navigation
+1,Electronics
+1,Jack of all trades
+
+;Education
+1,Vehicle
+1,Mechanical
+1,Electronics
+1,Jack of all trades
+1,Gunnery
+1,Medical
+
+;Advanced Education
+1,Medical
+1,Navigation
+1,Engineering
+1,Computer
+1,Pilot
+1,Jack of all trades
+
+@Muster Benefit
+1,Low Passage,0
+1,Intelligence
+1,Education
+1,[Traveller.Blade]
+1,[Traveller.Gun]
+1,Scout Ship,0
+2,Cash,20000
+2,Cash,30000
+3,Cash,50000
+

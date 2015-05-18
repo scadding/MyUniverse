@@ -1,0 +1,702 @@
+
+
+;Start
+7,[GeneralBook]
+2,[ReligiousBook]
+5,[BiographyBook]
+2,[HistoryBook]
+2,[AbstractBook]
+1,[Cookbook]
+2,[Howto]
+
+;GeneralBook
+5,[Article][Type] [Preposition] [Subject] [TranslationChance]
+5,[Article][Type] [Preposition] [Subject], by [Author] [TranslationChance]
+3,[Author]'s [Type] [Preposition] [Subject] [TranslationChance]
+
+;ReligiousBook
+5,[Article][Type] [Preposition] [ReligiousSubject] [TranslationChance]
+5,[Article][Type] [Preposition] [ReligiousSubject], by [Author] [TranslationChance]
+3,[Author]'s [Type] [Preposition] [ReligiousSubject] [TranslationChance]
+1,The [ReligiousSubject], by [Author] [TranslationChance]
+
+;BiographyBook
+3,The [Biographical] of [Person], by [Author] [TranslationChance]
+1,The [Biographical] of [Person] [TranslationChance]
+2,[Travel] of [Person] [TranslationChance]
+
+;HistoryBook
+1,[History] of [Subject], by [Author] [TranslationChance]
+1,[History] of [Subject] [TranslationChance]
+
+;Cookbook
+1,[Dice.1d10][Dice.1d10][Dice.1d10] [DeliciousWord] [GheronUtility.CulturesHuman] Recipes
+1,[SelectionCriteria] [GheronUtility.CulturesHuman] Recipes
+1,Cooking in the [GheronUtility.CulturesHuman] Style
+1,[GheronUtility.CulturesHuman] Cuisine Made Easy
+10,[SelectionCriteria] Recipes for [FantasyMenu.MainMeals], by [Author] [TranslationChance]
+6,[SelectionCriteria] Recipes from the Kitchen of [Author]
+6,[Fantasy Names.MaleFirstName]'s [FantasyMenu.Descriptor] [FantasyMenu.MainMeals] and other [DeliciousWord] Recipes
+4,[Dice.3d6] Ways to Prepare [FantasyMenu.MainMeals], by [Author] [TranslationChance]
+
+;Howto
+3,[SucceedArtsCraftsWord] [ArtsCrafts], by [Author] [TranslationChance]
+1,[SucceedArtsCraftsWord] [GheronUtility.Cultures] [MethodsType] of [ArtsCrafts], by [Author] [TranslationChance]
+1,[HowtoWord] Join [GheronUtility.Organization], by [Author] [TranslationChance]
+1,[HowtoWord] Grow [FantasyMenu.VeggiesCookable], by [Author] [TranslationChance]
+1,[HowtoWord] [TerrainHowto] the [Utility.Terrains], by [Author] [TranslationChance]
+3,[HowtoWord] [TerrainHowto] the [Destination], by [Author] [TranslationChance]
+1,[Author]'s Guide to More [Inscriptions.AbstractNounPositive] in Your Life[ExclamationChance]
+1,[Author]'s Guide to Less [Inscriptions.AbstractNounNegative] in Your Life[ExclamationChance]
+
+;Type
+10,Book
+10,Codex
+10,Compendium
+10,Cyclopædia
+10,Encyclopedia
+10,Folio
+10,Grimoire
+10,Guide
+10,Lexicon
+10,Manuscript
+10,Tome
+10,Treatise
+10,[SelectionCriteria] Stories
+10,[SelectionCriteria] Tales
+10,[SelectionCriteria] Works
+10,[SelectionCriteria] Writings
+9,Almanac
+1,Background
+2,Basics
+3,Commentary
+8,Complete Guide
+4,Concepts
+2,Concordance
+2,Dictionary
+4,Foundations
+4,Fundementals
+8,Guidebook
+7,Handbook
+6,Hidden Lore
+8,Lore
+3,Manifesto
+7,Manual
+1,Masterpieces
+1,Musings
+1,Origins
+1,Outline
+1,Principia
+1,Proviso
+3,Publication
+8,Secrets
+8,Story
+5,Study
+1,Theory
+4,Thesis
+1,Varieties
+3,Volume
+8,[Completeness] Guide
+9,[SelectionCriteria] Essays
+8,[SelectionCriteria] Knowledge
+4,[SelectionCriteria] Legends
+8,[SelectionCriteria] Notes
+4,[SelectionCriteria] Plays
+8,[SelectionCriteria] Poems
+8,[SelectionCriteria] Songs
+5,[SelectionCriteria] Studies
+7,[SelectionCriteria] Wisdom
+
+;Preposition
+1,on
+1,of
+2,for
+2,about
+2,Concerning
+1,Pertaining to
+
+;AbstractBook
+1,The [Type] of [AbstractSubject] [TranslationChance]
+1,The [SelectionCriteria] [Type] of [AbstractSubject] [TranslationChance]
+1,[Author]'s [Type] of [Inscriptions.AbstractNoun]
+1,[Inscriptions.AbstractNoun]: The [SelectionCriteria] [Type]
+1,[Type] [Preposition] [AbstractSubject]
+
+;AbstractSubject
+25,[Inscriptions.AbstractNoun]
+1,the Dead
+1,Days
+1,Years
+1,Circles
+
+;ReligiousSubject
+14,the Church of [List of gods.Start]
+15,the [ReligiousWords] of the Church of [List of gods.Start]
+1,Dark Gods
+1,Pagan Gods
+5,[List of gods.Start]'s [ReligiousWords]
+5,[ReligiousWords] of [GheronUtility.Organization]
+5,[ReligiousWords] of [Secret Society Title.SecretSocietyName]
+2,the [SelectionCriteria] Hymns of [List of gods.Start]
+
+;Subject
+30,[ArtsCrafts]
+55,[GheronUtility.Cultures] [ArtsCrafts]
+15,[GheronUtility.Organization]
+10,[Compass direction.4]ern [ArtsCrafts]
+1,Alchemy
+1,Ancient Empires
+6,Ancient [ArtsCrafts]
+1,Artifacts and Relics
+1,Assassination
+1,Astrology
+1,Cooking
+1,Daemonology
+1,Dancing
+1,Dragons
+1,Erotic Poetry
+1,Forbidden Magic
+1,Great Battles
+1,Heraldry
+1,Law
+1,Lost Treasures
+1,Military Conduct
+1,Military Decorations
+1,Military Tactics
+1,Naval Tactics
+1,Naval Warfare
+1,Poetry
+1,Poisons
+1,Runes
+1,Taxidermy
+1,Undead Lore
+1,Unholy Rites
+1,Weather
+5,[Adjective] Followers of [List of gods.Start]
+5,[Adjective] Leaders of [GheronUtility.Organization]
+5,[Adjective] [GheronUtility.Cultures] Folk Heroes
+6,[Fantasy Town Names.Start]
+5,[Secret Society Title.SecretSocietyName]
+4,[Compass direction.4]ern [ReligiousWords]
+6,{{ucfirst:[Wizard schools.Start]}}
+1,[Utility.RuneLanguage] Runes
+1,the Heavens
+1,the Illithid War
+1,the Sea
+1,the Stars
+1,the Underdark
+5,the [Adjective] [Plans] between [GheronUtility.Organization] and [GheronUtility.Organization] 
+2,the [Adjective] [Plans] between [GheronUtility.Organization] and [Secret Society Title.SecretSocietyName]
+9,the [GheronUtility.Cultures] Nation
+6,the [GheronUtility.Cultures]-[GheronUtility.Cultures] Wars
+5,the [GheronUtility.Cultures]-[GheronUtility.Cultures] [Plans]
+
+;ArtsCrafts
+15,Culture
+15,Customs
+10,Fashion
+20,History
+10,Kings
+15,Magic
+10,Military Tactics
+13,Music
+15,Religions
+4,Adventurers
+8,Agriculture
+3,Alchemy
+3,Animal Life
+6,Architecture
+3,Armor
+3,Armorsmithing
+6,Art
+1,Assassination Techniques
+3,Astrology
+3,Athletics
+2,Basketry
+3,Basketweaving
+3,Blacksmithing
+2,Bowmaking
+3,Brewing
+3,Calligraphy
+4,Castles
+2,Cities
+7,Cooking
+3,Cooking
+6,Crafts
+4,Cults
+3,Daily Life
+3,Dancing
+3,Dancing
+2,Erotic Poetry
+1,Espionage
+3,Etiquette
+2,Fables
+3,Family Life
+3,Fauna
+3,Flora
+7,Folklore
+3,Furniture
+2,Ghost Stories
+5,Government
+3,Heraldry
+6,Heraldry
+3,Herbalism
+3,Knightly Orders
+6,Languages
+6,Law
+2,Leatherworking
+5,Legends
+7,Manners
+3,Merchant Ships
+5,Military Decorations
+2,Mixed Drinks
+3,Monastic Orders
+4,Musical Instruments
+3,Myths
+5,Nobility
+3,Painting
+3,People
+6,Poetry
+1,Poisonmaking
+3,Pottery
+2,Proverbs
+3,Recipes
+1,Riddles
+2,Ruins
+3,Sculpture
+5,Secret Societies
+3,Sewing
+3,Sorcery
+3,Stonework
+3,Storytelling
+5,Subcultures
+3,Superstitions
+5,Symbolism
+1,System of Trade
+2,Taxidermy
+1,Temples
+3,Theatre
+2,Towns
+2,Trade
+1,Urban Planning
+2,Villages
+5,Warfare
+4,Weaponry
+3,Weaponsmithing
+3,Weaving
+2,Wilderness
+5,Wilderness Lore
+3,Winemaking
+3,Wizardry
+3,Woodworking
+
+;SelectionCriteria
+15,
+10,Collected
+10,Selected
+3,Abridged
+4,Authoritative
+4,Best-Loved
+5,Compleat
+3,Complete
+4,Essential
+2,Exhaustive Collection of the
+4,Favorite
+4,Little-Known
+5,Short
+3,Treasury of
+3,Unabridged
+5,[Completeness]
+
+;Completeness
+5,Complete
+3,Comprehensive
+2,Exhaustive
+2,Detailed
+
+;Adjective
+5,
+1,Complete
+1,Covert
+2,Dangerous
+1,Daring
+2,Epic
+2,Exciting
+2,Famous
+2,Fantastic
+1,Former
+1,Glorious
+2,Great
+2,Hidden
+1,Infamous
+1,Inscrutable
+1,Lamentable
+2,Noble
+2,Notable
+2,Noteworthy
+1,Recent
+1,Regrettable
+2,Scandalous
+4,Secret
+1,So-Called
+2,Unforgettable
+3,Unknown
+2,Unusual
+10,[Secret Society Title.TitleDescriptor]
+
+;Plans
+1,Agenda
+2,Agreement
+2,Alliance
+1,Battle
+1,Collaboration
+1,Collusion
+1,Conflict
+2,Connection
+1,Conspiracy
+1,Contract
+1,Cooperation
+1,Covenant
+1,Dependency
+1,Disagreement
+1,Incident
+1,Link
+1,Misunderstanding
+1,Partnership
+1,Plan
+1,Plot
+1,Plotting
+1,Proposal
+3,Relationship
+1,Scheme
+1,Schism
+1,Struggle
+1,Subversion
+1,Tension
+1,Treaty
+1,Ultimatum
+1,Wars
+
+;Biographical
+20,Life
+10,[Adjective] Story
+2,Accomplishments
+1,Adventures
+2,Ballad
+3,Biography
+3,Chronicle
+2,Chronicles
+1,Companion to the Writings
+5,Confessions
+5,Deeds
+2,Diary
+7,Epic
+1,Exploits
+1,Impressions on the Life
+2,Journal
+1,Key to Understanding the Life
+1,Lamentations
+1,Lasting Impact
+4,Legacy
+5,Legend
+1,Life and Death
+1,Life and Times
+7,Memoirs
+3,Real Story
+2,Record
+1,Romance
+5,Saga
+2,Secrets
+2,Story
+3,Teachings
+1,Trials
+1,Unique Philosophy
+2,Works
+2,[Adjective] Tale
+5,[Biographical] and [Biographical]
+6,[Biographical] and [Travel]
+5,[LifeEvent]
+2,[SelectionCriteria] Epistles
+2,[SelectionCriteria] Letters
+2,[SelectionCriteria] Plays
+3,[SelectionCriteria] Poems
+1,[SelectionCriteria] Prophecies
+1,[SelectionCriteria] Proverbs
+3,[SelectionCriteria] Songs
+1,[SelectionCriteria] Speeches
+4,[SelectionCriteria] Tales
+2,[SelectionCriteria] Treatises
+1,[SelectionCriteria] Visions
+3,[SelectionCriteria] Wisdom
+1,[SelectionCriteria] Writings
+4,[Travel] and [LifeEvent]
+
+;LifeEvent
+1,Battles
+1,Betrayal
+1,Birth
+1,Crimes
+1,Death
+1,Descendants
+1,Disappearance
+1,Downfall
+1,Early Career
+1,Early Life
+1,Final Years
+1,Knighting
+1,Marriage
+1,Misdeeds
+1,Misfortunes
+1,Murder
+1,Redemption
+1,Sacred Vows
+1,Sacrifice
+1,Secret Life
+1,Sins
+1,Treachery
+1,Treason
+1,Trial
+
+;OrgPosition
+5,Leader
+1,Founder
+1,Follower
+1,Disciple
+4,[Secret Society Title.Title]
+
+;Article
+1,The 
+1,
+
+;History
+5,History
+1,[SelectionCriteria] History
+1,Abridged History
+1,Best Loved Tales 
+1,Well-Known Stories
+1,Legends
+1,Ancient History
+1,Recent History
+1,Early History
+2,Chronology
+
+;Author
+4,[Fantasy Names.StartMale]
+1,[Fantasy Names.StartFemale]
+
+;Person
+3,[Fantasy Names.StartMale]
+1,[Fantasy Names.StartFemale]
+
+;Travel
+1,Days
+1,Diary
+1,Excursions
+1,Expeditions
+1,Explorations
+1,Journal
+1,Journeys
+1,Travelogue
+1,Travels
+1,Voyages
+1,Wanderings
+1,[Travel] and [Biographical]
+1,[Travel] and [Travel]
+
+;ReligiousWords
+2,Ancient [ReligiousWords]
+1,Apocrypha
+2,Apocryphal [ReligiousWords]
+2,Beliefs
+1,Blessings
+2,Catechism
+5,Ceremonies
+2,Chants
+3,Clerics
+1,Contemplatives
+1,Covenants
+1,Devotees
+3,Doctrine
+2,Dogma
+2,Early [ReligiousWords]
+1,Followers
+1,Heroes
+2,High Priests
+1,History
+1,Houses of Worship
+4,Hymns
+2,Incantations
+4,Leaders
+1,Legacy
+1,Liturgy
+1,Meeting Houses
+1,Monastic Orders
+1,Morals
+1,Mysticism
+1,Oracles
+3,Ordinances
+3,Outlook
+3,Prayers
+1,Priests
+1,Priestly Orders
+2,Prophecies
+1,Proverbs
+4,Rites
+4,Rituals
+2,Sacred Artwork
+1,Sacred Sites
+5,Sacred Writings
+1,Sacrifices
+4,Saints
+5,Scriptures
+1,Shrines
+1,Songs
+5,Symbols
+1,Teachings
+4,Temples
+2,Traditions
+1,Vestments
+1,Wisdom
+4,[ReligiousWords] and [ReligiousWords]
+
+;TranslationChance
+2,, [TranslationWords] by [Author]
+20,
+
+;TranslationWords
+10,translated from the original [GheronUtility.NonCommonLanguage]
+5,annotated
+5,compiled
+5,edited
+1,illustrated
+5,originally written
+1,selected
+1,translation
+1,updated
+10,with [Inclusions]
+
+;Inclusions
+3,[Inclusions] and [Inclusions]
+1,additional commentary
+1,afterword
+1,annotations
+1,cartography
+1,charts
+1,corrections
+1,diagrams
+1,figures
+1,foreword
+1,illustrations
+1,introduction
+1,notes
+1,preface
+
+;DeliciousWord
+4,Appetizing
+5,Delicious
+1,Delightful
+2,Elegant
+3,Favorite
+1,Healthy
+1,Hearty
+1,Outstanding
+2,Quick & Easy
+4,Satisfying
+4,Savory
+4,Sumptuous
+4,Tasty
+2,Yummy
+4,[GheronUtility.CulturesHuman]
+
+;HowtoWord
+4,How to
+1,So You Want to
+1,The Best Way to
+1,What You'll Need to
+1,You Too Can
+1,[Dice.3d6] Ways to
+
+;TerrainHowto
+10,Survive in
+1,Make Shelter in
+1,Hunt for Big Game in
+1,Understand the Peoples of
+1,Vacation in
+1,Find Your Way in
+1,Tame
+1,Live off the Land in
+1,Camp in
+1,Prepare for an Expedition into
+1,Build a Stronghold in
+
+;SucceedProfessionWord
+2,Earn a Living
+1,Flourish
+1,Get Ahead
+1,Learn to [SucceedProfessionWord]
+2,Make a Living
+2,Make it
+2,Prosper
+2,Start Out
+2,Succeed
+2,Thrive
+1,Make Your Fortune
+1,Get Rich
+1,Be Successful
+1,Attain Notoriety
+1,Achieve Your Dream
+1,Realize Your Ambitions
+
+;SucceedBattleWord
+1,Avoid Insulting
+1,Beat
+3,Capture
+4,Defeat
+2,Hunt
+4,Kill
+1,Make Friends With
+1,Parlay With
+1,Befriend
+1,Coerce
+4,Slay
+1,Survive Your First Battle with
+2,Survive an Attack by
+2,Win against
+1,Tame
+1,Train
+1,Stalk and Kill
+1,Find and Track
+
+;SucceedArtsCraftsWord
+1,Advanced Techniques of
+2,Getting Started with
+4,Learning about
+2,Techniques for
+5,The Art of
+2,The Beginner's Guide to
+1,The Power of 
+2,The [Secret Society Title.OrgDescriptor] Art of
+1,[Dice.3d6] Lessons for Successful
+
+;ExclamationChance
+1,!
+1,
+
+;VersusWord
+2,Against
+2,And
+1,Battles
+2,Fights
+8,Versus
+
+;MethodsType
+2,Methods
+2,Styles
+2,Types
+
+;Destination
+1,[Fantasy Town Names.Start]
+1,[Fantasy Landmarks.Start]
+1,[Fantasy Town Feature.Start]
+1,[Poetic Destinations.Start]
+

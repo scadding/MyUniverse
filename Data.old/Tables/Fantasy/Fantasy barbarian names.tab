@@ -1,0 +1,61 @@
+
+;Start
+1,[Female] [Sur]
+1,[Male] [Sur]
+
+;Female
+10,[Fantasy Names.FemaleFirstName]
+10,[NorthlanderFemale.NorthlanderFemaleFirstName]
+10,[ScottishFemale.ScottishFemaleFirstName]
+5,[Afrika Names.Start]
+5,[Ahaggar Names.Start]
+5,[SGNP arthurian.FEMALE]
+5,[SGNP assyrian.female]
+5,[SGNP barbarians.EnchantressFirst]
+5,[SGNP celtic.female]
+1,[Amazon Names.Start]
+1,[Arabesque Names.Start]
+1,[SGNP apijan.female]
+1,[SGNP amazon.Start]
+1,[SGNP orcish.female]
+
+;Male
+10,[Arabesque Names.Start]
+10,[Fantasy Names.MaleFirstName]
+10,[NorthlanderMale.NorthlanderMaleFirstName]
+10,[ScottishMale.ScottishMaleFirstName]
+5,[Afrika Names.Start]
+5,[Ahaggar Names.Start]
+5,[SGNP arthurian.MALE]
+5,[SGNP barbarians.BarbarianFirst]
+5,[SGNP celtic.male]
+1,[SGNP apijan.male]
+1,[SGNP assyrian.male]
+1,[SGNP orcish.Start]
+
+;Sur
+1,[SGNP barbarians.EnchantressSurname]
+1,[SGNP barbarians.BarbarianSurname]
+1,[Fantasy Names.Surname]
+1,[HalflingHippies.Surnames]
+1,[NorthlanderFemale.NorthlanderFemaleSurname]
+1,[NorthlanderMale.NorthlanderMaleSurname]
+1,[Weapon Names.conanweapon]
+5,[Compound Word Names.whitelist]
+5,the [role]
+10,of [tribe]
+25,
+
+;tribe
+5,[SGNP brazilian.TRIBES OF THE AMAZON BASIN]
+5,[Orc Tribe Name.Start]
+1,[Fantasy Town Names.Start]
+
+;role
+1,hunter
+1,shaman
+1,chieftain
+1,warrior
+
+
+

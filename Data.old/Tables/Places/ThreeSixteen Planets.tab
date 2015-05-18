@@ -1,0 +1,181 @@
+
+;Start
+1,'''Planet Briefing:'''<br/>You will be dropped on planet '''[planetname]'''<br/>Planet Type: [planettype]<br/><br/>'''Intelligence Report:'''<br/>The planet is infested by [planetlifeforms]<br/>''Alien Ability(AA): ''[alienability]<br />''Alien Special Ability: ''[alienspecial]<br/><br/>'''Your Mission:''' Terminate All Alien Threats with ''Extreme Prejudice''
+
+;planetname
+1,Bosch
+1,Caravaggio
+1,Cézanne
+1,Degas
+1,Dürer
+1,Goya
+1,Holbein
+1,Kandinsky
+1,Klimt
+1,Matisse
+1,Michelangelo
+1,Monet
+1,Picasso
+1,Pollock
+1,Rembrandt
+1,Renoir
+1,Reubens
+1,Titian
+1,Warhol
+1,Whistler
+1,Bergmann
+1,Gabo
+1,Moholy-Nagy
+1,Pasmore
+1,Pevsner
+1,Popova
+1,Rodchenko
+1,Schlemmer
+1,Tatlin
+1,Torres
+1,Baumeister
+1,Caro
+1,Davis
+1,Diller
+1,Dove
+1,Fontana 
+1,Freundlich
+1,Hepworth
+1,Heron
+1,Hilton
+1,Kapoor 
+1,Kupka 
+1,Nadelman
+1,Poliakoff
+1,Rego
+1,Richter
+1,Twombly 
+1,Wols 
+1,Abdy
+1,Bazille
+1,Boudin
+1,Caillebotte
+1,Cassatt
+1,Hassam
+1,Lawson
+1,MacColl
+1,Manzu
+1,Morisot 
+1,Pissarro
+1,Rosso
+1,Sickert
+1,Sisley 
+1,Slevogt
+1,Utrillo 
+1,Albertinelli
+1,Aldegreve 
+1,Barbari 
+1,Bartolomeo 
+1,Botticini
+1,Bramante
+1,Lombardo
+1,Dalmau
+1,Gaddi
+1,Mabuse 
+1,Pencz
+1,Predis
+1,Quarton
+1,Raphael
+1,Ratgeb
+1,Sodoma
+1,Stoss
+1,Torrigiani
+1,Tura
+1,Vecchietta
+1,Memling
+
+;planettype
+1,Arid world
+1,Asteroid belt
+1,Cloud/gas planet
+1,Dense atmosphere
+1,Desert world
+1,Electrical storms
+1,Forested surface
+1,High gravity
+1,High humidity
+1,Ice covered
+1,Low gravity
+1,Mountainous terrain
+1,Pleasure planet
+1,Poisonous atmosphere
+1,Radioactive
+1,Rain world
+1,Reefs and coral islands
+1,Temperate
+1,Volcanically active
+1,Water world
+
+
+;planetlifeforms
+1,Advanced Humanoids
+1,Apes
+1,Artificial lifeforms
+1,Birds or Flying Beasts
+1,Corrupt Troopers
+1,Dinosaurs
+1,Dogs
+1,Felines
+1,Furred Creatures
+1,Giants
+1,Humanoids
+1,Insectoids
+1,Mineral‐based forms
+1,Oozes
+1,Plants
+1,Rays, sharks or fish
+1,Reptiles or Amphibians
+1,Sentient planet
+1,Shadow Beasts
+1,Sirens
+
+;alienability
+1,Lowest FA
+1,Lowest FA + 1
+1,Lowest FA + 2
+1,Lowest NFA
+1,Lowest NFA + 1
+1,Lowest NFA + 2
+1,Highest FA
+1,Highest FA - 1
+1,Highest FA - 2
+1,Highest NFA
+1,Highest NFA - 1
+1,Highest NFA - 2
+1,(High FA + Low NFA)/2
+1,(High FA + Low NFA)/2 +1
+1,(High FA + Low NFA)/2 +2
+1,(High NFA + Low FA)/2
+1,(High NFA + Low FA)/2 +1
+1,(High NFA + Low FA)/2 +2
+1,AA = 5
+1,AA = 10
+
+;alienspecial
+1,Ambush
+1,Armour
+1,Boost Ability
+1,End Encounter
+1,Enrage
+1,Exploding Bodies
+1,Flee
+1,Ignore Armour
+1,Ignore Wounds
+1,Impair
+1,Induce Weakness
+1,Isolate
+1,Lasting Wounds
+1,Leaping
+1,Rapid Movement
+1,Reduce Visibility
+1,Regeneration
+1,Stop Technology
+1,Suicide
+1,Swarm
+
+

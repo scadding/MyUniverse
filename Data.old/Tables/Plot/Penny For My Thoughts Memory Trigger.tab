@@ -1,0 +1,410 @@
+
+;Start
+3,[SpecificTrigger]
+2,The [adverb] [sense] of [nominalsuffix]
+1,The [sense] of [nominalsuffix]
+1,The [sense] of [activity]
+1,A [item]
+1,A [colour] [item]
+1,Your [relative]
+2,Your [relative]'s [item]
+2,Your [relative]'s [hobby]
+3,Your [relative] [when]
+1,[when]
+1,[place]
+2,[place] [when]
+1,[activity] in [place]
+2,[activity] [when]
+
+
+;SpecificTrigger
+1,The sounds of laughter
+1,A stuffed bear caked in mud
+1,Your family's ski lodge
+1,A smooth stone in the shape of a heart
+1,The feeling of being lost in the woods at night
+1,The pain of stepping on something sharp and pointy
+1,The sound of someone writing on a blackboard
+1,“Sweet Child of Mine” by Guns n' Roses
+1,The aftermath of a car crash
+1,Cracking a tooth
+1,The smell of pumpkin pie
+1,The Al-Rashid Hotel in Baghdad
+1,Being poked repeatedly
+1,The feel of cool velvet
+1,A bright red balloon
+1,The sounds of a highway
+1,Walking barefoot in wet grass
+1,Loneliness in a crowd
+1,Blood stain on a white carpet
+1,The smell of cigars
+1,The way the floorboards creaked under their feet when my parents danced
+1,The smell of freshly baked cookies
+1,A door slamming
+1,A pain in my stomach
+1,Swimming naked in the lake
+1,Swimming naked in the lake [when]
+1,Canon in D
+1,The sound of a bell tower ringing
+1,The sound of our basement door squeaking
+1,A rain of Blood
+1,An aircraft carrier
+1,Being very lost
+1,An unwanted gift
+1,Fresh strawberries, destroyed into a pulpy mass
+1,A precious object, lost
+1,A broken nose
+1,Frustration at being unable to find a certain item of clothing in the right size
+1,Floor buffers
+1,An unfamiliar city, disoriented, late
+1,The blue screen of death
+1,A diorama of Pickett's Charge with individually hand-painted soldiers
+1,A sequestered jury
+1,A dollhouse
+1,A standoff
+1,Not wanting to get up because a [animal] is sleeping on my lap
+1,Want to run out in the rain, not allowed
+1,Room service hamburger and fries, stone cold
+1,A doctor
+1,Poetry
+1,The sound of chalk on a black board
+1,The boy with the [colour] [clothing]
+
+;adverb
+1,mild
+1,sharp
+1,musty
+1,subtle
+1,burning
+1,strong
+1,light
+1,slight
+1,lingering
+1,dank
+1,resounding
+1,overwhelming
+1,pungent
+
+;when
+1,at Christmas
+1,at Easter
+1,on Thanksgiving
+1,at New Year
+1,in the Fall
+1,after the Wake
+1,the day before your birthday
+1,when your [relative] returned
+1,the day your [relative] died
+1,on graduation day
+1,when the sky turned black
+1,when you almost drowned
+1,before you saw what was behind you
+1,after the game
+1,after all the cake was gone
+1,when no one loved you
+1,when you thought it was true
+1,moments before midnight
+1,during that hot date
+1,after she dumped you
+1,after he dumped you
+1,when you stopped shaking
+1,when you found the [item]
+1,on St. Patrick's Day
+1,after everyone had gone home
+1,in the rain
+1,in the snow
+1,on a cloudy day
+1,when you wore the [colour] [clothing]
+
+;place
+1,the Grand Canyon
+1,Paris
+1,School
+1,Work
+1,the Office
+1,the ski slopes
+1,the park
+1,your [relative]'s bed
+1,the grounds of the old house
+1,outside
+1,the dining room
+1,the kitchen
+1,the car
+1,at the station
+1,next to the phone
+1,the lake
+1,the Clanton's place
+1,your [relative]'s house
+1,the library
+1,a cabin in the woods
+1,London
+1,the beach
+
+;activity
+1,Singing
+1,Walking
+1,Driving
+1,Kissing
+1,Falling
+1,Laughing
+1,Running
+1,Screaming
+1,Shouting
+1,Shooting
+1,Making out
+1,Hiding
+
+;sense
+1,smell
+1,odor
+1,waft
+1,fragrence
+1,bouquet
+1,reek
+1,stentch
+1,aroma
+1,whiff
+1,clang
+1,boom
+1,crunch
+1,tinkling
+1,scraping
+1,crash
+2,taste
+1,feel
+1,texture
+1,sight
+1,vision
+1,rumble
+1,sensation
+1,thrill
+1,excitement
+1,fear
+1,terror
+1,horror
+1,boredom
+1,confusion
+
+
+;nominalsuffix
+1,brimstone
+1,sulfer
+1,decay
+1,cheese
+1,blood
+1,sweat
+1,moldering corpses
+1,rotting leaves
+1,day old bread
+1,fresh baked bread
+1,stagnent water
+1,evil
+3,wet [animal]s
+1,[animal] droppings
+1,sour milk
+1,lye
+1,urine
+1,rotting [Utility.Fruit]
+#1,shouting [shouts]
+1,footsteps
+1,clashing [clashes]
+1,falling [falls]
+3,your [relative]'s [item]
+1,laughter
+1,falling
+1,the [item]
+1,fresh baked cookies
+1,clean sheets
+1,strong mustard
+
+;clothing
+1,baseball cap
+1,T-shirt
+1,shorts
+1,bikini
+1,jeans
+1,jacket
+1,socks
+1,shoes
+1,pull over
+1,jumper
+1,tank top
+1,scarf
+
+;clashes
+1,weapons
+1,swords
+1,dishes
+
+;falls
+1, 
+1,down
+1,empires
+1,down
+1,dishes
+
+;relative
+3,father
+3,mother
+3,brother
+3,sister
+3,friend
+2,spouse
+1,tutor
+1,mentor
+1,aunt
+1,uncle
+1,son
+1,daughter
+1,family
+1,music teacher
+1,plumber
+1,postman
+1,neighbour
+1,doctor
+1,boss
+1,union rep
+1,brother-in-law
+1,sister-in-law
+
+;animal
+1,bird
+1,bee
+3,cat
+3,dog
+1,falcon
+1,fish
+1,tortoise
+1,horses
+2,rabbit
+2,gerbil
+1,python
+
+;colour
+1,bright blue
+1,dull grey
+1,tangerine orange
+1,lime green
+1,vibrant yellow
+1,brilliant red
+1,navy blue
+1,shiny white
+1,dayglow pink
+
+;item
+1,fist
+1,voice
+1,car
+1,snores
+1,breath
+1,home
+1,oven
+1,bagpipe
+1,knitting
+1,horseshoe
+1,coat
+1,chicken
+1,boot
+1,spoon
+1,hat
+1,topiary [animal]
+1,Skull
+1,toy
+1,ink
+1,trumpet
+1,milk churn
+1,perfume
+1,blood
+1,toy soldier
+1,latex glove
+1,melting chocolate fudge
+1,paper airplane
+1,hammock
+1,fireflies
+1,yacht
+1,ski lodge
+1,sack
+5,[animal]
+1,broom
+1,book
+
+;hobby
+1,Altar art
+1,Beading
+1,Blacksmithing
+1,Calligraphy
+1,Collaging
+1,Cosplay
+1,Crochet
+1,Cross-stitch
+1,Dollhouses
+1,Doll making
+1,Drawing
+1,Embroidery
+1,Enamels
+1,Engraving
+1,Figure painting
+1,Glassblowing
+1,Jewellery making
+1,Knitting
+1,Leather crafting
+1,Origami
+1,Figure painting
+1,Tole painting
+1,Watercolor
+1,Splatter painting
+1,Papercraft
+1,Pottery
+1,Quilting
+1,Scrapbooking
+1,Sculpture
+1,Sewing
+1,Soapmaking
+1,Stained glass
+1,Stamping
+1,Warm glass
+1,Weaving
+1,Wood carving
+1,Woodworking
+1,Watches
+1,Baking
+1,Barbecue
+1,Beer making
+1,Mead brewing
+1,OpenCola
+1,Home Canning
+1,cake decorating
+1,Board games 
+1,Backgammon
+1,Checkers
+1,Chess
+1,Carrom
+1,Chinese Checkers
+1,Clue
+1,German board games
+1,Go
+1,Monopoly
+1,Pente
+1,Risk
+1,Rummikub
+1,Tournament Scrabble
+1,Stratego
+1,Card games 
+1,Bridge
+1,Cribbage
+1,Gin rummy
+1,Hearts
+1,Poker
+1,Rook
+1,Spades
+1,Trading Card Games 
+1,euchre
+1,Cue sports
+1,Dominoes
+1,Fantasy sports
+1,Role-playing games
+1,Sudoku
+1,Video games
+1,Wargaming 
+
+

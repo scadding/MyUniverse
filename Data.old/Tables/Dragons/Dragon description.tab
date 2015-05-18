@@ -1,0 +1,149 @@
+
+;Start
+1,[Dragon names.Start] the [age] [type] has [Color.all] [scales], [head], [legnumber] legs, [wings] wings and [tailtype] tail. It has [eyes]. [breathchance] [special]
+
+;age
+1,hatchling
+2,young
+3,adult
+2,old
+1,ancient
+
+;type
+4,dragon
+1,drake
+1,lindworm
+1,lindwyrm
+1,serpent
+1,wyrm
+1,wyvern
+1,linnorm
+1,dragonnet
+
+;scales
+16,scales
+1,fur
+2,leathery skin
+3,bony plates
+1,feathers
+
+;head
+10,[headfeature]
+1,[manyheads] with [headfeature]
+
+;headfeature
+1,[headfeature] and [headfeature]
+1,a unicorn's horn
+2,horns like those of a bull
+1,large sacks of venom just under the lower jaw
+10,a spiked frill
+10,a bony crest
+5,a crocodile-like skull
+1,antlers
+
+;manyheads
+5,two heads
+5,three heads
+5,five heads
+5,seven heads
+5,nine heads
+2,many heads
+2,multiple heads
+2,at least dozen heads
+1,countless heads
+
+;legnumber
+4,four [legtype]
+2,two [legtype]
+2,no
+1,six [legtype]
+1,eight [legtype]
+
+;legtype
+10,reptilian
+1,insectile
+1,arachnid
+1,short and near useless
+1,short but powerful
+1,long and strong
+
+;wings
+1,no
+1,leathery
+1,huge
+1,vestigial
+1,strong
+4,bat-like
+1,feathered
+1,insectile
+
+;tailtype
+10,long and sinous
+2,snake-headed
+4,venomous stinger in the end of its
+1,no
+10,a powerful
+2,blade-like tip at the end of its
+3,spiked
+
+;eyes
+1,reptilian eyes
+1,snake-like eyes
+1,eyes like swirling [Color.metallic] pools
+
+;breathchance
+3,It can exhale a [breathtype] of [breath].
+2,It can exhale a [breathtype] of [breath] and [breath]
+1,
+
+;breathtype
+1,cloud
+1,bolt
+1,blast
+1,cone
+1,mist
+
+;breath
+3,noxious fumes
+4,fire
+2,lightning
+3,acid
+1,water
+3,[poison] poison
+3,wind
+3,ice
+2,despair
+2,darkness
+1,madness
+1,brilliant light
+1,prismatic energy
+1,webbing
+1,dust
+1,bone
+1,ashes
+
+;poison
+1,blinding
+1,paralyzing
+1,sickening
+1,deadly
+
+;special
+5,
+4,[special] [special]
+1,It can possess a human with a mere glance.
+1,It understands every language ever spoken or written.
+1,It has scales as hard as [Utility.MetalArmor].
+1,It can take the shape of men and beasts alike.
+1,It can hear thoughts.
+1,It can smell secrets and deception.
+1,Everyone looking at it shall rightly adore it as a god.
+1,It can breath water as easily as air.
+1,It never truly sleeps.
+1,People under its shadow become raving madmen.
+1,Storms comes wherever it passes.
+1,Its whispers can change the heart of people.
+1,The mere presence of it turns people into scaled monsters, a bit by bit.
+1,It has arcane power that mirrors that of the most powerful mages.
+
+

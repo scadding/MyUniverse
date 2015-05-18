@@ -1,0 +1,78 @@
+
+;Start
+1,[CheeseProcess] [CheeseType] [CheeseOrigin] Cheese
+
+;CheeseProcess
+1,Fresh
+1,Aged
+1,Smoked
+1,Cave-Aged
+1,Dry
+1,Peppercorn-encrusted
+1,Pastry-encrusted
+1,Herb-encrusted
+1,[FantasyMenu.Nuts]-encrusted
+1,Farmstead-Style
+
+;CheeseOrigin
+10, 
+50,Sheep's Milk
+50,Goat
+10,Rothe Milk
+30,Bison Milk
+10,Camel's Milk
+1,Wolf's Milk
+1,Dire Boar's Milk
+1,Dire Rat's Milk
+5,Elk's Milk
+
+;CheeseType
+1,Blue
+1,Cheddar
+1,Sharp
+1,Porous
+4,Mild
+1,Extra-Sharp
+1,Soft
+1,Hard
+1,Creamy
+1,Smoky
+1,[Cheeseadj] cheddar
+1,[Cheeseadj] cheese
+1,[Cheeseadj] swiss
+1,[Cheeseadj] muenster
+1,[Cheeseadj] gorgonzola
+1,[Cheeseadj] Edam
+
+;Cheeseadj
+1,exotic
+1,sharp
+1,good
+1,hard
+1,delicious
+1,pungent
+1,fine
+1,slightly moldy
+1,aged
+1,yellow
+1,exotic
+1,smoked
+1,delightful
+1,foul-smelling
+1,putrid
+1,fine
+1,roast
+1,spicy
+1,roasted
+1,slow-roasted
+1,thin-sliced
+1,pulled
+1,shredded
+1,cured
+1,dried
+1,salted
+1,seasoned
+1,bland
+1,tough
+
+

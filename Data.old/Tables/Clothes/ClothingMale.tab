@@ -1,0 +1,204 @@
+#===Single Items===
+#<sgdisplay iterations="10">[Start]<br/></sgdisplay>
+#
+#===Full Outfits===
+#<sgdisplay iterations="10">[MaleOutfit]<br/></sgdisplay>
+#
+#===Just Hats===
+#<sgdisplay iterations="10">A [Hats]<br/></sgdisplay>
+
+;Start
+1,[MaleClothing]
+
+;MaleOutfit
+10,He is wearing a [MaleUpperOutfit], a [MaleLower], and [MaleFootwear].[MaleAccessoriesChance][MaleHatChance]
+3,He is wearing a [MaleFullBody] and [MaleFootwear].[MaleAccessoriesChance][MaleHatChance]
+1,He is wearing [UniformMale]
+
+;MaleClothing
+5,A man's [MaleUpperSinglePiece]
+5,A man's [MaleLower]
+5,A man's [MaleFullBody]
+5,A pair of men's [MaleFootwear]
+4,A man's [MaleAccessories]
+5,A man's [MaleUpperSinglePiece]
+5,A man's [MaleLower]
+5,A man's [MaleFullBody]
+5,A pair of men's [MaleFootwear]
+4,A man's [MaleAccessories]
+
+;MaleUpperSinglePiece
+1,[MaleUpperLayer1]
+1,[MaleUpperLayer2]
+
+;MaleUpperOutfit
+1,[MaleUpperLayer1]
+1,[MaleUpperLayer1] and a [MaleUpperLayer2]
+
+;MaleUpperLayer1
+15,shirt made of [ClothingFemale.MaterialCombosCommon]
+6,sleeveless shirt made of [ClothingFemale.MaterialCombosCommon]
+15,tunic made of [ClothingFemale.MaterialCombosCommon]
+2,nightshirt made of [ClothingFemale.MaterialCombosCommon]
+
+;MaleUpperLayer2
+10,vest made of [ClothingFemale.MaterialCombosFancy]
+8,tabard made of [ClothingFemale.MaterialCombosCommon]
+5,overtunic made of [ClothingFemale.MaterialCombosCommon]
+10,doublet made of [ClothingFemale.MaterialCombosCommon]
+5,jerkin made of [ClothingFemale.MaterialCombosCommon]
+2,smoking jacket made of [ClothingFemale.MaterialCombosFancy]
+5,jacket made of [ClothingFemale.MaterialCombosCommon]
+5,coat made of [ClothingFemale.MaterialCombosCommon]
+5,tabard made of [ClothingFemale.MaterialCombosCommon]
+5,waistcoat made of [ClothingFemale.MaterialCombosFancy]
+
+;MaleLower
+25,kilt made of [ClothingFemale.ClothingColors] and [ClothingFemale.ClothingColors] wool
+25,pair of pantaloons made of [ClothingFemale.MaterialCombosCommon]
+20,pair of jodhpurs made of [ClothingFemale.MaterialCombosCommon]
+40,pair of pants made of [ClothingFemale.MaterialCombosCommon]
+40,pair of breeches made of [ClothingFemale.MaterialCombosCommon]
+15,pair of tights
+10,pair of stockings
+10,barbarian loincloth made of [Utility.Fur] fur
+7,pair of lederhosen made of [Utility.LeatherHide]
+
+;MaleFullBody
+2,<b>terry cloth one-piece</b> made of [Utility.BrightColors] terry cloth (cotton)
+30,robe made of [ClothingFemale.MaterialCombosCommon]
+30,long tunic made of [ClothingFemale.MaterialCombosCommon]
+25,hooded robe made of [ClothingFemale.MaterialCombosCommon]
+3,toga made of [ClothingFemale.MaterialCombosCommon]
+
+;MaleFootwear
+2,open-toed sandals made of [ClothingFemale.MaterialCombosLeather]
+2,close-toed sandals made of [ClothingFemale.MaterialCombosLeather]
+1,slippers made of [ClothingFemale.MaterialCombosLeather]
+4,low boots made of [ClothingFemale.MaterialCombosLeather]
+5,mid-calf boots made of [ClothingFemale.MaterialCombosLeather]
+4,knee-high boots made of [ClothingFemale.MaterialCombosLeather]
+2,thigh-high boots made of [ClothingFemale.MaterialCombosLeather]
+5,riding boots made of [ClothingFemale.MaterialCombosLeather]
+1,jester shoes  made of [ClothingFemale.MaterialCombosFancy]
+8,common shoes made of [ClothingFemale.MaterialCombosLeather]
+
+;MaleAccessoriesChance
+4, 
+2, He is also wearing a [MaleAccessories].
+1, He is also wearing a [MaleAccessories] and a [MaleAccessories].
+
+;MaleHatChance
+30, 
+20, On his head there is a [Hats].
+1, On his face there is [ClothingFemale.Masks].
+
+;MaleAccessories
+4,spiked collar made of [Utility.LeatherHide] and [Utility.MetalArmor]
+4,gorget made of [Utility.LeatherHide] and [Utility.MetalArmor]
+10,cape made of [ClothingFemale.MaterialCombosCommon] and [ClothingFemale.MaterialsFancy]
+5,half-cape made of [ClothingFemale.MaterialCombosCommon] and [ClothingFemale.MaterialsFancy]
+10,belt made of [Utility.LeatherHide] with a [Utility.MetalArmor] buckle
+7,baldric made of [ClothingFemale.MaterialCombosCommon]
+7,codpiece made of [Utility.LeatherHide] and [Utility.MetalArmor]
+10,pair of gloves made of [ClothingFemale.MaterialCombosLeather]
+5,pair of gauntlets made of [ClothingFemale.MaterialCombosLeather]
+6,sash made of [ClothingFemale.MaterialCombosFancy]
+6,apron made of [Utility.LeatherHide]
+3,sporran made of [ClothingFemale.MaterialCombosLeather]
+4,plaid of [ClothingFemale.MaterialCombosLeather] with a brooch of [Utility.MetalDecor]
+5,bandoleer made of [ClothingFemale.MaterialCombosLeather]
+4,scarf made of [ClothingFemale.ClothingColors] wool
+4,ruff made of starched muslin
+
+;Hats
+5,broad-brimmed hat made of [ClothingFemale.MaterialsHat]
+5,skullcap made of  made of [ClothingFemale.MaterialsHat]
+3,chaperon hat made of [ClothingFemale.MaterialsHat]
+3,straw hat
+1,chef's hat made of [ClothingFemale.MaterialsHat]
+4,beret made of [ClothingFemale.MaterialsHat]
+6,cap made of [ClothingFemale.MaterialsHat]
+6,coif made of [ClothingFemale.MaterialsHat]
+6,"capitanesca" hat made of [ClothingFemale.MaterialsHat]
+6,"sack" hat made of [ClothingFemale.MaterialsHat]
+6,Figalian hat made of [ClothingFemale.MaterialsHat]
+6,"capello" hat made of [ClothingFemale.MaterialsHat]
+6,buttoned hood made of [ClothingFemale.MaterialsHat]
+6,"tailed" hood made of [ClothingFemale.MaterialsHat]
+6,bordered hood made of [ClothingFemale.MaterialsHat]
+6,simple hood made of [ClothingFemale.MaterialsHat]
+3,jester's hat made of [ClothingFemale.MaterialsHat]
+3,beefeater hat made of [ClothingFemale.MaterialsHat]
+2,fisherman's cap made of [ClothingFemale.MaterialsHat]
+2,pilgrim's hat made of [ClothingFemale.MaterialsHat]
+3,wizard's hat made of [ClothingFemale.MaterialsHat]
+2,desertfolk fez made of [ClothingFemale.MaterialsHat]
+1,top hat made of [ClothingFemale.MaterialsHat]
+1,"hussar" hat made of [ClothingFemale.MaterialsHat]
+1,admiral's hat made of [ClothingFemale.MaterialsHat]
+3,cavalier's hat made of [ClothingFemale.MaterialsHat]
+1,tricorn hat made of [ClothingFemale.MaterialsHat]
+2,"torredor" hat made of [ClothingFemale.MaterialsHat]
+2,buccaneer's hat made of [ClothingFemale.MaterialsHat]
+2,"gaucho" hat made of [ClothingFemale.MaterialsHat]
+
+;UniformMale
+5,a [ServantUniformMale]
+5,a [MilitaryUniformGeneric]
+4,the [MilitaryUniformSpecific]
+
+;ServantUniformMale
+1,[ServantType]'s livery uniform consisting of [ClothingFemale.MaterialsFancy] stockings, fine [ClothingFemale.ClothingColors] wool breeches, and an embroidered jacket of [ClothingFemale.MaterialsFancy] with shiny [Utility.MetalDecor] buttons and embroidery.
+1,[ServantType]'s uniform consisting of knee-high [Utility.LeatherHide] boots, a [MaleLower], and an embroidered doublet of [ClothingFemale.MaterialsFancy] and [ClothingFemale.MaterialsFancy] with shiny [Utility.MetalDecor] buttons.
+1,[ServantType]'s uniform consisting of knee-high [Utility.LeatherHide] boots, a [MaleLower], and an embroidered doublet of [ClothingFemale.MaterialsFancy] and [ClothingFemale.MaterialsFancy] with shiny [Utility.MetalDecor] buttons.
+
+;ServantType
+4,footman
+4,butler
+4,valet
+4,chauffer
+3,doorman
+3,steward
+2,chamberlain
+2,gardener
+1,clerk
+1,lamplighter
+1,underbutler
+1,groom
+1,coachman
+1,chef
+2,stable-boy
+3,servant
+2,manservant
+1,majordomo
+1,gatekeeper
+1,dogsbody
+
+;MilitaryUniformGeneric
+5,horseman's dress uniform consisting of [Utility.LeatherHide] riding boots, [Utility.LeatherHide] gauntlets, [ClothingFemale.ClothingColors] wool breeches lined with [Utility.LeatherHide],[MilitaryAccessoriesChance] and a tailed jacket made of [ClothingFemale.ClothingColors] wool with [Color.metallic] braided epaulets and embroidery and buttons of shiny [Utility.MetalDecor]. Insignia denote the rank of [Fantasy Military Unit.MilitaryRank].
+5,foot soldier's dress uniform consisting of [Utility.LeatherHide] boots, [ClothingFemale.ClothingColors] canvas breeches lined with [ClothingFemale.MaterialsFancy],[MilitaryAccessoriesChance] and a jacket made of [ClothingFemale.ClothingColors] wool with [Color.metallic] embroidery and buttons of shiny [Utility.MetalDecor]. Insignia denote the rank of [Fantasy Military Unit.MilitaryRank].
+5,guard's dress uniform consisting of [Utility.LeatherHide] boots, [ClothingFemale.MaterialsCommon] breeches lined with [ClothingFemale.MaterialsFancy],[MilitaryAccessoriesChance] and a jacket made of [ClothingFemale.ClothingColors] wool with [Color.metallic] embroidery and buttons of shiny [Utility.MetalDecor]. Insignia denote the rank of [Fantasy Military Unit.MilitaryRank].
+5,pikeman's dress uniform consisting of [Utility.LeatherHide] boots, [ClothingFemale.MaterialsCommon] breeches lined with [ClothingFemale.MaterialsFancy],[MilitaryAccessoriesChance] and a jacket made of [ClothingFemale.ClothingColors] wool with [Color.metallic] embroidery and buttons of shiny [Utility.MetalDecor]. Insignia denote the rank of [Fantasy Military Unit.MilitaryRank].
+1,sapper's uniform consisting of [Utility.LeatherHide] boots, a thick [Utility.LeatherHide] apron, [ClothingFemale.MaterialsCommon] breeches lined with [ClothingFemale.MaterialsFancy], and a jacket made of [ClothingFemale.ClothingColors] wool with [Color.metallic] embroidery and buttons of shiny [Utility.MetalDecor]. Insignia denote the rank of [Fantasy Military Unit.MilitaryRank].
+
+;MilitaryUniformSpecific
+1,dress uniform of a [Fantasy Military Unit.MilitaryRank] in the [Fantasy Military Unit.Start]. It consists of [Utility.LeatherHide] boots, [Utility.LeatherHide] gauntlets, a [MaleLower] and lined with [ClothingFemale.MaterialsHat],[MilitaryAccessoriesChance] and a jacket made of [ClothingFemale.ClothingColors] wool with [Color.metallic] braided epaulets and embroidery and buttons of shiny [Utility.MetalDecor]. An embroidered shoulderpatch carries the symbol of rank.
+
+;MilitaryUniformNoDesignation
+1,a military dress uniform consisting of [Utility.LeatherHide] boots, [Utility.LeatherHide] gauntlets, a [MaleLower] and lined with [ClothingFemale.MaterialsHat],[MilitaryAccessoriesChance] and a jacket made of [ClothingFemale.ClothingColors] wool with [Color.metallic] braided epaulets and embroidery and buttons of shiny [Utility.MetalDecor]. An embroidered shoulderpatch carries the symbol of rank.
+
+;MilitaryAccessoriesChance
+1, 
+1,[MilitaryAccessories]
+
+;MilitaryAccessories
+5, a cloak made of [ClothingFemale.MaterialsCommon],
+3, a baldric made of [ClothingFemale.MaterialsCommon],
+5, a tabard made of made of [ClothingFemale.MaterialsCommon] and bearing the unit's coat of arms,
+3, a belt made of [Utility.LeatherHide],
+2, an apron made of [Utility.LeatherHide],
+2, a sword belt made of [Utility.LeatherHide]
+2, [MilitaryAccessories][MilitaryAccessories]
+
+

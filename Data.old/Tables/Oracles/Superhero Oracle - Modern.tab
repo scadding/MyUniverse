@@ -1,0 +1,54 @@
+
+;Start
+1,'''Structured''':<br>[origins]<br>[events]<br>[stuff]<br>[villiany]
+1,'''Potpourri''':<br>[sub]<br>[sub]<br>[sub]<br>[sub]
+
+;sub
+1,[origins]
+1,[events]
+1,[stuff]
+1,[villiany]
+
+;origins
+1,1H - The citizen of a long hidden nation braving the unknown of the wider world.
+1,2H - The lone survivor of a far off, destroyed planet, stranded here on earth.
+1,3H - A patriot, first in line to the defense of their country and it's ideals.
+1,4H - A vigilante on a crusade against crime, driven by a tragic past.
+1,5H - A haggard yet determined soldier hailing from the future, trapped in our own time.
+1,6H - A former assassin seeking redemption for past sins.
+1,7H - A member of a corp of galactic protectors patrolling this sector of space.
+1,8H - A young hero, who has discovered that with great power comes great responsibility.
+1,9H - A demon, rejecting his heritage and committed to protecting mankind from darkness.
+
+;events
+1,1S - An asteroid headed straight for earth, not what it seems.
+1,2S - A secret identity publicly exposed by an arch-nemesis.
+1,3S - Uncanny power transfered to an innocent bystander.
+1,4S - A long lost hero seemingly returned from the dead.
+1,5S - A new hero, who's face mirrors your own.
+1,6S - A former hero, corrupted and enslaved to a diabolical will.
+1,7S - A small child blessed or cursed with unimaginable and uncontrollable power.
+1,8S - A champion of justice and the common man, leaving it all behind to seek a normal life of his own.
+1,9S - The mantle of a costumed identity passed down to a young but capable sidekick.
+1,10S - A loved one found murdered, all evidence points to you.
+1,11S - The hostile takeover of an powerful, international corporation by a shadowy entity.
+1,12S - A grieving lover cradling the body of a fallen hero.
+
+;stuff
+1,1D - A lost, yet inhabited, city hidden beneath the sea.
+1,2D - A previously undiscovered settlement on the dark side of the moon.
+1,3D - A alien talisman granting cosmic power.
+1,4D - A forbidden tome destined to awaken a slumbering evil.
+1,5D - An orbital satellite capable of monitoring all major post-human activity.
+1,6D - An international agency intervening in post-human emergencies.
+1,7D - An alien fleet darkening the skies around the world.
+
+;villiany
+1,1C - The lord of a burning realm, seeking to corrupt the most pure soul.
+1,2C - A long-standing enemy, disguised as familiar ally.
+1,3C - The despotic monarch of an alien civilization with grim designs of conquest.
+1,4C - Former side-kick seeking painful retribution against his one-time allies.
+1,5C - A minion secretly plotting the betrayal of his master.
+1,6C - A former hero capable and determined to grasp the reigns of human destiny, to save us from ourselves.
+
+

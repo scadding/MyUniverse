@@ -1,0 +1,305 @@
+
+;Start
+5,[Names]'s [Adjectives] [Starters] [Finishers]<br>
+7,[Starters] [Finishers]<br>
+9,[Starters]'s [Liquids]<br>
+5,The [Adjectives] [Starters]<br>
+
+;Names
+3,St. [Catholic Saint Names.Start]
+2,[Orc Tribe Name.Start]
+1,[Fantasy Town Names.Start]
+1,[Fantasy Landmarks.Start]
+3,[NorthlanderMale.Start]
+2,[NorthlanderFemale.Start]
+3,[ScottishMale.Start]
+2,[ScottishFemale.Start]
+3,[Letters - uppercase.normal]. [American Surnames.surname]
+
+;Adjectives
+1,Ailment-Curing
+1,Batch-Brewed
+1,Best-Ever
+1,Better
+1,Blinding
+1,Blisterin' Hot
+1,Boot-Blastin'
+1,Bottom-Fermented
+1,Bottle-Fermented
+1,Brimming
+1,Brown
+1,Bubbly
+1,Bubblin'
+1,Cask-Brewed
+1,Cold-Brewed
+1,Dastardly Draught of
+1,Dead-Raising
+1,Domineering
+1,Exquisite
+1,Extra-Spicy
+1,Famous
+1,Fiery
+1,Fine
+1,Fizzy
+1,Foaming
+1,Foamy
+1,Fomenting
+1,Flaming
+1,Frozen
+1,Grand Old
+1,Green
+1,Hard-Hittin'
+1,Hard-Kickin'
+1,Hearty
+1,Heart-Stopping
+1,Heavy
+1,Heavy-Hittin'
+1,Honey Brown
+1,Ice-Brewed
+1,Ice Cold
+1,Illustrious
+1,Mysterious
+1,Exceptional
+20,[Liquids] of
+1,Mysterious Elixir of
+1,Exceptional Elixir of
+1,Secret Elixir of
+1,Extra-Special
+1,Slow-Brewed
+1,Magical
+1,Mouth-Burning
+1,Mystical
+1,Mystical Elixir of
+1,Red
+1,Red-Hot
+1,Scorchin' Hot
+1,Secret
+1,Steaming
+1,Smokin' Hot
+1,Thick and Creamy
+1,Thick and Hearty
+1,Thick and Rich
+1,Thoroughly Stirred
+15,Tongue-[Tongue Finisher]
+1,Trusty Ol'
+1,Ugly
+1,Unbeatable
+1,World-Famous
+1,World's Finest
+
+;Tongue Finisher
+1,Bashing
+1,Blasting
+1,Blanching
+1,Blistering
+1,Bursting
+1,Busting
+1,Chopping
+1,Crunching
+1,Crushing
+1,Demolishing
+1,Dunking
+1,Grabbing
+1,Gouging
+1,Kicking
+1,Melting
+1,Poking
+1,Punching
+1,Ripping
+1,Roasting
+1,Slashing
+1,Smashing
+1,Smelting
+1,Smoking
+1,Stabbing
+1,Wasting
+1,Whipping
+
+;Starters
+1,Naga
+1,Owlbear
+1,Pegasus
+1,Spider
+1,Triton
+1,Brain
+1,Brownie
+1,Heart
+1,Eye
+1,Hell
+1,Hydra
+1,Manticore
+1,Medusa
+1,Treant
+1,Troll
+1,Orc
+1,Dragon
+1,Dwarf
+1,Eagle
+1,Elf
+1,Drow
+1,Ghoul
+1,Gnoll
+1,Goblin
+1,Harpy
+1,Nymph
+1,Pixie
+1,Centaur
+1,Lich
+1,Minotaur
+1,Unicorn
+1,Bugbear
+1,Gnome
+1,Halfling
+1,Hobgoblin
+1,Kobold
+1,Lizard
+1,Gargoyle
+1,Witch
+1,Scorpion
+1,Ogre
+1,Ettin
+1,Giant
+1,Lamia
+1,Werewolf
+1,Werebear
+1,Crocodile
+1,Serpent
+1,Snake
+1,Viper
+1,Toad
+1,Ape
+1,Baboon
+1,Badger
+1,Bear
+1,Bison
+1,Boar
+1,Camel
+1,Cat
+1,Cheetah
+1,Dog
+1,Donkey
+1,Elephant
+1,Horse
+1,Sister
+1,Warhorse
+1,Hyena
+1,Leopard
+1,Lion
+1,Monkey
+1,Mule
+1,Pony
+1,Rat
+1,Rhinoceros
+1,Tiger
+1,Weasel
+1,Wolf
+1,Worg
+1,Wolverine
+1,Hawk
+1,Raven
+1,Chicken
+1,Shark
+1,Blood
+1,Centipede
+1,Squid
+1,Kraken
+1,Fire
+1,Flame
+1,Gut
+1,Head
+1,Ailment
+1,Druid
+1,Jungle
+1,Forest
+1,Desert
+1,Sandy
+1,Morning
+1,Evening
+1,Wasteland
+
+;Finishers
+1,Basher
+1,Blaster
+1,Blisterer
+1,Breach
+1,Breaker
+1,Bugger
+1,Burster
+1,Buster
+1,Chopper
+1,Crasher
+1,Cruncher
+1,Crusher
+1,Curer
+1,Demolisher
+1,Destroyer
+1,Dunker
+1,Grabber
+1,Gouger
+1,Inquisitor
+1,Judgment
+1,Kicker
+1,Melter
+1,Obliterator
+1,Poker
+1,Puncher
+1,Revenge
+1,Ripper
+1,Secret Recipe
+1,Slasher
+1,Smasher
+1,Smelter
+1,Stabber
+1,Waster
+1,Whipper
+1,Gristle
+1,Hide
+
+;Liquids
+1,Ale
+1,Blood
+1,Brew
+1,Concoction
+1,Cure-All
+1,Dew
+1,Distillate
+1,Double Draught
+1,Drink
+1,Draught
+1,Elixir
+1,Ferment
+1,Fermentation
+1,Foam
+1,Fomentation
+1,Fluid
+1,Grog
+1,Juice
+1,Lager
+1,Liquid
+1,Magical Elixir
+1,Moonshine
+1,Percolation
+1,Pilsner
+1,Porter
+1,Punch
+1,Sauce
+1,Secret Sauce
+1,Secret Serum
+1,Seltzer
+1,Serum
+1,Shine
+1,Slag
+1,Sludge
+1,Slurry
+1,Slush
+1,Special Sauce
+1,Spritzer
+1,Stout
+1,Super Sludge
+1,Tongue Teaser
+1,Tongue Trapper
+1,Tonic
+1,Water
+1,Wine
+
+

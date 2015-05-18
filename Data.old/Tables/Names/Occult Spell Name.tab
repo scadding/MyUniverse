@@ -1,0 +1,98 @@
+
+# This is the name of a spell. It could be a postmodern mashup or it could be 
+# a way to refer to the instructions found in an ancient grimoire.
+
+# Mostly, it's useful for the Modern Occult Spell page. I'd like to work it 
+# into some other pages, if possible.
+
+;Start
+1,[spellname]
+
+;spellname
+1,The [Occulty] [Spelly] [ofOccAuth]
+
+;Occulty
+1,Greater
+1,Lesser
+1,Secret
+1,Sacred
+1,Sublime
+1,Forbidden
+1,Mighty
+1,Dark
+1,Foreign
+1,Exotic
+1,Ancient
+1,Monstrous
+1,Holy
+1,Learned
+1,Capricous
+1,Simpering
+1,Ascetic
+1,Hart-Done
+1,Devil's Own
+1,Heavenly
+
+;Spelly
+1,Curse
+1,Exorcism
+1,Ritual
+1,Incantation
+1,Malison
+1,Blessing
+1,Hex
+1,Jinx
+1,Rite
+1,Calle
+1,Ceremony
+1,Binding
+1,Formulation
+1,'Fluence
+1,Influence
+1,Working
+1,Foreordainment
+1,Conjuration
+
+;ofOccAuth
+1,of Honorius
+1,of Solomon
+1,of Moses
+1,
+1,of Agrippa
+1,of Pythagoras
+1,of Iskander
+1,
+1,of Ostanes
+1,of Osthanes
+1,of Turiel
+1,
+1,of Apollonius (of Tyre)
+1,of Hermes Trismegistus
+1,of Heka
+1,
+1,of Astaroth
+1,of the Animals
+1,of the Sky
+1,of the Seasons
+1,
+1,of Abulafia
+1,of Simon Magus
+1,of Virgil
+1,
+1,of Diana
+1,of Christian Rosenkreuz
+1,of St. Ciprian
+1,
+1,of Free Will
+1,of Blood
+1,of Night
+1,
+1,of the Sybil
+1,of the Pythoness
+1,of the Witches
+1,
+1,of Merlin
+1,of the Faery Queen
+1,of Nimue
+
+

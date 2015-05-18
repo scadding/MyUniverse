@@ -1,0 +1,428 @@
+
+;Start
+1,[RankEnglishArmy]
+1,[RankEnglishNavy]
+1,[RankEnglishRoyalty]
+1,[RankEnglishSpecial]
+1,[RankForeign]
+1,[RankForeign]
+1,[RankForeign]
+
+;Rank
+10,[RankEnglish]
+1,[RankForeign]
+
+;RankEnglish
+10,[RankEnglishArmy]
+5,[RankEnglishNavy]
+2,[RankEnglishRoyalty]
+1,[RankEnglishSpecial]
+
+;RankEnglishArmy
+1,Brevet [RankEnglishArmyEnlisted]
+2,Brevet [RankEnglishArmyOfficer]
+20,[RankEnglishArmyEnlisted]
+5,[RankEnglishArmyOfficer]
+
+;RankEnglishArmyEnlisted
+1,Warrant Officer
+1,Sergeant Major
+1,First Sergeant
+1,Master Sergeant
+1,Drum Sergeant
+1,Section Sergeant
+2,Sergeant First Class
+3,Staff Sergeant
+5,Sergeant
+5,Corporal
+1,Lance Corporal
+1,Grenadier
+7,Private First Class
+10,Private
+
+;RankEnglishArmyOfficer
+1,Field Marshal
+1,Field General
+1,General
+1,Lieutenant General
+1,Major General
+1,Brigadier General
+2,Colonel
+3,Lieutenant Colonel
+1,Drum Major
+4,Major
+5,Captain
+10,Lieutenant
+1,Cadet
+
+;RankEnglishNavy
+5,[RankEnglishNavyEnlisted]
+1,[RankEnglishNavyOfficer]
+
+;RankEnglishNavyEnlisted
+1,Warrant Officer
+2,Petty Officer First Class
+3,Petty Officer Second Class
+5,Leading Rate 
+7,Seaman First Class
+10,Seaman
+
+;RankEnglishNavyOfficer
+1,Fleet Admiral
+1,Admiral
+3,Captain
+2,Commodore
+4,Commander
+5,Lieutenant Commander
+7,Lieutenant
+10,Ensign
+1,Midshipman
+
+;RankEnglishRoyalty
+2,[RankEnglishRoyaltyFemale]
+5,[RankEnglishRoyaltyMale]
+
+;RankEnglishRoyaltyFemale
+1,Empress
+1,Queen
+1,Vicereine
+1,Grand Duchess
+1,Archduchess
+1,Princess
+1,Duchess
+1,Countess
+1,Baroness
+1,Viscount
+
+;RankEnglishRoyaltyMale
+1,Emperor
+1,King
+1,Viceroy
+1,Grand Duke
+1,ArchDuke
+1,Prince
+1,Duke
+1,Count
+1,Baron
+1,Baronet
+1,Earl
+1,Viscount
+
+;RankEnglishSpecial
+1,[RankEnglishSpecialFemale]
+5,[RankEnglishSpecialMale]
+10,[RankEnglishSpecialReligious]
+
+;RankEnglishSpecialReligious
+1,Saint
+30,[RankEnglishSpecialReligiousCatholic]
+30,[RankEnglishSpecialReligiousProtestant]
+
+;RankEnglishSpecialReligiousCatholic
+1,[RankEnglishSpecialReligiousCatholicFemale]
+20,[RankEnglishSpecialReligiousCatholicMale]
+
+;RankEnglishSpecialReligiousCatholicFemale
+1,Mother 
+1,Sister 
+1,Nun 
+
+;RankEnglishSpecialReligiousCatholicMale
+5,Pope
+5,Pontiff
+5,Patriarch
+1,Major Archbishop
+5,Cardinal
+4,Primate
+4,Metropolitan
+5,Archbishop
+1,Diocesan Bishop
+5,Bishop
+1,Territorial Prelate
+1,Territorial Abbot
+1,Vicar Apostolic
+1,Prefect Apostolic
+1,Permanent Apostolic Administrator
+1,Apostolic Exarch
+1,Apostolic Ordinary
+1,Military Ordinary
+1,Personal Prelate
+1,Apostolic Administrator
+4,Mission Superior
+4,Lay Minister
+
+;RankEnglishSpecialReligiousProtestant
+1,[RankEnglishSpecialReligiousProtestantFemale]
+1,[RankEnglishSpecialReligiousProtestantMale]
+
+;RankEnglishSpecialReligiousProtestantFemale
+1,Sister 
+
+;RankEnglishSpecialReligiousProtestantMale
+1,[RankEnglishSpecialReligiousProtestantMaleChurchofEngland]
+1,[RankEnglishSpecialReligiousProtestantMaleOther]
+
+;RankEnglishSpecialReligiousProtestantMaleChurchofEngland
+1,Archbishop
+1,Bishop
+2,Diocesan Bishop
+3,Archdeacon
+5,Dean
+10,Vicar
+10,Rector
+2,Priest-in-Charge
+
+;RankEnglishSpecialReligiousProtestantMaleOther
+1,Abbot President
+1,ArchAbbot
+3,Abbot
+5,Friar 
+10,Brother
+1,Alderman
+5,Reverend 
+3,Deacon
+
+;RankEnglishSpecialFemale
+1,Dame
+1,Lady
+1,Nurse
+1,Nanny 
+1,Prima Ballerina
+1,Prima Donna
+
+;RankEnglishSpecialMale
+1,Knight-Errant
+1,Esquire
+1,Lord
+1,Sir
+1,Bearer 
+1,Coach 
+1,Doctor
+1,Master
+1,Professor
+1,Adjunct Professor
+1,Assistant Professor
+1,Associate Professor
+1,Distinguished Professor
+1,Professor Emeritus 
+1,Chief Scout
+1,Queen's Scout
+1,Queen's Guide
+1,Senior Grecian
+1,Senior Tolly-Keeper
+1,Engineer 
+1,Premier Danseur
+1,Reader
+1,Hereditary Falconer 
+1,Queen's Swan Marker 
+1,Grand Carver 
+1,Herb Strewer 
+1,Apprentice 
+1,Chief Butler
+1,Director
+1,Instructor 
+1,Journeyman 
+1,Lecturer
+1,Scout 
+
+;RankForeign
+1,[RankFrench]
+1,[RankGerman]
+1,[RankRussian]
+1,[RankSpanish]
+
+;RankFrench
+1,[RankFrenchArmy]
+1,[RankFrenchNavy]
+1,[RankFrenchRoyalty]
+
+;RankFrenchArmy
+1,[RankFrenchArmyEngineer]
+1,[RankFrenchArmyEnlisted]
+1,[RankFrenchArmyOfficer]
+
+;RankFrenchArmyEngineer
+1,Ingénieur Général de Première Classe 
+1,Ingénieur Général de Deuxième Classe 
+1,Ingénieur en Chef de Première Classe 
+1,Ingénieur en Chef de Deuxième Classe 
+1,Ingénieur Principal 
+1,Ingénieur de Première Classe 
+1,Ingénieur de Deuxième Classe 
+1,Ingénieur de Troisième Classe 
+
+;RankFrenchArmyEnlisted
+1,Élève Sous-Officier Sergent
+1,Maréchal des Logis
+1,Sergent-Chef
+1,Maréchal des Logis-Chef
+1,Adjudant Adjudant-Chef    
+1,Soldat
+1,Soldat de Première Classe 
+1,Caporal
+1,Brigadier
+1,Caporal-Chef
+1,Brigadier-Chef
+1,Caporal-Chef de Première Classe
+1,Brigadier-Chef de Première Classe 
+
+;RankFrenchArmyOfficer
+1,Commandant 
+1,Chef d'Escadron 
+1,Lieutenant-Colonel 
+1,Colonel 
+1,Aspirant 
+1,Sous-Lieutenant 
+1,Lieutenant 
+1,Capitaine 
+1,Major 
+
+;RankFrenchNavy
+1,Contre-Amiral
+1,Vice-Amiral
+1,Vice-Amiral d'Escadre
+1,Amiral
+1,Capitaine de Corvette
+1,Capitaine de Frégate
+1,Capitaine de Vaisseau
+1,Aspirant
+1,Enseigne de Vaisseau de Deuxième Classe
+1,Enseigne de Vaisseau de Première Classe
+1,Lieutenant de Vaisseau
+1,Officier Mariniers
+1,Second-Maître
+1,Maître
+1,Premier-Maître
+1,Maître-Principal
+1,Major
+1,Matelot
+1,Matelot Breveté
+1,Quartier-Maître de Deuxième Classe
+1,Quartier-Maître de Premère Classe
+
+;RankFrenchRoyalty
+1,Roi
+1,Prince
+1,Duc
+1,Marquis
+1,Comté
+
+;RankGerman
+1,[RankGermanArmy]
+1,[RankGermanRoyalty]
+
+;RankGermanArmy
+1,[RankGermanArmyEnlisted]
+1,[RankGermanArmyMidrank]
+1,[RankGermanArmyOfficer]
+
+;RankGermanArmyEnlisted
+3,Oberstabsgefreiter
+4,Stabsgefreiter
+5,Hauptgefreiter
+6,Obergefreiter
+8,Gefreiter
+10,Soldat
+1,Funker 
+1,Jäger 
+1,Kanonier 
+1,Pionier
+1,Sanitätssoldat
+1,Schütze
+
+;RankGermanArmyMidrank
+1,Oberstabsfeldwebel
+1,Stabsfeldwebel
+2,Hauptfeldwebel
+2,Oberfeldwebel
+5,Feldwebel
+1,Stabsunteroffizier
+5,Unteroffizier
+8,Unteroffizieranwärter
+10,Obergefreiter
+
+;RankGermanArmyOfficer
+1,General
+1,Generalleutnant
+1,Generalmajor 
+1,Brigadegeneral
+2,Oberst
+3,Oberstleutnant
+4,Major
+1,Stabshauptmann
+5,Hauptmann
+8,Oberleutnant
+10,Leutnant
+1,Oberfähnrich Hauptfeldwebel 
+1,Fähnrich Feldwebel 
+1,Fahnenjunker Unteroffizier 
+1,Obergefreiter
+1,Offizieranwärter
+
+;RankGermanRoyalty
+1,[RankGermanRoyaltyFemale]
+1,[RankGermanRoyaltyMale]
+
+;RankGermanRoyaltyFemale
+1,Frauline
+
+;RankGermanRoyaltyMale
+1,Kaiser
+1,Koenig
+1,Herr
+
+;RankRussian
+1,[RankRussianFemale]
+5,[RankRussianMale]
+
+;RankRussianFemale
+1,Czarina
+
+;RankRussianMale
+1,Commissar
+1,Comrade
+1,Czar
+
+;RankSpanish
+5,[RankSpanishArmy]
+1,[RankSpanishFemale]
+5,[RankSpanishMale]
+5,[RankSpanishNavy]
+
+;RankSpanishArmy
+1,Capitán General
+1,General de Ejército 
+1,Teniente General 
+1,General de División 
+1,General de Brigada 
+1,Coronel 
+1,Teniente Coronel 
+1,Comandante 
+1,Capitán 
+1,Teniente 
+1,Alférez 
+1,Suboficial Mayor 
+1,Subteniente Brigada 
+1,Sargento Primero 
+1,Sargento 
+1,Cabo Mayor 
+1,Cabo Primero 
+1,Cabo 
+1,Soldado de Primera 
+1,Soldado 
+
+;RankSpanishFemale
+1,Reina
+10,Senóra
+
+;RankSpanishMale
+1,Cid
+1,Rey
+7,Don
+10,Senór
+
+;RankSpanishNavy
+1,Capitán 
+1,Comandante 
+
+

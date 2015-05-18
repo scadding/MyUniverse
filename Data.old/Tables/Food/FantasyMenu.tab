@@ -1,0 +1,611 @@
+
+;Start
+1,===Daily Specials:===<br>
+_<sgdisplay iterations="8">[maincourse] <br/></sgdisplay><br>
+_<sgdisplay iterations="8">[maincourse] <br/></sgdisplay><br>
+_<sgdisplay iterations="8">[maincourse] <br/></sgdisplay><br>
+_<sgdisplay iterations="8">[maincourse] <br/></sgdisplay><br>
+_===(Mostly) Vegetarian Entrees:===<br>
+_<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
+_<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
+_<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
+_<sgdisplay iterations="8">[veggiemain] <br/></sgdisplay><br>
+
+
+
+;maincourse
+10,[Descriptor][MainMeals][DescriptiveAdjectives2][WithSide]
+4,[Descriptor][MainMeals][DescriptiveAdjectives2][WithSide], served with [ExtrasRoll]
+1,[SGNP 1001 nights.food]
+
+;veggiemain
+5,[Descriptor][VeggiesCookable][DescriptiveAdjectives2][WithSide]
+2,[Descriptor][VeggiesCookable][DescriptiveAdjectives2][WithSide], served with [ExtrasRoll]
+
+;Descriptor
+1,[CookingAdjectives]
+1,[DescriptiveAdjective1]
+
+;CookingAdjectives
+3,Toasted
+5,Deep-fried
+3,Steamed 
+6,Broiled 
+6,Braised 
+2,Charred 
+3,Charbroiled 
+6,Sauteed 
+6,Seared 
+3,Boiled 
+3,Poached 
+3,Battered Fried 
+10,Baked 
+9,Grilled 
+10,Roasted 
+2,Raw 
+6,Smoked 
+6,Spit-Roasted 
+6,Slow-Roasted 
+5,Tender 
+19,
+
+;DescriptiveAdjective1
+20,
+10,Spiced 
+5,Herbed
+5,Pastry-wrapped
+5,Bacon-wrapped
+5,Marinated
+11,Seasoned
+6,Peppered
+3,Herb-encrusted
+5,Glazed
+5,Spicy
+5,Caramelized
+4,Breaded
+3,Garlicky
+
+;MainMeals
+10, Beef
+3, Liver
+4, Beef Ribs
+1, Beef Heart
+1, Beef Tenderloin
+5, Bacon 
+4, Lamb 
+2, Leg of Lamb
+2, Rack of Lamb
+5, Duck 
+9, Goose 
+4, Game Hen
+9, Chicken 
+3, Capon 
+9, Pork 
+4, Pork Ribs
+1, Pork Tenderloin
+5, Ham 
+8, Boar 
+2, Boar Ribs
+10, [VeggiesCookable]
+6, Goat 
+2, Goat Leg
+4, Kid 
+3, Rabbit
+3, Coney
+3, Hare
+9, [FreshwaterFish]
+3, Sheep 
+6, Mutton 
+6, Venison 
+4, Veal 
+1, Quail 
+1, Partridge 
+1, Pheasant
+1, Squab
+6, Turkey
+4, Elk 
+1, Elk Ribs
+2, Cheese 
+8, [MainMeals] Sausage 
+3, [MainMealsExotic] Sausage 
+10, [MainMealsExotic]
+7, [SaltwaterFish]
+
+;MainMealsExotic
+3, Alligator
+2, Alligator Tail
+4, Antelope
+1, Badger
+1, Bear
+1, Beaver
+1, Bobcat
+5, Caribou
+2, Caribou Ribs
+1, Cat
+1, Coyote
+1, Dog
+2, Dolphin
+1, Dolphin Fin
+1, Donkey
+1, Dove
+1, Frog
+1, Frog's Legs
+1, Groundhog
+1, Grouse
+1, Hawk
+1, Heron
+2, Horse
+1, Lizard
+1, Lynx
+3, Moose
+1, Moose Ribs
+1, Mule
+2, Musk ox
+3, Ox
+2, Oxtail
+1, Peacock
+1, Pigeon
+1, Porcupine
+1, Porpoise
+1, Racoon
+2, Reindeer
+1, Rat
+1, Seal
+1, Snails
+1, Snake
+1, Squirrel
+1, Swan
+1, Turtle
+1, Walrus
+1, Whale
+1, Wolf
+1, Woodcock
+
+;Veggies
+50,[VeggiesCookable]
+7,[RawOnlyVeggies]
+
+;Veggies2
+50,[CookingAdjectives] [VeggiesCookable]
+7,[RawOnlyVeggies]
+3,Raw [VeggiesCookable]
+
+;VeggiesCookable
+1, Arugula
+1, Artichokes
+1, Artichoke Hearts
+1, Wax Beens
+1, Bean Sprouts
+1, Beets
+1, Sugar Beets
+1, Broccoli
+1, Broccoli Rabe
+1, Cauliflower
+1, Celery
+1, Collard Greens
+1, Corn
+1, Fennel Bulb
+1, Garlic
+1, Hot peppers
+2, Green Peppers
+1, Red Peppers
+1, Yellow Peppers
+1, Kale
+1, Leeks
+1, Mushrooms
+3, Wild Mushrooms
+1, Olives
+1, Parsnips
+1, Pumpkin
+1, Radishes
+1, Scallions
+1, Acorn Squash
+1, Butternut Squash
+1, Spaghetti Squash
+1, Sweet Potatoes
+1, Yams
+1, Watercress
+1, Spinach
+1, Squash
+1, Tomatoes
+1, Zucchini
+1, [Fruit]
+2, Asparagus
+2, Cabbage
+2, Eggplant
+2, Onions
+1, Sweet Onions
+1, Pearl Onions
+1, Shallots
+1, Red Onions
+2, [VeggiesCookable] and [VeggiesCookable]
+3, Carrots
+3, Green Beans
+3, Turnips
+5, Potatoes
+
+;RawOnlyVeggies
+1,Mustard Greens
+1,Raddiccio
+1,Lettuce
+1,Spring Greens
+1,Sprouts
+1,Chard
+1,Cucumber
+1,Dandelion Greens
+1,Endives
+1,Mesclun
+
+;WithSide
+5,
+4, with [CookingAdjectives][VeggiesCookable]
+4, on a bed of [CookingAdjectives][VeggiesCookable]
+
+;Fruit
+1, [Utility.Fruit]s
+
+;FreshwaterFish
+1, Bass
+1, Carp
+1, Catfish
+1, Giant Catfish
+1, Crayfish
+1, Eel
+1, Giant [FreshwaterFish]
+1, Minnows
+1, Panfish
+1, Perch
+1, Pickerel
+1, Pike
+1, Salmon
+1, Sturgeon
+1, Sunfish
+1, Brown Trout
+1, Rainbow Trout
+1, Snapping Turtle
+1, Whitefish
+
+;SaltwaterFish
+1, Amberjack
+1, Anchovies
+1, Angelfish
+1, Sea Bass
+1, Bluefish
+1, Calamari
+1, Clams
+1, Crab
+1, Dolphin
+1, Eel
+1, Flounder
+1, Giant Shellfish
+1, Grouper
+1, Haddock
+1, Halibut
+1, Herring
+1, Lampreys
+1, Lobster
+1, Mackerel
+1, Mullet
+1, Ocean Perch
+1, Red Snapper
+1, Rockfish
+1, Roughy
+1, Mussels
+1, Octopus
+1, Oysters
+1, Prawns
+1, Scallops
+1, Shark
+1, Shrimp
+1, Snapper
+1, Squid
+1, Swordfish
+1, Tuna
+2, Cod
+1, Lumpfish Caviar
+1, Salmon Caviar
+1, Sturgeon Caviar
+1, Sea Urchin
+1, Sea Turtle
+1, Cockles
+1, Conch
+
+
+;DescriptiveAdjectives2
+20,
+5, roast
+5, stew
+5, casserole
+2, & egg fritatta
+2, sandwich
+5, soup
+5, kebabs
+5, pie
+5, Surprise!
+5, special
+5, parcels
+3, salad
+4, stuffed with [VeggiesCookable]
+2, with [Utility.Fruit] reduction sauce
+2, with Wine reduction sauce
+7, with [SavorySauces]
+1, in an omelette with [VeggiesCookable]
+
+
+;Extras
+1, a small helping of [Descriptor] [MainMeals]
+5, [Sides]
+
+;Sides
+3, [cheese]
+10, [Breads] with [BreadSpreads]
+4, [NutsVerb] [Nuts]s
+3, [Pastas]
+3, Chips
+10, [Desserts]
+2, Scones with [BreadSpreads]
+4, [Salads]
+3, [Utility.Fruit]s
+2, [Tapas]
+1, Dried [MainMeals] Jerky
+1, [Pickles]
+1, [Eggs]
+3, Porridge
+
+;Pastas
+1,Couscous
+1,Egg Noodles
+1,Wheat Noodles
+1,Angel Hair
+1,Linguini
+1,Spaghetti
+1,Bulghur Wheat
+1,Rigatoni
+1,Rice Noodles
+
+;Breads
+1,Biscuits
+1,Barley Bread
+1,Crackers
+1,Black Bread
+1,Rye Bread
+1,[Utility.Fruit] Bread
+1,Oatmeal Bread
+1,Sweet Bread
+1,Wheat Bread
+1,Seven-Grain Bread
+1,Sourdough Bread
+1,Foccacia
+1,Dumplings
+1,Muffins
+1,[Utility.Fruit] Muffins
+1,[Utility.Fruit] and [Nuts] Muffins
+1,Rolls
+1,Crescent Rolls
+3,Flatbread
+1,Toast
+1,Peasant Bread
+1,Pita Bread
+1,[Nuts] Bread
+1,[Sweeteners] Bread
+1,Frybread
+
+;cheese
+1, [CheeseProcess] [CheeseType] [CheeseOrigin] Cheese
+1, [Cheeses.Start]
+
+;CheeseProcess
+1,Fresh
+1,Aged
+1,Smoked
+1,Cave-Aged
+1,Dry
+1,Peppercorn-encrusted
+1,Pastry-encrusted
+1,Herb-encrusted
+1,[Nuts]-encrusted
+1,Farmstead-Style
+10,
+
+;CheeseOrigin
+200,
+50,Sheep's Milk
+50,Goat
+10,Rothe Milk
+30,Bison Milk
+10,Camel's Milk
+1,Wolf's Milk
+1,Dire Boar's Milk
+1,Dire Rat's Milk
+5,Elk's Milk
+
+;CheeseType
+1,Blue
+1,Cheddar
+1,Sharp
+1,Porous
+4,Mild
+1,Extra-Sharp
+1,Soft
+1,Hard
+1,Creamy
+1,Smoky
+10,
+
+;NutsVerb
+2,Toasted
+1,Roasted
+1,Salted
+1,Candied
+1,Dry-Roasted
+1,Pan-Roasted
+1,Fresh-Roasted
+1,Spicy
+1,Blanched
+1,Cinnamon
+1,Smoked
+
+;Nuts
+1,acorn
+10,almond
+2,beechnut
+4,butternut
+4,cashew
+4,hazel nut
+2,hickory nut
+10,pecan
+8,pine nut
+10,pistachio
+10,walnut
+8,chestnut
+
+;BreadSpreads
+5,fresh-churned butter
+4,herb butter
+4,honey butter
+3,[Utility.Fruit] jam
+3,[Utility.Fruit] jelly
+1,[Utility.Citrus] marmalade
+1,[Utility.Citrus] curd
+1,[FruitButters] butter
+1,fresh-ground [Nuts] butter
+1,[SpiceButters] butter
+1,[Sweeteners] butter
+4,melted [cheese]
+
+;FruitButters
+5,apple
+1,peach
+1,pear
+1,pumpkin
+
+;SpiceButters
+1,cinnamon
+1,garlic
+1,licorice
+1,paprika
+1,chilipepper
+
+;Sweeteners
+5,honey
+2,marzipan
+3,molasses
+1,beet sugar
+1,cane sugar
+3,maple syrup
+
+;Desserts
+1,cake
+1,funnel cake
+1,cinnamon cake
+1,doughnut
+1,eclair
+1,[Utility.Fruit] fritters
+3,[Utility.Fruit] tarts
+5,[Utility.Fruit] pie
+1,[Utility.Fruit] cake
+1,honey rolls
+1,[Utility.Fruit] strudel
+1,[Utility.Fruit] torte
+1,cheese and [Utility.Fruit] blintz
+1,candied [Utility.Fruit]
+1,[Utility.Fruit] cobbler
+1,creme brulee
+1,custard
+1,pastries
+1,[Utility.Fruit] pudding
+1,bread pudding with [Utility.Fruit] sauce
+1,dwarven rock candy
+1,gnomish sweetbread
+
+;Pickles
+2,pickled beets
+1,pickled cauliflower
+3,sweet pickles
+3,dill pickles
+3,sweet gherkins
+2,pickled pearl onions
+2,pickled peppers
+1,pickled melon rind
+1,salt-preserved lemons
+3,pickled herring
+1,pickled parsnips
+1,pickled red onions
+2,pickled cabbage (sauerkraut)
+1,pickled eggs
+1,pickled radishes
+1,pickled mushrooms
+1,pickled turnips
+1,pickled hot peppers
+1,pickled garlic
+
+;Eggs
+1,scrambled eggs
+1,hard-boiled eggs
+1,soft-boiled eggs
+1,poached eggs
+1,fried eggs
+1,scrambled eggs with [VeggiesCookable]
+1,deviled eggs
+
+;ExtrasRoll
+10,[Extras]
+7,[Extras] and [Extras]
+5,[Extras], [Extras], and [Extras]
+3,[Extras], [Extras], [Extras], and [Extras]
+1,[Extras], [Extras], [Extras], [Extras], and [Extras]
+
+;Tapas
+1,Fried [VeggiesCookable] with roasted garlic-yogurt sauce
+1,Olive Oil marinated baby [VeggiesCookable] stuffed with [Nuts] and [Veggies]
+1,marinated roasted [VeggiesCookable] with [cheese]
+1,[VeggiesCookable]-cheese patties with caper-yogurt sauce
+1,roasted [VeggiesCookable] and olives with balsamic vinegar and olive oil
+1,fava beans with [VeggiesCookable]s, capers and lemon juice
+1,sauteed wild mushrooms with [Nuts] sauce & demi-glace
+1,cabbage paquetes stuffed with rice and [VeggiesCookable]
+1,[VeggiesCookable], [Utility.Fruit], and [Nuts] fritters with [Nuts] sauce
+1,fried light pastry with [cheese] and [Nuts]s
+1,roasted [VeggiesCookable] with [cheese] and [Nuts]s
+1,spicy sausage in a sauce of [VeggiesCookable], [VeggiesCookable], and [VeggiesCookable] sauce
+1,croquettes of [SaltwaterFish] with [VeggiesCookable] and [VeggiesCookable]
+1,steamed [FreshwaterFish] with a creamy lemon-garlic sauce
+1,thin-sliced cured [MainMeals] and [Veggies] with a [VeggiesCookable]-cream sauce
+1,[SaltwaterFish] ceviche in [Utility.Citrus] juice with [Veggies] and [Veggies]
+
+;Salads
+5,salad greens
+3,dandelion greens salad
+1,arugula salad
+1,tomato & cucumber salad
+1,mixed greens salad
+1,field greens salad
+1,cheese & tomato salad
+1,three bean salad
+1,shredded cabbage salad
+1,pepper & onion salad
+1,walnut & raspberry salad
+1,fruit salad
+1,spinach salad with [Utility.Fruit] viniagrette
+1,[Veggies] & [cheese] salad
+2,[Utility.Fruit] & [Nuts] salad
+2,[RawOnlyVeggies] & [Veggies] salad
+2,egg salad with [Veggies]
+2,potato salad with [Veggies] & [Veggies]
+2,chicken salad with [Veggies] & [Veggies]
+
+;SavorySauces
+1,horseradish sauce
+1,stone-ground mustard
+1,honeyed mustard
+1,gravy
+1,marinara sauce
+1,hot pepper relish
+1,olive tapenade
+1,garlic sauce
+1,herb butter
+1,cream sauce
+1,cheese sauce
+
+
+

@@ -1,0 +1,92 @@
+
+;Start
+1,[rank] [field] [specialty] [position]
+1,[field] [specialty] [position]
+1,[specialty] [position]
+1,[field] [position]
+1,[rank] [specialty] [position]
+1,[rank] [field] [position]
+1,[rank] [position]
+
+;rank
+1,Senior
+1,Junior
+1,Executive
+1,Chief
+1,Assistant
+1,Regional
+1,District
+1,Corporate
+1,Lead
+1,Associate
+
+;field
+1,Internet
+1,Web
+1,Technical
+1,Network
+1,Telecommunications
+1,Logistics
+1,Accounting
+1,Security
+1,Usability
+1,Information Technology
+1,Database
+1,Client-Side
+1,Server
+1,Strategic
+1,Java
+1,PHP
+1,Perl
+1,XML
+1,C++
+1,UML
+1,Systems
+1,Object-Oriented
+1,Proposal
+1,Mobile
+1,Wi-fi
+1,Javascript
+1,Windows .NET
+1,ASP
+1,Assembly
+1,C#
+1,Python
+1,Ruby
+1,Semantic
+1,Information
+1,Visualization
+
+;specialty
+1,Application
+1,Software
+1,Hardware
+1,Test
+1,Development
+1,Sales
+1,Project
+1,Product
+1,Program
+1,Help Desk
+1,Technology
+1,Operations
+1,Architecture
+1,Quality Assurance
+1,Customer Service
+1,Code
+
+;position
+1,Developer
+1,Engineer
+1,Manager
+1,Specialist
+1,Officer
+1,Analyst
+1,Trainer
+1,Director
+1,Coordinator
+1,Scientist
+1,Writer
+1,Architect
+
+

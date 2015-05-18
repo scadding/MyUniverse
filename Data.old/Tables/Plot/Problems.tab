@@ -1,0 +1,324 @@
+
+:Start
+1,Your character has problems with[Problem][Deference][Target][Passion][Target2][Belief][Target3]
+
+;Problem
+1,nightmares,
+1,nearsightedness,
+1,farsightedness,
+1,asthma,
+1,arthritis,
+1,hearing,
+1,depression,
+1,anxiety,
+1,panic attacks,
+1,self-consciousness,
+1,shyness,
+1,drugs,
+1,alcoholism,
+1,dyslexia,
+1,anorexia,
+1,bulimia,
+1,alcohol blackouts,
+1,bipolar disorder,
+1,caffeine dependence,
+1,cigarette dependence,
+1,LSD flashbacks,
+1,insomnia,
+1,seasonal affective disorder,
+1,agoraphobia,
+1,superstitiousness,
+1,obsessive-compulsive counting,
+1,a phobia,
+1,posttraumatic stress disorder,
+1,social phobia,
+1,sleepwalking,
+1,seizures,
+1,epilepsy,
+1,diabetes,
+1,psychosomatic pain,
+1,hypochondriasis,
+1,nail biting,
+1,coagulation defect (blood doesn't clot),
+1,hypertension (high blood pressure),
+1,an ulcer,
+1,contact dermatitis (rashes due to allergies),
+1,dizziness,
+1,clumsiness,
+1,road rage,
+1,procrastination,
+1,time management,
+1,always being late,
+1,impatience,
+1,insecurity,
+1,fainting spells,
+1,hypersomnia (sleeping too much),
+1,laziness,
+1,bigotry,
+1,anger,
+1,thinking logically,
+1,romance,
+1,daydreaming,
+1,romantic relationships,
+1,memories of the past,
+1,worries about the future,
+
+
+
+;Deference
+1,hates
+1,is afraid of
+1,is terrified of
+1,has nightmares about
+1,wants nothing to do with
+
+
+
+;Target
+1,cats, 
+1,dogs,
+1,general anesthesia, 
+1,storms, 
+1,lightning, 
+1,surgery, 
+1,the opposite sex, 
+1,bugs, 
+1,snakes, 
+1,people with tattoos, 
+1,bee stings, 
+1,public speaking, 
+1,flying, 
+1,the dark, 
+1,heights, 
+1,going crazy, 
+1,needles, 
+1,blood, 
+1,becoming so angry s/he loses control, 
+1,starting to cry and not being able to stop, 
+1,fire, 
+1,math, 
+1,being ignored or forgotten, 
+1,untidiness, 
+1,failure, 
+1,germs, 
+1,being alone, 
+1,being ridiculed, 
+1,mirrors, 
+1,confined spaces, 
+1,clowns, 
+1,dentists, 
+1,going to prison, 
+1,pins, 
+1,crowds, 
+1,horses, 
+1,small children, 
+1,loneliness, 
+1,bad news, 
+1,growing old, 
+1,holy relics, 
+1,the number 666, 
+1,monotony, 
+1,deep water, 
+1,the ocean, 
+1,forests, 
+1,being hypnotized, 
+1,lakes, 
+1,otters, 
+1,lawsuits, 
+1,disease, 
+1,moths, 
+1,fog, 
+1,hospitals, 
+1,a step-parent, 
+1,hearing a certain word a certain number of times, 
+1,Friday the 13th, 
+1,the 7th of any month, 
+1,the number 4, 
+1,the number 3, 
+1,dolls, 
+1,tombstones, 
+1,cemeteries, 
+1,poverty, 
+1,ghosts, 
+1,spirits, 
+1,gaining weight, 
+1,puppets, 
+1,magic, 
+1,shadows, 
+1,sharks, 
+1,train travel, 
+1,dependence on others, 
+1,wasps, 
+1,crucifixes, 
+1,crossroads, 
+1,the number 13, 
+1,being accidentally poisoned, 
+1,being contagious, 
+1,looking stupid, 
+1,the color red, 
+1,the color blue, 
+1,the color green, 
+1,razors, 
+1,witches, 
+1,witchcraft, 
+1,being attacked, 
+1,being jealous, 
+1,being weak, 
+1,being vulnerable, 
+1,feeling exposed, 
+1,nuns, 
+1,nail polish, 
+1,horoscopes, 
+
+
+;Passion
+1,but loves
+1,and can't stand
+
+
+;Target2
+1,museums.
+1,chick flicks.
+1,action films.
+1,long walks on the beach.
+1,football.
+1,church..
+1,tabloids.
+1,a promiant scar s/he has.
+1,supermodels.
+1,driving too fast.
+1,reading mysteries.
+1,popcorn.
+1,reading encyclopedias.
+1,Wikipedia.
+1,video games.
+1,cell phones.
+1,stupid comedies.
+1,old black and white movies.
+1,ducks.
+1,dictionaries.
+1,office supply stores.
+1,crosses.
+1,helicopters.
+1,school.
+1,that s/he has visions.
+1,that s/he can move things by thinking about it.
+1,that s/he can see the future.
+1,astrology.
+1,camping.
+1,painting.
+1,astronomy.
+1,archery.
+1,chess.
+1,dancing.
+1,computers.
+1,foreign affairs.
+1,gambling.
+1,nature studies.
+1,mythology.
+1,reading.
+1,hiking.
+1,other languages.
+1,cars.
+1,weight lifting.
+1,sky diving.
+1,singing.
+1,puzzles.
+1,playing pool.
+1,swimming.
+1,people watching.
+1,scuba diving.
+1,The History Channel.
+1,The SciFi Channel.
+1,the Animal Planet channel.
+1,The History Channel
+1,the Lifetime channel.
+1,MTV.
+1,VH1.
+1,E! Entertainment television.
+1,pay-per-view television.
+1,business cards.
+1,old cassette tapes.
+1,reality TV.
+1,politics.
+1,politicians.
+1,celebrity gossip.
+1,skiing.
+1,comic books.
+1,economics.
+1,playing cards.
+1,photography.
+1,that s/he was a good student.
+1,that s/he was a terrible student.
+1,that s/he can't get anywhere on time.
+1,being incredibly good looking.
+1,when people notice him/her.
+1,flirting.
+1,talking to strangers.
+1,meeting new people.
+1,danger.
+1,smokers.
+1,nonconformists.
+1,conformists.
+1,power seekers.
+1,soft-spoken people.
+1,romantic people.
+1,romance.
+1,vintage clothes.
+1,political correctness.
+1,politeness.
+1,being eccentric.
+1,an old scar.
+1,being so stubborn.
+1,being so smart.
+1,being so intuitive.
+1,being telepathic.
+1,having a wild imagination.
+1,being psychic.
+1,that spirits are attracted to him/her.
+1,piercings.
+
+
+;Belief
+1,Also believes that many problems can be cured by
+1,Also haunted by a past involving
+1,Also has recurrent dreams about
+1,Also wishes the world were free of
+1,Also has been researching
+1,Also obsessed with
+
+
+;Target3
+1,nothing.
+1,prayer.
+1,meditation.
+1,something in the past.
+1,something in the future.
+1,something that was buried.
+1,something that's being kept in a museum.
+1,medication.
+1,money.
+1,illegal drugs.
+1,alcohol.
+1,love.
+1,faith.
+1,witchcraft.
+1,magic.
+1,a magic spell.
+1,a talisman.
+1,a ritual.
+1,psychotherapy.
+1,living in another town.
+1,a secret.
+1,a recipe.
+1,enough hope.
+1,a witch doctor.
+1,a faith healer.
+1,an experimental medical procedure.
+1,necromancy.
+1,cutting-edge research.
+1,stem cell research.
+1,an experimental vaccine.
+1,hospitalization.
+1,hard work.
+

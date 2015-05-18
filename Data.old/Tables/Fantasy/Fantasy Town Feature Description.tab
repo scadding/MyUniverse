@@ -1,0 +1,426 @@
+
+
+#Clone of [[Fantasy Town Feature]], but with descriptions:
+#
+#==Sections of Town==
+#<sgdisplay iterations="2">[inspiration] [sections] [sectiondescription]</sgdisplay>
+#
+#==General Features==
+#<sgdisplay iterations="4">[Start]</sgdisplay>
+#
+#==Noteworthy Streets==
+#<sgdisplay iterations="2">[inspiration] [streets] [streetdescription]</sgdisplay>
+#
+#==Buildings of Note==
+#<sgdisplay iterations="2">[inspiration] [buildings] [buildingdescription]</sgdisplay>
+#
+#==Standalones==
+#<sgdisplay iterations="2">[inspiration] [standalones] [standalonedescription]</sgdisplay>
+#
+#==Outer Defenses==
+#<sgdisplay iterations="2">[inspiration] [defenses] [defensesdescription]</sgdisplay>
+#
+#==Shipping Facilities==
+#<sgdisplay iterations="2">[inspiration] [shipping] [shippingdescription]</sgdisplay>
+#
+#==Near Water==
+#<sgdisplay iterations="2">[inspiration] [water] [waterdescription]</sgdisplay>
+#
+#==Open Areas==
+#<sgdisplay iterations="2">[inspiration] [openarea] [openareadescription]</sgdisplay>
+#
+#==Religious Buildings==
+#<sgdisplay iterations="2">[inspiration] [religious] [openareadescription]</sgdisplay>
+#
+#==Places of the Dead==
+#<sgdisplay iterations="2">[inspiration] [deadpeople] [deadpeopledescription]</sgdisplay>
+
+
+;Start
+6,[Fantasy Landmarks.inspiration] [feature]
+
+;inspiration
+1,[Fantasy Landmarks.inspiration]
+
+;feature
+10,[streets] [streetdescription]
+10,[buildings] [buildingdescription]
+5,[standalones] [standalonedescription]
+5,[defenses] [defensesdescription]
+3,[shipping] [shippingdescription]
+5,[water] [waterdescription]
+5,[openarea] [openareadescription]
+2,[sections] [sectiondescription]
+2,[religious] [religiousdescription]
+5,[deadpeople] [deadpeopledescription]
+
+;anydescription
+1,is the place where gangs of youths gather to taunt each other or show off their bravery.
+1,is notorious as a place where lovers go for discreet affairs.
+1,has the best views in town.
+1,is the best place to watch the sunset in summer.
+1,is contested territory between [Gang Names] and [Gang Names].
+1,is near [Inn and Tavern Names.Start], [TavernSnippet].
+
+;openareadescription
+1,[anydescription]
+1,[streetdescription]
+1,is a common dueling ground for the minor nobility.
+1,is a popular picnic-ground.
+1,is primarily a military drill and parade ground.
+1,is dominated by [Statue]
+
+;buildingdescription
+1,[anydescription]
+1,has been long abandoned, and is said to be haunted.
+1,is now home only to rats and squatters.
+1,is being rebuilt after a devastating fire.
+1,is a popular meeting place for the young, stylish, and wealthy.
+
+;standalonedescription
+1,[anydescription]
+
+;streetdescription
+1,is controlled by [Gang Names], [Gang Description].
+1,is where most of the {{plural|[Fantasy Profession.smiths]}} have their shops.
+1,is the right place to go if you're looking for a [Fantasy Profession.Start].
+1,is where the {{plural|[Fantasy Profession.performers]}} gather to perform and panhandle.
+1,where men of rank or privilege who require discretion look for ladies of the night.
+1,is a place full of beggars and thieves.
+1,is infested by packs of wild dogs, and worse.
+
+
+;sectiondescription
+1,[streetdescription]
+1,[anydescription]
+1,is where most of the foreigners live in town.
+1,is the habitation of the rich and well-bred.
+1,is being rebuilt after a devastating fire.
+1,is a confusing mess of streets that only the locals can navigate without getting lost.
+1,is full of {{plural|[Fantasy Profession.Start]}}, {{plural|[Fantasy Profession.Start]}}, and {{plural|[Fantasy Profession.Start]}}.
+
+;defensesdescription
+1,[anydescription]
+1, is rumored to have a smugglers tunnel nearby that the City Watch has yet to find.
+1,has the smallest gateway into the city, barely large enough for a horse and rider.
+1,has a gate that is barred and locked from dawn until dusk.
+1,is perhaps the most heavily guarded part of the town's defenses.
+1,is where the severed heads of notorious criminals are put on spikes for display.
+
+;shippingdescription
+1,[waterdescription]
+1,[anydescription]
+1,is near the rowdy bars that only sailors frequent.
+1,is where naval ships lie at anchor.
+1,is where pirates are hanged as a warning to their brethren.
+
+;waterdescription
+1,is the right place to dump a body if you want it not to be found.
+1,[anydescription]
+1,is a popular fishing spot.
+1,is where families go to feed the ducks and swans.
+
+;religiousdescription
+1,[anydescription]
+1,[buildingdescription]
+1,is where a vision of Saint [Catholic Saint Names.Start] sometimes appears to the devout.
+1,is a popular site for marriages and betrothals.
+1,is where the fighting monks train publicly and recruit.
+1,is where criminals seeking sanctuary sometimes find it.
+1,is where foundlings are left to be cared for by the church.
+1,is a place where only the rich are welcome to worship.
+
+;deadpeopledescription
+1,is haunted by the restless dead - even the brave do not venture there after dark.
+1,contains a mass grave for victims of the great fire of [Dice.1d8][Dice.1d8][Dice.1d8].
+1,is where only the wealthiest people can afford to bury their dead.
+1,is where those who cannot afford a proper burial are interred.
+1,is famous for containing the remains of Saint [Catholic Saint Names.Start].
+1,[anydescription]
+
+;streets
+2,Alley
+3,Avenue
+1,Chase
+2,Circle
+2,Crescent
+1,Corner
+1,Crossroads
+2,Crossing
+1,Hill
+1,Junction
+3,Lane
+1,Mount
+1,Parade
+1,Path
+3,Place
+3,Road
+2,Row
+2,Stand
+3,Street
+1,Terrace
+1,Trail
+1,Walk
+2,Way
+
+;Gang Names
+1,[Motorcycle Gang.Start]
+3,the [Orc Tribe Name.Start]
+3,[Secret Society Name.Start]
+3,the [Fantasy Town Feature.inspiration] [Fantasy Town Feature.streets] Gang
+
+;Gang Description
+1,a bloodthirsty pack of scoundrels and ne'er-do-wells
+1,a guild-run gang of petty thieves
+1,a gang specializing in [CrimeType]
+1,a gang specializing in [CrimeType] and [CrimeType]
+1,a loose-knit gang known mainly for engaging in [CrimeType]
+1,which the bigger gangs outsource [CrimeType] to
+
+;CrimeType
+1,armed robbery
+1,arson
+1,blackmail
+1,burglary
+1,confidence games
+1,extortion
+1,hiring out its toughs to the highest bidder
+1,murder
+1,pickpocketing
+1,political violence and intimidation
+1,running underground gambling operations
+1,running dirty but cheap brothels
+1,smuggling
+1,vandalism
+
+;Statue
+1,an enormous [StatueMaterial] statue of [StatueSubject]
+1,a large [StatueMaterial] statue of [StatueSubject]
+
+;StatueMaterial
+1,[Utility.MetalPrecious]
+1,bronze
+2,[Utility.StoneDecorative]
+
+;StatueSubject
+1,[Fantasy Male Military Hero.Start]
+1,[Fantasy Pantheon.Start]
+1,[SpiritForm.Start]
+
+;TavernSnippet
+1, which is frequented primarily by {{plural|[Fantasy Profession.Start]}}
+1, where you can find the best [FantasyMenu.MainMeals] you'll ever have
+1, famous as the home of [Brewnames.Start] Brew!
+
+;buildings
+1,Amphitheatre
+1,Arena
+1,Bakery
+1,Barracks
+1,Bazaar
+1,Belltower
+1,Brewery
+1,Butcher
+1,Caravanserai
+1,Cartwright
+1,Chandler
+1,Chateau
+1,Cobbler
+1,Coliseum
+1,College
+1,Dome
+1,Eelmonger
+1,Fishmonger
+1,Fletcher
+1,Forge
+1,Gaol
+1,Garrison
+1,Goldsmith
+1,Grocer
+1,Guildhall
+1,Guildhouse
+1,Hall
+1,House
+1,Ironmonger
+1,Jewelsmith
+1,Keep
+1,Luthier
+1,Manor
+1,Mansion
+2,Market
+1,Marketplace
+1,Mews
+1,Mill
+1,Palace
+1,Prison
+1,Shops
+1,Silversmith
+1,Smithy
+1,Stables
+1,Stage
+1,Stockyard
+1,Tannery
+1,Theatre
+1,Tinkerers
+1,Tower
+
+;standalones
+1,Arch
+1,Columns
+1,Fountain
+1,Gallows
+1,Guillotine
+1,Monolith
+1,Monument
+1,Obelisk
+1,Pillars
+1,Pillary
+1,Point
+1,Post
+1,Spike
+1,Spire
+1,Statue
+1,Steps
+1,Stocks
+1,Tower
+1,Tunnel
+
+;defenses
+1,Armory
+1,Bailey
+1,Barbican
+1,Barracks
+1,Bastion
+1,Battlement
+1,Bridge
+1,Door
+1,Drawbridge
+1,Earthworks
+1,Fence
+1,Fortress
+1,Garrison
+1,Gate
+1,Gatehouse
+1,Hold
+1,Keep
+1,Moat
+1,Mott
+1,Palisade
+1,Post
+1,Postern
+1,Ramparts
+1,Stronghold
+1,Tower
+1,Wall
+1,Watch
+1,Watchtower
+
+;shipping
+1,Anchorage
+1,Crane
+1,Docks
+1,Harbor
+1,Marina
+1,Pier
+1,Quay
+1,Wharf
+1,Wharves
+
+;water
+1,Aqueduct
+1,Bridge
+1,Canal
+1,Cistern
+1,Footbridge
+1,Pond
+1,Pool
+1,Reservoir
+1,Shore
+1,Span
+1,Weir
+1,Well
+
+;openarea
+1,Agora
+1,Commons
+1,Field
+1,Forum
+1,Garden
+1,Green
+1,Park
+1,Piazza
+1,Plaza
+1,Square
+1,Stray
+1,Terrace
+1,Yard
+
+;sections
+2,Bailiwick
+2,Bank
+3,District
+1,Dominion
+3,Enclave
+3,Heights
+3,Parish
+3,Precinct
+1,Province
+3,Quarter
+2,Row
+2,Town
+2,Ward
+2,Warren
+
+
+;religiousplace
+1,St. [Catholic Saint Names.Start]'s [religious]
+1,[religious] of St. [Catholic Saint Names.Start]
+1,[Fantasy Town Names.Misc][Fantasy Town Names.Suffix] [religious]
+
+;religious
+1,Abbey
+1,Altar
+1,Apse
+1,Basilica
+1,Belfry
+1,Cathedral
+1,Chapel
+1,Chancel
+1,Chantry
+1,Church
+1,Cloister
+1,Convent
+1,Deanery
+1,Font
+1,Friary
+1,Manse
+1,Monastery
+1,Nunnery
+1,Parish
+1,Priory
+1,Rectory
+1,Sanctuary
+1,Sanctum
+1,Shrine
+1,Tabernacle
+1,Temple
+1,Vicarage
+
+;deadpeople
+1,Boneyard
+1,Catacomb
+1,Cemetery
+1,Charnel
+1,Crypt[Fantasy Landmarks.plural]
+1,Graves
+1,Graveyard
+1,Mausoleum
+1,Mortuary
+1,Necropolis
+1,Ossuary
+1,Rest
+1,Sepulcher
+1,Tombs
+1,Vault
+
+

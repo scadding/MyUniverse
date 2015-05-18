@@ -1,0 +1,77 @@
+
+;Start
+50,A [BowType] made of [Utility.WoodBow] wood. [BowDecor] [BowString] [Quiver]<br>
+1,A broken [BowType] made of [Utility.WoodBow] wood. [BowDecor] [BowDecor] [Quiver]<br>
+
+;BowType
+50,shortbow
+40,longbow
+10,composite shortbow
+7,composite longbow
+5,greatbow
+3,Orcish greatbow
+3,Gnomish shortbow
+3,Dwarven shortbow
+2,composite greatbow
+2,Goblin shortbow
+1,Elven double bow
+
+;BowDecor
+10,The grip is wrapped in [Utility.LeatherHide].
+6,The grip is wrapped in[GripColor] [Utility.Cloth].
+2,The grip is unwrapped, but smooth and comfortable from regular use.
+2,The grip is unwrapped and rough, making the weapon impractical in combat.
+1,The grip is wrapped in[GripColor] [Utility.ClothFancy].
+
+;GripColor
+1,
+1, [Utility.DarkColors]
+1, [Utility.DarkColors] and [Utility.BrightColors]
+1, [Utility.DarkColors] and [Utility.LightColors]
+1, [Utility.DullColors]
+1, [Utility.DullColors] and [Utility.BrightColors]
+1, [Utility.BrightColors]
+1, [Utility.LightColors]
+
+;BowString
+10,The bowstring is made of [StringLeather].
+3,The bowstring is missing.
+3,The bowstring is missing, save for a small piece tied at the topnotch.
+3,The bowstring is actually a fine chain made of [Swords.Quality] [Utility.MetalDecor].
+1,The bowstring is actually a single wire made of [Swords.Quality] [Utility.MetalDecor].
+
+;StringLeather
+1,[Utility.LeatherShinyness][Utility.LeatherColor] bat leather
+1,[Utility.LeatherShinyness][Utility.LeatherColor] camel leather
+1,[Utility.LeatherShinyness][Utility.LeatherColor] catgut
+1,[Utility.LeatherShinyness][Utility.LeatherColor] deer leather
+1,[Utility.LeatherShinyness][Utility.LeatherColor] horse hide
+1,[Utility.LeatherShinyness][Utility.LeatherColor] pigskin
+1,[Utility.LeatherShinyness][Utility.LeatherColor] sheepskin leather
+10,[Utility.LeatherShinyness][Utility.LeatherColor] leather
+1,[Utility.LeatherShinyness][Utility.LeatherColor] calfskin
+1,[Utility.LeatherColor] suede
+
+;Quiver
+30,
+10,Accompanying the bow is a quiver of [Utility.LeatherHide] with [Utility.Fur] fur trim. It contains [AmmunitionThrown.Arrow].
+5,Accompanying the bow is a quiver of [Utility.LeatherHide]. It contains [AmmunitionThrown.Arrow].
+5,Accompanying the bow is a quiver of [Utility.Fur] fur with [Utility.LeatherHide] trim. It contains [AmmunitionThrown.Arrow].
+5,Accompanying the bow is a two-fingered archer's glove[ArcherHand], made of [Utility.LeatherHide].
+3,Accompanying the bow is a[ArcherShieldType] archer's shield made of [Utility.WoodWeapon][ArcherShieldColor].  The shield has a staked bottom and can stand upright if set in soft ground.
+
+;ArcherHand
+20,
+1, for a left-handed marksman
+
+;ArcherShieldType
+10,
+1, notch-topped
+1, slatted
+1, tall
+
+;ArcherShieldColor
+10,
+1, painted [GripColor]
+
+

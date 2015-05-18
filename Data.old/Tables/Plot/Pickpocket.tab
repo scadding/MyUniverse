@@ -1,0 +1,1078 @@
+
+;Start
+1,You see 1 possible mark: <br>[Heist]<br><br>
+2,You see 2 possible marks: <br>1. [Heist]<br>2. [Heist]<br><br>
+3,You see 3 possible marks: <br>1. [Heist]<br>2. [Heist]<br>3. [Heist]<br><br>
+4,You see 4 possible marks: <br>1. [Heist]<br>2. [Heist]<br>3. [Heist]<br>4. [Heist]<br><br>
+5,You see 5 possible marks: <br>1. [Heist]<br>2. [Heist]<br>3. [Heist]<br>4. [Heist]<br>5. [Heist]<br><br>
+
+;Heist
+1,You may be able to [StealVerb] [PoorBagDescriptor] [Bag] from [NPCDescriptor] [PoorNPC]. <br/>(It contains [PoorContents].)
+1,You may be able to [StealVerb] [MidBagDescriptor] [Bag] from [NPCDescriptor] [MidNPC]. <br/>(It contains [MidContents].)
+1,You may be able to [StealVerb] [RichBagDescriptor] [Bag] from [NPCDescriptor] [RichNPC]. <br/>(It contains [RichContents].)
+
+;HeaderTag
+1,If you [StealVerb] [RichBagDescriptor] [Bag] from [NPCDescriptor] [RichNPC], you may find that it contains [RichContents].
+
+;StealVerb
+1,acquire
+1,appropriate
+1,filch
+1,liberate
+1,lift
+1,make off with
+1,nab
+1,narrowly escape with
+1,nick
+1,obtain
+1,pinch
+1,purloin
+1,remove
+1,seize
+1,snag
+1,snatch
+1,steal
+1,swindle
+1,swipe
+1,take
+
+;PoorBagDescriptor
+1,a battered
+1,a brown
+1,a burlap
+1,a canvas
+1,a careworn
+1,a common
+1,a dingy
+1,a faded
+1,a fragile
+1,a frayed
+1,a gray
+1,a grimy
+1,a modest
+1,a moth-eaten
+1,a patched
+1,a plain
+1,a ragged
+1,a rugged
+1,a shabby
+1,a simple
+1,a stained
+1,a sturdy
+1,a tattered
+1,a threadbare
+1,a timeworn
+1,a tired
+1,a well-worn
+1,a worn
+1,a worn-out
+1,an old
+1,an old-fashioned
+1,an old leather
+1,an ordinary
+1,an unremarkable
+1,a [Utility.Cloth]
+1,a [Utility.RelativeSize]
+10,a
+
+;MidBagDescriptor
+1,a black
+1,a blue
+1,a brightly colored
+1,a brown
+1,a calico
+1,a canvas
+1,a careworn
+1,a charming
+1,a colorful
+1,a common
+1,a faded
+1,a flower-patterened
+1,a foreign-looking
+1,a fringed
+1,a gray
+1,a geen
+1,a leather
+1,a modest
+1,a patched
+1,a pink
+1,a plain
+1,a red
+1,a rugged
+1,a serviceable
+1,a simple
+1,a striped
+1,a sturdy
+1,a tasselled
+1,a tawdry
+1,a travel-stained
+1,a well-worn
+1,a woven
+1,a yellow
+1,an animal-skin
+1,an embroidered
+1,an ordinary
+1,an unremarkable
+1,a [Utility.Cloth]
+1,a [Utility.RelativeSize]
+1,a [Color.dull]
+10,a
+
+;RichBagDescriptor
+1,a beaded
+1,a black
+1,a black leather
+1,a rich blue
+1,a red velvet
+1,a bright yellow
+1,a brown leather
+1,a colorful
+1,a creamy white
+1,a deep green
+1,a dove gray
+1,a fancy
+1,a fine
+1,a fine leather
+1,a flamboyant
+1,a fur-trimmed
+1,a fringed
+1,a gilt-edged
+1,a luxurious
+1,a new
+1,a patterened
+1,a rich purple
+1,a silk-lined
+1,a sturdy
+1,a tasselled
+1,a blue velvet
+1, a rich blue seude
+1,a velvet
+1,a well-made
+1,a skillfully woven
+1,an animal-skin
+1,an antique
+1,an elegant
+1,an embellished
+1,an exotic leather
+1,an extravagant
+1,an indigo
+1,an ornate
+1,an ostentatious
+1,a [Utility.ClothFancy]
+1,a [Utility.RelativeSize]
+1,a [Utility.LeatherColor]
+1,a [Utility.LeatherColor] Leather
+10,a
+
+;Bag
+1,bag
+1,backpack
+1,apothecarie's bag
+1,duffel
+1,haversack
+1,knapsack
+1,pouch
+1,sack
+1,tote
+1,box
+1,purse
+1,reticule
+1,saddlebag
+1,satchel
+1,case
+
+;NPCDescriptor
+1,[Quick NPC.NPCDescriptor]
+
+;PoorNPC
+1,[Quick NPC.PoorNPC]
+
+;MidNPC
+1,[Quick NPC.MidNPC]
+
+;RichNPC
+1,[Quick NPC.RichNPC]
+
+;JustOneThing
+1,[OtherTables]
+1,[Pet]
+2,[Nothing]
+2,[LessThanNothing]
+
+;OtherTables
+1,[Swords.DaggerStart]
+1,[Jewelry.Start]
+1,[HerbalProducts.Start]
+1,a book: [FantasyBooks.Start]
+
+;Pet
+10,a kitten
+10,a puppy
+10,a white rat
+1,a live mouse
+1,a dragon egg, near hatching
+1,a chicken egg, near hatching
+5,a pet snake curled up in a reed basket
+5,a pet frog
+1,a ferret
+
+;Nothing
+1,a few hopping fleas
+1,breadcrumbs
+1,lint
+1,a few fluttering white moths
+1,[Dice.4d6] fairy gold coins - they vanish into dry leaves at the next dawn
+
+;LessThanNothing
+1,a dead mouse
+1,a letter demanding payment of a debt owed
+1,a letter demanding payment of a [Dice.1d8][Dice.1d8][Dice.1d8][Dice.1d8][Dice.1d8][Dice.1d8][Dice.1d8]-gold-piece debt owed
+1,a letter demanding payment of a debt owed to [Name]
+1,a letter demanding payment of a debt owed, and threatening dire consequences for failure to pay
+1,several rough drafts of a suicide note
+1,mutant death lice
+1,a few hopping fleas infected with a terrible plague
+1,a few hopping <b>undead zombie</b> fleas
+1,an angry, poisonous spider
+1,a poisonous pet snake curled up in a reed basket
+1,a nasty trap
+1,a letter that says something to the effect of "You are doomed"
+
+;Art
+1,[Dice.1d10] glass bead(s)
+1,a [Utility.MetalPrecious] figurine of [Image]
+1,a [Utility.StoneDecorative] figurine of [Image]
+1,a statuette of [Image] carved out of [Utility.Wood]
+1,a statuette of [Image] carved out of [Utility.HornIvory]
+1,a jade amulet carved with [Decoration]
+1,a small bag containing [Dice.2d6] crystal beads
+1,a small crystal prism
+1,a small music box decorated with [Decoration]
+1,a small painting of a loved one
+1,a beautiful statuette bearing a terrible curse
+3,a polished box containing a lock of hair
+
+;CharmsReligion
+1,a pouch of incense
+1,a tarot card: [Tarot Card Draw.Start]
+1,a [Utility.MetalPrecious] statuette of a god ([SpiritForm.DisplaySpirits])
+1,a statuette of a god ([SpiritForm.DisplaySpirits]) carved out of [Utility.Wood]
+1,a bit of holy text written on parchment
+1,a holy symbol
+1,a prayer book
+1,a prayer wheel
+1,a reliquary containing a piece of splintered bone
+1,prayer beads
+1,a charm against thieves
+1,a charm to [Jewelry.FolkSymbolEffects]
+1,a good luck charm
+1,a lucky rabbit's foot
+1,a painted icon of a saint or other religious subject
+1,a vodun trick bag
+1,a voodoo doll
+
+
+;PoorConsumable
+5,[PoorEdible]
+5,[PoorDrinkable]
+2,[PoorRecreational]
+
+;PoorEdible
+1,a chunk of moldy bread
+1,a hunk of hard bread
+1,a hunk of moldy cheese
+1,an onion
+1,a severed monkey paw
+1,a carrot
+1,a piece of fruit
+1,a small jar of pickles
+1,a small sack of dry peas
+1,a turnip
+1,a half eaten turnip
+
+;PoorDrinkable
+1,a bottle of ale
+1,a bottle of gin
+1,a bottle of grog
+1,a flask of hard cider
+1,a skin of clear water
+1,a skin of goat's milk
+
+;PoorRecreational
+1,a small bag containing a smokable narcotic
+1,pipe and tobacco
+
+;MidConsumable
+5,[MidEdible]
+5,[MidDrinkable]
+2,[MidRecreational]
+1,[MidSeasoning]
+
+;MidEdible
+1,a hunk of hard bread
+1,a small box of breath mints
+1,a hunk of cheese wrapped in cloth
+1,goat jerky wrapped in a canvas bag
+1,smoked fish wrapped in oilcloth
+1,a bag of almonds
+1,a bag of hazelnuts
+1,a bag of roasted chestnuts
+1,a bag of mushrooms
+1,a bulb of garlic
+1,a carrot
+1,an orange
+1,an apple
+1,a grapefruit
+1,a piece of fruit
+1,a small jar of pickles
+1,a small sack of peas
+1,a turnip
+
+;MidDrinkable
+1,a bottle of ale
+1,a bottle of gin
+1,A bootle
+1,a flask of hard cider
+1,a skin of clear water
+1,a bottle of good wine
+1,a bottle of brandy
+1,a skin of goat's milk
+1,a flask of [FantasyDrinks.alcoholic general]
+1,a waterskin full of [FantasyDrinks.nonalcoholic]
+
+;MidRecreational
+3,a small bag containing a smokable narcotic
+2,a small box of snuff
+1,a small box of snuff carved with [Decoration]
+3,a small wooden box filled with a smokable weed said to give prophetic dreams
+3,pipe and tobacco
+
+;MidSeasoning
+1,a palm-sized piece of ginger root
+3,a piece of honeycomb in a jar
+2,a small bottle of hot pepper sauce
+3,a vial of vinegar
+
+;RichConsumable
+5,[RichEdible]
+5,[RichDrinkable]
+2,[RichRecreational]
+1,[RichSeasoning]
+
+;RichEdible
+1,a bag of black licorice
+1,a bag of gumdrops
+1,a small box of breath mints
+1,a bag of almonds
+1,a bag of hazelnuts
+1,a bag of roasted chestnuts
+1,a bag of mushrooms
+1,a piece of fruit
+
+;RichDrinkable
+1,a bottle of ale
+1,a flask of hard cider
+1,a skin of fine wine
+1,a bottle of rich dwarven stout
+1,a crystal decanter of brandy
+1,a flask of [FantasyDrinks.alcoholic general]
+1,a bottle of fine wine
+1,a waterskin full of [FantasyDrinks.nonalcoholic]
+
+;RichRecreational
+3,a small bag containing a smokable narcotic
+2,a small box of snuff
+1,a small box of snuff carved with [Decoration]
+3,a small wooden box filled with a smokable weed said to give prophetic dreams
+3,pipe and tobacco
+
+;RichSeasoning
+2,a palm-sized piece of ginger root
+3,a piece of honeycomb in a jar
+3,a small bottle of hot pepper sauce
+3,a vial of vinegar
+3,a tiny pouch of saffron
+3,several pouches containing valuable spices
+
+;Entertain
+3,a half-whittled figurine and a small carving knife
+3,a paintbrush and several bottles of paint
+3,a sketchbook containing several excellent sketches of people and animals
+3,a blank book
+3,a book ([FantasyBooks.Start])
+3,a diary
+3,a racy novel
+3,a scrap of blank parchment
+1,a pair of weighted dice
+3,a pair of dice
+3,playing cards
+3,a brightly painted toy boat
+3,a doll
+3,a yoyo
+
+;IntrigueCrime
+20,lockpicks
+15,a vial of poison
+15,a crumpled wanted poster
+10,a pair of manacles
+10,a garrotte wire
+5,a detailed floor plan of a military stronghold
+5,a detailed floor plan of a prison
+5,a detailed floor plan of a noble manor
+5,several vials of rare poison
+5,a valuable (stolen) piece of jewelry
+5,a stolen treasure map
+1,a severed head
+1,a severed hand
+3,[Dice.1d6]severed fingers
+1,a doomsday device
+
+;Key
+5,a ring with [Dice.1d6] brass key(s)
+5,a ring with [Dice.1d8] large iron key(s)
+3,a silver key
+1,a small gold key
+
+;Medicinal
+1,a bag of sharp-smelling herbs for a "morning after" tea
+1,a bottle of foul-smelling medicine "guaranteed to relieve diarrhea"
+1,a bottle of hair tonic "Guaranteed to cure baldness"
+1,a pouch of herbs for a soporific tea
+1,a small bottle of a bitter syrupy substance "guaranteed to relieve indigestion and flatulence"
+1,a small box containing medicinal leaves to "chew to counter drowsiness"
+1,a small tub of an oily cream that is "proof against a multitude of rashes and unsavory infestations"
+1,a vial of a musky-smelling oil "guaranteed to restore strength and stamina"
+1,smelling salts
+1,a bottle bearing the image of a snake and the promise that it will "cure any ill"
+1,a bottle of a thick oily substance "will change eye color to indigo"
+1,a bottle of a thin cold substance "guaranteed to cause inebriation"
+
+;PoorMiscellaneous
+1,[Dice.1d10] glass bead(s)
+3,a statuette of [Image] carved out of [Utility.Wood]
+3,a half-whittled figurine of [Image] and a small carving knife
+1,a pair of weighted dice
+3,a pair of dice
+3,playing cards
+3,a brightly painted toy boat
+3,a handmade doll
+
+;Music
+3,a harmonica
+1,a pair of finger cymbals
+3,a pennywhistle
+3,a set of panpipes
+3,a small harp
+3,a small ringing bell
+3,sheet music
+
+;Nature
+10,a pretty shell
+5,a pouch of seeds
+5,a pouch of rich black earth
+3,an acorn
+3,a small wooden box containing dried flower petals
+3,a small bunch of sweet-smelling flowers
+3,a small bunch of aromatic leaves
+3,a sharktooth
+3,a bird's nest
+2,a smooth translucent white pebble
+2,a smooth sand-colored pebble
+2,a smooth gray pebble
+2,a smooth black pebble
+2,a smooth amber-colored pebble
+2,a small yellow flower
+2,a small white flower
+2,a small red flower
+2,a small purple flower
+2,a small blue flower
+1,a yellow feather
+1,a white feather
+1,a silver feather
+1,a red feather
+1,a purple feather
+1,a green feather
+1,a gray feather
+1,a golden feather
+1,a brown feather
+1,a blue feather
+1,a black feather
+1,a small glowing leaf
+
+;PoorPractical
+1,a ball of twine
+1,a clay jug
+1,a clay mug
+1,a firestarter kit
+1,a fishhook and line
+1,a pencil
+1,a piece of chalk
+1,a pocketknife
+1,a sewing needle and thread
+1,a small candle
+1,a whetstone
+1,a wooden spoon
+1,knitting needles and a half-knit scarf
+1,a signal whistle
+1,small leather patches for repairing clothes
+
+;MidPractical
+1,a ball of twine
+1,a clay jug
+1,a clay mug
+1,a firestarter kit
+1,a fishhook and line
+1,a healer's kit
+1,a magnifying glass
+1,a mapcase containing a map
+1,a pair of scissors
+1,a pencil
+1,a penknife
+1,a pewter mug stamped with [Decoration]
+1,a piece of chalk
+1,a pincushion
+1,a pocketknife
+1,a sewing needle and thread
+1,a signal whistle
+1,a small abacus
+1,a small box of matches
+1,a small candle
+1,a spyglass
+1,a thimble
+1,a whetstone
+1,a wooden spoon
+1,an accounts ledger
+1,an hourglass
+1,an inkpen and a vial of black ink
+1,craftsman's tools
+1,knitting needles and a half-knit scarf
+1,a metal polishing kit
+
+;RichPractical
+1,a firestarter kit
+1,a healer's kit
+1,a magnifying glass
+1,a mapcase containing a map
+1,a pair of scissors
+1,a penknife
+1,a pewter mug stamped with [Decoration]
+1,a pincushion
+1,a pocketknife
+1,a signal whistle
+1,a silver spoon
+1,a silver whistle
+1,a small abacus
+1,a small box of matches
+1,a spyglass
+1,a thimble
+1,a whetstone
+1,an accounts ledger
+1,an alabaster goblet
+1,an brass-bound drinking horn
+1,an hourglass
+1,a silver spoon
+1,an inkpen and a vial of black ink
+1,craftsman's tools
+1,an armor cleaning kit
+1,a primitive flair
+1,an ornate knife
+1,a manicure kit
+
+;PrestigeItem
+1,Sealing wax and a seal with [Decoration]
+1,a badge of office
+1,an amulet indicating membership in an organization or society ([Secret Society Title.SecretSocietyName])
+1,a card indicating membership in an organization or  society ([Secret Society Title.SecretSocietyName])
+1,a signet ring
+1,a medal
+1,a letter signed by a ruler giving authority to the bearer ([Name])
+
+;ScienceMagic
+1,a short length of copper wire
+1,a pair of magnets
+1,an alchemical formula workbook
+1,a compass
+1,a love potion
+1,divination counters
+1,a magical potion
+1,a magical ring
+1,a magical wand
+1,a magical spell workbook
+1,a small vial of blood
+1,an eyeball floating in a small jar
+1,a  brain in a jar
+1,a forbidden tome
+1,anatomical notes for an unknown creature
+1,[Dice.1d4] stoppered glass vial(s) (empty)
+1,a small set of precise scales
+1,a mortar and pestle
+1,a detailed sketch of a rare plant and notes on its powerful magical properties
+1,a valuable piece of jewelry bearing a terrible curse
+1,a spool of silver wire
+1,a small vial of slime
+1,a magical flair
+1,a never-ending flame in a vial 
+1,a sliver of arcane metal
+1,an enchanted acorn
+
+;MidToilette
+1,a bracelet
+1,a cloth cap
+1,a comb
+1,a glass eye
+1,a handkerchief
+1,a hearing trumpet
+1,a pair of earrings
+1,a pair of gloves
+1,a ring
+1,a bottle of medium qality perfme
+1,a small steel mirror
+1,eyeglasses
+
+;RichToilette
+1,a black velvet mask
+1,a bracelet
+1,a comb
+1,a curly wig
+1,a fur cap
+1,a cap made of [Utility.Fur] fur
+1,a glass eye
+1,a handkerchief embroidered with [Decoration]
+1,a hearing trumpet
+1,a lace handkerchief
+1,a lady's fan
+1,a length of silk ribbon
+1,a monocle
+1,a pair of earrings
+1,a pair of gloves
+1,a ring
+1,a small silver mirror
+1,a vial of Cologne
+1,a bottle of high quality fancy perfume
+1,cosmetics
+1,eyeglasses
+
+
+;PoorWealth
+5,[Dice.2d6] copper coins
+1,[Dice.1d6] silver coin(s)
+1,[Dice.1d6] coin(s) of a foreign denomination
+1,a legal document entitling the bearer to a sum of money to be collected from [Name]
+
+;MidWealth
+10,[MidCoins]
+5,[MidGems]
+5,[MidCoins], [MidGems]
+2,[MidOtherWealth]
+
+;MidCoins
+5,[Dice.4d6] copper coins
+5,[Dice.4d6] silver coins
+2,[Dice.2d6] gold coins
+1,[Dice.2d6] coins of a foreign denomination
+1,[Dice.1d6] very old coin(s) stamped with [Decoration]
+
+;MidGems
+1,a peridot
+5,a piece of amethyst
+5,a piece of buggy amber
+5,a piece of lapis lazuli
+5,a piece of malachite
+5,a piece of quartz
+5,a piece of [Utility.Ornamental Stones]
+1,a ruby
+1,an emerald
+1,[Dice.3d6] freshwater pearls
+1,an enchanted diamond
+
+;MidOtherWealth
+1,a small bag of gold dust
+1,a legal document entitling the bearer to a sum of money to be collected from [Name]
+1,a property deed
+
+;RichWealth
+10,[RichCoins]
+5,[RichGems]
+5,[RichCoins], [RichGems]
+2,[RichOtherWealth]
+1,[RichCoins], [RichOtherWealth]
+
+;RichCoins
+3,[Dice.4d6] silver coins
+3,[Dice.4d6] gold coins
+1,[Dice.2d6] platinum coins
+3,[Dice.3d6] coins of a foreign denomination
+1,[Dice.2d6] very old coins stamped with [Decoration]
+
+;RichGems
+1,a black opal
+1,a blue sapphire
+3,a peridot
+3,a piece of amethyst
+3,a piece of buggy amber
+3,a piece of lapis lazuli
+3,a piece of malachite
+3,a piece of quartz
+3,a ruby
+1,a small bag containing [Dice.3d6] precious gems
+1,a small velvet-lined box containing a single perfect diamond
+1,a small velvet-lined box containing a single perfect [Utility.Jewels]
+1,a string of [Dice.2d6] white pearls
+3,an emerald
+3,[Dice.2d6] freshwater pearls
+
+;RichOtherWealth
+3,a small bag of gold dust
+2,a piece of carved ivory
+1,a piece of ivory carved with [Decoration]
+3,a legal document entitling the bearer to a sum of money to be collected from [Name]
+1,a property deed
+
+;Weapon
+8,a dagger
+5,[Dice.1d4] throwing dagger(s)
+3,a slingshot and [Dice.2d6] stones
+3,a hand crossbow and [Dice.2d6] bolts
+2,a punching dagger
+1,a blowgun with a case of [Dice.2d6] poisoned darts
+1,[Dice.1d6] caltrop(s)
+1,a poisoned needle
+
+;Writing
+5,several rough drafts of a love letter
+5,an invitation
+5,a page containing very bad love poetry
+5,a love letter
+5,a letter to or from family
+5,a letter of introduction
+5,a letter of advice from a former mentor
+5,a grocery list
+3,an inflammatory leaflet
+2,A heretical pamphlet decrieing the clergy of [SpiritForm.DisplaySpirits] 
+2,an address written on a slip of paper
+2,a single name written on a piece of paper
+2,a list of names
+2,a list of dates and times
+2,a letter announcing a wedding
+2,a letter announcing a death
+2,a letter announcing a birth
+1,an incriminating letter
+1,a ransom note
+5,a shopping list
+5,a personal note scribbled in incomprehensible handwriting
+1,a "Dear John" letter
+2,a letter announcing an arrival
+2,a letter announcing a departure
+2,a letter of advice from a family member
+1,a letter of acceptance to a school
+1,a letter of acceptance to a guild
+1,a letter offering a job
+2,a letter from a friend
+2,a letter from an enemy
+1,a threatening letter
+2,a bit of parchment bearing these strange words: "[Words of Wisdom.Start]"
+2,a bit of parchment bearing this phrase: "[Parable Title.Premise]"
+1,a sheet of paper bearing the fable of [Parable Title.Title]
+1,a sheet of paper bearing the fable of [1001 Nights Story Title.Title]
+2,a list of phrases translated from [LanguageTranslate]
+2,a letter written in [Utility.RuneLanguage]
+3,an old well-read letter from a loved one
+
+;LanguageTranslate
+1,Common to [Utility.RuneLanguage]
+1,[Utility.RuneLanguage] to Common
+1,[Utility.RuneLanguage] to [Utility.RuneLanguage]
+
+;Decoration
+1,a family crest
+1,the image of [Utility.AnimalSymbol]
+1,the image of [Utility.CreatureSymbol]
+1,the image of [Utility.PlantSymbol]
+1,the image of [SpiritForm.DisplaySpirits]
+1,a simple [Utility.GeometricSymbol]
+1,the insignia of a military unit
+1,the coat of arms of a city, nation, or other location
+
+;Image
+1,[Utility.AnimalSymbol]
+1,[Utility.CreatureSymbol]
+1,[Utility.PlantSymbol]
+1,[SpiritForm.DisplaySpirits]
+
+;Name
+1,[NameStart] of [Fantasy Town Names.Start]
+1,[SGNP barbarians.BarbarianFirst] [SGNP barbarians.BarbarianSurname] of the [Poetic Destinations.Start]
+1,[SGNP barbarians.EnchantressFirst] [SGNP barbarians.EnchantressSurname] of the [Poetic Destinations.Start]
+1,[NameStart] (a sailor berthed on [Ship Names.Start])
+1,[NameStart] of the [Fantasy Military Unit.Start]
+1,[Secret Society Title.Start]
+
+;NameStart
+1,[Fantasy Names.StartMale]
+1,[Fantasy Names.StartFemale]
+1,[HalflingHippies.HalflingMale]
+1,[HalflingHippies.HalflingFemale]
+
+;PoorContents
+4,[PoorWealth]
+4,[PoorWealth], and [PoorConsumable]
+4,[PoorWealth], and [PoorPractical]
+4,[PoorWealth], and [Nature]
+4,[PoorWealth], and [Music]
+4,[PoorWealth], and [PoorMiscellaneous]
+4,[PoorWealth], and [CharmsReligion]
+4,[PoorWealth], and [Writing]
+4,[PoorWealth], and [Weapon]
+4,[PoorWealth], and [IntrigueCrime]
+1,[PoorConsumable], and [PoorPractical]
+1,[PoorConsumable], and [Nature]
+1,[PoorConsumable], and [Music]
+1,[PoorConsumable], and [PoorMiscellaneous]
+1,[PoorConsumable], and [CharmsReligion]
+1,[PoorConsumable], and [Writing]
+1,[PoorConsumable], and [Weapon]
+1,[PoorConsumable], and [IntrigueCrime]
+1,[PoorPractical], and [Nature]
+1,[PoorPractical], and [Music]
+1,[PoorPractical], and [PoorMiscellaneous]
+1,[PoorPractical], and [CharmsReligion]
+1,[PoorPractical], and [Writing]
+1,[PoorPractical], and [Weapon]
+1,[PoorPractical], and [IntrigueCrime]
+1,[Music], and [Nature]
+1,[PoorMiscellaneous], and [Nature]
+1,[CharmsReligion], and [Nature]
+1,[Writing], and [Nature]
+1,[Weapon], and [Nature]
+1,[Nature], and [IntrigueCrime]
+1,[Music], and [PoorMiscellaneous]
+1,[Music], and [CharmsReligion]
+1,[Music], and [Writing]
+1,[Music], and [Weapon]
+1,[Music], and [IntrigueCrime]
+1,[PoorMiscellaneous], and [CharmsReligion]
+1,[PoorMiscellaneous], and [Writing]
+1,[PoorMiscellaneous], and [Weapon]
+1,[PoorMiscellaneous], and [IntrigueCrime]
+1,[CharmsReligion], and [Writing]
+1,[CharmsReligion], and [Weapon]
+1,[CharmsReligion], and [IntrigueCrime]
+1,[Writing], and [Weapon]
+1,[Writing], and [IntrigueCrime]
+1,[Weapon], and [IntrigueCrime]
+1,[PoorConsumable]
+1,[PoorPractical]
+1,[Nature]
+1,[Music]
+1,[PoorMiscellaneous]
+1,[CharmsReligion]
+1,[Writing]
+1,[Weapon]
+1,[IntrigueCrime]
+5,[JustOneThing]
+
+;MidContents
+1,[MidWealth]
+1,[MidWealth], and [MidConsumable]
+1,[MidWealth], and [MidPractical]
+1,[MidWealth], and [MidToilette]
+1,[MidWealth], and [Key]
+1,[MidWealth], and [Entertain]
+1,[MidWealth], and [Music]
+1,[MidWealth], and [Art]
+1,[MidWealth], and [Medicinal]
+1,[MidWealth], and [Nature]
+1,[MidWealth], and [CharmsReligion]
+1,[MidWealth], and [Writing]
+1,[MidWealth], and [Weapon]
+1,[MidWealth], and [IntrigueCrime]
+1,[MidWealth], [MidConsumable], and [MidPractical]
+1,[MidWealth], [MidConsumable], and [MidToilette]
+1,[MidWealth], [MidConsumable], and [Key]
+1,[MidWealth], [MidConsumable], and [Entertain]
+1,[MidWealth], [MidConsumable], and [Music]
+1,[MidWealth], [MidConsumable], and [Art]
+1,[MidWealth], [MidConsumable], and [Medicinal]
+1,[MidWealth], [MidConsumable], and [Nature]
+1,[MidWealth], [MidConsumable], and [CharmsReligion]
+1,[MidWealth], [MidConsumable], and [Writing]
+1,[MidWealth], [MidConsumable], and [Weapon]
+1,[MidWealth], [MidConsumable], and [IntrigueCrime]
+1,[MidWealth], [MidPractical], and [MidToilette]
+1,[MidWealth], [MidPractical], and [Key]
+1,[MidWealth], [MidPractical], and [Entertain]
+1,[MidWealth], [MidPractical], and [Music]
+1,[MidWealth], [MidPractical], and [Art]
+1,[MidWealth], [MidPractical], and [Medicinal]
+1,[MidWealth], [MidPractical], and [Nature]
+1,[MidWealth], [MidPractical], and [CharmsReligion]
+1,[MidWealth], [MidPractical], and [Writing]
+1,[MidWealth], [MidPractical], and [Weapon]
+1,[MidWealth], [MidPractical], and [IntrigueCrime]
+1,[MidWealth], [MidToilette], and [Key]
+1,[MidWealth], [MidToilette], and [Entertain]
+1,[MidWealth], [MidToilette], and [Music]
+1,[MidWealth], [MidToilette], and [Art]
+1,[MidWealth], [MidToilette], and [Medicinal]
+1,[MidWealth], [MidToilette], and [Nature]
+1,[MidWealth], [MidToilette], and [CharmsReligion]
+1,[MidWealth], [MidToilette], and [Writing]
+1,[MidWealth], [MidToilette], and [Weapon]
+1,[MidWealth], [MidToilette], and [IntrigueCrime]
+1,[MidWealth], [Key], and [Entertain]
+1,[MidWealth], [Key], and [Music]
+1,[MidWealth], [Key], and [Art]
+1,[MidWealth], [Key], and [Medicinal]
+1,[MidWealth], [Key], and [Nature]
+1,[MidWealth], [Key], and [CharmsReligion]
+1,[MidWealth], [Key], and [Writing]
+1,[MidWealth], [Key], and [Weapon]
+1,[MidWealth], [Key], and [IntrigueCrime]
+1,[MidWealth], [Entertain], and [Music]
+1,[MidWealth], [Entertain], and [Art]
+1,[MidWealth], [Entertain], and [Medicinal]
+1,[MidWealth], [Entertain], and [Nature]
+1,[MidWealth], [Entertain], and [CharmsReligion]
+1,[MidWealth], [Entertain], and [Writing]
+1,[MidWealth], [Entertain], and [Weapon]
+1,[MidWealth], [Entertain], and [IntrigueCrime]
+1,[MidWealth], [Music], and [Art]
+1,[MidWealth], [Music], and [Medicinal]
+1,[MidWealth], [Music], and [Nature]
+1,[MidWealth], [Music], and [CharmsReligion]
+1,[MidWealth], [Music], and [Writing]
+1,[MidWealth], [Music], and [Weapon]
+1,[MidWealth], [Music], and [IntrigueCrime]
+1,[MidWealth], [Art], and [Medicinal]
+1,[MidWealth], [Art], and [Nature]
+1,[MidWealth], [Art], and [CharmsReligion]
+1,[MidWealth], [Art], and [Writing]
+1,[MidWealth], [Art], and [Weapon]
+1,[MidWealth], [Art], and [IntrigueCrime]
+1,[MidWealth], [Medicinal], and [Nature]
+1,[MidWealth], [Medicinal], and [CharmsReligion]
+1,[MidWealth], [Medicinal], and [Writing]
+1,[MidWealth], [Medicinal], and [Weapon]
+1,[MidWealth], [Medicinal], and [IntrigueCrime]
+1,[MidWealth], [Nature], and [CharmsReligion]
+1,[MidWealth], [Nature], and [Writing]
+1,[MidWealth], [Nature], and [Weapon]
+1,[MidWealth], [Nature], and [IntrigueCrime]
+1,[MidWealth], [CharmsReligion], and [Writing]
+1,[MidWealth], [CharmsReligion], and [Weapon]
+1,[MidWealth], [CharmsReligion], and [IntrigueCrime]
+1,[MidWealth], [Writing], and [Weapon]
+1,[MidWealth], [Writing], and [IntrigueCrime]
+1,[MidWealth], [Weapon], and [IntrigueCrime]
+5,[JustOneThing]
+
+;RichContents
+1,[RichWealth]
+1,[RichWealth], and [RichConsumable]
+1,[RichWealth], and [RichPractical]
+1,[RichWealth], and [RichToilette]
+1,[RichWealth], and [Key]
+1,[RichWealth], and [Entertain]
+1,[RichWealth], and [Music]
+1,[RichWealth], and [Art]
+1,[RichWealth], and [Medicinal]
+1,[RichWealth], and [ScienceMagic]
+1,[RichWealth], and [CharmsReligion]
+1,[RichWealth], and [PrestigeItem]
+1,[RichWealth], and [Writing]
+1,[RichWealth], and [Weapon]
+1,[RichWealth], and [IntrigueCrime]
+1,[RichWealth], [RichConsumable], and [RichPractical]
+1,[RichWealth], [RichConsumable], and [RichToilette]
+1,[RichWealth], [RichConsumable], and [Key]
+1,[RichWealth], [RichConsumable], and [Entertain]
+1,[RichWealth], [RichConsumable], and [Music]
+1,[RichWealth], [RichConsumable], and [Art]
+1,[RichWealth], [RichConsumable], and [Medicinal]
+1,[RichWealth], [RichConsumable], and [ScienceMagic]
+1,[RichWealth], [RichConsumable], and [CharmsReligion]
+1,[RichWealth], [RichConsumable], and [PrestigeItem]
+1,[RichWealth], [RichConsumable], and [Writing]
+1,[RichWealth], [RichConsumable], and [Weapon]
+1,[RichWealth], [RichConsumable], and [IntrigueCrime]
+1,[RichWealth], [RichPractical], and [RichToilette]
+1,[RichWealth], [RichPractical], and [Key]
+1,[RichWealth], [RichPractical], and [Entertain]
+1,[RichWealth], [RichPractical], and [Music]
+1,[RichWealth], [RichPractical], and [Art]
+1,[RichWealth], [RichPractical], and [Medicinal]
+1,[RichWealth], [RichPractical], and [ScienceMagic]
+1,[RichWealth], [RichPractical], and [CharmsReligion]
+1,[RichWealth], [RichPractical], and [PrestigeItem]
+1,[RichWealth], [RichPractical], and [Writing]
+1,[RichWealth], [RichPractical], and [Weapon]
+1,[RichWealth], [RichPractical], and [IntrigueCrime]
+1,[RichWealth], [RichToilette], and [Key]
+1,[RichWealth], [RichToilette], and [Entertain]
+1,[RichWealth], [RichToilette], and [Music]
+1,[RichWealth], [RichToilette], and [Art]
+1,[RichWealth], [RichToilette], and [Medicinal]
+1,[RichWealth], [RichToilette], and [ScienceMagic]
+1,[RichWealth], [RichToilette], and [CharmsReligion]
+1,[RichWealth], [RichToilette], and [PrestigeItem]
+1,[RichWealth], [RichToilette], and [Writing]
+1,[RichWealth], [RichToilette], and [Weapon]
+1,[RichWealth], [RichToilette], and [IntrigueCrime]
+1,[RichWealth], [Key], and [Entertain]
+1,[RichWealth], [Key], and [Music]
+1,[RichWealth], [Key], and [Art]
+1,[RichWealth], [Key], and [Medicinal]
+1,[RichWealth], [Key], and [ScienceMagic]
+1,[RichWealth], [Key], and [CharmsReligion]
+1,[RichWealth], [Key], and [PrestigeItem]
+1,[RichWealth], [Key], and [Writing]
+1,[RichWealth], [Key], and [Weapon]
+1,[RichWealth], [Key], and [IntrigueCrime]
+1,[RichWealth], [Entertain], and [Music]
+1,[RichWealth], [Entertain], and [Art]
+1,[RichWealth], [Entertain], and [Medicinal]
+1,[RichWealth], [Entertain], and [ScienceMagic]
+1,[RichWealth], [Entertain], and [CharmsReligion]
+1,[RichWealth], [Entertain], and [PrestigeItem]
+1,[RichWealth], [Entertain], and [Writing]
+1,[RichWealth], [Entertain], and [Weapon]
+1,[RichWealth], [Entertain], and [IntrigueCrime]
+1,[RichWealth], [Music], and [Art]
+1,[RichWealth], [Music], and [Medicinal]
+1,[RichWealth], [Music], and [ScienceMagic]
+1,[RichWealth], [Music], and [CharmsReligion]
+1,[RichWealth], [Music], and [PrestigeItem]
+1,[RichWealth], [Music], and [Writing]
+1,[RichWealth], [Music], and [Weapon]
+1,[RichWealth], [Music], and [IntrigueCrime]
+1,[RichWealth], [Art], and [Medicinal]
+1,[RichWealth], [Art], and [ScienceMagic]
+1,[RichWealth], [Art], and [CharmsReligion]
+1,[RichWealth], [Art], and [PrestigeItem]
+1,[RichWealth], [Art], and [Writing]
+1,[RichWealth], [Art], and [Weapon]
+1,[RichWealth], [Art], and [IntrigueCrime]
+1,[RichWealth], [Medicinal], and [ScienceMagic]
+1,[RichWealth], [Medicinal], and [CharmsReligion]
+1,[RichWealth], [Medicinal], and [PrestigeItem]
+1,[RichWealth], [Medicinal], and [Writing]
+1,[RichWealth], [Medicinal], and [Weapon]
+1,[RichWealth], [Medicinal], and [IntrigueCrime]
+1,[RichWealth], [ScienceMagic], and [CharmsReligion]
+1,[RichWealth], [ScienceMagic], and [PrestigeItem]
+1,[RichWealth], [ScienceMagic], and [Writing]
+1,[RichWealth], [ScienceMagic], and [Weapon]
+1,[RichWealth], [ScienceMagic], and [IntrigueCrime]
+1,[RichWealth], [CharmsReligion], and [PrestigeItem]
+1,[RichWealth], [CharmsReligion], and [Writing]
+1,[RichWealth], [CharmsReligion], and [Weapon]
+1,[RichWealth], [CharmsReligion], and [IntrigueCrime]
+1,[RichWealth], [PrestigeItem], and [Writing]
+1,[RichWealth], [PrestigeItem], and [Weapon]
+1,[RichWealth], [PrestigeItem], and [IntrigueCrime]
+1,[RichWealth], [Writing], and [Weapon]
+1,[RichWealth], [Writing], and [IntrigueCrime]
+1,[RichWealth], [Weapon], and [IntrigueCrime]
+5,[JustOneThing]
+
+

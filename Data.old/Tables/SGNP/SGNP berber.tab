@@ -1,0 +1,146 @@
+
+;Start
+1,[MALEMEDIEVAL]
+1,[FEMALEMEDIEVAL]
+1,[FEMALEMODERN]
+1,[MALEMODERN]
+1,[SYMBOLS]
+
+;MALEMEDIEVAL
+1,[MALEFIRST] ibn [MALEFIRST]
+
+;FEMALEMEDIEVAL
+1,[FEMALEFIRST] bint [FEMALEFIRST]
+
+;MALEMODERN
+1,[MALEFIRST] [SURNAME]
+
+;FEMALEMODERN
+1,[FEMALEFIRST] [SURNAME]
+
+;FEMALEFIRST
+1,Amina
+1,Bakka
+1,Dihya
+1,Silya
+1,Fariza
+1,Ghida
+1,Jedira
+1,Kella
+1,Tafrara
+1,Lalla
+1,Laysa
+1,Tasa
+1,Melila
+1,Tigmi
+1,Myassa
+1,Talalit
+1,Riuza
+1,Tamilla
+1,Mernissa
+1,Tannina
+1,Sekura
+1,Rula
+1,Darifa
+1,Susa
+1,Tadla
+1,Tafat
+1,Geduda
+1,Kisa
+1,Taklit
+1,Randja
+1,Temzi
+1,Tawnat
+1,Tayri
+1,Ghnima
+1,Tella
+1,Megduda
+1,Tisent
+1,Wrina
+1,Zamra
+1,Zunagha
+;MALEFIRST
+1,Abayghur
+1,Alwas
+1,Mennac
+1,Atissi
+1,Berkan
+1,Seghada
+1,Firmus
+1,Ghanim
+1,Gildun
+1,Tiljad
+1,Gulussan
+1,Hotha
+1,Idir
+1,Meddur
+1,Kadidu
+1,Taqfarinas
+1,Madidu
+1,Yaghmurasen
+1,Masmud
+1,Zerwal
+1,Mejdan
+1,Firhun
+1,Abazza
+1,Mezwar
+1,Mezian
+1,Oukesson
+1,Nguna
+1,Amastan
+1,Sekla
+1,Sifal
+1,Tabat
+1,Iken
+1,Tariq
+1,Mastenissa
+1,Uksem
+1,Afalku
+1,Yeften
+1,Yunes
+1,Zayar
+1,Kenan
+;SURNAME
+1,Aknin
+1,Hamuy
+1,Ohana
+1,Mammeri
+1,Ouaknin
+1,Tanzir
+1,Ouyahia
+1,Abrika
+1,Mehenni
+1,Othmani
+1,Menguellet
+1,Tabaamrant
+1,Demsiri
+1,Massi
+1,Guerouabi
+1,Assouline
+1,Feraoun
+1,Djaout
+1,Zidane
+1,Hasnaoui
+
+;SYMBOLS
+1,Lion\'s Paw (protection through strength)
+1,Barley (fertility)
+1,Partridge Eyes (beauty and femininity)
+1,Chessboard (religious trance)
+1,Frog (fertility and magical power, male)
+1,Spider (fertility and magical power, female)
+1,Eye (protection against the evil eye)
+1,Scissors (anti-magic; symbol of metalworkers; metal is inimical to all Berber magic)
+1,Snake (holy person)
+1,Snake Skeleton (healing)
+1,Eagle (power)
+1,Lizard (human aspiration)
+1,Turtle (protection)
+1,Bird (destiny)
+1,Fish (prosperity)
+1,Crow\'s Beak (protection for children)
+1,Gold (evil)
+1,Hen (a good wife)
+1,Seeds (hope for children)
+1,Saw (active defense against evil spirits)
+

@@ -1,0 +1,71 @@
+
+
+;Start
+1,<sgdisplay iterations="10">[climate] [terrain]; there is [hexfeature]</sgdisplay><br>
+
+;climate
+1,Cold
+1,Temperate
+1,Warm
+
+;terrain
+1,Aquatic
+1,Forest
+1,Hills
+1,Mountains
+1,Plains
+1,Wetland ([Wetlandterrain])
+
+;hexfeature
+3,a [lairmonster] lair here
+2,a settlement here, a [Settlements.Type]
+2,a landmark here, the [Fantasy Landmarks.Start]
+1,a fortification here
+3,an encounter here
+1,a ruin here
+
+
+;Wetlandterrain
+1,bayou
+4,bog
+1,delta
+4,fen
+1,hot springs
+5,marsh
+3,mere
+2,mire
+1,morass
+1,polder
+1,quagmire
+2,river
+1,slough
+1,spring
+2,stream
+5,swamp
+
+
+;lairmonster
+1,dragon
+1,goblin
+1,orc
+1,spider
+
+;terrainfeatures
+1,canyon
+1,cave
+1,desert
+1,gorge
+1,hole
+1,hot springs
+2,meadow
+1,ravine
+2,river
+1,riverbed
+1,rockfield
+1,sinkhole
+1,springs
+3,stream
+1,streambed
+2,valley
+
+

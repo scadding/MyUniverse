@@ -1,0 +1,599 @@
+
+;Start
+1,==Tribe 1==
+_<ul><sgdisplay iterations="4"><li>[male] [surname], [age], [occupation] from [hometown] </sgdisplay></ul>
+_<ul><sgdisplay iterations="4"><li>[female] [surname], [age], [occupation] from [hometown] </sgdisplay></ul>
+1,==Tribe 2==
+_<ul><sgdisplay iterations="4"><li>[male] [surname], [age], [occupation] from [hometown] </sgdisplay></ul>
+_<ul><sgdisplay iterations="4"><li>[female] [surname], [age], [occupation] from [hometown] </sgdisplay></ul>
+
+
+;male
+1,Richard
+1,Rudy
+1,B.B.
+1,Gervase
+1,Greg
+2,Joel
+1,Dirk
+2,Sean
+1,Kel
+1,Mitchell
+1,Michael
+2,Jeff
+1,Colby
+1,Keith
+2,Nick
+1,Rodger
+1,Clarence
+1,Carl
+1,Ethan
+2,Brandon
+1,Frank
+2,Tom
+1,Lex
+1,Silas
+1,Gabriel
+1,Hunter
+4,John
+1,Paschal
+2,Rob
+1,Robert
+1,Peter
+1,Jake
+2,Brian
+1,Clay
+1,Ted
+1,Jed
+1,Robb
+2,Ken
+1,Daniel
+3,Ryan
+1,Roger
+1,Butch
+1,Matthew
+2,Alex
+1,Dave
+1,Osten
+1,Rupert
+1,Burton
+1,Andrew
+1,Shawn
+1,Jon
+1,Brady
+1,Lea
+1,Chris
+1,Travis
+1,Rory
+1,Brook
+1,Chad
+3,James
+1,Ibrehem
+1,Ian
+1,Gregg
+1,Willard
+2,Jonathan
+1,Bobby Jon
+1,Coby
+1,Blake
+1,Rafe
+1,Jim
+2,Gary
+1,Jamie
+1,Judd
+1,Bobby
+1,Bruce
+1,Terry
+1,Aras
+1,Austin
+1,Shane
+2,Dan
+1,Adam
+1,Brad
+1,Yul
+1,Cao Boi
+1,Ozzy
+1,Billy
+1,J.P.
+1,Nathan
+1,Sekou
+1,Yau Man
+1,Mookie
+1,Dre
+1,Earl
+1,Anthony
+1,Edgardo
+1,Boo
+1,Todd
+1,John-Robert
+1,Frosti
+1,Chicken
+1,Dave
+2,Erik
+1,Aaron
+1,Mikey
+1,Joel
+1,Chet
+1,Jason
+1,Randy
+1,Bob
+1,Charlie
+1,Marcus
+1,Ace
+1,Danny
+1,Matty
+1,Benjamin
+1,Brendan
+1,Stephen
+1,Tyson
+1,Spencer
+1,JT
+1,Jerry
+1,Joe
+
+;female
+1,Sonja
+1,Stacey
+3,Kelly
+1,Sue
+1,Ramona
+1,Gretchen
+2,Jenna
+1,Colleen
+1,Debb
+1,Kimmi
+1,Maralyn
+2,Tina
+1,Jerri
+1,Alicia
+1,Amber
+1,Elisabeth
+1,Taffy
+1,Diane
+1,Jessie
+3,Kim
+1,Teresa
+1,Linda
+1,Lindsey
+1,Vecepia
+1,Neleh
+1,Zoe
+1,Tammy
+2,Kathy
+1,Gina
+1,Patricia
+1,Sarah
+1,Shii Ann
+1,Penny
+1,Helen
+1,Tanya
+1,Jan
+1,Erin
+1,Ghandia
+1,Stephanie
+1,Christy
+1,Deena
+1,Heidi
+1,Joanna
+1,Jeanne
+1,Janet
+1,Shawna
+1,Christa
+1,Nicole
+1,Darrah
+1,Sandra
+1,Trish
+1,Tijuana
+1,Lillian
+3,Michelle
+1,Ami
+1,Eliza
+1,Scout
+1,Twila
+1,Leann
+1,Lisa
+1,Mia
+1,Dolly
+1,Julie
+1,Wanda
+1,Angie
+1,Ashlee
+1,Caryn
+1,Janu
+1,Jennifer
+1,Katie
+1,Stephenie
+1,Jolanda
+1,Amy
+1,Lydia
+1,Brianna
+1,Brooke
+1,Danni
+1,Margaret
+1,Morgan
+1,Cindy
+1,Misty
+1,Sally
+2,Courtney
+1,Danielle
+1,Ruth Marie
+1,Melinda
+1,Cirie
+1,Cecilia
+1,Cristina
+1,Becky
+1,Jenny
+1,Candice
+3,Jessica
+1,Parvati
+1,Stephannie
+1,Sundra
+1,Rebecca
+1,Cassandra
+1,Erica
+1,Stacy
+1,Sylvia
+1,Lisi
+1,Rita
+1,Liliana
+1,Amanda
+1,Peih-Gee
+1,Denise
+1,Jaime
+1,Leslie
+1,Sherea
+1,Ashley
+1,Mary
+1,Natalie
+1,Alexis
+1,Tracy
+1,Gillian
+1,Paloma
+1,Jacquie
+1,Corinne
+1,Crystal
+1,Elyse
+1,Susie
+1,Sierra
+1,Sydney
+1,Erinn
+1,Tamara
+1,Carolina
+1,Debbie
+1,Sandy
+1,Candace
+
+;surname
+1,Hatch
+1,Boesch
+1,Andersen
+1,Petersen
+1,Buis
+1,Klug
+1,Been
+1,Kenniff
+1,Christopher
+1,Stillman
+1,Wiglesworth
+1,Hawk
+1,Gray
+1,Cordy
+1,Lewis
+1,Haskell
+1,Gleason
+1,Olson
+1,Skupin
+1,Varner
+1,Donaldson
+1,Famie
+1,Brown
+1,Bingham
+1,Eaton
+1,Kappenberg
+1,Hershey
+1,Wesson
+1,Manthey
+1,Calaway
+1,Brkich
+1,Filarski
+1,Zohn
+4,Johnson
+1,Powers
+1,Bilancione
+1,Black
+1,Goldsmith
+1,Buchanan
+1,van den Berghe
+1,Quinton
+1,Garrison
+1,Cooper
+1,Richter
+1,Gaither
+1,Spencer
+1,Ogden
+1,Camacho
+1,Cade
+1,Ellis
+1,Towery
+1,Dennis
+1,O'Brien
+1,Zanidakis
+1,Leitner
+1,Mariano
+1,DeCanio
+1,Jackson
+1,Carroll
+1,Harkey
+1,Rector
+1,English
+1,Jones
+1,Crews
+1,Hildebrand
+1,Vance
+1,Raymond
+1,Huang
+1,Heidik
+1,Collins
+1,Billingsley
+1,Ramsey
+1,Rogers
+1,Gentry
+1,Glover
+1,Jordan
+1,Dill
+1,Zbacnik
+1,Stafford
+1,Aiken
+1,Lue
+1,Lockley
+1,Ward
+1,Von Ertfelda
+1,Koth
+1,Morasca
+1,Cesternino
+1,Bell
+1,Bennett
+1,Hebert
+1,Sexton
+1,Smith
+1,Strobel
+1,Boneham
+1,Delma
+1,Shoulders
+1,Dunn
+1,Tesauro
+1,Cohen
+1,Taylor
+1,Morris
+1,Roberts
+1,Savage
+1,Opray
+1,Boneham
+1,Twine
+1,Bradley
+1,Dalton
+1,Hastie
+1,Cusack
+1,Orlins
+1,Lee
+1,Tanner
+1,Neely
+1,Galeotalanza
+1,Keiffer
+1,Slaby
+1,Berry
+1,Palyok
+1,Kenney
+1,Thompson
+1,Masters
+1,Daugherty
+1,Finta
+1,Geraghty
+1,Fields
+1,Hyder
+1,Giles
+1,Marit
+1,DiLorenzo
+1,Scheer
+1,Baskauskas
+1,Carty
+1,Kanegai
+1,Milliman
+1,Barry
+1,Bui
+1,Virata
+1,Bae
+1,Kwon
+1,Coria
+1,Garcia
+1,Lusth
+1,Mansilla
+1,Calderon
+1,Favor
+1,Bunch
+1,Borman
+1,Oakley
+1,Gonzalez
+1,Shallow
+1,Penner
+1,Woodcock
+1,Gentry
+1,Kwan
+1,Yi
+1,Kimball
+1,Chan
+1,Linares
+1,Rivera
+1,Angarita
+1,Verreos
+1,Cole
+1,Herd
+1,Franklin
+1,Durousseau
+1,Deben
+
+;age
+20,21
+20,22
+20,23
+20,24
+20,25
+20,26
+20,27
+20,28
+20,29
+8,30
+8,31
+8,32
+8,33
+8,34
+8,35
+8,36
+8,37
+8,38
+8,39
+6,40
+6,41
+6,42
+6,43
+6,44
+6,45
+6,46
+6,47
+6,48
+6,49
+4,50
+4,51
+4,52
+4,53
+4,54
+4,55
+4,56
+4,57
+4,58
+4,59
+2,60
+2,61
+2,62
+2,63
+2,64
+2,65
+2,66
+2,67
+2,68
+2,69
+1,70
+1,71
+1,72
+1,73
+1,74
+1,75
+
+;occupation
+1,[Modern Profession.Start]
+
+;hometown
+50,[US Cities.simplified]
+1,Walnut Creek, CA
+1,Mission Hills, KS
+2,San Francisco, CA
+1,Edison, NJ
+1,Spring Green, WI
+1,Sherwood, AR
+2,Clarksville, TN
+1,Ridgewood, NJ
+1,Franklin, NH
+1,Willingboro, NJ
+1,Miami Beach, FL
+1,Carle Place, NY
+1,Palmyra, WI
+1,Virginia Beach, VA
+1,Las Vegas, NV
+2,Middletown, RI
+1,Milan, NH
+1,Fort Hood, TX
+1,Wakefield, VA
+1,Union City, NJ
+1,Ronkonkoma, NY
+1,White Lake, MI
+4,New York, NY
+3,Los Angeles, CA
+1,Steilacoom, WA
+1,Beaver, PA
+1,Crittenden, KY
+2,Boston, MA
+1,West Bloomfield, MI
+3,Dallas, TX
+1,Knoxville, TN
+1,Lexington, MA
+1,Winter Springs, FL
+1,Detroit, MI
+1,Lincoln, NE
+1,Odessa, NY
+1,Orlando, FL
+1,Rancho Santa Fe, CA
+1,Oyster Bay, NY
+1,Conshohocken, PA
+1,Santa Cruz, CA
+1,Cambridge, MA
+2,Portland, OR
+1,Germantown, TN
+1,Jackson, GA
+1,Rich Valley, VA 
+1,Celo, NC
+1,Gainesville, FL
+1,La Jolla, CA
+1,Omaha, NE
+1,Burlington, VT
+1,Layton, UT
+1,Thomaston, GA
+1,Lugoff, SC
+1,Millis, MA
+1,Canton, MA
+1,Queens, NY
+1,Newport Beach, CA
+1,Harlem, NY
+1,Mesa, AZ
+1,Monhegan Island, ME 
+1,Quartz Hill, CA
+1,Monroe, LA
+1,Austin, TX
+1,Denver, CO
+1,Mckinney, TX
+1,Tampa, FL
+1,Slidell, LA
+1,Brooklyn, NY
+1,Plano, TX
+1,Scottsdale, AZ
+1,Fayetteville, AR
+1,Kingsport, TN
+1,Durham, NC 
+1,Pittsburgh, PA
+1,Olney, IL
+1,Basalt, CO
+1,Houston, TX
+1,Pasadena, CA
+1,Riverside, CA
+1,Buffalo, MO
+1,Manchester, MO
+1,North Attleboro, MA
+1,Orangeburg, SC
+1,Washington, DC
+1,Wantagh, NY
+1,Valencia, CA
+1,Ellicott City, MD
+1,Redwood City, CA
+1,Melbourne, FL 
+1,Chicago, IL
+1,Liberty, MS
+1,Danville, VA
+1,Cincinnati, OH
+1,Pittstown, NJ
+1,Hermosa Beach, CA
+1,Indianapolis, IN
+1,Los Gatos, CA
+1,Fort Lewis, WA
+1,St. Louis, MO
+1,Annapolis, MD 
+
+

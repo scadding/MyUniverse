@@ -1,0 +1,303 @@
+
+;Start
+10,[male] [surname] (male)
+10,[female] [surname] (female)
+5,[surfGuitarBands] (surf band)
+5,[soldiers] (soldier)
+5,[sceneSubject] [scenePredicate] (scene)
+
+;soldiers
+1,[male] [surname] - 4th Infantry, [armyunits4ID]
+1,[male] "[nickname]" [surname] - 4th Infantry, [armyunits4ID]
+1,[male] [surname] - 1st Cav, [armyunits1CD]
+1,[male] "[nickname]" [surname] - 1st Cav, [armyunits1CD]
+
+;scene
+1,[sceneSubject] [scenePredicate]
+
+;male
+1,James   
+1,William   
+1,Robert  
+1,John   
+1,Richard    
+1,David   
+1,Charles   
+1,Thomas   
+1,Michael   
+1,Ronald   
+1,Larry   
+1,Donald   
+1,Joseph   
+1,Gary   
+1,George   
+1,Kenneth   
+1,Paul   
+1,Edward   
+1,Jerry   
+1,Dennis   
+
+;female
+1,Mary    
+1,Linda    
+1,Barbara    
+1,Patricia    
+1,Carol    
+1,Sandra    
+1,Nancy    
+1,Sharon    
+1,Judith    
+1,Susan    
+1,Betty    
+1,Carolyn    
+1,Margaret    
+1,Shirley    
+1,Judy    
+1,Karen    
+1,Donna    
+1,Kathleen    
+1,Joyce    
+1,Dorothy  
+
+;surname
+1,Smith  
+1,Anderson  
+1,Clark  
+1,Wright  
+1,Mitchell
+1,Johnson  
+1,Thomas  
+1,Rodriguez  
+1,Lopez  
+1,Perez  
+1,Williams  
+1,Jackson  
+1,Lewis  
+1,Hill  
+1,Roberts  
+1,Jones  
+1,White  
+1,Lee  
+1,Scott  
+1,Turner 
+1,Brown  
+1,Harris  
+1,Walker  
+1,Green  
+1,Phillips  
+1,Davis  
+1,Martin  
+1,Hall  
+1,Adams  
+1,Campbell 
+1,Miller  
+1,Thompson  
+1,Allen  
+1,Baker  
+1,Parker  
+1,Wilson  
+1,Garcia  
+1,Young  
+1,Gonzalez  
+1,Evans 
+
+;surfGuitarBands
+1,The Fabulous Playboys
+1,P.J. & Artie
+1,The Challengers
+1,The Progressives 
+1,The Vibrants
+1,Thom Starr & The Galaxies
+1,The Surfriders
+1,The Gladiators 
+1,The Travelers
+1,The Pyramids
+1,David Marks & The Marksmen
+1,The Original Surfaris
+1,The Trashmen 
+1,The Tornadoes
+1,The Royal Coachmen
+1,Dave Myers and His Surftones
+1,The Ebb Tides
+1,The Tandems
+1,Steve and the Emperors
+1,The Chandelles
+
+;armyunits4ID
+1,2nd Battalion 8th Infantry - Mechanized Panthers
+1,1st Battalion 8th Infantry "Bullets"
+1,4th Battalion 42nd Artillery (105mm) "Black Jacks"
+1,1st Battalion 22nd Infantry "Regulars" 
+1,2nd Battalion 77th Artillery (105mm) "Blackhawks"
+1,3rd Battalion 8th Infantry "Dragoons"
+1,1st Battalion 12th Infantry "Red Warriors"
+1,2nd Battalion 9th Artillery (105mm) "Mighty Ninth"
+1,2nd Battalion 12th Infantry "White Warriors"
+1,1st Battalion 35th Infantry "Cacti Green"
+1,3rd Battalion 12th Infantry "Braves"
+1,2nd Battalion 34th Armor "Dreadnaughts"
+1,1st Battalion 69th Armor "Black Panthers"
+1,1st Battalion 14th Infantry "Golden Dragons"
+1,2nd Battalion 22nd Infantry "Triple Deuces"
+1,6th Battalion 29th Artillery (105mm) "Can Do"
+1,3rd Battalion 22nd Infantry "Red Dragoons"
+1,2nd Battalion 35th Infantry "Cacti Blue" 
+1,5th Battalion 16th Artillery (155mm & 8-inch Self Propelled Howitzer)
+1,4th Military Intelligence Company, Motto: First to Know
+
+;armyunits1CD
+1,1st Brigade "Flying Circus"
+1,2nd Brigade
+1,1st Squadron, 9th Cavalry
+1,3rd Squadron, 17th Cavalry
+1,1st Battalion (Airborne), 8th Cavalry
+1,2nd Battalion (Airborne), 8th Cavalry
+1,1st Battalion (Airborne), 12th Cavalry
+1,1st Brigade, 11th Air Assault Division
+1,1st Battalion, (Airborne), 188th Infantry
+1,1st Battalion, (Airborne), 511th Infantry
+1,1st Battalion, (Airborne), 187th Infantry
+1,2nd Brigade, 2nd Infantry Division
+1,1st Battalion, 38th Infantry
+1,2nd Battalion, 38th Infantry
+1,1st Battalion, 23rd Infantry
+1,1st Battalion, 7th Cavalry
+1,2nd Battalion, 7th Cavalry
+1,5th Battalion, 7th Cavalry
+1,2nd Battalion, 23rd Infantry
+1,2nd Battalion,  9th Infantry
+1,1st Battalion, 11th Infantry
+1,2nd Battalion, 19th Artillery
+1,2nd Battalion, 20th Artillery
+1,1st Battalion, 21st Artillery 
+1,1st Battalion, 77th Artillery 
+1,"E" Battery, 82nd Artillery
+1,Division Artillery, 11th Air Assault
+1,6th Battalion, 81st Artillery 
+1,3rd Battalion, 377 Artillery
+1,5th Battalion, 38th Artillery 
+1,1st Battalion, 15th Artillery 
+1,"E" Battery, 26th Artillery
+1,15th Medical Battalion
+1,15th Supply & Service Battalion
+1,Aerial Equipment Support Co
+1,15th Administrative Company
+1,27th Maintenance Battalion
+1,8th Engineer Battalion
+1,13th Signal Battalion
+1,15th Transportation Battalion
+1,545th Military Police Company
+1,191st Military Intelligence Detachment
+1,371st Army Security Agency Company
+1,11th Medical Battalion
+1,408th Supply & Service Battalion
+1,165th Aerial Eqpm't Sup't Detachment
+1,11th Administrative Company
+1,711th Maintenance Battalion
+1,127th Engineer Battalion
+1,511 Signal Battalion
+1,611th Aircraft Maintenance & Supply Battalion
+1,11th Military Police Company
+1,11th Military Intelligence Detachment
+1,"C" Co, 313th Army Security Agency Battalion
+1,"HHC", 227th Aviation Battalion
+1,"A" Co, 227th Aviation Battalion
+1,"B" Co, 227th Aviation Battalion
+1,"C" Co, 227th Aviation Battalion
+1,"D" Co, 227th Aviation Battalion
+1,"HHC", 228th Aviation Battalion
+1,"A" Co, 228th Aviation Battalion
+1,"B" Co, 228th Aviation Battalion
+1,"C" Co, 228th Aviation Battalion
+1,"HHC", 229th Aviation Battalion
+1,"A" Co, 229th Aviation Battalion
+1,"B" Co, 229th Aviation Battalion
+1,"C" Co, 229th Aviation Battalion
+1,"D" Co, 229th Aviation Battalion
+1,11th Aviation Company
+1,"HHC", 11th Aviation Group
+1,"HHC", 227th Aviation Battalion
+1,"A" Co, 227th Aviation Battalion
+1,Aviation Co, 6th Special Forces Group
+1,Aviation Co, 7th Special Forces Group
+1,110th Aviation Co
+1,"HHC", 228th Aviation Battalion
+1,132nd Aviation Company 
+1,133rd Aviation Company 
+1,202nd Aviation Company 
+1,"HHC", 229th Aviation Battalion
+1,"A" Co, 4th Aviation Battalion
+1,"A" Co, 5th Aviation Battalion
+1,194th Aviation Company
+1,131st Aviation Company
+1,11th Aviation Company
+1,"HQ", 2nd Battalion, 19th Artillery
+1,"A" Btry, 2nd Bn, 20th Artillery
+1,1st Aviation Detachment
+1,228th Aviation Battalion
+1,"A" Trp, 1st Squadron, 9th Cavalry
+1,"C" Trp, 1st Squadron, 9th Cavalry
+8,[armyunits5CD]
+8,[armyunits12CD]
+
+;armyunits5CD
+1,1st Battalion 5th Cav HHC
+1,B Battery 1/77th Field Artillery
+1,HHS Battery 1/77th Artillery
+1,1st Battalion 5th Cav, A Company
+1,1st Battalion 5th Cav, B Company
+1,1st Battalion 5th Cav, C Company
+1,1st Battalion 5th Cav, D Company
+1,1st Battalion 5th Cav, E Company
+1,2nd Battalion HHC
+1,A Battery 1/77thArtillery
+1,2nd Battalion 5th Cav, A Company
+1,2nd Battalion 5th Cav, B Company
+1,2nd Battalion 5th Cav, C Company
+1,2nd Battalion 5th Cav, D Company
+1,2nd Battalion 5th Cav, E Company
+
+;armyunits12CD
+1,2nd Battalion 12th Cav HHC
+1,C Battery 1/77th Field Artillery
+1,A Battery 1/30th Artillery
+1,2nd Battalion 12th Cav, A Company
+1,2nd Battalion 12th Cav, B Company
+1,2nd Battalion 12th Cav, C Company
+1,2nd Battalion 12th Cav, D Company
+1,2nd Battalion 12th Cav, E Company
+
+;nickname
+1,[Vietnam Nicknames.Start]
+
+;sceneSubject
+1,A civilian							
+1,Your commanding officer				
+1,Your best buddy						 
+1,Your lover								
+1,An enemy soldier
+1,Your main rival
+1,The squad medic
+1,The new guy
+1,Your squad leader
+1,Your first sergeant
+1,Your platoon sergeant
+1,Your team sergeant
+1,Your 60 gunner
+1,The enemy soldier you just spared
+1,The prisoner of war you are escorting
+
+;scenePredicate
+1,has killed a child. 
+1,has been hit by a booby trap.
+1,is running at you with a suicide charge strapped to him.
+1,appears to be hiding something important.
+1,has started talking to flora and fauna.
+1,is furtively burning documents.
+1,tells you where to get contraband goods.
+1,is lying dead at your feet.
+1,is blackmailing you.
+1,rapes a civilian, who comes to you for help.
+1,takes aim at you in the middle of a firefight.
+
+

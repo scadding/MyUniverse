@@ -1,0 +1,114 @@
+
+;Start
+1,[jPulpHeroNovel]
+
+;jPulpNoun
+1,Jackal
+1,Jaguar
+1,Jalopy
+1,Jar-Brain
+1,Jeopardy
+1,Jester
+1,Jet Pack
+1,Jewel
+1,Jig
+1,Jingoists
+1,Joker
+1,Journalist
+1,Judge
+1,Juggernaut
+1,Jumble
+1,Jump-Jet
+1,Juncture
+1,Jungle
+1,Jungle Lord
+1,Junk
+
+;jPulpAdjNegative
+1,Japanese
+1,Jade
+1,Jaded
+1,Jagged
+1,Jealous
+1,Jingoistic
+1,Jittery
+1,Judgmental
+1,Jugular
+1,Juicy
+1,Jumbo
+1,Jumbled
+1,Junky
+1,Jurassic
+1,Juxtaposed
+
+;jPulpAdjPositive
+1,Jaunty
+1,Jazzy
+1,Jockular
+1,Jolly
+1,Jovial
+1,Judicious
+1,Juicy
+1,Jumping
+1,Jungleborn
+1,Junkyard
+1,Just
+
+;jPulpMaleFirstName
+1,Jack
+1,Jason
+1,Jeeves
+1,Jeff
+1,Jerry
+1,Jet
+1,John
+1,Johnny
+1,Josh
+1,Junior
+
+;jPulpFemaleFirstName
+1,Jade
+1,Jamie
+1,Jan
+1,Jane
+1,Janie
+1,Jeanne
+1,Jen
+1,Jenna
+1,Jenny
+1,Jill
+1,Julia
+1,Jo
+1,Jo-Jo
+1,Joan
+1,June
+
+;jPulpLastName
+1,Jackson
+1,Jetpack
+1,Johnson
+1,Judo
+1,Juggs
+1,Juggler
+1,Jupiter
+1,Justice
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the Jaw-Dropping Jumble of the
+1,and the Jinx of the
+1,in:
+1,versus the
+1,and [jPulpAdjPositive] [jPulpMaleFirstName]'s 
+
+;pulpend
+1,[jPulpAdjNegative] [jPulpNoun]
+
+;jPulpHeroNovel
+10,[jPulpAdjPositive] [jPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[jPulpMaleFirstName] [jPulpLastName] [pulpmiddle] [pulpend]
+3,[jPulpAdjPositive] [jPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[jPulpFemaleFirstName] [jPulpLastName] [pulpmiddle] [pulpend]
+
+

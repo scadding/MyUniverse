@@ -1,0 +1,124 @@
+
+;Start
+1,<p><i>Just what is the situation that requires the protagonists' attention?</i></p>
+_<p>[problem]</p>
+_<br/>
+_<p><i>Who is most directly affected by the situation?  That doesn't always mean that they will need help from the protagonists, or necessarily welcome it if they do.</i></p>
+_<p>[affecting]</p>
+_<br/>
+_<p><i>Who or what is the driving force behind the situation?  This won't always mean they are the villain or the cause of the problem, but they will at least be a significant factor in having brought about events or in resolving them.</i></p>
+_<p>[antagonist]</p>
+_<br/>
+_<p><i>What compels the antagonist(s) or gave rise to the problem at hand?</i></p>
+_<p>[motivation]</p>
+_<br/>
+_<p><i>What caused the protagonists to get caught up in this situation?</i></p>
+_<p>[involved]</p>
+_<br/>
+_<p><i>Who else is involved in the situation or has a stake in the outcome of the adventure?</i></p>
+_<p>[whoelse]</p>
+_<br/>
+_<p><i>What else may turn up or have an impact?</i></p>
+_<p>[whatelse]</p>
+_<br/>
+_<p><i>How things can change when least expected.</i></p>
+_<p>[twists]</p>
+
+;problem
+2,'''Death''' - Someone or something is dead; maybe there's even multiple deaths.  Is it an investigation into a murder, a slaughtered village after rampaging invaders, or even a natural death that has sparked off an argument of inheritance or succession?
+2,'''Injustice''' - An act of injustice has or will be committed: the punishment of an innocent for a crime they didn't commit; a treasure taken from its rightful owners; oppression of a people under the heel of a merciless tyrant.
+2,'''Missing''' - Whatever it was, it's no longer where it should or used to be.  Maybe a theft of a priceless artefact, or maybe someone has not been seen for a long time.  A child wandering off into the woods?  An archaeological expedition that was expected home months ago? A seal on a portal or the door once barring access to a deeper dungeon? A previously caged beast, enhanced by experimental magic now on the loose?
+2,'''Monster''' - Probably the most common would be the rampaging beast terrifying or slaughtering the populace, or maybe someone has a creature imprisoned for pit fighting.  Maybe someone wants the protagonists to track down a rare creature for study, alchemy, or sport.
+2,'''Mystery''' - The bizarre, the unusual, or the unexplained.  What is the source of those mysterious lights in the night sky?  What is the purpose of this unearthed device?  Why, if you leave a wheel of cheese on the tree stump overnight will there be a pile of gold dust in its place come the morning?  If preferred, roll again on this table for a mystery revolving around another event: a second roll of Death could mean murder, while Plague or pestilence could be a new, unknown disease, for example.
+2,'''Plague or pestilence''' - A situation involving sickness or an infestation.  Are people ailing from some new disease resistant to the healing of clerics?  Or perhaps somewhere is being overrun by demonic rats.  Worse yet: both?
+2,'''Scarcity''' - Something is in short supply: a dwindling of a natural resource; a famine from fewer crops due to a harsh winter; the slow disappearance of magic from the world.
+2,'''Threatened''' - Something or someone is in danger.  Maybe a village needs protection from repeated raids by marauding orcs, or someone has been speaking out against a lord and now fears for their life.  Maybe something needs guarding as it passes through hostile territory: a trade caravan travelling through bandit country, or a military missive to be carrier through enemy lines.
+2,'''War''' - Hostilities have broken out, or are threatening to.  Perhaps it's not quite as large as a war between nations: maybe the war is between two merchants, families, guilds, or even individuals.
+1,[problem]</p><p>[problem]
+
+
+;affecting
+2,'''A guild or organisation''' - A group of people sharing common interests, such as a merchants' guild, a thieves' guild, or an adventurers' guild.
+2,'''Church''' - The situation affects a religious building or compound, or it affects a group or worshippers as a whole, such as all followers or devoted of a given deity or pantheon.
+2,'''City''' - Large, densely populated places: lots of people usually mean lots of things that can go wrong.
+2,'''Loner or individual''' - The hermits, isolated magic practitioners, wandering minstrels, and other people that hold themselves slightly apart from society, or are forced to.
+2,'''Magic''' - Something having an impact on magic in general, or on a specific group of magic users, such as a school for witches and wizards.
+2,'''Royalty or nobility''' - Someone with titles and land usually have a wide range of influence, and hence a lot of areas where there may be a concern.  Or maybe the problem involves a deposed or lost rightful heir?
+2,'''The protagonists''' - The issue directly affects one of the protagonists or the group as a whole.
+2,'''Village''' - It may be nothing more than a fly-speck on most maps, but a small gathering of people may have big problems.
+2,'''World''' - The situation is big and impacts the entire world, although in campaigns where travel is restricted, that might actually refer to just the continent instead of literally “the world”.  Or maybe the influence goes further, right up to a threat to the multiverse or facets of reality itself.
+1,[affecting]</p><p>[affecting]
+
+
+;antagonist
+2,'''A guild or organisation''' - Thieves' and Assassins' Guilds may make for good antagonists, but even merchants, tradesmen, or adventurers might have a stake in matters.
+2,'''A mad wizard''' - The traditional, archetypical evil sorcerer.
+2,'''Bandits or brigands''' - A group or rogues, thugs, and/or thieves.  Are they well organised with a long reach, or nothing more than a rag-tag group of opportunists, fugitives, or desperate good folks that have fallen in together?  Or perhaps they're a group of jovial highwaymen looking to redistribute economical resources on a fairer basis.
+2,'''Deity''' - Gods (or at least demi-gods) that meddle in the affairs of human(oid)kind.
+2,'''Monster(s)''' - Dragons, ogres, or less traditional monstrous entities pulled from your Monster Manuals or Bestiaries.
+2,'''Nature''' - The natural world is, in a sense, causing the problems.
+2,'''Outsider(s)''' - Demons, devils, or extra-planar creatures and beings.
+2,'''Royalty or nobilty''' - Lords, ladies, kings, queens, princes, princesses, barons, counts, dukes, etc.
+2,'''The authorities''' - People usually tasked with upholding the law of the land, such as guards, soldiers, or local constabulary.
+1,[antagonist]</p><p>[antagonist]
+
+;motivation
+2,'''Curiosity''' - It doesn't just kill cats (after all, a cat can frequently outclass a 1st level Wizard); has the curiosity gotten someone deep into trouble, or is satisfying their curiosity the reason for their eliciting aid from the protagonists?
+2,'''Fear''' - The last resort of a desperate man, or is it the sort of misplaced fear that leads to prejudice and persecution?
+2,'''Grief''' - The situation has come about because someone is grief stricken at a loss: maybe it's a recent death of a loved one, or maybe it's the loss of a memento or reputation.
+2,'''Jealousy''' - The Green-Eyed Monster rears its head: someone is envious of something that someone else has.  A rival for the affections of a beloved?  A longing for a vast fortune?  A coveting of oxen?
+2,'''Justice''' - Either rightly or wrongly, someone believes that what they are doing is right, at least morally if not necessarily legally.  Alternatively, someone could be adhering too rigidly to the letter of the law, rather than the spirit.
+2,'''Nature''' - This is just the way the world is, either the flora and fauna, or human nature.  Maybe someone is preparing for the end of their own natural lifespan, or just following their base instincts.
+2,'''Pride''' - Someone just can't admit they are wrong; a noble refuses to let the people see him lose face; an investigator too fixated on his own self-worth to accept help from the protagonists.
+2,'''Revenge''' - Apparently best served cold, but not everyone is always prepared to wait that long.  Is the revenge for an actual slight done to them, or merely a perceived one?
+1,[motivation]</p><p>[motivation]
+
+;involved
+1,'''A natural progression from their last adventure''' - It just follows on from what they were doing before in some way: maybe the villain escaped and is hatching a new plot, or the magical MacGuffin just discovered is needed for or causes the latest adventure.
+1,'''A note or map on a body''' - The protagonists may or may not have been implicit in the death, but some letter, treasure map, bounty notice, or shopping list sets them on the path to adventure.
+1,'''A rumour in a tavern''' - A bit of a cliché to meet a mysterious old man in an inn, but sometimes the classics work best.  Alternatively, maybe a performance of the bard catches the interest of the protagonists with mention of unclaimed fame and fortune.
+1,'''A vision, divination, or prophecy''' - Particularly easy with devout types like paladins, clerics, priests, or monks in the party, although a divine message could be given to any follower of that deity.  Sometimes the events may have been foretold in ancient scripture, or at least someone is determined to make that the case.
+1,'''A wanderer, drifter, or survivor''' - The stranger passed on the road with a story to tell or a problem to share, or the ragged, exhausted, and wounded man who makes it to the protagonists just in time to collapse.
+1,'''An open call for heroes''' - Posters are pinned to billboards while bards and minstrels proclaim the need throughout the land: someone–anyone–is needed to save the day.
+1,'''An order from a superior''' - If some or all of the protagonists are members of the military or a guild, their leader, commander, or some other position of authority has orders for them to handle the situation.  Perhaps their King requests their assistance, or a higher authority in the church sends the cleric or paladin on a mission.
+1,'''Family ties''' - It affects the family of one or more protagonists, and you wouldn't turn your back on family, would you?
+1,'''Randomly stumble right into the middle of things''' - The protagonists just happen to find themselves at the right place at the right time (or the wrong place at the wrong time) and get swept up in the proceedings.
+1,'''Someone sought them out specifically''' - Either the protagonists have garnered enough of a reputation to warrant being sought out individually for assistance, or something about the situation caused their names to be brought up, such as the wizard being regarded as an expert in a certain field, or an old war buddy suggesting the fighter as the one for the job.
+
+;whoelse
+2,'''A familiar face''' - Someone from the past returns: an old friend, or an old enemy?
+2,'''A guild or organisation''' - People of wealth, but usually fewer titles.
+2,'''Church''' - A religious order, group, or cult.
+2,'''Commoners''' - The average man on the street, or lower classes as a whole.  Are they innocent victims, dupes, or bystanders?  Or maybe someone has whipped them up into a frenzy and they have begun forming mobs.
+2,'''Rivals''' - Another group of adventurers, soldiers, investigators, or hunters: some group or individual that acts as competition to the protagonists.  They could be friendly and treat the contest as a way of honing all their skills, or perhaps they are merciless and cut-throat, proving there is no level to which they will not stoop to claim victory.
+2,'''Royalty or nobility''' - People of wealth and lots of titles.
+2,'''The authorities''' - Whatever passes as the law in the local area.  Maybe they are serving as an obstacle to the protagonists and their goals, or perhaps they can be of assistance.
+2,'''Undead''' - Could be anything from vampires or liches down to skeletons and zombies; something's active that should be resting.
+2,'''Wildlife''' - “Let my armies be the rocks and the trees and the birds in the sky...”
+1,[whoelse]</p><p>[whoelse]
+
+;whatelse
+2,'''A doomsday device''' - A MIMD (Magic Item of Mass Destruction): something with the ability to leave huge, smoking craters where cities once stood, if not wipe all life from the face of creation.
+2,'''A natural disaster''' - Floods, earthquakes, volcanoes, storms, and blizzards; all have occasion to put a crimp in adventurers' lives.
+2,'''A new race, culture, or creature''' - Something never before seen (or at least, recorded).  Has it gone undiscovered throughout the ages, or sprung up anew as a result of some other event?
+2,'''A portal, gateway, or door''' - Is it known what lies on the far side, or will it need to be explored?  Was it designed to keep something in (or out)?  Or does is just provide a handy short-cut?
+2,'''A talking or intelligent animal''' - A druid's animal companion?  A witch's familiar?  Part of the local fauna that has evolved sentience and language, perhaps due to magical fallout?
+2,'''A talking or intelligent magic item''' - If reality television has taught us anything, it's that “talking” does not necessarily indicate “intelligence”.  In seriousness: an intelligent item may be unable to speak, perhaps communicating via telepathy or merely able to give indications of its thoughts, as with the magic carpet in Disney's Aladdin.
+2,'''A vehicle or machinery''' - Either invented, uncovered, or something more conventional, such as a carriage, ship, or mill.
+2,'''Something thought forever lost''' - An ancient race or creature thought assigned to the annals of history; an ancient relic that was believed beyond the reach of mortals; an isolated or sealed off locale, a strange variant of magic unpractised and beyond understanding for centuries.
+2,'''The protagonists are under scrutiny''' - Someone (or something) is paying close attention to the dealings of the protagonists, perhaps because they are under suspicion, or maybe they are performing some manner of trial or audition.  Maybe they've just reached a level of celebrity where the entire town is prone to traipsing around after them.
+1,[whatelse]</p><p>[whatelse]
+
+;twists
+2,'''A change of heart''' - Someone decides to change their mind, maybe offering a chance at redemption.  Or perhaps they become even more callous and cruel.  Particularly unpleasant for adventurers when it's the person holding the purse strings changing their mind about paying you.
+2,'''A misunderstanding''' - Something was or is taken the wrong way, or someone gets the wrong end of the stick.  Sometimes it only takes a straightening out of the situation to resolve matters, but it's not always that easy.
+2,'''A puppet master''' - Someone else has ultimately been pulling the strings of individuals and setting events in motion.
+2,'''An unlikely alliance''' - Armies, nations, races, or individuals teaming up in pairings that you wouldn't usually expect, or sometimes even believe.
+2,'''It becomes a race''' - Achieving the goal before something else occurs becomes of the utmost importance: a race against time to find a cure, or a competition to down the fabled dragon before anyone else.
+2,'''Just a prelude''' - However bleak things seem right now, it's nothing compared to what's coming...
+2,'''The lesser of two (or more) evils''' - It's a lose-lose situation and it falls to the protagonists to decide between a rock and a hard place (doesn't it always?)
+2,'''The protagonists unwittingly caused it''' - Yep, turns out it's all your fault.  Whoops!
+2,'''The villain is the victim''' - Have they been set up to take the fall, or does it transpire that they are justified with their schemes?
+1,[twists]</p><p>[twists]
+
+

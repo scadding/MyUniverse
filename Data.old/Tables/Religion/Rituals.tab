@@ -1,0 +1,543 @@
+
+;Start
+2,[ritualStart] [eventAny] [riteClause].
+1,[privelegeClause] [someRites].
+
+;ritualStart
+1,It is customary
+1,It is expected
+1,There is a tradition 
+1,The old ways dictate 
+1,It is said to bring luck 
+1,It is proper and good
+1,The Ancients teach us 
+1,There is a custom among our people
+1,You are obliged
+1,It is blasphemy
+1,Some people say
+1,Amongst the lower classes
+1,It is inscribed in the Great Rock
+1,While among our people you should remember
+
+;riteClause
+1,to [riteAny]
+1,to [riteAny] and [riteAny]
+1,to [riteAny], [riteAny], and [riteAny]
+1,for a priest to [riteAny]
+1,to [riteAny] and for [officiator] to [riteAny] on behalf of those present
+1,everyone in the village should [riteAny]
+1,for a villager to [riteAny] with [officiator]
+1,to [riteAny] - fools and charlatans will [riteAny] to their great peril
+
+;someRites
+4,[riteAny]
+2,[riteAny] and [riteAny]
+1,[riteAny], [riteAny], and [riteAny]
+
+;officiator
+2,a priest
+1,a priestess
+1,a village elder
+1,an old woman
+1,a virgin priestess
+1,a blindfolded [manwoman]
+1,a crippled [manwoman]
+1,a [boygirl]
+
+;eventAny
+1,[goalEvent]
+1,[militaryEvent]
+1,[babyEvent]
+1,[marriageEvent]
+1,[buildingEvent]
+1,[astronomyEvent]
+1,[deathEvent]
+1,[adolescenceEvent]
+1,[womanEvent]
+1,[initiationEvent]
+1,[culturalEvent]
+1,[naturalEvent]
+1,[punishmentEvent]
+1,[supernaturalEvent]
+
+;goalEvent
+1,that to be cleansed from sin, it is required
+1,that before one may [privelegeAny], it is necessary
+1,that when a community is in turmoil, its elders need
+1,that in order to be considered ready to die, one should seek
+1,that to keep the sun in the sky, one must
+1,that to ensure the return of game, one must
+
+;militaryEvent
+1,when preparing for battle
+1,when victorious in battle
+1,when dishonored in battle
+1,when a treaty is signed
+1,when a conquered army surrenders their arms
+1,when a new military rank is achieved
+1,when an enemy appears
+1,when the enemy sounds fearful horns
+1,when accepting the surrender of a defeated enemy
+1,after retreating from battle
+1,when enlisting with the army
+1,when completing military service
+
+;supernaturalEvent
+1,when the corn crake warns of ghosts
+1,when the dead are restless in their graves
+1,when the moon devours the sun
+1,when a [children] is taken by the hidden people
+1,when a young [manwoman] is bitten by a goat
+1,when a [manwoman]'s mind is broken by evil
+1,when the storm ghosts howl
+1,when a burial mound is found empty
+1,when cat bones are scattered on the threshold
+1,when nets return malformed things from the sea
+
+;babyEvent
+1,after the birth of your first [children]
+1,after the birth of a [children]
+1,after the birth of a leader's [children]
+1,after the adoption of a [children]
+1,after a [children]'s first steps
+1,after a [children] is born under an evil sign
+1,if a child is stillborn
+
+;children
+2,child
+2,son
+2,daughter
+1,malformed monster
+1,changeling
+
+;boygirl
+1,boy
+1,girl
+
+;manwoman
+1,man
+1,woman
+
+;marriageEvent
+1,at the marriage of your first [children]
+1,at the marriage of your [children]
+1,when your [children] gets betrothed
+1,when your [children] gets engaged
+1,when a royal [children] gets betrothed
+1,when a royal [children] gets married
+1,when a name is chosen for a [children]
+1,when a man takes a new wife
+1,when a wife chooses her husband
+1,when the parents of children arrange their marriage
+1,when a [manwoman] wishes to lie with a [manwoman] 
+
+;buildingEvent
+1,when laying a cornerstone
+1,when dedicating a plot of land for building
+1,when dedicating [works]
+1,when commencing work on [works]
+1,when unveiling [works] for approval
+1,when clearing land for a building
+
+;astronomyEvent
+1,at the Vernal Equinox
+1,at the Summer Solstice
+1,at the Autumnal Equinox
+1,at the Winter Solstice
+1,at any Equinox or Solstice
+1,during a new moon
+1,during a full moon
+1,during a waxing moon
+1,during a waning moon
+1,when a comet is seen
+1,when a lunar eclipse occurs
+1,when a solar eclipse occurs
+1,when an eclipse occurs
+1,when the year dies
+1,when the sun dies
+1,when the moon mocks the earth
+1,when the stars go dark
+1,when the sun returns
+1,at sunrise
+1,at sunset
+
+;deathEvent
+1,after the death of one's [olderRelative]
+1,after the untimely or violent death of one's [olderRelative]
+1,when a king is killed in battle
+1,when a loved one is killed in battle
+1,after the death of a [children]
+1,if a [manwoman] touches a dead body
+
+;adolescenceEvent
+1,at the onset of puberty of a young [manwoman]
+1,at the menarche of a young woman
+4,on a young [manwoman]'s 1[Dice.digit]th birthday
+1,when a young [manwoman] is deemed ready to become an adult
+1,when a young man wishes to prove himself
+1,when a young [manwoman] chooses to follow the path of [List of gods.Start]
+1,during the period of apprenticeship
+1,while a young [manwoman] is learning to be a [Fantasy Profession.Start]
+
+;womanEvent
+1,after a young woman's first menses
+1,when a woman is pregnant
+1,after menopause
+1,after a woman gives birth to a [children]
+1,after a woman escapes the Fire
+1,on a [manwoman]'s [Dice.1d6][Dice.digit]th birthday
+
+;initiationEvent
+1,when entering the priesthood
+1,when becoming a warrior
+1,when joining a particular vocation
+1,when entering as an apprentice
+1,when joining a guild
+1,when joining a secret society
+1,at the completion of one's formal schooling
+1,when an [olderRelative] is bested in single combat
+1,when someone from another village comes to live with us
+
+;culturalEvent
+1,at the comemmoration of a great battle
+1,on the birthdate of a particular saint
+1,during the feast of St. [Catholic Saint Names.Start]
+1,at the coronation of a new king or queen
+1,when commemorating an ancestor
+1,when granting freedom to a slave
+1,when freeing a prisoner
+1,upon the sacrifice of an enemy general
+1,at the resumption of war after truce
+
+;naturalEvent
+1,at the time of sowing
+1,before the harvest
+1,when the harvest is finished
+1,when there has been no rain
+1,when there has been too much rain and floods threaten
+1,when one's [olderRelative] falls ill
+1,if one should fall ill
+1,if a quaking is felt in the ground
+1,if lightning strikes one's village
+1,if a black snake crosses snow
+1,if a doll's-eye berry touches bare skin
+1,when winter lingers
+1,when the sky groans with gallows-cries
+
+;punishmentEvent
+1,after a murderer is executed
+1,when a person is exiled
+1,when reconciling feuding families for the patriarchs of each
+1,when a person must be 'shunned'
+1,when disinheriting a [children]
+1,after a [manwoman] proves the [olderRelative] a traitor
+
+;olderRelative
+2,father
+2,mother
+1,aunt
+1,uncle
+1,grandfather
+1,grandmother
+1,village greybeard
+1,village crone
+1,older brother
+1,older sister
+1,older sibling
+1,relative
+1,kinsman
+
+;works
+1,a new palace
+1,a new temple
+1,a ship
+1,a military monument
+1,an offal-pit
+1,a slave pit
+1,a warding stone
+1,a pallisade
+1,a trading house
+1,a grist mill
+1,a stone circle
+1,the longhouse of a chief
+1,an aqueduct
+1,a bathhouse
+1,a ziggurat
+1,a shrine
+
+;riteAny
+5,[riteDestruction]
+10,[ritePurification]
+8,[riteBodyModification]
+8,[riteFoodDrink]
+8,[ritePerformance]
+6,[riteSacrifice]
+4,[riteNewness]
+5,[riteCompetitive]
+2,[riteSexual]
+5,[riteOther]
+1,[ritePunishment]
+
+;riteDestruction
+1,burn an effigy
+1,cut a ribbon or cord
+1,break a glass
+1,break a bottle of wine
+1,break a piece of pottery
+1,shatter a tortoise shell
+1,slay a prisoner
+1,hunt and slay the moon
+
+;riteBodyModification
+1,get a nose piercing
+1,get both ears pierced
+1,get a particular tattoo
+1,get ritual scarring
+1,completely shave all hair off
+1,paint the face
+1,smear the entire body with mud
+1,be circumcised
+1,be branded with a hot iron
+
+;ritePurification
+1,fast for [timePeriodShort]
+1,abstain from sex for [timePeriodLong]
+1,abstain from washing the body for [timePeriodLong]
+1,abstain from cutting the hair for [timePeriodLong]
+1,abstain from washing the hair for [timePeriodLong]
+1,abstain from speaking for [timePeriodAny]
+1,wash in a particular river
+1,be buried in the earth for [timePeriodShort]
+1,bathe in the ocean
+1,be anointed with fine oils
+1,be completely immersed in water
+1,walk across hot coals
+1,wear only [clothingRestriction] clothing for [timePeriodAny]
+1,wear no [clothingRestriction] clothing for [timePeriodAny]
+1,touch no metal for [timePeriodAny]
+1,wear uncomfortable clothing for [timePeriodAny]
+1,abstain from lighting fires for [timePeriodLong]
+1,bathe in filth for [timePeriodAny]
+1,not be allowed within the village for [timePeriodAny]
+1,sojourn in the wilderness for [timePeriodLong]
+1,wash the hands in blessed water three times
+4,wear only clothing of [clothingRestriction]
+
+;clothingRestriction
+2,[ClothingFemale.MaterialsCommon]
+1,[ClothingFemale.MaterialsFancy]
+5,[ClothingFemale.ClothingColors]
+2,[Utility.Cloth]
+;riteFoodDrink
+1,drink a lot of alcohol
+1,host a great feast
+1,host a feast where [FantasyMenu.Descriptor] [FantasyMenu.MainMeals] is served
+1,drink sacred wine
+1,partake of a particular narcotic drug
+1,partake of a particular hallucinogenic drug
+1,host a formal ball
+2,eat only [specificFood] for [timePeriodShort]
+2,refrain from eating [specificFood] for [timePeriodLong]
+
+;ritePerformance
+1,read a sacred text
+1,perform a particular dance
+1,perform a particular piece of theater
+1,sing a particular song
+1,perform sacred drumming
+1,have a procession
+1,pray publicly
+1,reenact a particular event
+1,assume the identity of a totem animal using masks and costumes
+1,dance naked around a fire
+1,jump over a fire
+1,tell a frightening story to the village youths
+1,spend a night howling at the moon
+1,be hypnotized
+
+;riteSacrifice
+3,sacrifice [sacrificialLivestock]
+1,sacrifice [sacrificialPerson]
+1,give a monetary offering to a temple of [List of gods.Start]
+1,give a food offering of [specificFood] to [List of gods.Start]
+1,give food to the poor
+1,mingle one's blood with that of an enemy in reconciliation
+1,give [sacrificialLivestock] to [officiator]
+1,drink the lifeblood of [sacrificialLivestock]
+1,drink the lifeblood of [sacrificialPerson]
+
+;riteNewness
+1,get a particular hairstyle
+1,be presented with new clothes
+1,exchange gifts with one's [olderRelative]
+1,give a gift to the [olderRelative]
+1,give gifts to those present
+1,exchange gifts
+1,get a new name
+1,light a new fire
+1,take a new vow
+1,learn a new secret handshake
+1,learn a new dance
+1,learn a new song
+1,make a new coat of [Utility.LeatherHide]
+1,make a new garment of [Utility.Cloth]
+
+;riteCompetitive
+5,participate in single combat against a wild beast
+2,participate in combat against a slave
+2,participate in combat against a prisoner
+2,participate in a footrace
+2,participate in a wrestling match
+3,participate in athletic contests
+2,participate in a shouting contest
+2,participate in a duel of poems
+1,participate in a series of difficult tasks
+
+;riteSexual
+1,have sex with a temple prostitute
+1,have sex with satyrs or nymphs
+1,give pleasure to a [manwoman]
+1,give pleasure to the woodland spirits
+1,have sex with a virgin [boygirl]
+
+;riteOther
+1,allow oneself to be possessed by spirits
+1,commune with the spirits of one's ancestors
+1,leave on a vision quest into the wilderness
+1,build a smoke lodge and seek a vision
+1,go on a pilgrimage to a sacred site
+1,participate in building a new house
+1,strip off all clothes
+1,rip off all clothes
+1,commit ritual suicide
+1,commit pretend ritual suicide
+1,exchange a young [manwoman] with that of another tribe or village
+1,go to see a fortune teller
+1,throw a coin into the sea
+1,bury a coin outside the village
+1,tell a secret to the sea
+
+;ritePunishment
+1,be tied to a post for [timePeriodShort]
+1,be flogged with [Dice.2d6] lashes
+1,be burned alive
+1,be stoned to death
+1,be pelted with rotten [Utility.Fruit]s
+1,cut off a finger
+1,cut off a toe
+1,be blinded
+1,be bled
+1,have the [Utility.LeftRight] eye put out with a burning stick
+
+;timePeriodAny
+1,[timePeriodShort]
+1,[timePeriodLong]
+
+;timePeriodShort
+1,a day
+1,[Dice.2d4] days
+1,a week
+1,a fortnight
+
+;timePeriodLong
+1,[Dice.2d4] weeks
+1,a month
+1,[Dice.2d4] months
+1,a year
+1,forty days and forty nights
+
+;sacrificialLivestock
+1,a goat
+1,a sheep
+1,an ox
+1,a horse
+1,a camel
+1,a dove
+1,a pair of doves
+1,a ram
+1,a duck
+1,a chicken
+1,a rooster
+1,a dog
+1,a cat
+1,a pig
+1,a goose
+1,a rabbit
+1,a mule
+
+;sacrificialPerson
+1,a maiden
+1,a young [manwoman]
+1,an old [manwoman]
+1,a slave
+1,a prisoner of war
+
+;specificFood
+1,[Utility.Fruit]s
+1,[Fantasy Farmstead.AgricultureProduct]
+1,[FantasyMenu.MainMeals]
+1,[FantasyMenu.Veggies]
+
+;privelegeClause
+2,Before a young man may [privelegeAny], he must
+2,Before a young woman may [privelegeAny], she must
+2,Before the Proxy God may [privelegeAny], he must
+1,If a man is found to be [tabooSexualMale]
+1,If a woman is found to be [tabooSexualFemale]
+1,If a man is found to be [tabooGeneral], he should
+1,If a woman is found to be [tabooGeneral], she should
+1,Thou shalt not [riteAny] unless thou first
+1,If perchance you should happen to [riteAny], you must also
+
+;tabooSexualMale
+1,lying with his [olderRelative], they both must
+1,in adultery with his neighbor's wife, they both must
+1,lying with beasts, he must
+1,guilty of corrupting a young woman, he must
+1,lying with another man, they both must
+1,the father of a child out of wedlock, he must
+1,seeking after the wife of another man, he must
+
+;tabooSexualFemale
+1,lying with her [olderRelative], they both must
+1,in adultery with an outsider, they both shall
+1,lying with beasts, she must
+1,guilty of corrupting a young man, she shall
+1,lying with another woman, they both must
+1,pregnant by man other than her husband, she should
+1,pregnant outside of marriage, she should
+
+;tabooGeneral
+1,worshipping the gods of another people
+1,bearing false witness
+1,disrespectful toward the village elders
+1,posessed of an evil spirit
+1,given to too much strong drink
+2,guilty of stealing [sacrificialLivestock]
+1,seeking after the dark mysteries and forbidden truths
+1,guilty of witchcraft
+1,giving the evil eye
+
+;privelegeAny
+1,have children
+1,drink alcohol
+1,consume ritual narcotics
+1,go hunting
+1,seek a mate
+1,vote in council
+1,bear weaponry
+1,wear a [Utility.Colors] garment
+1,own slaves
+1,go on a boat for the first time
+1,own livestock
+1,learn the secrets of the elders
+1,become associated with a totem animal
+1,own land
+1,parley with the dark one
+1,speak in the presence of a king
+1,be considered an adult in society
+1,leave the village
+1,marry an outsider
+1,[riteAny]
+
+

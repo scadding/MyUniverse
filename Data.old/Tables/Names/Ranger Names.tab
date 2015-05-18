@@ -1,0 +1,126 @@
+
+;Start
+1,[StartMale] (male)
+1,[StartFemale] (female)
+
+;StartNoLabel
+1,[StartMale]
+1,[StartFemale]
+
+;StartMale
+1,[TitleMale][StartNoTitle]
+
+;StartFemale
+1,[TitleFemale][StartFemaleNoTitle]
+
+;StartNoTitle
+20,[Fantasy Names.MaleFirstName] [Surname]
+
+;StartFemaleNoTitle
+20,[Fantasy Names.FemaleFirstName] [Surname]
+
+;Surname
+9,[Root I][Root II]
+1,[Root I][Root II]son
+1,Mac[Root I][Root II]
+
+;Root I
+1,Autumn
+1,Bear
+1,Black
+1,Blood
+1,Blue
+1,Dusk
+1,Eagle
+1,Field
+1,Fine
+1,Fire
+1,Fur
+1,Gold
+1,Green
+1,Hawk
+1,Hound
+1,Iron
+1,Keen
+1,Light
+1,Lightning
+1,Long
+1,Night
+1,Osprey
+1,Proud
+1,Quick
+1,Quiet
+1,Red
+1,Sharp
+1,Silent
+1,Silver
+1,Snap
+1,Snow
+1,Solemn
+1,Spring
+1,Steel
+1,Strong
+1,Swift
+1,White
+1,Winter
+1,Wolf
+
+;Root II
+1,arrow
+1,bolt
+1,bow
+1,claw
+1,dagger
+1,draw
+1,ear
+1,eye
+1,fang
+1,feather
+1,foot
+1,forest
+1,hatchet
+1,hood
+1,killer
+1,knife
+1,leaf
+1,load
+1,mark
+1,nock
+1,pelt
+1,runner
+1,quiver
+1,shadow
+1,shot
+1,slayer
+1,string
+1,talon
+1,tooth
+1,tree
+1,wood
+
+;TitleMale
+100,
+10,<b>Sir</b> 
+5,<b>Master Archer</b> 
+3,<b>Master Ranger</b> 
+2,<b>Master Fletcher</b> 
+2,<b>Scout Lord</b> 
+1,<b>Lord</b> 
+1,<b>Baron</b> 
+1,<b>Count</b> 
+1,<b>Duke</b> 
+1,<b>Ranger Prince</b> 
+1,<b>Ranger King</b> 
+
+;TitleFemale
+100,
+3,<b>Lady of the Wood</b> 
+3,<b>Lady of the Forest</b> 
+1,<b>Baroness</b> 
+1,<b>Countess</b> 
+1,<b>Duchess</b> 
+1,<b>Ranger Princess</b> 
+1,<b>Ranger Queen</b> 
+1,<b>Forest Queen</b> 
+
+

@@ -1,0 +1,851 @@
+#===Pulp Master Villain===
+#<sgdisplay iterations="1">[master] <br/><ul><li>[personality] <li> [Personality Generator.positive]-[Personality Generator.negative] #<li> [master_plan] </ul> </sgdisplay>
+#===Organization===
+#<sgdisplay iterations="1">[pulp villain organization.organization]</sgdisplay>
+#<sgdisplay iterations="1">[organization] </sgdisplay>
+#<sgdisplay iterations="1"><ul><li> [resources] </ul></sgdisplay>
+#
+#===Other Villains===
+#<sgdisplay iterations="9">[main]</sgdisplay>
+
+
+;Start
+1,[nationality] [archetype] Is Motivated by [motivation_main], which in turn affects the [aim_main] <br/>
+
+;master
+1,[nationality] [archetype] 
+
+;personality
+1,Is Motivated by [motivation_main], which in turn affects the [aim_main]
+
+;motivation_main
+3,sense of Duty and Honor
+1,need of Escape from present situation
+1,by dedication to Faith and inner Drive 
+3,need of Fame and Acknowledgement
+3,Love and Lust
+2,Wrath
+5,Greed
+3,feeling of Envy
+4,need of Power
+4,need of Revenge
+1,need of Survival in present situation
+2,quest for deeper Truth
+2,need of sense of Accomplishment
+2,Excitement 
+4,Fanaticims
+1,Self-Discovery
+1,Justice
+1,Redemption
+
+;master_plan
+1,Villains Current [mp_type] Master Plan is to [major_plan_1] the [major_plan_2] of the [target_plan]
+1,Villains Current [mp_type] Master Plot is to [major_plot_1] the [major_plot_2] in the [target_plot]
+1,Villains Current [mp_type] Aim is to [major_aim_1] the [major_aim_2] in the [target_aim]
+
+;major_plan_1
+1,Steal 
+1,Counterfeit 
+1,Destroy 
+1,Irradiate
+1,Purn
+1,Poison
+
+;major_plan_2
+1,Gold Reserve
+1,Famous Historical Artifact Collection
+1,World Famous collection of Paintings and other Arts   
+1,The Full Collected Works of World Class Author
+1,Cash 
+1,Government Obligations 
+1,Collection of Lost Plays of the most Prominent Playwright
+1,Crown Jewels
+1,Collection of Dresses from World Famous Designer with auction Planned
+1,Secret Defense Documents From the Defense Force of 
+1,Plans for new Wonder Weapon 
+1,Collection of Maps revealing the location of the Entrance to Hollow Earth 
+1,Collection of Maps revealing the location of the Lost City Of Gold
+1,Collection of Maps revealing the location of the Fountain Of Youth
+1,Collection of Maps revealing the location of the Secret Temple 
+1,Holy Religious artifact of the main Cathedral
+1,Collected Election Votes
+1,Worker Pay Delivery
+1,Stock Record 
+
+;target_plan
+1,City
+1,Nation
+1,Government
+1,Independent Group Dedicated to this Treasure
+1,Collector Treasuring this Wonder
+1,Internationally well Known Research Institute
+
+;mp_type
+1,Fiendish
+1,Evil
+1,Ruthless
+1,Insidious
+1,Most Cunning
+1,Cunning
+1,Sinister
+1,Mad
+1,Mysterious
+1,Horrible
+1,Fiendish
+1,Wicked
+
+;major_plot_1
+1,Poison
+1,Murder 
+1,Disease
+1,Mutate
+1,Imprison
+1,Take Hostage
+1,Burn
+1,Freeze
+1,Blind
+1,Deafen
+1,Kill
+1,Shrink
+1,Cover with Wax
+1,Disease with Rabies 
+1,Cover with Boils 
+1,Age
+1,Melt the Flesh out of the bones of 
+1,Destroy the Civility and the Modern Culture of
+1,Enslave
+1,Decivilize 
+1,Turn to Aggressive Nationalism
+1,Turn to Aggressive Nazism
+1,Turn to Aggressive Fascism
+1,Turn to Aggressive Communism
+
+;major_plot_2
+1,Elite
+1,Bankers
+1,Working Class
+1,Women
+1,Girls
+1,Men
+1,Children
+1,Beautiful Women
+1,Sportsmen
+1,Police
+1,Population
+1,Rich
+1,Powerfull
+1,Scientific Society
+1,Educated Elite
+1,Entertainers
+1,News People
+1,Refugees
+1,Aristocrats
+1,Servants
+1,Factory Workers
+1,Maids
+1,Ruling Council
+
+;target_plot
+1,City
+1,Neighborhood
+1,Major City (New York, Paris, London etc.) 
+1,Country
+1,Nation
+1,Centrum of The City
+1,Cathedral
+1,Skyscraper
+1,City Block
+1,Coastline
+1,Ship 
+1,Train
+1,Airoplane
+1,Zeppelin
+1,Near by City
+1,Near by Town
+1,Hospital
+1,Metro
+1,Holiday Park
+1,Major Event Location, like the Big Sport event
+1,Big Celebrity Event
+1,Political Party Event
+1,Election Day Gathering
+1,Celebration of National Event
+1,Carneval
+1,Opera
+1,Beach
+
+;aim_main
+2,Plotting to [plot_1] [plot_2]
+1,Planning to [plan_1] [plan_2]
+1,Aiming to [aim_1] [aim_2]
+
+;plan_1
+1,steal 
+1,hijack 
+1,counterfeit 
+1,rob 
+1,destroy 
+
+;plan_2
+1,revealing newspaper text
+1,famous artifact 
+1,famous painting  
+1,blood from blood bank 
+1,gold from repository 
+1,government obligations 
+1,famous play from prominent artist
+1,famous text from prominent writer
+1,The Crown Jewels
+1,famous dress from prominent designer 
+1,defense document from army
+1,plans for new wonder weapon 
+1,treasure map leading to lost temple
+1,religious artifact
+
+;plot_1
+5,murder 
+1,assassinate 
+3,poison 
+1,blow to kingdom come  
+1,disease 
+1,kidnap
+1,impersonate 
+1,to make go crazy from fear 
+1,corrupt with easy money 
+1,blackmail 
+1,terrorize 
+1,feed to dinosaurs 
+1,take prisoner and torture 
+1,enslave
+1,terrorize
+1,feed to undersea horrors 
+1,imprison
+
+;plot_2
+1,a celebrity 
+1,a [nationality] politician 
+1,a bank boss 
+1,a news reporter 
+1,an author 
+1,a [nationality] scientist 
+1,a doctor 
+1,an [nationality] ace pilot
+1,an archaeology professor
+1,an Egyptologist
+1,an explorer
+1,an heiress
+1,a movie starlet
+1,an oil magnate
+1,an opera star
+1,a playwright
+1,a police officer
+1,a smuggler
+1,a [nationality] spy
+2,the female population of the city
+2,the beautiful females of the city
+2,the male population of the city
+2,the most handsome males of the city
+2,the youth of the city
+1,the city council
+1,a rival organization 
+1,a labor union leader
+1,an industry leader
+1,the workers of the major local industry
+2,the most beautiful woman in city
+1,the police department
+1,the secret society of local elite
+1,the faculty of city's university 
+1,a secret weapon development team
+1,the Faculty of city hospital
+1,a governor 
+1,the newspaper personnel
+1,an influential family 
+1,a famous scientist 
+1,a city court 
+1,the members of foreign embassy  
+2,the population of the city 
+2,the people of the United States of America
+1,the leaders of government's secret service
+1,an officer
+2,the elite of the [nationality] military
+2,the president of the United States of America
+2,the supreme court of the United States of America
+2,the labor union leaders in the United States of America
+2,the congress of the United States of America
+2,the first lady of the United States of America's president 
+
+;aim_1
+1,initiate 
+1,reorganize 
+1,start 
+1,corrupt 
+1,end 
+1,rule 
+
+;aim_2
+1,new political movement
+1,new religious movement
+1,new technological revolution
+1,a social revolution
+1,a new aristocratic order
+1,a new monarchy
+1,a new mystical cult
+1,a major expedition to hidden land
+1,a colonial empire
+1,a mining expedition
+1,a population movement to relocate some aboriginal civilization
+1,an art movement
+1,a prohibition
+1,a medical experiment
+1,a psychological experiment
+1,a drug traffic ring
+1,a white slavery ring
+1,a counterfeit ring
+1,a mafia family
+1,a League of Assassins
+
+;organization
+1,Organization In development
+
+;resources
+1,Resources In development
+
+;nationality
+10,American 
+8,[european_nationality]
+6,[german_nationality]
+6,[oriental_nationality]
+6,[other_nationality]
+
+;archetype 
+1,Assassin ” '' [call_sign_part1] [call_sign_part2] ''” [assassin_type] and [headquarter_mundane]
+1,Big Game Hunter [exotic_help] and [headquarter_exotic] 
+1,Veteran Soldier of fortune and [headquarter_mundane]
+1,Cat Burglar ”''[call_sign_part1] [call_sign_part2]''” [headquarter_mundane] 
+1,Corrupt Civil Servant [headquarter_mundane]
+1,Crazed Inventor with [name_part1] [name_part2] and [headquarter_strange] 
+1,Crime Lord specializing [specialty] and [headquarter_mundane]
+1,Villainous Military Officer from [military] and [headquarter_strange]
+1,Cult Leader ”''[call_sign_part1] [call_sign_part2]''” [headquarter_cult]  
+1,Diabolical Mystic ”''[call_sign_part1] [call_sign_part2]''” [headquarter_exotic]
+1,Despot [strange], with collection of [collection] [exotic_help] and [headquarter_strange]
+1,Criminal Doctor [medical] ”''[call_sign_part1] [call_sign_part2]''” [headquarter_mundane]
+1,Entertainer turned a Criminal who [method] and [headquarter_mundane] 
+1,Exiled Tyrant [strange], who has hidden his identity behind the name ”''[call_sign_part1] [call_sign_part2] ''” [headquarter_strange]
+1,Femma Fatale [strange] and [headquarter_mundane]
+1,Great War Veteran-Flying Ace ”''[call_sign_part1] [call_sign_part2]''” [headquarter_strange]
+1,Gangster specializing [specialty] and [headquarter_mundane]
+1,Hellfire Minister [headquarter_cult]
+1,Hunter of Men [strange] and collection of [collection], [headquarter_strange]
+1,Hypnotist ”''[call_sign_part1] [call_sign_part2]''” [headquarter_strange]
+1,Jungle Lord [exotic_help] and [headquarter_exotic] 
+1,Jungle Queen [exotic_help] and [headquarter_exotic]  
+1,Mad Scientist With [name_part1] [name_part2] and [headquarter_mundane]
+1,Magician called ” '' [call_sign_part1] [call_sign_part2] ''” with collection of [collection], [headquarter_strange]
+1,Mystic ” '' [call_sign_part1] [call_sign_part2] ''” [headquarter_cult]
+1,Playboy [strange] [headquarter_mundane]
+1,Poisoner ” '' [call_sign_part1] [call_sign_part2] ''” [headquarter_mundane]
+1,Ruthless Tycoon [strange] [headquarter_mundane] 
+1,Spy ” '' [call_sign_part1] [call_sign_part2] ''” [headquarter_mundane]
+1,Terrorist ” '' [call_sign_part1] [call_sign_part2] ''” [headquarter_mundane]
+1,Collector of [collection] [headquarter_exotic]
+1,Exotic Shop Owner [strange] [headquarter_mundane]
+1,Dilettente, who is in truth an Alien Agent in secret mission from Mars, [headquarter_mundane] 
+1,Wealthy Media Magnate [headquarter_mundane]
+1,Member of Elite [strange] and collection of [collection], [headquarter_mundane]
+1,Anarchist [headquarter_mundane]
+1,Archeologist [strange] [headquarter_exotic]
+1,Criminal Mastermind ” '' [call_sign_part1] [call_sign_part2] ''” [headquarter_strange]
+1,Leader of Medical Institute with [medical] and [headquarter_mundane]
+1,Villainous Explorer and Slave Trader [headquarter_exotic]
+1,Leader of Espionage Agency [headquarter_mundane] 
+1,Wealthy member of City's High Society who is Member of International Secret Society of ” '' [call_sign_part1] [call_sign_part2] ''” with collection of [collection] [headquarter_mundane]
+1,Masked Criminal [masked] , uses the name ” '' [call_sign_part1] [call_sign_part2] ''” and [headquarter_strange]
+
+;medical
+1,medical specialty in plastic surgery
+1,medical specialty in brain surgery
+1,medical specialty in personality manipulation
+1,medical specialty in amputations
+1,medical specialty in psychological study of fear 
+1,medical specialty in psychological study of nightmares 
+1,medical specialty in psychological study of submission 
+1,medical specialty in psychological study of hypnosis
+
+;collection
+1,Humans in Wax
+1,Egyptean Artifacts 
+1,Atlantean Artifacts
+1,Beautiful Woman Captives
+1,Paintings about people in peril
+1,Old Mystical Tomes
+1,Artifacts of Historical or Mystical value
+1,Bones of Prehistoric Creatures
+1,Arheological findings
+1,Meteorite Rocks
+1,Strange Alien Plants
+1,Pictures of Savage people and the paintings and carvings in their lands
+1,Human Slaves
+1,Historical Artifacts and old Tomes
+1,Maps
+1,Jewels and Gems
+1,Odd Gadgets and Clockwork Wonders
+1,Miniature humans that almost seem alive
+
+;strange
+1,that Collects Disturbing Objects
+1,Dresses in Furs
+1,that has Aristocratic Bloodline and Manners
+1,with Outlandish Wine Collection
+1,with Uncanny taste for Art
+1,, with Looks that make the opposite gender go weak on knees, 
+1,with hypnotic Eyes
+1,with Satin voice
+1,with Wild looks
+1,with fabulous Wealth
+1,with Uncanny knack for Sport Cars
+1,with close connection to Militant Croups 
+1,with deep understanding in matters of Arcane
+1,with unique collection of Old Tomes
+1,with resources to acquire Strange Gadgets
+1,with old style Aristocratic Ambitions
+1,with disturbed sexuality
+1,with odd sense of humor
+1,with inhuman appetite for human Flesh
+1,with Sadistic tendencies 
+1,with history of Mental Illness
+1,with interest in Legends
+1,with unnatural fondness of Death Traps 
+1,with deep fondness for fencing 
+1,with immense interest in surgery and human internal anatomy 
+
+;masked
+1,, Self Stylized Fear Master
+1,, Self Stylized man-beast of animalistic features
+1,, Self Stylized Master of Plants 
+1,, Self Stylized Master of Animals
+1,doing flying Crimes with Rocket back
+1,and Master of Bizarre Circus
+1,and Master of Mirrors
+1,, Self Stylized Master of Radio
+1,, Self Stylized Master of Fire
+1,, Self Stylized Master of Ice
+1,, Self Stylized Master of Weather
+1,, Self Stylized Master of Radiation
+1,, Self Stylized Master of Poisons
+1,, Self Stylized Master of Mind
+1,, Self Stylized Master of Diseases
+1,, Self Stylized Master of Death Traps
+1,, Self Stylized Master of Riddles 
+
+;headquarter_mundane
+1,who has a Headquarter in old Family Mansion
+1,who has a Headquarter in top Floor of Skyscraper
+1,who has a Headquarter in Vast Country Mansion
+1,who has a Headquarter in top class Bar in City Centrum
+1,who has a Headquarter in hidden apartment in top class restaurant
+1,who has a Headquarter in old Post Office building
+1,who has a Headquarter in Harbor
+1,who has a Headquarter in City's Outskirts
+1,who has a Headquarter in City Centrum
+1,who has a Headquarter in Skyscraper
+1,who has a Headquarter in Vast Concrete bunker masked as a City Mansion
+1,who has a Headquarter in City Mansion
+1,who has a Headquarter in redesigned historical building
+1,who has a Headquarter in High Class Bar
+1,who has a Headquarter in Opera
+1,who has a Headquarter in Personal Museum
+1,who has a Headquarter in Personal Library
+1,who has a Headquarter in Ship in the Harbor
+1,who has a Headquarter in Mansion in the Woods
+1,who has a Headquarter in Mansion in the close by Swamp
+1,who has a Headquarter in Mansion in the Countryside
+1,who has a Headquarter in Mansion with fantastic Mirror Gallery
+1,who has a Headquarter in Mansion filled with secret doors and hidden rooms
+
+;headquarter_strange
+1,who has a Headquarter in top floor of Skyscraper
+1,who has a Headquarter in top floor of Skyscraper turned as old Roman Forum
+1,who has a Headquarter in top floor of Skyscraper turned as ancient Fighting Arena
+1,who has a Headquarter in top floor of Skyscraper turned as some scientific fiction area
+1,who has a Headquarter in old Mansion with hidden floors filled with strange equipment
+1,who has a Headquarter in old Mansion with hidden basement laboratories
+1,who has a Headquarter in hidden Zeppelin with collection of strange equipment
+1,who has a Headquarter in hidden Zeppelin that was taken from the Great War
+1,who has a Headquarter in abandoned Bar that has been turned to laboratory
+1,who has a Headquarter in Opera with its backroom turned to storehouse for inventions
+1,who has a Headquarter in Personal Museum
+1,who has a Headquarter in Personal Library
+1,who has a Headquarter in vast hidden Laboratory in the City
+1,who has a Headquarter in Cargo Ship in the Harbor
+1,who has a Headquarter in Mansion in the Woods
+1,who has a Headquarter in Abandoned Mansion in the close by Swamp
+1,who has a Headquarter in Mansion in the Countryside
+1,who has a Headquarter in Abandoned Mine
+1,who has a Headquarter in Mansion filled with secret doors and Death Traps 
+1,who has a Headquarter in Underground Bunker with Deathtrap pit and Prison Cells
+
+;headquarter_exotic
+1,who has a Headquarter in top floor of Skyscraper
+1,who has a Headquarter in top floor of Skyscraper turned into miniature Jungle
+1,who has a Headquarter in top floor of Skyscraper turned as old Roman Forum
+1,who has a Headquarter in top floor of Skyscraper turned as ancient Fighting Arena
+1,who has a Headquarter in old Mansion with rooms filled with exotic trophies
+1,who has a Headquarter in old Mansion with hidden slave quarters
+1,who has a Headquarter in old Mansion with underground fighting arena
+1,who has a Headquarter in old Mansion with underground animal pits
+1,who has a Headquarter in old Mansion with insides turned to exotic palace replicas
+1,who has a Headquarter in old Mansion with insides turned to an exotic art gallery
+1,who has a Headquarter in hidden Zeppelin masked as some exotic Flying Beast
+1,who has a Headquarter in High Class Bar filled with Exotic dancers and Slave-Girls
+1,who has a Headquarter in Casino with exotic Servants
+1,who has a Headquarter in Personal Museum dedicated to some foreign region
+1,who has a Headquarter in Personal Library with very exclusive admittance
+1,who has a Headquarter in vast hidden Temple in the City
+1,who has a Headquarter in Foreign Ship in the Harbor
+1,who has a Headquarter in Mansion in the Woods
+1,who has a Headquarter in Abandoned Mansion in the close by Swamp
+1,who has a Headquarter in Mansion in the Countryside
+1,who has a Headquarter in Abandoned Mine
+1,who has a Headquarter in Mansion filled with pits with Exotic Beasts and other Death Traps
+1,who has a Headquarter in vast hidden vault in the City, with slave pits and cages for slave-girls 
+1,who has a Headquarter in Temple in the City, with vast fighter arenas for captive fighters and beasts
+
+;headquarter_cult
+1,who has a Headquarter in top floor of Skyscraper
+1,who has a Headquarter in top floor of Skyscraper turned as ancient Fighting Arena
+1,who has a Headquarter in old Mansion with insides turned to exotic palace replicas
+1,who has a Headquarter in hidden Zeppelin masked as some exotic Flying Beast
+1,who has a Headquarter in old abandoned church that is turned to a cult hideout
+1,who has a Headquarter in old Mansion that is turned to a cult hideout
+1,who has a Headquarter in underground cavern that is turned to place for worship
+1,who has a Headquarter in underground cavern that is turned to hideout for cults strange creatures
+1,who has a Headquarter in Mountain house with hidden cult chapter
+1,who has a Headquarter in Mountain cavern with vast cult chapter
+1,who has a Headquarter in High Class Club house
+1,who has a Headquarter in Personal Museum for the cult members
+1,who has a Headquarter in Personal Library for the religion
+1,who has a Headquarter in Chapter house in City
+1,who has a Headquarter in Abandoned warehouse
+1,who has a Headquarter in Family home of dedicated member of the cult
+1,who has a Headquarter in vast hidden Temple in the City
+1,who has a Headquarter in Ship in the Harbor
+1,who has a Headquarter in Chapterhouse in the Woods
+1,who has a Headquarter in Chapterhouse in the close by Swamp
+1,who has a Headquarter in Chapterhouse in the Countryside
+1,who has a Headquarter in Chapterhouse in the Abandoned Mine
+1,who has a Headquarter in vast hidden vault in the City, with slave pits and cages for slave-girls 
+1,who has a Headquarter in Temple in the City, with vast fighter arenas for captive fighters and beasts, filled with Death Traps for those not of the Fate
+1,who has a Headquarter in hidden opium house in the City, with slave-girls and painted prostitutes for those of the True Fate
+1,who has a Headquarter in Temple Underground, with vast fire pits and gaping mouth of demonic face, waiting for hapless offerings to the Flaming Inferno inside
+
+
+;exotic_help 
+1,, accompanied by pair of Giant White Tigers,
+1,, accompanied by pair of Giant Tigers,
+1,, accompanied by pair of Giant Lions,
+1,, accompanied by pair of Giant Panthers,
+1,, accompanied by pair of Giant Black Panthers,
+1,, accompanied by pair of Giant White Gorillas, 
+1,, accompanied by pair of Giant Gorillas,
+1,, accompanied by Giant White Tiger,
+1,, accompanied by Giant Tiger,
+1,, accompanied by Giant Lion,
+1,, accompanied by pair of Giant Savage Bodyguards,
+1,, accompanied by pair of Hindu Bodyguards,
+1,, accompanied by pair of Slave-girls,
+1,, accompanied by pair of Courtesans,
+1,, accompanied by pair of beautiful female aides,
+1,, accompanied by pair of captives,
+1,, accompanied by pair of hidden Bodyguards armed with throwing daggers,
+1,, accompanied by pair of hidden Bodyguards armed blowpipes, 
+1,, accompanied by pair of hidden Bodyguards armed with poison gas pellets, 
+1,, accompanied by trained Serpents, 
+1,, accompanied by trained Snakes,
+1,, accompanied by Giant trained Snake,
+1,, accompanied by large group of Foreign Savages,
+1,, accompanied by large group of Foreign Slaves,
+1,, accompanied by large group of Foreign Cultists,
+1,, accompanied by large group of Foreign oiled performers of exotic flavor, 
+1,, with collection of rare gems, 
+1,, with fabulous collection of gold artifacts, 
+1,, with mystical pendant of strange origin, 
+1,, with strange collection of Unknown Plants, most those are Highly Poisonous,
+1,, armed with collection of Strange Weapons of foreign origin,
+1,, armed with collection of Old Weapons of foreign origin,
+1,, armed with collection of Highly Advanced Weapons of Unknown origin,
+1,, armed with collection of Mystical Weapons of Unknown origin,
+1,, armed with collection of Poisoned Weapons of foreign origin,
+
+;method
+1,uses his singing talent to manipulate human subconscious
+1,uses his singing talent to shatter glass
+1,uses his singing talent to ventriloquism feats
+1,uses his perfect control of voice to impersonate people  
+1,uses his dancing talent to perform as cat burglar 
+1,uses his dancing talent to perform as martial artist 
+1,uses his dancing talent to perform as contortionist 
+1,uses his acting talent to impersonate people
+1,uses his acting talent to disguise himself 
+1,uses his acting talent to disguise himself as female
+1,he paints masterful paintings that affect human subconscious 
+1,can use flute to affect human subconscious 
+1,can use flute to manipulate rodents
+1,can use flute to manipulate birds
+1,can use flute to manipulate snakes
+1,can use flute to manipulate tigers
+1,can use violin to affect human subconscious
+1,can use violin to manipulate rodents
+1,can use violin to manipulate birds
+1,uses his connections to affect social elite 
+1,uses his connections in theatre life to gain access to private homes 
+1,uses his connections to political life to gain perfect alibis 
+1,uses his connections to political life to affect social elite
+1,uses his fame to court rich widows 
+1,uses his fame to befriend important politicians
+1,makes films to cover his crimes
+1,makes films to gain access to his targets
+1,uses her singing talent to manipulate human subconscious
+1,uses her singing talent to shatter glass
+1,uses her singing talent to ventriloquism feats
+1,uses her perfect control of voice to impersonate people  
+1,uses her dancing talent to perform as cat burglar 
+1,uses her dancing talent to perform as martial artist 
+1,uses her dancing talent to perform as contortionist 
+1,uses her exotic dancing talent to seduce people 
+1,uses her acting talent to impersonate people
+1,uses her acting talent to disguise herself 
+1,uses her acting talent to disguise herself as male
+1,she paints masterful paintings that affect human subconscious 
+1,uses her connections to affect social elite 
+1,uses her connections in theatre life to gain access to private homes 
+1,uses her connections to political life to gain perfect alibis 
+1,uses her connections to political life to affect social elite
+1,uses her fame to court rich men 
+1,uses her fame to befriend important politicians
+
+;call_sign_part1
+1,The Amethyst
+1,The Amber
+1,The Azure
+1,The Brilliant
+1,The Bronze
+1,The Red
+1,The Black 
+1,The Green
+1,The Yellow
+1,The Blue
+1,The Crimson
+1,The Golden
+1,The Silver
+1,The Bloody
+1,The Master
+1,The Doctor
+1,The Baron
+1,The Iron
+1,The Brass
+1,The
+1,The Professor
+1,The Scarlet
+1,The Opal
+1,The Ebony
+1,The Evil
+1,The Invincible
+1,The Invisible 
+1,The Ivory
+1,The Jade
+1,The Nocturnal
+1,The Purple
+1,The White
+1,The Poison
+1,The Violet 
+1,The Father 
+1,The Brother
+1,Mister
+1,Mr 
+1,The Admiral
+1,Lord
+1,Count
+1,Captain
+1,Kapitan
+1,Kaiser
+
+;call_sign_part2
+1,Veil
+1,Mask
+1,Dagger
+1,Death
+1,Dragon
+1,Snake
+1,Tiger
+1,Bat
+1,Satan
+1,Stone
+1,Coin
+1,Claw
+1,Cobra
+1,Murder
+1,Shadow
+1,Demon
+1,Eye
+1,Hand
+1,Phantom
+1,Skull
+1,Hawk
+1,Hood
+1,Wolf
+1,Star
+1,Ace
+1,Devil
+1,Flame
+1,Flower
+1,Jewel
+1,Lantern
+1,Scythe
+1,Smoke
+1,Spear
+1,Sword
+1,Whip
+1,Talon
+1,Whisper
+1,Web
+1,Spider
+1,Scorpion
+1,Wasp
+1,Executioner
+
+;assassin_type
+1,, a leader of strong cult of assassins
+1,, a supreme Master in the Art of Strangulation, 
+1,, a supreme Master in the Art of Poisoning,
+1,, a supreme Master in the Art of Disguises,
+1,, a supreme Master in the Art of Killing with Poison Gasses,
+1,, a supreme Master in the Art of Electrocution,
+1,, a supreme Master in the Art of Thrown Daggers,
+1,, a supreme Master in the Art of Blowpipes,
+1,, a supreme Master in the Art of Time Bombs,
+1,, a supreme Master in the Art of Death Traps,
+
+;name_part1
+1,New 
+1,Wonder 
+1,Experimental 
+1,Revolutionary 
+1,Dangerous
+1,Fiendish
+1,Radio operated 
+1,Self Operating 
+1,Massive
+
+;name_part2
+1,Robot 
+1,Robots
+1,Robot Hand
+1,Flesh Burning Death Ray 
+1,Concrete Destroying Death Ray
+1,Iron Destroying Death Ray
+1,Melting Death Ray
+1,Freeze Ray
+1,Invisible Death Ray
+1,Sound Machine
+1,Radiovave Emitter that Disturbs Brains 
+1,Weapon
+1,Artificial Brains
+1,Artificial Man
+1,Artificial Woman
+1,Artificial Ape
+1,Tank 
+1,Armoured Car
+1,Cannon
+1,Plane
+1,Ship
+1,Zeppelin
+1,Drill
+1,Submarine
+1,Murder Machine 
+1,Surgical Equipment 
+1,Newspaper Press
+1,Death Trap
+
+;specialty
+1,Murder for Money
+1,Political Murder
+1,Blackmail
+1,Kidnapping 
+1,Extortion 
+1,Counterfeiting 
+1,Burglary
+1,Arson 
+1,Gambling
+1,Piracy
+1,Smuggling 
+1,Black Marketeering
+1,Fight Clubs
+1,Prostitution
+1,Human Trafficking
+1,Labor Racketeering
+1,Loan Sharking
+1,Tax Frauds 
+1,Death Traps
+
+;military
+1,Navy
+1,Veteran Infantry 
+1,Artillery Corps 
+1,Air Force
+1,Zeppelin Fleet
+1,Mountaineer Corps 
+1,Submarine Fleet
+1,Cavalry
+
+;european_nationality 
+6,British 
+6,French 
+4,Italian 
+1,Romanian 
+1,Hungarian 
+1,Creek 
+1,Polish 
+
+;german_nationality
+4,German 
+3,German Nazi 
+2,Prussian 
+1,Prussian Nazi  
+2,Bavarian 
+1,Bavarian Nazi 
+2,Hannoverian 
+1,Hanoverian Nazi 
+2,Austrian 
+1,Austrian Nazi 
+
+;oriental_nationality
+3,Egyptean
+3,Japanese 
+3,Chinese 
+1,Korean 
+3,Indian 
+1,Turkish 
+1,Arab 
+1,Mongol 
+1,Thai 
+1,Libyan 
+1,Palestenian  
+1,Tibetian 
+
+;other_nationality
+8,Russian
+1,Native American 
+1,North African 
+1,East African 
+1,West African 
+1,Central American 
+1,South American 
+1,South American Indian
+1,Near-Eastern 
+1,Mexican 
+1,Canadian 
+1,Ukrainian 
+1,Australian 
+
+

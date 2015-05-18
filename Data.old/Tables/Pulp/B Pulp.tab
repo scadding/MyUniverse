@@ -1,0 +1,146 @@
+
+;Start
+1,[bPulpHeroNovel]
+
+;bPulpNoun
+1,Baboon
+1,Bait
+1,Balloon
+1,Banditos
+1,Barmaid
+1,Battle
+1,Battleship
+1,Bear
+1,Beard
+1,Behaviour
+1,Betrayal
+1,Bile
+1,Bind
+1,Biplane
+1,Blackmailer
+1,Blimp
+1,Blonde
+1,Boat
+1,Bog
+1,Bomb
+1,Bootleggers
+1,Bother
+1,Boy
+1,Brain
+1,Bride
+1,Buccaneers
+1,Building
+1,Business
+
+;bPulpAdjNegative
+1,Barbaric
+1,Bavarian
+1,Bestial
+1,Beastly
+1,Belgian
+1,Bilious
+1,Bitter
+1,Black
+1,Blue
+1,Bohemian
+1,Bogus
+1,Boorish
+1,Bothersome
+1,Broken
+1,Bubonic
+1,Burly
+1,Busted
+
+;bPulpAdjPositive
+1,Bad-Luck
+1,Bad-News
+1,Beautiful
+1,Benevolent
+1,Biblical
+1,Big
+1,Big-Hearted
+1,Bold
+1,Bombastic
+1,Bona-Fide
+1,Bookish
+1,Brainy
+1,Brassy
+1,Brave
+1,Brilliant
+
+;bPulpMaleFirstName
+1,Barney
+1,Basil
+1,Ben
+1,Benny
+1,Bernie
+1,Bert
+1,Bertie
+1,Bertram
+1,Bill
+1,Billy
+1,Blaine
+1,Bobby
+1,Booker
+1,Boyd
+1,Bradley
+1,Brooks
+1,Bruce
+1,Bruno
+1,Bud
+1,Buddie
+1,Buddy
+1,Buford
+1,Bullwinkle
+1,Burt
+1,Buster
+1,Buzz
+1,Buzzy
+1,Byron
+
+;bPulpFemaleFirstName
+1,Barbie
+1,Beatrice
+1,Belle
+1,Bernadette
+1,Bernice
+1,Bertie
+1,Bess
+1,Bessie
+1,Bette
+1,Bettie
+1,Betty
+1,Beulah
+1,Billie
+1,Blanche
+1,Bobbie
+1,Bonnie
+
+;bPulpLastName
+1,Best
+1,Biplane
+1,Boon
+1,Breeze
+1,Bullhorn
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the Battle of the
+1,and the Baffling
+1,and the Brainteaser of the
+1,in:
+1,in Operation:
+1,versus the
+1,and [bPulpAdjPositive] [bPulpMaleFirstName]'s 
+
+;pulpend
+1,[bPulpAdjNegative] [bPulpNoun]
+
+;bPulpHeroNovel
+10,[bPulpAdjPositive] [bPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[bPulpMaleFirstName] [bPulpLastName] [pulpmiddle] [pulpend]
+3,[bPulpAdjPositive] [bPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[bPulpFemaleFirstName] [bPulpLastName] [pulpmiddle] [pulpend]
+
+

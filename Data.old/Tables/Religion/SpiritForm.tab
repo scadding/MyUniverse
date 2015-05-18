@@ -1,0 +1,338 @@
+
+;Start
+2,[HumanFormMain]
+2,[AnimalFormMain]
+1,[TwoSpirits]
+
+;DisplaySpirits
+1,[HumanFormMain]
+1,[AnimalFormMain]
+
+;TwoSpirits
+1,[HumanFormMain] [VerbTwoSpirits] [HumanFormMain]
+1,[HumanFormMain] [VerbTwoSpirits] [AnimalFormMain]
+1,[AnimalFormMain] [VerbTwoSpirits] [HumanFormMain]
+1,[AnimalFormMain] [VerbTwoSpirits] [AnimalFormMain]
+
+;HumanFormMain
+1,[HumanDescriptor] [HumanForm]
+1,[HumanDescriptor] [HumanForm] with [WithDescriptor]
+1,[HumanDescriptor] [HumanForm] [ActionDescriptor]
+1,a [HumanForm] with [WithDescriptor]
+1,a [HumanForm] [ActionDescriptor]
+1,a [HumanForm] with [WithDescriptor], [ActionDescriptor]
+
+;HumanFormMainMale
+1,[HumanDescriptor] [HumanFormMale]
+1,[HumanDescriptor] [HumanFormMale] with [WithDescriptor]
+1,[HumanDescriptor] [HumanFormMale] [ActionDescriptor]
+1,a [HumanFormMale] with [WithDescriptor]
+1,a [HumanFormMale] [ActionDescriptor]
+1,a [HumanFormMale] with [WithDescriptor], [ActionDescriptor]
+
+;HumanFormMainFemale
+1,[HumanDescriptor] [HumanFormFemale]
+1,[HumanDescriptor] [HumanFormFemale] with [WithDescriptor]
+1,[HumanDescriptor] [HumanFormFemale] [ActionDescriptor]
+1,a [HumanFormFemale] with [WithDescriptor]
+1,a [HumanFormFemale] [ActionDescriptor]
+1,a [HumanFormFemale] with [WithDescriptor], [ActionDescriptor]
+
+;AnimalFormMain
+1,[AnimalDescriptor] [AnimalForm]
+1,[AnimalDescriptor] [AnimalForm] with [WithDescriptor]
+1,a [AnimalForm] with [WithDescriptor]
+
+;HumanForm
+1,androgynous being
+1,hermaphrodite
+10,[HumanFormMale]
+10,[HumanFormFemale]
+1,figure
+1,four-armed humanoid
+
+;HumanFormMale
+1,man
+1,warrior
+1,sage
+1,child
+1,boy
+1,figure
+1,fatherly man
+1,beggar
+1,king
+1,lord
+1,brute
+1,young man
+1,old man
+1,[Fantasy Profession.maleanyclass]
+
+;HumanFormFemale
+4,woman
+1,pregnant woman
+1,warrior-maiden
+1,mother
+1,queen
+1,lady
+1,young woman
+1,maiden
+1,hag
+1,crone
+1,girl
+1,old woman
+
+;HumanDescriptor
+1,a bald
+1,a beautiful
+1,a bleeding
+1,a blindfolded
+1,a chained
+1,a crippled
+1,a crowned
+1,a dancing
+1,a fat
+1,a ghostly
+1,a haloed
+1,a hideous
+1,a howling
+1,a hunting
+1,a kneeling
+1,a maimed
+1,a masked
+1,a mechanical
+1,a monstrous
+1,a multi-armed
+1,a mummy-wrapped
+1,a naked
+1,a one-eyed
+1,a reclining
+1,a regal
+1,a robed
+1,a rotting
+1,a seated
+1,a serene
+1,a sickly
+1,a skeletal
+1,a sleeping
+1,a veiled
+1,a winged
+1,a wispy
+1,a wounded
+1,an ancient
+1,an angry
+1,an armored
+1,an attractive
+5,[Quick NPC.NPCDescriptor]
+
+
+;AnimalForm
+1,auroch
+1,bat
+1,bear
+1,bird
+1,boar
+1,camel
+1,cat
+1,crab
+1,crow
+1,crocodile
+1,dog
+1,dragon
+1,eagle
+1,elephant
+1,fish
+1,goat
+1,hawk
+1,horse
+1,jackal
+1,lion
+1,lizard
+1,monkey
+1,owl
+1,porpoise
+1,rabbit
+1,ram
+1,rat
+1,raven
+1,rhinoceros
+1,rooster
+1,scarab beetle
+1,scorpion
+1,shark
+1,snake
+1,spider
+1,stag
+1,tiger
+1,toad
+1,turtle
+1,unicorn
+1,wolf
+
+;AnimalDescriptor
+1,a beautiful
+1,a bleeding
+1,a blindfolded
+1,a chained
+1,a crowned
+1,a dancing
+1,a fat
+1,a fierce
+1,a haloed
+1,a hideous
+1,a huge
+1,a hunting
+1,a leaping
+1,a mechanical
+1,a monstrous
+1,a mummy-wrapped
+1,a one-eyed
+1,a rampant
+1,a howling
+1,a skeletal
+1,a sleeping
+1,a wild
+1,a wounded
+1,an ancient
+1,an angry
+
+;WithDescriptor
+1,a [AnimalForm]
+1,a fin like a shark
+1,a horn like a unicorn
+1,a tail and pincers like a scorpion
+1,a tail like a snake
+1,antlers like a stag
+1,bark for skin
+1,claws like a crab
+1,claws like a tiger
+1,cloven hooves
+1,ears like a rabbit
+1,ears like a rat
+1,eyes like a cat
+1,eyes like a spider
+1,feathers like a bird
+1,fins like a fish
+1,horns like a goat
+1,horns like a ram
+1,horns like a rhinoceros
+1,horns like an auroch
+1,leaves for hair
+1,roots trailing like a plant
+1,talons like an eagle
+1,tentacles like an octopus
+1,the comb of a rooster
+1,the ears and nose of a bat
+1,the face of a monkey
+1,the head and tail of a horse
+1,the head and tail of a monkey
+1,the head and tail of a rat
+1,the head of a bear
+1,the head of a camel
+1,the head of a cat
+1,the head of a crane
+1,the head of a crocodile
+1,the head of a dragon
+1,the head of a hawk
+1,the head of a jackal
+1,the head of a lion
+1,the head of a lizard
+1,the head of a rabbit
+1,the head of a raven
+1,the head of a rhinoceros
+1,the head of a snake
+1,the head of a swine
+1,the head of a tiger
+1,the head of a toad
+1,the head of a wolf
+1,the head of an auroch
+1,the head of an eagle
+1,the head of an elephant
+1,the head of an owl
+1,the scaly skin of a crocodile
+1,the shell of a turtle
+1,the tail of a scorpion
+1,tusks like a boar
+1,webbed feet like a toad
+1,whiskers like a cat
+1,flaming eyes
+1,cold deep eyes
+1,dark eyes
+1,brilliant eyes
+
+
+;ActionDescriptor
+1,holding a bird
+1,holding a book
+1,holding a bow
+1,holding a bowl
+1,holding a candle
+1,holding a club
+1,holding a compass
+1,holding a crown
+1,holding a dagger
+1,holding a disk
+1,holding a fan
+1,holding a feather
+1,holding a fish
+1,holding a goblet
+1,holding a hammer
+1,holding a knife
+1,holding a lantern
+1,holding a lotus
+1,holding a mask
+1,holding a mirror
+1,holding a parasol
+1,holding a pickaxe
+1,holding a scepter
+1,holding a scroll
+1,holding a scythe
+1,holding a set of scales
+1,holding a sheaf of wheat
+1,holding a shell
+1,holding a shield
+1,holding a skull
+1,holding a spear
+1,holding a sphere
+1,holding a spindle
+1,holding a staff
+1,holding a sword
+1,holding a torch
+1,holding a trumpet
+1,holding an anchor
+1,holding an ax
+1,holding an egg
+1,holding an infant
+1,holding an obelisk
+1,holding an olive branch
+1,holding an urn
+1,playing a flute
+1,playing a harp
+1,holding a [AnimalForm]
+1,riding a [AnimalForm]
+1,riding [AnimalDescriptor] [AnimalForm]
+1,wearing a cloak
+1,wearing a crown
+1,wearing a mask
+1,wearing an elaborate headdress
+1,wearing garlands of flowers
+1,wearing strings of beads
+1,breathing fire
+1,breating ice
+1,laughing uncontrollably
+1,screaming madly
+
+;VerbTwoSpirits
+1,embracing
+1,fighting
+1,kissing
+1,next to
+1,wrestling
+1,protecting
+1,being ridden by
+1,kneeling before
+1,giving birth to
+1,conjoined with
+1,perishing next to
+
+
+

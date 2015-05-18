@@ -1,0 +1,56 @@
+
+;Rank
+1,Ensign
+1,Lieutenant
+1,Lt Commander
+1,Commander
+1,Captain
+1,Admiral
+
+;Personal Development
+1,Strength
+1,Dexterity
+1,Endurance
+1,Intelligence
+1,Education
+1,Social
+
+;Service Skills
+1,Ships Boat
+1,Vacc Suit
+1,Fwd Observer
+1,Gunnery
+1,Blade Combat
+1,Gun Combat
+
+;Education
+1,Vacc Suit
+1,Mechanical
+1,Electronics
+1,Engineering
+1,Gunnery
+1,Jack of all trades
+
+;Advanced Education
+1,Medical
+1,Navigation
+1,Engineering
+1,Computer
+1,Pilot
+1,Admin
+
+@Muster Benefit
+1,Low Passage,0
+1,Intelligence
+1,Education,2
+1,[Traveller.Blade]
+1,Travellers Aid,0
+1,High Passage,0
+1,Social,2
+1,Cash,1000
+2,Cash,5000
+1,Cash,10000
+1,Cash,20000
+2,Cash,50000
+
+

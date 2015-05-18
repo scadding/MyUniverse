@@ -1,0 +1,104 @@
+
+;Start
+1,[hobby]
+
+;hobby
+2,[Collection]Collecting
+2,[Games]
+2,[Sports]
+1,Movies
+1,Music
+2,[Outdoors]
+1,Theater
+1,Travel
+1,Animal Rescue
+1,Mini Wargaming
+1,Trivia
+
+
+;Collection
+1,Coin 
+1,Stamp 
+1,Rare Book 
+1,Magazine 
+1,Figurine 
+1,Beanie Baby 
+1,Toy 
+1,Rock 
+1,Shell 
+1,Doll 
+1,Baseball Card 
+1,Autograph 
+
+;Games
+1,[Board Games]
+1,[Card Games]
+1,Roleplaying Games
+1,Computer Games
+
+;Board Games
+3,Chess
+1,Checkers
+2,Go
+1,German Board Games
+1,Board Games
+
+;Card Games
+3,[Poker]
+1,Blackjack
+1,Uno
+1,Illuminati
+2,Magic: the Gathering
+1,Card Games
+
+;Poker
+3,Texas Hold-em
+2,Five Card Draw Poker
+1,Seven Card Stud Poker
+1,Seven Card Draw Poker
+
+;Sports
+4,Watching [sport]
+1,Playing [noningsport]
+3,[ingsport]
+1,[sport]
+
+;sport
+1,[noningsport]
+1,[ingsport]
+
+;noningsport
+3,Baseball
+3,Football
+3,Basketball
+2,Golf
+1,Racquetball
+1,Pool
+2,Hockey
+1,Paintball
+1,Track and Field
+1,Sports
+
+;ingsport
+2,Auto Racing
+1,Horse Racing
+1,Bowling
+2,Professional Wrestling
+
+
+;Outdoors
+1,Hunting
+1,Fishing
+1,Camping
+1,Mountain Climbing
+1,Mountain Biking
+1,Biking
+1,Jogging
+1,Running
+1,Hiking
+1,Swimming
+1,Geocaching
+1,Nordic walking
+
+
+

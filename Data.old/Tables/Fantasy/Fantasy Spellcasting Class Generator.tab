@@ -1,0 +1,670 @@
+
+;Start
+1,'''Name:''' [MAGEname], [MAGEname], or [MAGEname]<br />'''Class Themes:''' [MAGEthemes], [MAGEthemes]<br />'''Key Abilities:''' [Primespellability], [Secondspellability]<br />'''Weapons:''' [spellweapons]<br />'''Armor:''' [spellarmor][spellshield]<br />'''Talisman:''' [talisman]<br />'''Hit Dice:''' [spellhitdice]
+
+1,'''Name:''' [CLERICname], [CLERICname], or [CLERICname]<br />'''Class Themes:''' [CLERICthemes], [CLERICthemes]<br />'''Key Abilities:''' [Primespellability], [Secondspellability]<br />'''Weapons:''' [spellweapons]<br />'''Armor:''' [spellarmor][spellshield]<br />'''Talisman:''' [talisman]<br />'''Hit Dice:''' [Priestspellhitdice]
+
+1,'''Name:''' [OTHERname], [OTHERname], or [OTHERname]<br />'''Class Themes:''' [OTHERthemes], [OTHERthemes]<br />'''Key Abilities:''' [Primespellability], [Secondspellability]<br />'''Weapons:''' [spellweapons]<br />'''Armor:''' [spellarmor][spellshield]<br />'''Talisman:''' [talisman]<br />'''Hit Dice:''' [Mixedspellhitdice]
+
+;Name
+1,[MAGEname]
+1,[CLERICname]
+1,[OTHERname]
+
+;MAGEname
+1,{{ucfirst: [pre][magecaster]}}
+1,{{ucfirst: [Elementalist]}}
+1,{{ucfirst: [magecaster]}}
+1,{{ucfirst: [pre][pre] [sepmagecaster]}}
+
+;CLERICname
+1,{{ucfirst: [pre][clericcaster]}}
+1,{{ucfirst: [pre][pre] [sepclericcaster]}}
+
+;OTHERname
+1,{{ucfirst: [pre][othercaster]}}
+1,{{ucfirst: [Specialist]}}
+1,{{ucfirst: [pre][pre] [sepothercaster]}}
+
+;Elementalist
+1,aero[mancer]
+1,air[caster]
+1,aqua[mancer]
+1,alche[mancer]
+1,alchemist
+1,archi[mancer]
+1,astro[mancer]
+1,conjurer
+1,cryo[mancer]
+1,crypto[mancer]
+1,earth[caster]
+1,elementalist
+1,enchanter
+1,evoker
+1,flame[caster]
+1,geo[mancer]
+1,hydro[caster]
+1,hydro[mancer]
+1,pyro[mancer]
+1,sorcerer
+1,tele[mancer]
+
+;caster
+1,bender
+2,caller
+3,caster
+2,chanter
+1,master
+
+;mancer
+3,mancer
+2,mage
+2,magus
+1,caster
+1,loger
+1,logist
+1,nomer
+
+;Specialist
+1,abjur[ist]
+1,abjur[ist]
+1,abjud[ist]
+1,alterer
+1,arcan[ist]
+1,augurer
+1,aura[mancer]
+1,avi[mancer]
+1,biblio[mancer]
+1,bio[mancer]
+1,channeler
+1,chiro[mancer]
+1,clairvoyant
+1,coercer
+1,contra[mancer]
+1,diviner
+1,fortuneteller
+1,golemancer
+1,illusionist
+1,mesmer
+1,necro[mancer]
+1,palmist
+1,reanim[ist]
+1,shapeshifter
+1,soothsayer
+1,telepath
+1,teleporter
+1,thaumaturge
+1,transmogrifier
+1,transmuter
+1,transmutationist
+
+;ist
+3,ist
+2,ator
+1,icator
+1,itor
+1,imist
+1,inist
+
+;Primespellability
+3,Intelligence
+3,Wisdom
+2,Charisma
+
+;Secondspellability
+3,Constitution
+3,Dexterity
+2,Strength
+
+;magecaster
+1,caller
+1,caster
+1,chanter
+1,lock
+1,mage
+1,witch
+1, Acolyte
+1, Adept
+1, Adherent
+1, Cultist
+1, Enchanter
+1, Initiate
+1, Master
+1, Sorcerer
+1, Summoner
+1, Warlock
+1, Wizard
+
+;clericcaster
+1,bishop
+1,caller
+1,chanter
+1,cleric
+1,druid
+1,friar
+1,fury
+1,healer
+1,mystic
+1,priest
+1,seer
+1,shaman
+1,zealot
+1, Acolyte
+1, Adept
+1, Adherent
+1, Arbiter
+1, Brother
+1, Crusader
+1, Cultist
+1, Druid
+1, Initiate
+1, Inquisitor
+1, Judge
+1, Keeper
+1, Priest
+1, Psalmist
+1, Redemptor
+1, Seer
+1, Shaman
+1, Sister
+1, Templar
+1, Warden
+
+;othercaster
+1,bard
+1,binder
+1,caller
+1,caster
+1,chanter
+1,druid
+1,hunter
+1,knight
+1,lock
+1,mage
+1,scream
+1,singer
+1,song
+1,witch
+1, Acolyte
+1, Adept
+1, Adherent
+1, Bard
+1, Cultist
+1, Defiler
+1, Dirge
+1, Illusionist
+1, Initiate
+1, Mageblade
+1, Magehunter
+1, Sorcerer
+1, Spellblade
+1, Spellsword
+1, Summoner
+1, Troubador
+1, Warlock
+
+;sepmagecaster
+1, Acolyte
+1, Adept
+1, Adherent
+1, Cultist
+1, Enchanter
+1, Initiate
+1, Master
+1, Sorcerer
+1, Summoner
+1, Warlock
+1, Wizard
+
+;sepclericcaster
+1, Acolyte
+1, Adept
+1, Adherent
+1, Arbiter
+1, Brother
+1, Crusader
+1, Cultist
+1, Druid
+1, Initiate
+1, Inquisitor
+1, Judge
+1, Keeper
+1, Priest
+1, Psalmist
+1, Redemptor
+1, Seer
+1, Shaman
+1, Sister
+1, Templar
+1, Warden
+
+;sepothercaster
+1, Acolyte
+1, Adept
+1, Adherent
+1, Bard
+1, Cultist
+1, Defiler
+1, Dirge
+1, Illusionist
+1, Initiate
+1, Mageblade
+1, Magehunter
+1, Sorcerer
+1, Spellblade
+1, Spellsword
+1, Summoner
+1, Troubador
+1, Warlock
+
+;pre
+4,[element]
+4,[concept]
+3,[material]
+3,[object]
+3,[color]
+2,[place]
+2,[beast]
+
+;element
+1,ember
+1,flame
+1,frost
+1,hoar
+1,ice
+1,inferno
+1,metal
+1,mind
+1,mirror
+1,mist
+1,spirit
+1,stone
+1,storm
+1,torrent
+1,umbral
+1,wave
+1,wind
+1,winter
+9,[Elements.4e]
+18,[Elements.all]
+
+;color
+1,red
+1,blue
+1,white
+1,black
+1,grey
+1,yellow
+1,green
+1,purple
+1,orange
+1,brown
+1,tan
+
+;concept
+1,anti
+1,bane
+1,battle
+1,chaos
+1,dark
+1,death
+1,doom
+1,heart
+1,law
+1,life
+1,moon
+1,night
+1,rage
+1,rune
+1,secret
+1,shadow
+1,soul
+1,star
+1,storm
+1,sun
+1,war
+
+;object
+1,amulet
+1,axe
+1,banner
+1,blood
+1,bone
+1,coin
+1,gem
+1,harp
+1,lyre
+1,shield
+1,spear
+1,sword
+1,token
+1,wand
+
+;place
+1,alley
+1,astral
+1,castle
+1,ethereal
+1,forest
+1,hedge
+1,moor
+1,mountain
+1,sea
+1,street
+1,swamp
+1,tower
+
+;beast
+1,ape
+1,bat
+1,bear
+1,beast
+1,beetle
+1,boar
+1,cat
+1,dragon
+1,eagle
+1,goblin
+1,griffin
+1,hawk
+1,hound
+1,lion
+1,owl
+1,phoenix
+1,rat
+1,raven
+1,serpent
+1,snake
+1,spider
+1,tiger
+1,wasp
+1,wolf
+1,worm
+
+;material
+1,steel
+1,bone
+1,wood
+1,brass
+1,iron
+1,stone
+1,fire
+1,silver
+1,lava
+1,dust
+1,bronze
+1,copper
+1,oak
+1,ash
+1,ivory
+1,mithril
+1,crystal
+1,glass
+1,ice
+1,horn
+1,frost
+1,scale
+1,obsidian
+1,shell
+1,diamond
+1,ruby
+1,emerald
+
+;spellthemes
+1,[MAGEthemes]
+1,[CLERICthemes]
+1,[OTHERthemes]
+
+;MAGEthemes
+1,Arcane
+1,Artifacts
+1,Cunning
+1,Chaos
+1,Dark
+1,Domination
+1,Elemental
+1,Feudal
+1,Fey
+1,Fiendish
+1,Influence
+1,Ki
+1,Law
+1,Light
+1,Lore
+1,Mundane
+1,Nature
+1,Occult
+1,Primal
+1,Runic
+1,Secret
+1,Shadow
+1,Unholy
+1,Urban
+
+;CLERICthemes
+1,Advocate
+1,Angelic
+1,Animist
+1,Artifacts
+1,Chaos
+1,Condemnation
+1,Conviction
+1,Dark
+1,Divine
+1,Eternity
+1,Feudal
+1,Fiendish
+1,Healing
+1,Heavenly
+1,Holy
+1,Ki
+1,Law
+1,Light
+1,Lore
+1,Martial
+1,Mundane
+1,Nature
+1,Occult
+1,Primal
+1,Redemption
+1,Runic
+1,Secret
+1,Unholy
+1,Urban
+
+;OTHERthemes
+1,Angelic
+1,Arcane
+1,Artifacts
+1,Augury
+1,Cunning
+1,Chaos
+1,Dark
+1,Demonic
+1,Divine
+1,Elemental
+1,Feudal
+1,Fey
+1,Fiendish
+1,Heavenly
+1,Holy
+1,Influence
+1,Ki
+1,Law
+1,Light
+1,Lore
+1,Martial
+1,Mundane
+1,Nature
+1,Occult
+1,Primal
+1,Runic
+1,Secret
+1,Shadow
+1,Shamanic
+1,Unholy
+1,Urban
+
+;spellweapons
+1,[usualweapons], [usualweapons]
+3,[usualweapons], [usualweapons], [usualweapons]
+2,[usualweapons], [usualweapons], [usualweapons], [usualweapons]
+1,[spellweapongroups]
+1,none
+
+;usualweapons
+1,handaxe
+3,dagger
+1,shortsword
+3,quarterstaff
+1,longsword
+1,flail
+1,mace
+1,hand crossbow
+1,club
+1,shortbow
+1,spear
+1,sling
+
+;spellweapongroups
+4,common weapons
+3,blunt weapons
+2,light weapons
+2,[Fantasy Combat Class Generator.combatweapons]
+
+;spellarmor
+4,none
+3,light armor
+2,non-metal armor
+1,medium armor
+
+;spellshield
+5,
+1,, light shield
+
+;spellhitdice
+4,d4 (d6-1)<br />'''Spell Selection:''' [d4spells]<br />
+4,d6 (d6)<br />'''Spell Selection:''' [d6spells]<br />
+2,d8 (d6+1)<br />'''Spell Selection:''' [d8spells]<br />
+
+;d4spells
+6,Broad<br />'''Favored Spell Schools:''' {{ucfirst:[Wizard schools.d20]}}, {{ucfirst:[Wizard schools.d20]}}, {{ucfirst:[Wizard schools.d20]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesB], [spellfeaturesB], [spellfeaturesC]<br />
+2,Narrow/Exclusive<br />'''Favored Spell Schools & Subschools:''' {{ucfirst:[Wizard schools.d20]}}, {{ucfirst:[Wizard schools.d20 variant sub]}}, {{ucfirst:[Wizard schools.d20 variant sub]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesA], [spellfeaturesB], [spellfeaturesB], [spellfeaturesC], [spellfeaturesC]<br />
+2,Narrow/Potent<br />'''Favored Spell Subschools:''' {{ucfirst:[Wizard schools.d20 variant sub]}}, {{ucfirst:[Wizard schools.d20 variant sub]}}, {{ucfirst:[Wizard schools.d20 variant sub]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesA], [spellfeaturesB], [spellfeaturesB], [spellfeaturesC]<br />
+
+;d6spells
+4,Broad<br />'''Favored Spell Schools:''' {{ucfirst:[Wizard schools.d20]}}, {{ucfirst:[Wizard schools.d20]}}, {{ucfirst:[Wizard schools.d20]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesB], [spellfeaturesC]<br />
+3,Narrow/Exclusive<br />'''Favored Spell Schools & Subschools:''' {{ucfirst:[Wizard schools.d20]}}, {{ucfirst:[Wizard schools.d20 variant sub]}}, {{ucfirst:[Wizard schools.d20 variant sub]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesA], [spellfeaturesB], [spellfeaturesB], [spellfeaturesC]<br />
+3,Narrow/Potent<br />'''Favored Spell Subschools:''' {{ucfirst:[Wizard schools.d20 variant sub]}}, {{ucfirst:[Wizard schools.d20 variant sub]}}, {{ucfirst:[Wizard schools.d20 variant sub]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesA], [spellfeaturesB], [spellfeaturesC]<br />
+
+;d8spells
+2,Broad<br />'''Favored Spell Schools:''' {{ucfirst:[Wizard schools.d20]}}, {{ucfirst:[Wizard schools.d20]}}, {{ucfirst:[Wizard schools.d20]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesC]<br />
+4,Narrow/Exclusive<br />'''Favored Spell Schools & Subschools:''' {{ucfirst:[Wizard schools.d20]}}, {{ucfirst:[Wizard schools.d20 variant sub]}}, {{ucfirst:[Wizard schools.d20 variant sub]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesB], [spellfeaturesB], [spellfeaturesC]<br />
+4,Narrow/Potent<br />'''Favored Spell Subschools:''' {{ucfirst:[Wizard schools.d20 variant sub]}}, {{ucfirst:[Wizard schools.d20 variant sub]}}, {{ucfirst:[Wizard schools.d20 variant sub]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesB], [spellfeaturesC]<br />
+
+;Priestspellhitdice
+4,d4 (d6-1)<br />'''Spell Selection:''' [Priestd4spells]<br />
+4,d6 (d6)<br />'''Spell Selection:''' [Priestd6spells]<br />
+2,d8 (d6+1)<br />'''Spell Selection:''' [Priestd8spells]<br />
+
+;Priestd4spells
+6,Broad<br />'''Favored Spell Spheres:''' {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesB], [spellfeaturesB], [spellfeaturesC]<br />
+2,Narrow/Exclusive<br />'''Favored Spell Spheres:''' {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesA], [spellfeaturesB], [spellfeaturesB], [spellfeaturesC], [spellfeaturesC]<br />
+2,Narrow/Potent<br />'''Favored Spell Spheres:''' {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesA], [spellfeaturesB], [spellfeaturesB], [spellfeaturesC]<br />
+
+;Priestd6spells
+4,Broad<br />'''Favored Spell Spheres:''' {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesB], [spellfeaturesC]<br />
+3,Narrow/Exclusive<br />'''Favored Spell Spheres:''' {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesA], [spellfeaturesB], [spellfeaturesB], [spellfeaturesC]<br />
+3,Narrow/Potent<br />'''Favored Spell Spheres:''' {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesA], [spellfeaturesB], [spellfeaturesC]<br />
+
+;Priestd8spells
+2,Broad<br />'''Favored Spell Spheres:''' {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesC]<br />
+4,Narrow/Exclusive<br />'''Favored Spell Spheres:''' {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesB], [spellfeaturesB], [spellfeaturesC]<br />
+4,Narrow/Potent<br />'''Favored Spell Spheres:''' {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}, {{ucfirst:[Priest spheres.Start]}}<br />'''Special Features:''' [spellfeaturesA], [spellfeaturesB], [spellfeaturesC]<br />
+
+;Mixedspellhitdice
+4,d4 (d6-1)<br />'''Spell Selection:''' [d4spells]<br />
+4,d6 (d6)<br />'''Spell Selection:''' [d6spells]<br />
+3,d4 (d6-1)<br />'''Spell Selection:''' [Priestd4spells]<br />
+3,d6 (d6)<br />'''Spell Selection:''' [Priestd6spells]<br />
+2,d8 (d6+1)<br />'''Spell Selection:''' [d8spells]<br />
+1,d8 (d6+1)<br />'''Spell Selection:''' [Priestd8spells]<br />
+
+;talisman
+3,[talisman types]
+1,[talisman types], [talisman types]
+
+;talisman types
+1,amulet
+1,familiar
+1,fetish
+1,grimoire
+1,key weapon
+1,medicine bag
+1,none
+1,orb
+1,rod or scepter
+1,spell components
+1,staff
+1,symbol
+1,wand
+
+;spellfeatures
+3,[spellfeaturesA]
+2,[spellfeaturesB]
+1,[spellfeaturesC]
+
+;spellfeaturesA
+1,bonus skill
+1,bonus language
+1,commanding presence
+1,magical guidance
+1,sanctum
+1,resistant to [resistances]
+1,bonus to [Wizard schools.d20] spells
+1,[spellfeaturesB]
+
+;spellfeaturesB
+1,bonus spell
+1,create temporary magical items
+1,curse
+1,immune to [immunity]
+1,innate spell
+1,magical perception
+1,magical protection
+1,potent spell
+1,resist magic
+1,(skill ability)
+1,[spellfeaturesA], [spellfeaturesA]
+1,[spellfeaturesC]
+
+;spellfeaturesC
+1,channel [Elements.4e] energy
+1,companion ([spellcompanion])
+1,create permanent magical items
+1,[Fantasy Combat Class Generator.combatfeatures]
+2,[spellfeaturesA], [spellfeaturesB]
+1,[spellfeaturesC],[spellfeaturesC]
+
+;spellcompanion
+1,intelligent talisman
+1,magical spirit
+1,mundane follower
+1,apprentice
+1,magical beast
+
+;resistances
+1,[Wizard schools.d20]
+1,[immunity]
+1,[Elements.4e]
+
+;immunity
+1,disease
+1,poison
+1,charm
+1,sleep
+1,fear
+1,damage
+4,[Elements.d20]
+
+

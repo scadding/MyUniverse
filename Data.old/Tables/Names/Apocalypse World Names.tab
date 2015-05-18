@@ -1,0 +1,674 @@
+
+;Start
+1,[metatable]
+
+;metatable
+1, [fromthebook]
+1, [uncommon]
+1, [surnames]
+1, [famous-historical]
+1, [antiquity]
+1, [biblical]
+1, [entertainers]
+1, [entertainers-musical]
+1, [science]
+1, [criminals]
+1, [presidential]
+1, [fictional]
+1, [nicknames]
+1, [roles-titles-jobs]
+1, [mythical-supernatural]
+1, [animals]
+1, [plants]
+1, [plants-flowers]
+1, [food]
+1, [brands]
+1, [brands-automotive]
+1, [things]
+1, [gemstones-precious-metals]
+1, [intangible]
+1, [emotions]
+1, [colors]
+1, [phrases-slang]
+1, [times-events]
+1, [places]
+
+;fromthebook
+1, Tum Tum
+1, Gnarly
+1, Fleece
+1, White
+1, Lala
+1, Bill
+1, Crine
+1, Mercer
+1, Preen
+1, Ik
+1, Shan
+1, Isle
+1, Ula
+1, Joe's Girl
+1, Dremmer
+1, Balls
+1, Amy
+1, Rufe
+1, Jackabacka
+1, Ba
+1, Mice
+1, Dog head
+1, Hugo
+1, Roark
+1, Monk
+1, Pierre
+1, Norvell
+1, H
+1, Omie Wise
+1, Corbett
+1, Jeanette
+1, Rum
+1, Peppering
+1, Brain
+1, Matilda
+1, Rothschild
+1, Wisher
+1, Partridge
+1, Brace Win
+1, Bar
+1, Krin
+1, Parcher
+1, Millions
+1, Grome
+1, Foster
+1, Mill
+1, Dustwich
+1, Newton
+1, Tao
+1, Missed
+1, III
+1, Princy
+1, East Harrow
+1, Kettle
+1, Putrid
+1, Last
+1, Twice
+1, Clarion
+1, Abondo
+1, Mimi
+1, Fianelly
+1, Pellet
+1, Li
+1, Harridan
+1, Rice
+1, Do
+1, Winkle
+1, Fuse
+1, Visage
+1, Enough-to-eat
+1, Barker
+1, Imam
+1, Bowdy
+1, Daff
+1, Exit
+1, Chin
+1, Look
+1, Shazza
+1, Fauna
+1, Sun
+1, Chack
+1, Ricarra
+1, Prim
+
+;uncommon
+1, Angelique
+1, Angus
+1, Annalise
+1, Anton
+1, Arkady
+1, Ariel
+1, Ash
+1, Basil
+1, Bigs
+1, Bree
+1, Casper
+1, Cassandra
+1, Charlie
+1, Clarise
+1, Deirdre
+1, Eli
+1, Floyd
+1, Holly
+1, Hubert
+1, Hugh
+1, Kay
+1, Kimber
+1, Kysa
+1, Lars
+1, Mike
+1, Miranda
+1, Mona
+1, Oscar
+1, Otto
+1, Penny
+1, Sid
+1, Sue
+1, Tina
+1, Trudy
+1, Victor
+1, Wallace
+
+;surnames
+1, Anders
+1, Booker
+1, Burke
+1, Byron
+1, Charleston
+1, Chavez
+1, Cousteau
+1, Crocker
+1, Cutter
+1, Dickson
+1, Digsby
+1, Dragin
+1, Dudley
+1, Dunn
+1, Ellis
+1, Fitz
+1, Fitzroy
+1, Griggs
+1, Harlowe
+1, Hoyt
+1, Lexington
+1, Peeler
+1, Price
+1, Rockwell
+1, Salvador
+1, Sloan
+1, Snyder
+1, Townsend
+1, Wilder
+
+;famous-historical
+1, Augustine
+1, Barack
+1, Carnegie
+1, Ellison
+1, Emmerson
+1, Fatima
+1, Henry Eight
+1, Ivan
+1, Keeton
+1, Lola
+1, Lucas
+1, Ludwig
+1, Mary Lou
+1, Napoleon
+1, Rolf
+1, Romney
+1, Ross
+1, Rutherford
+1, Shaka Zulu
+1, Shaw
+1, Ulysses
+
+;antiquity
+1, Aristotle
+1, Hannibal
+1, Philo
+1, Pilny
+1, Plato
+1, Zeno
+
+;biblical
+1, Abel
+1, Adam
+1,  Abraham
+1, Cain
+1, Baal
+1, Nimrod
+1, Noah 
+1, Zebedee
+1, Eve
+1, Lilith
+1, Hannah
+
+;entertainers
+1, Bergman
+1, Brooks
+1, Denzel
+1, Fonda
+1, Gibson
+1, Goldberg
+1, Hepburn
+1, Joss
+1, Lithgow
+1, Marylin
+1, Minnelli
+1, Oldman
+1, Pacino
+1, Romero
+1, Streisand 
+1, Van Dyke
+
+;entertainers-musical
+1, Amadeus
+1, Elton
+1, Halen
+1, Morrissey
+1, Ozzy
+1, Ringo
+1, Spears Ulrich 
+1, Zimmer
+
+;science
+1, Babbage
+1, Edison
+1, Lovelace
+1, Oppenheimer
+
+;criminals
+1, Bathory
+1, Bonnie
+1, Baby Face
+1, Barker
+1, Bugs
+1, Capone
+1, Clyde
+1, Creepy
+1, Dillinger
+1, Karpis
+1, Machine Gun Kelly
+1, Pretty Boy Floyd
+
+;presidential
+1, Adams
+1, Arthur
+1, Buchanan
+1, Bush
+1, Carter
+1, Cleveland
+1, Clinton
+1, Coolridge
+1, Eisenhower
+1, Fillmore
+1, Ford
+1, Garfield
+1, Grant
+1, Harrison
+1, Harding
+1, Hayes
+1, Hoover
+1, Jackson
+1, Jefferson
+1, Johnson
+1, Kennedy
+1, Lincoln
+1, Madison
+1, McKinley
+1, Monroe
+1, Nixon
+1, Obama
+1, Pierce
+1, Polk
+1, Reagan
+1, Roosevelt
+1, Taft
+1, Truman
+1, Tyler
+1, Van Buren
+1, Washington
+1, Wilson
+
+;fictional
+1, Bo Peep
+1, Buck
+1, Logan
+1, Faust
+1, Flash
+1, Helen
+1, Jigsaw
+1, Joker
+1, Juliet
+1,  Krueger
+1, Leatherface
+1, Lecter
+1, Leto
+1, Lil' Abner
+1, Logan
+1, Magnus
+1, Magus
+1, Miss Daisy
+1, Nosferatu
+1, Phobe
+1, Popeye
+1, Raggedy Ann
+1, Ripley
+1, Rogers
+1, Romeo
+1, Sadie Hawkins
+1, Tiny Tim
+1, Uncle Sam
+1, Uncle Tom
+1, Waldo
+1, Wayland-Yutani
+1, Wiley
+1, Xena
+
+;nicknames
+1, Ace
+1, Anarky
+1, Babycakes
+1,  Buddy
+1, Deadhead
+1, Deadmeat
+1, Dogpatch
+1, Dom
+1, Dusty
+1, Dynomite
+1, Fink
+1, Gordy
+1, Guy
+1, Hands
+1, Hotcakes
+1, Jubjub
+1, Lefty
+1, Lofty
+1, Missy
+1, Notch
+1, Pecker
+1, Pencil Neck
+1, Porky
+1, Prick
+1, Rebb
+1, Red
+1, Rico
+1, Righty
+1, Rover
+1, Spike
+1, Stinky
+1, Sweetness
+1, Thumper
+1, Tiny
+1, Toady
+1, Tootie
+1, Wilco
+1, Yokum
+
+;roles-titles-jobs
+1, Bishop
+1, Boss
+1, Butler
+1, Captain
+1, Child
+1, Dame
+1, Mall
+1, Moll
+1, Deacon
+1, Diva
+1, Elder
+1, Father
+1, Jefe
+1, Khan
+1, King
+1, Mama
+1, Maven
+1, Moll
+1, Papa
+1, Peasant
+1, Pitcher
+1, Plumber
+1, Queen
+1, Sarge
+1, Thane
+
+;mythical-supernatural
+1, Deus
+1, Djinn
+1, Genie
+1, Ghost
+1, Hera
+1, Incubus
+1, Isis
+1, Kali
+1, Puck
+1, Oberon
+1, Shiva
+1, Titania
+1, Zeus
+
+;animals
+1, Bear
+1, Birdie
+1, Bug
+1, Chicken
+1, Eel
+1, Fox
+1, Hawk
+1, 'Roo
+1, Koala
+1, Mantis
+1, Newt
+1, Possum
+1, Rabbit
+1, Roach
+1, Robin
+1, Rook
+1, Slug
+1, Swan
+1, Toad
+
+;plants
+1, Clove
+1, Ivy
+1, Peach
+
+;plants-flowers
+1, Orchid
+
+;food
+1, Cola
+1, Cream
+1, Jambalaya
+1, Sammich
+
+;brands
+1, Anchor Blue
+1, Ambercrombie
+1, Aeropostale
+1, Bondo
+1, Coors
+1, Hershey
+1, Ikea
+1, Jamba
+1, LoJack
+1, Long John Silvers
+1, Matell
+1, Quicksilver
+1, Sears
+1, Target
+1, Tonka
+1, Vuitton
+1, Twinkie
+
+;brands-automotive
+1, Audi
+1, Bently
+1, Caddy
+1, Chevy
+1, Chrysler
+1, Ford
+1, Lambo
+1, LaFayette
+1, Mercedes
+1, Porche
+1, Saab
+1, Shelby
+1, Volvo
+1, Pinto
+1, Vette
+1, Andretti
+
+;things
+1, Arrow
+1, Beam
+1, Bonsai
+1, Braille
+1, Cabana
+1, Condo
+1, Diaper
+1, Doodad
+1, Dumpster
+1, Ember
+1, Golf
+1, Gravel
+1, Hatchet
+1, Hotel
+1, Jacks
+1, Jellybean
+1, Key
+1, Kill Switch
+1, Lolly Pop
+1, Mall
+1, Merry-go-Round
+1, Meat
+1, Pepper
+1, Pet Rock
+1, Plank
+1, Pop
+1, Rivet
+1, Robot
+1, Rosary
+1, Runway
+1, Shiv
+1, Soap
+1, Snow
+1, Snowball
+1, Softball
+1, Staple
+1, Star
+1, Storm
+1, Tiki
+1, Tooth
+1, Torch
+1, Uniform
+1, Whiskey
+
+;gemstones-precious-metals
+1, Amethyst
+1, Beryl
+1, Citrine
+1, Diamond
+1, Garnet
+1, Gold
+1, Jade
+1, Jasper
+1, Obsidian
+1, Onyx
+1, Opal
+1, Pearl
+1, Quartz
+1, Sapphire
+1, Silver
+1, Topaz
+1, Turquoise
+
+;intangible
+1, Buzz
+1, Brink
+1, Charity
+1, Cypher
+1, Delta
+1, Echo
+1, Eclipse
+1, Envy
+1, Foursquare
+1, Foxtrot
+1, Grid
+1, Hazel
+1, Indigo
+1, Jazz
+1, Jubilee
+1, Karma
+1, Kilo
+1, Kiss
+1, Lease
+1, Love
+1, Mercy
+1, Meta
+1, Mono
+1, Morse
+1, North
+1, Peek
+1, Pick
+1, Pox
+1, Rental
+1, Sloth
+1, Stock
+1, Strip
+1, Tang
+1, Tango
+1, Umlaut
+1, X
+1, X-ray
+
+;emotions
+1, Fear
+1, Joy
+1, Rage
+1, Sorrow
+
+;colors
+1, Azure
+1, Chrome
+1, Fuchia
+1, Hazel
+1, Indigo
+1, Lavender
+1, Magenta
+
+;phrases-slang
+1, All You Can Eat
+1, Awesome
+1, The Bomb
+1, Bravo
+1, Bust
+1, Eager Beaver
+1, Dammit
+1, Gams
+1, Gone
+1, Gung Ho
+1, Ipso Facto
+1, Joy  Ride
+1, Lorem Ipsum
+1, Naked
+1, No One
+1, Toots
+1, Tootsie
+1, Word
+
+;times-events
+1, April
+1, August
+1, Birthday
+1, February
+1, Christmas
+1, December
+1, Holiday
+1, January
+1, July
+1, June
+1, March
+1, May
+1, New Year
+1, November
+1, October
+1, September
+
+;places
+1, Canaveral
+1, Louvre
+1, Motown
+1, Uptown
+1, Downtown
+
+
+

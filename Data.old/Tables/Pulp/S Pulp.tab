@@ -1,0 +1,106 @@
+
+;Start
+1,[sPulpHeroNovel]
+
+;sPulpNoun
+1,SEALs
+1,Sign
+1,Signet
+1,Singers
+1,Sisters
+1,Skunk
+1,Slinky
+1,Spam
+1,Spell
+1,Spelunker
+1,Spoon
+1,Spork
+1,Spirits
+1,Spice
+1,Sprite
+1,Steps
+1,Storm
+1,Strippers
+
+;sPulpAdjNegative
+1,Sad
+1,Salivating
+1,Sappy
+1,Sedendary
+1,Seductive
+1,Slick
+1,Slimy
+1,Smelly
+1,Spiteful
+1,Sunken
+
+;sPulpAdjPositive
+1,Safety
+1,Sage
+1,Selective
+1,Smart
+1,Smashing
+1,Special
+1,Speedy
+1,Spicy
+1,Spry
+1,Spunky
+1,Storming
+1,Super
+1,Superlative
+
+;sPulpMaleFirstName
+1,Sal
+1,Sam
+1,Samuel
+1,Sean
+1,Shaun
+1,Shawn
+1,Sheldon
+1,Simon
+1,Steve
+1,Steven
+
+;sPulpFemaleFirstName
+1,Sadie
+1,Sarah
+1,Sharon
+1,Sheila
+1,Shellie
+1,Simone
+1,Susan
+1,Suzie
+
+;sPulpLastName
+1,Skull
+1,Slaughter
+1,Slayer
+1,Slicer
+1,Smasher
+1,Smiter
+1,Spade
+1,Spears
+1,Splice
+1,Sting
+1,Stinger
+1,Stripe
+1,Storm
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the Slaying of the
+1,in:
+1,smashes the
+1,and [sPulpAdjPositive] [sPulpMaleFirstName]'s 
+
+;pulpend
+1,[sPulpAdjNegative] [sPulpNoun]
+
+;sPulpHeroNovel
+10,[sPulpAdjPositive] [sPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[sPulpMaleFirstName] [sPulpLastName] [pulpmiddle] [pulpend]
+3,[sPulpAdjPositive] [sPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[sPulpFemaleFirstName] [sPulpLastName] [pulpmiddle] [pulpend]
+
+

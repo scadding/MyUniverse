@@ -1,0 +1,246 @@
+
+;Start
+6,A[personality] [profession] [personal goal]
+1,[pulp hero] [personal goal]
+
+;personality
+1,n alien
+1,n arrogant
+1, book-smart
+1, brawny
+1, brave
+1, bumbling
+1, chain-smoking
+1, clever
+1, cocky
+1, compassionate
+1, conniving
+1, corrupt
+1, cowardly
+1, crazed
+1, cunning
+1, cynical
+1, down on their luck
+1, embittered
+1, debonair
+1, delusional
+1, determined
+1, disgraced
+1, foolhardy
+1, foolish
+1, foppish
+1, forlorn
+1, former
+1, grim
+1,n ingenious
+1, hapless
+1, hard-drinking
+1, hard-eyed
+1, humble
+1, jaded
+1, lovelorn
+1, lustful
+1, lying
+1, mean
+1, mighty-thewed
+1, misguided
+1, mysterious
+1, naive
+1, noble
+1, notorious
+1, optimistic
+1, patriotic
+1, pious
+1, remorseful
+1, rough-looking
+1, ruthless
+1, sharp-witted
+1, shell-shocked
+1, silver-tongued
+1, smarmy
+1, spunky
+1, street-wise
+1, tough
+1, two-fisted
+1,n unflinching
+1, wealthy
+1, vengeful
+1, very rich
+1, washed-up
+1, well-meaning but dull-witted
+1, wise
+1, wise-cracking
+1, young and silly
+
+
+;profession
+1,ace pilot
+1,admiral of the Zeppelin Armada
+1,adventurer
+1,amateur boxer
+1,Amazon queen
+1,archaeology professor
+1,aviator
+1,barbarian
+1,barnstormer
+1,bartender
+1,bootlegger
+1,boxer
+1,brain in a jar with a robotic body
+1,cattle rustler
+1,con man
+1,crime-fighting master criminal
+1,criminal
+1,dope runner
+1,ex-con
+1,ex-cop
+1,Egyptologist
+1,explorer
+1,fighting man of Mars
+1,gumshoe
+1,gunslinger
+1,heiress
+1,hustler
+1,insurance adjustor
+1,inventor
+1,jungle lord
+1,marine
+1,martial-artist
+1,mastermind
+1,mercenary
+1,mechanic
+1,merchant seaman
+1,millionaire/vigilante
+1,mobster
+1,movie starlet
+1,newspaper delivery boy
+1,newspaper reporter
+1,oil magnate
+1,opera star
+1,orphan
+1,petty thief
+1,private dick
+1,philanthropist
+1,playboy
+1,playwright
+1,police officer
+1,American President
+1,priest
+1,private detective
+1,prospector
+1,prostitute
+1,rocket scientist
+1,seductress
+1,singing cowboy
+1,smuggler
+1,soldier
+1,soldier of fortune
+1,space explorer
+1,space ranger
+1,spy
+1,talking beast
+1,two-bit hood
+1,vampire hunter
+1,zeppelin pilot
+
+
+;personal goal
+4,is seeking the [legendary location].
+1,is trying to get a date.
+1,is hoping to undo the tragedy he has wrought.
+1,is looking for redemption.
+1,is out for revenge.
+1,is trying to prove himself to his unrequited love.
+1,is searching for a holy relic.
+1,is masquerading as a[personality] [profession] who is the heir to a fortune.
+1,is planning the heist of the decade.
+1,is looking to take over a powerful crime syndicate.
+1,is reduced to stealing to survive.
+1,is trying to outrun his past.
+1,is trying to get back at the thugs who framed him for their crime.
+1,is trying to smuggle contraband across carefully guarded borders.
+1,is looking for the men who killed his only love.
+1,is in a no-holds-barred race around the world.
+1,is scheming to shut down the local criminals by pitting them against each other.
+1,is hunting a legendary beast in the African Wilds.
+1,must explore every undocumented corner of the world and worlds.
+1,must fight tyranny wherever it threatens freedom.
+1,must defend the weak against those who would bleed the city dry.
+1,must make sure ma and pa are proud.
+1,must travel to the past in order to save the present from the vicious future!
+1,must defeat their evil twin at every turn so that their powers are not turned to evil.
+1,must prevent World War II from becoming a grim reality.
+1,must destroy and drive back the cannibal aliens released into the world from Bunker 13.
+1,must save the world and be back in time for supper.
+1,must save humanity from [evil].
+1,must thwart [evil] even if it costs them their life.
+1,must use super science to make the world a better place.
+1,must find the legendary Necronomicon.
+1,must defeat the legions of living skeletons unleashed by the insidious Thulsa Doom.
+1,must find a cure for the Purple Plague released by the Insidious Dr. Fu Man Chu.
+1,must stop a plot by [evil] to resurrect [historical villain].
+ 
+;legendary location
+1,[Pulp Location.Start]
+
+;evil
+1,alien invaders
+1,an ancient evil
+1,an Axis plot
+1,Dracula
+1,Dr. Fu Man Chu
+1,a coven of evil witches
+1,a doomsday cult
+1,a greedy corporation
+1,the great Cthulhu
+1,hordes of vampires
+1,an international terrorist organization
+1,the living mummy Im-Ho-Tep
+1,a mad scientist
+1,a madman
+1,a mysterious threat
+1,a powerful sorcerer
+1,a pack of werewolves
+1,a power hungry politician
+1,a ruthless drug lord
+1,a Satanic cult
+1,a sinister secret society
+1,a warlike dictator
+1,brain-eating zombies
+1,a government produced super-virus
+1,a secret society known as [Secret Society Name.Start]
+1,the ghost of [historical villain]
+
+;historical villain
+1,Adolph Hitler
+1,Al Capone
+1,Bluebeard
+1,Caligula
+1,Genghis Khan
+1,Idi Amin
+1,Ivan the Terrible
+1,Jefferey Dahmer
+1,Jesse James
+1,Mussolini
+1,Oliver Cromwell
+1,Pol Pot
+1,Saddam Hussein
+1,Stalin
+1,Vlad the Impaler
+
+;pulp hero
+1,Doc Savage, the Man of Bronze,
+1,The Shadow
+1,John Carter, the Warlord of Mars,
+1,Flash Gordon
+1,Tailspin Tommy
+1,G-8 and his Battle Aces
+1,Sheena, Queen of the Jungle,
+1,Ka-Zar the Great
+1,Tarzan the Ape Man
+1,Conan the Barbarian
+1,Dan Turner, Hollywood Detective
+1,Zorro
+
+
+

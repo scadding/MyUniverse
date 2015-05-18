@@ -1,0 +1,85 @@
+
+;Start
+1,[Trap] [PossibleExtraCondition]
+
+;PossibleExtraCondition
+100,
+60,- [ExtraCondition]
+
+;Trap
+2,[TrapContents] inside [TrapAdverb] hidden pits
+2,[TrapTriggers] connected up to [TrapMissiles]
+2,[TrapSnappers] ready to close on whatever steps inside
+1,a room that [roomtrap]
+
+;TrapSnappers
+1,gaping steel jaws
+1,a sturdy cage
+1,a rope noose
+
+;TrapAdverb
+4,cleverly
+1,badly
+2,nearly
+
+;TrapContents
+3,[TrapContentsAnimate]
+5,[TrapContentsInanimate]
+1,[Trap]
+
+;TrapContentsAnimate
+1,snakes
+1,scorpions
+1,spiders
+1,oozes
+
+;TrapContentsInanimate
+1,spikes
+1,poison
+1,acid
+1,glue
+1,slime
+
+;TrapTriggers
+1,tripwires
+1,pressure plates
+1,magical sensors
+
+;TrapMissiles
+1,auto-crossbows
+1,spring-loaded spears
+1,rotary saw blades
+1,pendulum blades
+1,flame jets
+1,elecical shock generators
+1,falling rocks
+1,poisoned darts
+
+;roomtrap
+1,crushes those who enter
+1,seals itself and is filled with water
+1,has reversed gravity and [TrapContentsInanimate] on the ceiling
+
+;ExtraCondition
+1,one obvious way of disarming the trap is itself a trap
+1,[Steam]
+1,setting off the trap alerts someone elsewhere
+1,all enemy combatants are well-prepared for the trap and it cannot harm them
+1,sprays [HarmfulLiquid] nearby
+1,requires two simultaneous, far apart actions to safely disarm
+
+;HarmfulLiquid
+1,acid
+1,glue
+1,foul-smelling gunk
+1,sauce which makes the victim smell delicious to monsters
+1,flaming oil
+1,contact poison
+
+;Steam
+5,clouds of steam are produced, lightly obscuring vision
+3,billows of steam are produced, heavily obscuring vision
+1,masses of steam are produced, blinding everyone
+1,clouds of acidic vapor are produced, burning everybody
+
+

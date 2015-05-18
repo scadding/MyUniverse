@@ -1,0 +1,226 @@
+
+;Start
+1,[mission]
+
+;mission
+1,[missionpre][missionmain] [missionpost] [missioncomplication]
+
+;missionpre
+2,Travel to [stage] in (area) and learn from a(n) [individual] that they must 
+1,Prevent [antagonist] from 
+1,Get help from a group of [individual]s to 
+1,
+
+;missionmain
+1,Travel to [stage] in (area) and [missiongoal] despite attempts by [missionadversary] to stop them
+
+;missiongoal
+6,[affect] [item]
+4,[influence] [individual]
+
+;missionadversary
+8,[antagonist]
+2,[antagonist] and [antagonist]
+
+;missionpost
+2,but really have to [missiongoal]
+8,for [missionreward]
+
+;missionreward
+2,pre-given [item]
+2,instant [item]
+6,promised [item]
+
+;missioncomplication
+1,with an unwanted [individual] companion)
+2,but the characters cannot be noticed
+4,within a time limit
+2,despite rivals with same goal
+3,but goal has already been achieved
+3,
+
+;stage
+1,[stagepre] [stagemain] [stagepost]
+
+;stagepre
+1,abandoned
+4,
+
+;stagemain
+4,Public House
+1,Vehicle
+2,Utility
+2,Character\'s home
+3,Historic site
+3,Research institute
+2,School
+3,Temple
+6,Base
+3,Warehouse
+1,Graveyard
+2,Mountain
+2,Island
+2,Swamp
+2,River
+2,Forest/Bush/Jungle
+1,Desert
+1,Plains
+2,Road
+2,Camp
+
+;stagepost
+4,with unfriendly locals
+1,with defenses
+1,which is underground
+2,which is contested by [contestinggroups]
+1,during a natural disaster
+1,where they get trapped/ambushed
+1,
+
+;contestinggroups
+1,[group] and [group]
+1,[group], [group] and [group]
+1,[group], [group], [group] and [group]
+1,[group], [group], [group], [group] and [group]
+
+;individual
+1,[individualpre] [individualmain] [individualpost]
+
+;individualpre
+4,representative of a(n)
+1,group of
+1,significant other of a(n)
+3,foreign
+5,
+
+;individualmain
+4,Patron
+3,Leader
+3,Noble
+2,Criminal
+1,Enemy
+2,Tradesman
+4,Ally
+3,Police Officer
+2,Beaurocrat
+1,Relative
+3,Mentor
+2,Academic
+3,Priest
+2,Radical
+3,Military Officer
+2,Mercenary
+3,Trader
+1,Device (artifact, AI, etc)
+
+;individualpost
+2,who is hiding identity
+1,who is pretending to be another [individual]
+1,who plans on their failure
+1,who lies to them about the mission
+1,who is only doing this for entertainment
+1,who is using PCs as a diversion
+1,who they will never see again
+1,who is being controlled by another [individual]
+
+
+;affect
+1,[affectpre] [affectmain] [affectpost]
+
+;affectpre
+1,must get equipment to
+1,must learn how to
+8,
+
+;affect
+3,Steal
+2,Alter
+3,Destroy
+2,Sabotague
+2,Return to [returnto]
+1,Fix
+2,Document
+
+;returnto
+1,(area)
+4,(contact)
+1,a(n) [individual]
+
+;affectpost
+1,
+
+;influence
+1,[influencepre] [influencemain] [influencepost]
+
+;influencepre
+1,must get equipment to
+2,must learn how to
+7,
+
+;influencemain
+3,Rescue
+2,Kidnap
+3,Inform
+2,Interrogate
+1,Mislead
+3,Contact
+4,Protect
+2,Retrieve [item] from
+
+;influencepost
+1,
+
+;item
+1,[itempre] [itemmain] [itempost]
+
+;itempre
+1,bugged
+1,sabotaged
+1,part of
+6,multiple
+4,
+
+;item
+3,Weapon
+2,Armour
+2,Technology
+1,Research
+1,Installation
+1,Cause of Phenonomae
+2,Equipment
+2,Vehicle
+1,[stage]
+3,Cash
+1,Blackmail
+1,Pillage
+1,Document
+1,Favour
+1,Key
+1,Tuition
+1,Artwork
+2,Supplies
+2,Information
+2,Evidence
+3,Trading Goods
+1,Slave
+1,Title
+1,Their Lives
+
+;item post
+1,with secret properties
+1,which [itemlocationstatus] there
+1,which has been switched
+1,with a time limit
+2,which is stolen
+
+;itemlocationstatus
+6,is no longer
+4,never was
+
+;group
+1,[Secret Society Name.Start]
+
+;antagonist
+1,antagonist
+
+

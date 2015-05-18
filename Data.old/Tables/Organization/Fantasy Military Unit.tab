@@ -1,0 +1,542 @@
+
+;Start
+10,[ArmyOrdinal] [ArmyType][ArmyGroup]
+1,[Whose] [HumanRacialWeapon]s
+
+;Whose
+1,[NobilityRank]'s Own
+2,[Fantasy Names.MaleFirstName]'s
+1,[Fantasy Names.FemaleFirstName]'s
+
+;ArmyOrdinal
+13,[OrdinalNumber]
+2,[Whose]
+10,"[Mascot]"
+1,Undead
+
+
+;OrdinalNumberSeed
+5,[Dice.1d10]
+6,[Dice.1d6][Dice.digit]
+1,
+
+;OrdinalNumber
+1,[OrdinalNumberSeed]1st
+1,[OrdinalNumberSeed]2nd
+1,[OrdinalNumberSeed]3rd
+1,[OrdinalNumberSeed]4th
+1,[OrdinalNumberSeed]5th
+1,[OrdinalNumberSeed]6th
+1,[OrdinalNumberSeed]7th
+1,[OrdinalNumberSeed]8th
+1,[OrdinalNumberSeed]9th
+1,[OrdinalNumberSeed]0th
+
+;NobilityRank
+3,Emperor
+4,King
+3,Queen
+5,Prince
+2,Princess
+6,Duke
+1,Duchess
+3,Count
+1,Countess
+3,Viscount
+3,Baron
+1,Baroness
+3,His Majesty
+2,Her Majesty
+1,Bishop
+1,His Grace
+2,Lord Protector
+
+;MilitaryRank
+10,Colonel
+10,Commander
+2,Aide-de-camp
+3,Brigadier
+6,Captain
+2,Centurion
+3,Commander
+2,Corporal
+8,Fieldmarshal
+8,General
+2,Lance corporal
+4,Leftenant
+4,Lieutenant
+6,Major
+9,Marshal
+1,Master seargent
+4,Provost marshal
+3,Seargent
+2,Seargent-major
+1,Specialist
+7,Standard-bearer
+2,Warmage
+3,Ensign
+
+;HumanRacialWeapon
+4,[HaftedWeapons.AxeType]
+2,[HaftedWeapons.MaceType]
+2,[HaftedWeapons.FlailType]
+8,[HaftedWeapons.PolearmType]
+8,[Swords.HiltedSwordType]
+6,[Bows.BowType]
+3,[XBows.XBowType]
+
+;HumanUnusualSteed
+1,Dragon
+3,Dire Boar
+3,War Lion
+3,Dire Stag
+4,Dire Wolf
+3,Elephant
+3,Giant Eagle
+5,Griffon
+4,Hippogriff
+5,Pegasus
+2,Rhinoceros
+1,Roc
+1,Wyvern
+4,Great Wolf
+4,Great Eagle
+1,Behemoth
+1,War Bull
+1,War Giraffe
+
+;HumanUnusualPet
+10,Wolf
+2,Bear
+3,Cheetah
+1,Dire Badger
+1,Displacer Beast
+3,Eagle
+3,Falcon
+3,Hawk
+3,Hyena
+2,Jackal
+3,Jaguar
+3,Krenshar
+2,Lion
+1,Pseudodragon
+2,Snake
+3,War Hound
+1,Wolverine
+1,Imp
+
+;ArmyType
+12,[HumanRacialWeapon]
+30,[LightHeavy] Cavalry
+12,[LightHeavy] Dragoon
+35,[LightHeavy] Infantry
+15,[LightHeavy] Militia
+18,Archers
+20,Army
+10,Crossbowmen
+10,Halberdier
+12,Marine
+18,Pikemen
+1,[HumanUnusualPet] Handler
+1,[HumanUnusualSteed] Cavalry
+8,[LightHeavy]
+9,[LightHeavy] [Steed]
+4,[LightHeavy] [Utility.TerrainsCap] Assault
+8,[LightHeavy] [Utility.TerrainsCap] Warfare
+1,[LightHeavy] Amphibious Assault
+2,[LightHeavy] Amphibious Warfare
+7,[LightHeavy] Arcane Warfare
+1,[LightHeavy] Assault
+2,[LightHeavy] Borderer
+4,[LightHeavy] Highlander
+5,[LightHeavy] Hussars
+5,[LightHeavy] Lancers
+8,[LightHeavy] Mercenary
+2,[LightHeavy] Sellsword
+2,[LightHeavy] Underdark Warfare
+3,[LightHeavy] Urban Warfare
+9,[LightHeavy] Yeomanry
+1,Advanced Tactics
+1,Aerial Assault
+1,Aerial Cavalry
+2,Alchemical Warfare
+3,Anti-[Counter]
+7,Artillerist
+3,Ballista
+1,Battlefield Preparation
+5,Berserker
+2,Bloodrider
+3,Bombardier
+1,Borderguard
+5,Commando
+3,Counter-[Counter]
+5,Counter-[Utility.CreatureTypes] Warfare
+2,Covert Operations
+1,Disruption
+1,Divine
+5,Elite Forces
+8,Engineer
+1,Field
+3,Grenadier
+8,Guerilla
+2,Highland
+2,Intelligence
+5,Irregular
+8,Justicar
+8,Longbowmen
+5,Mounted Archers
+3,Partisan
+1,Political Warfare
+4,Ranger
+7,Reconnaissance
+1,Sabotage
+8,Sapper
+9,Scouting
+4,Seige Artillery
+2,Seige Operations
+2,Shadow Warrior
+5,Sniper
+6,Special Forces
+1,Special Operations
+3,Supply
+5,Volunteer
+3,Warmage
+5,Colonial Infantry
+3,[LightHeavy] Jager
+3,Jager
+
+;LightHeavy
+20,
+1,Chosen
+2,Elite
+3,Heavy
+1,Imperial
+6,Light
+1,Royal
+1,Special
+
+;ArmyGroup
+5, Battalion
+1, Battery
+5, Brigade
+3, Cohort
+2, Command
+5, Company
+2, Corps
+1, Crew
+3, Detachment
+4, Division
+2, Expeditionary Group
+2, Force
+1, Formation
+2, Group
+1, Guards
+2, Guardsmen
+1, Operations Group
+1, Patrol
+1, Phalanx
+5, Platoon
+5, Regiment
+2, Section
+1, Section
+5, Skirmishers
+2, Squadron
+2, Task Force
+1, Team
+1, Troop
+2, Unit
+1, Lance
+5, Front
+1, Fireteam
+
+;Counter
+4,Arcane
+5,Banditry
+2,Brigand
+3,Insurgency
+1,Necromancy
+3,Piracy
+2,Rebellion
+2,Undead
+
+;Steed
+12,Horse
+2,Camel
+2,[HumanUnusualSteed]
+
+;Mascot
+1,[MascotAnimal]
+5,[Utility.TerrainsCap] [MascotAnimal]s
+10,[MascotModifier] [MascotAnimal]s
+10,[MascotAnimal]s of [MascotObject]
+
+;MascotAnimal
+3,[HumanRacialWeapon]
+1,Adder
+1,Angel
+2,Archon
+1,Asp
+1,Avenger
+1,Badger
+1,Banshee
+2,Basilisk
+1,Bastion
+1,Bat
+3,Bear
+2,Beast
+3,Bloodhound
+2,Boar
+1,Boar
+1,Brawler
+1,Buckler
+2,Bull
+1,Chameleon
+1,Chimera
+2,Claw
+1,Cockatrice
+1,Condor
+2,Constrictor
+1,Crocodile
+1,Crow
+1,Crusher
+1,Death
+1,Devil
+1,Dog
+4,Dragon
+1,Drake
+3,Eagle
+1,Eel
+1,Eye
+2,Falcon
+1,Fang
+1,Felldrake
+1,Ferret
+1,Fortress
+4,Fox
+1,Fury
+3,Ghost
+1,Girralon
+1,Goshawk
+1,Griffon
+1,Gryphon
+1,Hammer
+1,Hand
+1,Harpy
+1,Harrier
+2,Hawk
+1,Helmet
+1,Horn
+1,Hornet
+2,Hound
+3,Hunter
+4,Hydra
+1,Hyena
+1,Infiltrator
+3,Jackal
+1,Jaguar
+1,Jaw
+2,Juggernaut
+1,Knave
+1,Knife
+2,Knight
+1,Kraken
+1,Krenshar
+1,Lamprey
+1,Leviathan
+4,Lion
+1,Lizard
+1,Locust
+1,Manticore
+2,Mantis
+1,Mastiff
+2,Terrier
+1,Minotaur
+1,Monkey
+1,Osprey
+1,Owl
+1,Owlbear
+2,Panther
+1,Phantom
+2,Phoenix
+1,Python
+1,Raider
+2,Ram
+1,Ravager
+2,Raven
+1,Reaper
+1,Reaver
+1,Rhino
+1,Rook
+1,Scarab
+3,Scorpion
+1,Scythe
+2,Seeker
+3,Serpent
+1,Shadow
+2,Shark
+1,Shield
+1,Siren
+2,Skull
+1,Snake
+1,Sphinx
+1,Sphinx
+1,Spider
+3,Stag
+3,Stalker
+1,Stallion
+1,Stirge
+1,Storm
+1,Stronghold
+1,Talon
+2,Tiger
+1,Titan
+2,Viper
+1,Vulture
+2,Wasp
+1,Werewolf
+1,Whirlwind
+4,Wolf
+1,Wolfhound
+1,Wolverine
+1,Wraith
+1,Wyrm
+1,Wyvern
+
+;MascotModifier
+10,Black
+10,Blood
+10,Dark
+8,[GheronUtility.Cities]'s
+3,[GheronUtility.DietyNonEvil]'s
+4,[NobilityRank]'s
+1,Almighty
+2,Avenging
+3,Battle
+6,Blue
+1,Bone
+1,Brawling
+2,Brazen
+1,Burning
+1,Cave
+1,Chosen
+1,Concealed
+1,Conquering
+1,Crazy
+1,Creeping
+1,Crouching
+1,Dauntless
+1,Deep[Utility.Terrains]
+2,Deepwood
+1,Destroying
+1,Determined
+2,Ebony
+1,Emerald
+2,Fearless
+1,Fierce
+8,Fiery
+3,Fighting
+2,Fire
+1,Frenzied
+1,Frost
+1,Furious
+6,Golden
+7,Green
+8,Grey
+1,Hissing
+1,Holy
+2,Horned
+1,Ice
+7,Invisible
+8,Iron
+1,Ivory
+1,Lightning
+1,Loyal
+1,Matchless
+2,Mighty
+1,Mist
+8,Night
+3,Phantom
+1,Platinum
+1,Proud
+1,Proven
+2,Radiant
+2,Raging
+3,Razor
+2,Reaping
+7,Red
+1,Relentless
+1,Ruby
+2,Sand
+1,Sapphire
+2,Scarlet
+2,Screaming
+1,Secret
+7,Shadow
+3,Silent
+6,Silver
+1,Snow
+1,Steadfast
+3,Steel
+1,Stone
+1,Swift
+1,Tenacious
+1,Thunder
+1,Untamed
+2,Venom
+3,War
+6,White
+3,Wild
+2,Winter
+
+;MascotObject
+10,[GheronUtility.Cities]
+8,[GheronUtility.DietyNonEvil]
+1,[GheronUtility.DietyNonEvil]'s anger
+1,[GheronUtility.DietyNonEvil]'s justice
+1,[GheronUtility.DietyNonEvil]'s wrath
+1,Annihilation
+4,Attack
+8,Battle
+8,Blood
+2,Bloodshed
+2,Bone
+1,Brass
+2,Carnage
+1,Chaos
+2,Conquest
+6,Death
+1,Defense
+1,Destiny
+5,Destruction
+2,Devastation
+2,Disaster
+5,Doom
+1,Eternity
+1,Fate
+5,Fire
+2,Glory
+1,Gold
+1,Honour
+1,Iron
+3,Justice
+1,Law
+1,Light
+5,Lightning
+1,Luck
+4,Magic
+2,Might
+4,Revenge
+5,Ruin
+1,Silver
+2,Steel
+1,Stone
+8,the [Utility.TerrainsCap]
+3,the Darkness
+1,the Deep
+5,the Night
+1,the Sea
+5,Thunder
+1,Truth
+8,War
+
+

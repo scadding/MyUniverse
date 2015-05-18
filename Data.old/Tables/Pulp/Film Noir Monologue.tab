@@ -1,0 +1,860 @@
+
+;Start
+5,[A]
+5,[B]
+3,[C]
+5,[D]
+2,[E]
+5,[F]
+
+;A
+1,[Intro]  I had just [WentTo] [Restaurant] and ordered [RestaurantOrder].  So in [Walks] [Contact] - looking for me as usual.  Turns out [Victim] got [Killed]. [Weapon]. [Time]
+
+;Intro
+1,This one could bring the [Dice.1d8][Th] Precinct to its knees, and maybe the whole city down with it.
+1,It was a crisp day, and the breeze was stiff and brisk.  Leaves mingled with trash as they blew through the alleys and side streets.
+1,It was brisk.  The wind blew right through your jacket like it was a seive.
+1,It was blustery out.  The snow was coming in sideways, hard.  It had only been a few hours and the streets were already a cold, brown mush.
+1,It was what folks call the dead of winter.  The dirt had mixed with the ice and snow until the alleys were plastered in a crunchy, gritty brown.
+1,It was freezing.  I nearly slipped on the ice outside the door.
+1,It was bitterly cold out on the streets... at least the wind had died down for the moment.
+1,Snow.  Since when the hell did it snow around here?  And it was coming down in buckets.
+1,It was cold out.  So cold it even drove the beggars inside.  My gloves stuck to the door handle for a moment as I was getting out of [TheCar].
+1,It was a dark and stormy night.
+1,It was a bad week in a bad month; maybe even a bad year.  The Times were calling it the worst crime spike the city had ever seen.
+1,It was a dark day in the big city.  Normal for this time of year, but something felt darker today... something more sinister.
+1,It was a cool, black night.  The night stuck to you like it was something real; some black, tangible fabric made of smoke, deceit, and murder.
+1,So there I was.
+1,Rain.  Hard, drumming, pounding rain.  It'd been coming down for hours.
+1,It was raining; the kind of rain that you'd hope would just clean the filth right off the streets.
+1,The air was cool and moist downtown, and the clouds were heavy-laden and ripe with rain.
+1,The smog mixed with the muggy air and it was stifling.  I wanted to get out of town like a rat leaving a sinking ship, but there was some pressing business to attend to.
+1,The air was heavy in the big city; the heat roiling off the pavement was stifling.
+1,I remember it like it was yesterday.
+1,I remember this one case... I was fresh on the Force.  Had a thin mustache and a thinner wallet... but even back then I had a sharp nose for hot leads.
+1,It was a few years back.  I had just gotten on the Force.
+1,I remember when I was still just a rookie, just another gumshoe bumbling his way through the concrete jungle.
+1,It was an oppressively hot day in the city.  The blacktop was baking, and the broads on 1[Th] and Main were wearing even less than usual.
+1,It was as hot as I'd ever remembered it.  Just blistering.  You could cook breakfast right on the sidewalk; that is, if you could bear to eat off of the filthiest imaginable surface on earth.
+1,It was a heat wave; worst in years.  Scalding, scorching, sweltering heat... it was so hot the newsies had gone on strike.  Hell, even the thermometers had gone on strike... about 20 degrees ago.
+1,Well, this is how it all went down.
+1,Listen... it started like this.
+1,It was another one of those days.
+1,The lights, the smoke, the grime, the city itself... seemed to be alive that day.
+
+;TheCar
+1,the car
+1,my car
+1,the cab
+1,my cab
+1,the squad car
+1,my squad car
+
+;Th
+1,1st
+1,2nd
+1,3rd
+1,4th
+1,5th
+1,6th
+1,7th
+1,8th
+1,9th
+1,0th
+
+;WentTo
+1,went to
+1,wandered into
+1,strolled into
+1,walked into
+1,made my way to
+1,waltzed into
+1,stopped by
+1,stopped into
+1,stopped off at
+1,cruised into
+
+;Restaurant
+4,Al's
+4,Bobby's
+4,Danny-O's
+4,Dino's
+4,Ed's
+4,Frank's
+4,Hank's
+4,Jimmy's
+4,Lenny's
+4,Louie's
+4,Ricky's
+4,Sammy's
+4,Sharkey's
+4,Tommy's
+1,a hole-in-the-wall
+3,my usual joint
+3,the corner pub
+3,the pub
+1,the nearest watering hole
+1,a classy joint
+1,a cozy little place
+1,the greasiest spoon in town
+
+;RestaurantOrder
+1,a scotch and soda, neat
+1,a tall bourbon
+1,a vodka on the rocks
+1,a hot coffee
+1,the house blend
+1,a weak cup of joe
+1,some strong coffee
+1,a brandy
+1,a whiskey toddy
+1,a whiskey sour
+1,a whiskey, straight
+1,a strong Shirley Temple
+1,a glass of suds
+1,a gin and tonic
+1,a tasty beverage
+1,a club and some chips
+1,a cuban press
+1,a ham on rye with swiss
+1,a turkey with thin-sliced cucumbers and extra mayo
+1,chops and potatoes
+1,the meatloaf
+1,the usual
+1,my usual
+1,the best burger the city has to offer
+1,the best cuban press this side of Spanish Harlem
+1,the best fish and chips short of the Bay
+1,one hell of a ham sandwich
+1,the soup of the day and a small sandwich
+1,the special of the day
+1,the catch of the day
+1,a piece of cherry pie
+1,a cuban press and a strong coffee
+1,a reuben with muenster and some weak coffee
+1,a slice of pie and a coffee
+1,a good hot cup of coffee
+1,a cup of joe and some toast
+1,a cup of joe and a few stale donuts
+1,some cold coffee and colder toast
+1,a tall dagwood and a beer to wash it down with
+1,some sliced tomatoes and a cold beer
+1,a bite to eat
+1,a poorly-made martini
+1,a badly-mixed manhattan
+1,a quick bite
+1,something to take the edge off
+1,something to ease my mind
+1,something to silence my grumbling stomach
+1,something to help me forget about the night before
+1,something strong; something I won't order there again
+
+;Walks
+1,walks
+1,strolls
+1,bursts
+1,comes
+
+;Contact
+1,[PoliceRank] [American Census Names.surname]
+1,[PoliceRank] [Italian Names.Surname]
+1,[PoliceRank] Mac[ScottishMale.ScottishClan]
+1,[PoliceRank] Mc[ScottishMale.ScottishClan]
+1,[Italian Names.MaleFirst] [ShadyContact]
+1,[American Census Names.commonmale] [ShadyContact]
+1,[American Census Names.commonmale] [American Census Names.surname]
+
+;ShadyContact
+1,the Snitch
+1,the Worm
+1,the Shark
+1,the Cat
+1,the Dog
+1,the Butcher
+1,the Bulldog
+1,the Snake
+1,Snake Eyes
+1,the Rat
+1,the Bookie
+1,the Fence
+1,the money-launderer
+1,, one of my usual informants
+1,Two Fingers
+1,Six Toes
+1,the Fish
+
+;PoliceRank
+3,Detective
+3,Sergeant
+2,Investigator
+2,Lieutenant
+2,Agent
+1,Special Agent
+1,Special Investigator
+1,Federal Agent
+1,Chief
+1,Commissioner
+1,Father
+1,Brother
+
+;Victim
+3,[American Census Names.surname]
+2,[American Census Names.female]
+4,[American Census Names.commonmale]
+2,[American Census Names.uncommonmale]
+4,[American Census Names.female] [American Census Names.surname]
+5,[American Census Names.commonmale] [American Census Names.surname]
+1,[American Census Names.uncommonmale] [American Census Names.surname]
+4,[Contact]
+1,Father [Italian Names.Surname]
+1,Father Mac[ScottishMale.ScottishClan]
+1,Father Mc[ScottishMale.ScottishClan]
+
+;Killed
+3,axed
+1,butchered
+1,done in
+3,iced
+1,killed
+1,murdered
+3,nailed
+3,offed
+3,smoked
+1,snubbed
+2,snuffed
+1,waxed
+3,whacked
+
+;Weapon
+1,Found a telephone cord near the body with clear signs of struggle
+1,There was a bloody crowbar at the scene
+1,Found a bloody prybar near the body
+1,Looks like they were done in with a lead pipe
+1,Found a candlestick with blood on it that matched the wounds on the body
+1,Looks like a blunt object did them in
+1,Had to be done with a sizeable knife, based on the coroner's report
+1,The body was cut up pretty bad
+1,The body was found in pieces
+1,The body had more holes in it than Swiss cheese in a rat trap
+1,The body had more holes in it than Roosevelt's economic plan
+1,Seems they were hit with a heavy object
+1,Small-caliber rifle, according to the lab
+1,Boys at the lab say it was done with a small-caliber revolver
+1,Seems a large-caliber rifle was involved
+1,Found shells from a very large-caliber revolver nearby
+1,The body was cut into neat little pieces
+1,The body had been quartered by a butcher knife
+1,The victim's skull was missing all its teeth; guess the killer forgot about fingerprints
+1,The victim's fingers had been chopped off to prevent identification; they had to use dental records
+1,They tried to use a sander to rub off the teeth profiles and fingertips but did a sloppy job
+1,The body had been burned, but whoever did it was an amateur
+1,The body was found in the trunk of a car, in pieces
+1,Turns out the victim's flask stopped the first bullet cold - but not the second, or third
+1,Turns out the victim's flask stopped the first bullet cold - but their head didn't do such a good job on the second one
+1,Done in by pistol-whipping
+1,A decapitation
+1,A Columbian neck-tie
+1,They were mutilated, the body was nearly unrecognizable
+1,There were burn marks all over the body
+1,The body was badly burned
+1,Whoever did it tried to burn the body, but musta got scared off
+1,Whoever did it tried to bury the body, but got spooked and ran
+1,Whoever did it tried to bury the evidence, but got spooked before they could finish the job
+1,Seemed there was a small explosion - it had blown the victim's [BodyPart] clear off
+1,Body had lots of issues - drugs, [Dice.2d4] stab wounds, and broken bones
+1,Body had lots of issues - drugs, [Dice.2d4] stab wounds, and the face looked like it took a shotgun shell at point-blank range
+1,Body had multiple bullet wounds, execution-style
+1,Had a single bullet wound through the base of the neck, execution-style
+1,It was a stabbing
+1,Seems there was a struggle, and they were strangled to death
+1,Seems there was a struggle, and they were asphyxiated
+1,Looks like they were knocked out then dragged for a while
+1,There was a formaldehyde-soaked cloth under the body
+1,It looked like they managed to fight back - a bloody trail led out the window
+1,The scene was a damn bloodbath.  Took four hours just to scrape together something for identification
+1,They put up a fight.  Most of the blood in the room came from somebody else
+1,They managed to fight back - a bloody trail led all the way down the alley
+1,Guess they still had some vinegar in them - seems one of the attackers' ears got torn off in the struggle
+1,The victim's pistol was found nearby, seems they tried to put up a fight
+1,The victim's shotgun and several empty shells were found nearby
+1,The victim had unloaded two pistols on the attackers, and there was blood everywhere at the scene
+1,The scene was an absolute mess, the place was soaked in blood from both the victim and the attackers
+1,The victim was strangled with their own jacket
+1,The victim was strangled with their own shoe lace
+1,The body was found hanging by a violin string
+1,The body was found strangled by a violin string
+1,They were choked to death under their own pillow
+1,The bone damage to the spinal cord indicated they were addled to death
+1,There was a lotta stress on the spinal column; victim probably got throttled to death
+1,The lab says they were poisoned
+1,It looked like a set-up; they were attacked from several angles
+1,They were found drowned in their own bathtub
+1,They were slain in an elevator like a rat in a trap
+1,The boys at the lab say it was an unknown poison
+
+;BodyPart
+1,head
+1,right arm
+1,left arm
+1,right leg
+1,left leg
+1,right foot
+1,left foot
+1,right hand
+1,left hand
+1,feet
+1,hands
+1,arms
+1,legs
+
+;Time
+1,[Happened] just last night.  "[AnotherOne]" I thought out loud.
+1,[Happened] within the past 24 hours.  I briefly glanced out the window, then loaded my [Gun].  The rounds found their way home with a satisfying click.
+1,[Happened] just yesterday.  "[AnotherOne]" I thought out loud, grabbing my [Gun].
+1,[Happened] not more than an hour ago.  "[AnotherOne]" I thought out loud, loading my [Gun].
+1,[Happened] earlier that week.  "[AnotherOne]" I muttered to myself.
+1,[Happened] on Thursday.  I jotted down the details and got ready for a grisly new case.
+1,[Happened] just a few hours ago.  No suspects as of yet. "[AnotherOne]" I muttered.
+1,[Happened] early in the morning.  I dusted off my jacket, lit up my last cigar, grabbed my hat and walked out.  "[AnotherOne]" I said on my way out the door.
+
+;Happened
+1,They just found the body
+1,The body came up
+1,The incident happened
+1,The incident occured
+1,The incident went down
+1,The murder occured
+1,The murder happened
+1,It happened
+1,It got reported
+1,Got the coroner's report
+1,Got the autopsy report
+1,Got the autopsy results
+1,Got word from the morgue
+1,Apparently, this all went down
+
+;B
+4,[Intro]  I had just [TalkedToLady] [LadyIKnew] [LadyName].  She was looking [GoodLooking].  But then, just as [GettingCozy], she goes and tells me [Victim]'s been [Killed].  [Outtro]
+4,[Intro]  [LadyName]  [WalkedIn] through my door like [WalkStyle] — [HairColor] with [Legs] [LegLength]. No dame her age could afford a [Coat] like that, [TheReason].  She had bad news written on her like [BadNews].  The dame was all business - before I could [OfferCig] she goes and tells me [Victim]'s been [Killed].
+1,[Intro]  [LadyName]  [WalkedIn] through my door like [WalkStyle] — [HairColor] with [Legs] [LegLength]. No dame her age could afford a [Coat] like that, [TheReason].  She was to bad news what apple pie was to America.  The dame was all business - before I could [OfferCig] she goes and tells me [Victim]'s been [Killed].
+
+;Coat
+4,coat
+1,necklace
+1,ring
+1,watch
+
+;TheReason
+3,but her looks more than made up for her morals
+2,and I didn't have to think twice about her profession
+1,but with looks like that you couldn't expect anything less
+3,but suckers were born for that Broadway smile - and that day, I was a sucker
+3,and the kinda makeup she had on gave me a good idea how she got it
+1,and the way she smiled at me gave me a good idea how she got it
+3,but the interesting part was what she was packin' beneath her coat
+1,and it didn't take a genius to figure out how she got it
+
+;TalkedToLady
+1,talked to
+1,consulted with
+1,had a run-in with
+1,spoken to
+1,had lunch with
+1,grabbed coffee with
+1,sat down with
+1,got back from dinner with
+1,got off the phone with
+
+;LadyIKnew
+1,a broad I knew,
+1,a classy broad,
+1,a classy vamp,
+1,a dame I knew,
+1,a real femme fatale,
+1,a real vamp,
+1,a sharp dame,
+1,a sophisticated lady,
+1,an aspiring actress,
+1,an old flame,
+1,my damn ex-wife,
+1,one classy broad,
+1,one classy dame,
+1,one classy vamp,
+1,one sharp dame,
+1,one of my old flames,
+1,one of the best tourist attractions in town,
+1,one of the better tourist attractions in town,
+1,one of the town's better-known belles,
+1,the best pair of high heels my floor will ever feel,
+1,the best pair of high heels these streets will ever feel,
+1,the bewitching
+1,the definition of femme fatale,
+1,the entrancing wife of the late [American Census Names.uncommonmale] [American Census Names.surname],
+1,the lovely
+1,the lovely daughter of the late [American Census Names.uncommonmale] [American Census Names.surname],
+
+;LadyName
+1,Miss [American Census Names.female]
+1,Miss [American Census Names.female] [American Census Names.surname]
+1,Madame [American Census Names.female]
+1,Madame [American Census Names.female] [American Census Names.surname]
+1,Mrs. [American Census Names.female]
+1,Mrs. [American Census Names.female] [American Census Names.surname]
+1,[American Census Names.female]
+1,[American Census Names.female] [American Census Names.surname]
+2,Miss Alotta [LadyLast]
+2,Miss Bella [LadyLast]
+2,Miss Eva [LadyLast]
+1,Miss Holly [LadyLast]
+2,Miss Juliette [LadyLast]
+2,Miss Kitty [LadyLast]
+2,Miss Lillian [LadyLast]
+2,Miss Monica [LadyLast]
+1,Miss Penny [LadyLast]
+1,Miss Pussy [LadyLast]
+2,Miss Rose [LadyLast]
+2,Miss Scarlett [LadyLast]
+2,Miss Veronica [LadyLast]
+2,Miss Tiffany [LadyLast]
+2,Miss Tilly [LadyLast]
+2,Miss Vivian [LadyLast]
+
+;LadyLast
+1,Fachina
+1,Galore
+1,Goodhead
+1,Goodnight
+1,L'Amore
+1,L'Amour
+1,Le Fay
+1,Love
+1,May
+1,O'Toole
+1,Rider
+1,Wood
+
+;GoodLooking
+1,as good as ever
+1,just like she did in the pictures
+1,just as good as I remember
+1,just as good as always
+1,as good as ever.  I played the gentleman, and let her into [TheCar]
+1,just like she did in the pictures.  I figured we'd take [TheCar] out to [Restaurant]
+1,just as good as I remember.  We took [TheCar] out to [Restaurant] for [RestaurantOrder]
+1,just as good as always.  We went to [Restaurant]; she didn't want to walk so we took [TheCar]
+1,just as good as always.  We went to [Restaurant]; she said she was cold so we took [TheCar]
+1,great.  She smelled like roses, chocolate, and lust
+1,sultry and smooth, in a little black dress that was more little than dress
+1,like she hadn't been with anyone in a while
+1,distraught, what with the weight of recent events
+1,distressed, as though she hadn't slept in weeks
+1,vexed, disturbed... however women look when they've got that much on their mind
+1,more than a little suspicious... but hey, the bills were behind and she was hiring
+
+;GettingCozy
+1,things was gettin' cozy
+1,things were getting cozy
+1,things were warming up
+1,things were starting to go my way
+
+;BadNews
+1,a New York Times headline
+1,a Washington Post headline
+1,Louisville written on a baseball bat
+1,my first marriage
+1,my last trip to Harlem
+1,October of '29
+1,the Chicago Tribune
+1,the morning paper
+1,Tin Pan Alley
+
+;OfferCig
+1,offer her a cigarette
+1,close the office door
+1,offer her a seat
+1,offer to take her coat
+
+;WalkedIn
+1,strolled
+1,walked
+1,wandered
+1,waltzed
+
+;WalkStyle
+1,a tigress walks into a Burmese orphanage
+1,a model strutting down a catwalk
+1,daddy's girl coming home for Christmas
+1,Eleanor Roosevelt walks into Tammany Hall
+1,Missy LeHand walks into the Oval Office
+
+;HairColor
+1,a redhead vixen with a temper to match,
+1,an Irish redhead
+1,beach party blonde
+1,pinup blonde
+1,raven-black hair
+1,strawberry blonde
+
+;Legs
+1,legs
+1,gams
+
+;LegLength
+1,all the way up
+1,as far as the eye could see
+1,as far as you could want'em
+1,for days
+1,for hours
+1,for miles
+1,for miles and then some
+1,that went on for miles
+1,that went on for days
+1,that went on for hours
+1,that you could suck on for days
+1,that you could suck on for hours
+
+;Outtro
+1,Looks like I'm back on case.
+1,Looks like I've got a new case.
+1,Looks like another gruesome mystery.
+1,"[AnotherOne]" I said, loading my [Gun].
+1,"[AnotherOne]" I muttered under my breath.  I went for a cigarette but realized I had left my lighter back at [TheOffice].
+1,I asked where the murder happened, then lit up a cigarette.  I forgot to offer one to the dame.
+1,I asked her where it happened, then lit up a cigarette.  I offered one to the dame, but she said she didn't smoke.  Not the last lie I would expect from her.
+
+;AnotherOne
+1,Another one,
+1,Well that's a new one,
+1,Well, ain't that somethin',
+1,Sounds like an inside job,
+1,Must be another inside job,
+1,That ain't good,
+1,Sick animals,
+1,Ruthless animals,
+1,Heartless animals,
+1,Animals!
+1,Sounds like my kinda case,
+1,Guess I'll be working late tonight,
+1,Third this week,
+1,Interesting,
+1,Very interesting,
+1,Just great,
+1,Just my luck,
+1,Sounds just like the [American Census Names.surname] case,
+1,Same damn thing happened to [Victim],
+1,What a way to go,
+1,What a way to end the week,
+1,What a way to start the week,
+1,Sick bastards,
+1,Ruthless bastards,
+1,Heartless bastards,
+1,Bastards!
+1,Dammit,
+1,Time to drop in on some old friends,
+1,Time to visit some old friends,
+1,Time to call on some old friends,
+1,Time to make a few house calls,
+1,I need a drink,
+1,I need a raise,
+1,I need a promotion,
+1,I shoulda retired when I had the chance,
+1,I shoulda got out when I had the chance,
+1,That can't be a coincidence,
+
+;Gun
+1,revolver
+1,piece
+1,pistol
+1,sidearm
+1,.357
+1,.38
+1,.38 special
+1,.32
+1,.22
+1,.44
+1,.45
+1,carbine
+1,tommy
+1,12 guage
+1,shotgun
+1,double-barrel
+
+;C
+1,[Intro] I didn't have much to go off of this time... but [TheBoys] did [DigUp]. [Noir Oracle - Down These Mean Streets.Start] Oh, and the victim - [Victim] - was found [Killed]. [Time]
+
+;TheBoys
+1,the boys
+1,the boys at the office
+1,my secretary
+1,the feds
+1,my partner
+1,the new kid
+1,[Contact]
+1,an old contact
+1,my insider
+1,I
+1,the office
+
+;DigUp
+1,dig up something juicy
+1,hit a possible lead
+1,hit a worthy lead
+1,hit some fresh dirt
+1,get a few bites
+1,get a good lead
+1,get a live lead
+1,get a bite on the line
+1,find something unusual
+1,find a piece to the puzzle
+1,manage to dig something up
+1,manage to get something
+1,manage to find something interesting
+
+;D
+1,[Intro]  I had just [WentTo] [TheOffice].  As soon as I [MadeCoffee] I [GetARing] from [Contact].  Turns out [Victim] got [Killed]. [Weapon]. [Time]
+
+;TheOffice
+1,the office
+1,work
+1,the house
+1,the station
+1,the precinct
+
+;MadeCoffee
+1,put some coffee on
+1,sat down
+1,got in the door
+1,got through the door
+1,got there
+1,turned on the lights
+1,opened the paper
+1,opened the mail
+1,sat down with the mail
+1,sat down with the paper
+1,took off my coat
+1,put up my hat
+1,lit the day's first coffin nail
+
+;GetARing
+1,get a ring
+1,get this call
+1,[See] a note on the desk
+1,[See] a hand-cranked note
+1,[See] this handwritten note
+1,[See] a hand-jammed letter
+1,[See] this typed letter
+1,[See] a note on the door
+1,[See] a lone letter in the inbox
+1,[See] a hand-written note on top of the inbox
+
+;See
+1,see
+1,spot
+1,eyeball
+1,eye
+
+;E
+1,[Intro]  I picked up the phone before it even finished the first ring. It was [LadyIKnew] [LadyName]. She sounded [Sounded]. "[Pulp Oracle - I Love A Mystery.Start]" Then [PhoneCallInterrupt]. [Outtro]
+
+;Sounded
+1,concerned
+1,vexed
+1,worried
+1,tense
+1,frightened
+1,pretty choked up
+1,pretty worked up
+1,like she was terrified
+1,quiet, as though someone were nearby
+
+;PhoneCallInterrupt
+1,she hung up
+1,she screamed, and the line went dead
+1,the line cut out
+1,I thought I heard her sobbing. "Slow down," I started, but she'd already hung up
+1,a man's voice, indecipherable, in the background. That was all
+1,sirens approaching. "I'll explain later," she hurried, and hung up
+
+;F
+1,[Intro]  [TheNewKid]
+
+;TheNewKid
+1,"A mole...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not a mole," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
+1,"A vigilante...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not a vigilante," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
+1,"Attacked by an animal or something...?" [Partner] asked [Nervously].  "An animal or something?  How about we just stick with the 'or something' part," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]."
+1,"An inside job...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not an inside job," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
+1,"Could it be two shooters...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not two shooters," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
+1,"Drug overdose...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not a damned drug overdose," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
+1,"Is it a forgery...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not a forgery," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
+1,"Looks like it was the Mexicans...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not the way the Mexicans would do it," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]."
+1,"Maybe a dirty cop...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not a cop.  Nothing about this one says cop." I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
+1,"Maybe it was just an accident...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not JUST an accident," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
+1,"Out-of-towners...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not out-of-towners," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
+1,"The mob, maybe...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not the mob," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
+1,"Think it's a suicide...?" [Partner] asked [Nervously].  "[GreatIdea]No[Not] not suicide," I [Mutter].  [Thought]  [TellYouWhat] I said, "How about I just [Take] this one myself and you head down to [Restaurant] and grab a [Food]." 
+
+;GreatIdea
+6,
+2,Alright!  Case closed! 
+2,Brilliant. 
+3,Case closed! 
+3,Eh... 
+2,Great idea, Sherlock. 
+2,Great theory, Sherlock. 
+3,Hmm. Lemme think a second. 
+3,Hmm. Lemme think about that one. 
+2,Nice theory, Sherlock. 
+1,Now why didn't I think of that? 
+2,Oh ya, great idea. 
+1,Oh ya, great idea. Just kidding. 
+2,Sure, that's a great theory. 
+1,Sure, that's a great theory. Just kidding. 
+3,Uhh... 
+3,Umm... 
+2,Ya, brilliant theory. 
+3,Well... 
+3,What? 
+
+;Partner
+1,[American Census Names.surname]
+
+;Not
+1,,
+1,, definitely
+1,.  Absolutely not.  Definitely
+1,.  Definitely
+1,...
+1,... I [Dont] know much, but I know it's
+1,... I [Dont] know much, but I know it's definitely
+1,... this is definitely
+
+;Dont
+1,don't
+1,don't claim to
+1,may not
+
+;Nervously
+1,cautiously
+1,inquisitively
+1,nervously
+1,quietly
+1,timidly
+
+;Mutter
+2,barked
+1,fumed
+2,muttered
+3,muttered under my breath
+1,rasped
+1,said
+3,seethed
+2,shouted
+3,sighed
+2,stammered
+1,steamed
+
+;Thought
+1,Amateur hour was over.
+1,Babysitting time was over.
+1,By now I was done babysitting.
+1,By now I was done with the amateur act.
+1,He couldn't put two and two together if you let him use both hands and a leg.
+3,He was not what you'd call [Sharpest].
+3,He was not the [Sharpest].
+3,I always landed the [Rocks] in the Department, but this was worse than usual.
+1,I could barely contain myself with the new kid.
+2,I couldn't help wondering [If] my partner had [Actually] graduated the academy, let alone earned his position.
+1,I was at a loss with this kid.
+1,I was fed up.  Actually, I was fed up about two hours ago.  I don't even know what I was now.
+1,I was going to kill the kid.
+3,I was visibly [Disappointed].
+1,Oh ya.  The new kid was really on the ball.  Just like they said when they pawned him off on me.
+1,They graduate a worse class each year.
+1,This was going to be a long month.
+3,This was the beginning of a very short partnership.
+3,This kid was sharp as [CueBall].
+2,Why do I always get the [Rocks]?
+1,You'd figure he'd at least have some brains, cuz he certainly didn't score in the looks department.
+2,You'd figure he'd at least have some smarts, cuz they certainly didn't graduate him on looks.
+
+;Sharpest
+1,the brightest kid in the class
+1,exactly the cream of the crop
+3,the sharpest knife in the drawer
+3,the sharpest tack in the tray
+3,the sharpest tool in the shed
+
+;CueBall
+5,a cue ball
+1,a spoon
+
+;Rocks
+1,dense ones
+1,meatheads
+1,new kid
+1,real winners
+1,rocks
+1,thickheads
+
+;Disappointed
+1,angered at the new kid
+1,disappointed at my new partner
+1,fed up with the kid
+1,steamed at the kid
+1,upset with the kid
+
+;If
+1,how
+1,if
+
+;Actually
+1,actually
+1,even
+
+;TellYouWhat
+1,"Hey listen,"
+1,"Hey look,"
+1,"[American Census Names.commonmale],"
+1,"I got an idea,"
+1,"Listen,"
+1,"Look,"
+1,"Kid,"
+1,"Tell you what,"
+
+;Take
+1,take
+1,handle
+1,do
+1,run down
+1,work
+
+;Food
+3,big plate of [GoAway]
+3,big order of [GoAway]
+1,bite
+1,bite to eat
+3,double order of [GoAway]
+1,drink
+1,drink or two
+1,glass or two
+3,glass or two of [GoAway]
+2,Get The Hell Out of My Office Special
+3,Get The Hell Out of My Way Sandwich and a Coke
+3,Get The Hell Out of My Way Sandwich and some fries
+2,Get The Hell Out of My Way Special
+1,little something
+2,Stay The Hell Out of My Office Special
+3,Stay The Hell Out of My Way Sandwich and a Coke
+3,Stay The Hell Out of My Way Sandwich and some fries
+2,Stay The Hell Out of My Way Special
+3,steaming hot plate of [GoAway]
+3,tall glass of [GoAway]
+1,tall one
+
+;GoAway
+1,go the hell away
+1,keep your opinions to yourself
+1,stay the hell outta my way
+1,scram
+
+

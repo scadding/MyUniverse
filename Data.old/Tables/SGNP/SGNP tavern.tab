@@ -1,0 +1,165 @@
+
+;Start
+1,[taverns_a] [taverns_b]
+
+;male
+1,[regulars] [surnames]
+
+;female
+19,[wench_epithets] [wenches] [surnames]
+1,[wench_epithets] [wenches] [wench_epithets]
+
+;regulars 
+1,Arp 
+1,Bailey 
+1,Binko 
+1,Catgut 
+1,Darby 
+1,Dodd 
+1,Evrit 
+1,Frank 
+1,Gipper 
+1,Jon 
+1,Lucky 
+1,Mordecai 
+1,Old Bern 
+1,One-Eye 
+1,Pato 
+1,Ratch 
+1,Soldier 
+1,Thar 
+1,Uncle 
+1,Whiskey
+
+;surnames
+1,Appelbaun 
+1,Brunshaus 
+1,Dooley 
+1,Dogskin 
+1,Elbert 
+1,Gose 
+1,Godard 
+1,Knickerbing 
+1,Lumpley 
+1,Moony 
+1,Nobody 
+1,Phalter 
+1,Pilgrim 
+1,Poorpenny 
+1,Putzkammer 
+1,Scumble 
+1,Smith 
+1,Thewsday 
+1,Wossiface
+
+;wench_epithets
+1,Big 
+1,Black-Eyed 
+1,Blousy 
+1,Dour 
+1,The Duchess 
+1,Friendly 
+1,Frigid 
+1,"Holy" 
+1,Jolly 
+1,Knee-High 
+1,Love-A-Brick 
+1,Loud 
+1,Pretty 
+1,Ruddy 
+1,Salty 
+1,Shy 
+1,Slippery 
+1,Sly 
+1,Sneezing 
+1,Three-Beer
+
+;wenches
+1,Aubra 
+1,Beaulinda 
+1,Brenna 
+1,Cherry 
+1,Darcy 
+1,Darva 
+1,Elske 
+1,"Girl" 
+1,Hella 
+1,Jane 
+1,Kate 
+1,Kim 
+1,Louisie 
+1,Mina 
+1,Panjandra 
+1,Polly 
+1,Poppine 
+1,Sally 
+1,Violet 
+1,Winnie
+
+;taverns_a
+1,Dancing
+1,Harp and
+1,Vixen's
+1,Odd
+1,Blue
+1,Three
+1,Oak and
+1,Grey
+1,Top o' the
+1,Maggie's
+1,Tatterly's
+1,Rod and  
+1,Five  
+1,Robin's  
+1,Starlight  
+1,Shay's  
+1,King Phillip's  
+1,Clover and  
+1,Dusty  
+1,Golden 
+1,Miller's 
+
+;taverns_b
+1,Dove  
+1,Den 
+1,Bucks 
+1,Unicorn 
+1,Sisters 
+1,Ash 
+1,Goose 
+1,Green 
+1,Place 
+1,Reel 
+1,Crossroads 
+1,Nest 
+1,Inn 
+1,Lounge 
+1,Rose 
+1,Griffin 
+1,Leaf 
+1,Bull 
+1,Stones
+
+;places
+1,Ashen Way 
+1,Barrymore's Hole 
+1,Cobblefall 
+1,Cold Riley Holler 
+1,Dry Willow's Hovel 
+1,Edger See 
+1,Glass Junction 
+1,Greenslick Well 
+1,Horse Leap 
+1,Iblis Grot 
+1,Kettleblack Road 
+1,Peppersnake Fen 
+1,Queery Cave 
+1,Quicksilver Inlet 
+1,Slipshine Gulley 
+1,Splayhand Manor 
+1,Switchback Tumble 
+1,Tall Man's Shadow 
+1,The Empty 
+1,The Glow
+
+

@@ -1,0 +1,49 @@
+
+;Start
+50,[Swords.Start]<br>
+50,[HaftedWeapons.Start]<br>
+10,[Bows.Start]<br>
+7,[XBows.Start]<br>
+5,[Lances.Start]<br>
+25,[StaffClub.Start]<br>
+5,[WeaponsOther.Start]<br>
+5,[WhipChain.Start]<br>
+8,[AmmunitionThrown.Start]<br>
+
+;NoDescription
+50,[Swords.NoDescription]
+50,[HaftedWeapons.NoDescription]
+10,[Bows.NoDescription]
+7,[XBows.NoDescription]
+5,[Lances.NoDescription]
+25,[StaffClub.NoDescription]
+5,[WeaponsOther.NoDescription]
+5,[WhipChain.NoDescription]
+10,[AmmunitionThrown.NoDescription]
+
+;MilitaryIssueChance
+20,
+3, This type of weapon was [Occasion].
+
+;Occasion
+3,commonly issued to [Recipient]
+3,specially crafted for [Recipient][Reason]
+3,presented to [Recipient][Reason]
+2,reserved for use only by [Recipient]
+
+;Reason
+1, to honor 5 years of service in the unit
+1, to honor 10 years of service in the unit
+1, to honor 15 years of service in the unit
+1, to honor 20 years of service in the unit
+6, to reward valorous action
+4,
+
+;Recipient
+10,members of the [Fantasy Military Unit.Start]
+7,[Fantasy Military Unit.MilitaryRank]s of the [Fantasy Military Unit.Start]
+
+;Quality
+1,[Swords.Quality]
+
+

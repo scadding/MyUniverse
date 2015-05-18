@@ -1,0 +1,598 @@
+
+;Start
+2,"[StarterNick]" [FirstName] [LastName]
+1,"[StarterNick]" [LastName]
+3,[FirstName] "[NickName]" [LastName]
+
+;StarterNick
+1,Baby
+1,Baby Faced
+1,Barbados
+1,Battling
+1,Beau
+1,Big
+1,Blonde Terror
+1,Boxing Marvel
+1,Chalky
+1,Chrysanthemum
+1,Cornishman
+1,Fearless
+1,Fighting
+1,Flash
+1,Gentleman
+1,Gorilla
+1,Hammerin'
+1,Hanover
+1,Harlem
+1,Homicide
+1,Hurricane
+1,Iron
+1,Jersey
+1,Joltin'
+1,Kid
+1,Lefty
+1,Little
+1,Lockport
+1,Marvelous
+1,Midget
+1,Miracle
+1,Memphis
+1,Murderous
+1,Mushy
+1,Mysterious
+1,Panama
+1,Peerless
+1,Ruby
+1,Schoolboy
+1,Slapsie
+1,Smokin'
+1,Sonny
+1,Sugar
+1,Terrible
+1,Tiger
+1,Young
+
+;FirstName
+1,Aaron
+1,Abe
+1,Ad
+1,Al
+1,Alberto
+1,Alexis
+1,Antonio
+1,Archie
+1,Azumah
+1,Barney
+1,Barry
+1,Benny
+1,Billy
+1,Bob
+1,Bobby
+1,Bobo
+1,Brian
+1,Carlos
+1,Carmen
+1,Cassius
+1,Charles
+1,Charley
+1,Curtis
+1,Daniel
+1,Danny
+1,Dave
+1,Dick
+1,Duilio
+1,Dwight
+1,Eddie
+1,Eder
+1,Edwin
+1,Emile
+1,Eugene
+1,Eusebio
+1,Ezzard
+1,Fidel
+1,Floyd
+1,Frank
+1,Frankie
+1,Fred
+1,Freddie
+1,Fritzie
+1,Gene
+1,George
+1,Georges
+1,Harold
+1,Harry
+1,Henry
+1,Herbert
+1,Holman
+1,Humberto
+1,Ike
+1,Ingemar
+1,Ismael
+1,Jack
+1,Jackie
+1,Jake
+1,James J.
+1,Jeff
+1,Jess
+1,Jimmy
+1,Joe
+1,Joey
+1,John
+1,John Henry
+1,Johnny
+1,Jose
+1,Julio
+1,Jung
+1,Ken
+1,Khaosai
+1,Kostya
+1,Larry
+1,Laszlo
+1,Len
+1,Lennox
+1,Leo
+1,Les
+1,Lew
+1,Lou
+1,Louis
+1,Luis
+1,Manuel
+1,Marcel
+1,Mark
+1,Marvin
+1,Matthew
+1,Max
+1,Maxie
+1,Michael
+1,Miguel
+1,Mike
+1,Nicolino
+1,Nikolai
+1,Nino
+1,Orlando
+1,Owen
+1,Packey
+1,Pal
+1,Pancho
+1,Pascual
+1,Paul
+1,Pedro
+1,Pernell
+1,Pete
+1,Peter
+1,Pipino
+1,Primo
+1,Randy
+1,Ray
+1,Rip
+1,Roberto
+1,Rocky
+1,Ruben
+1,Salvador
+1,Sam
+1,Sammy
+1,Sixto
+1,Stanley
+1,Ted
+1,Teddy
+1,Terry
+1,Thomas
+1,Tommy
+1,Tony
+1,Vicente
+1,Victor
+1,Wilfred
+1,Wilfredo
+1,Willie
+
+;LastName
+1,Ambers
+1,Angott
+1,Apostoli
+1,Arguello
+1,Arizmendi
+1,Armstrong
+1,Attell
+1,Backus
+1,Baer
+1,Barry
+1,Basilio
+1,Bass
+1,Battalino
+1,Benitez
+1,Benvenuti
+1,Berg
+1,Berlenbach
+1,Bivins
+1,Braddock
+1,Britton
+1,Brouillard
+1,Brown
+1,Buchanan
+1,Burley
+1,Burns
+1,Canizales
+1,Canto
+1,Canzoneri
+1,Carbajal
+1,Carnera
+1,Carpentier
+1,Carter
+1,Cerdan
+1,Cervantes
+1,Chavez
+1,Chacon
+1,Chandler
+1,Chang
+1,Charles
+1,Clay
+1,Cokes
+1,Conn
+1,Corbett
+1,Coulon
+1,Criqui
+1,Cuevas
+1,Curry
+1,Darcy
+1,Delaney
+1,Dempsey
+1,Dillon
+1,Dixon
+1,Driscoll
+1,Dundee
+1,Duran
+1,Elorde
+1,Escobar
+1,Fenech
+1,Fields
+1,Fitzsimmons
+1,Flowers
+1,Foreman
+1,Foster
+1,Frazier
+1,Fullmer
+1,Galaxy
+1,Galindez
+1,Gans
+1,Gavilan
+1,Genaro
+1,Giardello
+1,Gibbons
+1,Godfrey
+1,Gomez
+1,Gonzalez
+1,Graham
+1,Graziano
+1,Greb
+1,Griffith
+1,Griffo
+1,Hagler
+1,Harada
+1,Hardwick
+1,Harris
+1,Harvey
+1,Hearns
+1,Herman
+1,Holmes
+1,Houck
+1,Jack
+1,Jackson
+1,Jeanette
+1,Jeffries
+1,Jenkins
+1,Jofre
+1,Johansson
+1,Johnson
+1,Jones
+1,Kansas
+1,Kaplan
+1,Ketchel
+1,Kilbane
+1,Kilrain
+1,Klaus
+1,LaBarba
+1,Laguna
+1,LaMotta
+1,Langford
+1,Lavigne
+1,Leonard
+1,Levinsky
+1,Lewis
+1,Liston
+1,Locche
+1,Loi
+1,Lopez
+1,Loughran
+1,Louis
+1,Lynch
+1,McAuliffe
+1,McCallum
+1,McCoy
+1,McFarland
+1,McGovern
+1,McGuigan
+1,McLarnin
+1,McVey
+1,Mandell
+1,Marciano
+1,Marshall
+1,Maxim
+1,Miller
+1,Miske
+1,Mitchell
+1,Montanez
+1,Montgomery
+1,Monzon
+1,Moore
+1,Moran
+1,Moore
+1,Muhammad
+1,Murphy
+1,Napoles
+1,Nelson
+1,Norfolk
+1,Norris
+1,Norton
+1,O'Brien
+1,Olivares
+1,Olson
+1,Ortiz
+1,Palomino
+1,Papke
+1,Papp
+1,Pastrano
+1,Patterson
+1,Pedroza
+1,Pep
+1,Perez
+1,Perkins
+1,Petrolle
+1,Pryor
+1,Qawi
+1,Ramos
+1,Ritchie
+1,Robinson
+1,Rodriguez
+1,Rosario
+1,Rosenbloom
+1,Ross
+1,Root
+1,Ryan
+1,Saddler
+1,Saldivar
+1,Sanchez
+1,Schmeling
+1,Shade
+1,Sharkey
+1,Slattery
+1,Smith
+1,Spinks
+1,Soose
+1,Steele
+1,Stribling
+1,Sullivan
+1,Taylor
+1,Tendler
+1,Thil
+1,Tiger
+1,Torres
+1,Tszyu
+1,Turpin
+1,Tyson
+1,Valenti
+1,Valuev
+1,Villa
+1,Walcott
+1,Walker
+1,Welsh
+1,Whitaker
+1,Wilde
+1,Willard
+1,Williams
+1,Wills
+1,Wolgast
+1,Wright
+1,Yarosz
+1,Zale
+1,Zaragoza
+1,Zarate
+1,Zivic
+
+;NickName
+1,The [PlaceName] [Nick2]
+1,[FullNick]
+
+;PlaceName
+1,Barbados
+1,Belfast
+1,Big
+1,Boston
+1,Brockton
+1,Bronx
+1,Brown
+1,California
+1,Camden
+1,Casablanca
+1,Cincinnati
+1,Clones
+1,Croat
+1,Creole
+1,Cuban
+1,Dublin
+1,Easton
+1,Fargo
+1,Fighting
+1,Galveston
+1,Georgia
+1,Hawaiian
+1,Heywood
+1,Illinois
+1,Korean
+1,Leamington
+1,Leiperville
+1,Little
+1,Logan Square
+1,Louisville
+1,Maitland
+1,Manassa
+1,Marrickville
+1,Michigan
+1,Motor City
+1,Philadelphia
+1,Pittsburg
+1,Pottawatomie
+1,Rockford
+1,Russian
+1,Saginaw
+1,St. Paul
+1,Sweetwater
+1,Tacoma
+1,Terre Haute
+1,The
+1,Tylerstown
+1,Welsh
+1,Whitechapel
+
+;Nick2
+1,Assassin
+1,Bear
+1,Blockbuster
+1,Bomber
+1,Bon Bon
+1,Brawler
+1,Bull
+1,Buzzsaw
+1,Carpenter
+1,Clouter
+1,Comet
+1,Cobra
+1,Cyclone
+1,Deacon
+1,Demon
+1,Destroyer
+1,Dynamite
+1,Express
+1,Ghost
+1,Giant
+1,Gob
+1,Hammer
+1,Hawk
+1,Kid
+1,Licker
+1,Lip
+1,Mauler
+1,Panther
+1,Phantom
+1,Red
+1,Shadow
+1,Sheikh
+1,Spider
+1,Swatter
+1,Swede
+1,Terror
+1,Thunderbolt
+1,Wildcat
+1,Windmill
+1,Wizard
+1,Wonder
+
+;FullNick
+1,Baby Faced
+1,Bazooka
+1,Beltin' Celt
+1,Bodysnatcher
+1,Bones
+1,Bright Eyes
+1,Bud
+1,Caesar
+1,Chalky
+1,Chegui
+1,Chiquita
+1,Cocoa Kid
+1,Cyclone
+1,Dixie Kid
+1,El Flaco Explosivo
+1,El Caballero
+1,El Cesar
+1,El Chapo
+1,El Cholo
+1,El Feo
+1,El Finito
+1,El Gallito
+1,El Intocable
+1,El Leon
+1,El Leopardo
+1,El Maestro
+1,El Tigre
+1,El Torito
+1,Flash
+1,Ghetto Wizard
+1,Hercules
+1,Hobo
+1,Human Hairpin
+1,Human Scissors
+1,Irish Lullaby
+1,Kid Chocolate
+1,Kid Dominican
+1,Kid Dynamite
+1,Jinx
+1,King Tut
+1,Lacey
+1,Long Count
+1,Man of Steel
+1,Manos de Piedra
+1,Mantequilla
+1,Mickey
+1,Mr. KO
+1,Napoleon of the Ring
+1,Newsboy
+1,Old Bones
+1,Raging Bull
+1,Red Herring
+1,Sandy
+1,Schoolboy
+1,Shotgun
+1,Sweet Pea
+1,The Ambling Alp
+1,The Boilermaker
+1,The Boxing Bell Hop
+1,The Champ
+1,The Cherry Picker
+1,The Cinderella Man
+1,The Clutch
+1,The Durable Dane
+1,The Fearless
+1,The Fighting Marine
+1,The Fish
+1,The Freckled Wonder
+1,The Gentleman
+1,The Great
+1,The Great White Hope
+1,The Hammer
+1,The Hitman
+1,The Invincible Eagle
+1,The Jawbreaker
+1,The Kid
+1,The Lion
+1,The Little Giant
+1,The Little Tiger
+1,The Mighty Atom
+1,The Mouse
+1,The Nonpareil
+1,The Old Mongoose
+1,The Orchid Man
+1,The People's Champion
+1,The Professor
+1,The Rock
+1,The Thai Tyson
+1,The Upstate Onion Farmer
+1,Thunder and Lightning
+1,Thunder from Down Under
+1,Too Sharp
+1,Toy Bulldog
+1,Twin
+1,Will o' the Wisp
+1,Zoom Zoom
+1,Zurdo de Oro
+
+

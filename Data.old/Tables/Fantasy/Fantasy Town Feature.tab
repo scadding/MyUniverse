@@ -1,0 +1,294 @@
+
+;Start
+1,==Sections of Town==<br>
+_<sgdisplay iterations="5">[inspiration] [sections]</sgdisplay><br>
+_<br>
+_==General Features==<br>
+_<sgdisplay iterations="15">[Start]</sgdisplay><br>
+_<br>
+_==Noteworthy Streets==<br>
+_<sgdisplay iterations="5">[inspiration] [streets]</sgdisplay><br>
+_<br>
+_==Buildings of Note==<br>
+_<sgdisplay iterations="5">[inspiration] [buildings]</sgdisplay><br>
+_<br>
+_==Standalones==<br>
+_<sgdisplay iterations="5">[inspiration] [standalones]</sgdisplay><br>
+_<br>
+_==Outer Defenses==<br>
+_<sgdisplay iterations="5">[inspiration] [defenses]</sgdisplay><br>
+_<br>
+_==Shipping Facilities==<br>
+_<sgdisplay iterations="5">[inspiration] [shipping]</sgdisplay><br>
+_<br>
+_==Near Water==<br>
+_<sgdisplay iterations="5">[inspiration] [water]</sgdisplay><br>
+_<br>
+_==Open Areas==<br>
+_<sgdisplay iterations="5">[inspiration] [openarea]</sgdisplay><br>
+_<br>
+_==Religious Buildings==<br>
+_<sgdisplay iterations="5">[inspiration] [religious]</sgdisplay><br>
+_<br>
+_==Places of the Dead==<br>
+_<sgdisplay iterations="5">[inspiration] [deadpeople]</sgdisplay><br>
+_<br>
+
+;Start
+6,[Fantasy Landmarks.inspiration] [feature]
+1,[feature] of the [Fantasy Landmarks.inspiration][Fantasy Landmarks.plural]
+1,[religiousplace]
+
+;inspiration
+1,[Fantasy Landmarks.inspiration]
+1,[Fantasy Town Names.Englishy]
+
+;feature
+10,[streets]
+10,[buildings]
+5,[standalones]
+5,[defenses]
+3,[shipping]
+5,[water]
+5,[openarea]
+2,[sections]
+2,[religious]
+5,[deadpeople]
+
+;streets
+2,Alley
+3,Avenue
+1,Chase
+2,Circle
+2,Crescent
+1,Corner
+1,Crossroads
+2,Crossing
+1,Hill
+1,Junction
+3,Lane
+1,Mount
+1,Parade
+1,Path
+3,Place
+3,Road
+2,Row
+2,Stand
+3,Street
+1,Terrace
+1,Trail
+1,Walk
+2,Way
+
+;buildings
+1,Amphitheatre
+1,Arena
+1,Bakery
+1,Barracks
+1,Bazaar
+1,Belltower
+1,Brewery
+1,Butcher
+1,Caravanserai
+1,Cartwright
+1,Chandler
+1,Chateau
+1,Cobbler
+1,Coliseum
+1,College
+1,Dome
+1,Eelmonger
+1,Fishmonger
+1,Fletcher
+1,Forge
+1,Gaol
+1,Garrison
+1,Goldsmith
+1,Grocer
+1,Guildhall
+1,Guildhouse
+1,Hall
+1,House
+1,Ironmonger
+1,Jewelsmith
+1,Keep
+1,Luthier
+1,Manor
+1,Mansion
+2,Market
+1,Marketplace
+1,Mews
+1,Mill
+1,Palace
+1,Prison
+1,Shops
+1,Silversmith
+1,Smithy
+1,Stables
+1,Stage
+1,Stockyard
+1,Tannery
+1,Theatre
+1,Tinkerers
+1,Tower
+
+;standalones
+1,Arch
+1,Columns
+1,Fountain
+1,Gallows
+1,Guillotine
+1,Monolith
+1,Monument
+1,Obelisk
+1,Pillars
+1,Pillary
+1,Point
+1,Post
+1,Spike
+1,Spire
+1,Statue
+1,Steps
+1,Stocks
+1,Tower
+1,Tunnel
+
+;defenses
+1,Armory
+1,Bailey
+1,Barbican
+1,Barracks
+1,Bastion
+1,Battlement
+1,Bridge
+1,Door
+1,Drawbridge
+1,Earthworks
+1,Fence
+1,Fortress
+1,Garrison
+1,Gate
+1,Gatehouse
+1,Hold
+1,Keep
+1,Moat
+1,Mott
+1,Palisade
+1,Post
+1,Postern
+1,Ramparts
+1,Stronghold
+1,Tower
+1,Wall
+1,Watch
+1,Watchtower
+
+;shipping
+1,Anchorage
+1,Crane
+1,Docks
+1,Harbor
+1,Marina
+1,Pier
+1,Quay
+1,Wharf
+1,Wharves
+
+;water
+1,Aqueduct
+1,Bridge
+1,Canal
+1,Cistern
+1,Footbridge
+1,Pond
+1,Pool
+1,Reservoir
+1,Shore
+1,Span
+1,Weir
+1,Well
+
+;openarea
+1,Agora
+1,Commons
+1,Field
+1,Forum
+1,Garden
+1,Green
+1,Park
+1,Piazza
+1,Plaza
+1,Square
+1,Stray
+1,Terrace
+1,Yard
+
+;sections
+2,Bailiwick
+2,Bank
+3,District
+1,Dominion
+3,Enclave
+3,Heights
+3,Parish
+3,Precinct
+1,Province
+3,Quarter
+2,Row
+2,Town
+2,Ward
+2,Warren
+
+;religiousplace
+1,St. [Catholic Saint Names.Start]'s [religious]
+1,[religious] of St. [Catholic Saint Names.Start]
+1,[Fantasy Town Names.Misc][Fantasy Town Names.Suffix] [religious]
+
+;religious
+1,Abbey
+1,Altar
+1,Apse
+1,Basilica
+1,Belfry
+1,Cathedral
+1,Chapel
+1,Chancel
+1,Chantry
+1,Church
+1,Cloister
+1,Commune
+1,Convent
+1,Deanery
+1,Font
+1,Friary
+1,Manse
+1,Monastery
+1,Nunnery
+1,Parish
+1,Priory
+1,Rectory
+1,Sanctuary
+1,Sanctum
+1,Shrine
+1,Tabernacle
+1,Temple
+1,Vicarage
+
+;deadpeople
+1,Boneyard
+1,Catacomb
+1,Cemetery
+1,Charnel
+1,Crypt[Fantasy Landmarks.plural]
+1,Graves
+1,Graveyard
+1,Mausoleum
+1,Mortuary
+1,Necropolis
+1,Ossuary
+1,Rest
+1,Sepulcher
+1,Tombs
+1,Vault
+
+

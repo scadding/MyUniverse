@@ -1,0 +1,150 @@
+
+;Start
+1,[male][titlechance]
+1,[female][titlechance]
+1,[demon][titlechance]
+
+;male
+1,Metatron
+1,Ofaniel
+1,Padael
+1,Thegri
+1,Harabael
+1,Zagzagel
+1,Sandalphon
+1,Bahut
+1,Velon
+1,Galitzur
+1,Adirion
+1,Archas
+1,Israfil
+1,Cherubiel
+1,Dagiel
+1,Fanuel
+1,Admael
+1,Kemuel
+1,Tebliel
+1,Raphael
+1,Michael
+1,Gabriel
+1,Anael
+1,Kafziel
+1,Uriel
+1,Zerachiel
+1,Ashriel
+1,Azreal
+1,Chamuel
+1,Jophiel
+1,Orifiel
+1,Remiel
+1,Simiel
+;female
+1,Ra'uel
+1,Akraziel
+1,Sarakiel
+1,Exousia
+1,Caila
+1,Mara
+1,Kalmiya
+1,Kasdaya
+1,Zephaniah
+1,Ridya
+1,Suriel
+1,Hayyel
+1,Raguel
+1,Turiel
+1,Rahab
+1,Tarshish
+1,Mizraim
+1,Hashmal
+1,Ilaniel
+1,Akathriel
+1,Lailah
+1,Yehadriel
+1,Baradiel
+1,Haldiel
+1,Zadkiel
+1,Annis
+1,Xisosaeprah
+1,Sutiturael
+1,Ctusam
+1,Nihnespalon
+1,Rasuteahzas
+1,Tanisexs
+1,Arutlerin
+1,Lamtahri
+1,Rerohtasiel
+1,Parulehn
+1,Hecate
+
+;titlechance
+10, 
+1,, [title]
+
+;title
+1,Whose Crown Branches Out
+1,The Angel of the Face
+1,Lord of the Fruit-Bearing
+1,Whose Waters Spring Up
+1,The Rigid One
+1,The Measurer
+1,The One Who Walks In Righteousness
+1,Revealer of the Rock
+1,The Secret of God
+1,The Burning One
+1,The Judge
+1,The Chariot-Driver
+1,Keeper of the Key
+1,The Innumerable One
+1,Sealer of the Guilty
+1,The Golden One
+1,The Fallen
+
+;demon
+1,Erathaol
+1,Nagrasagiel
+1,Kezef
+1,Dachiel
+1,Hemah
+1,Lahatiel
+1,Dumah
+1,Semhazai
+1,Makatiel
+1,Abaddon
+1,Hutriel
+1,Kushiel
+1,Af
+1,Shoftiel
+1,Kipod
+1,Puruel
+1,Mekalleh
+1,Hariel
+1,Pusiel
+1,Rogziel
+1,Baal
+1,Samael
+1,Nergal
+1,Allocer
+1,Amdukias
+1,Abaddon
+1,Apollyon
+1,Asura
+1,Aym
+1,Kasdeya
+1,Leviathan
+1,Belphegor
+1,Ahriman
+1,Kimaris
+1,Erinyes
+1,Anzu
+1,Kali
+1,Abraxas
+1,Ereshkigal
+1,Fenrir
+1,Garuda
+1,Ishtar
+1,Inanna
+1,Haures
+1,Hiisi
+
+

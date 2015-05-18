@@ -1,0 +1,100 @@
+
+;Start
+1,[tPulpHeroNovel]
+
+;tPulpNoun
+1,Tank
+1,Tapioca
+1,Taters
+1,Taupe
+1,Terrier
+1,Terrorists
+1,Tongue
+1,Tornado
+1,Tower
+1,Tree Trunk
+1,Tripwire
+1,Truants
+1,Twins
+1,Twosome
+
+;tPulpAdjNegative
+1,Tacky
+1,Tallahassee
+1,Taunting
+1,Terrible
+1,Texas
+1,Tight
+1,Time Taking
+1,Tin
+1,Tingling
+1,Towering
+1,Triple
+1,Trippy
+1,Tritium
+1,Twangy
+1,Two Timing
+
+;tPulpAdjPositive
+1,Taciturn
+1,Tacoma
+1,Talkative
+1,Talladega
+1,Tangible
+1,Tantalizing
+1,Tasty
+1,Tie-dye
+1,Tinkering
+1,Titanic
+1,Titanium
+1,Truth Telling
+1,Toledo
+1,Trusty
+1,Trustworthy
+1,Tungsten
+1,Tupelo
+1,Twinkling
+
+;tPulpMaleFirstName
+1,Ted
+1,Theodore
+1,Thomas
+1,Tommy
+1,Tony
+1,Tyrone
+
+;tPulpFemaleFirstName
+1,Tammy
+1,Tara
+1,Teri
+1,Terry
+1,Tonya
+
+;tPulpLastName
+1,Terror
+1,Tickler
+1,Tinkerer
+1,Tooth
+1,Trident
+1,Triton
+1,Trojan
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the Tale of the
+1,and the Trap of the
+1,in:
+1,takes on the
+1,and [tPulpAdjPositive] [tPulpMaleFirstName]'s 
+
+;pulpend
+1,[tPulpAdjNegative] [tPulpNoun]
+
+;tPulpHeroNovel
+10,[tPulpAdjPositive] [tPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[tPulpMaleFirstName] [tPulpLastName] [pulpmiddle] [pulpend]
+3,[tPulpAdjPositive] [tPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[tPulpFemaleFirstName] [tPulpLastName] [pulpmiddle] [pulpend]
+
+

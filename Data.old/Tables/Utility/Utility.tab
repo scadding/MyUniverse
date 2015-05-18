@@ -1,0 +1,1147 @@
+
+;Start
+1,==Generators==<br>
+_===Gems===<br>
+_<sgdisplay iterations="5">[Gems]</sgdisplay><br>
+_===Fruit===<br>
+_<sgdisplay iterations="5">[Fruit]</sgdisplay><br>
+_===Flower===<br>
+_<sgdisplay iterations="3">[Flower]</sgdisplay><br>
+_===Wood===<br>
+_<sgdisplay iterations="5">[Wood]</sgdisplay><br>
+_===Metals===<br>
+_<sgdisplay iterations="5">[MetalDecor]</sgdisplay><br>
+_===Fur===<br>
+_<sgdisplay iterations="5">[Fur] fur</sgdisplay><br>
+_===Leather===<br>
+_<sgdisplay iterations="5">[LeatherHide]</sgdisplay><br>
+_===Cloth===<br>
+_<sgdisplay iterations="5">[Cloth]</sgdisplay><br>
+_===Symbols===<br>
+_<sgdisplay iterations="5">[Symbols]</sgdisplay><br>
+
+
+;EmptyTable
+1,
+
+;Gems
+1,<b>Gem:</b><br> [GemType].<br><b>Quality</b> [GemQuality]<br>  
+
+;GemType
+25,[Ornamental Stones]
+25,[SemiPrecious Stones]
+15,[Fancy Stones]
+15,[Precious Stones]
+10,[Hardstones]
+1,[Shells]
+8,[notgems]
+3,[Jewels]
+
+;Ornamental Stones
+2,Azurite
+2,Banded Agate
+2,Bluestone
+2,Blue Quartz
+2,Rose Quartz
+2,Smoky Quartz
+2,Clear Quartz
+2,Eye Agate
+2,Fire Agate
+2,Feldspar
+2,Frost Agate
+2,Calcite
+2,Black Mica
+2,Hematite
+2,Lapis Lazuli
+2,Lynx Eye
+3,Malachite
+2,Moss Agate
+2,White Mica
+3,Obsidian
+3,Quartz crystal
+2,Chalcedony
+2,Sunstone
+2,Tiger-Eye Agate
+2,Turquoise
+2,Pyrite
+
+;SemiPrecious Stones
+2,Alestone
+2,Andar
+2,Aventurine
+4,Bloodstone
+2,Boakhar
+3,Carnelian
+3,High-Grade Chalcedony
+3,Citrine
+2,Clelophane
+2,Datchas
+2,Dioptase
+2,Fools Gold
+2,Hambergyle
+2,Hydrophane
+2,Hypersthene
+2,Iol
+3,Mid Grade Lapis Lazuli
+2,Irtios
+2,Lyriyl
+2,Malacon
+2,Mellochrysos
+3,High Grade Obsidian
+2,Mykaro
+2,Mynteer
+4,Onyx
+2,Orprase
+2,Phenalope
+2,Rainbow Obsidian
+4,Rock Crystal
+2,Samarskite
+3,Sardonyx
+3,Serpentine
+2,Skydrop
+4,Well Formed Quartz Crystal
+2,Well Formed Smoky Quartz Crystal
+3,Well Formed Rose Quartz Crystal
+2,Tabasheer
+2,Tchazar
+2,Witherite
+3,Zircon
+
+;Fancy Stones
+6,Alexandrite
+8,Amber
+8,Amethyst
+4,Angel's Skin
+4,Brandeen
+6,Chrysoberyl
+8,Coral
+4,Jargoon
+6,Jade
+6,Jet
+4,Kornerupine
+4,Muras's Tears
+4,Octel
+4,Scapra
+4,Shandon
+4,Karavin's Crystal
+3,Star Diopside
+4,Tourmaline
+2,Tremair
+2,Ulvaen
+2,Waterstar
+2,Ziose
+
+;Precious Stones
+7,Aquamarine
+7,Euclase
+7,Flamedance
+8,Red Garnet
+8,White Garnet
+7,Horn Coral
+7,Orbaline
+8,Pearl
+8,Peridot
+8,Raindrop
+6,Fugilite
+7,Sphene
+7,Spinel
+5,Topaz
+
+;notgems
+8,Black Opal
+8,Fire Opal
+8,Jasmal
+8,Moonbar
+8,Opal
+8,Moonstone
+8,Meteorite
+8,Ravenar
+8,Red Tears
+4,Sapphire
+3,Underdark Amethyst
+3,Underdark Topaz
+7,Tomb Jade
+5,Water Opal
+6,Extra-Planar Quartz
+
+;Jewels
+2,Dragon's Breath Amethyst
+2,Pure Earth Crystal (From Elemental plane of Earth)
+10,Black Sapphire
+20,Diamond
+20,Emerald
+15,Jacinth
+2,King's Tears
+1,Rogue Stone
+20,Ruby
+1,Extra-Planar Emerald
+10,Star Ruby
+10,Star Sapphire
+#4,[MagicalWondrous.Gemstones]
+
+;Hardstones
+6,piece of Alabaster
+6,piece of Archon
+6,piece of [HornIvory]
+6,Iris Agate
+6,Lumachella
+6,Luspeel
+6,piece of Marble
+6,Meerschaum
+6,piece of Pipestone
+6,Psaedros
+6,piece of Serpentine Stone
+6,piece of Soapstone
+1,Star Metal
+6,Sulabra
+6,Tempskya
+4,Turritella
+5,Xylopal
+
+;Shells
+7,Abalone shell
+7,Black Helmet shell
+7,Conch shell
+8,Tiger Cowrie shell
+5,Pearl Cowrie shell
+3,Opal Cowrie shell
+1,Purple Star Cowrie shell
+7,Flame Helmet shell
+7,Mother of Pearl
+7,Nacre shell
+7,Nautilus shell
+7,Red Helmet shell
+6,Sardonyx Helmet shell
+5,Kraken shell
+
+;GemQuality
+10,uncut
+12,rough-cut
+16,rough
+10,cut but totally flawed
+23,cut
+24,well cut
+7,very well cut
+5,near flawless
+3,flawless
+
+;Food
+2,Bread
+2,Cheese
+1,Meat, Dried
+1,Meat, Cured
+2,[Fruit]
+
+;Fruit
+10,apple
+5,pear
+5,black cherry
+5,sour cherry
+5,pumpkin
+4,melon
+8,red grape
+8,white grape
+4,peach
+2,apricot
+3,plum
+2,quince
+2,coconut
+2,crabapple
+2,fig
+2,persimmon
+3,pomegranate
+1,Bacon-Fruit
+1,tamarind
+30,[Berry]
+6,[Citrus]
+
+;Citrus
+5,orange
+5,lime
+5,lemon
+2,kumquat
+2,white grapefruit
+2,pineapple
+4,pink grapefruit
+4,tangerine
+
+;Berry
+1,bilberry
+10,blackberry
+6,blueberry
+7,cranberry
+7,black currant
+7,red currant
+2,dewberry
+4,elderberry
+3,gooseberry
+5,cloudberry
+1,hackberry
+3,huckleberry
+6,lingonberry
+4,mulberry
+10,raspberry
+6,black raspberry
+10,strawberry
+1,whortleberry
+1,snow berries
+
+;Herb
+1,thyme
+1,rosemary
+1,oregano
+1,lavender
+1,basil
+1,parsley
+1,dill
+1,coriander
+1,fennel
+1,tarragon
+1,sage
+1,mint
+1,chives
+1,bay leaf
+
+;Spice
+1,allspice
+1,anise
+1,caper
+1,caraway
+1,cardamom
+1,celery
+1,chicory
+1,chili
+1,cinnamon
+1,cloves
+1,cumin
+1,fennel seed
+1,fenugreek
+1,garlic
+1,ginger
+1,horseradish
+1,juniper berry
+1,liquorice
+1,mustard seed
+1,nutmeg
+1,onion
+1,paprika
+1,[Pepper]
+1,poppy seed
+1,saffron
+1,sesame
+1,star anise
+1,sumac
+1,tamarind
+1,tumeric
+1,vanilla
+1,wasabi
+
+;Pepper
+1,black pepper
+1,green pepper
+1,pink peppercorn
+1,white pepper
+
+;HerbSpice
+1,[Herb]
+2,[Spice]
+
+
+;Flower
+1,dandelion
+1,lilac
+1,rose
+1,elderberry flower
+1,feyflower
+1,hibiscus
+1,orchid
+1,honeysuckle
+1,daisy
+1,tulip
+1,lily
+1,carnation
+1,iris
+1,daffodil
+1,chrysanthemum
+1,bellflower
+1,foxglove
+1,geranium
+1,hortensia
+1,lavender
+1,sunflower
+
+
+;Wood
+20,[WoodsHard]
+20,[WoodsSoft]
+1,[WoodsRare]
+
+;WoodWeapon
+20,[WoodsHard]
+2,[WoodsSoft]
+1,[WoodsRare]
+
+;WoodDecorative
+2,[WoodsHard]
+1,[WoodsRare]
+
+;WoodBow
+40,yew
+20,osage
+20,mulberry
+20,red cedar
+10,cherry
+8,hickory
+7,walnut
+5,specially treated [WoodWeapon]
+3,darkwood
+
+;WoodsHard
+10,oak
+3,ironwood
+5,mahogany
+6,cherry
+2,persimmon
+4,pecan
+6,walnut
+6,birch
+8,maple
+6,ash
+4,birch
+3,alder
+5,apple
+5,beech
+3,elm
+4,chestnut
+6,hickory
+6,cypress
+3,teak
+
+;WoodsSoft
+10,pine
+6,spruce
+6,fir
+2,redwood
+6,cedar
+4,poplar
+3,willow
+3,yew
+
+;WoodsRare
+3,darkwood
+1,bronzewood
+1,ebony
+1,rosewood
+1,sandalwood
+
+;Metal
+1,[MetalSoft]
+1,[MetalHard]
+
+;MetalWeapon
+49,[MetalHard]
+2,<b>[MetalExotic]</b>
+
+;MetalArmor
+49,[MetalHard]
+2,<b>[MetalExoticArmor]</b>
+
+;MetalDecor
+3,[MetalHard]
+7,[MetalPrecious]
+1,<b>[MetalExotic]</b>
+
+;MetalSoft
+6,copper
+6,silver
+4,gold
+2,platinum
+1,lead
+1,pewter
+1,tin
+2,bronze
+3,electrum
+
+;MetalHard
+200,steel
+20,iron
+10,high-carbon steel
+1,titanium
+9,brass
+
+;MetalPrecious
+10,copper
+8,silver
+4,brass
+4,bronze
+9,gold
+5,electrum
+6,platinum
+2,pewter
+2,<b>[MetalExotic]</b>
+2,[MetalSoft]
+
+;MetalExotic
+2,Abyssal Bloodiron
+15,Adamantine
+15,Adamantium
+2,Arandur
+1,Astral Driftmetal
+2,Aurorum
+2,Blood Iron
+2,Blue Ice
+30,Cold Iron
+3,Darksteel
+2,Dlarun
+1,Entropium
+3,Fever Iron
+5,Feysteel
+2,Frystalline
+3,Glassteel
+2,Hizagkuur
+3,Living Metal
+11,Magically Treated Copper
+10,Magically Treated Gold
+10,Magically Treated Platinum
+20,Magically Treated Silver
+15,Mithral
+15,Mithril
+7,Moon-metal
+1,Pandemonic Silver
+2,Solarian Truesteel
+1,Thinaun
+1,Urdrukar
+1,Ysgardian Heartwire
+
+;MetalExoticArmor
+10,Adamantine
+10,Adamantium
+2,Arandur
+1,Astral Driftmetal
+2,Aurorum
+5,Blended Quartz
+3,Blood Iron
+5,Bronzewood
+1,Entropium
+3,Darksteel
+2,Dlarun
+3,Fever Iron
+3,Feysteel
+2,Frystalline
+3,Glassteel
+2,Hizagkuur
+3,Living Metal
+11,Magically Treated Copper
+10,Magically Treated Gold
+10,Magically Treated Platinum
+20,Magically Treated Silver
+15,Mithril
+15,Mithral
+2,Solarian Truesteel
+2,Susalian Chainweave
+1,Urdrukar
+1,Ysgardian Heartwire
+
+;StoneDecorative
+5,granite
+5,limestone
+4,white marble
+1,black marble
+1,green marble
+1,obsidian
+1,onyx
+3,soapstone
+2,slate
+2,sandstone
+
+;Claws
+
+;HornsAntlers
+
+;Feathers
+
+;FeathersCommon
+
+;FeathersExotic
+
+;Teeth
+
+;Scales
+
+;Element
+1,Earth
+1,Air
+1,Fire
+1,Water
+
+;ElementOriental
+1,Earth
+1,Wood
+1,Fire
+1,Water
+1,Metal
+
+;ElementExotic
+1,Thunder
+1,Nature
+1,Ether
+
+;ElementAny
+4,[Element]
+2,[ElementOriental]
+1,[ElementExotic]
+
+;CompassDirection
+1,North
+1,South
+1,East
+1,West
+
+;CompassDirectionEight
+1,North
+1,South
+1,East
+1,West
+1,Northeast
+1,Northwest
+1,Southeast
+1,Southwest
+
+;Chitin
+100,giant crab
+25,medium scorpion
+10,large scorpion
+5,huge scorpion
+10,ankheg
+5,remorhaz
+5,chuul
+10,giant wasp
+10,giant beetle
+1,bebilith demon
+1,retriever demon
+1,ice devil
+1,drider
+2,formian
+4,umber hulk
+5,giant praying mantis
+5,monstrous centipede
+
+;HornIvory
+12,boar tusk
+10,whale tooth
+13,elephant ivory
+5,hippopotamus tooth
+10,mammoth ivory
+8,narwhal horn
+2,unicorn horn
+10,walrus tusk
+6,dragon tooth
+2,fiend horn
+5,minotaur horn
+17,bull horn
+10,hornbill ivory
+
+;Fur
+9,ape
+20,[LeatherAnimalType] badger
+14,[LeatherAnimalType] black bear
+14,[LeatherAnimalType] brown bear
+5,[LeatherAnimalType] polar bear
+25,beaver
+20,[LeatherAnimalType] boar
+5,camel
+3,cheetah
+3,leopard
+15,mink
+5,ferret
+5,weasel
+5,ermine
+5,marten
+20,fox
+7,horse
+3,[LeatherAnimalType] lion
+25,rabbit
+7,[LeatherAnimalType] rat
+11,seal
+17,sheep
+10,skunk
+10,coyote
+15,goat
+8,lynx
+15,otter
+4,sable
+2,[LeatherAnimalType] tiger
+9,[LeatherAnimalType] weasel
+15,[LeatherAnimalType] wolf
+10,[LeatherAnimalType] wolverine
+5,worg
+2,barghest
+2,blink dog
+2,displacer beast
+1,girallon
+2,griffon
+1,hellcat
+2,krenshar
+1,manticore
+1,shadow mastiff
+2,winter wolf
+1,yeth hound
+1,hell hound
+1,minotaur
+7,great wolf
+
+;LeatherHide
+10,[LeatherShinyness][LeatherColor] [LeatherAnimalType]crocodile skin
+6,[LeatherShinyness][LeatherColor] [LeatherAnimalType]ape skin
+3,[LeatherShinyness][LeatherAnimalType]bat leather
+9,bison hide
+9,[LeatherAnimalType]boar hide
+11,[LeatherShinyness][LeatherColor] camel leather
+35,[LeatherShinyness][LeatherColor] deer leather
+2,elephant hide
+14,[LeatherColor] horse hide
+10,[LeatherShinyness][LeatherColor] [LeatherAnimalType]lizard skin
+15,[LeatherShinyness][LeatherColor] pigskin
+2,rhinoceros hide
+5,[LeatherShinyness][LeatherColor] seal leather
+3,[LeatherShinyness][LeatherColor] [LeatherAnimalType]sharkskin
+15,[LeatherShinyness][LeatherColor] sheepskin leather
+10,[LeatherShinyness][LeatherColor] [LeatherAnimalType]snakeskin
+2,[LeatherShinyness]basilisk leather
+1,behir hide
+1,bulette hide
+2,[LeatherShinyness][LeatherColor]jabberwock hide
+5,dragon hide
+5,[LeatherShinyness][LeatherColor] hydraskin
+1,naga skin
+2,[LeatherShinyness]purple worm hide
+1,remorhaz hide
+2,[LeatherShinyness]shocker lizard skin
+5,[LeatherShinyness][LeatherColor] wyvern hide
+116,[LeatherShinyness][LeatherColor] leather
+50,[LeatherShinyness][LeatherColor] calfskin
+6,[LeatherHideSentient]
+1,destrachan hide
+1,frost worm hide
+1,grick hide
+1,manticore wing leather
+40,[LeatherColor] suede
+
+;LeatherHideSentient
+10,human skin
+5,elf skin
+5,dwarf skin
+3,gnome skin
+3,halfling skin
+9,orcskin
+10,goblinskin
+10,koboldskin
+10,lizardfolk hide
+25,demonskin
+15,devilskin
+5,rakshasa hide
+10,gnoll hide
+10,bugbear hide
+10,ogre hide
+2,illithid skin
+2,aboleth hide
+1,celestial skin
+1,cloaker hide
+2,hag skin
+1,kraken hide
+3,kuo-toa skin
+7,sahaugin skin
+7,trollskin
+3,yuan-ti skin
+2,drow elf skin
+4,ettin hide
+4,giant skin
+2,medusa skin
+6,hobbit skin
+1,draco hide
+
+;LeatherAnimalType
+200,
+10,giant
+10,dire
+5,albino
+3,celestial
+3,fiendish
+1,celestial dire
+1,fiendish dire
+
+;TradeGoodsTextiles
+
+;TradeGoodsAnimals
+
+;DomesticAnimals
+
+;Cloth
+30,cotton
+20,wool
+15,tweed
+15,linen
+5,canvas
+15,hemp
+6,burlap
+4,sackcloth
+
+;ClothFancy
+20,silk
+30,satin
+20,brocade
+20,fine linen
+30,fine wool
+10,samite cloth
+13,velvet
+11,lace
+
+;Embellishments
+
+;Depictions
+
+;Symbols
+1,a family crest
+3,the crest of the Noble House of [Fantasy Names.Surname]
+1,the maker's mark
+2,the symbol of [GheronUtility.DietySymbol]
+2,the symbol of [GheronUtility.OrganizationSymbol]
+2,the image of [AnimalSymbol]
+2,the image of [CreatureSymbol]
+1,the image of [PlantSymbol]
+1,a simple [GeometricSymbol]
+1,runes in [RuneLanguage]
+1,the insignia of a military unit - the [Fantasy Military Unit.Start]
+1,the coat of arms of a city, nation, or other location
+
+;AnimalSymbol
+5,an eagle head
+5,a hawk's talons
+5,a spider
+5,two intertwined snakes
+5,a wolf's head
+5,a bear's head
+5,a horseshoe mark
+5,a spread-winged bat
+5,a diving falcon
+3,an octopus
+5,a roaring lion
+5,a lion rampart
+5,a hornet
+5,a shark head
+5,a snake baring its fangs
+5,a bull's head
+5,a goat's head
+2,a housecat's silhouette
+3,a flying crow
+3,a crow's head
+5,a fish
+5,a shark's silhouette
+2,a screaming ape
+3,a hyena head
+5,an elephant head
+5,a rhinoceros head
+3,a dolphin
+2,a crocodile silhouette
+5,a handprint
+5,a scorpion tail
+5,a scorpion poised to strike
+2,a lobster claw
+5,a scarab beetle
+5,a writhing serpent
+5,a ram's head
+5,a leaping stag
+3,a great cat about to pounce
+4,a baying wolf in front of a moon
+2,a crocodile head
+1,a mantis poised to strike
+1,an antelope's head with twisting horns
+1,a fighting rooster
+1,a crane head
+2,a boar
+1,a charging bull
+1,a dove
+1,a rabbit's head
+1,a heron
+5,a rearing horse
+1,a donkey head
+1,a camel
+1,a parrot head
+1,a butterfly
+1,a spider in its web
+1,a swan
+1,a feather
+
+;CreatureSymbol
+1,an illithid head
+1,a griffon
+1,a unicorn
+1,an umber hulk head
+1,a stylized dragon design
+1,a spread-winged wyvern
+1,a demonic face
+1,a screaming man
+1,a reclining nymph in a provocative pose
+1,an angel in a defiant stance
+1,a beholder's silhouette
+1,a skull encased in flame
+1,a rearing centaur
+1,a displacer beast ready to pounce
+1,a many-headed hydra
+1,a medusa head
+1,a pegasus
+1,a dancing satyr
+1,a stirge
+1,a burning phoenix
+1,a writhing sea serpent
+1,a floating orb with eyestalks
+1,a grinning imp face
+1,a tempting succubus
+1,an avenging angel
+1,a massive b'hemah
+1,a soaring eagle
+1,a four-faced querub
+1,a stylised satyr
+1,a silhouette of a simurgh
+
+;PlantSymbol
+5,an oak leaf
+2,a maple leaf
+3,an acorn
+1,a bunch of grapes
+1,a sheaf of grain
+1,an apple
+1,a pear
+1,a shamrock
+1,a cloverleaf
+1,a palm tree
+3,a laurel crown
+3,a stylized oak tree
+1,a fern leaf
+1,a mushroom
+5,a rose
+3,a thorny stem
+1,a bull-rush or cat's tail reed
+1,a carnation
+1,a cornucopia
+1,a daisy
+1,a pumpkin
+1,mandrake root
+1,an olive branch
+1,a pinecone
+1,a strawberry
+1,a thistle
+5,a holly leaf
+1,a leafless tree
+1,a wheat stalk
+
+;GeometricSymbol
+1,circle
+1,set of concentric circles
+1,five-pointed star
+1,inverted five-pointed star
+1,six-pointed star
+1,triangle
+1,inverted triangle
+1,diamond shape
+1,hexagon
+1,square
+1,teardrop shape
+1,heart shape
+1,octagon
+1,X shape
+1,crossed swords
+
+;RuneLanguage
+30,Dwarvish
+20,Elvish
+10,Celestial
+5,Abyssal
+5,Infernal
+1,Aquan
+1,Auran
+1,Ignan
+1,Terran
+1,Giant
+1,Draconic
+10,an unknown language
+
+;GlassOpacity
+3,near-opaque
+2,frosted
+3,translucent
+7,transparent
+
+;GlassColors
+10,clear
+5,[BrightColors]
+2,[DarkColors]
+
+;LeatherColor
+50,brown
+25,black
+25,[DarkColors]
+10,[DullColors]
+10,[BrightColors]
+2,[LightColors]
+
+;Colors
+1,[BrightColors]
+1,[LightColors]
+1,[DarkColors]
+1,[DullColors]
+
+;BrightColors
+1,blue
+1,green
+1,orange
+1,pink
+1,red
+1,yellow
+1,white
+
+;LightColors
+1,apricot
+1,beige
+1,cream
+1,lime
+1,loam
+1,mint
+1,paisley
+1,peach
+1,periwinkle
+1,pink
+1,tope
+1,sand
+1,white
+
+;DarkColors
+1,black
+1,blue
+1,brown
+1,crimson
+1,ebon
+1,eggplant
+1,gray
+1,grey
+1,indigo
+1,maroon
+1,navy
+1,purple
+1,violet
+
+;DullColors
+1,beige
+1,black
+1,brown
+1,cream
+1,drab
+1,gray
+1,grey
+1,olive
+1,rust
+1,sand
+1,taupe
+
+;LeatherShinyness
+3,oiled 
+3,shiny 
+3,dull 
+4,pebbled 
+5,
+
+;EnergyType
+2,Fire
+2,Cold
+1,Acid
+1,Electricity
+1,Sonic
+1,Holy
+1,Unholy
+
+;EnergyTypeNoun
+2,Fire
+2,Cold
+1,Acid
+1,Electricity
+1,Thunder
+1,Heaven
+1,Hell
+
+;EnergyTypeAdjective
+2,Fiery
+2,Cold
+1,Acidic
+1,Electric
+1,Sonic
+1,Holy
+1,Unholy
+
+;RelativeSize
+1,very small
+2,small
+4,average-sized
+2,large
+1,very large
+
+;LeftRight
+1,left
+1,right
+
+;FrontRear
+1,front
+1,rear
+
+;Terrains
+5,woodland
+2,desert
+3,hill
+2,swamp
+1,wasteland
+1,jungle
+3,mountain
+3,plains
+2,steppe
+1,tundra
+1,badland
+1,prairie
+1,forest
+
+;TerrainsCap
+5,Woodland
+2,Desert
+3,Hill
+2,Swamp
+1,Wasteland
+1,Jungle
+3,Mountain
+3,Plains
+2,Steppe
+1,Tundra
+1,Badland
+1,Prairie
+1,Forest
+
+;CreatureTypes
+3,Aberration
+1,Construct
+5,Dragon
+2,Elemental
+5,Evil Creature
+5,Fey
+5,Giant
+2,Good Creature
+7,Humanoid
+5,Magical Beast
+7,Monstrous Humanoid
+4,Natural Creature
+2,Ooze
+1,Outsider
+1,Plant
+3,Undead
+5,Vermin
+4,Reptilian
+4,Goblinoid
+2,Shapechanger
+
+

@@ -1,0 +1,47 @@
+
+;Start
+1,[Plot]
+
+;Plot
+1, <h2>Hook of the adventure</h2>[Element]<h2>Meat of the adventure</h2>[Element]
+1, <h2>Personal or Mental Aspect</h2>[Element]<h2>Physical Aspect</h2>[Element]
+1, <h2>The Primary Adventure</h2>[Element]<h2>The Surprise</h2>[Element]
+;Element
+1, <i>VIP: </i>Protect somebody or somebodies important from something (or themselves)
+1, <i>Manhunt: </i>Track somebody down.
+1, <i>Rescue: </i>Person or people in trouble, need saving
+1, <i>Capture: </i>Somebody needs to be captured or otherwise brought back for whatever reason.
+1, <i>Treachery: </i>Somebody has betrayed the player characters (or will)
+1, <i>Blackmail: </i>The player characters or somebody close to them is being blackmailed.
+1, <i>Preparation: </i>An army must be raised, a student taught, a purification ceremony, etc.
+1, <i>Recovery: </i>Somebody has been altered in some way, you must bring them back to the Light Side, cure their illness, remove the nanites, etc.
+1, <i>Spy: </i>Players must spy on a person and report back with their findings
+1, <i>Counterspy: </i>Players must find a spy and foil his attempts.
+1, <i>Defend: </i>Players are called upon to protect somebody in danger
+1, <i>Attack: </i>Players must attack somebody or some nefarious group.
+1, <i>Invade: </i>Players must invade or attack a place
+1, <i>Defend: </i>Players must defend a place from invaders.
+1, <i>Sanctuary: </i>Players are in a big, bad place and must find a way into a nearby good place to be safe
+1, <i>Stuck: </i>Players are in bad place and must escape it (prison, desert, planet, eta).
+1, <i>Explore: </i>Players end up in a different place and must explore it and learn more
+1, <i>Visitor: </i>Somebody different shows up and the players must learn about him/her/it and where it came from.
+1, <i>Capture Target: </i>There is one place the players must capture and defend for the greater good
+1, <i>Defend Target: </i>Players must defend a vital point or risk endangering others.
+1, <i>Race: </i>Players must get to another location in a set amount of time
+1, <i>Capture: </i>Players must prevent somebody else from getting to a certain place in a certain amount of time.
+1, <i>Cursed: </i>there is some place that is passively cursed or dangerous, and threatens to have the danger realized
+1, <i>Recent Ruins: </i>some place gets destroyed and it is up to the players to figure out why.
+1, <i>Protect: </i>Players must protect something important
+1, <i>Steal: </i>Players must steal something important, or otherwise get it out of the wrong hands.
+1, <i>Deliver: </i>Players are entrusted with an object and must deliver it
+1, <i>Intercept: </i>Players must change the destination of an object, or capture it in transit.
+1, <i>Create: </i>Players must fix the reactor, gather the seven stones, eta
+1, <i>Destroy: </i>Players must crush the idol of evil, disable the shield array, eta.
+1, <i>Change: </i>Players must alter the properties of an object somehow
+1, <i>Maintain: </i>Players must stop the properties of an important object from being altered.
+1, <i>Gather: </i>Players must collect alot of an object, be it food, or money for a crushing debt
+1, <i>Disperse: </i>Players must break open the vault and give the money back to the masses, or steal the wizards collection of power amulets and bury them at the four corners of the earth, eta.
+1, <i>Sell: </i>Players must sell an object, or run a buisiness, or make a living
+1, <i>Buy: </i>Players need something and must track it down and get the best deal possible, or they must run an institution or establishment, or budget something they are not used to managing.
+
+

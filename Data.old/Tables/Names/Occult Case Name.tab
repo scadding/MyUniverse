@@ -1,0 +1,215 @@
+# For games like InSpectres or Trail of Cthulhu for Pelgrane Press' Gumshoe where 
+# references to earlier hauntings might come in handy.
+# This generator creates the name of a (supposedly) well-known supernatural 
+# investigation by scrunching random spooky-sounding elements together. Hopefully,
+# it'll serve as an external generator for an encyclopedia-style entry generator.
+
+;Start
+1, [casename]
+
+;casename
+1,The [haintplace] [haintmanifest]
+
+;haintplace
+1,[haintbrit][haintbritsfx][haintloc]
+
+;haintmanifest
+1,Accord
+1,Affair
+1,Apparition
+1,Appearance
+1,Beast
+1,Boggle
+1,Boy
+1,Cacophony
+1,Cat
+1,Coincidence
+1,Conundrum
+1,Coven
+1,Cult
+1,Demon
+1,Devil
+1,Disruption
+1,Disappearance
+1,Dog
+1,Dread
+1,Drummer
+1,Episode
+1,Event
+1,Exploit
+1,Fear
+1,Fey
+1,Figure
+1,Fog
+1,Fray
+1,Fungus
+1,Gentleman
+1,Giant
+1,Ghost
+1,Goblin
+1,Grim
+1,Guardian
+1,Haint
+1,Haunting
+1,Homunculus
+1,Horror
+1,Hound
+1,Incident
+1,Keeper
+1,Kidnapping
+1,Lady
+1,Lurker
+1,Maid
+1,Malaise
+1,Misfortune
+1,Mist
+1,Murders
+1,Mystery
+1,Occurrence
+1,Phantom
+1,Phenomenon
+1,Poltergeist
+1,Possession
+1,Predicament
+1,Presence
+1,Raising
+1,Shade
+1,Shadow
+1,Skull
+1,Specter
+1,Spirit
+1,Stone-Chucker
+1,Strangler
+1,Terror
+1,Troll
+1,Visitation
+1,Walker
+1,Warlock
+1,Watcher
+1,Wildman
+1,Wind
+1,Witch
+1,Wolf
+1,Wraith
+
+;haintbrit
+1,Adel
+1,Argyle
+1,Blythe
+1,Broom
+1,Brodin
+1,Candle
+1,Connor
+1,Corner
+1,Cotting
+1,Craw
+1,Crofter
+1,Cumber
+1,Dorn
+1,Dunne
+1,Elder
+1,Etter
+1,Falstaff
+1,Fenny
+1,Fenric
+1,Gentry
+1,Gibbet
+1,Goat
+1,Honner
+1,Hugh
+1,Islor
+1,Jon
+1,Kerr
+1,Langen
+1,Lord
+1,Mum
+1,Mort
+1,Nigel
+1,Nor
+1,Orric
+1,Prat
+1,Rest
+1,Roan
+1,Rosen
+1,Serr
+1,Soll
+1,Speil
+1,Stan
+1,Thorn
+1,Vane
+1,War
+1,Wend
+1,Wild
+1,Wood
+
+;haintbritsfx
+12,
+8,s
+1,bridge
+1,brook
+1,briar
+1,burg
+1,castor
+1,croft
+1,ford
+1,hurst
+1,ley
+1,mun
+1,mund
+1,sbridge
+1,sburg
+1,scroft
+1,sford
+1,sley
+1,swick
+1,sworst
+1,sworth
+1,well
+1,wick
+1,worst
+1,worth
+1,stable
+
+;haintloc
+14,
+1, Abbey
+1, Alley
+1, Barrow
+1, Bluff
+1, Bog
+1, Castle
+1, Catacomb
+1, Cellar
+1, Cemetery
+1, Chase
+1, Cliff
+1, County
+1, Court
+1, District
+1, Estate
+1, Farm
+1, Flat
+1, Grove
+1, Gulley
+1, Hall
+1, Hill
+1, Hollow
+1, Hotel
+1, Heath
+1, House
+1, Lane
+1, Lichyard
+1, Manor
+1, Mansion
+1, Moor
+1, Mound
+1, Plantation
+1, Square
+1, Swamp
+1, Stables
+1, Tomb
+1, Vale
+1, Valley
+1, Wood
+
+

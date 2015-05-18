@@ -1,0 +1,135 @@
+
+;Start
+1,[Type][Features]. [Water]
+
+;Type
+1,[Manmade]
+1,[Natural]
+
+;Manmade
+1,A [ShrineCondition] roadside shrine to the god of travellers
+1,A hunter's blind
+1,An old mine shaft in a face of rock
+1,A collapsed barn with half-burned timbers
+1,A decrepid and abandoned windmill
+1,A [ShrineCondition] shrine to the god of the harvest
+1,A [ShrineCondition] shrine to the moon-goddess
+1,A [ShrineCondition] shrine to ancestral gods
+1,A [ShrineCondition] shrine to the sun-god
+1,An abandoned tree fort
+1,A few hemp hammocks suspended in a group
+1,A bunch of felled logs arranged into an enclosure with entrance
+1,An abandoned cabin
+1,An old stone watchtower
+1,A smallish hill with sharpened logs staked around the rim
+1,A crude lean-to of sticks and vines
+1,An abandoned stone cottage
+1,An abandoned hobbit hole
+1,A collection of long-vacant stone ruins
+1,A stone bridge over a creekbed large enough to shelter under
+1,A small abandoned military encampment consisting of minor fortifications
+1,A manmade enclosure of thick brambles used for livestock herding with a lookout rock
+1,A small shepherd's hut used only seasonally
+1,A boundary stone, long toppled
+1,A huntsman's blaze
+1,A directional cairn pointing west
+
+;ShrineCondition
+1,small but well-maintained 
+1,small and damaged
+1,small and overgrown
+1,large and well-maintained
+1,small and vermin-infested
+1,large but apparently abandoned
+1,utterly demolished
+
+;Natural
+1,A rock overhang
+1,A giant evergreen with no low-hanging branches - needles carpet the ground except around an old firepit
+1,A shallow natural cave
+1,A large natural cave with soot marks on the ceiling
+1,An extensive natural cave system
+1,A large tree with exposed roots on a bank near the road
+1,A large slab rock leaning against a boulder
+1,A grove of trees with an old firepit
+1,An abandoned large animal den
+1,A dry riverbed perpendicular to the road
+1,A large tree uprooted by a storm
+1,A circle of dead grass
+1,An unusual flat stone
+
+;Water
+4,Water can be had from [WaterSource]
+1,There is no obvious source of water here, however.
+
+;WaterSource
+1,a hot spring
+1,a small stream
+1,a mosquito-infested pond
+1,a stagnant pond
+1,a pond formed by an animal dam
+1,a well, although there's no crank or bucket
+1,a well with a crank, rope, and bucket
+1,a small river with an old fishing net & bucket
+1,a small waterfall
+1,a wet-weather-only stream
+1,a small bog or marsh area
+1,a slow-running creek
+1,a small trickle on a rock face
+1,a nearby lake
+1,an irrigation ditch
+1,a stinking rivulet
+1,a spring flowing out of a crack in the rocks
+1,a rushing river
+1,a large nearby lake
+
+;Features
+2, within sight of [Noteworthy]
+2, near [Noteworthy]
+1, not far from [Noteworthy]
+1,
+
+;Noteworthy
+1,a beehive
+1,a large wasp's nest
+1,a termite mound
+1,a copse of web-infested trees
+1,some tree stumps painted as targets and covered with arrows
+1,rusting iron cages for animals or people hanging from nearby trees
+1,decomposing bodies in rusting armor
+1,a broken-down wagon
+1,the rotting carcass of a herd animal
+1,a refuse pile
+1,a large bramble patch
+1,an animal trail
+1,an old still for making moonshine
+1,the stump of a tree struck by lightning
+1,a concealed crop of narcotic plants
+1,a standing stone
+1,a standing stone archway 
+1,some berry bushes
+1,a fruit tree
+1,some rocks arranged to form an arrow
+1,a skeleton hanging from a tree by a noose
+1,the incomplete construction of a siege weapon
+1,a tree with initials carved into it
+1,a menhir circle
+1,a field of wildflowers
+1,some rotting heads on pikes
+1,some edible mushrooms
+1,a few recent graves
+1,a marshy patch with tall bullrushes
+1,the remains of a pyre with animal or humanoid bones
+1,an ancient burial mound
+1,a barrow for ancestor-worship with recently disturbed earth
+1,a crossroads apparently leading to nearby farms or settlements
+1,recent livestock tracks in some mud
+1,a ring of oversized mushrooms
+1,a rusting sword stuck into the earth
+1,a large, bare rock jutting from the earth
+1,a crude altar made of stacked stones
+1,several downed trees from the path of a tornado
+1,a dessicated corpse swaying from a tree branch
+
+
+

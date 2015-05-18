@@ -1,0 +1,253 @@
+
+;Start
+15,[stylechance][fiction genre 1] [show format 1] in [setting]
+6,[stylechance][fiction genre 1] [show format 1] meets [fiction genre 2] [show format 2] in [setting]
+8,[stylechance][fiction genre 1] [show format 1] / [show format 2] in [setting]
+8,[stylechance][fiction genre 1] [show format 1] with [fiction genre 2] elements in [setting]
+
+;stylechance
+10,
+1,[style] 
+
+;style
+1,Animated
+1,Claymation
+1,Low-Budget
+1,Puppetry
+1,Animal-Actor
+1,Psychedelic
+1,Anime
+1,Faux-Documentary
+1,Improvisational
+1,Foreign
+1,Gritty
+1,Ebullient
+1,Frivolous
+1,Big budget cable television
+1,Cinema verite
+1,Musical
+1,Avant garde
+1,Classy
+1,Lavish
+1,Quirky
+1,Oddly structured
+
+;fiction genre 1
+3,[futuristic]Medical
+3,[futuristic]Legal
+3,[futuristic]Police
+2,[futuristic]Detective
+2,[futuristic][Crime]
+2,[futuristic]Office
+2,[futuristic]Sports
+1,[futuristic]Political
+1,[futuristic]Fantasy
+3,[futuristic][Historical]
+1,[futuristic]Western
+1,[futuristic]Military
+1,[futuristic]Soap Opera
+1,[futuristic]Science Fiction
+1,[futuristic]Superhero
+1,[futuristic]Supernatural
+1,[futuristic]Paranormal
+3,[futuristic]Family
+1,[futuristic]High School/University
+1,[futuristic]Espionage
+1,[futuristic]Romantic
+1,[futuristic]Teen
+1,[futuristic]Slice-of-Life
+1,[futuristic]Mystery
+
+;futuristic
+5,
+1,Futuristic 
+
+;Crime
+3,Crime
+1,Caper
+
+
+;show format 1
+2,Comedy
+2,Drama
+1,Dramedy
+2,Action/Adventure
+1,Procedural
+1,Reality Show
+1,Serial Drama
+1,Character-driven Drama
+1,Character-driven Comedy
+1,Situation Comedy
+
+;fiction genre 2
+1,Teen
+3,Superhero
+3,Supernatural
+3,Paranormal
+1,Family
+1,High School/University
+2,Espionage
+2,Romantic
+2,Office
+2,Sports
+1,Political
+1,Fantasy
+1,Historical
+1,Medical
+1,Legal
+1,Police
+1,Detective
+3,Science Fiction
+2,Western
+2,Military
+
+;show format 2
+2,Action/Adventure
+1,Procedural
+1,Serial Drama
+2,Comedy
+2,Drama
+
+;setting
+20,[thebigcity]
+10,Suburbia
+7,a Small Town
+6,[school]
+5,a Hospital
+4,Spaaaaaace
+2,the Old West
+3,a Military Base or Ship
+5,an Exotic Locale
+3,a Post Apocalyptic Wasteland
+5,an Office Building
+3,a Different Location Every Week
+2,a World Gone Mad
+2,a Strange Land Before Time
+1,the Umatilla Reservation
+1,Gator Country
+1,The Alaskan Bush
+1,a Photocopy Repair Business
+4,the White House
+1,a Canadian truck stop in Burwash Landing
+1,Canada
+8,a World Like Our Own But With [Something]
+
+;thebigcity
+4,the Big City
+1,Las Vegas
+3,the Mean Streets of L.A.
+3,the Big Apple
+1,Washington DC
+1,Chicago
+1,San Francisco
+1,Houston
+1,Dallas
+1,Berlin
+1,Moscow
+1,Prague
+3,London
+2,Cairo
+2,Beijing
+2,Tokyo
+1,Mumbai
+2,Paris
+2,Mexico City
+1,Seattle
+1,Toronto
+1,Vancouver
+1,Portland
+1,a Canadian City Pretending To Be An Unspecified Big American City
+
+
+
+;school
+1,a High School
+5,an Ivy League University
+3,a Small Private University
+2,a Major Public University
+1,a Small Midwestern University
+1,an Elementary School
+
+;Historical
+1,[alternate]1990s[butwith]
+1,[alternate]1980s[butwith]
+1,[alternate]1970s[butwith]
+1,[alternate]1960s[butwith]
+1,[alternate]1950s[butwith]
+1,[alternate]World-War II[butwith]
+1,[alternate]Cold War[butwith]
+1,[alternate]Great Depression-Era[butwith]
+1,[alternate]Gilded Age[butwith]
+1,[alternate]World-War I[butwith]
+1,[alternate]Victorian[butwith]
+1,[alternate]Reconstruction-Era[butwith]
+1,[alternate]Civil War-Era[butwith]
+1,[alternate]Antebellum[butwith]
+1,[alternate]Napoleonic[butwith]
+1,[alternate]Revolutionary-Era[butwith]
+1,[alternate]Regency-Era[butwith]
+1,[alternate]Renaissance[butwith]
+1,[alternate]Roman[butwith]
+1,[alternate]Ancient Egyptian[butwith]
+1,[alternate]Biblical[butwith]
+2,[alternate]Historical[butwith]
+1,[alternate]Dark Ages[butwith]
+1,[alternate]Stone Age[butwith]
+
+;butwith
+2,
+4, (with [Something])
+
+;Something
+3,Magic
+3,Psionics
+2,Lasers
+2,the Flying Car
+3,Zeppelins
+2,Time Travel
+4,[specialability][Animals]
+1,Nazis
+1,Monkeys
+2,Dinosaurs
+2,Robots
+3,Giant Robots
+2,Superheroes
+1,Nanotechnology
+1,Sharks With Frickin' Lasers On Their Heads
+1,Spaceships
+1,Space Colonies
+
+;Animals
+2,Monkeys
+2,Dogs
+3,Cats
+1,Pigs
+1,Fish
+1,Horses
+1,Dinosaurs
+1,Lizards
+1,Animals
+1,Sharks
+1,Coyotes
+1,Alligators
+1,Unicorns
+
+;specialability
+3,
+2,Intelligent 
+2,Talking 
+2,Flying 
+1,Laser-armed 
+1,Magical 
+1,Psionic 
+2,High Tech 
+2,Genetically Engineered 
+2,Giant 
+1,Puppet 
+
+
+;alternate
+2,
+1,Alternate 
+
+

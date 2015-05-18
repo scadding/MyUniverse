@@ -1,0 +1,131 @@
+
+#Baked Fish – More than a Billion Recipes (5x12x3x12x11x12x5x12x12x6=1,231,718,400)
+
+;Start
+1,[Container]
+_[Fish]
+_[fats]
+_
+
+;fats
+1,[Fat] [Fat]
+1,[Fat]
+
+;Container
+1,Au Gratin Pan
+1,Baking Dish
+1,Foil
+1,Parchment
+1,Single Serve
+
+#Fish (choose 1 of 12), guideline 1 pound
+;Fish
+1,Bass/Branzino
+1,Cod
+1,Dorado/Mahi Mahi
+1,Grouper
+1,Halibut
+1,Roughy
+1,Salmon
+1,Scallops
+1,Shrimp
+1,Snapper
+1,Sole/Flounder
+1,Tuna
+
+#Fat (choose 1-2 of 3), guideline 2-4 Tbsp
+;Fat
+1,Butter
+1,Olive Oil
+1,Mayo
+
+#Liquid (choose 2-3 of 12), guideline 1/2 Cup
+;Liquid
+1,Lemon Juice
+1,Lime Juice
+1,White Wine
+1,Sherry
+1,Balsamic Vin
+1,Milk/Cream
+1,Soy Sauce
+1,Fish Sauce
+1,Rice Vinegar
+1,Mirin
+1,Sesame Oil
+1,Teriyaki Sauce
+
+;Extras
+#(choose 0-3 0f 11), guideline <1/4 Cup
+1,Onion
+1,Garlic
+1,Ginger
+1,Green Onion
+1,Bacon Bits
+1,Capers
+1,Jalapeño
+1,Olives
+1,Marmalade
+1,Shallots
+1,Sugar/Honey
+
+;Fruit and Veg
+#(choose 0-2 of 12), guideline - not too much
+1,Tomato
+1,Mushrooms
+1,Bell Pepper
+1,Mango
+1,Pineapple
+1,Cajun Trinity
+1,Creole Mix
+1,Parsley/Cilantro
+1,Pesto
+1,Salsa(Red/Green)
+1,Sambal
+1,Tabasco
+
+;Cheese
+#(choose 0-1 of 5), guideline 1/4-1/2 Cup
+1,Parmesan
+1,Romano
+1,Jack
+1,Cheddar
+1,Feta
+
+;Spices and Herbs
+#(choose 2-3 of 12), guideline 1/2 tsp each
+1,Salt & Pepper
+1,Basil
+1,Cayenne
+1,Cilantro/Coriander
+1,Cumin
+1,Garlic Powder
+1,Mustard(Dry/Wet)
+1,Oregano
+1,Paprika
+1,Red Chile Flakes
+1,Thyme
+1,Wasabi
+
+;Crust
+#(choose 0-1 of 12), guideline <1 Cup
+1,Coconut
+1,Corn Flakes
+1,Cornmeal
+1,Flour/Egg Batter
+1,Panko/Bread Cr
+1,Almonds
+1,Cashews
+1,Macadamia
+1,Pine Nuts
+1,Pistachios
+1,Sesame Seeds
+1,Walnuts
+
+;Oven Setting
+#(choose 1 of 6), guideline Hotter=Crispier
+1,325º 30-40 min
+1,350º 20-30 min
+1,375º 15-20 min
+1,400º 10-15 min
+1,450º 8-10 min
+1,500º 5-8 min

@@ -1,0 +1,253 @@
+
+;Start
+1,===The Major Organization===<br>
+_<sgdisplay iterations="1">[OrganizationDescriptor_Major] </sgdisplay><br>
+_===The Moderate Organization===<br>
+_<sgdisplay iterations="1">[OrganizationDescriptor_Moderate] </sgdisplay><br>
+_===The Minor organization===<br>
+_<sgdisplay iterations="1">[OrganizationDescriptor_Minor]</sgdisplay><br>
+_<br>
+_===Organization Random===<br>
+_<sgdisplay iterations="1">[organization] </sgdisplay><br>
+
+
+;organization
+1,[OrganizationDescriptor_Major]
+1,[OrganizationDescriptor_Moderate]
+1,[OrganizationDescriptor_Minor]
+
+;OrganizationDescriptor_Major
+3,[physical_major] [aim_physical] [target_major] 
+2,[social_major] [aim_social] [target_major]
+1,[mystical_major] [aim_mystical] [target_major]
+
+;OrganizationDescriptor_Moderate
+3,[physical_moderate] [aim_physical] [target_moderate]
+2,[social_moderate] [aim_social] [target_moderate]
+1,[mystical_moderate] [aim_mystical] [target_moderate]
+
+;OrganizationDescriptor_Minor
+3,[physical_minor] [aim_physical] [target_minor]
+2,[social_minor] [aim_social] [target_minor]
+1,[mystical_minor] [aim_mystical] [target_minor]
+
+;physical_major
+1,An International League of Assassins 
+1,An International Spy Ring working for the Nazi Germany 
+1,A Major Oriental Organization 
+1,An International Terrorist organization 
+1,A Secret Society of Hunters and Soldiers of Fortunes 
+1,A Secret Society of Killers and Criminals 
+1,A Major Communistic Organization 
+1,An Ultra Militaristic Fascist Group 
+1,A League of Underworld Leaders 
+1,A Major Mafia family 
+1,A Major Triad Family 
+1,A Group of Great War Veterans working together 
+
+;physical_moderate
+1,A League of Assassins [working]
+1,A Spy Ring working for the Nazi Germany 
+1,An Oriental Organization 
+1,A Terrorist organization [working]
+1,A Secret Society of Hunters and Soldiers of Fortunes 
+1,A Secret Society of Killers and Criminals 
+1,A Communistic Organization 
+1,A Militaristic Fascist Group [working]
+1,A Criminal Group Led by Shadowy Mastermind 
+1,A Criminal Group Led by Shadowy Oriental Mastermind
+1,A Mafia family 
+1,A Triad Family 
+1,A Group of Great War Veterans working together 
+1,A Foreign powers Spy Network
+1,A Separatist Terrorist organization [working]
+1,A Fast Growing Mob with Collection of Strange Leaders
+1,A White Slavery Ring [working]
+
+;physical_minor
+1,A Group of Killers [working]
+1,A Group of Muggers [working]
+1,A Group of Bank Robbers [working]
+1,A Group of Kidnappers [working]
+1,A Group of Faceless minions [working]
+1,A Group of Assassins [working]
+1,A Group of desperate workers [working]
+1,An Underground workshop
+1,A Black Market Fixer [working]
+1,A Fight Club [working]
+
+;social_major
+1,An International Secret Society of Freemasons 
+1,An International Secret Society of Politicians
+1,An International Secret Society of Tycoons
+1,An International Secret Society of Aristocrats
+1,An International Secret Society of Railroad Lord 
+1,An International Secret Society of Financiers 
+1,An International Secret Society of Newspaper Publishers 
+1,An International Intelligentsia
+1,A Society of Inventors 
+1,A Society looking for “Better Humanity” 
+1,An International Society of machinists 
+
+;social_moderate
+1,A Brotherhood of Lodgers
+1,A Brotherhood of Politicians 
+1,A Brotherhood of “Blue Bloods” 
+1,A Brotherhood of Old Soldiers
+1,A Brotherhood of Big Business Tycoons
+1,A Brotherhood of Bankers
+1,A Brotherhood of Insurance manipulators 
+1,A Society of Thinkers
+1,A Society of Educated Rocket Scientists 
+1,A Society of Educated Explorers 
+1,A Society of Educated Radiation Researchers 
+1,A Society of Doctors with view for euthanasia  
+
+;social_minor
+1,An Exclusive Club of Gentlemen 
+1,An Exclusive Club of Doctors 
+1,An Exclusive Club of Nationalist Party 
+1,An Exclusive Club of Financiers 
+1,An Exclusive Club of Explorers 
+1,An Exclusive Club of Soldiers 
+1,An Exclusive Club of “Chosen Ones”  
+1,A Group of educated gentlemen 
+1,A Group of authors 
+1,A Group of educated artists with bizarre art forms 
+1,A Group of educated inhuman doctors 
+
+;mystical_major
+1,A Mystical Temple of Lost God 
+1,A Mystical Temple of Indian Gods 
+1,A Mystical Temple of Satan 
+1,A Mystical Temple of “The True Pure Religion” 
+1,A Mystical Temple of Hades 
+1,A Mystical Temple of Fire and Brimstone 
+
+;mystical_moderate
+1,A Fanatical cult of Unnamed Old God 
+1,A Fanatical cult of Indian Assassins
+1,A Fanatical cult of Mysteries of Arab
+1,A Fanatical cult of Egyptian old Fate 
+1,A Fanatical cult of Satan 
+1,A Fanatical cult of Oriental Personality
+
+;mystical_minor
+1,A Club of bored dilettantes with dedication to old texts 
+1,A Band of teachers 
+1,A Group of investigators of orient 
+1,A Group following odd Oriental religion
+
+;working
+1,workin for Mafia Family
+1,working for Spy Ring
+1,working for bigger Mob
+1,working for Oriental Organization
+1,working for Organization led by Unknown local Socialite 
+1,working for Organization led by Unknown local Mastermind
+1,working for Foreign Espionage Group
+1,working for Great War General and his Underground Army
+
+;aim_social
+1,aims to Rob
+1,aims to Blackmail
+1,ams to Dominate
+1,aims to “Enlighten”
+1,aims to “Civilize”
+1,aims to Manipulate
+1,aims to Convert 
+1,aims to Enslave 
+1,aims to Terrorize
+
+;aim_mystical
+1,aims to Sacrifice
+1,aims to Terrorize
+1,aims to Convert
+1,aims to Enslave
+1,aims to “Enlighten” 
+1,aims to Violate
+1,aims to Capture and feed to their Hungry god that the ancient texts hint
+1,aims to Torture 
+1,aims to produce Nightmares to
+1,aims to corrupt the Spirit of
+1,aims to manipulate the bloodlines of
+
+
+;aim_physical
+1,aims to Dominate
+1,wants a Revenge from 
+1,aims to Destroy 
+1,aims to Blackmail
+1,aims to Enslave
+1,aims to Rob
+1,aims to Enslave with Drugs
+1,aims to Conquer 
+1,wants to Hurt and Degrade 
+
+
+;target_major
+1,The People of Europe
+2,The People of America
+3,The People of The United States of America
+5,The People of A Major City (New York, London, Paris etc) 
+1,The People of Russia
+1,The People of France
+1,The People of Great Britain
+1,The People of World
+1,The People of Continent
+1,The People of Asia 
+1,The People of North Africa
+1,The People of Africa
+1,The People of South America
+1,The People of Hollow Earth
+3,The Government of The United States of America
+1,The Government of The Great Britain
+1,The Government of The France
+2,The Secret Service of The United States of America
+1,The Police of The United States of America
+
+
+;target_moderate
+1,The White Collar Workers 
+1,The Blue Collar Workers 
+1,The Police 
+1,The Female population in the city
+1,The Male population in the city
+1,The Rich
+1,The Poor
+1,The Population of the City
+1,The Young
+1,The Elderly
+1,The members of the Right Wing Party 
+1,The members of the Left Wing Party
+1,The Most Beautiful People in the City
+1,The City Council
+1,The Educated population of the City
+
+;target_minor
+1,The Rival organization 
+1,The Labor Movement
+1,The Industry Leaders
+1,The Workers of the Major local Industry
+1,The Most Beautiful Women in town 
+1,The Anti Espionage Organization
+1,The Police Department
+1,The Secret Society of Local Elite
+1,The Faculty of Local University 
+1,The Secret Weapon Development faculty
+1,The Hospital Faculty
+1,The Art Elite Of the City
+1,The Governor and his Group of Trustees 
+1,The Members of local religion institution 
+1,The Bankers
+1,The Newspaper that has crossed them
+1,An Influential Family 
+1,A Famous Scientist 
+1,A Expedition Force that is planning a revolutionary trip
+1,A People inside an Ocean liner, some who are old “friends” for the group
+1,A People inside a Train
+1,A Court 
+1,A Foreign Embassy  
+1,The People in Carnival 
+
+

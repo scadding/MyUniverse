@@ -1,0 +1,248 @@
+
+;Start
+4,[MalePirateName]
+1,[FemalePirateName]
+
+;MalePirateName
+4,[PirateFlairFirstName] [MalePirateFirstName]
+4,[PirateRank] [MalePirateLastName] of [Ship Names.Start]
+3,[MalePirateFirstName] [PirateFlairEnder]
+3,[PirateRank] [MalePirateFirstName]
+2,[MalePirateFirstName] "[PirateFlairFirstName]" [MalePirateLastName]
+2,[PirateRank] [MalePirateFirstName] "[PirateFlairFirstName]" [MalePirateLastName] [PirateFlairEnder]
+1,Long [MalePirateFirstName] [Metal]
+
+;PirateFlairFirstName
+1,Bandanna
+1,Barnacle
+1,Bawdy
+1,Beady-Eyed
+1,Bilge [SeaCreature]
+1,Blind
+1,Bootstrap
+1,Broadsides
+1,Cannonball
+1,Cantankerous
+1,Driftwood
+1,Fire-Breathin'
+1,Four-Eyes
+1,Hard Tack
+1,Hawkeye
+1,Hook Hands
+1,Hurricane
+1,Keel-Haulin'
+1,Lambchops
+1,Land Lubbin'
+1,Leadsail
+1,Lighthouse
+1,Lightning
+1,Limey
+1,Lusty
+1,[Metal]shanks
+1,Moldy
+1,Muttonchops
+1,Old
+1,One-Eyed
+1,Patches
+1,Pegleg
+1,Ragged
+1,Rag Tag
+1,Reef Running
+1,Rudder Rump
+1,Rum Runnin'
+1,Rusty
+1,Sail Swinging
+1,Savvy
+1,Scrimshaw
+1,Scurvy
+1,Scuttlebutt
+1,Sea Legs
+1,Sea-Worn
+1,Sharkbait
+1,Short Fuse
+1,Snake-Eyes
+1,Storm Sailing
+1,Stormy
+1,Thunderin'
+1,Thunderous
+1,Two-Timin'
+1,Weather-Worn
+1,Whalebone
+1,Windlass
+
+;Metal
+1,Brass
+1,Copper
+1,Gold
+1,Iron
+1,Rust
+1,Silver
+1,Steel
+1,Tin
+
+;PirateFlairEnder
+1,The Black
+1,The Cannoneer
+1,The Cantankerous
+1,The Dangerous
+1,The Drunk
+1,The Drunkard
+1,The Fearsome
+1,The Furious
+1,The Gov'ner
+1,The Greedy
+1,The Grog Gulper
+1,The Gruesome
+1,The Leprous
+1,The Mad
+1,The Navigator
+1,The Parrot
+1,The Perilous
+1,The Plank Poker
+1,The Plank Pusher
+1,The Privateer
+1,The Rat
+1,The Red
+1,The Rum Guzzler
+3,The Rusty [PirateSword]
+1,The Salty
+1,The Salty Dog
+1,The Scalliwag
+1,The [Scourge] of the [SeaPlace]
+1,The Scurvy
+3,The Sea [SeaCreature]
+1,The Shark
+1,The Storm Chaser
+1,The Swabby
+1,The Swede
+1,The Very Drunk
+1,The Very, Very Drunk
+1,The Wharf Rat
+
+;Scourge
+1,Bane
+1,Curse
+1,Plague
+1,Scourge
+1,Scurge
+1,Terror
+
+;SeaPlace
+1,Barbary Coast
+1,Carribean
+1,Deep
+1,East Indies
+1,High Seas
+1,Ivory Coast
+1,Open Sea
+1,Sea
+1,Seven Seas
+1,Spanish Main
+
+;SeaCreature
+1,Devil
+1,Dog
+1,Dragon
+1,Monkey
+1,Mouse
+1,Rat
+1,Serpent
+1,Snake
+1,Wolf
+
+;PirateSword
+1,Butter Cutter
+1,Broadsword
+1,Cutlass
+1,Dagger
+1,Epee
+1,Knife
+1,Saber
+1,Scabbard
+
+;PirateRank
+1,Admiral
+1,Cap'n
+1,Captain
+1,Commodore
+1,Duke
+1,Ensign
+1,First Mate
+1,Fleet Admiral
+1,Fourteenth Mate
+1,Lieutenant
+1,Longshoreman
+1,Marquis
+1,Midshipman
+1,Navigator
+1,Quartermaster
+1,Second Mate
+1,Ship Cook
+1,Shiphand
+1,Shipmate
+1,Sir
+1,Skipper
+1,The Dread Captain
+1,The Dread Pirate
+1,The Good Captain
+1,Third Mate
+
+;MalePirateFirstName
+1,Ahab
+3,[American Census Names.male]
+1,Davey
+1,[DitV Male Name.FirstName]
+1,Esteban
+1,Ishmael
+1,Jack
+1,Pete
+1,Rick
+1,Ron
+2,[Portuguese Names.portuguesemale]
+
+;MalePirateLastName
+1,Albert
+1,Alberts
+1,Black
+1,[BeardColor]balls
+1,[BeardColor]beard
+1,Blood
+1,[German Male.germansurname]
+1,Hook
+1,[Italian Names.Surname]
+1,Jones
+1,Mc[MalePirateFirstName]
+1,Montalban
+1,Morgan
+1,Nemo
+1,Peters
+1,[Portuguese Names.portuguesesurname]
+1,Roberts
+1,Ryan
+1,[ScottishMale.ScottishClan]
+1,Sparrow
+
+;BeardColor
+1,Black
+1,Blue
+1,Dark
+1,Gray
+1,Iron
+1,Red
+1,Steel
+1,White
+
+;FemalePirateName
+3,[PirateFlairFirstName] [FemalePirateFirstName]
+3,[PirateRank] [FemalePirateFirstName] of [Ship Names.Start]
+2,[FemalePirateFirstName] [PirateFlairEnder]
+
+;FemalePirateFirstName
+3,[American Census Names.female]
+1,[ScottishFemale.Start]
+1,[ScottishFemale.ScottishFemaleFirstName]
+3,[Italian Names.FemaleFirst]
+2,[German Female.germanfemale]
+2,[Portuguese Names.portuguesefemale]
+1,Kitty
+

@@ -1,0 +1,1029 @@
+
+;Start
+1,[dutchmale] [dutchsurname] (male)
+1,[dutchfemale] [dutchsurname] (female)
+
+;male
+1,[dutchmale] [dutchsurname]
+
+;female
+1,[dutchfemale] [dutchsurname]
+
+;dutchfemale
+1,Adelheid
+1,Agnes
+1,Aleid
+1,Aleida
+1,Alexandra
+1,Amalia
+1,Angelien
+1,Anke
+1,Anna
+1,Anneke
+1,Annelien
+1,Annelies
+1,Anneliese
+1,Annemarie
+1,Annika
+1,Anouk
+1,Ans
+1,Anselma
+1,Antje
+1,Antonia
+1,Carolien
+1,Catharina
+1,Cato
+1,Cilla
+1,Coby
+1,Cokkie
+1,Cornelia
+1,Dani
+1,Dorothea
+1,Drika
+1,Edith
+1,Elisabeth
+1,Elke
+1,Ellemieke
+1,Ellen
+1,Els
+1,Emma
+1,Emmy
+1,Eva
+1,Femke
+1,Geertje
+1,Geertruida
+1,Georgina
+1,Gerda
+1,Gertrude
+1,Gertruida
+1,Gilberta
+1,Gisela
+1,Godelieve
+1,Greet
+1,Greetje
+1,Griet
+1,Hadewych
+1,Hannie
+1,Hedy
+1,Heike
+1,Heintje
+1,Heleen
+1,Heleentje
+1,Helena
+1,Hendrika
+1,Hendrikje
+1,Hennie
+1,Henny
+1,Henriette
+1,Hilda
+1,Hilde
+1,Inge
+1,Irena
+1,Iris
+1,Isabella
+1,Jacintha
+1,Jacoba
+1,Jacobine
+1,Jacomina
+1,Jana
+1,Janna
+1,Janneke
+1,Jantine
+1,Jeltje
+1,Jeltsje
+1,Johanna
+1,Johanneke
+1,Juliana
+1,Karin
+1,Katelijn
+1,Katelijne
+1,Katrien
+1,Katrijn
+1,Katrina
+1,Katrine
+1,Klasina
+1,Klazina
+1,Kunigonde
+1,Lien
+1,Lies
+1,Liesbeth
+1,Liesje
+1,Lieve
+1,Lijsbeth
+1,Lisanne
+1,Liselot
+1,Loes
+1,Louise
+1,Maaike
+1,Maartje
+1,Machteld
+1,Magda
+1,Magdalena
+1,Margareta
+1,Margaretha
+1,Margriet
+1,Maria
+1,Marieke
+1,Marijke
+1,Marijn
+1,Marijse
+1,Marike
+1,Marita
+1,Marja
+1,Marjan
+1,Marjolein
+1,Marjolijn
+1,Marloes
+1,Martina
+1,Mechteld
+1,Meintje
+1,Melanie
+1,Micha
+1,Mieke
+1,Miep
+1,Mies
+1,Mirjam
+1,Mirthe
+1,Myrthe
+1,Nicole
+1,Nicolet
+1,Paulien
+1,Petronella
+1,Pietronella
+1,Rafa
+1,Renate
+1,Rika
+1,Roos
+1,Roosje
+1,Rosa
+1,Sabien
+1,Sandra
+1,Sanne
+1,Sara
+1,Saskia
+1,Sofie
+1,Stefana
+1,Stefanie
+1,Sterre
+1,Susanna
+1,Theresia
+1,Trees
+1,Trijntje
+1,Trudie
+1,Trudy
+1,Truus
+1,Ursula
+1,Viona
+1,Willemina
+1,Xandra
+
+;dutchmale
+1,Adriaan
+1,Adrianus
+1,Alexander
+1,Alfons
+1,Aloysius
+1,Andries
+1,Antonius
+1,Arie
+1,Arjan
+1,Augustijn
+1,Bart
+1,Bartel
+1,Bartholomeus
+1,Bas
+1,Bastiaan
+1,Bert
+1,Bob
+1,Boudewijn
+1,Bram
+1,Caspar
+1,Casper
+1,Cato
+1,Cees
+1,Christiaan
+1,Cobus
+1,Coby
+1,Constantijn
+1,Coos
+1,Cornelis
+1,Cornelius
+1,Daan
+1,Dani
+1,Dick
+1,Diederik
+1,Dirk
+1,Dominicus
+1,Eelco
+1,Elke
+1,Ernst
+1,Erwin
+1,Ewoud
+1,Ewout
+1,Faas
+1,Fabian
+1,Filip
+1,Filippus
+1,Flip
+1,Floris
+1,Fons
+1,Frank
+1,Frans
+1,Frederik
+1,Freek
+1,Frits
+1,Geert
+1,Gerard
+1,Gerben
+1,Gerd
+1,Gerda
+1,Gerhard
+1,Gerlach
+1,Gerlof
+1,Gerolf
+1,Gerolt
+1,Gerrit
+1,Gert
+1,Gijs
+1,Gijsbert
+1,Gilbert
+1,Gillis
+1,Godfried
+1,Hannes
+1,Hans
+1,Harm
+1,Heike
+1,Heiko
+1,Hein
+1,Hendrik
+1,Henk
+1,Hennie
+1,Henny
+1,Herman
+1,Hermanus
+1,Hubert
+1,Hubrecht
+1,Hugo
+1,Ignaas
+1,Ilco
+1,Inge
+1,Ivo
+1,Jaap
+1,Jacob
+1,Jacobus
+1,Jan
+1,Jef
+1,Jelle
+1,Jeroen
+1,Jochem
+1,Joep
+1,Joeri
+1,Johannes
+1,Joop
+1,Joord
+1,Joos
+1,Joost
+1,Jordaan
+1,Joris
+1,Jos
+1,Jozef
+1,Jozua
+1,Jurgen
+1,Jurriaan
+1,Kai
+1,Karel
+1,Kasper
+1,Kees
+1,Kerneels
+1,Klaas
+1,Kobus
+1,Koen
+1,Koenraad
+1,Koert
+1,Koos
+1,Kort
+1,Lambert
+1,Lammert
+1,Laurens
+1,Lien
+1,Lieven
+1,Lievin
+1,Lodewijk
+1,Louis
+1,Lourens
+1,Lowie
+1,Lucas
+1,Ludger
+1,Luuk
+1,Maarten
+1,Maas
+1,Manfred
+1,Mannes
+1,Marijn
+1,Marinus
+1,Marita
+1,Marius
+1,Marjan
+1,Marten
+1,Martijn
+1,Matthijs
+1,Maurits
+1,Meindert
+1,Meine
+1,Meino
+1,Meint
+1,Menno
+1,Micha
+1,Michiel
+1,Mies
+1,Mozes
+1,Nico
+1,Nicolaas
+1,Niek
+1,Niels
+1,Nikolaas
+1,Norbert
+1,Olaf
+1,Olivier
+1,Otto
+1,Pauwel
+1,Pepijn
+1,Peter
+1,Petrus
+1,Philip
+1,Pier
+1,Piet
+1,Pieter
+1,Pim
+1,Radboud
+1,Raf
+1,Rafa
+1,Reinier
+1,Reinout
+1,Rembrandt
+1,Rien
+1,Rob
+1,Robbe
+1,Robert
+1,Robrecht
+1,Rodolf
+1,Roel
+1,Roeland
+1,Rogier
+1,Rosa
+1,Ruben
+1,Rudolf
+1,Rupert
+1,Rutger
+1,Ruud
+1,Sander
+1,Sebastiaan
+1,Sem
+1,Siemen
+1,Sieuwerd
+1,Sjaak
+1,Sjef
+1,Sjoerd
+1,Sjors
+1,Staas
+1,Stefan
+1,Stefanus
+1,Steffen
+1,Stijn
+1,Teun
+1,Teunis
+1,Theo
+1,Theodoor
+1,Theodorus
+1,Theofilus
+1,Theunis
+1,Thijs
+1,Thomas
+1,Tiede
+1,Valentijn
+1,Vincent
+1,Werner
+1,Wibo
+1,Wiebe
+1,Wilbert
+1,Willem
+1,Wim
+1,Wob
+1,Wouter
+1,Wubbe
+1,Xander
+1,Zef
+
+;dutchsurname
+1,Aafjes
+1,Aaij
+1,Aakster
+1,Aaldenberg
+1,Aalders
+1,Aalfs
+1,Aalmers
+1,Aaltink
+1,Aarden
+1,Aarens
+1,Aarle
+1,Aarse
+1,Aarts
+1,Aartsen
+1,Aartsma
+1,Abbes
+1,Abbing
+1,Abbingh
+1,Abbink
+1,Abel
+1,Abelen
+1,Abels
+1,Aben
+1,Abraham
+1,Abrahams
+1,Abrahamsen
+1,Abram
+1,Abrams
+1,Abramsen
+1,Abspoel
+1,Achilles
+1,Achterberg
+1,Achterkamp
+1,Achterop
+1,Adams
+1,Addens
+1,Addicks
+1,Addiks
+1,Adema
+1,Admiraal
+1,Advocaat
+1,Adolfs
+1,Adriaans
+1,Adriaansen
+1,Adrichem
+1,Aerssens
+1,Agema
+1,Agterop
+1,Agthoven
+1,Ahlers
+1,Aikema
+1,Akker
+1,Akkerman
+1,Akkermans
+1,Akkersdijk
+1,Alberda
+1,Alberdink
+1,Alberink
+1,Albers
+1,Albersnagel
+1,Alberts
+1,Albring
+1,Albronda
+1,Aldenberg
+1,Aldenkamp
+1,Alderliesten
+1,Alders
+1,Aldershof
+1,Alferdinck
+1,Alferink
+1,Alfons
+1,Aling
+1,Alink
+1,Alles
+1,Alma
+1,Altena
+1,Althuis
+1,Alting
+1,Altink
+1,Amsing
+1,Ananias
+1,Andela
+1,Andries
+1,Andriessen
+1,Andringa
+1,Angenent
+1,Anholts
+1,Anker
+1,Anneijes
+1,Annevelink
+1,Antema
+1,Antonis
+1,Antonise
+1,Antonisen
+1,Antuma
+1,Aperlo
+1,Appeldoorn
+1,Appelhof
+1,Appelo
+1,Apperlo
+1,Arbeid
+1,Arbeider
+1,Arbeit
+1,Arendonk
+1,Arends
+1,Arendse
+1,Arendsen
+1,Arents
+1,Arentz
+1,Ariesen
+1,Arissen
+1,Arkes
+1,Arntz
+1,Arntzen
+1,Arntzenius
+1,Arts
+1,Arts
+1,Artz
+1,Asjes
+1,Askes
+1,Asselman
+1,Assenberg
+1,Assendorp
+1,Assies
+1,Assink
+1,Atses
+1,Aukes
+1,Averesch
+1,Aveskamp
+1,Baaiman
+1,Baak
+1,Baanders
+1,Baardwijk
+1,Baars
+1,Baart
+1,Baas
+1,Baasch
+1,Bachman
+1,Bakhuizen
+1,Bakker
+1,Barends
+1,Benscoter
+1,Beulen
+1,Beulens
+1,Beullens
+1,Beumers
+1,Bezuidenhout
+1,Boer
+1,Boerefijn
+1,Boon
+1,Bootsma
+1,Borst
+1,Bouwmeester
+1,Braband
+1,Brams
+1,Brinkerhoff
+1,Bul
+1,Bulle
+1,Bullens
+1,Carl
+1,Ceelen
+1,Claasen
+1,Cloet
+1,Cloeten
+1,Coeman
+1,Coemans
+1,Coenen
+1,Colijn
+1,Coolen
+1,Couman
+1,Coumans
+1,Crusan
+1,Cuijper
+1,Cuijpers
+1,Cuyper
+1,Cuypers
+1,Daalman
+1,Daalmans
+1,Daelman
+1,Daelmans
+1,Dahl
+1,Dahlman
+1,Dahlmans
+1,Daube
+1,De Cloet
+1,De Groot
+1,De Haven
+1,De Klerk
+1,De Kloet
+1,Derichs
+1,De Snaaijer
+1,De Snaijer
+1,De Veen
+1,De Ven
+1,De Vroom
+1,De Vroome
+1,De Wit
+1,De With
+1,De Witt
+1,De Witte
+1,Dierickx
+1,Dirchs
+1,Dircks
+1,Dirckse
+1,Dircksen
+1,Dircksens
+1,Dirckx
+1,Diriks
+1,Dirikx
+1,Dirix
+1,Dirks
+1,Dirkse
+1,Dirksen
+1,Dirkx
+1,Drees
+1,Dreese
+1,Dreesen
+1,Dreesens
+1,Dreessen
+1,Dreessens
+1,Dreyer
+1,Dries
+1,Driessen
+1,Dykstra
+1,Eerkens
+1,Eikenboom
+1,Elzinga
+1,Endstra
+1,Erckens
+1,Erkens
+1,Evers
+1,Flipse
+1,Flipsen
+1,Fortuin
+1,Fortuyn
+1,Frank
+1,Franke
+1,Geelen
+1,Geelens
+1,Geels
+1,Gelen
+1,Gelens
+1,Haak
+1,Haanraads
+1,Haanraadts
+1,Haanraats
+1,Haanrath
+1,Haas
+1,Haenraats
+1,Haenraets
+1,Hanraets
+1,Hansen
+1,Haumann
+1,Heeren
+1,Heijman
+1,Heijmans
+1,Heiman
+1,Heimans
+1,Hendriks
+1,Hendrikx
+1,Hendrix
+1,Herbert
+1,Herberts
+1,Herbertsen
+1,Herbertssen
+1,Herrema
+1,Heyman
+1,Heymans
+1,Hoedemaeker
+1,Hoedemaekers
+1,Hoedemaker
+1,Hoedemakers
+1,Hofwegen
+1,Holst
+1,Holt
+1,Holtman
+1,Houben
+1,Houtkooper
+1,Houtman
+1,Hummel
+1,Hummel
+1,Jacobs
+1,Jacobse
+1,Jacobson
+1,Jans
+1,Jansen
+1,Jansens
+1,Jansing
+1,Jansingh
+1,Jansink
+1,Janssen
+1,Janssens
+1,Janzen
+1,Jonker
+1,Joosten
+1,Karl
+1,Kikkert
+1,Klein
+1,Klerk
+1,Klerken
+1,Klerks
+1,Klerkse
+1,Klerkx
+1,Klerx
+1,Kloet
+1,Kloeten
+1,Kloeter
+1,Koeman
+1,Koemans
+1,Kok
+1,Kolen
+1,Kolijn
+1,Kollen
+1,Koning
+1,Kool
+1,Koole
+1,Koolen
+1,Kools
+1,Kouman
+1,Koumans
+1,Krusen
+1,Kuijpers
+1,Kuiper
+1,Kuipers
+1,Langbroek
+1,Lauwens
+1,Lauwers
+1,Leeuwenhoek
+1,Lucas
+1,Lucassen
+1,Maas
+1,Maessen
+1,Marquering
+1,Marqueringh
+1,Marquerink
+1,Mas
+1,Meeuwe
+1,Meeuwes
+1,Meeuwessen
+1,Meeuweszen
+1,Meeuwis
+1,Meeuwissen
+1,Meeuwsen
+1,Meisner
+1,Merckx
+1,Mertens
+1,Mohren
+1,Mooren
+1,Mulder
+1,Muyskens
+1,Nelissen
+1,Nifterick
+1,Nifterik
+1,Niftrik
+1,Offermans
+1,Ogterop
+1,Oomen
+1,Oorschot
+1,Otten
+1,Pander
+1,Panders
+1,Paulis
+1,Paulissen
+1,Peerenboom
+1,Peeters
+1,Pender
+1,Penders
+1,Pennders
+1,Penner
+1,Penners
+1,Peter
+1,Peusen
+1,Philips
+1,Prinsen
+1,Rademaker
+1,Rademakers
+1,Ramaaker
+1,Ramaker
+1,Ramakers
+1,Ramecker
+1,Rameckers
+1,Raske
+1,Reijnder
+1,Reijnders
+1,Reinder
+1,Reinders
+1,Reynder
+1,Reynders
+1,Richard
+1,Rietveld
+1,Rijnder
+1,Rijnders
+1,Robert
+1,Roggeveen
+1,Roijacker
+1,Roijackers
+1,Roijakker
+1,Roijakkers
+1,Romeijn
+1,Romeijnders
+1,Romeijnsen
+1,Romijn
+1,Romijnders
+1,Romijnsen
+1,Rooiakker
+1,Rooiakkers
+1,Rooijakker
+1,Rooijakkers
+1,Roosa
+1,Rutten
+1,Ryskamp
+1,Samson
+1,Sanna
+1,Schenck
+1,Schermer
+1,Schneider
+1,Schneiders
+1,Schneijder
+1,Schneijders
+1,Schoonenburg
+1,Schoonraad
+1,Schoorel
+1,Schoorl
+1,Schorel
+1,Schrijnemakers
+1,Schuyler
+1,Schwarzenberg
+1,Seeger
+1,Seegers
+1,Seelen
+1,Segers
+1,Segher
+1,Seghers
+1,Severijns
+1,Severins
+1,Sevriens
+1,Silje
+1,Simon
+1,Simonis
+1,Slootmaekers
+1,Smeets
+1,Smets
+1,Smit
+1,Smits
+1,Snaaijer
+1,Snaijer
+1,Sneiders
+1,Sneijder
+1,Sneijders
+1,Sneijer
+1,Sneijers
+1,Snell
+1,Snider
+1,Sniders
+1,Snijder
+1,Snijders
+1,Snyder
+1,Snyders
+1,Specht
+1,Spijker
+1,Spijker
+1,Spiker
+1,Ter Avest
+1,Teunissen
+1,Theunissen
+1,Tholberg
+1,Tillens
+1,Tunison
+1,Tunneson
+1,Van Aalsburg
+1,Van Aalst
+1,Van Aarle
+1,Van Achteren
+1,Van Achthoven
+1,Van Adrichem
+1,Van Aggelen
+1,Van Agteren
+1,Van Agthoven
+1,Van Akkeren
+1,Van Aller
+1,Van Alphen
+1,Van Alst
+1,Van Altena
+1,Van Althuis
+1,Van Amelsvoort
+1,Van Amersvoort
+1,Van Amstel
+1,Van Andel
+1,Van Andringa
+1,Van Ankeren
+1,Van Antwerp
+1,Van Antwerpen
+1,Van Apeldoorn
+1,Van Arendonk
+1,Van As
+1,Van Asch
+1,Van Assen
+1,Van Baarle
+1,Van Bokhoven
+1,Van Breda
+1,Van Bueren
+1,Van Buggenum
+1,Van Buiren
+1,Van Buren
+1,Van Can
+1,Van Cann
+1,Van Canne
+1,Van Daal
+1,Van Daalen
+1,Van Dael
+1,Van Daele
+1,Van Dale
+1,Vandale
+1,Van Dalen
+1,Van De Laar
+1,Van den Akker
+1,Van den Andel
+1,Van Denend
+1,Van der Aart
+1,Van der As
+1,Van der Beek
+1,Van der Berg
+1,Van der Hout
+1,Van der Laar
+1,Van der See
+1,Van der Stoep
+1,Van der Veen
+1,Van der Ven
+1,Van der Venn
+1,Van der Venne
+1,Van der Vennen
+1,Van der Zee
+1,Van De Vliert
+1,Van Donk
+1,Van Haanraads
+1,Van Haanraats
+1,Van Haanrade
+1,Van Haanrath
+1,Van Haenraats
+1,Van Haenraets
+1,Van Hanraets
+1,Van Hassel
+1,Van Hautem
+1,Van Hautum
+1,Van Heel
+1,Van Herten
+1,Van Hofwegen
+1,Van Hout
+1,Van Houte
+1,Van Houtem
+1,Van Houten
+1,Van Houttum
+1,Van Houtum
+1,Van Kan
+1,Van Kann
+1,Van Kanne
+1,Van Laar
+1,Van Laren
+1,Van Leeuwenhoeck
+1,Van Leeuwenhoek
+1,Vann
+1,Van Nifterick
+1,Van Nifterik
+1,Van Niftrik
+1,Van Ogtrop
+1,Van Oirschot
+1,Van Oirschotten
+1,Van Oorschot
+1,Van Ophoven
+1,Van Peij
+1,Van Pey
+1,Van Rossem
+1,Van Rossum
+1,Van Schoorel
+1,Van Schoorl
+1,Van Schorel
+1,Van Veen
+1,Van Veenen
+1,Van Wegberg
+1,Van Wieren
+1,Van Willigen
+1,Venner
+1,Verboom
+1,Vergoossen
+1,Verhoeven
+1,Ververs
+1,Victor
+1,Victors
+1,Victorsz
+1,Visscher
+1,Vogels
+1,Vossen
+1,Vroom
+1,Vroomen
+1,Waterman
+1,Wauters
+1,Westenberg
+1,Willems
+1,Willemse
+1,Willemsen
+1,Wilms
+1,Wolters
+1,Wouters
+1,Zeeger
+1,Zeegers
+1,Zeelen
+1,Zegers
+1,Zegher
+1,Zeghers
+1,Zuiderduin
+
+

@@ -1,0 +1,188 @@
+
+;Start
+2,[original]
+1,[link]
+
+;original
+2,[beastsentence].
+1,[objectsentence].
+1,[groupsentence].
+2,[DesolatePlaces]
+
+;link
+1,[Fantasy Oracle Maker.beasts].
+1,[AGG Ruins]
+1,[AGG Wilderness]
+
+
+;AGG Ruins
+1,[Art Grace and Guts Oracle.Ruins Items]
+1,[Art Grace and Guts Oracle.Ruins Characters]
+1,[Art Grace and Guts Oracle.Ruins Locations]
+1,[Art Grace and Guts Oracle.Ruins Events]
+1,[Art Grace and Guts Oracle.Ruins Threats]
+
+;AGG Wilderness
+1,[Art Grace and Guts Oracle.Wilderness Items]
+1,[Art Grace and Guts Oracle.Wilderness Characters]
+1,[Art Grace and Guts Oracle.Wilderness Locations]
+1,[Art Grace and Guts Oracle.Wilderness Events]
+1,[Art Grace and Guts Oracle.Wilderness Threats]
+
+;beastsentence
+1,[beastcap], [beastplacerelation] [place]
+1,[placecap], [placebeastrelation]
+
+;objectsentence
+1,[objectcap], [objectplacerelation] [place]
+
+;beastcap
+1,A minotaur, the deformed son of god and woman
+1,A scaly serpent made of bronze and hateful of living flesh
+1,A malformed cyclops
+1,A grotesque and hairy troll
+1,An ancient wizard, robbed of his power but not of his thirst for it
+1,A hermit monk, master of the martial arts
+1,A trickster-fey, bound in an iron box but desperate for escape and burning with hatred
+1,A foul dragon, fire breathing and ruthless
+1,An enormous spider-demoness
+1,A trio of blind crones, said to possess oracular powers
+
+;beast
+1,a minotaur, the deformed son of god and woman
+1,a scaly serpent made of bronze and hateful of living flesh
+1,a malformed cyclops
+1,a grotesque and hairy troll
+1,an ancient wizard, robbed of his power but not of his thirst for it
+1,a hermit monk, master of the martial arts
+1,a trickster-fey, bound in an iron box but desperate for escape and burning with hatred
+1,a foul dragon, fire breathing and ruthless
+1,an enormous spider-demoness
+1,a trio of blind crones, said to possess oracular powers
+
+;beastplacerelation
+1,bound to
+1,cursed to guard forever
+1,now only a spirit that haunts
+1,the only inhabitant of
+1,said to inhabit
+1,self-appointed ruler of
+1,who can only be found at
+
+;place
+1,a certain mountain pass
+1,a lone mountain on a vast and empty plain
+1,a deep forest overgrown with vines
+1,a desert canyon with only a trickle of water
+1,a high valley, difficult to reach and more difficult to return from
+1,the entrance into the underworld of lost souls
+1,an island of sheer cliffs and treacherous shoals
+1,an oasis deep in the desert, the only one for many miles
+1,a snowcapped mountain where the wind never ceases to blow
+1,a lost city deep in a tropical jungle
+1,a high tower surrounded by thick briars and malicious forest
+1,a swamp of foul-smelling gases and strange lights
+1,a crossroads where criminals are left to die in cages
+1,a narrow rope bridge; the only way across a deep chasm
+1,the top of a thundering waterfall
+1,the slopes of a rumbling volcano
+1,a great tree, as big around as a house, towering over all the other trees of the forest
+1,an endless sea of sand dunes
+1,a forest of trees, all turned to stone
+1,the ruins of [ruins] in [place]
+1,a valley of sharp pinnacles and salt columns
+1,a mess of tar pits, foul of stench and treacherous
+1,a wall of sheer cliffs, full of shrieking monkeys
+
+;placecap
+1,A certain mountain pass
+1,A lone mountain on a vast and empty plain
+1,A deep forest overgrown with vines
+1,A desert canyon with only a trickle of water
+1,A high valley, difficult to reach and more difficult to return from
+1,The entrance into the underworld of lost souls
+1,An island of sheer cliffs and treacherous shoals
+1,An oasis deep in the desert, the only one for many miles
+1,A snowcapped mountain where the wind never ceases to blow
+1,A lost city deep in a tropical jungle
+1,A high tower surrounded by thick briars and malicious forest
+1,A swamp of foul-smelling gases and strange lights
+1,A crossroads where criminals are left to die in cages
+1,A narrow rope bridge; the only way across a deep chasm
+1,The top of a thundering waterfall
+1,The slopes of a rumbling volcano
+1,A great tree, as big around as a house, towering over all the other trees of the forest
+1,An endless sea of sand dunes
+1,A forest of trees, all turned to stone
+1,The ruins of [ruins] in [place]
+1,A valley of sharp pinnacles and salt columns
+1,A mess of tar pits, foul of stench and treacherous
+1,A wall of sheer cliffs, full of shrieking monkeys
+
+;placebeastrelation
+1,guarded by [beast]
+1,haunted by the spirit of [beast]
+1,the lair of [beast]
+1,littered with the bones of those who sought [beast] there
+1,barren of life but for [beast]
+1,its small village ruled by [beast]
+
+;ruins
+1,a fortress
+1,a stone circle
+1,a castle
+1,a village
+1,a temple
+
+;objectcap
+1,A standing stone with ancient inscriptions, its language now lost to the world
+1,A well of enchanted water
+1,A seerstone, one of only five
+1,A magical portal to a shadow realm
+1,The heart of a dead god, said to beat once every thousand years
+1,A revered hero's grave
+1,A legendary treasure
+
+;objectplacerelation
+1,said to be near
+1,which rumours suppose to be close to
+1,drawn on a map alongside
+1,guarded by [beast] at
+
+;groupsentence
+1,A trade caravan, loaded with treasures and guarded by mercenaries, snaking its way past [place]
+1,A colony of lepers, shrouded in rags and reeking of death, driven to inhabit [place]
+1,A secretive tribe of elves and satyrs, tempters and tricksters by nature, who revel at [place] during the full moon
+1,A coven of snake-worshipers and their followers, at [place]
+1,A tribe of nomadic horsemen, making their way to [place]
+1,A group of monks and pilgrims traveling to [place], in search of enlightenment
+
+;DesolatePlaces
+0,--borrowed from other oracles--
+1,Two weary travelers, crossing a glass plain which stretches for hundreds of miles in every direction, waterless and deadly.
+1,The twisted mutant creatures who inhabit the endless tunnels deep below the ground.
+1,A madcap musician, cadging drinks and singing prophecy.
+1,A lonely guard-tower, where a retired General passes the evening of his life.
+1,A Sorceress whose mind-magics can break the will or wrack the flesh of her foes.
+1,Bestial half-men, kept as slaves, rising up against their masters.
+1,An underground temple, it's great pools and brazen statues tended by a race of silent servitors.
+1,A young mother, fleeing after giving birth to an unnatural child.
+1,A circle of stones atop a barren hill; a border-marker between rival tribes.
+1,A mighty war-beast, caparisoned in silk & crystal.
+1,A coffle of slaves, destined for hard labor in the toxic mines.
+1,A hunting party of noblemen and their servants, on safari through the poison jungles.
+1,The Shining Tower, a structure with no doorway, said to be the home of the Veiled Magician.
+1,The last defenders of a surrounded garrison.
+1,A barbarian from the Wastes, her hair drawn back and braided with silver bells; one for each man she has slain.
+1,The crumbling stone walls of a great manse, carved with cyclopean bas-reliefs; home now only to cowed and degenerate tribesmen.
+1,Heavily-swaddled warriors, riding in squads on the backs of gigantic centipedes, patrolling the borders of their sovereign territory.
+1,A corpulent warlord, and the harem-girls plotting to murder him.
+1,A youth, mind-bonded to a great plains cat, guarding their primitive tribe against the depredations of an advancing Empire.
+1,A tray of delicate pastries, presented by a nubile servant.
+1,A cruel yet practical despot, who controls the water-sources throughout an entire region.
+1,Stooped, reptilian laborers, toiling under the merciless sun.
+1,An overseer of slaves, easily distracted by his pleasures.
+1,A village in the trees, whose residence are decidedly unfriendly to strangers.
+
+
+

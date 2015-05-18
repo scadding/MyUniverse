@@ -1,0 +1,553 @@
+
+;Start
+1,<strong>[prelude] <br/></strong><br>
+_[main] <br/><br>
+_[main] <br/><br>
+_[main] <br/><br>
+_[main] <br/><br>
+_[main] <br/><br>
+_[main] <br/><br>
+_[main] <br/><br>
+_[main] <br/><br>
+_[main] <br/><br>
+_[main] <br/><br>
+_[main] <br/><br>
+_[main] <br/><br><br>
+
+;prelude
+1,It all happened around [year]...  
+1,It was [year]...
+1,That would have been [year]...
+1,Had to be [year], that's when [protagonist] died as I recall...  
+1,It was [year], whew...
+1,You want to know about [protagonist]?  That takes me back to [year]...
+1,Back around [year]...
+1,It was [year], quite a different time...  
+
+;Start
+1,[beginning] [protagonist] had this [object] and frankly, it made everybody [emotion]. He [character_flaw]. He [redeeming_quality] though.
+1,[beginning] [protagonist] found a [object] at [location]. [ending]
+1,[beginning] [protagonist] found a [object] right after [event]. He [redeeming_quality].
+1,That thing with [protagonist] and the [object][exclamation] He just [action].
+1,That thing that happened at [location][exclamation] Damn [protagonist] and the [object]. He just [action].
+1,I saw what [protagonist] did[exclamation] [ending]
+1,[beginning] [protagonist], he [action]. He was obsessed with this [object] [timespan].
+1,We [community_action]. [community_ire] because he'd [action]. [ending] 
+1,[community_ire]. We [community_action]. [ending]
+1,He [action].  Makes me [emotion][exclamation] [ending] [ending]
+
+
+1,[beginning] [protagonist] got caught up at [location] after [event]. [ending] 
+1,[beginning] [protagonist] [action]. He [character_flaw]. [ending]
+1,You'd go to [location] and see [protagonist] every night, looking [emotion]. He [redeeming_quality]. [ending]
+1,Darn [protagonist] made me [emotion], what with the [object] and all. He [character_flaw].
+1,I have to hand it to [protagonist][persistence]. Just looking for the [object]. We [community_action], but too little too late I guess. [ending]
+1,[beginning] that's when [protagonist] [acquired] [disease]. [treatment] [result] He [redeeming_quality]. [ending]
+1,[beginning] [protagonist] was as strong as a [dangerous_animal]. Man[persistence]. [ending]
+1,[beginning] [protagonist] finally got killed in [accident]. He was a real big deal back in [distant].
+1,[beginning] that was the night when [protagonist] [fought] that [put_down] [antagonist] down at the [location]. [fight_outcome] [ending]
+1,[beginning] that was when that [put_down] [antagonist] holed up at the [location]. He [character_flaw]. He had a [specific_weapon] with him, too. Later on we [community_action]. [ending]
+1,[protagonist], he was a [put_down] [name_call]. He [character_flaw]. [ending]
+1,Say what you want about [protagonist], but he [redeeming_quality]. [funny_story].
+1,[beginning] [protagonist] [entered_contest]. [funny_story]. He sure as hell didn't win.
+
+;beginning
+1,I remember
+1,As I recall
+1,I think
+1,Lets see now, then
+1,Unless I'm mistaken,
+1,I think it was around that time, yeah,
+1,Its true
+1,You know
+1,Back then
+1,Hey,
+1,That takes me back,
+1,Whew,
+1,I'm sure
+1,I swear
+1,I'm telling you
+1,I recall
+
+;ending
+1,And right before [event], too.  
+1,End of story.
+1,That's how it goes.
+1,I still have the [object] around here somewhere.
+1,I still get [emotion] when I think about it.
+1,That's all I have to say about that.
+1,I would have done the same, frankly.
+1,I saw it all.
+1,That last time we saw him we [community_action].
+1,And that's just the way it was.
+1,Things were sure different back then.
+1,Can't change it now.
+1,I heard he died by the time [tragedy].
+1,No choice, really.
+1,I don't want to talk about that no more.
+1,That was something else.
+1,Don't I know it.
+1,Those were the days.
+
+;funny_story
+1,I remember [meeting] down at the [location]. He was there and [funny_story_middle]. [funny_story_ending]
+1,This one time over at [location], [funny_story_middle]. [funny_story_ending]
+1,He was over at [location], and [funny_story_middle]. [funny_story_ending]
+1,He was at [happy], and [funny_story_middle]. [funny_story_ending]
+1,At [happy], [funny_story_middle]. [funny_story_ending]
+1,He was at [happy], and [funny_story_middle]. [funny_story_ending]
+
+;funny_story_middle
+1,I tell you what, he [funny_action]
+1,he just [funny_action]
+1,he [funny_action]
+1,he started waving this [object]. Lord, he [drank]
+
+;funny_story_ending
+1,Everybody had a big laugh over that
+1,Those were the days I tell you
+1,He had everybody rolling with that one
+1,People just couldn't stop laughing
+1,I still get a good chuckle about it even now
+1,Just about the dumbest thing I ever saw
+
+;exclamation
+1, - who the hell knew?
+1, - that was bad.
+1,, aw hell.
+1, - hot damn.
+1,, I still can't believe it.
+1,, son of a gun.
+1,, shoot.
+
+;emotion
+1,angry
+1,uncomfortable
+1,all misty eyed
+1,suspicious
+1,uneasy
+1,sad
+1,glum
+1,nervous
+1,dumb as a bag of hammers
+1,sick
+1,ashamed
+1,restless
+
+;community_action
+1,buried it with him
+1,ran him out of town, sure as you're born
+1,asked a lot of questions about that
+1,tried to help him, honest to God we did
+1,made sure it never happened again
+1,had to talk to him about it
+1,called the State Police, but they wouldn't do anything
+1,tried to reason with him
+1,took him out drinking, tried to get his mind off it
+1,introduced him to a nice girl from Junction City
+1,never looked at him the same, not really
+1,never spoke of it
+1,shot him in the face at [location]
+1,strung his ass up down at [location]
+
+;action
+1,wouldn't leave it alone
+1,ignored it [timespan]
+1,talked and talked about it until he finally went crazy
+1,watched and waited [timespan]
+1,let it all go to hell
+1,tried so hard.  No use in that, of course
+1,bore that shame [timespan]
+1,tried to make it right.  As if he could
+1,just kept pushing. That [name_call] wouldn't quit
+1,bottled it up [timespan]
+1,carried a great burden [timespan]
+1,ended up killing himself over it
+1,went out fishing and never came back
+
+;funny_action
+1,started dancing like a fool
+1,told this story you wouldn't believe
+1,tried to do this magic trick, oh lord
+1,had the dumbest grin on his face all night
+1,tripped and fell over his own chair
+4,[drank]
+
+;entered_contest
+1,filed this lawsuit against [antagonist]. It was a total sham.
+1,ran for mayor
+1,tried to win that "man of the year" contest
+1,decided to run in the big race
+1,entered that pie eating contest
+
+;drank
+1,was so drunk he could barely stand
+1,drank until he fell over
+1,drank himself into an absolute stupor
+1,got drunk right under the table by [antagonist]
+
+;community_ire
+1,It forced our hand
+1,We did what we had to do
+1,Some didn't like it, but it had to be done
+1,We all wanted to do something, but Sheriff Johnson convinced us not to
+1,People were right angry
+1,Shoot, then people got all riled up
+1,The whole town was in an uproar
+
+;treatment
+1,He used a [bottle]
+1,He drank a [bottle]
+1,He tried the [bottle]
+
+;result
+1,to try to dull the pain.
+1,but it did no good anyway.
+1,and that did help for a time.
+1,because he just couldn't take it no more.
+
+;fought
+1,punched
+1,started a fight with
+1,got in a brawl with
+1,picked on
+1,beat up
+1,beat the tar out of
+1,wanted to duel
+
+;fight_outcome
+1,He was hurt but boy, did we ever have a laugh.
+1,[protagonist] came in and put an end to that right quick.
+1,The best part was when [protagonist] got punched in the face by accident.
+1,Then that [put_down] [antagonist] drew that [weapon] and things got real dicey.
+
+;character_flaw
+1,was dangerous. [community_ire]
+1,was a real piece of work
+1,had a [weapon] he was always threatening people with
+1,had this [bottle] he couldn't let go of
+1,drank like a fish
+1,smoked like a chimney
+1,was a little too crazy with that [weapon]
+1,hated that [put_down] [antagonist] and let it be known
+1,was one [put_down] [name_call]
+1,was sure a [put_down] [name_call]
+1,made a lot of enemies
+1,was a real womanizer
+1,just wasn't the same after he came back from the war
+1,liked to flaunt his wealth a bit too much for the taste of most
+
+;redeeming_quality
+1,was a real gentle soul
+1,was a nice guy to those he liked
+1,wasn't that tough once you got to know him
+1,treated most people with respect
+1,was, in his own way, one of the smartest guys I ever knew
+1,sure liked to have a good time
+1,was a real jovial guy
+1,made some of the best damn furniture in the county
+1,had a way with fixing machines
+1,could drive a post like nobody's business
+1,was always there to lend a hand when it was needed
+1,was a real generous guy
+1,was always ready with his [specific_weapon] when we needed him
+1,raised some decent boys
+1,could really paint some beautiful pictures
+
+;name_call
+1,bastard
+1,son of a gun
+1,jerk
+1,fool
+
+;year
+1,[recent]
+1,[distant]
+
+;recent
+1,right after the dust bowl. Maybe 1935
+1,the late sixties, early seventies
+1,the time of the moon landings.  1970, I guess
+1,1955
+1,the mid-fifties
+1,when Disneyland opened.  What would that be, 1955?  Yeah
+1,1940
+1,the early forties
+1,around the start of World War Two
+
+;distant
+1,the roaring twenties
+1,the days before they built the fish house.  Like 1925
+1,the mid-twenties.  Bootleggers out at the lake
+1,1910
+1,when you bought everything out of a Sears catalog
+1,1910 or so, back just before we got electricity
+1,1895
+1,the damned Spanish-American War, I kid you not
+1,the old days, a long time ago, turn of the century
+
+;protagonist
+1,Dr. Brown
+1,Sherrif Johnson
+1,Bill Henderson
+1,Paul Weatherby
+1,Darrell Smith
+1,Joe
+1,Walt
+1,Jimmy
+1,Albert Dexter
+1,Tweedy
+1,Pondo
+1,Jim Taylor
+1,Wilson
+1,Old Harv
+
+;antagonist
+1,Digger
+1,carpet bagger
+1,Leroy
+1,murderer
+1,Bob Walters
+1,Bill Jr.
+1,fish house hermit
+1,Pat Jones
+1,Matt Hines
+1,deaf guy
+1,Anderson boy
+
+;put_down
+1,boozing
+1,cheating
+1,damn
+1,darned
+1,dim witted
+1,dirty
+1,foolish
+1,greedy
+1,low down
+1,lying
+1,mean
+1,no good
+1,sleazy
+1,slimy
+1,spiteful
+1,stupid
+1,swindling
+1,ugly
+1,[put_down], [put_down]
+
+;object
+1,[book]
+1,[bottle]
+1,[weapon]
+1,[letter]
+1,[money]
+1,[toy]
+
+;book
+1,bible
+1,ledger
+1,damned manuscript
+1,box of dirty pictures
+1,bit of "evidence" he had
+
+;bottle
+1,flask of liquor
+1,deadly poison
+1,vial of medicine
+1,quack cure-all [protagonist] favored
+1,bottle of snake-oil
+1,jug of moonshine
+
+;weapon
+2,[specific_weapon] like [protagonist] always had
+1,thing he brought back from the war
+8,[specific_weapon]
+
+;specific_weapon
+1,hunting rifle
+1,pistol
+1,farmer's shotgun
+1,mail-order gun
+1,hunting knife
+1,bowie knife
+
+;letter
+1,letter [from]
+1,letter [to]
+1,[document]
+
+;from
+1,from his lover
+1,from the military
+
+;to
+1,to his lover
+1,to the government
+
+;document
+1,deed to [protagonist]'s farm
+1,notarized letter
+1,confession
+1,plan he wrote out
+1,sketch of [location]
+1,weird map of [location]
+
+;money
+1,buried jar of gold
+1,load of cash in that mattress
+1,wallet [protagonist] lost
+1,bag of money he stole
+1,bunch of money he needed
+1,windfall he inherited
+
+;toy
+1,piece of jewelry
+1,stupid toy that [antagonist] gave his sweetheart
+1,hand-me-down doll
+1,key to the cellar
+1,thing he gave the girl
+
+;dangerous_animal
+1,bear
+1,wolf
+1,raging bull
+1,junkyard dog
+
+;farm_equipment
+1,thresher
+1,combine
+1,tiller
+1,tractor
+
+;event
+1,[holiday]
+1,[funeral]
+1,[birth]
+1,[wedding]
+1,[meeting]
+3,[special]
+
+;holiday
+1,Christmas
+1,Easter
+1,the Fourth of July
+1,his big anniversary
+1,the one day each year he'd always go out and get drunk
+
+;funeral
+1,his Pa's funeral
+1,his Mother's funeral
+1,the time his boy died
+1,the time his wife died
+
+;birth
+1,his boy was born
+1,his daughter was born
+1,that freak was born
+
+;wedding
+1,he got married
+1,he finally got hitched
+1,his sweetheart married that fella down in the Capitol
+1,he ran off with whats-her-name
+
+;meeting
+1,the tent revival
+1,the circus
+1,the vigilance committee
+
+;special
+1,[happy]
+3,[sad]
+
+;happy
+1,the big church supper
+1,the homecoming game
+1,the harvest festival
+1,the school dance
+1,the welcome home party for [protagonist]
+1,Ida's big wedding
+1,the county fair
+
+;sad
+1,[accident]
+1,[tragedy]
+
+;persistence
+1, - he was [emotion], but he'd make the trip to [location] every day anyway
+1,, he was one persistent [name_call]
+1,, that guy just never quit
+1,, he hounded that [put_down] [antagonist] [timespan]
+
+;accident
+1,the accident with the [weapon]
+1,the accident with the [farm_equipment]
+1,the [farm_equipment] accident
+1,that terrible accident with [protagonist]'s [farm_equipment]
+1,the trampling accident
+1,a car accident
+1,a hunting accident
+1,that [dangerous_animal] attack
+
+;tragedy
+1,the tornado [arrival]
+1,the flood [arrival]
+1,the hail storm [arrival]
+1,the blight [arrival]
+1,that damn swarm [arrival]
+1,the heat wave [arrival]
+1,that animal disease [arrival]
+1,the big crop failure [arrival]
+1,the big blizzard [arrival]
+1,that terrible ice storm [arrival]
+1,we got snowed in at [location]
+
+;arrival
+1,hit
+1,struck
+1,rolled in
+1,came
+1,happened
+
+;location
+1,the fish house
+1,the crossroads
+1,the lake
+1,Weatherby's place
+1,the pharmacy
+1,the broke-down cooperage
+1,the woods
+1,Packet's farm
+1,Junction City
+1,the Capitol
+1,the old tumble-down farmstead
+1,Cheek street
+1,the dry goods store
+1,Second street
+1,the park
+1,the high school
+
+;timespan
+1,his whole life
+1,all those years
+1,for years
+1,until the day he died
+1,until it all came apart around him
+1,until it blew up in his face
+
+;acquired
+1,came down with
+1,got hit with
+1,had
+
+;disease
+1,the measles
+1,pneumonia
+1,lung cancer
+1,some kind of tumor
+1,tonsillitis
+1,the flu
+1,a heart attack
+
+

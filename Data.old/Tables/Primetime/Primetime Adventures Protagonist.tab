@@ -1,0 +1,245 @@
+
+;Start
+3,Name: [genderfirstname] [surname]<br>[edgecon]<br>Arc:[arc]<br>Issue:[issue]<br>[secretchance][NemesisChance]<br> <hr>
+
+;secretchance
+3,
+2,Secret: [secret] <br/> 
+
+;edgecon
+5,Edges:<br><ul><li>[edge]<li>[edge]</ul>Connection:<ul><li>[connection]</ul>
+5,Edge:<br><ul><li>[edge]</ul>Connections:<ul><li>[connection]<li>[connection]</ul>
+
+;NemesisChance
+3,
+1,[Nemesis]<br/>
+
+;genderfirstname
+1,[American Census Names.male]
+1,[American Census Names.female]
+
+;surname
+1,[American Census Names.surname]
+
+;edge
+4,[fakeornot] [profession]
+2,[Modern Hobby.hobby]
+
+;fakeornot
+15,
+1,Fake
+
+;profession
+20,[Modern Profession.profession]
+1,[Super Edge]
+1,[Other Religious]
+1,[Supernatural Edge]
+1,Mysterious Past
+1,Amnesiac
+
+
+;IsCrooked
+4,
+1,Crooked
+
+;connection
+2,Mother [neverknew]
+2,Father [neverknew]
+2,Best Friend
+1,Best Friend From [past]
+2,Old Flame ({{ia|[edge]}})
+2,Significant Other
+2,Child [neverknew]
+2,Old Master
+2,Old Teacher
+2,Pilot
+1,[Modern Profession.Military]
+1,[Modern Profession.Medical]
+2,Surgeon
+2,Priest
+2,Kid
+1,[school] Sweetheart
+1,[Modern Profession.Academic]
+2,Lawyer
+1,[Modern Profession.Federal Agent]
+1,[Modern Profession.Cop]
+2,Private Eye
+1,[Super Connection]
+1,[Supernatural Connection]
+
+;neverknew
+3,
+1,He/She Never Knew
+
+;issue
+1,Guilt
+1,Anger
+1,Lust
+1,Pride
+1,Sloth
+1,Avarice
+1,Atonement
+1,Fear of Commitment
+1,Control Freak
+1,Grief
+1,Unlucky In Love
+1,Self Destruction
+1,Self Doubt
+1,Self Worth
+1,Temptation
+1,Amnesia
+
+;secret
+1,Once Killed Someone
+1,Slept With Friend's [Spouse]
+1,Is Sleeping With Friend's [Spouse]
+1,Cheated On [Significant Other]
+1,Is Cheating On [Significant Other]
+1,[Drug] Addict
+1,Alcoholic
+1,Has A Criminal Record
+1,Had A Homosexual Relationship In [past]
+1,Once Appeared In A Pornographic [vorm]
+1,Amnesiac
+1,Sold His/Her Soul To The Devil
+
+;Spouse
+1,Husband
+1,Wife
+
+;Significant Other
+1,[Spouse]
+1,Boyfriend
+1,Girlfriend
+
+;vorm
+1,Video
+1,Magazine
+1,Web Site
+
+;past
+1,[school]
+1,the [Modern Profession.Service]
+1,the War
+1,the Academy
+
+;arc
+1,1 1 2 2 3
+1,1 2 1 2 3
+1,1 2 2 1 3
+1,2 1 1 2 3
+1,2 1 2 1 3
+1,2 2 1 1 3
+1,1 1 2 3 2 
+1,1 2 1 3 2 
+1,1 2 2 3 1 
+1,2 1 1 3 2 
+1,2 1 2 3 1 
+1,2 2 1 3 1 
+1,1 1 3 2 2 
+1,1 2 3 1 2 
+1,1 2 3 2 1 
+1,2 1 3 1 2 
+1,2 1 3 2 1 
+1,2 2 3 1 1 
+1,1 3 1 2 2 
+1,1 3 2 1 2 
+1,1 3 2 2 1 
+1,2 3 1 1 2 
+1,2 3 1 2 1 
+1,2 3 2 1 1 
+1,3 1 1 2 2 
+1,3 1 2 1 2 
+1,3 1 2 2 1 
+1,3 2 1 1 2 
+1,3 2 1 2 1 
+1,3 2 2 1 1 
+
+
+;school
+1,High School
+1,College
+
+;Supernatural Edge
+1,Angel
+1,Demon
+1,Saint
+1,Wizard
+1,Priest/Priestess Of A Dark God
+1,Incredible Luck
+1,Magic Spell
+1,Magical Sword
+1,Magical Artifact
+1,Relic of a Saint
+1,Subordinate Death
+
+;Supernatural Connection
+4,Angel
+4,Demon
+1,Saint
+1,Satan
+1,God
+1,Death
+1,Nature
+1,Fate
+
+;Super Edge
+1,Psychic
+1,Superhero
+1,Martial Arts Expert
+1,[Super Power]
+1,Super Weapon
+1,[Psionic Power]
+1,Super Vehicle
+
+;Super Connection
+1,Psychic
+1,Superhero
+1,Supervillain
+1,Martial Arts Expert
+
+;Super Power
+1,Flight
+1,Eye Lasers
+1,Super Strength
+1,Super Speed
+1,X-Ray Vision
+1,Photographic Memory
+1,Invulnerable
+1,Immortal
+1,Super Power
+
+;Psionic Power
+1,Telepathy
+1,Telekinesis
+1,Teleportation
+1,ESP
+1,Psychometry
+1,Precognition
+1,Retrocognition
+1,Clairvoyance
+1,Astral Projection
+1,Mind Control
+1,Psionic Power
+
+;Other Religious
+1,Fringe Cultist
+1,Polygamist
+
+;Drug
+1,Meth
+1,Cocaine
+1,Crack
+1,Heroin
+1,Speed
+1,Steroids
+2,Prescription Drug
+1,Prescription Antidepressant
+1,Prescription Painkiller
+1,PCP
+1,Morphine
+
+;Nemesis
+1,Nemesis: [genderfirstname] [surname], [profession]
+
+

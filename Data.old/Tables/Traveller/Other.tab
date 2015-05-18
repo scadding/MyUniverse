@@ -1,0 +1,47 @@
+
+
+;Personal Development
+1,Strength
+1,Dexterity
+1,Endurance
+1,Blade Combat
+1,Brawling
+1,Social
+
+;Service Skills
+1,Vehicle
+1,Gambling
+1,Brawling
+1,Bribery
+1,Blade Combat
+1,Gun Combat
+
+;Education
+1,Streetwise
+1,Mechanical
+1,Electronics
+1,Gambling
+1,Brawling
+1,Forgery
+
+;Advanced Education
+1,Medical
+1,Forgery
+1,Electronics
+1,Computer
+1,Streetwise
+1,Jack of all trades
+
+@Muster Benefit
+1,Low Passage,0
+1,Intelligence
+1,Education
+1,[Traveller.Gun]
+1,High Passage,0
+1,Cash,1000
+1,Cash,5000
+3,Cash,10000
+1,Cash,50000
+1,Cash,10000
+
+

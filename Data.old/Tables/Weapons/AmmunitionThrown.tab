@@ -1,0 +1,109 @@
+
+;Start
+20,[Arrow]
+18,[Bolt]
+15,[Thrown]
+
+;StartNoDescription
+100,[ArrowType]
+90,[BoltType]
+25,[DartType]
+45,[JavelinType]
+2,boomerang
+5,[BolaType]
+
+;Thrown
+25,[Dart]
+45,[Javelin]
+2,A boomerang made of [Utility.WoodWeapon] wood
+2,[Bola]
+1,[boomerang]
+
+;Arrow
+1,[Dice.1d3][Dice.digit] [ArrowType] with shafts of [Utility.WoodWeapon] wood [ShaftColor] and [Fletching]
+
+;ArrowType
+20,arrows
+10,blunt arrows
+8,flight arrows
+6,signal arrows
+5,alchemist's arrows (fire)
+5,alchemist's arrows (holy water)
+5,alchemist's arrows (thunderstone)
+1,angling arrows
+5,barbed arrows
+5,dragonsbreath arrows
+6,piercing arrows
+5,razor arrows
+5,shaef arrows
+5,seeker arrows
+5,serpentstongue arrows
+5,swiftwing arrows
+
+;ShaftColor
+10,in its natural color
+12,painted [Color.dark]
+4,painted [Color.dull]
+4,painted [Color.bright]
+1,engraved with runes in [Utility.RuneLanguage]
+1,engraved with knotwork
+
+;Fletching
+1,fletching of [FletchingColor] feathers
+2,fletching of two [FletchingColor] feathers and one [FletchingColor] feather
+
+;FletchingColor
+2,[Color.dark]
+1,[Color.dull]
+1,[Color.bright]
+
+;Bolt
+1,[Dice.1d3][Dice.digit] [BoltType] with shafts of [Utility.WoodWeapon] wood [ShaftColor] and [Fletching]
+
+;BoltType
+100,crossbow bolts
+10,hand crossbow bolts
+5,tumbling bolts
+5,great crossbow bolts
+3,ballista bolts
+
+;Dart
+1,[Dice.3d6] [DartType] with [Fletching]
+
+;DartType
+20,thrown darts
+4,blowgun darts
+1,great blowgun darts
+
+;Javelin
+3,[Dice.2d6] [JavelinType] made of [Utility.WoodWeapon] wood with [Fletching]
+6,[Dice.2d6] [JavelinType] made of [Utility.WoodWeapon] wood tipped with [Utility.MetalWeapon]
+2,[Dice.2d6] [JavelinType] made of [Utility.WoodWeapon] wood tipped with [Utility.MetalWeapon] with [Fletching]
+
+;JavelinType
+10,javelins
+2,harpoons
+1,spinning javelins
+
+;Bola
+1,A [BolaType]
+
+;BolaType
+4,three-ball bola
+2,two-ball bola
+1,barbed bola
+
+;boomerang
+1,A [boomerangtype] made of [Utility.WoodWeapon] with [boomerangedge] edge.
+
+;boomerangtype
+1,hunting boomerang
+
+;boomerangedge
+5,blunt
+15,sharpened
+1,razor
+1,[Utility.MetalWeapon]
+1,battered
+1,bloody
+

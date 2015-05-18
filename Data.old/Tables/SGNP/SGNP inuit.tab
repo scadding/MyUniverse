@@ -1,0 +1,118 @@
+
+;Start
+1,[male](male)
+1,[female](female)
+1,[spirit](spirit)
+1,[beast](beast)
+1,[location](location)
+
+;male
+1,Pukivik
+1,Noagunegak
+1,Tooaarvik
+1,Teqkuagguk
+1,Toosivu
+1,Tankuageak
+1,Autiaq
+1,Aupalusuq
+1,Avinaaq
+1,Kuviguk
+1,Tornviyok
+1,Aitelik
+1,Tsetevu
+1,Aknikok
+1,Sausulik
+1,Norluteak
+1,Tulutvu
+1,Atuqulk
+1,Aukuagcheeak
+1,Toomingchuk
+
+;female
+1,Alutta
+1,Aklavu
+1,Kupalunek
+1,Sausuak
+1,Uluglulik
+1,Nuqmavik
+1,Piaarguk
+1,Paalavik
+1,Puknabuk
+1,Aiqatchuk
+1,Ulunatoq
+1,Nuvivik
+1,Qaatuqtok
+1,Teqgluyuk
+1,Ullorhorulk
+1,Noauchtok
+1,Aludvik
+1,Millutkap
+1,Kituqanak
+1,Noasaqanak
+
+;spirit
+1,Alaraq
+1,Akalaaq
+1,Aukuagmaq
+1,Aqigaq
+1,Noasagaq
+1,Tookuagaq
+1,Nuqpaluaq
+1,Kiqiaq
+1,Ailuqsaq
+1,Noruaqsaq
+1,Qaaqatchaq
+1,Nutarnegaq
+1,Saulaqaaq
+1,Aklajaq
+1,Aupaluchaq
+1,Maqpaluorq
+1,Paguchaq
+1,Akvuvigaq
+1,Aksaggaq
+1,Tsenaaq
+
+;beast
+1,Ptarmigan / aqisseq
+1,Shark / eqalussuaq
+1,Bear / nanoq
+1,Seal / natsiq
+1,Dog / qimmiq
+1,Fish / iqualuit
+1,Caribou / tuktu
+1,Walrus / aiviq
+1,Fox / tiriganiaq
+1,Whale / arvik
+1,Eight legged polar bear / qupqugiak
+1,Lynx / pusiaraaluk
+1,Dall sheep / saugaak
+1,Moose / tuktuvak
+1,Two-headed sea monster / kavvavaaq
+1,Gull / naujaq
+1,Walking corpse / timiviniq
+1,Killer whale / aarluk
+1,Wolf / amaruq
+1,Weasel / tiriaq
+
+;location
+1,Akuliakat / point of land between two bays
+1,Ammituq / the narrows
+1,Ikerasak / the channel
+1,Innuksuk / the cairn
+1,Isortoq / the foul place
+1,Iterdlugssuak / shelter bay
+1,Kangeeak / promontory
+1,Kekertuk / western island
+1,Kingmitokvik / place where dogs are kept
+1,Kuuk / the river
+1,Narssurssuk / the large plain
+1,Niarkrok / the headland
+1,Nuvuk / the cape
+1,Qikirtaq / the small island
+1,Sadlek / the place opposite
+1,Tikerak / where many people arrive
+1,Qulliq / place of the stone lamp
+1,Tupiq / skin tent place
+1,Untqiagvik / place where snowy owls rest
+1,Kakivak / place of the spear
+

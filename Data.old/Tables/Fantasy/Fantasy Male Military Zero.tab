@@ -1,0 +1,911 @@
+
+;Start
+1,[Name], a [MilitaryUnprofession]. [MartialSentence]
+
+;Name
+10,[Fantasy Names.StartNoTitle] the [Dishonorific]
+5,[ScottishMale.Start] the [Dishonorific]
+5,[German Male.Start] the [Dishonorific]
+5,[Catholic Saint Names.Start] the [Dishonorific]
+3,[German Male.germanmale] the [Dishonorific]
+1,[Dishonorific] [Fantasy Names.StartNoTitle]
+1,[Dishonorific] [ScottishMale.Start]
+1,[Dishonorific] [German Male.germanmale]
+1,[Dishonorific] [ScottishMale.ScottishMaleFirstName]
+
+;Dishonorific
+1,Abject
+1,Afraid
+1,Alarmed
+1,Anxious
+1,Apprehensive
+1,Ass
+1,Awkward
+1,Backward
+1,Bad
+1,Base
+1,Bawdy
+1,Beggar
+1,Bereft
+1,Blase
+1,Boorish
+1,Boring
+1,Boycotter
+1,Castrated
+1,Cheap
+1,Chicken
+1,Chickenhearted
+1,Clean
+1,Clean-Booted
+1,Cloying
+1,Cockney
+1,Common
+1,Commonplace
+1,Contemptible
+1,Cowardly
+1,Cowed
+1,Cowering
+1,Craven
+1,Cur
+1,Dastardly
+1,Defenseless
+1,Dejected
+1,Deplorable
+1,Despicable
+1,Despondent
+1,Destitute
+1,Detestable
+1,Diffident
+1,Disastrous
+1,Disenchanted
+1,Disgrace
+1,Disgraceful
+1,Dishonorable
+1,Dismayed
+1,Distressed
+1,Disturbed
+1,Doleful
+1,Dolorous
+1,Draft Dodger
+1,Drunk
+1,Drunkard
+1,Dull
+1,Dullard
+1,Dumb
+1,Effeminate
+1,Emasculate
+1,Enervated
+1,Exhausted
+1,Faint
+1,Fainthearted
+1,Fat
+1,Feeble
+1,Filthy
+1,Finicky
+1,Flaccid
+1,Foolish
+1,Forgetful
+1,Forlorn
+1,Foul
+1,Frail
+1,Frightened
+1,Fruitless
+1,Fussy
+1,Futile
+1,Genteel
+1,Gutless
+1,Haughty
+1,Hazardous
+1,Heinous
+1,Helpless
+1,Hopeless
+1,Ignoble
+1,Imbecile
+1,Inadequate
+1,Incapable
+1,Incomprehensible
+1,Inconceivably Drunk
+1,Inconsolable
+1,Incontinent
+1,Inferior
+1,Introverted
+1,Jittery
+1,Jitterer
+1,Joke
+1,Ladylike
+1,Lascivious
+1,Lecherous
+1,Lewd
+1,Lily-Livered
+1,Liquored
+1,Long-Winded
+1,Lost
+1,Lush
+1,Lowborn
+1,Mad
+1,Meager
+1,Measly
+1,Meek
+1,Miserable
+1,Miserly
+1,Misshapen
+1,Morbidly Obese
+1,Mouse
+1,Mousy
+1,Mundane
+1,Nervous
+1,Numb
+1,Obese
+1,Old
+1,Onerous
+1,Outrageous
+1,Paltry
+1,Panicky
+1,Particular
+1,Pathetic
+1,Petrified
+1,Picayune
+1,Pickled
+1,Picky
+1,Piddling
+1,Pigeon-Heart
+1,Pitied
+1,Pitiful
+1,Poltroon
+1,Poorly Dressed
+1,Portly
+1,Powerless
+1,Pretender
+1,Pretentious
+1,Pudgy
+1,Puny
+1,Pusillanimous
+1,Quavering
+1,Quivering
+1,Primadonna
+1,Rat
+1,Rattled
+1,Recreant
+1,Rodent
+1,Rotund
+1,Round
+1,Runt
+1,Rustbucket
+1,Sad
+1,Scabbed
+1,Scared
+1,Shabby
+1,Shaky
+1,Shameful
+1,Shivering
+1,Shy
+1,Sissy
+1,Sleepy
+1,Smelly
+1,Soft
+1,Soggy
+1,Sordid
+1,Spineless
+1,Squeamish
+1,Squirrel
+1,Stilted
+1,Stingy
+1,Stodgy
+1,Stupid
+1,Sweaty
+1,Swooning
+1,Tarnished
+1,Teeny
+1,Tender
+1,Terrified
+1,Timid
+1,Timorous
+1,Tiny
+1,Tipsy
+1,Tragic
+1,Trembling
+1,Trifling
+1,Trivial
+1,Troubled
+1,Ugly
+1,Unassertive
+1,Unbearable
+1,Unimportant
+1,Uninteresting
+1,Unstable
+1,Untrustworthy
+1,Unworthy
+1,Useless
+1,Vain
+1,Vapid
+1,Villainous
+1,Wavering
+1,Weak
+1,Weak-Kneed
+1,Weak-Stomached
+1,Whiteknuckled
+1,Wimp
+1,Womanish
+1,Womanly
+1,Worm
+1,Worthless
+1,Wretch
+1,Wretched
+1,Yellow
+1,Yellow-Bellied
+
+;MilitaryUnprofession
+1,[MilitaryRank] in the [Fantasy Military Unit.Start]
+
+;MartialSentence
+3,[MartialIndistinguishment] he [FoughtAdverb] [FoughtVerb] a [Group] the [TribalHumanoids], [WarReason].
+3,[MartialIndistinguishment] he [FoughtAdverb] [FoughtVerb] [IndividualEnemy], [WarReason].
+4,[MartialIndistinguishment] he [DidSomethingStupid], [WarReason].
+
+;DidSomethingStupid
+4,traded all of his unit's [Provisions] for [Flair]
+3,led an entire [Unit] patrol [LedWrong] because [LostReason]
+3,[UsedProvisions]
+3,[MagicUser]
+1,forgot to put on his pantaloons before going to role call
+1,piddled his armor after seeing his own shadow
+
+;MagicUser
+1,[Honed] his [MagicalPowers] to add bounce and volume to his hair
+1,[Honed] his [MagicalPowers] to makes his whites whiter and his brights brighter
+1,[Honed] his [MagicalPowers] to put some real pop in his pep
+1,[Honed] his [MagicalPowers] to cheat his whole squad on poker nights
+1,[Honed] his [MagicalPowers] to evade doing any real work
+1,[Honed] his [MagicalPowers] to keep his hands soft, moisturized, and pleasant-smelling
+1,[Honed] his [MagicalPowers] to hide at the first sign of the enemy
+1,[Honed] his [MagicalPowers] to unsuccessfully increase his chances with women-folk
+1,[Honed] his [MagicalPowers] to turn his armor into a glittery, zinc-studded leather jumpsuit
+1,[Honed] his [MagicalPowers] to turn into (more of) a fairy and fly away from the enemy
+1,[Honed] his [MagicalPowers] to make his arrows never miss, but it had the opposite effect
+1,[Honed] his [MagicalPowers] to cause the general to evacuate the whole camp
+
+;Honed
+1,abused
+1,honed
+1,implemented
+1,perfected
+1,used
+
+;MagicalPowers
+1,[Magical] [Powers]
+
+;Magical
+1,arcane
+1,magical
+1,magical disco
+1,mystical
+1,otherwise mundane
+1,pathetic
+1,unimpressive
+
+;Powers
+1,abilities
+1,might
+1,powers
+1,prowess
+1,skills
+
+;UsedProvisions
+1,ate his entire unit's food rations in one [UsedTime]
+1,drank his entire unit's beer rations in one [UsedTime]
+1,drank his entire unit's water supply in one [UsedTime]
+1,ate his entire unit's food rations in one [UsedPatrol]
+1,drank his entire unit's beer rations in one [UsedPatrol]
+1,drank his entire unit's water supply in one [UsedPatrol]
+1,gambled away his entire unit's payroll money in one [UsedTime]
+1,spent his entire year's payroll money in one [UsedTime]
+1,gambled away his entire unit's payroll money in one game
+1,accidentally lost all his unit's horses in one [UsedTime]
+1,gambled away his whole unit's horses in one game
+1,sold all his unit's horses to pay for his freakishly outlandish [Addiction]
+1,spent his entire year's payroll money on his [Addiction]
+1,spent his entire unit's payroll money on his [Addiction]
+
+;Addiction
+1,brothel dues
+1,clothes
+1,clothing
+1,drinking addiction
+1,gambling addiction
+1,garb
+1,golfing outfit
+1,outfit
+1,shoe collection
+1,uniform
+
+;UsedPatrol
+1,march
+1,patrol
+1,sitting
+
+;UsedTime
+1,fortnight
+1,week
+1,day
+
+;LostReason
+1,he forgot the map in his other trousers
+1,he had the map rotated 90 degrees
+1,he had the map upside down
+1,he knew the way by heart
+1,he lost the map at a latrine break
+1,he smudged the map after using it as a [Mapkin]
+1,he sold the map for [Flair]
+1,he was going on instinct
+1,he wouldn't listen to his sergeant
+1,he wouldn't stop for directions
+
+;Mapkin
+1,bib
+1,cleaning rag
+1,handkerchief
+1,makeshift bandage
+1,napkin
+1,rag
+1,makeshift tourniquet
+
+;LedWrong
+1,back to his own capitol
+1,back through his own lines
+1,over a cliff
+1,around in circles for [Circles]
+1,right into the hands of the enemy
+1,to its demise
+1,to certain doom
+1,into the river
+
+;Circles
+1,a fortnight
+1,a month
+1,a week
+1,days
+1,weeks
+1,months
+1,three weeks
+1,two weeks
+1,two months
+
+;Provisions
+1,ammo
+1,armor
+1,beer
+1,equipment
+1,food
+1,food and water
+1,hard cider
+1,horses
+1,livestock
+1,payroll money
+1,water
+1,weapons
+1,weapons and equipment
+
+;Flair
+1,a [Phony] [FlairFake]
+1,a [FlairCool] [FlairItem]
+
+;Phony
+1,phony
+1,fake
+1,bogus
+
+;FlairFake
+1,golden egg
+1,genie bottle
+1,invincibility potion
+1,love potion
+1,magic compass
+1,magic mirror
+1,magic vanity mirror
+1,magic love potion
+1,potion of charisma
+1,magic wand
+1,magic masculinity potion
+
+;FlairCool
+1,chic
+1,cool-looking
+1,dandy
+1,delightful
+1,exquisite
+1,fabulous
+1,fancy
+1,fashionable
+1,foppish
+1,lovely
+1,new
+1,nice
+1,nifty-looking
+1,posh
+1,quite attractive
+1,racy
+1,stylish
+1,sweet
+1,vogue
+
+;FlairItem
+1,baldric
+1,baldric fob
+1,coin purse
+1,fedora
+1,hair brush
+1,hair comb
+1,pair of cuff links
+1,pair of kid gloves
+1,pair of shoes
+1,pair of silk breeches
+1,pair of spectacles
+1,pair of suede gloves
+1,riding cap
+1,silk tunic
+
+;Abused
+1,abused
+1,bashed
+1,gaffed at
+1,mocked
+1,openly mocked
+1,panned
+1,ridiculed
+1,scathed
+1,scrutinized
+
+;MartialIndistinguishment
+1,He undistinguished himself when
+1,He rose to infamy after
+1,He became a legendary coward when
+1,He became a local villain when
+1,He lost his family's honor after
+1,He disappeared from human society after
+1,He fled the service after
+1,His cowardice was comemmorated in a [WrittenRemembrances] after
+1,He is mainly known through the sarcastic and satirical [WrittenRemembrances] about the incident when
+1,As a joke, his unit commissioned a [WrittenRemembrances] written about the time
+1,He was [Abused] in a [WrittenRemembrances] written about the time
+1,He [Protested] the writing of a [WrittenRemembrances] about the time
+1,He became a household laughingstock because of the [WrittenRemembrances] written about the time
+1,He is mockingly depicted in a [ArtworkRemembrances] about the time
+1,He is infamous for the occasion on which
+1,He is worst-known for the occasion on which
+1,He is remembered in drinking songs for the time
+1,He is barely remembered for the incident when
+1,He secured his lowly place in history when
+1,He abandoned his town when
+1,He became the village idiot after
+1,He received a field demotion after
+1,He is considered a complete failure for the time
+1,A latrine in his hometown bears his name for the occasion when 
+1,An outhouse in his hometown bears his name for the occasion when 
+1,A gong heap in his hometown bears his name for the occasion when 
+1,A garbage dump in his hometown bears his name for the occasion when 
+1,He is not remembered by his hometown after
+1,He was incredibly unpopular at court after
+1,He was decommissioned when
+1,He gave all blame to his unit when
+1,Although safely behind friendly lines,
+1,Though his kingdom spent thousands of gold teaching him the art of war,
+1,Though his kingdom wasted thousands of gold in his combat training,
+1,His grave is regularly defaced for the time
+1,His name is often taken in vain because of the legend of when
+
+;Protested
+1,feebly contested
+1,feebly protested
+1,openly contested
+1,openly protested
+1,vehemently contested
+1,vehemently protested
+
+;MilitaryRank
+1,adjutant
+1,aide
+1,aide-de-camp
+1,band member
+1,boot-shiner
+1,bugler
+1,butler
+1,clerk
+1,cook
+1,cot warmer
+1,drummer boy
+1,field sanitation officer
+1,fife player
+1,finance clerk
+1,finance officer
+1,food taster
+1,janitor
+1,logistician
+1,logistics officer
+1,lute player
+1,mail runner
+1,personal assistant
+1,personnel officer
+1,personnel clerk
+1,postmaster
+1,quartermaster
+1,service clerk
+1,sommellier
+1,staff officer
+1,staff assistant
+1,supply clerk
+1,supply officer
+1,support officer
+1,tailor
+1,tax officer
+1,unit chronicler
+1,unit clerk
+1,unit historian
+1,wine taster
+
+;Group
+1,already wounded member of
+2,disarmed member of
+4,fleeing member of
+1,gravely wounded member of
+1,greviously wounded member of
+1,heavily wounded member of
+4,lone member of
+1,mortally wounded member of
+2,pacifist from
+2,passive member of
+3,single member of
+2,smallish member of
+1,sole member of
+1,tiny member of
+4,unarmed member of
+1,unassuming member of
+1,unsuspecting member of
+2,untrained member of
+1,weakling from
+
+;WrittenRemembrances
+2,ballad
+2,bard's tale
+3,book
+1,drinking song
+4,long-form epic poem
+1,limerick
+1,novella
+2,poignant opera
+4,poem
+1,propaganda leaflet
+4,song
+5,story
+1,three-volume novel
+
+;ArtworkRemembrances
+1,[ArtworkAdj] [ArtworkType]
+
+;ArtworkAdj
+1,shoddily crafted
+1,infamous
+1,forgettable
+1,little-known
+
+;ArtworkType
+4,illuminated book
+5,painting
+1,permanent illusion
+2,sculpture
+5,statue
+4,tapestry
+3,field manual
+3,training manual
+
+;IndividualEnemy
+15,[Orc Names.Start], [MilitaryRank] of the [Orc Tribe Name.Start] [TribalHumanoids]
+7,[Fantasy Names.StartNoTitle], who led the [TribalHumanoids]
+
+;TribalHumanoids
+1,brownies
+1,faeries
+1,halflings
+1,midgets
+1,pixies
+1,street children
+1,women-folk
+1,[Number] Amputee [Unit]
+1,[Number] Blind Bowmen's [Unit]
+1,[Number] Bowling [Unit]
+1,[Number] Children's [Unit]
+1,[Number] Crippled Auxiliary [Unit]
+1,[Number] Elderly Support [Unit]
+1,[Number] Laundry And Sewing [Unit]
+1,[Number] Nearsighted Archer's [Unit]
+1,[Number] One-Legged Skirmisher [Unit]
+1,[Number] Peace [Unit]
+1,[Number] Peaceful Protest [Unit]
+1,[Number] Peacetime Defense [Unit]
+1,[Number] Retired Pacifist's [Unit]
+1,[Number] Retiree [Unit]
+1,[Number] Runaway Youth [Unit]
+1,[Number] Washer-Women's [Unit]
+1,[Number] Women's Reserve [Unit]
+1,[Number] Wounded Veteran's [Unit]
+1,[Number] Youth Scout [Unit]
+
+;Number
+1,1st
+1,2nd
+1,3rd
+1,4th
+1,5th
+1,6th
+1,7th
+1,8th
+1,9th
+1,[Dice.1d8][Dice.1d8]1st
+1,[Dice.1d8][Dice.1d8]2nd
+1,[Dice.1d8][Dice.1d8]3rd
+1,[Dice.1d8][Dice.1d8]4th
+1,[Dice.1d8][Dice.1d8]5th
+1,[Dice.1d8][Dice.1d8]6th
+1,[Dice.1d8][Dice.1d8]7th
+1,[Dice.1d8][Dice.1d8]8th
+1,[Dice.1d8][Dice.1d8]9th
+
+;Unit
+1,Army
+1,Battalion
+1,Brigade
+1,Company
+1,Corps
+1,Division
+1,Element
+1,Platoon
+1,Section
+1,Squad
+1,Team
+
+;WarReason
+1,while attempting to [Flee] from his [HumanSettlement] against enemy incursions
+1,while attempting to [Flee] from his [HumanSettlement] against enemy invasions
+1,while [Flee]ing from his [HumanSettlement] against enemy ravages
+1,as he [Fled] from his [HumanSettlement]
+1,as he [Fled] from his [HumanSettlement] from the enemy's constant raids
+1,while [Flee]ing from his [HumanSettlement] against enemy aggression
+1,while enroute to go and cry in a nearby well
+1,while trying to [Surrender] after the destruction of his village at enemy hands
+1,as he [Fled] from an imagined foe
+1,as he [Fled] from some make-believe enemy force
+1,while surrendering his entire [HumanSettlement]
+1,adding to the dishonour of his [HumanSettlement]
+1,dishonoring both the gods and his ancestors
+1,as he tried to [Surrender] after the death of his lover at enemy hands
+1,but thankfully died of a paper-cut a few days later
+1,but died a few days later when he slipped on a banana peel
+1,but exactly 24 hours later fell down dead for no apparent reason
+1,in order to cower behind a nearby rock
+1,for many years until he died of shame
+1,until he was found shivering inside a closet
+1,until he was [Executed] for his infamy
+5,and was well-known for his comical lack of skill with the [HumanRacialWeapon]
+1,and was distinctive for the [Color.bright] [HumanRacialWeapon] that he never used
+1,and was distinctive for the [Color.bright] [HumanRacialWeapon] that he only used as a walking stick
+1,and was said to go to war with a fake [HumanRacialWeapon]
+2,and was easily recognizable for his rainbow-colored armor
+1,and was said to regularly forget his [HumanRacialWeapon] in the latrine
+1,until they captured him while he fled
+1,until they captured him while running from his own lines
+10,and was known for his [AdmirableQuality]
+1,because he was never popular as a child
+1,despite orders from his commander to attack the enemy
+1,despite orders from his commander to charge the enemy
+1,despite orders from his commander to hold the line
+1,despite orders from his commander to not retreat
+1,in a feat of stupidity that is sung about to this day
+5,proving his skill with the [HumanRacialWeapon] to be the slapstick stuff of a true court jester
+1,until he had to rejoin his men because he forgot his weapon in the latrine
+1,until the remaining enemies laughed at him
+1,until the remaining enemies belittled and scorned him
+1,a feat for which he gave complete blame to his fellow soldiers
+1,and was despised by the men he served with
+3,and was easily recognizable because he rode a miniature [HumanUnusualSteed] into the field
+5,and was easily recognizable because he rode a [HumanUnusualSteed] into the field
+5,and was distinctive for his cute little pet [HumanUnusualPet], which accompanied him into the field
+
+;Executed
+1,beheaded
+1,executed
+1,hung
+1,sent to the gallows
+1,sent to the guillotine
+1,sentenced to death
+1,sentenced to hanging
+1,summarily executed
+
+;Surrender
+1,[Beg] an armistice
+1,[Beg] a ceasefire
+1,[Beg] an end to aggressions
+1,[Beg] a peace agreement
+1,[Beg] for mercy
+1,[Beg] for peace
+1,[Beg] a truce
+1,[Beg] a treaty
+1,surrender
+1,unconditionally surrender
+
+;Beg
+1,ask for
+1,beg for
+1,plea for
+1,seek
+
+;Flee
+1,abscond
+1,bolt
+1,cut and run
+1,defect
+1,eschew
+1,escape
+1,flee
+1,hightail it
+1,leave
+1,make a getaway
+1,pull out
+1,retreat
+1,run away
+1,run
+1,scamper
+1,scram
+
+;AdmirableQuality
+1,monstrous obesity
+1,long-winded, rambling soliloquies
+1,sheer cowardice
+1,thunderous flatulence
+1,ability to get hopelessly lost in his own quarters
+1,dishonourable practices when playing dice and cards
+1,utter lack of personal discipline
+1,regularly pushing the general to evacuate the whole camp and surrender
+1,breaking down like a blubbering baby under pressure
+1,unfounded tales of bravery about battles he never participated in
+1,beard so long it dipped into his soup
+1,ability to be baffled by simple children's games
+1,lazy eye and never-used [HumanRacialWeapon]
+1,record-shattering failure at the military academy
+1,complete abuse of pay, equipment and supplies
+1,thin, laughable moustache
+1,inability to lead men into battle
+1,regularly being outmaneuvered by the enemy
+1,scraggly, wiry three-tone beard
+
+;HumanSettlement
+4,city
+3,country
+2,farm
+1,hamlet
+4,home
+3,homeland
+1,island
+3,lands
+3,lord's castle
+3,nation
+5,town
+8,village
+
+;HumanRacialWeapon
+1,[Swords.StartNoDescription]
+1,[Bows.BowType]
+1,[XBows.XBowType]
+1,[Lances.StartNoDescription]
+
+;HumanUnusualSteed
+1,calf
+1,camel
+1,cow
+1,donkey
+1,flying pony
+1,mule
+1,nag
+1,ox
+1,pegasus
+1,pony
+1,unicorn
+
+;HumanUnusualPet
+1,bunny
+1,chinchilla
+1,doggy
+1,ferret
+1,finch
+1,guinea pig
+1,house cat
+1,kitten
+1,kitty cat
+1,poodle
+1,puppy
+1,puppy dog
+1,rabbit
+1,terrier
+1,weasel
+1,wiener dog
+
+;FoughtVerb
+10,[Fled] from
+1,refrained from fighting
+1,was ambushed by
+1,slept through an attack by
+1,surrendered to
+1,begged for mercy from
+1,raised the white flag against
+1,defected to
+1,was captured by
+1,lost an easily-defendable [Utility.Terrains] from
+1,gave an easily-defendable [Utility.Terrains] to
+1,muttered under his breath about having to fight
+1,thought about maybe conducting raids against
+1,was insulted by
+1,failed to defend against
+1,failed to take the field against
+1,hid from fighting
+1,retreated from battle with
+1,avoided armed conflict with
+1,failed to stop
+1,acquiesced to
+1,bowed to
+1,inspired his warriors to flee against
+1,ordered his warriors to retreat from
+1,invaded the harems of
+1,laid a catastrophically unsuccessful ambush for
+1,laid an terrible failure of a siege against
+1,led a charge from the rear against
+1,led retreats deep into friendly territory when faced by
+1,was outmaneouvered by
+1,was overcome by
+1,was overran by
+1,lost against
+1,shielded himself from
+1,allowed his unit's standard to be captured by
+1,surrendered his unit's standard to 
+
+;Fled
+1,absconded
+1,bolted
+1,cowered
+1,cut and ran
+1,eschewed
+1,escaped
+1,fled
+1,hid
+1,hightailed it
+1,retreated
+1,ran away
+1,ran
+1,scampered
+
+;FoughtAdverb
+3,
+2,passively
+2,meekly
+1,coweringly
+1,softly
+1,cautiously
+1,shamefully
+1,half-heartedly
+1,meagerly
+1,stupidly
+1,foolishly
+1,indecisively
+1,pathetically
+1,infamously
+1,fearfully
+1,cheaply
+1,dishonourably
+1,forgettably
+1,regrettably
+1,pitifully
+1,recklessly
+1,disgracefully
+1,despicably
+1,effeminately
+1,futilely
+1,inadequately
+
+

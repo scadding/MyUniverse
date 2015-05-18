@@ -1,0 +1,324 @@
+
+;Start
+1,[when], [badpeople] [donesomethingbad] [supportchance] '''OPERATION [Operational Code Names.Start]''': [operational goal]. [alliedsupport]
+
+;when
+4,This morning at 0[Dice.digit]00 hours
+1,Late last night
+1,Three days ago
+1,A week ago
+1,A few minutes ago
+
+;badpeople
+20,[terroristsplace]
+2,agents of the government of [roguestates]
+2,[criminals]
+5,terrorists associated with [terroristorgs]
+1,terrorists associated with [smallerterroristorgs]
+
+;terroristsplace
+1,HAMAS in the Gaza Strip
+1,Hizbollah in Lebanon
+1,Al-Aqsa Martyr Brigades in the Gaza Strip
+1,Fatah in the Gaza Strip
+1,Islamic Jihad in the West Bank
+1,the IRA in Belfast
+1,ETA in southern Spain
+1,the Quebecois Separatist Movement in Montreal
+1,Red Army Faction
+1,Al-Qaeda in Iraq
+1,the Taliban near the Afghani-Pakistan border
+1,FARC in Columbia
+1,the Islamic Courts Union in Somalia
+1,the PKK in southeastern Turkey
+1,Chechen Separatists in Chechnya
+1,Janjaween militia in the Darfur Region of Sudan
+1,Maoist guerillas in Nepal
+1,Jemayiah Islamiyah in Indonesia
+2,'Homegrown Terrorists' in [friendlycountry]
+1,the Environmental Liberation Front in [friendlycountry]
+1,the Tamil Tigers in Sri Lanka
+1,Neo-Nazi militants in Germany
+1,Iraqi insurgents in Baghdad
+1,Iraqi insurgents in Mosul
+1,Iraqi insurgents in Fallujah
+1,Iraqi insurgents in Basra
+1,unknown terrorists in [friendlycountry]
+
+;criminals
+1,Columbian Cocaine cartels
+3,the Russian Mafia
+1,Chinese Triad gangs
+1,the Italian Mafia
+1,Japanese Yakuza
+1,Drug Gangs in Northern Mexico
+1,Drug Cartels in the 'Golden Triangle' area of Southeast Asia
+1,MS-13 in Los Angeles
+1,the Gangster Disciples in Chicago
+
+;roguestates
+1,Iran
+1,North Korea
+1,Cuba
+1,Venezuela
+1,Syria
+1,Nigeria
+
+;donesomethingbad
+1,[badverbpeople] a[friendlynationality] [profession].
+1,[badverbplace] [targetplace].
+
+;badverbpeople
+1,kidnapped
+1,publicly threatened
+1,captured and posted a video of
+1,carbombed
+1,shot and killed
+1,shot and wounded
+1,swore to kill
+1,captured and are holding hostage
+1,severely beat
+1,poisoned
+1,assassinated
+1,took as a hostage
+
+;badverbplace
+1,set off a carbomb in
+1,planted explosives near
+1,released dangerous chemicals near
+1,swore they will destroy
+1,siezed hostages and control of
+1,stormed
+1,barricaded themselves in
+1,blew up
+1,flew a light aircraft into
+1,introduced an unknown virus into
+
+;friendlycountry
+4,the US
+3,Great Britain
+1,France
+1,Spain
+1,Germany
+1,Japan
+1,Russia
+1,Norway
+1,Sweden
+1,Italy
+1,Greece
+1,Turkey
+1,Denmark
+1,Egypt
+1,Saudi Arabia
+1,Jordan
+1,Israel
+1,China
+1,South Korea
+
+;friendlynationality
+3,n American
+2,n English
+1,n Israeli
+1,n Italian
+1, French
+1, German
+1, Saudi
+1, Turkish
+1, Chinese
+1, Brazilian
+1,n Indian
+1, Russian
+1, Polish
+1,n Irish
+1, Japanese
+
+;profession
+1,journalist
+1,tourist
+1,soldier
+1,sailor
+1,pilot
+1,official
+1,diplomat
+1,peace activist
+1,private military contractor
+1,UN peacekeeper
+1,NGO volunteer
+1,corporate executive
+1,ex-spy
+1,intelligence operative
+1,arms dealer
+1,undercover operative
+3,[Spycraft Scene.profession]
+
+
+;targetplace
+1,a crowded market
+1,an airport
+1,the Embassy of [friendlycountry]
+1,a school full of children
+1,a[friendlynationality]-owned hotel
+1,a wedding party
+1,a tourist resort
+1,a crowded bus
+1,an official building of the local government
+1,an oil-related facility
+1,a power plant
+1,an electricity substation
+1,a water treatment plant
+1,a military base
+1,a bridge
+1,an office building
+1,a mosque
+1,a synagogue
+1,a cruise ship
+
+
+;supportchance
+8, 
+1,It is possible they received [supporttype] from [badpeople].
+1,They may have cooperated with [badpeople] for [supporttype].
+1,The [supporttype] involved in the operation would seem to be typical of [badpeople].
+
+;supporttype
+1,money
+1,financing
+1,laundered money
+1,training
+1,expertise
+1,equipment
+1,personnel
+1,arms
+1,intelligence
+
+;terroristorgs
+1,Abu Nidal Organization (ANO)
+1,Abu Sayyaf Group
+1,Al-Aqsa Martyrs Brigade
+1,Ansar al-Islam
+1,Armed Islamic Group (GIA)
+1,Asbat al-Ansar
+1,Aum Shinrikyo
+1,Basque Fatherland and Liberty (ETA)
+1,Communist Party of the Philippines/New People's Army (CPP/NPA)
+1,Continuity Irish Republican Army
+1,Gama'a al-Islamiyya (Islamic Group)
+1,HAMAS (Islamic Resistance Movement)
+1,Harakat ul-Mujahidin (HUM)
+1,Hizballah (Party of God)
+1,Islamic Jihad Group
+1,Islamic Movement of Uzbekistan (IMU)
+1,Jaish-e-Mohammed (JEM) (Army of Mohammed)
+1,Jemaah Islamiya organization (JI)
+1,al-Jihad (Egyptian Islamic Jihad)
+1,Kahane Chai (Kach)
+1,Kongra-Gel (formerly Kurdistan Workers' Party, PKK)
+1,Lashkar-e Tayyiba (LT) (Army of the Righteous)
+1,Lashkar i Jhangvi
+1,Liberation Tigers of Tamil Eelam (LTTE)
+1,Libyan Islamic Fighting Group (LIFG)
+1,Moroccan Islamic Combatant Group (GICM)
+1,Mujahedin-e Khalq Organization (MEK)
+1,National Liberation Army (ELN)
+1,Palestine Liberation Front (PLF)
+1,Palestinian Islamic Jihad (PIJ)
+1,Popular Front for the Liberation of Palestine (PFLF)
+1,PFLP-General Command (PFLP-GC)
+1,al-Qa'ida
+1,Real IRA
+1,Revolutionary Armed Forces of Colombia (FARC)
+1,Revolutionary Nuclei (formerly ELA)
+1,Revolutionary Organization 17 November
+1,Revolutionary People's Liberation Party/Front (DHKP/C)
+1,Salafist Group for Call and Combat (GSPC)
+1,Shining Path (Sendero Luminoso, SL)
+1,Tanzim Qa'idat al-Jihad fi Bilad al-Rafidayn (QJBR) (al-Qaida in Iraq) (formerly Jama'at al-Tawhid wa'al-Jihad, JTJ, al-Zarqawi Network)
+1,United Self-Defense Forces of Colombia (AUC)
+
+;smallerterroristorgs
+1,Afghan Support Committee
+1,Al Taqwa Trade, Property and Industry Company Ltd.
+1,Al-Ittihad al-Islami (AIAI)
+1,Al-Manar
+1,Al-Ma'unah
+1,Al-Nur Honey Center
+1,Al-Rashid Trust
+1,Al-Shifa Honey Press for Industry and Commerce
+1,Al-Wafa al-Igatha al-Islamia (a.k.a. Wafa Humanitarian Organization; a.k.a. Al Wafa; a.k.a. Al Wafa Organization)
+1,Alex Boncayao Brigade (ABB)
+1,Anarchist Faction for Overthrow
+1,Army for the Liberation of Rwanda (ALIR) (a.k.a. Interahamwe, Former Armed Forces (EX-FAR))
+1,Asbat al-Ansar
+1,Babbar Khalsa International
+1,Bank Al Taqwa Ltd. (a.k.a. Al Taqwa Bank; a.k.a. Bank Al Taqwa)
+1,Black Star
+1,Communist Party of Nepal (Maoist) (a.k.a. CPN(M); a.k.a. the United Revolutionary People's Council, a.k.a. the People's Liberation Army of Nepal)
+1,Continuity Irish Republican Army (CIRA) (a.k.a. Continuity Army Council)
+1,Darkazanli Company
+1,Dhamat Houmet Daawa Salafia
+1,Eastern Turkistan Islamic Movement
+1,First of October Antifascist Resistance Group (GRAPO) (a.k.a. Grupo de Resistencia Anti-Fascista Premero De Octubre)
+1,Harakat ul Jihad i Islami (HUJI)
+1,International Sikh Youth Federation
+1,Islamic Army of Aden
+1,Islamic Renewal and Reform Organization
+1,Jamiat al-Ta'awun al-Islamiyya
+1,Jamiat ul-Mujahideen (JUM)
+1,Japanese Red Army (JRA)
+1,Jaysh-e-Mohammed
+1,Jayshullah
+1,Jerusalem Warriors
+1,Lashkar-e-Tayyiba (LET) (a.k.a. Army of the Righteous)
+1,Libyan Islamic Fighting Group
+1,Loyalist Volunteer Force (LVF)
+1,Makhtab al-Khidmat
+1,Moroccan Islamic Combatant Group (a.k.a. GICM; a.k.a. Groupe Islamique Combattant Marocain)
+1,Nada Management Organization (f.k.a. Al Taqwa Management Organization SA)
+1,New People's Army (NPA)
+1,Orange Volunteers (OV)
+1,People Against Gangsterism and Drugs (PAGAD)
+1,Red Brigades-Combatant Communist Party (BR-PCC)
+1,Red Hand Defenders (RHD)
+1,Revival of Islamic Heritage Society
+1,Revolutionary Proletarian Nucleus
+1,Revolutionary United Front (RUF)
+1,Salafist Group for Call and Combat (GSPC)
+1,The Allied Democratic Forces (ADF)
+1,The Islamic International Brigade
+1,The Lord's Resistance Army (LRA)
+1,The Pentagon Gang
+1,The Riyadus-Salikhin Reconnaissance and Sabotage Battalion of Chechen Martyrs 
+1,The Special Purpose Islamic Regiment 
+1,Tunisian Combat Group
+1,Turkish Hizballah
+1,Ulster Defense Association (a.k.a. Ulster Freedom Fighters)
+1,Ummah Tameer E-Nau (UTN) 
+1,Youssef M. Nada & Co. Gesellschaft M.B.H.
+
+;operational goal
+1, Terminate with extreme prejudice
+1, Disguised as operatives of [badpeople], infiltrate and destroy
+1, Secure and exfiltrate any survivors
+1, Leave none to tell the tale
+1, Secure the area before [before]
+1, Bring in the leaders for questioning if possible, but make sure you get them before [before]
+1, Make it look like it was the work of [badpeople]
+1, Lay the groundwork for a successful mission by the [Spycraft Scene.nationality] military task force that is on its way - we need them to think they did it on their own
+1, After you have secured our safehouse in the area and destroyed any remaining documents, see if there's anything you can do to lessen the impact before [before]
+
+;before
+1,it becomes part of the news cycle
+1,any politicians in Washington hear about it
+1,the [Spycraft Scene.nationality] forces arrive on the scene
+1,its too late
+1,any more damage can be done
+1,they find the [Spycraft Scene.nationality] [Spycraft Scene.profession]
+1,[badpeople] arrive on the scene and complicate matters further
+
+;alliedsupport
+3,
+1,Assemble your own team.
+1,For reasons that will become clear later, we are sending [Spycraft Scene.character] with you.
+1,We have a standing contract with [Dossier.PrivateMilitary] contractors that should supply most of your operational needs.
+
+

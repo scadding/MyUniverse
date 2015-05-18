@@ -1,0 +1,182 @@
+
+;Start
+1,<b>[Title]</b>: [Parable Title.Premise]
+
+;Title
+2,The [Animal] and the [Animal]
+1,The [Animal] and the [Object]
+1,The [Animal] that [didSomething]
+1,The [Person] and the [Animal]
+1,The [Person] and the [Person]
+1,The [Person], the [Person], and the [Person]
+1,The [Person] that [didSomething]
+1,The [Person] and the [Object]
+1,The [Person] and the [Nature]
+1,The [Nature] and the [Animal]
+1,The [Nature] and the [Nature]
+1,The [Person]'s [Animal]
+1,The [Person]'s [Animal] and the [Person]
+
+;Person
+1,Angel
+1,Astrologer
+1,Baker
+1,Bandit
+1,Bedouin
+1,Beggar
+1,Belly-Dancer
+1,Boy
+1,Caliph
+1,Camel-trainer
+1,Captain of the Guard
+1,Cook
+1,Djinn
+1,Executioner
+1,Eunuch
+1,Farmer
+1,Falconer
+1,Fisherman
+1,Fishmonger
+1,Fool
+1,Fortune-Teller
+1,Goat Herd
+1,Harlot
+1,Hunchback
+1,Hunter
+1,Imam
+1,Infidel
+1,Learned Man
+1,Man
+1,Merchant
+1,Mistress
+1,Murderer
+1,Peasant
+1,Pirate
+1,Princess
+1,Righteous Man
+1,Sailor
+1,Scholar
+1,Seer
+1,Sheik
+1,Shepherd
+1,Slave
+1,Slave Girl
+1,Soldier
+1,Sultan
+1,Sultan's Wife
+1,Sultana
+1,Tailor
+1,Teacher
+1,Thief
+1,Very Old Man
+1,Very Young Man
+1,Virgin
+1,Vizier
+1,Water Seller
+1,Wise Man
+1,Woman
+1,Young Prince
+
+;Animal
+1,Ant
+1,Bat
+1,Bull
+1,Butterfly
+3,Camel
+1,Cat
+1,Caterpillar
+1,Crocodile
+1,Dog
+1,Donkey
+1,Dove
+1,Eagle
+1,Elephant
+1,Fish
+1,Falcon
+1,Frog
+1,Goat
+1,Honeybee
+1,Horse
+1,Jackal
+3,Lamb
+1,Lion
+1,Locust
+3,Monkey
+1,Mouse
+1,Mule
+1,Ox
+1,Peacock
+1,Rat
+1,Roc
+1,Scorpion
+1,Serpent
+1,Toad
+1,Tortoise
+1,Vulture
+1,Wolf
+
+;Object
+1,Basket
+1,Bread
+1,Bracelet
+1,Dagger
+1,Dates
+1,Grapes
+1,Hay Wain
+1,Honey Pot
+1,Jewel
+1,Jug of Wine
+1,Kettle
+1,Lamp
+1,Loaf of Bread
+1,Magic Carpet
+1,Olives
+1,Oven
+1,Oxcart
+1,Pitcher
+1,Pitchfork
+1,Ring
+1,Road
+1,Rosebush
+1,Ruby
+1,Scimitar
+1,Stone Wall
+
+;didSomething
+1,lived with the [Animal]
+1,made fun of the [Animal]
+1,thought he was a [Animal]
+1,thought she was a [Animal]
+1,wanted to be a [Animal]
+1,wanted to be a [Person]
+1,wished he were the [Nature]
+1,wished she were the [Nature]
+1,loved the [Nature]
+1,fell in love with the [Nature]
+1,fell in love with the [Person]
+1,who searched for the [Person]
+1,who hunted a [Animal]
+1,who lost their [Object]
+
+;Nature
+1,Clouds
+1,Darkness
+1,Day
+1,Date Palm
+1,Desert
+1,Lightning
+1,Moon
+1,Mountain
+1,Night
+1,Oasis
+1,Palm Tree
+1,River
+1,Sands
+1,Sea
+1,Sky
+1,Stars
+1,Sun
+1,Thunder
+1,Wind
+3,[Compass direction.4] Wind
+

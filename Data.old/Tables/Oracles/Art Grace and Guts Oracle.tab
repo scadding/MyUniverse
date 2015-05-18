@@ -1,0 +1,638 @@
+
+;Start
+1,[OracleResult]
+
+;OracleResult
+1,[Items]
+1,[Characters]
+1,[Locations]
+1,[Events]
+1,[Threats]
+;Items
+1,[City Items]
+1,[Countryside Items]
+1,[Magical Items]
+1,[Military Items]
+1,[Ruins Items]
+1,[Wilderness Items]
+
+;City Items
+1,A key on a broken chain, lost by the roadside. 
+1,The written deed to a certain house, affirmed and sealed. 
+1,A note written in an elegant hand, sweetly perfumed. 
+1,A noble house's signatory ring, left behind in a street brawl. 
+1,A purse of coins, cursed by its stabbed and dying owner. 
+1,The fine silk wardrobe of one dead of some plague. 
+1,An inflammatory political leaflet, death to those found with it.
+
+;Countryside Items 
+1,An altar overflowing with flowers and bowls of honey. 
+1,A local warlord's ancestral sword, much honored. 
+1,A chest containing the tax monies of a rural province. 
+1,The book of scripture of an order of warrior-monks. 
+1,A cask of honey wine, tribute to a fierce bandit-queen. 
+1,A farmer's good-luck piece, the author of his prosperity. 
+1,A painted ward made of bone and feathers, left on a fencepost to guard a field.
+
+;Magical Items  
+1,Silk slippers which make their wearer invisible. 
+1,A copper basin, to which are enslaved spirits of the air. 
+1,Bracelets which grant their wearer improbable strength. 
+1,A glass jar of ferocious and deadly magical wasps. 
+1,A staff of white-wood, summoner of lightnings. 
+1,A silk robe through which no weapon may pass. 
+1,A small iron key which can open any lock.
+
+;Military Items 
+1,A great army's marching orders, passwords, and signals. 
+1,A token indicating that its bearer speaks for the high general. 
+1,A sword consecrated to a fearsome demon of war. 
+1,A captured war-horse with a taste for human meat. 
+1,A great warship, set with trebuchet and mangonel. 
+1,The head of a high war-captain, in a carved wooden cask. 
+1,The husk of a mighty siege engine, destroyed by fire and left on the field.
+
+;Ruins Items 
+1,A helm in antique style, sound despite its tarnish. 
+1,Instruments of torture, haunted by their long-dead victims. 
+1,A book of engraved bronze, partly obscured by wear. 
+1,A gorgeous yellow gem, cursed with a terrible doom. 
+1,The guardian of a tomb, a statue cast in silver with ruby eyes. 
+1,A golden armlet, still on the skeletal arm of its owner. 
+1,The rotted remains of a funeral feast.
+
+;Wilderness Items 
+1,A woman's long blood-red hair, incorporated into a bird's nest. 
+1,The corpse of a lord's hunting hound, caught in a rose-briar. 
+1,A bandit's treasure-trove, exposed by erosive rain. 
+1,An ancient stone waymarker, indicating an overgrown road. 
+1,An altar to devils of the waste, stinking with gore. 
+1,The remnants of a woodcutter's camp, abandoned in haste.
+1,The fallen corpse of a messenger pigeon, and the message it bore.
+1,A cursed dagger which must be doused in blood. 
+
+;Characters
+1,[City Characters]
+1,[Countryside Characters]
+1,[Magical Characters]
+1,[Military Characters]
+1,[Ruins Characters]
+1,[Wilderness Characters]
+
+;City Characters 
+1,A wealthy merchant's son, refined and crafty. 
+1,The proprietress of a wantonhouse, with her manservant. 
+1,An underclerk of the temple of some lesser cult. 
+1,An apothecary, squint-eyed, with many uncanny potions. 
+1,A gentlewoman-burglar, stylish and daring. 
+1,A practitioner of law, with her several secretaries. 
+1,A corrupt guard, turning a blind eye to the illegal businesses that have paid him off.
+
+;Countryside Characters 
+1,An ambitious farmer, hungry for gossip or silver. 
+1,The unscrupulous landlady of a roadside wayhouse. 
+1,A village executioner, practicing his trade on a caught burglar. 
+1,An underofficer of the local lord's home guard. 
+1,The local lord's young daughter, tramping after strawberries. 
+1,The captain of a foreign troop, sent to collect taxes. 
+1,A saucy milkmaid with a gleam in her eye.
+
+;Magical Characters 
+1,Some great wizard's magical messenger, brass-skinned. 
+1,A necromancer who steals the knowledge of the dying. 
+1,The human servant of a mighty and unspeakable demiurge. 
+1,A prodigy-mage, still a maid, drunk with occult power. 
+1,A reader of omens and caster of auguries, with grim news. 
+1,A placid mystic, preaching calm and demonstrating miracles. 
+1,A curious occult experimenter, dabbling in forces he does not understand.
+
+;Military Characters 
+1,The captain of a shattered company, himself injured. 
+1,A camp-wanton, pretty and pliant, prone to drink. 
+1,A camp physician, her pockets full of salves and drugs. 
+1,A war-sorceress, slender but commanding, with golden hair. 
+1,A tender of war-bulls, shavedheaded and fearless. 
+1,The self-important master of strategy to a great general. 
+1,The lowly cabin boy of a mighty warship.
+1,An old war hero, called out of retirement.
+
+;Ruins Characters 
+1,An unsavory treasure-seeker, with an honest map. 
+1,The warden ghost of the place, generous to the good-willed. 
+1,A ghoulish eater of dead flesh, driven by unusual lusts. 
+1,A scholar and antiquarian, unmindful of danger. 
+1,A knowledge-mad sorceress, delving into ancient secrets. 
+1,One mistakenly condemned, fled into hiding. 
+1,A madman hiding in the ruins of his former home, who remembers only snatches of his past.
+
+;Wilderness Characters 
+1,A hermit priestess, practicing obscure deprivations. 
+1,A rough wolf-hunter, surly, filthy and crude. 
+1,A noble landholder, touring, with court and attendants. 
+1,A conjurer possessed by spirits of uncivil character. 
+1,A fur-trapper, simple but goodnatured, and his daughter. 
+1,A bandit captain, in hiding, with her trusted bodyguard. 
+1,A tough but patient wilderness guide leading a troupe of naive city folk.
+
+;Locations
+1,[City Locations]
+1,[Countryside Locations]
+1,[Magical Locations]
+1,[Military Locations]
+1,[Ruins Locations]
+1,[Wilderness Locations]
+
+;City Locations 
+1,A rich and mighty temple, full of silver and fine goods. 
+1,A poor home shared by many families of beggars. 
+1,A warehouse on the docks, full of Elven silk. 
+1,The old city wall, long since outgrown. 
+1,The private garden of a noble house. 
+1,A market on the crossroads, full of sound and color. 
+1,A dark alley behind a respected establishment, leading into a warren of twisting streets and dark corners.
+
+;Countryside Locations 
+1,A farm manor, peaceful and prosperous. 
+1,A monastery and its associated shrines, each to its own god. 
+1,A waystation on a broad road, with a campsite and shrine. 
+1,A roofed bridge on a wide river, with a toll-collector. 
+1,A fishing village with an inn of good quality. 
+1,A slow-moving caravan, with many wagons and travelers. 
+1,A set of steps in the side of a hill, leading down into a damp underground icehouse.
+1,[Fantasy Farmstead.Start]
+
+;Magical Locations 
+1,The secluded home of an exiled court-wizard. 
+1,A standing stone, obscurely carved, crackling with force. 
+1,A pool of mirror-still green water. 
+1,The college of a small but prestigious magical order. 
+1,The secret central shrine of a temple to forgotten gods. 
+1,An underground chamber, eerie with blue-green lights. 
+1,A desert wasteland that was once a verdant jungle, now haunted by the ghosts of trees and butterflies.
+
+;Military Locations 
+1,An old, proud fortress on an important mountain pass. 
+1,The site of a pitched battle, ground churned and stinking. 
+1,An outlying watchtower on a wooded hill. 
+1,A high, many-towered wall on a fierce border. 
+1,The country fort, mostly wood, of a local war-lord. 
+1,The campsite of a traveling army, not long deserted. 
+1,A country manor requisitioned by an invading army and turned into a makeshift hospital.
+
+;Ruins Locations 
+1,A fallen temple, overgrown with moss and ivies. 
+1,An old raised road, cracked and crumbling. 
+1,A gutted tower, home to many birds. 
+1,A ruined manor, its keep smashed by a fallen tree. 
+1,An ancient monument, eroded and overgrown but standing. 
+1,A new village, built on the ruins of a forgotten people. 
+1,An ancient crumbling sewage system, snaking forgotten beneath a recently built city.
+
+;Wilderness Locations 
+1,A high, wind-scoured crag, strewn with rubble. 
+1,A clearing of mossy boulders by a forest brook. 
+1,A boggy field, buzzing with stinging insects. 
+1,A deer-path through towering woods to a still pond. 
+1,A vast oak tree in a fallow field. 
+1,A high waterfall, riddled behind with caves. 
+1,A vast precipice plunging steeply into the valley below.
+
+;Events
+1,[City Events]
+1,[Countryside Events]
+1,[Magical Events]
+1,[Military Events]
+1,[Ruins Events]
+1,[Wilderness Events]
+
+;City Events 
+1,The celebration of a day sacred to the city's chief cult. 
+1,The murder by strangling of an officer of the city watch. 
+1,The burglary of the storehouse of a powerful robber-merchant. 
+1,The secret alliance of two noble families against a third. 
+1,The rehearsal of the funeral of the city's aged and beloved mayor. 
+1,The arrival of honored emissaries from a wealthy, exotic land. 
+1,The discovery of the corpse of an innkeeper's daughter, dead of a virulent and incurable plague.
+
+;Countryside Events 
+1,The much-contested wedding of the province's great beauty. 
+1,An unseasonal and destructive flood. 
+1,The death of the primary heir of a local noblewoman. 
+1,The celebration of local fertility or harvest rites. 
+1,The capture by soldiers of a popular gentleman-bandit. 
+1,The arrival at a way-house of four unusual travelers. 
+1,The mysterious and grisly butchering of a sheep owner's entire herd.
+
+;Magical Events 
+1,A conjunction of uncanny forces.
+1,A great convocation of mages, with many orders attending. 
+1,The awakening of 3 powerful and malignant genii. 
+1,The graduation of an apprentice to mastery. 
+1,The burglary of a magical order's innermost library. 
+1,The seizure of arcane powers by an arrogant and brutal wizard. 
+1,The return of a young village lad who disappeared decades ago, released at last from a long night of revelry in the court of the fey.
+
+;Military Events 
+1,The capture and interrogation of a cunning spy. 
+1,The arrival of unexpected and improbable allies. 
+1,The mutiny and revolt of a prestigious cavalry company. 
+1,A terrible and devastating ambush. 
+1,The accidental death of a highly regarded war-captain. 
+1,A hard-won victory, with many dead on both sides. 
+1,The surrender of a great general after an overwhelming defeat.
+
+;Ruins Events 
+1,The exposure by erosion of a long-buried door. 
+1,The night each year that a certain ghost is allowed her freedom. 
+1,The anniversary of the fall of a mighty tower. 
+1,The convocation of a ruins' ghouls, gaunts and wisps. 
+1,The discovery of an ancient tomb, full of occult treasures. 
+1,The passage of a ghostly army, dragging their slain and injured. 
+1,The capture of a bandit carrying ancient treasures looted from a previously unknown tomb.
+
+;Wilderness Events 
+1,A fearsome storm, with thunder and driving winds. 
+1,A bitter and unseasonable cold, caused by warring elementals. 
+1,The flight of a prince and his forbidden lover into hiding. 
+1,The awakening of a merciless and tyranical pit-wyrm. 
+1,A mysterious star-lit revel on a high bare hilltop. 
+1,The return of a reclusive enchantress to her home. 
+1,A flash flood sweeping through a refugee's campsite.
+
+;Threats
+1,[City Threats]
+1,[Countryside Threats]
+1,[Magical Threats]
+1,[Military Threats]
+1,[Ruins Threats]
+1,[Wilderness Threats]
+
+;City Threats 
+1,A vicious gang of cut-throats and alley-thieves. 
+1,A cruel and powerful young lordling. 
+1,A civic-minded merchant with influence in the watch. 
+1,An assassin hired by some wealthy enemy. 
+1,A wealthy merchant-priest with much political clout. 
+1,A jealous and vengeful rival, who is an infamous dueler.
+1,A scheming courtier who will do anything for power and influence.
+
+;Countryside Threats 
+1,A band of slavers both bold and incorrigible. 
+1,An innkeeper who murders and robs his wealthy guests. 
+1,A brutish and tyranical war-lord and his uncouth thugs. 
+1,Field-vipers, wild dogs, loose bulls, and a variety of spiders. 
+1,An angry mob of peasants with makeshift weapons. 
+1,A wayhouse in which plague victims have recently stayed. 
+1,The leader of a religious cult, hunting for a sacrifice.
+
+;Magical Threats 
+1,A conjurer who needs blood to entice his uncouth spirits. 
+1,A night-wisp, who devours its victims' magical potency. 
+1,A wandering intelligence, intent on driving mortals mad. 
+1,A wizard jealously guarding her magical territory. 
+1,An order of magician-monks who punish blasphemers. 
+1,An ambitious petty-wizard, quick to take offense.
+1,A terrifying demon, escaped from the mage who summoned it.
+
+;Military Threats 
+1,An enemy champion, fearless and bellowing. 
+1,Six enemy scouts, with spyglasses and longbows. 
+1,Ferocious war-hounds, driven wild with blood and confusion. 
+1,A ruthless bully of an under-officer with high ambitions. 
+1,An enemy scryer who commands six sharp-fanged nightgaunts. 
+1,A much-decorated company of the enemy's light cavalry. 
+1,A near-invisible figure skulking through enemy lines, planning to poison the water.
+
+;Ruins Threats 
+1,The bloodthirsty ghosts of those drowned in an accursed water. 
+1,A genius of flame, imprisoned within a brass mirror. 
+1,A long-dead queen, still trying to defend her realm. 
+1,A jeweled dagger which excites the greed of all who behold it. 
+1,A secret order of warrior-mystics, defending their relics. 
+1,The cunning and deadly traps of the ancient architects. 
+1,The poisoned air of a long-sealed tomb.
+
+;Wilderness Threats 
+1,A wicked mountain-drake, cunning and greedy. 
+1,A pack of winter-starved and desperate wolves. 
+1,A siren-ghoul, who entices the amorous into deadly peril. 
+1,The fey and unfriendly guardians of an enchanted glade. 
+1,A flock of hunterbirds, sharpbeaked, clever, and dreadful. 
+1,A devil of the lower air, malicious and full of pranks.
+1,A vast, relentless army of ants, devouring everything in its path.
+
+;Items Lcase
+1,[City Items Lcase]
+1,[Countryside Items Lcase]
+1,[Magical Items Lcase]
+1,[Military Items Lcase]
+1,[Ruins Items Lcase]
+1,[Wilderness Items Lcase]
+
+;City Items Lcase
+1,a key on a broken chain, lost by the roadside 
+1,the written deed to a certain house, affirmed and sealed 
+1,a note written in an elegant hand, sweetly perfumed 
+1,a noble house's signatory ring, left behind in a street brawl 
+1,a purse of coins, cursed by its stabbed and dying owner 
+1,the fine silk wardrobe of one dead of some plague 
+1,an inflammatory political leaflet, death to those found with it
+
+;Countryside Items Lcase
+1,an altar overflowing with flowers and bowls of honey 
+1,a local warlord's ancestral sword, much honored 
+1,a chest containing the tax monies of a rural province 
+1,the book of scripture of an order of warrior-monks 
+1,a cask of honey wine, tribute to a fierce bandit-queen 
+1,a farmer's good-luck piece, the author of his prosperity 
+1,a painted ward made of bone and feathers, left on a fencepost to guard a field
+
+;Magical Items Lcase
+1,silk slippers which make their wearer invisible 
+1,a copper basin, to which are enslaved spirits of the air 
+1,bracelets which grant their wearer improbable strength 
+1,a glass jar of ferocious and deadly magical wasps 
+1,a staff of white-wood, summoner of lightnings 
+1,a silk robe through which no weapon may pass 
+1,a small iron key which can open any lock
+
+;Military Items Lcase
+1,a great army's marching orders, passwords, and signals 
+1,a token indicating that its bearer speaks for the high general 
+1,a sword consecrated to a fearsome demon of war 
+1,a captured war-horse with a taste for human meat 
+1,a great warship, set with trebuchet and mangonel 
+1,the head of a high war-captain, in a carved wooden cask 
+1,the husk of a mighty siege engine, destroyed by fire and left on the field
+
+;Ruins Items Lcase
+1,a helm in antique style, sound despite its tarnish 
+1,instruments of torture, haunted by their long-dead victims 
+1,a book of engraved bronze, partly obscured by wear 
+1,a gorgeous yellow gem, cursed with a terrible doom 
+1,the guardian of a tomb, a statue cast in silver with ruby eyes 
+1,a golden armlet, still on the skeletal arm of its owner 
+1,the rotted remains of a funeral feast
+
+;Wilderness Items Lcase
+1,a woman's long blood-red hair, incorporated into a bird's nest 
+1,the corpse of a lord's hunting hound, caught in a rose-briar 
+1,a bandit's treasure-trove, exposed by erosive rain 
+1,an ancient stone waymarker, indicating an overgrown road 
+1,an altar to devils of the waste, stinking with gore 
+1,the remnants of a woodcutter's camp, abandoned in haste
+1,the fallen corpse of a messenger pigeon, and the message it bore
+1,a cursed dagger which must be doused in blood 
+
+;Characters Lcase
+1,[City Characters Lcase]
+1,[Countryside Characters Lcase]
+1,[Magical Characters Lcase]
+1,[Military Characters Lcase]
+1,[Ruins Characters Lcase]
+1,[Wilderness Characters Lcase]
+
+;City Characters Lcase
+1,a wealthy merchant's son, refined and crafty 
+1,the proprietress of a wantonhouse, with her manservant 
+1,an underclerk of the temple of some lesser cult 
+1,an apothecary, squint-eyed, with many uncanny potions 
+1,a gentlewoman-burglar, stylish and daring 
+1,a practitioner of law, with her several secretaries 
+1,a corrupt guard, turning a blind eye to the illegal businesses that have paid him off
+
+;Countryside Characters Lcase
+1,an ambitious farmer, hungry for gossip or silver 
+1,the unscrupulous landlady of a roadside wayhouse 
+1,a village executioner, practicing his trade on a caught burglar 
+1,an underofficer of the local lord's home guard 
+1,the local lord's young daughter, tramping after strawberries 
+1,the captain of a foreign troop, sent to collect taxes 
+1,a saucy milkmaid with a gleam in her eye
+
+;Magical Characters Lcase
+1,some great wizard's magical messenger, brass-skinned 
+1,a necromancer who steals the knowledge of the dying 
+1,the human servant of a mighty and unspeakable demiurge 
+1,a prodigy-mage, still a maid, drunk with occult power 
+1,a reader of omens and caster of auguries, with grim news 
+1,a placid mystic, preaching calm and demonstrating miracles 
+1,a curious occult experimenter, dabbling in forces he does not understand
+
+;Military Characters Lcase
+1,the captain of a shattered company, himself injured 
+1,a camp-wanton, pretty and pliant, prone to drink 
+1,a camp physician, her pockets full of salves and drugs 
+1,a war-sorceress, slender but commanding, with golden hair 
+1,a tender of war-bulls, shavedheaded and fearless 
+1,the self-important master of strategy to a great general 
+1,the lowly cabin boy of a mighty warship
+1,an old war hero, called out of retirement
+
+;Ruins Characters Lcase
+1,an unsavory treasure-seeker, with an honest map 
+1,the warden ghost of the place, generous to the good-willed 
+1,a ghoulish eater of dead flesh, driven by unusual lusts 
+1,a scholar and antiquarian, unmindful of danger 
+1,a knowledge-mad sorceress, delving into ancient secrets 
+1,one mistakenly condemned, fled into hiding 
+1,a madman hiding in the ruins of his former home, who remembers only snatches of his past
+
+;Wilderness Characters Lcase
+1,a hermit priestess, practicing obscure deprivations 
+1,a rough wolf-hunter, surly, filthy and crude 
+1,a noble landholder, touring, with court and attendants 
+1,a conjurer possessed by spirits of uncivil character 
+1,a fur-trapper, simple but goodnatured, and his daughter 
+1,a bandit captain, in hiding, with her trusted bodyguard 
+1,a tough but patient wilderness guide leading a troupe of naive city folk
+
+;Locations Lcase
+1,[City Locations Lcase]
+1,[Countryside Locations Lcase]
+1,[Magical Locations Lcase]
+1,[Military Locations Lcase]
+1,[Ruins Locations Lcase]
+1,[Wilderness Locations Lcase]
+
+;City Locations Lcase
+1,a rich and mighty temple, full of silver and fine goods 
+1,a poor home shared by many families of beggars 
+1,a warehouse on the docks, full of Elven silk 
+1,the old city wall, long since outgrown 
+1,the private garden of a noble house 
+1,a market on the crossroads, full of sound and color 
+1,a dark alley behind a respected establishment, leading into a warren of twisting streets and dark corners
+
+;Countryside Locations Lcase
+1,a farm manor, peaceful and prosperous 
+1,a monastery and its associated shrines, each to its own god 
+1,a waystation on a broad road, with a campsite and shrine 
+1,a roofed bridge on a wide river, with a toll-collector 
+1,a fishing village with an inn of good quality 
+1,a slow-moving caravan, with many wagons and travelers 
+1,a set of steps in the side of a hill, leading down into a damp underground icehouse
+1,[Fantasy Farmstead.Start]
+
+;Magical Locations Lcase
+1,the secluded home of an exiled court-wizard 
+1,a standing stone, obscurely carved, crackling with force 
+1,a pool of mirror-still green water 
+1,the college of a small but prestigious magical order 
+1,the secret central shrine of a temple to forgotten gods 
+1,an underground chamber, eerie with blue-green lights 
+1,a desert wasteland that was once a verdent jungle, now haunted by the ghosts of trees and butterflies
+
+;Military Locations Lcase
+1,an old, proud fortress on an important mountain pass 
+1,the site of a pitched battle, ground churned and stinking 
+1,an outlying watchtower on a wooded hill 
+1,a high, many-towered wall on a fierce border 
+1,the country fort, mostly wood, of a local war-lord 
+1,the campsite of a travelling army, not long deserted 
+1,a country manor requisitioned by an invading army and turned into a makeshift hospital
+
+;Ruins Locations Lcase
+1,a fallen temple, overgrown with moss and ivies 
+1,an old raised road, cracked and crumbling 
+1,a gutted tower, home to many birds 
+1,a ruined manor, its keep smashed by a fallen tree 
+1,an ancient monument, eroded and overgrown but standing 
+1,a new village, built on the ruins of a forgotten people 
+1,an ancient crumbling sewage system, snaking forgotten beneath a recently built city
+
+;Wilderness Locations Lcase
+1,a high, wind-scoured crag, strewn with rubble 
+1,a clearing of mossy boulders by a forest brook 
+1,a boggy field, buzzing with stinging insects 
+1,a deer-path through towering woods to a still pond 
+1,a vast oak tree in a fallow field 
+1,a high waterfall, riddled behind with caves 
+1,a vast precipice plunging steeply into the valley below
+
+;Events Lcase
+1,[City Events Lcase]
+1,[Countryside Events Lcase]
+1,[Magical Events Lcase]
+1,[Military Events Lcase]
+1,[Ruins Events Lcase]
+1,[Wilderness Events Lcase]
+
+;City Events Lcase
+1,the celebration of a day sacred to the city's chief cult 
+1,the murder by strangling of an officer of the city watch 
+1,the burglary of the storehouse of a powerful robber-merchant 
+1,the secret alliance of two noble families against a third 
+1,the rehearsal of the funeral of the city's aged and beloved mayor 
+1,the arrival of honored emissaries from a wealthy, exotic land 
+1,the discovery of the corpse of an innkeeper's daughter, dead of a virulent and incurable plague
+
+;Countryside Events Lcase
+1,the green star looking down on you inimically
+1,the much-contested wedding of the province's great beauty 
+1,an unseasonal and destructive flood 
+1,the death of the primary heir of a local noblewoman 
+1,the celebration of local fertility or harvest rites 
+1,the capture by soldiers of a popular gentleman-bandit 
+1,the arrival at a way-house of four unusual travelers 
+1,the mysterious and grisly butchering of a sheep owner's entire herd
+
+;Magical Events Lcase
+1,a conjunction of uncanny magical forces
+1,a great convocation of mages, with many orders attending 
+1,the awakening of 3 powerful and malignant genii 
+1,the graduation of an apprentice to mastery 
+1,the burglary of a magical order's innermost library 
+1,the seizure of arcane powers by an arrogant and brutal wizard 
+1,the return of a young village lad who disappeared decades ago, released at last from a long night of revelry in the court of the fey
+
+;Military Events Lcase
+1,the capture and interrogation of a cunning spy 
+1,the arrival of unexpected and improbable allies 
+1,the mutiny and revolt of a prestigious cavalry company 
+1,a terrible and devastating ambush 
+1,the accidental death of a highly regarded war-captain 
+1,a hard-won victory, with many dead on both sides 
+1,the surrender of a great general after an overwhelming defeat
+
+;Ruins Events Lcase
+1,the exposure by erosion of a long-buried door 
+1,the night each year that a certain ghost is allowed her freedom 
+1,the anniversary of the fall of a mighty tower 
+1,the convocation of a ruins' ghouls, gaunts and wisps 
+1,the discovery of an ancient tomb, full of occult treasures 
+1,the passage of a ghostly army, dragging their slain and injured 
+1,the capture of a bandit carrying ancient treasures looted from a previously unknown tomb
+
+;Wilderness Events Lcase
+1,a fearsome storm, with thunder and driving winds 
+1,a bitter and unseasonable cold, caused by warring elementals 
+1,the flight of a prince and his forbidden lover into hiding 
+1,the awakening of a merciless and tyrranical pit-wyrm 
+1,a mysterious star-lit revel on a high bare hilltop 
+1,the return of a reclusive enchantress to her home 
+1,a flash flood sweeping through a refugee's campsite
+
+;Threats Lcase
+1,[City Threats Lcase]
+1,[Countryside Threats Lcase]
+1,[Magical Threats Lcase]
+1,[Military Threats Lcase]
+1,[Ruins Threats Lcase]
+1,[Wilderness Threats Lcase]
+
+;City Threats Lcase
+1,a vicious gang of cut-throats and alley-thieves 
+1,a cruel and powerful young lordling 
+1,a civic-minded merchant with influence in the watch 
+1,an assassin hired by some wealthy enemy 
+1,a wealthy merchant-priest with much political clout 
+1,a jealous and vengeful rival, who is an infamous dueler
+1,a scheming courtier who will do anything for power and influence
+
+;Countryside Threats Lcase
+1,a band of slavers both bold and incorrigible 
+1,an innkeeper who murders and robs his wealthy guests 
+1,a brutish and tyrranical war-lord and his uncouth thugs 
+1,field-vipers, wild dogs, loose bulls, and a variety of spiders 
+1,an angry mob of peasants with makeshift weapons 
+1,a wayhouse in which plague victims have recently stayed 
+1,the leader of a religious cult, hunting for a sacrifice
+
+;Magical Threats Lcase
+1,a conjurer who needs blood to entice his uncouth spirits 
+1,a night-wisp, who devours its victims' magical potency 
+1,a wandering intelligence, intent on driving mortals mad 
+1,a wizard jealously guarding her magical territory 
+1,an order of magician-monks who punish blasphemers 
+1,an ambitious petty-wizard, quick to take offense
+1,a terrifying demon, escaped from the mage who summoned it
+
+;Military Threats Lcase
+1,an enemy champion, fearless and bellowing 
+1,six enemy scouts, with spyglasses and longbows 
+1,ferocious war-hounds, driven wild with blood and confusion 
+1,a ruthless bully of an under-officer with high ambitions 
+1,an enemy scryer who commands six sharp-fanged nightgaunts 
+1,a much-decorated company of the enemy's light cavalry 
+1,a near-invisible figure skulking through enemy lines, planning to poison the water
+
+;Ruins Threats Lcase
+1,the bloodthirsty ghosts of those drowned in an accursed water 
+1,a genius of flame, imprisoned within a brass mirror 
+1,a long-dead queen, still trying to defend her realm 
+1,a jeweled dagger which excites the greed of all who behold it 
+1,a secret order of warrior-mystics, defending their relics 
+1,the cunning and deadly traps of the ancient architects 
+1,the poisoned air of a long-sealed tomb
+
+;Wilderness Threats Lcase
+1,a wicked mountain-drake, cunning and greedy 
+1,a pack of winter-starved and desperate wolves 
+1,a siren-ghoul, who entices the amorous into deadly peril 
+1,the fey and unfriendly guardians of an enchanted glade 
+1,a flock of hunterbirds, sharpbeaked, clever, and dreadful 
+1,a devil of the lower air, malicious and full of pranks
+1,a vast, relentless army of ants, devouring everything in its path
+
+

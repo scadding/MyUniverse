@@ -1,0 +1,326 @@
+
+;Start
+5,"[insult]", [insultspeak] [male-patro], the Norse representative from [location].
+5,"[insult]", [insultspeak] [female-patro], the Norse representative from [location].
+1,"[insult]", [insultspeak] [male-matro], the Norse representative from [location].
+1,"[insult]", [insultspeak] [male-matro], the Norse representative from [location].
+
+;male
+1,[male-patro] (patronymic)
+1,[male-matro] (matronymic)
+
+;female
+1,[female-matro] (patronymic)
+1,[female-patro] (matronymic)
+
+;male-patro
+1,[male1] [male1]son
+1,[male1] [male2]son
+1,[male1] [male3]son
+1,[male2] [male1]son
+1,[male2] [male2]son
+1,[male2] [male3]son
+1,[male3] [male1]son
+1,[male3] [male2]son
+1,[male3] [male3]son
+1,[male1], son of [male1]
+1,[male1], son of [male2]
+1,[male1], son of [male3]
+1,[male2], son of [male1]
+1,[male2], son of [male2]
+1,[male2], son of [male3]
+1,[male3], son of [male1]
+1,[male3], son of [male2]
+1,[male3], son of [male3]
+
+;male-matro
+1,[male1] [female1]son
+1,[male1] [female2]son
+1,[male1] [female3]son
+1,[male2] [female1]son
+1,[male2] [female2]son
+1,[male2] [female3]son
+1,[male3] [female1]son
+1,[male3] [female2]son
+1,[male3] [female3]son
+1,[male1], son of [female1]
+1,[male1], son of [female2]
+1,[male1], son of [female3]
+1,[male2], son of [female1]
+1,[male2], son of [female2]
+1,[male2], son of [female3]
+1,[male3], son of [female1]
+1,[male3], son of [female2]
+1,[male3], son of [female3]
+
+;female-patro
+1,[female1] [male1]dottir
+1,[female1] [male2]dottir
+1,[female1] [male3]dottir
+1,[female2] [male1]dottir
+1,[female2] [male2]dottir
+1,[female2] [male3]dottir
+1,[female3] [male1]dottir
+1,[female3] [male2]dottir
+1,[female3] [male3]dottir
+1,[female1], daughter of [male1]
+1,[female1], daughter of [male2]
+1,[female1], daughter of [male3]
+1,[female2], daughter of [male1]
+1,[female2], daughter of [male2]
+1,[female2], daughter of [male3]
+1,[female3], daughter of [male1]
+1,[female3], daughter of [male2]
+1,[female3], daughter of [male3]
+
+;female-matro
+1,[female1] [female1]dottir
+1,[female1] [female2]dottir
+1,[female1] [female3]dottir
+1,[female2] [female1]dottir
+1,[female2] [female2]dottir
+1,[female2] [female3]dottir
+1,[female3] [female1]dottir
+1,[female3] [female2]dottir
+1,[female3] [female3]dottir
+1,[female1], daughter of [female1]
+1,[female1], daughter of [female2]
+1,[female1], daughter of [female3]
+1,[female2], daughter of [female1]
+1,[female2], daughter of [female2]
+1,[female2], daughter of [female3]
+1,[female3], daughter of [female1]
+1,[female3], daughter of [female2]
+1,[female3], daughter of [female3]
+
+;male1
+1,Aðalbjörn
+1,Arnar
+1,Lárus
+1,Magni
+1,Rúnar
+1,Skúli
+1,Ásmundur
+1,Barði
+1,Geir
+1,Júrek
+1,Knút
+1,Gísli
+1,Berg
+1,Eymundur
+1,Falur
+1,Rúrik
+1,Skíði
+1,Valberg
+1,Skjöldur
+1,Brimi
+
+;male2
+1,Böðvar
+1,Drengur
+1,Sören
+1,Ægir
+1,Ögri
+1,Tindur
+1,Úlfur
+1,Tór
+1,Dúi
+1,Eðvald
+1,Gunnar
+1,Hafni
+1,Fróði
+1,Galdur
+1,Njáll
+1,Snorri
+1,Ormur
+1,Óli
+1,Páll
+1,Rafnar
+
+;male3
+1,Þorsteinn
+1,Reynar
+1,Gnúpur
+1,Vörður
+1,Þengill
+1,Grettir
+1,Halldór
+1,Guðlaugur
+1,Sturla
+1,Týr
+1,Unnar
+1,Hjálmar
+1,Ísar
+1,Kolgrímur
+1,Alfreð
+1,Úlfkell
+1,Þeyr
+1,Kormákur
+1,Þór
+1,Örvar
+
+;female1
+1,Aðalfríður
+1,Yrsa
+1,Þura
+1,Árdís
+1,Bára
+1,Úlfrún
+1,Valdís
+1,Fríða
+1,Dóra
+1,Auðrún
+1,Freydís
+1,Drífa
+1,Júnía
+1,Kára
+1,Einhildur
+1,Pála
+1,Róshildur
+1,Úlfdís
+1,Rut
+1,Fjóla
+
+;female2
+1,Glódís
+1,Ardís
+1,Hilda
+1,Fura
+1,Gauja
+1,Halla
+1,Gauthildur
+1,Hjálmrún
+1,Astrid
+1,Ingdis
+1,Jódís
+1,Lára
+1,Mirra
+1,Njála
+1,Gunnhildur
+1,Hafþóra
+1,Greta
+1,Oddrún
+1,Ormhildur
+1,Árlaug
+
+;female3
+1,Lífdís
+1,Mardís
+1,Rúna
+1,Selka
+1,Hlédís
+1,Hlíf
+1,Iða
+1,Snædís
+1,Sóla
+1,Ásla
+1,Sólveig
+1,Eyþóra
+1,Finna
+1,Svala
+1,Unna
+1,Brigitta
+1,Dís
+1,Æsa
+1,Ölrún
+1,Guðfríður
+
+;location
+1,[place1], [district]
+1,[place2], [district]
+
+;place1
+1,Ætlanvik (Conception Inlet)
+1,Stormasamurhvass (Windy Corner)
+1,Tonnhofn (Tooth Harbor)
+1,Valrskagi (The "Field Of Corpses" Peninsula)
+1,Rakurstaða (Damp Place)
+1,Álar-Endirfoss (Pommel-Strap Falls)
+1,Beinahusið Holur (Charnel House Hollow)
+1,Stórsvan (The Stone Swan, A Landmark)
+1,Smárstraumr Umfirð (Neap-Tide Passage)
+1,Byrjotasund (Shipwreck Sound)
+1,Dyrhellir (Cave Of The Beasts)
+1,Eyðingsalt ("The Salt Desolation")
+1,Fjarvertey (Far West Island)
+1,Stigmaðurbjarn (Bandit Point)
+1,Vanðræðivik (Difficult Inlet)
+1,Garðrloft ("The Sky-Wall")
+1,Sleða-Bakki ("Sledge" Ford)
+1,Geirnefurskagi (Gar-Fish Peninsula)
+1,Skogurhörmulegur (Dismal Forest)
+1,Eplivatn (Apple Lake)
+
+;place2
+1,Rauðrfold (Red Valley)
+1,Graswegur (The Grass Road)
+1,Maurmyri (Ant Marsh)
+1,Stóraviðass (Windward Rock)
+1,Varðturn (Beacon Tower)
+1,Gullin-Bursti (Golden Top Peak)
+1,Harmsfullurströnd (Dolorous Coast)
+1,Loftþræðirsjór (Gossamer Sea)
+1,Fram-Stafnhöll (Prow Hall, A Ruin)
+1,Galdramaðrturn (The Wizard's Tower)
+1,Heykrókur Klettótur (Pitchfork Crag)
+1,Kanínastaða (Place Of Rabbits)
+1,Landraðámaðrbelti ("Traitor's Belt", A Landmark)
+1,Ættfaðrströnd (Patriarch Coast)
+1,Knuivigi ("The Knuckle", A Fortress)
+1,Mjolkvatn (Milkwater, A Lake)
+1,Svarturvigi (The Black Fortress)
+1,Tonnbrekka (Tooth Hill)
+1,Veiðimaðrfingur (Huntsman's Finger, A Landmark)
+1,Arfloi (Oar Bay)
+
+;district
+1,Barnasveit (Rookery Island District)
+1,Rauðrfoldisveit (Red Valley District)
+1,Beinahusið (Charnel House Valley)
+1,Ætlanviksveit (Conception Inlet District)
+1,Tréhliðsveit (Gate Of Trees District)
+1,Hundurfoldisveit (Dog Valley District)
+1,Stórfosssveit (Stone Falls District)
+1,Ottarheimliðsveit (Otter Home District)
+1,Sporjárnhússveit (Chisel House District)
+1,Heyhliðsveit (Hay Gate District)
+1,Gjóllsveit (Resounder River District)
+1,Jökullskeggisveit (Glacier Island District)
+1,Ófrjórsundsveit (Barren Sound District)
+1,Slétta-Straþaksveit (The Thatch Plain District)
+1,Hrafnstraumursveit (Raven River District)
+1,Ulfhúsið (Wolf House District)
+1,Austurskorðasveit (Eastern Shore District)
+1,Mjolkvatnsveit (Milkwater Lake District)
+1,Grarjarpursveit (Grey Bay District)
+1,Hvalurviksveit (Whale Cove District)
+
+;insult
+1,Blatonn (black tooth)!
+1,Brusi (he-goat)!
+1,Gaugbrojotr (grave-robber)!
+1,Haensa (chicken (literal))!
+1,Hlaðhand (clean-hands)!
+1,Huglausi (coward)!
+1,Kamphundr (carrion-eater)!
+1,Kuensami (skirt-chaser)!
+1,Oskelgetinn (bastard)!
+1,Bacraut (asshole)!
+1,Beiskaldi (complainer)!
+1,Braudnefr (bread-nose)!
+1,Griss (piglet)!
+1,Illskælda (plagiarist)!
+1,Istrumagi (fat-gut)!
+1,Mainfetr (stink-fart)!
+1,Meyla (little girl)!
+1,Sipill (pot-licker)!
+1,Tik (bitch! (literal))!
+1,Skreyja (incompetent)!
+
+;insultspeak
+1,bellowed
+1,roared
+1,hissed
+1,spat
+
+

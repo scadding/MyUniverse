@@ -1,0 +1,908 @@
+
+;Start
+1, The heroes must [action] [target] [preposition] [location], but have to contend with [contention], and opposition from [opposition] trying to [opposing action] [opposing target]
+
+;action
+1, aid
+1, assassinate
+1, assault
+1, assist
+1, attack
+1, avenge
+1, battle
+1, beset
+1, blackmail
+1, blow
+1, chase
+1, combat
+1, conceal
+1, contend
+1, create
+1, defeat
+1, defend
+1, deliver
+1, destroy
+1, discover
+1, disguise
+1, encounter
+1, escape
+1, escort
+1, fight
+1, find
+1, foil
+1, get
+1, guard
+1, guide
+1, infiltrate
+1, investigate
+1, join
+1, kill
+1, liberate
+1, locate
+1, meet
+1, move
+1, negotiate
+1, obliterate
+1, observe
+1, oppose
+1, outwit
+1, protect
+1, race
+1, raid
+1, repel
+1, rescue
+1, resist
+1, retreive
+1, reveal
+1, safeguard
+1, save
+1, serve
+1, shield
+1, steal
+1, strike
+1, support
+1, take
+1, track
+1, trade
+1, travel
+1, understand
+1, watch
+1, work
+
+;target
+1, a bounty hunter
+1, a captain
+1, a child
+1, a computer
+1, a corporation
+1, a cyborg
+1, a diplomat
+1, advanced aliens
+1, a friend
+1, against a bounty hunter
+1, against a captain
+1, against a child
+1, against a computer
+1, against a corporation
+1, against a cyborg
+1, against a diplomat
+1, against advanced aliens
+1, against a friend
+1, against a god-like alien
+1, against a group of outcasts
+1, against alien invaders
+1, against a love-interest
+1, against a man
+1, against a murderer
+1, against an android
+1, against an artifact
+1, against an enemy
+1, against an enemy agent
+1, against an energy source
+1, against a new race
+1, against an invention
+1, against an outcast
+1, against a pilot
+1, against a princess
+1, against a robot
+1, against artificial intelligence
+1, against a satellite
+1, against a scientist
+1, against a secret
+1, against a smuggler
+1, against a spatial anomaly
+1, against a starship
+1, against a stranger
+1, against a technician
+1, against a terrorist
+1, against a vehicle
+1, against a warlord
+1, against a weapon
+1, against a woman
+1, against bounty hunters
+1, against information
+1, against mutants
+1, against primitives
+1, against smugglers
+1, against technology
+1, against terrorists
+1, against the Ancients
+1, against the fleet
+1, against the government
+1, against the police
+1, against warlike aliens
+1, a god-like alien
+1, a group of outcasts
+1, alien invaders
+1, a love-interest
+1, a man
+1, a murderer
+1, an android
+1, an artifact
+1, an enemy
+1, an enemy agent
+1, an energy source
+1, a new race
+1, an invention
+1, an outcast
+1, a pilot
+1, a princess
+1, a robot
+1, artificial intelligence
+1, a satellite
+1, a scientist
+1, a secret
+1, a smuggler
+1, a spatial anomaly
+1, a starship
+1, a stranger
+1, a technician
+1, a terrorist
+1, a vehicle
+1, a warlord
+1, a weapon
+1, a woman
+1, bounty hunters
+1, from a bounty hunter
+1, from a captain
+1, from a child
+1, from a computer
+1, from a corporation
+1, from a cyborg
+1, from a diplomat
+1, from advanced aliens
+1, from a friend
+1, from a god-like alien
+1, from a group of outcasts
+1, from alien invaders
+1, from a love-interest
+1, from a man
+1, from a murderer
+1, from an android
+1, from an artifact
+1, from an enemy
+1, from an enemy agent
+1, from a new race
+1, from an outcast
+1, from a pilot
+1, from a princess
+1, from a robot
+1, from artificial intelligence
+1, from a scientist
+1, from a secret
+1, from a smuggler
+1, from a spatial anomaly
+1, from a stranger
+1, from a technician
+1, from a terrorist
+1, from a vehicle
+1, from a warlord
+1, from a weapon
+1, from a woman
+1, from bounty hunters
+1, from information
+1, from mutants
+1, from primitives
+1, from rebels
+1, from smugglers
+1, from technology
+1, from terrorists
+1, from the Ancients
+1, from the fleet
+1, from the government
+1, from the police
+1, from the secrets of ancient Earth
+1, information
+1, mutants
+1, out how to communicate with a bounty hunter
+1, out how to communicate with a captain
+1, out how to communicate with a child
+1, out how to communicate with a computer
+1, out how to communicate with a cyborg
+1, out how to communicate with a diplomat
+1, out how to communicate with advanced aliens
+1, out how to communicate with a friend
+1, out how to communicate with a group of outcasts
+1, out how to communicate with alien invaders
+1, out how to communicate with a love-interest
+1, out how to communicate with a man
+1, out how to communicate with a murderer
+1, out how to communicate with an android
+1, out how to communicate with an artifact
+1, out how to communicate with an enemy
+1, out how to communicate with an enemy agent
+1, out how to communicate with an energy source
+1, out how to communicate with a new race
+1, out how to communicate with an invention
+1, out how to communicate with a pilot
+1, out how to communicate with a princess
+1, out how to communicate with a robot
+1, out how to communicate with artificial intelligence
+1, out how to communicate with a satellite
+1, out how to communicate with a scientist
+1, out how to communicate with a secret
+1, out how to communicate with a smuggler
+1, out how to communicate with a spatial anomaly
+1, out how to communicate with a stranger
+1, out how to communicate with a technician
+1, out how to communicate with a terrorist
+1, out how to communicate with a vehicle
+1, out how to communicate with a warlord
+1, out how to communicate with a weapon
+1, out how to communicate with a woman
+1, out how to communicate with bounty hunters
+1, out how to communicate with information
+1, out how to communicate with mutants
+1, out how to communicate with primitives
+1, out how to communicate with rebels
+1, out how to communicate with smugglers
+1, out how to communicate with technology
+1, out how to communicate with terrorists
+1, out how to communicate with the Ancients
+1, out how to communicate with the fleet
+1, out how to communicate with the government
+1, out how to communicate with the police
+1, out how to communicate with the secrets of ancient Earth
+1, out how to communicate with warlike aliens
+1, past a bounty hunter
+1, past a captain
+1, past a child
+1, past a computer
+1, past a corporation
+1, past a cyborg
+1, past a diplomat
+1, past advanced aliens
+1, past a friend
+1, past a god-like alien
+1, past a group of outcasts
+1, past alien invaders
+1, past a love-interest
+1, past a man
+1, past a murderer
+1, past an android
+1, past an artifact
+1, past an enemy
+1, past an enemy agent
+1, past an energy source
+1, past a new race
+1, past an invention
+1, past an outcast
+1, past a pilot
+1, past a princess
+1, past a robot
+1, past artificial intelligence
+1, past a satellite
+1, past a scientist
+1, past a secret
+1, past a smuggler
+1, past a spatial anomaly
+1, past a starship
+1, past a stranger
+1, past a technician
+1, past a terrorist
+1, past a warlord
+1, past a weapon
+1, past a woman
+1, past bounty hunters
+1, past information
+1, past mutants
+1, past primitives
+1, past rebels
+1, past smugglers
+1, past technology
+1, past the Ancients
+1, past the fleet
+1, past the government
+1, past the police
+1, past the secrets of ancient Earth
+1, past warlike aliens
+1, primitives
+1, rebels
+1, smugglers
+1, technology
+1, terrorists
+1, the Ancients
+1, the fleet
+1, the government
+1, the police
+1, the secrets of ancient Earth
+1, up a bounty hunter
+1, up a child
+1, up a computer
+1, up a corporation
+1, up a cyborg
+1, up a diplomat
+1, up a friend
+1, up a god-like alien
+1, up a group of outcasts
+1, up alien invaders
+1, up a love-interest
+1, up a man
+1, up a murderer
+1, up an android
+1, up an artifact
+1, up an enemy
+1, up an enemy agent
+1, up an energy source
+1, up a new race
+1, up an invention
+1, up an outcast
+1, up a pilot
+1, up a princess
+1, up a robot
+1, up artificial intelligence
+1, up a satellite
+1, up a scientist
+1, up a secret
+1, up a smuggler
+1, up a spatial anomaly
+1, up a starship
+1, up a stranger
+1, up a technician
+1, up a vehicle
+1, up a warlord
+1, up a weapon
+1, up a woman
+1, up bounty hunters
+1, up information
+1, up mutants
+1, up primitives
+1, up rebels
+1, up smugglers
+1, up technology
+1, up terrorists
+1, up the Ancients
+1, up the fleet
+1, up the government
+1, up the police
+1, up the secrets of ancient Earth
+1, up warlike aliens
+1, warlike aliens
+1, with a bounty hunter
+1, with a captain
+1, with a child
+1, with a computer
+1, with a corporation
+1, with a cyborg
+1, with a diplomat
+1, with advanced aliens
+1, with a friend
+1, with a god-like alien
+1, with a group of outcasts
+1, with alien invaders
+1, with a love-interest
+1, with a man
+1, with a murderer
+1, with an android
+1, with an artifact
+1, with an enemy
+1, with an enemy agent
+1, with an energy source
+1, with a new race
+1, with an invention
+1, with an outcast
+1, with a pilot
+1, with a princess
+1, with a robot
+1, with artificial intelligence
+1, with a satellite
+1, with a scientist
+1, with a secret
+1, with a smuggler
+1, with a spatial anomaly
+1, with a starship
+1, with a stranger
+1, with a technician
+1, with a terrorist
+1, with a vehicle
+1, with a warlord
+1, with a weapon
+1, with a woman
+1, with bounty hunters
+1, with information
+1, with mutants
+1, with primitives
+1, with rebels
+1, with smugglers
+1, with technology
+1, with terrorists
+1, with the Ancients
+1, with the fleet
+1, with the government
+1, with the police
+1, with the secrets of ancient Earth
+1, with warlike aliens
+
+;preposition
+1, at
+1, in
+1, near
+1, on
+1, under
+
+;location
+1, a backwater planet
+1, a bar
+1, a barren moon
+1, a bazaar
+1, a brothel
+1, a citadel
+1, a city
+1, a Core World
+1, a desert world
+1, a fortress
+1, a gas giant
+1, a hideout
+1, a jungle planet
+1, a lawless planet
+1, a military base
+1, an artificial world
+1, an asteroid field
+1, a new colony
+1, an ice planet
+1, another dimension
+1, a pleasure planet
+1, a primitive planet
+1, a research facility
+1, a secret location
+1, a ship
+1, a space cruiser
+1, a spaceport
+1, a space station
+1, a swamp
+1, a trade route
+1, a vortex
+1, a water planet
+1, deep space
+1, ground
+1, hyperspace
+1, neutral space
+1, orbit
+1, prison
+1, the border
+1, the desert
+1, the event horizon of a black hole
+1, the frontier
+1, the homeworld
+1, the moon
+1, the sky
+1, the villain's base
+1, water
+
+;contention
+1, a battle
+1, a double-cross
+1, alien psychology
+1, an abduction
+1, an ambush
+1, an invasion
+1, a power struggle
+1, artificial life
+1, a scientific problem
+1, a trap
+1, a travel problem
+1, a vendetta
+1, betrayal
+1, computer failure
+1, corporate influence
+1, criminals
+1, desperation
+1, diplomacy
+1, equipment failure
+1, exploration
+1, lack of trust
+1, language
+1, military influence
+1, mind-reading aliens
+1, misdirection
+1, mistaken identity
+1, politics
+1, religion
+1, rivalry
+1, robot psychology
+1, shape-changing aliens
+1, spies
+1, squabbling
+1, superstition
+1, theft
+1, the weather
+1, travel
+1, trickery
+1, war
+
+;opposition
+1, a computer
+1, a former ally
+1, a guild
+1, an oppressive Empire
+1, an unidentified vessel
+1, an unknown race of aliens
+1, a recurring character
+1, a shadowy figure
+1, assassins
+1, a stranger
+1, a veteran
+1, beings of pure energy
+1, clones
+1, fanatics
+1, government officials
+1, lunatics
+1, mercenaries
+1, merchants
+1, slavers
+1, space pirates
+1, technology gone amok
+1, the Time Police
+1, traitors
+
+;opposing action
+1, acquire
+1, attack
+1, banish
+1, blackmail
+1, bomb
+1, build
+1, conquer
+1, control
+1, copy
+1, corrupt
+1, create
+1, destroy
+1, disguise
+1, enslave
+1, extort
+1, fire
+1, forge
+1, hijack
+1, hunt
+1, implant
+1, infect
+1, infiltrate
+1, kidnap
+1, kill
+1, manipulate
+1, murder
+1, obliterate
+1, overthrow
+1, poison
+1, ransom
+1, rebuild
+1, rob
+1, rule
+1, sell
+1, smuggle
+1, steal
+1, take
+1, terrorise
+1, uncover
+1, win
+
+;opposing target
+1, a brilliant scientist.
+1, a child genius.
+1, a death ray at a brilliant scientist.
+1, a death ray at a child genius.
+1, a death ray at an ancient race.
+1, a death ray at a new form of energy.
+1, a death ray at a new super-weapon.
+1, a death ray at an experiment gone wrong.
+1, a death ray at a peaceful planet.
+1, a death ray at a peaceful village.
+1, a death ray at a secret government agency.
+1, a death ray at a super-computer.
+1, a death ray at a woman.
+1, a death ray at corrupt police.
+1, a death ray at drug runners.
+1, a death ray at Earth.
+1, a death ray at government scientists.
+1, a death ray at innocent victims.
+1, a death ray at mysterious alien technology.
+1, a death ray at one of the heroes' family.
+1, a death ray at peaceful aliens.
+1, a death ray at someone famous.
+1, a death ray at the entire human race.
+1, a death ray at the entire world.
+1, a death ray at the Galactic Council.
+1, a death ray at the heroes.
+1, a death ray at the heroes' friend.
+1, a death ray at the heroes' rivals.
+1, a death ray at the police.
+1, a death ray at the water supply.
+1, a hypnotic suggestion in a brilliant scientist.
+1, a hypnotic suggestion in a child genius.
+1, a hypnotic suggestion in an ancient race.
+1, a hypnotic suggestion in a new form of energy.
+1, a hypnotic suggestion in a new super-weapon.
+1, a hypnotic suggestion in an experiment gone wrong.
+1, a hypnotic suggestion in a peaceful planet.
+1, a hypnotic suggestion in a peaceful village.
+1, a hypnotic suggestion in a secret government agency.
+1, a hypnotic suggestion in a super-computer.
+1, a hypnotic suggestion in a woman.
+1, a hypnotic suggestion in corrupt police.
+1, a hypnotic suggestion in drug runners.
+1, a hypnotic suggestion in Earth.
+1, a hypnotic suggestion in government scientists.
+1, a hypnotic suggestion in innocent victims.
+1, a hypnotic suggestion in mysterious alien technology.
+1, a hypnotic suggestion in one of the heroes' family.
+1, a hypnotic suggestion in peaceful aliens.
+1, a hypnotic suggestion in someone famous.
+1, a hypnotic suggestion in the entire human race.
+1, a hypnotic suggestion in the entire world.
+1, a hypnotic suggestion in the Galactic Council.
+1, a hypnotic suggestion in the heroes.
+1, a hypnotic suggestion in the heroes' friend.
+1, a hypnotic suggestion in the heroes' rivals.
+1, a hypnotic suggestion in the police.
+1, a hypnotic suggestion in the water supply.
+1, an ancient race.
+1, a new form of energy.
+1, a new super-weapon.
+1, an experiment gone wrong.
+1, a peaceful planet.
+1, a peaceful village.
+1, a robot double of a brilliant scientist.
+1, a robot double of a child genius.
+1, a robot double of an ancient race.
+1, a robot double of a new form of energy.
+1, a robot double of a new super-weapon.
+1, a robot double of an experiment gone wrong.
+1, a robot double of a peaceful planet.
+1, a robot double of a peaceful village.
+1, a robot double of a secret government agency.
+1, a robot double of a super-computer.
+1, a robot double of a woman.
+1, a robot double of corrupt police.
+1, a robot double of drug runners.
+1, a robot double of Earth.
+1, a robot double of government scientists.
+1, a robot double of innocent victims.
+1, a robot double of mysterious alien technology.
+1, a robot double of one of the heroes' family.
+1, a robot double of peaceful aliens.
+1, a robot double of someone famous.
+1, a robot double of the entire human race.
+1, a robot double of the entire world.
+1, a robot double of the Galactic Council.
+1, a robot double of the heroes.
+1, a robot double of the heroes' friend.
+1, a robot double of the heroes' rivals.
+1, a robot double of the police.
+1, a robot double of the water supply.
+1, a secret government agency.
+1, a super-computer.
+1, a woman.
+1, corrupt police.
+1, drug runners.
+1, Earth.
+1, from a brilliant scientist.
+1, from a child genius.
+1, from an ancient race.
+1, from a new form of energy.
+1, from a new super-weapon.
+1, from an experiment gone wrong.
+1, from a peaceful planet.
+1, from a peaceful village.
+1, from a secret government agency.
+1, from a super-computer.
+1, from a woman.
+1, from corrupt police.
+1, from drug runners.
+1, from Earth.
+1, from government scientists.
+1, from innocent victims.
+1, from mysterious alien technology.
+1, from one of the heroes' family.
+1, from peaceful aliens.
+1, from someone famous.
+1, from the entire human race.
+1, from the entire world.
+1, from the Galactic Council.
+1, from the heroes.
+1, from the heroes' friend.
+1, from the heroes' rivals.
+1, from the police.
+1, from the water supply.
+1, government scientists.
+1, innocent victims.
+1, mysterious alien technology.
+1, one of the heroes' family.
+1, peaceful aliens.
+1, someone famous.
+1, the credentials of a brilliant scientist.
+1, the credentials of a child genius.
+1, the credentials of an ancient race.
+1, the credentials of a new form of energy.
+1, the credentials of a new super-weapon.
+1, the credentials of an experiment gone wrong.
+1, the credentials of a peaceful planet.
+1, the credentials of a peaceful village.
+1, the credentials of a secret government agency.
+1, the credentials of a super-computer.
+1, the credentials of a woman.
+1, the credentials of corrupt police.
+1, the credentials of drug runners.
+1, the credentials of Earth.
+1, the credentials of government scientists.
+1, the credentials of innocent victims.
+1, the credentials of mysterious alien technology.
+1, the credentials of one of the heroes' family.
+1, the credentials of peaceful aliens.
+1, the credentials of someone famous.
+1, the credentials of the entire human race.
+1, the credentials of the entire world.
+1, the credentials of the Galactic Council.
+1, the credentials of the heroes.
+1, the credentials of the heroes' friend.
+1, the credentials of the heroes' rivals.
+1, the credentials of the police.
+1, the credentials of the water supply.
+1, the data on a brilliant scientist.
+1, the data on a child genius.
+1, the data on an ancient race.
+1, the data on a new form of energy.
+1, the data on a new super-weapon.
+1, the data on an experiment gone wrong.
+1, the data on a peaceful planet.
+1, the data on a peaceful village.
+1, the data on a secret government agency.
+1, the data on a super-computer.
+1, the data on a woman.
+1, the data on corrupt police.
+1, the data on drug runners.
+1, the data on Earth.
+1, the data on government scientists.
+1, the data on innocent victims.
+1, the data on mysterious alien technology.
+1, the data on one of the heroes' family.
+1, the data on peaceful aliens.
+1, the data on someone famous.
+1, the data on the entire human race.
+1, the data on the entire world.
+1, the data on the Galactic Council.
+1, the data on the heroes.
+1, the data on the heroes' friend.
+1, the data on the heroes' rivals.
+1, the data on the police.
+1, the data on the water supply.
+1, the DNA of a brilliant scientist.
+1, the DNA of a child genius.
+1, the DNA of an ancient race.
+1, the DNA of a new form of energy.
+1, the DNA of a new super-weapon.
+1, the DNA of an experiment gone wrong.
+1, the DNA of a peaceful planet.
+1, the DNA of a peaceful village.
+1, the DNA of a secret government agency.
+1, the DNA of a super-computer.
+1, the DNA of a woman.
+1, the DNA of corrupt police.
+1, the DNA of drug runners.
+1, the DNA of Earth.
+1, the DNA of government scientists.
+1, the DNA of innocent victims.
+1, the DNA of mysterious alien technology.
+1, the DNA of one of the heroes' family.
+1, the DNA of peaceful aliens.
+1, the DNA of someone famous.
+1, the DNA of the entire human race.
+1, the DNA of the entire world.
+1, the DNA of the Galactic Council.
+1, the DNA of the heroes.
+1, the DNA of the heroes' friend.
+1, the DNA of the heroes' rivals.
+1, the DNA of the police.
+1, the DNA of the water supply.
+1, the entire human race.
+1, the entire world.
+1, the Galactic Council.
+1, the heroes.
+1, the heroes' friend.
+1, the heroes' rivals.
+1, the love of a brilliant scientist.
+1, the love of a child genius.
+1, the love of an ancient race.
+1, the love of a new form of energy.
+1, the love of a new super-weapon.
+1, the love of an experiment gone wrong.
+1, the love of a peaceful planet.
+1, the love of a peaceful village.
+1, the love of a secret government agency.
+1, the love of a super-computer.
+1, the love of a woman.
+1, the love of corrupt police.
+1, the love of drug runners.
+1, the love of Earth.
+1, the love of government scientists.
+1, the love of innocent victims.
+1, the love of mysterious alien technology.
+1, the love of one of the heroes' family.
+1, the love of peaceful aliens.
+1, the love of someone famous.
+1, the love of the entire human race.
+1, the love of the entire world.
+1, the love of the Galactic Council.
+1, the love of the heroes.
+1, the love of the heroes' friend.
+1, the love of the heroes' rivals.
+1, the love of the police.
+1, the love of the water supply.
+1, themselves as a brilliant scientist.
+1, themselves as a child genius.
+1, themselves as an ancient race.
+1, themselves as a new form of energy.
+1, themselves as a new super-weapon.
+1, themselves as an experiment gone wrong.
+1, themselves as a peaceful planet.
+1, themselves as a peaceful village.
+1, themselves as a secret government agency.
+1, themselves as a super-computer.
+1, themselves as a woman.
+1, themselves as corrupt police.
+1, themselves as drug runners.
+1, themselves as Earth.
+1, themselves as government scientists.
+1, themselves as innocent victims.
+1, themselves as mysterious alien technology.
+1, themselves as one of the heroes' family.
+1, themselves as peaceful aliens.
+1, themselves as someone famous.
+1, themselves as the entire human race.
+1, themselves as the entire world.
+1, themselves as the Galactic Council.
+1, themselves as the heroes.
+1, themselves as the heroes' friend.
+1, themselves as the heroes' rivals.
+1, themselves as the police.
+1, themselves as the water supply.
+1, the police.
+1, the secrets of a brilliant scientist.
+1, the secrets of a child genius.
+1, the secrets of an ancient race.
+1, the secrets of a new form of energy.
+1, the secrets of a new super-weapon.
+1, the secrets of an experiment gone wrong.
+1, the secrets of a peaceful planet.
+1, the secrets of a peaceful village.
+1, the secrets of a secret government agency.
+1, the secrets of a super-computer.
+1, the secrets of a woman.
+1, the secrets of corrupt police.
+1, the secrets of drug runners.
+1, the secrets of Earth.
+1, the secrets of government scientists.
+1, the secrets of innocent victims.
+1, the secrets of mysterious alien technology.
+1, the secrets of one of the heroes' family.
+1, the secrets of peaceful aliens.
+1, the secrets of someone famous.
+1, the secrets of the entire human race.
+1, the secrets of the entire world.
+1, the secrets of the Galactic Council.
+1, the secrets of the heroes.
+1, the secrets of the heroes' friend.
+1, the secrets of the heroes' rivals.
+1, the secrets of the police.
+1, the secrets of the water supply.
+1, the water supply.

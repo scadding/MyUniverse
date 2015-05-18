@@ -1,0 +1,85 @@
+
+;Start
+2,a pair of [Color.dull] [shoe style]
+1,{{plural|[number] paintbrush}}
+1,a bee's nest
+1,a ball of [Color.bright] yarn
+1,{{article|[Color.hues] vest}}
+1,a spoon
+1,a pitchfork
+1,a jar of pickles
+1,a jar of pickled eggs
+1,a fork
+2,a butter knife
+2,a set of sewing needles
+2,a set of fish-hooks
+1,a fishing rod
+1,a cheese knife
+3,a large [cheese_type] cheese, sealed in a [Color.dull] wax rind
+1,a dagger
+2,parchment
+1,thread
+2,{{plural|[number] Empty burlap sacks}}
+2,{{plural|[number] potato}}
+2,{{plural|[number] apple}}
+2,{{plural|[number] orange}}
+2,{{plural|[number] edible mushroom}}
+2,{{plural|[number] wooden dowel}}
+2,{{plural|[number] empty glass bottle}}
+1,a quill
+1,a bottle of [Color.dark] ink
+1,a shovel
+1,{{plural|[number] silver coin}}
+2,{{plural|[number] copper coin}}
+1,a winter cap
+2,{{plural|[number] [Color.hues] candle}}
+1,{{article|[Color.bright]}} scarf
+1,a pair of shears
+1,a hammer
+1,a tin cup
+1,a ceramic jug
+1,{{plural|[number] sack}} of flour
+1,a whetstone
+1,a rake
+1,a hoe
+
+;shoe style
+1,sandals
+2,pointy-toed shoes
+2,curling-toed shoes
+2,boots
+1,work boots
+1,combat boots
+2,leather boots
+2,ninja tabi-boots
+1,suede shoes
+1,leather shoes
+1,stilettos
+1,cloth feet wrappings
+1,winter boots
+1,riding boots
+
+;number
+3,one
+3,two
+1,three
+1,four
+1,five
+1,thirteen
+1,a half dozen
+1,a dozen
+1,seventeen
+
+;cheese_type
+1,sharp
+1,pungent-smelling
+1,fragrant
+1,spongey
+1,mellow
+1,soft
+1,sweet
+1,nasty
+1,smelly
+1,nutty
+
+

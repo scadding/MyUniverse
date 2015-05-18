@@ -1,0 +1,46 @@
+
+;Start
+1,[Femalemain]
+
+;Femalemain
+3,[FemaleSentence].
+1,[FemaleSentence] and [FemaleMiddleware].
+
+;malemain
+3,[maleSentence]
+1,[maleSentence] and [maleMiddleware].
+
+;maleSentence
+1,His [PiercingLocation] pierced with a [PiercingObject]
+
+;maleMiddleware
+3,his [PiercingLocation] pierced with a [PiercingObject]
+1,[maleMiddleware] and [maleMiddleware]
+
+;FemaleSentence
+1,Her [PiercingLocation] pierced with a [PiercingObject]
+
+;FemaleMiddleware
+3,her [PiercingLocation] pierced with a [PiercingObject]
+1,[FemaleMiddleware] and [FemaleMiddleware]
+
+;PiercingLocation
+3,lip is
+25,lower [Utility.LeftRight] ear is
+10,upper [Utility.LeftRight] ear is
+25,lower ears are each
+3,[Utility.LeftRight] nostril is
+1,nose-bridge is
+3,[Utility.LeftRight] nipple is
+1,[Utility.LeftRight] eyebrow is
+3,tongue is
+1,[Utility.LeftRight] cheek is 
+10,navel is
+
+;PiercingObject
+5, [Utility.MetalDecor] ring
+2, smooth piece of bone or ivory
+4, small [Utility.MetalDecor] stud
+4, small [Utility.MetalDecor] stud with a [Utility.GemType] stone
+4, large [Utility.MetalDecor] stud or "barbell"
+

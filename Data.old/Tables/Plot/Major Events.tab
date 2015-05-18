@@ -1,0 +1,192 @@
+
+;Start
+1,[Ambassador]
+1,[Assassination]
+1,[Death]
+1,[Comet]
+1,[Earthquake]
+1,[Famine]
+1,[MajorFire]
+1,[MajorFloods]
+1,[Refugees]
+1,[Religion]
+1,[Plague]
+1,[PoliticalPlot]
+1,[Civil War]
+1,[Gods]
+1,[Explorers]
+1,[Maiden]
+1,[Storm]
+
+
+;Ambassador
+1,An ambassador arrives from [AmbassadorFrom], and will stay for [Dice.4d6] months. They are mostly interested in [AmbassadorInterest]. The conditions they offer will be better if i) their country is weak, ii) the host country is powerful, iii) their country is a generally peaceful one, and worse if the opposite is true. [AmbassadorMarriageChance]
+
+;AmbassadorFrom
+3, a rival nation
+2, a friendly nation
+2, a neutral nation
+1, a previously unknown land
+
+;AmbassadorInterest
+1,diplomatic relations
+1,swapping magical or technological knowledge
+
+;AmbassadorMarriageChance
+1,The ambassador hopes to arrange a marriage between one of their powerful families and those of the host country.
+2,
+
+;Assassination
+1,An important person is assassinated [AssassinationReason]. The assassin [AssassinFate]. [DeathOutcome]
+
+;AssassinationReason
+1,because of their position
+1,because of personal reasons
+
+;AssassinFate
+2,is taken alive
+1,is killed during the assassination
+1,kills themself immediately after the assassination
+2,gets away
+
+;DeathOutcome
+5,There is a clear successor and no power struggle anticipated.
+1,There is no clear successor and a power struggle will ensue for [Dice.1d6] months[DeathCivilWarChance].
+
+;DeathCivilWarChance
+5,
+1,, finally leading to a bloody civil war! [Civil War]
+
+;Death
+1,An important person dies [DeathCause]. [DeathOutcome]
+
+;DeathCause
+1,of old age
+1,of illness
+1,in an accident
+
+;Comet
+1,A comet is seen in the sky, indicating great events in the future. The GM should triple the chances of an event happening for this month and the next eleven. They should roll for events for the next year immediately. For each event, there is a 50% chance the event can be predicted in broad detail by those who study the comet.
+
+;Storm
+1,The day switches from clear to a thunderstorm in all of five minutes.  This thunderstorm results in the death of [Dice.3d6] people by lightning, and [Dice.2d8] by hail.
+1,A storm with Category 2 hurricane force winds occurs, damaging [Dice.1d8]0% of the town, killing [Dice.4d6] people, and creating havoc.  [MajorFloodChance]
+
+;MajorFloodChance
+4,
+1,[MajorFloods]
+
+;Earthquake
+1,Earthquake strikes [EarthquakeTarget]
+
+;EarthquakeTarget
+5,a major city - [EarthquakeCityFire] [EarthquakeCityPlague]
+1,the entire land, causing destruction, fires and plague in several cities.
+
+;EarthquakeCityFire
+1, fortunately the ravages of fire were spared from the city.
+2, [MajorFire]
+
+;EarthquakeCityPlague
+2, No plague occurred as a result.
+1, [Plague]
+
+;Famine
+1,Famine strikes the land, lasting [Dice.1d6+1] months. The cost of food will increase, up to 100 times its normal price. Normally law-abiding folk will turn to crime in desperation. Farms will produce no income for a year, and only one quarter of their income for the next year. The population will reduce by 5% each month. [FaminePlagueChance] [FamineCivilWarChance]
+
+;FaminePlagueChance
+1,The famine will in turn lead to a plague. [Plague]
+5,Fortunately, there is no plague associated with the famine.
+
+;FamineCivilWarChance
+1, Fortunately, the ravages of civil war can be avoided this time.
+2, Unless the government acts effectively to relieve the suffering, there will be Civil War! [Civil War]
+
+;MajorFire
+1,A major fire strikes, destroying [Dice.1d6+3]0% of the city, and killing some of the populace. The price of building materials is 10 times normal for the next 4 months. The price of food doubles for one month. All these effects assume buildings are mostly made of wood, and that there's no effective fire brigade. If either of these aren't true, the effects can be much less, or the GM might even rule that a major fire can't occur.
+
+;MajorFloods
+1,Major floods. The population of the land as a whole will not change much, but people will move from the effected area (near coasts or major rivers) to safer places, causing economic upheaval. The price of all goods will be doubled for [Dice.1d6] months. If the flood strikes during the planting season, income from farms in the area will be halved for one year. If it strikes during the harvest season, 80% of farm income is lost[FloodFamineChance] Planting and harvest season might each last for one quarter of the year. [FloodPlagueChance]
+
+;FloodFamineChance
+2,.
+1,and there is famine as a result. [Famine]
+
+;FloodPlagueChance
+5,
+1,The floods also bring waterborne disease with them. [Plague]
+
+;Refugees
+1,A major influx of refugees arrive from a neighbouring country. If there is currently a plague, famine, or similar trouble, [RefugeeBlame]. [RefugeeReligionChance]
+
+;RefugeeBlame
+1,they cause further stress upon the land, but are not directly blamed for the unrelated troubles
+1,they will be blamed for it, leading to further trouble and violence
+
+;RefugeeReligionChance
+5,
+1,The refugees bring with them a new religion! [Religion]
+
+;Religion
+1,A new religion gains many converts. [ReligionAcceptanceChance] [ReligionGodsChance]
+
+;ReligionAcceptanceChance
+4,
+1, There are occasional, spontaneous outbreaks of violence between followers of the new religion and those who hold to the established practices.
+1, There is frequent, organised violence between followers of the new religion and those who hold to the established practices. [ReligiousViolenceWarChance]
+
+;ReligiousViolenceWarChance
+5,
+1, The religious conflict culminates in violent civil war. [Civil War]
+
+;ReligionGodsChance
+2,
+1,There are throughout the land signs and wonders pertaining to [ReligionGodsOccurence] [Gods]
+
+;ReligionGodsOccurence
+1, the new gods.
+1, the old gods.
+1, both the new and the old gods.
+
+;Plague
+1,Plague strikes the land, lasting [Dice.2d6] months. The population of the area is reduced by 5% each month. While the plague lasts, the cost of imported goods will be 5 times normal, and the price of all other goods will be doubled, as traders refuse to enter the area.
+
+;PoliticalPlot
+1,A political plot is discovered.[PoliticalPlotTruth] Many officials are banished, fired, or even killed. The turmoil lasts for [Dice.1d3] months. [PoliticalPlotCivilWarChance]
+
+;Civil War
+1,The land falls into civil war, lasting [Dice.1d6] months.
+
+;PoliticalPlotTruth
+1, The 'discovery' is false, planted evidence.
+2,
+
+;PoliticalPlotCivilWarChance
+5,
+1,The circumstances surrounding the political plot lead to a bloody civil war! [Civil War]
+
+;Gods
+1, A god is said to have appeared somewhere in the country. The chance of this being true depends on the role of the gods in the game world. The site of its appearance will become a focus for worship. This may mean that a temple is built there, that pilgrims come, and so on. It might also mean that followers of other gods leave, or are driven away (depending on the nature of the god).
+
+;Explorers
+1,Explorers return with news of a new land. [ExplorerLandHabitationChance]
+
+;ExplorerLandHabitationChance
+1,The new land is completely uninhabited.
+1,The land is inhabited[NewLandAmbassadorChance]
+
+;NewLandAmbassadorChance
+2, and an ambassador arrives with the explorers. [Ambassador]
+1,, but no ambassador accompanies the explorers.
+
+;Maiden
+1,For this month, many important people will neglect their duties in order to compete for the affections of a noted, unmarried person. [MaidenProstituteChance] [MaidenDeathChance]
+
+;MaidenProstituteChance
+1,This person is a prostitute.
+1,
+
+;MaidenDeathChance
+1,If duelling exists in the country, duels will indeed be fought. This will lead to the death of an important person in a duel. [DeathOutcome]
+
+

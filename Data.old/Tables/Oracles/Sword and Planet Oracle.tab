@@ -1,0 +1,133 @@
+
+;Start
+1,[OracleResult]
+
+;OracleResult
+1,A [mainphysical], [weapon]-wielding [occupation]
+1,A [personality] [occupation], [fate]
+1,Only the [occupation]'s unusual knowledge of [skill] allows survival
+1,The [alienphysical], [alienmental] natives have [adjective] [alienpower]
+1,In [placedesc] [place], the [personality] [occupation] must [activity] to [goal]!
+
+;adjective
+1,mysterious
+1,great
+1,psychic
+1,ancient
+1,unfathomable
+1,unreliable
+
+;activity
+1,fight
+1,hide
+1,outwit all enemies
+
+;goal
+1,survive
+1,escape
+1,return home
+1,make a place in [placedesc] [place]
+
+;alienpower
+1,powers
+1,minds
+1,technology
+1,abilities
+1,magic
+
+;alienmental
+1,cowardly
+1,loyal
+1,languid
+1,bloodthirsty
+1,treacherous
+1,decadent
+1,barbarous
+1,savage
+1,friendly
+
+;alienphysical
+1,[color]-skinned
+1,tentacled
+1,[color]-eyed
+1,gaunt
+1,lithe
+1,fanged
+1,furred
+1,scaly
+
+;color
+1,red
+1,orange
+1,yellow
+1,green
+1,blue
+1,violet
+1,white
+1,black
+1,octarine
+1,opal
+
+;fate
+1,marooned in [placedesc] [place]
+1,transported to [placedesc] [place]
+
+;placedesc
+1,an unfamiliar
+1,a mysterious
+1,a dangerous
+1,an unknown
+1,an uncharted
+
+;place
+1,land
+1,territory
+1,jungle
+1,planet
+1,island
+
+;mainphysical
+1,tall
+1,flashing-eyed
+1,supernaturally strong
+1,superbly fit
+1,lithe
+1,well-muscled
+
+;weapon
+1,sword
+1,pistol
+1,laser
+1,whip
+1,saber
+1,rifle
+
+;occupation
+1,scientist
+1,adventurer
+1,explorer
+1,archaeologist
+1,pilot
+1,soldier
+1,hunter
+1,millionaire
+
+;personality
+1,brooding
+1,spunky
+1,genius
+1,self-confident
+1,determined
+
+;skill
+1,swordplay
+1,biology
+1,metallurgy
+1,ancient history
+1,hieroglyphs
+1,archaeology
+1,dead languages
+1,athletics
+1,linguistics
+
+

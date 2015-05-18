@@ -1,0 +1,414 @@
+
+;Start
+1,[Romance of the Three Kingdoms]
+1,[Water Margin]
+1,[Journey to the West]
+1,[Dream of the Red Chamber]
+1,[Jin Ping Mei]
+
+;Romance of the Three Kingdoms
+1,[Romance of the Three Kingdoms.Start]
+
+;Water Margin
+1,
+
+;Journey to the West
+1,
+
+;Dream of the Red Chamber
+1,
+
+;Jin Ping Mei
+1,[The Plum in the Golden Vase.Start]
+
+;Female Name
+1,[ChineseFemaleFirst] [ChineseFemaleLast]
+
+;ChineseFemaleFirst
+1,Bee Fu
+1,Ch'un-mei
+1,Chuo
+1,Cicada
+1,Ho
+1,Hua
+1,Hsueh
+1,Li
+1,Meng
+1,P'an
+1,Wang
+1,Wu
+
+;ChineseFemaleLast
+1,Chiao-erh
+1,Chin-lien
+1,P'ing-erh
+1,P'o
+1,Tiu-erh
+1,Yong
+1,Yueh
+1,Yu-lou
+
+;Male Name
+10,[ChineseMaleFirst] [ChineseMaleLast]
+5,[Japanese names.MALE NAMES] [SGNP japanese.SURNAMES]
+5,[SGNP japanese.MALE NAMES] [SGNP japanese.SURNAMES]
+1,[SGNP japanese.MALE NAMES] [SGNP japanese.SAMURAI-ERA NOBLE SURNAMES]
+1,[SGNP japanese.MALE NAMES] [SGNP japanese.SAMURAI-ERA BUSHI SURNAMES]
+
+;ChineseMaleFirst
+1,Cao
+1,Chang
+1,Chen
+1,Ch'en
+1,Chou
+1,Chuko
+1,Erh-ke
+1,Fan
+1,Gongsun
+1,He
+1,He-chiu
+1,Hian-te
+1,Ho
+1,Hua
+1,Hui
+1,Hsieh
+1,Hsi-men
+1,Kuan
+1,Jia
+1,Li
+1,Lien-te
+1,Liu
+1,Lu
+1,Pian-te
+1,Pien-te
+1,Sun
+1,Ta-lang
+1,Taishi
+1,Tan
+1,Tao
+1,Teng
+1,Tung
+1,Ts'ao
+1,Wang
+1,Wu
+1,Xian
+1,Xu
+1,Yan
+1,Yang
+1,Ye
+1,Yin
+1,Yuan
+1,Zhang
+1,Zheng
+1,Zhou
+1,Zhu
+
+;ChineseMaleLast
+1,Baozhuan
+1,Biao
+1,Bu
+1,Chi
+1,Ch'ing
+1,Chiao-li
+1,Chin-chi
+1,Chin-hsu
+1,Chiu
+1,Chin
+1,Ching
+1,Ch'o
+1,Chou
+1,Fei
+1,Gouzhen
+1,He
+1,Hsiahou
+1,Hung
+1,Kao
+1,Kong
+1,Kue
+1,Jian
+1,Ju
+1,Juzheng
+1,Lun
+1,Pao
+1,Pei
+1,Qian
+1,Ruchang
+1,Ren
+1,Ru
+1,Shao
+1,Shu
+1,Song
+1,Su
+1,Sung
+1,Ts'ao
+1,Ts'e
+1,Tsung
+1,Xianggao
+1,Xin
+1,Xueqin
+1,Ye
+1,Yin
+1,Yu
+1,Yuan
+1,Yun
+1,Zan
+1,Zhi
+1,Zicheng
+
+;Administrator
+10,administrator
+10,magistrate
+10,officer
+5,governor
+1,emperor
+
+;Gang Name
+1,The Axe Gang
+1,"The Ten Brothers"
+
+;Dynasty
+1,Eastern Han
+1,Eastern Jin
+1,Eastern Zhuo
+1,Han
+1,Jin
+1,Liao
+1,Ming
+1,Northern Song
+1,Qin
+1,Qing
+1,Shang
+1,Song
+1,Southern Song
+1,Sui
+1,Sung
+1,Tang
+1,Ten Kingdoms
+1,Three Kingdoms
+1,Western Han
+1,Western Jin
+1,Western Zhuo
+1,Xia
+1,Xin
+1,Yuan
+1,Zhou
+
+;Place
+10,[County] County
+10,[Province] Province
+10,[District] District
+10,[City] City
+1,Beijing
+1,Chang'an
+1,Changsha
+1,Chingchou
+1,Chingyang Hill
+1,Chongqing
+1,Guangxi
+1,Hebei
+1,Loyang
+1,Mengchou
+1,Mongolia
+1,Ningxia
+1,Peking
+1,Shanghai
+1,Taipei
+1,the Peach Orchard
+1,Tianjin
+1,Tibet
+1,Tungching
+1,Xinjiang
+
+;County
+1,Boxing
+1,Cangshan
+1,Cao
+1,Changdao
+1,Changle
+1,Chengwu
+1,Ch'inghe
+1,Chiping
+1,Dingtao
+1,Dong'e
+1,Dongming
+1,Dongping
+1,Fei
+1,Gaoqing
+1,Gaotang
+1,Guan
+1,Guangrao
+1,Huantai
+1,Huimin
+1,Jiaxiang
+1,Jinxiang
+1,Jiyang
+1,Ju
+1,Juancheng
+1,Junan
+1,Juye
+1,Kenli
+1,Liangshan
+1,Lijin
+1,Ling
+1,Linqu
+1,Linshu
+1,Linyi
+1,Mengyin
+1,Ningjin
+1,Ningyang
+1,Pingyi
+1,Pingyin
+1,Pingyuan
+1,Qihe
+1,Qingyun
+1,Shan
+1,Shanghe
+1,Shen
+1,Sishui
+1,Tancheng
+1,Weishan
+1,Wenshang
+1,Wucheng
+1,Wudi
+1,Wulian
+1,Xiajin
+1,Yanggu
+1,Yangxin
+1,Yanku
+1,Yinan
+1,Yishui
+1,Yiyuan
+1,Yuncheng
+1,Yutai
+1,Zhanhua
+1,Zouping
+
+;District
+1,Bincheng
+1,Boshan
+1,Changqing
+1,Chengyang
+1,Daiyue
+1,Decheng
+1,Dongchangfu
+1,Donggang
+1,Dongying
+1,Gangcheng
+1,Fangzi
+1,Fushan
+1,Hanting
+1,Hedong
+1,Hekou
+1,Huancui 
+1,Huangdao
+1,Huaiyin
+1,Kuiwen
+1,Laicheng
+1,Laishan
+1,Lanshan
+1,Laoshan
+1,Licang
+1,Licheng
+1,Linzi
+1,Lixia
+1,Luozhuang
+1,Mudan
+1,Muping
+1,Rencheng
+1,Shibei
+1,Shinan
+1,Shizhong
+1,Shanting
+1,Shizhong
+1,Shizhong
+1,Sifang
+1,Tai'erzhuang
+1,Taishan
+1,Tianqiao
+1,Weicheng
+1,Xuecheng
+1,Yicheng
+1,Zhangdian
+1,Zichuan
+1,Zhoucun
+1,Zhifu
+
+;City
+1,Anqiu
+1,Binzhou
+1,Changyi
+1,Dezhou
+1,Dongying
+1,Feicheng
+1,Gaomi
+1,Haiyang
+1,Heze
+1,Jiaonan
+1,Jiaozhou
+1,Jimo
+1,Jinan
+1,Jining
+1,Laiwu
+1,Laixi
+1,Laiyang
+1,Laizhou
+1,Leling
+1,Liaocheng
+1,Linqing
+1,Linyi
+1,Longkou
+1,Loyang
+1,Penglai
+1,Pingdu
+1,Ping Yuan
+1,Qingdao
+1,Qingzhou
+1,Qixia
+1,Qufu
+1,Rizhao
+1,Rongcheng
+1,Rushan
+1,Shouguang
+1,Tai'an
+1,Tengzhou
+1,Weifang
+1,Weihai
+1,Wendeng
+1,Xintai
+1,Xuchang
+1,Xuzhou
+1,Yantai
+1,Yanzhou
+1,Yucheng
+1,Zoucheng
+1,Zaozhuang
+1,Zhangqiu
+1,Zibo
+1,Zhucheng
+1,Zhaoyuan
+
+;Province
+1,Anhui
+1,Fujian
+1,Gansu
+1,Guangdong
+1,Guizhou
+1,Hainan
+1,Hebei
+1,Heilongjiang
+1,Henan
+1,Hubei
+1,Hunan
+1,Jiangsu
+1,Jiangxi
+1,Jilin
+1,Liaoning
+1,Qinghai
+1,Shaanxi
+1,Shandong
+1,Shanxi
+1,Sichuan
+1,Yunnan
+1,Zhejiang
+
+

@@ -1,0 +1,161 @@
+
+;Start
+1,[NobleMale] (Noble, Jaguar Knight, or Priest)
+1,[NobleFemale] (Priestess, Sorceress, or Lady)
+1,[Pochteca] (Pochteca or Macehualli)
+1,[FemaleCommoner] (Female Commoner)
+1,[MaleGeneric] (Male Commoner)
+
+
+;NobleMale
+1,Cuetzpalli (lizard)
+1,Cipactli (crocodile)
+1,Xochipepe (flower-gatherer)
+1,Cuixtli (kite)
+1,Yaotl (warrior)
+1,Matlalihuitl (purple feather)
+1,Acamapichtli (handful of reeds)
+1,Itzcoatl (obsidian snake)
+1,Chimalpopoca (smoking shield)
+1,Nochehuatl (consistent)
+1,Coatl (snake)
+1,Quauhtli (eagle)
+1,Izel (unique)
+1,Citlalmina (arrow stars; meteorites)
+1,Xiuhcoatl (fire serpent)
+1,Cipactli (alligator)
+1,Itz (obsidian)
+1,Miquiztli (death)
+1,Yayauhqui (black smoking mirror)
+1,Xipil (noble of the fire)
+;NobleFemale
+1,Cihuaton (little woman)
+1,Xochicotzin (little necklace)
+1,Coaxoch (serpent flower)
+1,Quetzalxochitl (precious flower)
+1,Tlanextli (radiance and majesty)
+1,Tlexictli (fire navel)
+1,Teoxihuitl (precious and divine)
+1,Tonalnan (mother of light)
+1,Xochiyotl (heart of a gentle flower)
+1,Yolihuani (source of life)
+1,Yoloxochitl (flower of the heart)
+1,Xiloxoch (calliandra flower)
+1,Miyaoaxochitl (maize tassel)
+1,Eloxochitl (magnolia)
+1,Xochiquetzal (most beautiful flower)
+1,Azcalxochitzin (ant flower)
+1,Quiauhxochitl (rain flower)
+1,Tziquetzalpoztectzin (broken plume)
+1,Mizquixaual (mesquite face paint)
+1,Citlalmina (female hero)
+
+;Pochteca
+1,Moquihuix (drunkard)
+1,Xocoyotl (youngest child)
+1,Malinalxochitl (grass flower)
+1,Nezahualcoyotl (hungry coyote)
+1,Tochtli (rabbit)
+1,Matlal (dark green)
+1,Mazatl (deer)
+1,Tlalli (earth)
+1,Necahual (survivor, left-behind)
+1,Nezahual (hungry)
+1,Tlazohtzin (one who is loved)
+1,Ocelotl (ocelot)
+1,Nochtli (prickly pear cactus)
+1,Ozomatli (monkey)
+1,Tecpatl (flint knife)
+1,Tepetl (mountain)
+1,Itzcuintli (dog)
+1,Tlantli (teeth)
+1,Ixcatzin (like cotton)
+1,Malinalli (grass)
+
+;FemaleCommoner
+1,Teyacapan (first born)
+1,Xoco (youngest sister)
+1,Tlaco (middle-born)
+1,Teicuih (younger sister)
+1,Cozamalotl (rainbow)
+1,Tepin (little one)
+1,Zeltzin (delicate)
+1,Tlacotl (twig)
+1,Mazatl (deer)
+1,Acatl (reed)
+1,Coszcatl (jewel)
+1,Xochitl (flower)
+1,Chalchiuitl (emerald)
+1,Cuicatl (song)
+1,Xocoyotl (youngest child)
+1,Tlacoehua (middle one)
+1,Eleuia (wish)
+1,Nenetl (doll)
+1,Noxochicoztli (necklace of flowers)
+1,Papan (flag)
+
+;MaleGeneric
+1,Achcauhtli (leader)
+1,Ahuiliztli (joy)
+1,Cualli (good)
+1,Etalpalli (wing)
+1,Eztli (blood)
+1,Ichtaca (secret)
+1,Icnoyotl (friendship)
+1,Ilhuitl (day)
+1,Itotia (dance)
+1,Iuitl (feather)
+1,Amoxtli (book)
+1,Atl (water)
+1,Chicahua (strong)
+1,Chipahua (clean)
+1,Citlalli (star)
+1,Ixtli (face)
+1,Mahuizoh (glorious person)
+1,Manauia (defend)
+1,Mecatl (glorious lineage)
+1,Meztli (moon)
+1,Momoztli (altar)
+1,Moyolehuani (enamored one)
+1,Nahuatl (four waters)
+1,Nelli (truth)
+1,Nochtli (prickly pear fruit)
+1,Yolotli (heart)
+1,Ohtli (road)
+1,Patli (medicine)
+1,Tenoch (stone pillar)
+1,Tlachinolli (fire)
+1,Atl (water)
+1,Toltecatl (artist)
+1,Xihuitl (comet)
+1,Zolin (quail)
+1,Yolyamanitzin (considerate person)
+1,Centehua (only one)
+1,Xiuhtonal (precious light)
+1,Yoltzin (small heart)
+1,Cozcaquauhtli (vulture)
+1,Ehecatl (wind)
+
+;Food
+1,Bean and squash stew with chili and tomato
+1,Acocils, small and abundant shrimp of Lake Texcoco
+1,Cakes of spirulina algae
+1,Maguey, agave nectar and liquor
+1,Honey water, honey comb, and other apiary products
+1,Pulque, a fermented beverage with an alcoholic content equivalent to beer
+1,Atole, a thick drink made of flavored ground corn and water
+1,Maguey worm and avacado
+1,Xocolatl, a frothy and bitter chocolate beverage
+1,Hairless dog in highly seasoned stew
+1,Turkey, pheasant, local partridge, marsh bird, and duck, and their eggs
+1,Venison, wild boar, hare and rabbit
+1,Fruit in great abundance - mango, papaya, tamarind, guava
+1,Tlaxcalli cakes kneaded with eggs
+1,Tamales made of maize flowers with ground amaranth seeds and cherries added
+1,Stew with amaranth, beans, squash, tomatoes, pads of nopal cactus and chiles
+1,Mushrooms, wild greens, sweet potato and tubers of all sorts
+1,Ants, grasshoppers, crickets and grubs eaten raw or cooked
+1,Sweet and delicious lake fish, as well as ocean fish
+1,Salamanders, shrimps, frogs, water snakes, and larvae
+
+

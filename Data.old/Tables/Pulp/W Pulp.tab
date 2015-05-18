@@ -1,0 +1,100 @@
+
+;Start
+1,[wPulpHeroNovel]
+
+;wPulpNoun
+1,Warriors
+1,Washtub
+1,Water
+1,Weapon
+1,Weed
+1,Wheels
+1,Wilderness
+1,Wine
+1,Wish
+1,Witches
+1,Wives
+
+;wPulpAdjNegative
+1,Wasted
+1,Wasteful
+1,Wavering
+1,Waxy
+1,Weasely
+1,Weird
+1,Wicked
+1,Wide
+1,Wilesome
+1,Wiley
+1,Wino
+1,Wishful
+1,Wishy Washy
+1,Woeful
+1,Worrisome
+
+;wPulpAdjPositive
+1,Warding
+1,Warring
+1,Well Wishing
+1,Wheaty
+1,White
+1,Wild
+1,Willful
+1,Willow
+1,Winged
+1,Winning
+1,Winsome
+1,Wiry
+1,Wise
+1,Witty
+1,Worthy
+
+;wPulpMaleFirstName
+1,Wade
+1,Waldo
+1,Wally
+1,Watson
+1,Wayne
+1,Wesley
+1,Wilbur
+1,Wilhelm
+1,Will
+1,William
+1,Winslow
+
+;wPulpFemaleFirstName
+1,Wanda
+1,Wendy
+1,Whitney
+1,Winona
+
+;wPulpLastName
+1,Wagner
+1,Wallace
+1,Warrior
+1,Waterford
+1,Watkins
+1,Weasel
+1,Webb
+1,White
+1,Widget
+1,Wing
+1,Wolf
+
+;pulpmiddle
+1,against the
+5,and the
+1,and the War of the
+1,in:
+1,and [wPulpAdjPositive] [wPulpMaleFirstName]'s 
+
+;pulpend
+1,[wPulpAdjNegative] [wPulpNoun]
+
+;wPulpHeroNovel
+10,[wPulpAdjPositive] [wPulpMaleFirstName] [pulpmiddle] [pulpend]
+1,[wPulpMaleFirstName] [wPulpLastName] [pulpmiddle] [pulpend]
+3,[wPulpAdjPositive] [wPulpFemaleFirstName] [pulpmiddle] [pulpend]
+1,[wPulpFemaleFirstName] [wPulpLastName] [pulpmiddle] [pulpend]
+
+

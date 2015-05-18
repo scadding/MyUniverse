@@ -1,0 +1,163 @@
+
+#==People==
+#<sgdisplay iterations="10">[main]</sgdisplay>
+#
+#
+#==Soccer Stars==
+#<sgdisplay iterations="4">[SOCCER SUPERSTARS]</sgdisplay>
+#
+#==Amazon Tribes==
+#<sgdisplay iterations="4">[TRIBES OF THE AMAZON BASIN]</sgdisplay>
+
+
+;Start
+1,[MALE] [SURNAMES] (Male)
+1,[FEMALE] [SURNAMES] (Female)
+
+;MALE
+1,Rui
+1,Carlos
+1,Eduardo
+1,André
+1,Gonçalo
+1,Carlos
+1,Miguel
+1,Tiago
+1,Gustavo
+1,Pedro
+1,Paulo
+1,João.
+1,Manuel
+1,José
+1,António
+1,Abel
+1,Ramiro
+1,Arlindo
+1,Helder
+1,Armindo
+;FEMALE
+1,Andreia
+1,Inês
+1,Joana
+1,Carla
+1,Maria Constância
+1,Cristina
+1,Sofia
+1,Sara
+1,Susana
+1,Maria Diamantina
+1,Berta
+1,Conceição
+1,Rosa
+1,Gracinda
+1,Ilda
+1,Maria João
+1,Antónia
+1,Natália
+1,Lucinda
+1,Maria Alzira
+;SURNAMES
+6,da Costa
+1,Álvares
+1,Moraes
+1,Andrade
+1,Sá
+1,Pires
+1,Silveira
+1,Rego
+1,Sanches
+1,Moreira
+1,Amaral
+1,Borges
+1,Cardoso
+1,Carvalho
+1,Branco
+1,Castro
+5,da Silva
+1,Dias
+1,Cavalcante
+1,da Mata
+1,de Jesus
+1,Muniz
+1,Antunes
+1,Sousa
+1,Couto
+1,Cruz
+1,Tavares
+1,Neves
+1,do Nascimento
+1,Fagundes
+1,Ferreira
+1,Garcia
+1,Gil
+1,Lima
+1,Mendes
+1,Fernandes
+1,Mendonça
+4,Dos Santos
+1,da Conceição
+1,Reis
+1,Nogueira
+1,Oliveira
+1,Lins
+1,Medeiros
+1,Pereira
+1,Pinto
+1,Brito
+1,Cabral
+1,Azevedo
+1,Bernardes
+1,Câmara
+1,Ribeiro
+1,Gomes
+1,Henriques
+1,Lopes
+1,Martins
+1,Jayme or Jaime
+1,Rodrigues
+1,Serrano
+1,Torres
+;SOCCER SUPERSTARS
+1,Branco
+1,Cafu
+1,Miniero
+1,Junior
+1,Lucio
+1,Cicinho
+1,Cris
+1,Emerson
+1,Formiga
+1,Didi
+1,Dunga
+1,Luisao
+1,Gilberto
+1,Zagallo
+1,Kaka
+1,Ze Roberto
+1,Tostao
+1,Adriano
+1,Fred
+1,Zico
+;TRIBES OF THE AMAZON BASIN
+1,Kayapo
+1,Yekuana
+1,Iban
+1,Mehinacu
+1,Xikru
+1,Katukina
+1,Kaiowa
+1,Kayabi
+1,Suya
+1,Piraha
+1,Awá
+1,Guaraní
+1,Jeripankó
+1,Ticuna
+1,Worani
+1,Yanonami
+1,Munduruku
+1,Zuruaha
+1,Tapirapé
+1,Kamayurá
+
+
