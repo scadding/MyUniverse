@@ -274,7 +274,8 @@ class MyFrame(wx.Frame):
 			self.Layout()
 		else:
 			f = codecs.open(name + '.html', 'w', "utf-8")
-			f.write(content)
+			u = unicode(content, "utf-8")
+			f.write(u)
 			f.close()
 			html.SetPage("", name)
 			path = os.getcwd()
