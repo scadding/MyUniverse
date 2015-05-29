@@ -1,0 +1,100 @@
+a Clan                      
+b Eery                      
+c Clown                     
+d Gadarur                   
+e Nemo                      
+f New Town                  
+g Voyager                   
+h Walpurgis                 
+i Iouo                      
+j Valhalla                  
+k Swan                      
+l Fugue                     
+m Last Chance               
+n Black Jack                
+o Olympus                   
+p Morency                   
+route 0102 0203
+route 0105 0205
+route 0203 0205
+route 0203 0601
+route 0203 0505
+route 0505 0805
+route 0903 1105
+route 1105 1403
+route 1105 1208
+route 1208 1408
+route 1403 1605
+route 1807 1907
+route 1907 2106
+route 2106 2103
+route 2106 2406
+route 2701 2903
+route 2903 2904
+route 2904 2706
+route 2810 3109
+route 0115 0119
+route 0115 0415
+route 0211 0413
+route 0413 0415
+route 0415 0814
+route 0814 0713
+route 0920 1119
+route 1119 1418
+route 1119 1016
+route 1418 1415
+route 1415 1213
+route 1213 1512
+route 1912 2214
+route 1916 2214
+route 1916 1918
+route 1918 1720
+route 2214 2411
+route 3012 3214
+route 0125 0227
+route 0125 0223
+route 0223 0523
+route 0227 0427
+route 0227 0428
+route 0523 0624
+route 0624 0427
+route 0624 0722
+route 0921 1022
+route 1022 1324
+route 1324 1326
+route 1324 1524
+route 1326 1029
+route 1029 0930
+route 1524 1521
+route 1524 1627
+route 1627 1529
+route 1927 1830
+route 1927 2124
+route 1927 2229
+route 2728 2927
+route 2923 3223
+route 2927 3227
+route 3223 3227
+route 0135 0233
+route 0233 0531
+route 0137 0135
+route 0137 0337
+route 0137 0139
+route 0337 0536
+route 0931 1134
+route 1134 1136
+route 1136 1238
+route 1238 1438
+route 1438 1537
+route 1833 1735
+route 2135 1833
+route 2135 2335
+route 2335 2338
+route 2338 2439 
+route 2631 2633
+route 2633 2933
+route 2933 3231
+route 2933 3036
+route 2940 2539
+route 3036 2940
+route 3040 2940

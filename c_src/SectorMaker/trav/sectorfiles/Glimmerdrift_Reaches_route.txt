@@ -1,0 +1,123 @@
+a Darkling
+b Thorstone
+c Tri-Empire
+d Marla
+e Glowing
+f Kraxin
+g Williamsburg
+h Tasman
+i Even
+j Poonch
+k Sosie
+l Ryazan
+m Verge
+n Zairae
+o Sepik
+p Daro
+route 1107 1109
+route 1107 1206
+route 1109 1210
+route 1203 1402
+route 1203 1306
+route 1206 1306
+route 1306 1406
+route 1308 1406
+route 1308 1408
+route 1401 1402
+route 1402 1602
+route 1408 1608
+route 1510 1609
+route 1605 1606
+route 1606 1607
+route 1607 1608
+route 1608 1609
+route 1707 1906
+route 1710 1810
+route 1802 1902
+route 1810 1909
+route 1901 1902
+route 1902 2202
+route 1906 2107
+route 1909 2109
+route 2107 2109
+route 2109 2209
+route 2202 2302
+route 2202 2303
+route 2209 2407
+route 2302 2303
+route 2303 2403
+route 2403 2404
+route 2404 2406
+route 2406 2407
+route 2509 2708
+route 2604 2804
+route 2604 2606
+route 2606 2708
+route 2708 2807
+route 2804 2903
+route 2804 2906
+route 2807 2906
+route 2906 3005
+route 0620 0720
+route 0720 0818
+route 0919 1019
+route 1016 1118
+route 1019 1118
+route 1019 1120
+route 1112 1211
+route 1118 1216
+route 1118 1119
+route 1119 1120
+route 1120 1420
+route 1120 1220
+route 1211 1411
+route 1211 1212
+route 1212 1213
+route 1213 1314
+route 1216 1317
+route 1220 1420
+route 1314 1515
+route 1317 1517
+route 1317 1519
+route 1411 1511
+route 1411 1412
+route 1412 1612
+route 1420 1519
+route 1420 1620
+route 1519 1618
+route 1811 1912
+route 1817 1918
+route 1912 1913
+route 1912 2112
+route 1913 1914
+route 1914 2114
+route 1918 2118
+route 2112 2211
+route 2113 2114
+route 2117 2316
+route 2117 2118
+route 2118 2219
+route 2315 2413
+route 2315 2316
+route 2316 2416
+route 2416 2417
+route 2513 2612
+route 2516 2615
+route 2612 2711
+route 2612 2613
+route 2613 2615
+route 2613 2714
+route 2615 2715
+route 2714 2715
+route 2715 2814
+route 2715 2816
+route 2816 2918
+route 2912 3112
+route 2918 3016
+route 2918 2919
+route 2919 2920
+route 3016 3215
+route 3112 3212
+route 3212 3214
+route 3214 3215
+route 0129 0229

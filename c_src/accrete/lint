@@ -1,0 +1,16 @@
+accrete.c:
+accrete.c:57: warning: argument mass unused in function outer_effect_limit
+display.c:
+enviro.c:
+enviro.c:63: warning: argument orbital_radius unused in function kothari_radius
+enviro.c:279: warning: argument orbital_radius unused in function molecule_limit
+main.c:
+mtrng.c:
+utils.c:
+Lint pass2:
+genrand_res53 defined( mtrng.c(165) ), but never used
+genrand_real1 defined( mtrng.c(144) ), but never used
+genrand_real2 defined( mtrng.c(151) ), but never used
+anum defined( main.c(12) ), but never used
+genrand_int31 defined( mtrng.c(138) ), but never used
+init_by_array defined( mtrng.c(74) ), but never used

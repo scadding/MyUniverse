@@ -1,0 +1,92 @@
+a Eshiensdiazh              
+b Apbisharzie               
+c Atla                      
+d Asepsedvl                 
+e Zhdensh                   
+f Keditlye                  
+g Etszdili                  
+h Tekli                     
+i Anshnieprlenzh            
+j Dlazdiaz Shtiaklbo        
+k Tliaqlvie                 
+l Ianshepl                  
+m Anshernieprlenzh          
+n Dintzhdevrieziz           
+o Iavdeiev                  
+p Zdiadlevepra              
+route 1803 2102 
+route 1803 2205 
+route 1908 2205 
+route 2504 2601 
+route 2601 2903 
+route 2903 3201 
+route 0119 0419 
+route 0316 0617 
+route 0412 0511 
+route 0412 0514 
+route 0419 0519 
+route 0514 0714 
+route 0519 0520 
+route 0519 0617 
+route 0714 0715 
+route 0916 0918 
+route 0916 1015 
+route 0918 0919 
+route 0918 1118 
+route 0919 1020 
+route 1015 1315 
+route 1118 1419 
+route 1315 1514 
+route 1411 1511 
+route 1419 1519 
+route 1514 1411 
+route 0128 0227 
+route 0222 0324 
+route 0227 0324 
+route 0227 0529 
+route 0324 0723 
+route 0529 0530 
+route 0529 0628 
+route 0628 0828 
+route 0923 0924 
+route 0924 1123 
+route 1029 1430 
+route 1522 1526 
+route 1726 1825 
+route 1825 1927 
+route 1829 2028 
+route 1927 2028 
+route 0134 0236 
+route 0140 0439 
+route 0236 0436 
+route 0436 0437 
+route 0437 0738 
+route 0439 0738 
+route 0934 1136 
+route 1136 1137 
+route 1137 1038 
+route 1137 1336 
+route 1238 1336 
+route 1238 1240 
+route 1336 1435 
+route 1435 1535 
+route 1535 1634 
+route 1834 1934 
+route 1835 1937 
+route 1837 1839 
+route 1934 2033 
+route 1937 1837 
+route 2033 1835 
+route 2033 2135 
+route 2033 2331 
+route 2135 2237 
+route 2237 2439 
+route 2535 2636 
+route 2535 2933 
+route 2636 2938 
+route 2933 3233 
+route 2938 3037 
+route 2938 3039 
+route 3037 3138 
+route 3136 3037 
+route 3039 3240 

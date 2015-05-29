@@ -1,0 +1,56 @@
+a Pretoria                  
+b Lamas                     
+c Antra                     
+d Million                   
+e Sabine                    
+f Inar                      
+g Dunmag                    
+h Atsah                     
+i Star Lane                 
+j Vincennes                 
+k Usani                     
+l Geniishir                 
+m Gulf                      
+n Zeng                      
+o Kamiar                    
+p Vast Heavens              
+route 0201 0504
+route 0504 0406
+route 0406 0208
+route 0406 0805
+route 1006 1309
+route 1309 1609
+route 1808 1910
+route 0311 0514
+route 0514 0316
+route 0514 0715
+route 0316 0715
+route 0316 0517
+route 0517 0715
+route 1615 1417
+route 1417 1520
+route 1213 1016
+route 0917 1018
+route 2111 2413
+route 2813 2913
+route 2913 3015
+route 3015 3016
+route 3016 2717
+route 0524 0826
+route 0826 0729
+route 0925 1122
+route 1122 1522
+route 1522 1623
+route 1925 1826
+route 1826 1829
+route 1925 2225
+route 2225 2323
+route 0731 0332
+route 0233 0332
+route 1532 1432
+route 1432 1633
+route 1633 1636
+route 1432 1336
+route 1336 1339
+route 1339 1639
+route 1639 1640

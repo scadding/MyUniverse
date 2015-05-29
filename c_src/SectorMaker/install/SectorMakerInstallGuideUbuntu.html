@@ -1,0 +1,276 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SectorMaker Installation - Ubuntu</title>
+<style type="text/css">
+<!--
+.titleText {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: left;
+}
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+.codeText {
+	font-family: "Courier New", Courier, monospace;
+}
+div.code {
+	font-family: "Courier New", Courier, monospace;
+	padding: 0.5em;
+	border: none;
+	width: 700px;
+	background-color: #84BDCE;
+  }
+.paragraphHead {
+	font-size: 14px;
+	font-weight: bold;
+}
+.sectionHead {
+	font-size: 16px;
+	font-weight: bold;
+}
+.sectorFormat {
+	font-size: 12px;
+	font-weight: normal;
+}
+.sectorFormatHead {
+	font-size: 12px;
+	font-weight: bold;
+}
+-->
+</style>
+</head>
+
+<body>
+<p><span class="titleText">SectorMaker Installation - 
+  Ubuntu (8.10, 9.04, 9.10)</span><br />
+by Chris Moynihan (forthekill at gmail.com, forthekill.com)</p>
+<p class="sectionHead">I. Installation
+<p><span class="paragraphHead">STEP ONE - Install and Configure Apache HTTP Server</span><br />
+  Install the Ubuntu version of Apache HTTP Server
+<div class="code">sudo apt-get install apache2</div>
+<p> Create the <span class="codeText">cgi-bin</span> folder</p>
+<div class="code">sudo mkdir /var/www/cgi-bin</div>
+<p>Edit the <span class="codeText">/etc/apache2/sites-available/default</span> and change the two occurances of <span class="codeText">/usr/lib</span> in the cgi section to <span class="codeText">/var/www</span>.<br />
+Make sure you do this with proper access, or you won't be allowed to save the file.
+<div class="code">sudo gedit /etc/apache2/sites-available/default</div>
+<p> Example:</p>
+<div class="code">.....<br />
+  ScriptAlias /cgi-bin/ <strong>/var/www</strong>/cgi-bin/<br />
+  &lt;Directory "<strong>/var/www</strong>/cgi-bin"&gt;<br />
+  &nbsp;&nbsp;AllowOverride None<br />
+  &nbsp;&nbsp;Options +ExecCGI -MultiViews +SymLinksIfOwnerMatch<br />
+  &nbsp;&nbsp;Order allow,deny<br />
+  &nbsp;&nbsp;Allow from all<br />
+  &lt;/Directory&gt;<br />
+.....</div>
+<p> <span class="paragraphHead">STEP TWO - Install Perl</span><br />
+  Install Perl 5.
+<div class="code">sudo apt-get install perl</div>
+<p><span class="paragraphHead">STEP THREE - Install  PDFTK</span><br />
+  Install the Ubuntu version of PDFTK, used for splitting, joining, compressing and overlaying PDF pages.
+<div class="code">sudo apt-get install pdftk</div>
+<p><span class="paragraphHead">STEP FOUR - Install PDF-API2</span><br />
+  Install PDF-API2, a Perl resource for handling PDFs and fonts.
+<div class="code">sudo apt-get install libpdf-api2-perl</div>
+<p><span class="paragraphHead">STEP FIVE - Install Ghostscript (PS2PDF)</span><br />
+  Install PS2PDF, used for converting Postscript to PDF.
+<div class="code">sudo apt-get install ghostscript</div>
+<p><span class="paragraphHead">STEP SIX - Create The Output and Temp Folders</span><br />
+  Create folders for the script to use, one for the final output and one for temporary files.<div class="code">sudo mkdir /sectors<br />
+  sudo mkdir /sectors/autogen<br />
+  sudo mkdir /sectors/tmp<br />
+  sudo chmod a=rwx /sectors/autogen<br />
+sudo chmod a=rwx /sectors/tmp</div>
+<p><span class="paragraphHead">STEP SEVEN - Download and Unzip the SectorMaker Archive</span><br />
+  Unzip the SectorMaker files from the archive somewhere easily accessible. This will create a folder called SectorMaker in that location.
+<div class="code">unzip SectorMaker.zip -d /var/tmp/<br />
+  cd /var/tmp/SectorMaker</div>  
+<p><span class="paragraphHead">STEP EIGHT - Copy the trav Folder</span><br />
+  Copy the <span class="codeText">trav</span> folder to the <span class="codeText">cgi-bin</span> directory.
+<div class="code">sudo cp -ar ./trav /var/www/cgi-bin/</div>
+<p><span class="paragraphHead">STEP NINE - Copy the Scripts</span><br />
+  Copy the three scripts to the <span class="codeText">cgi-bin</span> directory.
+<div class="code">sudo cp SectorMaker.cgi SectorMaker.sh BatchSectorMaker.sh converter1.sh /var/www/cgi-bin<br />
+  sudo cp *.pl /var/www/cgi-bin<br />
+  sudo cp mapsub* /var/www/cgi-bin</div>
+<p><span class="paragraphHead">STEP TEN - Copy Custom Corefonts</span><br />
+  Install the custom CoreFont fonts.
+<div class="code">cd install/pdf-api2<br />
+  sudo cp universbold.pm univers.pm optima.pm /usr/share/perl5/PDF/API2/Resource/Font/CoreFont/<br />
+  sudo cp CoreFont.pm /usr/share/perl5/PDF/API2/Resource/Font/</div>
+<p><span class="paragraphHead">STEP ELEVEN - Install the New Fonts<br />
+  </span>  Install the required TrueType fonts (a few styles of Univers and Optima) into the fonts folder.
+<div class="code">sudo mkdir /usr/share/fonts/truetype/SectorMaker<br />
+  cd /var/tmp/SectorMaker/install/ttf<br />
+  sudo cp Univers* Optima* /usr/share/fonts/truetype/SectorMaker<br />
+  sudo fc-cache -f -v</div>
+<p><span class="paragraphHead">STEP TWELVE - Copy the Custom Binaries</span><br />
+  Install the custom SW4 Traveller binaries into your computer's <span class="codeText">/usr/bin/</span> folder.
+<div class="code">cd /var/tmp/SectorMaker/install/bin<br />
+  sudo cp full-upp mapsub3 subsec2 gensec3 gensec4 /usr/bin/</div>
+<p><span class="paragraphHead">STEP THIRTEEN - Set the Script Permissions</span><br />
+Move to the <span class="codeText">cgi-bin</span> directory and set the script permissions properly.
+<div class="code">cd /var/www/cgi-bin<br />
+sudo chmod ugo+x SectorMaker.cgi SectorMaker.sh BatchSectorMaker.sh</div>
+<p><span class="paragraphHead">STEP FOURTEEN - Install Enscript</span><br />
+Install enscript.
+<div class="code">sudo apt-get install enscript</div>
+<p><span class="paragraphHead">STEP FIFTEEN - Copy the  Custom Enscript Files</span><br />
+Install custom enscript files.
+<div class="code">cd /var/tmp/SectorMaker/install/enscript<br />
+sudo cp enscript.cfg /etc/<br />
+sudo cp traveller*.hdr /usr/share/enscript/</div>
+<p><span class="paragraphHead">STEP SIXTEEN - For 64-bit OS Only</span><br />
+  Install ia32-libs for support for running the 32-bit binaries
+<div class="code">sudo apt-get install ia32-libs</div>
+<p>&nbsp;
+<p class="sectionHead">II. Using the Scripts<p><span class="paragraphHead">Using the Scripts Via Command Line</span><br />
+To use the script from the command line, navigate to the <span class="codeText">/var/www/cgi-bin</span> folder and use the following syntax:<br />
+<span class="codeText">./SectorMaker.sh {sectorname} {density} {tech} {desc} {{secfile}} {{regen}}<br />
+</span><br />
+  To use the batch sector maker, navigate to the<span class="codeText"> /var/www/cgi-bin</span> folder and use the following syntax:<br />
+  <span class="codeText">./BatchSectorMaker.sh {number of sectors} {tech} {desc} </span>
+<p><span class="paragraphHead">Using the Scripts Via Web Browser</span><br />
+To use the script from a web browser, use the syntax for either of the two following URLs:<br />
+<br />
+<span class="codeText">http://[servername]/cgi-bin/SectorMaker.cgi/<em>sectorName</em>.pdf?{sectorname}+{density}+{tech}+{desc}+{{secfile}}+{{regen}}<br />
+http://[servername]/cgi-bin/SectorMaker.cgi?{sectorname}+{density}+{tech}+{desc}+{{secfile}}+{{regen}}</span><br />
+<br />
+The first URL will return a file called <span class="codeText"><em>sectorName</em>.pdf</span> to the browser.<br />
+The second URL will return a file called <span class="codeText">SectorMaker.cgi</span> to the browser, which is actually a PDF.
+<p><span class="paragraphHead">Parameters</span><br />
+  <span class="codeText">{sectorname}</span><br />
+  What you would like the name of the sector to be.<br />
+  <br />
+  <span class="codeText">{density|zero,rift,sparse,scattered,dense, or Xx}</span><br />
+  Determines the stellar density of the sector (avg. of worlds per subsector)<br />
+  <span class="codeText">zero = 0% (No random worlds will be generated. A <em>sectorName</em>_names.txt file in /sectors/autogen must be present, which will be used  for the world names and locations)<br />
+  rift = 4%  (~1-10)<br />
+  sparse = 16% (~5-20)<br />
+  scattered = 33% (~19-35)<br />
+  dense = 66% (~40-62)<br />
+  Xx = Xx% (Specify a number, from 0 to 100)</span><br />
+  <br />
+  <span class="codeText">{tech|backwater,frontier,mature,cluster}</span><br />
+  The general technology level of the sector, how well travelled it is<br />
+  <br />
+  <span class="codeText">{desc|1,2,3}</span><br />
+  Level of description for generated worlds<br />
+  <span class="codeText">1 = UPP and Animal<br />
+  2 = UPP only<br />
+  3 = None</span><br />
+  <br />
+  <span class="codeText">{secfile|<em>sectorName</em>.sec}</span><br />
+  Pre-existing sector file name. Used if an existing set of files is available in <span class="codeText">/sectors/autogen</span> <span class="codeText">(<em>sectorName</em>.sec</span>, <span class="codeText"><em>sectorName</em>_route.txt</span>, <span class="codeText"><em>sectorName</em>_alliances.txt</span>)<br />
+  Using this parameter renders the density and tech parameters irrelevant, although with the command line you need to put something for those as placeholders.<br />
+  <br />
+  <span class="codeText">{regen|1,2,3}<br />
+  </span>Pre-existing regeneration options. Used only if a <span class="codeText">secfile</span> is specified.<br />
+  <span class="codeText">1 = Use pre-existing routes and borders (May generate additional routes and borders)<br />
+  2 = Use pre-existing routes only (Will not generate additional routes, but it will generate new borders)<br />
+  3 = Use pre-existing routes and borders only (Will not generate any new routes or borders)</span>
+<p><span class="paragraphHead">Examples</span>
+<p><span class="codeText">./SectorMaker.sh Orion sparse mature 1</span><br />
+  This will create Orion.pdf with 16% world density in the sector, at a mature tech level, and include UPP and Animal descriptions for each world.
+<p><span class="codeText">./SectorMaker.sh Orion 20 mature 2</span><br />
+This will create 
+Orion.pdf with 20% world density in the sector, at a mature tech level, and include UPP descriptions for each world.
+<p><span class="codeText">./SectorMaker.sh Orion dense mature 3 Orion.sec 3</span><br />
+  This will create 
+Orion.pdf, ignoring the world density and tech level, and use the existing <span class="codeText">Orion.sec</span>, <span class="codeText">Orion_route.txt</span>, and <span class="codeText">Orion_alliances.txt</span> files instead. The borders and routes will be used, and new ones may be added. The worlds will have no descriptions.
+<p><span class="codeText">./SectorMaker.sh Orion zero mature 2</span><br />
+  This will create Orion.pdf, but no randomly generated worlds will be created. If <span class="codeText">Orion_names.txt</span> is present in <span class="codeText">/sectors/autogen</span> it will use those worlds, and randomly generate routes borders and world descriptions. If it is not present, you will get an empty sector.
+<p>&nbsp;</p>
+<p class="sectionHead">III. Using A <em>sectorName</em>_names.txt File
+<p><span class="paragraphHead">Purpose</span><br /> 
+  SectorMaker normally creates a PDF by generating an entire sector randomly, to keep you from having to do the work. It can also create PDFs of existing .sec files that you may have, such as from some of the Traveller data out there. But that requires full sector data including UPPs, etc. What if you just want to come up with names and locations of worlds, and let SectorMaker generate the UPP data and create a PDF? That's where using a <span class="codeText"><em>sectorName</em>_names.txt</span> file comes in.</p>
+<p>The modifcations made in gensec3c, allow you to create a names file with only a list of System Names and Hex Numbers. The System Names and Hex Numbers will be used to create the .sec file, and the rest of each system's data will be randomly generated, depending on the density specified. If you specify 'zero' as the density, then only the systems in the names file will be used.</p>
+<p><span class="paragraphHead">File Format</span><br />
+The format of the file is similar to that of a traditional .sec file, but it does not use any other data except System Name and Hex Number.<br />
+<br />
+1-18  = System Name<br />
+  19    = A space<br />
+20-23 = Hex Number<br />
+<br />
+Example:</p>
+<p class="codeText">Terra&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1230<br />
+  Sirius&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1232<br />
+  Altair&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1530<br />
+  Oligarn's_Star&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2037</p>
+<p>The lines MUST be ordered by hex number, from low to high.</p>
+<p><span class="paragraphHead">Use with SectorMaker</span><br />
+The SectorMaker scripts included in this package are already set to use gensec4, which will utilize a names file if present.</p>
+<p>&nbsp;</p>
+<p class="sectionHead">IV. gensec4</p>
+<p><span class="paragraphHead">Purpose<br />
+</span>The point of a new version of gensec became apparent when I was adding the code to use a <span class="codeText"><i>sectorName</i>_names.txt</span> file. Not only did I want to add parameters to the command line, but I wanted to add the ability to output in any one of the popular .sec file formats, all of which differ slightly. At the same time, I thought with such a rewrite, I'd do it in C++ rather than keep it in C.</p>
+<p><span class="paragraphHead">What has changed from gensec3<br />
+</span>- Rewritten in C++<br />
+- Ability to specify a <span class="codeText"><i>sectorName</i>_names.txt</span> file<br />
+- Added multiple output formats</p>
+<p><span class="paragraphHead">Output Formats<br />
+</span>There are currently six different output formats supported by gensec4. If some other popular format comes into use, it can be added later.</p>
+<p class="codeText"> Version&nbsp;&nbsp;&nbsp;Description<br />
+  1.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Original Standard UPP .sec format<br />
+  2.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;New Standard UWP format (GEnie) .sec format<br />
+  2.1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heaven &amp; Earth/Galactic .sec format<br />
+  2.2&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Heaven &amp; Earth .hes format<br />
+  2.3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gensec/mapsec/subsec v2 .sec format<br />
+  2.5&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;travellermap.com API output .sec format<br />
+  3.0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TBD:	XML format?</p>
+<p><span class="paragraphHead">Output Format Layouts</span><br />
+  The first line of the file is reserved for the format. The format line consists of the text <span class="codeText">#Version: x.x</span> with the value
+of <span class="codeText">x.x</span> depending on which style of output was chosen. The rest of the file is the actual sector data, and each line is layed out according to the formats shown below.</p>
+<p class="sectorFormatHead">
+  v1.0: Original Standard UPP Format
+<pre class="sectorFormat">
+----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+0101 FAFAAZS-L b Ag Hi In Ri Wa Im z g r r</pre>
+<br />
+<span class="sectorFormatHead">v2.0: New Standard UWP Format (GEnie)</span>
+<pre class="sectorFormat">
+----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+systemname123 0101 FAFAAZS-L  b Ag Hi In Ri Wa  z  pbg Im stellardata12345</pre>
+<br />
+<span class="sectorFormatHead">v2.1: Heaven &amp; Earth/Galactic .sec</span>
+<pre class="sectorFormat">
+----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+systemnamehere0101 FAFAAZS-L  b Ag Hi In Ri Wa  z  pbg Im stellardata12345</pre>
+<br />
+<span class="sectorFormatHead">v2.2: Heaven &amp; Earth .hes</span>
+<pre class="sectorFormat">
+----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8----+
+0101  systemnamehere  FAFAAZS-L  Ag Hi In Ri   pbg  b  Im  z  s  stellardatagoeshere1</pre>
+<br />
+<span class="sectorFormatHead">v2.3: gensec/mapsub v2)</span>
+<pre class="sectorFormat">
+----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+systemnamegoeshere 0101 FAFAAZS-L b Ag Hi In Ri Wa  pbg Im z</pre>
+<br />
+<span class="sectorFormatHead">v2.5: travellermap.com</span>
+<pre class="sectorFormat">
+----+----1----+----2----+----3----+----4----+----5----+----6----+----7----+----8
+systemnameis25characters1 0101 FAFAAZS-L b Ag Hi In Ri Wa            z pbg Im</pre>
+<br />
+<p><span class="paragraphHead">Syntax for gensec4</span><br />
+The syntax is as follows:</p>
+<p class="codeText">gensec4 -d <i>density</i> -m <i>maturity</i> -s <i>sectorName</i> -p <i>pathToNamesFile</i> -o <i>formatNumber</i> -u <i>outputPath</i></p>
+<p><span class="sectionHead"><span class="paragraphHead">Parameters</span></span><br />
+  <span class="codeText">-h  --help          Print usage &quot; );<br />
+  -L  --subsecLet     Letter of Subsector (A-P) to generate, if omitted will generate entire sector &quot; );<br />
+  -d  --density       %|zero|rift|sparse|scattered|dense &quot; );<br />
+  -m  --maturity      Tech level, backwater|frontier|mature|cluster &quot; );<br />
+  -a  --ac            Two-letter system alignment code &quot; );<br />
+  -s  --secName       Name of sector. For default output file name and sectorName_names.txt file&quot; );<br />
+  -p  --path          Path to sectorName_names.txt file &quot; );<br />
+  -o  --outformat     1|2|3|4|5|6 : v1.0, v2.0, v2.1 v2.1b, v2.2, v2.5 &quot; );<br />
+-u  --outpath       Path and name of output file</span>
+<p class="sectionHead"><span class="paragraphHead">Examples</span></p>
+<p class="codeText">gensec4 -d rift -m mature -s Zebulon -p /sectors/autogen/ -o 5 -u /sectors/tmp/Zebulon.sec</p>
+</body>
+</html>

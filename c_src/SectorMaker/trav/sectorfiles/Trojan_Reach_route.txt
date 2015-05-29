@@ -1,0 +1,137 @@
+a Menorial
+b Egryn
+c Rax Rulin
+d Gazulin
+e Yggdrasil
+f Dpres
+g Sindal
+h Tobia
+i Nora'a
+j Goertel
+k Tlaiowaha
+l The Borderland
+m Ranib
+n Silraaihe
+o Hkea'as
+p Binary
+border 0110 0210 0310 0410 0510 0511 0512 0612 0713 0714 0715 0716 0616 0517 0417 0418 0319 0218 0119 0118 0117 0116 0115 0114 0113 0112 0111 0110 lightblue
+border 1005 1106 1206 1207 1308 1207 1107 1106 1005 blue
+border 0022 0122 0221 0220 0320 0420 0520 0619 0719 0818 0918 1017 1016 1015 1115 1114 1213 1313 1412 1411 1410 1510 1609 1608 1607 1606 1605 1606 1607 1708 1808 1909 2008 2108 2208 2309 2409 2510 2609 2709 2809 2910 3010 3111 3211 3312 3313 3314 3315 3316 3317 3318 3218 3219 3120 3020 2921 2922 2923 2823 2824 2725 2625 2626 2527 2528 2428 2429 2330 2331 2332 2232 2233 2134 2034 1935 1835 1836 1737 1637 1538 1438 1339 1340 1341 1241 1141 1041 0941 0841 0741 0641 0541 0441 0341 0241 0141 0041 0040 0039 0038 0037 0036 0035 0034 0033 0032 0031 0030 0029 0028 0027 0026 0025 0024 0023 0022 yellow
+border 1800 1900 2000 2100 2200 2300 2400 2500 2600 2700 2800 2900 3000 3100 3200 3300 3301 3302 3303 3304 3305 3306 3307 3308 3309 3310 3311 3210 3110 3009 2909 2908 2807 2708 2607 2507 2406 2306 2205 2105 2104 2103 2002 1902 1901 1800 red
+route 0122 0223 yellow
+route 0126 0132 yellow
+route 0126 0224 yellow
+route 0129 0328 yellow
+route 0130 0132 yellow
+route 0132 0232 yellow
+route 0139 0240 yellow
+route 0139 0338 yellow
+route 0210 0213 yellow
+route 0213 0415 yellow
+route 0220 0322 yellow
+route 0223 0224 yellow
+route 0223 0322 yellow
+route 0224 0425 yellow
+route 0232 0531 yellow
+route 0232 0234 yellow
+route 0317 0415 yellow
+route 0322 0523 yellow
+route 0328 0429 yellow
+route 0328 0528 yellow
+route 0415 0614 yellow
+route 0415 0616 yellow
+route 0425 0525 yellow
+route 0429 0431 yellow
+route 0429 0528 yellow
+route 0430 0431 yellow
+route 0523 0525 yellow
+route 0528 0727 yellow
+route 0727 0825 yellow
+route 0824 0825 yellow
+route 0824 1023 yellow
+route 0825 1026 yellow
+route 0835 0837 yellow
+route 0835 0934 yellow
+route 0835 1036 yellow
+route 0837 0839 yellow
+route 0837 1036 yellow
+route 0839 0640 yellow
+route 0839 0840 yellow
+route 0929 0931 yellow
+route 0929 1028 yellow
+route 0929 1030 yellow
+route 0930 0934 yellow
+route 0931 1030 yellow
+route 0934 1034 yellow
+route 1022 1023 yellow
+route 1022 1121 yellow
+route 1022 1221 yellow
+route 1023 1223 yellow
+route 1026 1028 yellow
+route 1026 1126 yellow
+route 1030 1230 yellow
+route 1034 1038 yellow
+route 1036 1733 yellow
+route 1220 1223 yellow
+route 1223 1324 yellow
+route 1230 1429 yellow
+route 1235 1436 yellow
+route 1339 1438 yellow
+route 1426 1626 yellow
+route 1429 1630 yellow
+route 1436 1438 yellow
+route 1534 1733 yellow
+route 1534 1735 yellow
+route 1534 1835 yellow
+route 1619 1621 yellow
+route 1621 1723 yellow
+route 1626 1728 yellow
+route 1630 1631 yellow
+route 1631 1733 yellow
+route 1723 1823 yellow
+route 1728 1928 yellow
+route 1733 1735 yellow
+route 1733 1933 yellow
+route 1823 2023 yellow
+route 1919 2020 yellow
+route 1927 1928 yellow
+route 1928 2029 yellow
+route 1931 1933 yellow
+route 1931 2029 yellow
+route 2020 2221 yellow
+route 2023 2421 yellow
+route 2123 2424 yellow
+route 2221 2621 yellow
+route 2226 2227 yellow
+route 2226 2624 yellow
+route 2233 2234 yellow
+route 2233 2332 yellow
+route 2314 2513 yellow
+route 2314 2515 yellow
+route 2421 2520 yellow
+route 2421 2621 yellow
+route 2424 2624 yellow
+route 2424 2824 yellow
+route 2425 2527 yellow
+route 2425 2624 yellow
+route 2515 2813 yellow
+route 2520 2621 yellow
+route 2614 2916 yellow
+route 2621 2722 yellow
+route 2621 2820 yellow
+route 2722 2823 yellow
+route 2813 2912 yellow
+route 2813 3013 yellow
+route 2819 2820 yellow
+route 2819 2918 yellow
+route 2823 2824 yellow
+route 2823 2923 yellow
+route 2916 2918 yellow
+route 2918 3117 yellow
+route 2918 3119 yellow
+route 3013 3212 yellow
+route 3117 3215 yellow
+route 2102 2204 green
+route 2804 2805 green
+route 2804 2902 green
+route 2708 2805 green

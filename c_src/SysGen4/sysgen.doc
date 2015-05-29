@@ -1,0 +1,141 @@
+       This file contains a brief description of each of the programs.
+See _progname_.OUT for a sample output. All the times mentioned in the
+outputs were done on a 20MHz 386.
+       To compile copy one of the make files to makefile and type "make
+all". You will probably have to modify it a little. There is only one
+compile time constant that is in magic.h. Define bit16 if your compiler
+compiles ints to sixteen bits and comment it off otherwise.
+       Please mail whatever changes you have to make to get it running
+so I can update the information. In particular I would like proper UNIX
+makefiles.
+                               Jo Jaquinta
+                               jaymin@maths.tcd.ie
+                               November 1990
+
+SYSGEN1 xx yy zz
+       This is the level one system generation program. It produces basic
+mainworld information.
+
+SYSGEN2 xx yy zz
+       This is the level two system generation program. It produces extended
+system information.
+
+SYSGEN3 xx yy zz
+       This is the level three system generation program. It produces
+information comparable with world builder's handbook.
+
+SYSGEN4 xx yy zz PlanetName
+       This is the level four system generation program. It produces
+surface maps for a planet. It prints a high level map on the screen then
+asks which triangle to expand. The triangles are numbered as in (A)
+        /\  /\  /\  /\  /\                      /\
+       / 1\/ 2\/ 3\/ 4\/ 5\                    /1 \
+       \ 6/\ 7/\ 8/\ 9/\10/\                  /____\
+(A)     \/11\/12\/13\/14\/15\          (B)   /\ 0  /\
+         \16/\17/\18/\19/\20/               /2 \  /3 \
+          \/  \/  \/  \/  \/               /____\/____\
+       Next is will ask for a specifier. Each of the 20 big triangles is
+expanded as per (B). If no specifier is given you get the whole large
+trianlge. If a specifier of 1, say, is given you get the top little triangle.
+This is recursive. Thus a specifier of 131 gives the top triangle of the lower
+right triangle of the top triangle of the world triangle. Get it? Well,
+play around with it and see.
+       Lastly it asks for size. This is basically the number of times to expand
+while printing. This size 1 is as is, size 2 is two on a side, size 3 is 4 on
+a side, ....
+       You can expand down to 16 triangles per side. The program doesn't
+limit you but you will see it starting to get really ugly. Again,
+experimentation is the best approach.
+
+TTIMES xx yy zz
+       This program computes the travel times between planets of the
+star at the given system. It only computes them for the top layer though.
+
+DETPRINT xx yy zz PlanetName
+       This prints out level 3 details on a planet in English. Included are
+physical stats, principal cities, local customs, local religion, law levels,
+tech levels and hex row seasonal temperatures.
+
+ORIGIN xx yy zz NumberPeople
+       This is for finding origins of NPCs. You give it a system and the
+number of origin planets to find. It first calculates the total population
+from the vacininy then randomly selects planets based on population. It uses
+the level 2 figures for the entire system to determine population.
+
+SCANNER xx yy zz
+       This is a simple interactive region examining program. It uses the
+ANSI clear screen command. While in it the keys X, x, Y, y, Z, z shift along
+the given axis. a, A, or + transpose amongst the three axis. The screen
+maintains the level 1 info on the center system. 2 and 3 print the level 2
+and level 3 information. Q quits the program.
+       Really primitive.
+
+TIMTBL xx yy zz time
+       This prints a timetable for departing ships for a given system. The
+time is measured in days and is an arbitrary number. The data is in the
+following format:
+The Franhe (Arnelia) out of Sosen (9985 9981 10012)
+       Departing 10 for Mouthit (9999 9998 10004)
+       26 High berths 2 booked, 3 standby
+       7 Low berths 2 booked
+
+The _name_of_ship_ (_owning_corporation_) out of _origin_ (_coords_)
+       Departing _day_ for _dest_ (_coords_)
+       _total_ High berths _n_ booked [i.e. high passage], _n_ standby [i.e.
+middle passage]
+       _n_ Low berths _n_ booked
+The closer a ships gets to its departure date the fuller it will be. I used
+it for a simple PBM game over the net that withered away.
+
+SCAN xx yy zz
+       This is really just a shell to search outward for whatever you want.
+At the moment it prints where it is when a key is pressed and otherwise
+searches for the mythical planet "Polo". Unless you are actually searching
+for Polo you want to modify the program. It uses level 1 information but
+that is easily changed (with the expense of speed). I have used it to look
+for water worlds, high governments, etc... [see also capital].
+
+NAME xx yy zz NumNames
+       This uses the languages tables for the given system to produce
+names. It produces as many names as given but the default is one.
+
+HEXMAP xx yy zz time
+       This is for producing a standard 15,000 mile per hex space map
+for the area surrounding a planet. The time is optional to give settings
+for the satelites. It doesn't seem to work for all planets correctly.
+It first asks for the planet, then prints a list of the satelites and what
+page they would appear on. It then asks for the number of pages wide and long.
+It writes to the specified file in strips. Each is designed to fit on your
+standard 8" paper in condenced mode. The strips can then be seperated and
+taped together for your battle map.
+       Try tracing the routes of the ships in coloured pencil as the
+battle progresses. We did once and it was really worthwhile. Just like the
+tatical maps in Star Wars!
+
+PRMAP xx yy zz PlanetName
+       This prints a triangle map of a planet surface. It prompts for a
+file name to store the result in. It is straight ascii. It will ask for
+a triangle, specifier and size. See sysgen4 for an explanation of what
+these mean.
+
+EPMAP xx yy zz PlanetName
+       If under MS-DOS this prints a map to the PRN port. If under UNIX
+you will want to change the line in the file or else a file called PRN will
+be created. The graphics are printed with standard Epson FX-80 compatable
+outputs. It will ask for a triangle, specifier and size. See sysgen4 for
+an explanation of what these mean.
+
+TCMAP xx yy zz PlanetName
+       This is completely analagous to PRMAP except it prints the output
+on the screen. It is only compilable under TurboC.
+
+SECPRNT xx yy zz
+       This prints a 10x10x10 "sector" starting with the coordinates given.
+It uses Epson FX-80 compatable escape sequences for italics, and underligning
+(to indicate POP of worlds). Waits for a keypress between pages.
+
+CAPITAL xx yy zz
+       This is similar to scan except it searches a 10x10x10 "sector" starting
+with the coordinates given. It was originally used to determine the best planet
+as a captial for a "sector". The current example searches for the highest tech
+level. It uses level-1 information.

@@ -1,0 +1,325 @@
+region 0101 aliceblue
+region 0102 antiquewhite
+region 0103 aqua
+region 0104 aquamarine
+region 0105 azure
+region 0106 beige
+region 0107 bisque
+region 0108 black
+region 0109 blanchedalmond
+region 0110 blue
+region 0201 blueviolet
+region 0202 brown
+region 0203 burlywood
+region 0204 cadetblue
+region 0205 chartreuse
+region 0206 chocolate
+region 0207 coral
+region 0208 cornflowerblue
+region 0209 cornsilk
+region 0210 crimson
+region 0301 cyan
+region 0302 darkblue
+region 0303 darkcyan
+region 0304 darkgoldenrod
+region 0305 darkgray
+region 0306 darkgreen
+region 0307 darkkhaki
+region 0308 darkmagenta
+region 0309 darkolivegreen
+region 0310 darkorange
+region 0401 darkorchid
+region 0402 darkred
+region 0403 darksalmon
+region 0404 darkseagreen
+region 0405 darkslateblue
+region 0406 darkslategray
+region 0407 darkturquoise
+region 0408 darkviolet
+region 0409 deeppink
+region 0410 deepskyblue
+region 0501 dimgray
+region 0502 dodgerblue
+region 0503 firebrick
+region 0504 floralwhite
+region 0505 forestgreen
+region 0506 fuchsia
+region 0507 gainsboro
+region 0508 ghostwhite
+region 0509 gold
+region 0510 goldenrod
+region 0601 gray
+region 0602 green
+region 0603 greenyellow
+region 0604 honeydew
+region 0605 hotpink
+region 0606 indianred
+region 0607 indigo
+region 0608 ivory
+region 0609 khaki
+region 0610 lavender
+region 0701 lavenderblush
+region 0702 lawngreen
+region 0703 lemonchiffon
+region 0704 lightblue
+region 0705 lightcoral
+region 0706 lightcyan
+region 0707 lightgoldenrodyellow
+region 0708 lightgreen
+region 0709 lightgrey
+region 0710 lightpink
+region 0801 lightsalmon
+region 0802 lightseagreen
+region 0803 lightskyblue
+region 0804 lightslategray
+region 0805 lightsteelblue
+region 0806 lightyellow
+region 0807 lime
+region 0808 limegreen
+region 0809 linen
+region 0810 magenta
+region 0901 maroon
+region 0902 mediumaquamarine
+region 0903 mediumblue
+region 0904 mediumorchid
+region 0905 mediumpurple
+region 0906 mediumseagreen
+region 0907 mediumslateblue
+region 0908 mediumspringgreen
+region 0909 mediumturquoise
+region 0910 mediumvioletred
+region 1001 midnightblue
+region 1002 mintcream
+region 1003 mistyrose
+region 1004 moccasin
+region 1005 navajowhite
+region 1006 navy
+region 1007 oldlace
+region 1008 olive
+region 1009 olivedrab
+region 1010 orange
+region 1101 orangered
+region 1102 orchid
+region 1103 palegoldenrod
+region 1104 palegreen
+region 1105 paleturquoise
+region 1106 palevioletred
+region 1107 papayawhip
+region 1108 peachpuff
+region 1109 peru
+region 1110 pink
+region 1201 plum
+region 1202 powderblue
+region 1203 purple
+region 1204 red
+region 1205 rosybrown
+region 1206 royalblue
+region 1207 saddlebrown
+region 1208 salmon
+region 1209 sandybrown
+region 1210 seagreen
+region 1301 seashell
+region 1302 sienna
+region 1303 silver
+region 1304 skyblue
+region 1305 slateblue
+region 1306 slategray
+region 1307 snow
+region 1308 springgreen
+region 1309 steelblue
+region 1310 tan
+region 1401 teal
+region 1402 thistle
+region 1403 tomato
+region 1404 turquoise
+region 1405 violet
+region 1406 wheat
+region 1407 white
+region 1408 whitesmoke
+region 1409 yellow
+region 1410 yellowgreen
+label 0423 DARRIAN
+label 0423/low,+13 CONFEDERATION
+label 1024 SWORD WORLDS
+label 1426/low BORDER WORLDS
+label 0305/low ZHODANI CONSULATE
+label 1101/left,subsec ZHODANI CONSULATE
+label 0615/subsec ZHODANI CONSULATE
+label 1012/low FEDERATION
+label 1013/+13 OF ARDEN
+label 1208/low,subsec FEDERATION OF ARDEN
+label 2013/large THIRD IMPERIUM
+label 2013/large,low,+13 (NORRIS)
+label 1316/low,left,large,quad THIRD IMPERIUM
+label 1530/left,quad THIRD
+label 1530/left,low,+13,quad IMPERIUM
+label 2529/large,quad THIRD IMPERIUM
+label 1306/subsec THIRD IMPERIUM
+label 2109/subsec THIRD IMPERIUM
+label 2809/low,subsec THIRD IMPERIUM
+label 1416/subsec THIRD IMPERIUM
+label 2717/low,subsec THIRD IMPERIUM
+label 1530/left,subsec THIRD
+label 1530/left,low,+13,subsec IMPERIUM
+label 2021/subsec THIRD IMPERIUM
+label 2822/subsec THIRD IMPERIUM
+label 1636/subsec 3RD
+label 1636/low,+13,subsec IMP.
+label 1931/subsec THIRD IMPERIUM
+label 2937/low,subsec THIRD IMPERIUM
+label 0929/low,SECTOR THIRD IMPERIUM
+label 0929/low,quad THIRD IMPERIUM
+label 0929/low,left,SMALL,subsec THIRD IMPERIUM
+label 0335 THIRD IMPERIUM
+label 2704 VARGR INVASIONS
+label 2339 ASLAN CONQUESTS
+a Chronor
+b Jewell
+c Regina
+d Aramis
+e Querion
+f Vilis
+g Lanth
+h Rhylanor
+i Darrian
+j Sword Worlds
+k Lunion
+l Mora
+m Five Sisters
+n District 268
+o Glisten
+p Trin's Veil
+route 0103 0304 aliceblue
+route 0223 0325 antiquewhite
+route 0303 0304 aqua
+route 0304 0307 aquamarine
+route 0304 0705 azure
+route 0307 0608 beige
+route 0325 0426 bisque
+route 0325 0624 black
+route 0333 0133 blanchedalmond
+route 0421 0223 blue
+route 0426 0527 blueviolet
+route 0433 0333 brown
+route 0527 0727 burlywood
+route 0534 0433 cadetblue
+route 0534 0538 chartreuse
+route 0538 0139 chocolate
+route 0608 0610 coral
+route 0610 0712 cornflowerblue
+route 0614 0412 cornsilk
+route 0624 0724 crimson
+route 0705 0904 cyan
+route 0712 0614 darkblue
+route 0732 0534 darkcyan
+route 0904 1103 darkgoldenrod
+route 0922 0921 darkgray
+route 0930 0732 darkgreen
+route 1022 0922 darkkhaki
+route 1026 0927 darkmagenta
+route 1103 1402 darkolivegreen
+route 1106 1004 darkorange
+route 1106 1005 darkorchid
+route 1106 1006 darkred
+route 1106 1204 darksalmon
+route 1106 1307 darkseagreen
+route 1116 1118 darkslateblue
+route 1123 1022 darkslategray
+route 1126 1026 darkturquoise
+route 1223 1123 darkviolet
+route 1225 1126 deeppink
+route 1307 1705 deepskyblue
+route 1324 1223 dimgray
+route 1325 1225 dodgerblue
+route 1329 0930 firebrick
+route 1413 1116 floralwhite
+route 1424 1324 forestgreen
+route 1424 1325 fuchsia
+route 1523 1522 gainsboro
+route 1524 1424 ghostwhite
+route 1524 1523 gold
+route 1525 1524 goldenrod
+route 1526 1329 gray
+route 1526 1525 green
+route 1705 1904 greenyellow
+route 1711 1413 honeydew
+route 1719 1920 hotpink
+route 1737 1537 indianred
+route 1810 1711 indigo
+route 1815 1719 ivory
+route 1824 1526 khaki
+route 1824 1924 lavender
+route 1826 2327 lavenderblush
+route 1903 2202 lawngreen
+route 1904 1903 lemonchiffon
+route 1904 2005 lightblue
+route 1910 1810 lightcoral
+route 1910 1912 lightcyan
+route 1912 1815 lightgoldenrodyell
+route 1920 2319 lightgreen
+route 1937 1737 lightgrey
+route 2005 2007 lightpink
+route 2007 1910 lightsalmon
+route 2036 1937 lightseagreen
+route 2036 1938 lightskyblue
+route 2036 2138 lightslategray
+route 2124 1824 lightsteelblue
+route 2124 2125 lightyellow
+route 2125 1826 lime
+route 2125 2327 limegreen
+route 2138 2140 linen
+route 2228 2231 magenta
+route 2231 2334 maroon
+route 2319 2417 mediumaquamarine
+route 2319 2418 mediumblue
+route 2323 2124 mediumorchid
+route 2327 2228 mediumpurple
+route 2334 2336 mediumseagreen
+route 2336 2036 mediumslateblue
+route 2336 2536 mediumspringgreen
+route 2417 2716 mediumturquoise
+route 2418 2621 mediumvioletred
+route 2510 2410 midnightblue
+route 2536 2537 mintcream
+route 2537 2637 mistyrose
+route 2621 2323 moccasin
+route 2637 2739 navajowhite
+route 2637 2936 navy
+route 2712 2510 oldlace
+route 2716 2814 olive
+route 2726 2324 olivedrab
+route 2733 2334 orange
+route 2733 2536 orangered
+route 2739 2839 orchid
+route 2814 2712 palegoldenrod
+route 2814 2913 palegreen
+route 2839 2940 paleturquoise
+route 2839 3139 palevioletred
+route 2913 3010 papayawhip
+route 2913 3212 peachpuff
+route 2927 2828 peru
+route 2927 3025 pink
+route 2936 3235 plum
+route 3003 3103 powderblue
+route 3010 3110 purple
+route 3025 2726 red
+route 3025 3124 rosybrown
+route 3029 2927 royalblue
+route 3030 3029 saddlebrown
+route 3032 2733 salmon
+route 3032 3030 sandybrown
+route 3103 3202 seagreen
+route 3110 3209 seashell
+route 3235 3032 sienna
+route 3030 3032 silver
+route 3030 3124 skyblue
+route 3010 2733 slateblue
+route 3010 3029 slategray
+route 3010 3212 snow
+route 3010 2927 springgreen
+route 2138 1826 steelblue
+route 2138 2327 tan
+route 2138 2231 teal
+route 2138 2334 thistle
+route 2138 2231 tomato
+route 2510 2621 turquoise

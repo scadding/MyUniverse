@@ -1,0 +1,93 @@
+
+                      Traveller System Generator 1.0
+                        
+This little program combines the Extended System Generator from the New Era
+Rulebook with the Planet Detailing rules of World Tamers. I have tried to 
+remain as faithful to the published charts as possible and have listed the
+modifications below. Any ZIP file containing the executable should also 
+contain the source code. Feel free to change it as desired and send me a
+copy (as long as its an improvement). I won't insult your intelligence by
+asking for money so don't expect me to send you anything either. 
+
+I hope to have my Starship/Vehicle design program finished in about six
+months.
+
+
+Changes from the Rules
+
+    1. I place planets before rolling for number of orbits and chop off any
+       which don't make the cut. I had to do this because I was ending up
+       with too many systems with more stuff than orbits. This also makes
+       gas giants and asteroids less common on the smaller M class stars
+       which seems to make sense anyway.
+       
+    2. The Orbit Zone charts on page 193 are wrong. (At least for the bigger
+       stars). I now determine the Habitable Zone by guesstimating the mean
+       temperature of the planet (from the Orbital Factors p.84).
+       
+    3. Because the Orbital Range is so important in deciding habitability, I
+       now calculate a bit of randomness to the ranges listed. This gives the
+       data a more realistic feel. The Orbital Factor is equal to 375 divided
+       by the square root of the Orbital Range (in AU's).
+       
+    4. Whenever possible, I extrapolate values. The most important of these
+       are Stellar Mass and Luminosity.
+       
+    5. Because these rules (even before I modified them) rarely produce a
+       planet that I would want to live on, I have created the Gaia Factor.
+       Because life tends to adjust its environment according to its
+       needs (or so the theory goes), I now average the mean temperature 
+       calculated with the ideal temperature (Earth) for planets on which 
+       life exists (i.e. Max Pop is > 5). 
+
+    6. I've added a few to the number of orbits for larger stars (II, III)
+        
+    7. The temperature variation for orbital eccentricty is not used as
+       I'm not sure how to use it best. Ex. while it will add to the temp
+       on the summer for one hemisphere, It will subtract on the other etc.
+
+    8. I add the Orbital Factor of the Primary Star (at the Companion Star's
+       Orbit Range) to the Orbital Factors of the Companion Star. This makes 
+       planets orbiting inner zone stars also inner zone. I did this mostly to
+       increase the Habitability of Companion Star planets.
+                 
+Please note that I do not even attempt to calculate Population, Tech Level,
+Law/Gov etc. Mostly because I don't believe in the arbitrary way that
+population is randomly spread on crappy planets. If you want this 
+information, use the tables in the rule book.
+
+
+Obscure Command Line Arguments (They Way Real Programs Work!!)
+
+    -f         Display temperatures in Farenhight. (sp)
+    
+    -g         Disable the Gaia Factor. Use if you want your players to always
+               be too hot or too cold.
+
+    -G35       Preset a star.  Star Type then Decimal Class then Luminosity
+               Class EX. -G35 creates a G3 Star of Luminosity Class 
+               five (The Sun). Use 'a' for Ia and 'b' for Ib.
+               
+    -G33M85    Create a binary system like above. 
+
+     -D        Printout Debug code (big deal). Use if you want to check my
+               math!
+             
+     -sXXXXX   Supply the seed value. I used this for debuging but you can use
+               it to store a system as a number (Ex 1020) and only generate it
+               if your players happen to go there.
+    
+
+Eventually I'm hoping to add the following features.
+
+    1. A random system/planet name generator. 
+    
+    2. Trinary systems are not yet supported.
+    
+    3. A better way of calculation rotation periods.
+
+    4. Support for Pop/Tech Levels etc. For both PreCollapse and PostCollapse.  
+    
+Email Address
+
+          akkala@aol.com

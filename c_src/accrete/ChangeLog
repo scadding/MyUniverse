@@ -1,0 +1,18 @@
+2003-06-02  Charles Swiger  <chuck@pkix.net>
+	* Makefile: cleaned up compiler flags, added all and install targets
+	* updated to make package respect $CC, $CFLAGS, and $PREFIX, if set
+
+2003-05-31  Charles Swiger  <chuck@pkix.net>
+	* cleaned up display of planet info by aligning printf columns
+
+2003-05-30  Charles Swiger  <chuck@pkix.net>
+	* added Mersenne Twister RNG in place of srandom()
+
+	* used cproto to convert old K&R C code to ANSI with prototypes,
+	which fixed a program hang in the dust accretion process
+
+	* removed unreferenced code (stubs for planetary moons)
+
+	* cleaned up Makefile, enabled -Wall, fixed warnings
+
+	* wrote up a README.

@@ -1,0 +1,209 @@
+##################################   
+######   
+##    
+##    Folder Contents
+##    
+##    4		allygen2.pl
+##    2		BatchSectorMaker.sh
+##    14	converter1.sh
+##    		/install:
+##    			/bin: (copy into /usr/bin)
+##    				full-upp
+##    				gensec3
+##    15			gensec4
+##    				mapsub3
+##    				subsec2
+##    			/enscript: (copy into /usr/share/enscript)
+##    				enscript.cfg
+##    				travellerpagenums.hdr
+##    				travellerpagenums2.hdr
+##              Guide to the Installed Files.txt
+##    			/pdf-api2: 
+##    				CoreFont.pm (copy into /usr/share/perl5/PDF/API2/Resource/Font/ folder)
+##    				optima.pm (copy into /usr/share/perl5/PDF/API2/Resource/Font/CoreFont/ folder)
+##    				univers.pm (copy into /usr/share/perl5/PDF/API2/Resource/Font/CoreFont/ folder)
+##    				universbold.pm (copy into /usr/share/perl5/PDF/API2/Resource/Font/CoreFont/ folder)
+##              SectorMakerInstallGuideUbuntu.html
+##    			/ttf: (copy into /usr/share/fonts/truetype/SectorMaker)
+##    				Optima.ttf
+##    				Optima_Bold.ttf
+##    				Optima_Bold_Italic.ttf
+##    				Optima_Italic.ttf
+##    				Univers.ttf
+##    				Univers_Bold.ttf
+##    				Univers_Bold_Italic.ttf
+##    				Univers_Italic.ttf
+##    5a	mapsub.pro
+##    5b	mapsubNOCOLOR.pro
+##    3a	sec2pdf.pl
+##    3b	sec2pdf_borders.pl
+##    1a	SectorMaker.cgi
+##    1b	SectorMaker.sh
+##    		/trav:
+##    9			Affiliation.txt
+##    10		/backgrounds:
+##    -				Data_BackgroundA.pdf
+##    -				Data_BackgroundB.pdf
+##    -				Data_BackgroundC.pdf
+##    -				Data_BackgroundD.pdf
+##    -				Data_BackgroundE.pdf
+##    -				Data_BackgroundF.pdf
+##    -				Data_BackgroundG.pdf
+##    -				Data_BackgroundH.pdf
+##    -				Data_BackgroundI.pdf
+##    -				Data_BackgroundJ.pdf
+##    -				Data_BackgroundK.pdf
+##    -				Data_BackgroundL.pdf
+##    -				Data_BackgroundM.pdf
+##    -				Data_BackgroundN.pdf
+##    -				Data_BackgroundO.pdf
+##    -				Data_BackgroundP.pdf
+##    -				Map_Background.pdf
+##    -				Map_BackgroundA.pdf
+##    -				Map_BackgroundB.pdf
+##    -				Map_BackgroundC.pdf
+##    -				Map_BackgroundD.pdf
+##    -				Map_BackgroundE.pdf
+##    -				Map_BackgroundF.pdf
+##    -				Map_BackgroundG.pdf
+##    -				Map_BackgroundH.pdf
+##    -				Map_BackgroundI.pdf
+##    -				Map_BackgroundJ.pdf
+##    -				Map_BackgroundK.pdf
+##    -				Map_BackgroundL.pdf
+##    -				Map_BackgroundM.pdf
+##    -				Map_BackgroundN.pdf
+##    -				Map_BackgroundO.pdf
+##    -				Map_BackgroundP.pdf
+##    -				SectorMap_Background.pdf
+##    -				SectorPolities_Background.pdf
+##    9			beginfile.txt
+##    9			covercat.txt
+##    9			dash.txt
+##    10		Data_Background.pdf
+##    10		Desc_Background.pdf
+##    9			descinfo.txt
+##    9			introspace.txt
+##    6			lc
+##    8			namesmaster.txt
+##    9			pageblanker.txt
+##    9			PolitiesIntro.txt
+##    9			PolitiesTitle.txt
+##    7			randomquote.sh
+##    9			ret.txt
+##    10		SectorData_Back.pdf
+##    10		SectorData_Cover.pdf
+##    10		SectorData_IntDesc.pdf
+##    10		SectorData_IntNoDesc.pdf
+##    11		/sectorfiles:
+##    -				Crucis_Margin.sec
+##    -				Crucis_Margin_alliances.txt
+##    -				Crucis_Margin_route.txt
+##    -				Deneb_Sector.sec
+##    -				Deneb_Sector_alliances.txt
+##    -				Deneb_Sector_route.txt
+##    -				Empty_Quarter.sec
+##    -				Empty_Quarter_alliances.txt
+##    -				Empty_Quarter_route.txt
+##    -				Foreven_Sector.sec
+##    -				Foreven_Sector_alliances.txt
+##    -				Foreven_Sector_route.txt
+##    -				Glimmerdrift_Reaches.sec
+##    -				Glimmerdrift_Reaches_alliances.txt
+##    -				Glimmerdrift_Reaches_route.txt
+##    -				Ley_Sector.sec
+##    -				Ley_Sector_alliances.txt
+##    -				Ley_Sector_route.txt
+##    -				Magyar_Sector.sec
+##    -				Magyar_Sector_alliances.txt
+##    -				Magyar_Sector_route.txt
+##    -				Reft.sec
+##    -				Reft_alliances.txt
+##    -				Reft_route.txt
+##    -				Sector_CJ-078.sec
+##    -				Sector_CJ-078_alliances.txt
+##    -				Sector_CJ-078_route.txt
+##    -				Solomani_Rim.sec
+##    -				Solomani_Rim_alliances.txt
+##    -				Solomani_Rim_route.txt
+##    -				Spinward_Marches.sec
+##    -				Spinward_Marches_alliances.txt
+##    -				Spinward_Marches_route.txt
+##    -				TestSector.sec
+##    -				TestSector_alliances.txt
+##    -				TestSector_route.txt
+##    -				The_Beyond.sec
+##    -				The_Beyond_alliances.txt
+##    -				The_Beyond_route.txt
+##    -				Trojan_Reach.sec
+##    -				Trojan_Reach_alliances.txt
+##    -				Trojan_Reach_route.txt
+##    -				Tuglikki_Sector.sec
+##    -				Tuglikki_Sector_alliances.txt
+##    -				Tuglikki_Sector_route.txt
+##    -				Usingou_Sector.sec
+##    -				Usingou_Sector_alliances.txt
+##    -				Usingou_Sector_route.txt
+##    -				Vanguard_Sector.sec
+##    -				Vanguard_Sector_alliances.txt
+##    -				Vanguard_Sector_route.txt
+##    9			SectorNamer.txt
+##    9			SectorTop.txt
+##    12		shell.pl 
+##    13		/subtitles:
+##    -				subtitleA.txt
+##    -				subtitleB.txt
+##    -				subtitleC.txt
+##    -				subtitleD.txt
+##    -				subtitleE.txt
+##    -				subtitleF.txt
+##    -				subtitleG.txt
+##    -				subtitleH.txt
+##    -				subtitleI.txt
+##    -				subtitleJ.txt
+##    -				subtitleK.txt
+##    -				subtitleL.txt
+##    -				subtitleM.txt
+##    -				subtitleN.txt
+##    -				subtitleO.txt
+##    -				subtitleP.txt
+##    12		/Traveller:
+##    -				Animal.pm
+##    -				Career.pm
+##    -				Character.pm
+##    -				Dice.pm
+##    -				HighGuard.pm
+##    -				Name.pm
+##    -				Sector.pm
+##    -				Starchart.pm
+##    -				Storage.pm
+##    -				Subsector.pm
+##    -				summarize.pl
+##    -				Trade.pm
+##    -				Utility.pm
+##    -				World.pm
+##    -				WorldExtended.pm
+##    12		Traveller.pm 
+##    
+##
+##
+## 	  Descriptions
+##
+##    1a		The main script, provided as a 'cgi' script for use on a web server.
+##    1b		The main script, provided as a command line script.
+##    2			The batch sector script for generating numerous sectors at once
+##    3a 		JGreely's phenomenal perl script, tweaked to generate the sector map.
+##    3b		The same perl script, tweaked to generate the routes, regions, labels and borders for the subsector maps.
+##    4			JGreely's allygen, tweaked to generate new routes along with alliances and region data
+##    5a		The PostScript color and style definitions for the subsector data map with bluish water worlds and color travel zones
+##    5b		A variant of the PostScript file above, but not in color. Rename without the NOCOLOR to use this file instead.
+##    6			lc, the original script used for generating the random names
+##    7 		The custom Traveller quote generation script (called from within the SectorMaker script) that uses lc.
+##    8			The list of 'seed names' for the random name generation process
+##    9			A text chunk used for combining strings in the script
+##    10 		A pdf page or pages used for assembling the final LBB pdf.
+##    11		The main folder for storing previously-generated sector data. '.sec', alliance and route files should be placed here.
+##    12  		Traveller rules in perl, care of the lovely and talented Joshua Bell. They are woefully underutilized at present.
+##    13  		Subtitle text, for below the data at the bottom of each subsector data page.
+##    14		A bonus manual conversion script to convert .dat file sector files (like those on BeRKA's Traveller site) to a format compatible with the SW4 suite. 
+##    15        An alternate gensec binary that will allow you to use a file listing hexes and names to use when generating a sector (see Install Guide for more info)
