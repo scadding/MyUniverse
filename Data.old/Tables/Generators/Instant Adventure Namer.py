@@ -54,11 +54,11 @@ class generator:
         return result
 
     def action(self):
-        elements = ["attack","fury","revenge","vengeance"]
+        elements = ["attack", "fury", "revenge", "vengeance"]
         return choice(elements)
 
     def adjective(self):
-        elements = ["#color#","dark","elemental","forbidden","forgotten","ghost","hidden","lost","nightmare","sinister","unknown","sunless"]
+        elements = ["#color#", "dark", "elemental", "forbidden", "forgotten", "ghost", "hidden", "lost", "nightmare", "sinister", "unknown", "sunless"]
         result = choice(elements)
 
         if (result == "#color#"):
@@ -67,43 +67,43 @@ class generator:
         return result
 
     def building(self):
-        elements = ["abbey","citadel","forge","hall","keep","manor","maze","palace","shrine","steading","stockade","temple","tomb","tower","vault"]
+        elements = ["abbey", "citadel", "forge", "hall", "keep", "manor", "maze", "palace", "shrine", "steading", "stockade", "temple", "tomb", "tower", "vault"]
         return choice(elements)
 
     def color(self):
-        elements = ["black","blue","gold","green","red","silver","white"]
+        elements = ["black", "blue", "gold", "green", "red", "silver", "white"]
         return choice(elements)
 
     def creature(self):
-        elements = ["ass","bear","beast","boar","bull","cat","chicken","chimera","cock","cow","crab","demon","devil","dog","dragon","drake","duck","eagle","falcon","fox","frog","gargoyle","goat","griffon","hare","hawk","hog","horse","hound","lamb","lion","lizard","mare","monster","owl","ox","phoenix","pig","pony","rat","raven","rooster","serpent","shadow","shark","sheep","siren","snake","stag","stallion","swine","unicorn","vulture","wolf","wyrm","wyvern"]
+        elements = ["ass", "bear", "beast", "boar", "bull", "cat", "chicken", "chimera", "cock", "cow", "crab", "demon", "devil", "dog", "dragon", "drake", "duck", "eagle", "falcon", "fox", "frog", "gargoyle", "goat", "griffon", "hare", "hawk", "hog", "horse", "hound", "lamb", "lion", "lizard", "mare", "monster", "owl", "ox", "phoenix", "pig", "pony", "rat", "raven", "rooster", "serpent", "shadow", "shark", "sheep", "siren", "snake", "stag", "stallion", "swine", "unicorn", "vulture", "wolf", "wyrm", "wyvern"]
         return choice(elements)
 
     def deity(self):
-        elements = ["Demogorgon","Freya","Odin","Orcus","Tharizdun"]
+        elements = ["Demogorgon", "Freya", "Odin", "Orcus", "Tharizdun"]
         return choice(elements)
 
     def element(self):
-        elements = ["air","blood","chaos","darkness","death","desolation","doom","earth","evil","fire","fury","good","horrors","light","madness","order","power","water"]
+        elements = ["air", "blood", "chaos", "darkness", "death", "desolation", "doom", "earth", "evil", "fire", "fury", "good", "horrors", "light", "madness", "order", "power", "water"]
         return choice(elements)
 
     def escape(self):
-        elements = ["escape","flight"]
+        elements = ["escape", "flight"]
         return choice(elements)
 
     def geography(self):
-        elements = ["canyon","desert","forest","glacial rift","hill","lake","mountain","river","sea"]
+        elements = ["canyon", "desert", "forest", "glacial rift", "hill", "lake", "mountain", "river", "sea"]
         return choice(elements)
 
     def item(self):
-        elements = ["bones","crucible","gold","grimoire","helm","palm","pearl","plume","scepter","spear","sword","tome"]
+        elements = ["bones", "crucible", "gold", "grimoire", "helm", "palm", "pearl", "plume", "scepter", "spear", "sword", "tome"]
         return choice(elements)
 
     def journey(self):
-        elements = ["descent into","expedition to","journey into","voyage to"]
+        elements = ["descent into", "expedition to", "journey into", "voyage to"]
         return choice(elements)
 
     def monster(self):
-        elements = ["#creature#","demon","drow","Fire Giant","Frost Giant","Hill Giant","kuo-toa","vampire"]
+        elements = ["#creature#", "demon", "drow", "Fire Giant", "Frost Giant", "Hill Giant", "kuo-toa", "vampire"]
         result = choice(elements)
         
         if (result == "#creature#"):
@@ -112,35 +112,35 @@ class generator:
         return result
 
     def name(self):
-        elements = ["Inverness","Saltmarsh","Tamoachan","Tegel","Tsojcanth","Amanhir","Anargon","Anargon","Bergoth","Bergoth","Cardandir","Cardandir","Earaldir","Earaldir","Eogard","Eogard","Estarion","Estarion","Haldor","Haldor","Hathhelm","Hathhelm","Heruos","Heruos","Lorlost","Lorlost","Lorwise","Lorwise","Marast","Marast","Morgil","Morgil","Morwyn","Morwyn","Pelgorn","Pelgorn","Saeron","Saeron","Sarathar","Sarathar","Sereden","Sereden","Tirith"]
+        elements = ["Inverness", "Saltmarsh", "Tamoachan", "Tegel", "Tsojcanth", "Amanhir", "Anargon", "Anargon", "Bergoth", "Bergoth", "Cardandir", "Cardandir", "Earaldir", "Earaldir", "Eogard", "Eogard", "Estarion", "Estarion", "Haldor", "Haldor", "Hathhelm", "Hathhelm", "Heruos", "Heruos", "Lorlost", "Lorlost", "Lorwise", "Lorwise", "Marast", "Marast", "Morgil", "Morgil", "Morwyn", "Morwyn", "Pelgorn", "Pelgorn", "Saeron", "Saeron", "Sarathar", "Sarathar", "Sereden", "Sereden", "Tirith"]
         return choice(elements)
 
     def people(self):
-        elements = ["cultists","druids","dwellers","followers","masters","slavers","warriors","wizards"]
+        elements = ["cultists", "druids", "dwellers", "followers", "masters", "slavers", "warriors", "wizards"]
         return choice(elements)
 
     def person(self):
-        elements = ["necromancer","slave","sorcerer","thrall","warlock","witch"]
+        elements = ["necromancer", "slave", "sorcerer", "thrall", "warlock", "witch"]
         return choice(elements)
 
     def place(self):
-        elements = ["caverns","caves","city","lair","mazes","mines","oasis","pits","undercity","wastes"]
+        elements = ["caverns", "caves", "city", "lair", "mazes", "mines", "oasis", "pits", "undercity", "wastes"]
         return choice(elements)
 
     def quest(self):
-        elements = ["In Search of the","Quest for the","Search for the"]
+        elements = ["In Search of the", "Quest for the", "Search for the"]
         return choice(elements)
 
     def region(self):
-        elements = ["Barrier Peaks","Borderlands","Depths of the Earth"]
+        elements = ["Barrier Peaks", "Borderlands", "Depths of the Earth"]
         return choice(elements)
 
     def ruler(self):
-        elements = ["god","jarl","king","lord","master","queen"]
+        elements = ["god", "jarl", "king", "lord", "master", "queen"]
         return choice(elements)
 
     def secret(self):
-        elements = ["mystery","riddle","secret"]
+        elements = ["mystery", "riddle", "secret"]
         return choice(elements)
 
 

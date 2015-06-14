@@ -54,27 +54,27 @@ class generator:
         return groups[randint(1,6)]
 
     def tn1(self):
-        elements = ["a","er","fol","n'n","thl","an","e","il","rh","yy"]
+        elements = ["a", "er", "fol", "n'n", "thl", "an", "e", "il", "rh", "yy"]
         return choice(elements)
 
     def tn2(self):
-        elements = ["cog","kw","mm","th","ak","du","i","ow","y","ch"]
+        elements = ["cog", "kw", "mm", "th", "ak", "du", "i", "ow", "y", "ch"]
         return choice(elements)
 
     def tn3(self):
-        elements = ["fl","pp","sh","ae","dh","hl","oo","uu","io","ff"]
+        elements = ["fl", "pp", "sh", "ae", "dh", "hl", "oo", "uu", "io", "ff"]
         return choice(elements)
 
     def tn4(self):
-        elements = ["ll","z","abl","dh","hh","oe","ul","bh","eu","ks"]
+        elements = ["ll", "z", "abl", "dh", "hh", "oe", "ul", "bh", "eu", "ks"]
         return choice(elements)
 
     def tn5(self):
-        elements = ["ss","aa","de","gz","oa","u","ar","eo","ir","q'"]
+        elements = ["ss", "aa", "de", "gz", "oa", "u", "ar", "eo", "ir", "q'"]
         return choice(elements)
 
     def tn6(self):
-        elements = ["cc","da","g'g","o","tl","ao","ee","il","ph","zh"]
+        elements = ["cc", "da", "g'g", "o", "tl", "ao", "ee", "il", "ph", "zh"]
         return choice(elements)
 
     def usename(self):
@@ -98,43 +98,43 @@ class generator:
         return groups[randint(1,10)]
 
     def un1(self):
-        elements = ["blue","suck","chew","sword","canker","rut","mark","grab","vile","worm","maim","doom","break","rheum","lewd","fiend","spurt","spot","howl","bite"]
+        elements = ["blue", "suck", "chew", "sword", "canker", "rut", "mark", "grab", "vile", "worm", "maim", "doom", "break", "rheum", "lewd", "fiend", "spurt", "spot", "howl", "bite"]
         return choice(elements)
 
     def un2(self):
-        elements = ["dangle","thigh","dog","wrack","eat","skull","red","gristle","whip","blech","moulder","foul","dread","scum","plague","gnash","throb","warp","lust","claw"]
+        elements = ["dangle", "thigh", "dog", "wrack", "eat", "skull", "red", "gristle", "whip", "blech", "moulder", "foul", "dread", "scum", "plague", "gnash", "throb", "warp", "lust", "claw"]
         return choice(elements)
 
     def un3(self):
-        elements = ["dreg","bane","gibber","cackle","fester","spike","spider","helm","blunt","bog","pinch","grin","eye","smut","slake","grasp","war","bend","man","filth"]
+        elements = ["dreg", "bane", "gibber", "cackle", "fester", "spike", "spider", "helm", "blunt", "bog", "pinch", "grin", "eye", "smut", "slake", "grasp", "war", "bend", "man", "filth"]
         return choice(elements)
 
     def un4(self):
-        elements = ["fondle","carnal","gnaw","fang","flux","tremble","thrash","loon","drink","buttock","scratch","loose","thrust","tear","squeeze","hack","beetle","blight","ooze","glutton"]
+        elements = ["fondle", "carnal", "gnaw", "fang", "flux", "tremble", "thrash", "loon", "drink", "buttock", "scratch", "loose", "thrust", "tear", "squeeze", "hack", "beetle", "blight", "ooze", "glutton"]
         return choice(elements)
 
     def un5(self):
-        elements = ["grind","fiddle","grope","hammer","glut","vomit","bag","pest","gall","crush","slobber","putrid","fury","twist","whine","lick","craze","bowel","rotten","kill"]
+        elements = ["grind", "fiddle", "grope", "hammer", "glut", "vomit", "bag", "pest", "gall", "crush", "slobber", "putrid", "fury", "twist", "whine", "lick", "craze", "bowel", "rotten", "kill"]
         return choice(elements)
 
     def un6(self):
-        elements = ["grunt","hot","maul","mildew","hate","wind","blade","puke","gross","fire","spew","slob","grue","water","ash","nibble","flesh","clap","sinew","pain"]
+        elements = ["grunt", "hot", "maul", "mildew", "hate", "wind", "blade", "puke", "gross", "fire", "spew", "slob", "grue", "water", "ash", "nibble", "flesh", "clap", "sinew", "pain"]
         return choice(elements)
 
     def un7(self):
-        elements = ["mad","mucus","offal","rot","ichor","brute","cold","rip","maggot","froth","stare","sting","heart","blast","beast","pierce","gore","fat","slug","scrape"]
+        elements = ["mad", "mucus", "offal", "rot", "ichor", "brute", "cold", "rip", "maggot", "froth", "stare", "sting", "heart", "blast", "beast", "pierce", "gore", "fat", "slug", "scrape"]
         return choice(elements)
 
     def un8(self):
-        elements = ["pox","sate","pus","toad","leper","dung","death","sharp","rabid","gobble","wart","wither","loath","cut","chaos","reap","lip","flush","spoor","spine"]
+        elements = ["pox", "sate", "pus", "toad", "leper", "dung", "death", "sharp", "rabid", "gobble", "wart", "wither", "loath", "cut", "chaos", "reap", "lip", "flush", "spoor", "spine"]
         return choice(elements)
 
     def un9(self):
-        elements = ["quiver","vex","spasm","bile","mire","glop","face","spume","sore","grim","wobble","axe","mange","foam","crab","scab","pile","fume","venom","wail"]
+        elements = ["quiver", "vex", "spasm", "bile", "mire", "glop", "face", "spume", "sore", "grim", "wobble", "axe", "mange", "foam", "crab", "scab", "pile", "fume", "venom", "wail"]
         return choice(elements)
 
     def un10(self):
-        elements = ["slash","bubo","spittle","blister","rend","gut","fist","sweat","taint","liver","blood","black","quake","green","drool","spite","sin","gob","wight","burble"]
+        elements = ["slash", "bubo", "spittle", "blister", "rend", "gut", "fist", "sweat", "taint", "liver", "blood", "black", "quake", "green", "drool", "spite", "sin", "gob", "wight", "burble"]
         return choice(elements)
 
 

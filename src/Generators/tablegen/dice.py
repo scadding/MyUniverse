@@ -34,8 +34,8 @@ test = '2d6*3-5.5+4d6.minRoll(2).takeHighest(3)'
 results = expr.parseString(test)
 
 def dice(s):
-	results =  expr.parseString(s)
-	return evalExpr(results)
+    results =  expr.parseString(s)
+    return evalExpr(results)
 
 from random import randint
 def roll(dieStr):
@@ -74,13 +74,13 @@ takeHighest = lambda d,n : isinstance(d,str) and sortedRoll(d,revflag=True)[:n] 
 minRoll = lambda d,n : sorted([ sortedRoll(d) for _ in range(n)])[0]
 maxRoll = lambda d,n : sorted([ sortedRoll(d) for _ in range(n)],reverse=True)[0]
 def setMinimum(d, n):
-	#print d, n
-	r = roll(d)
-	#print r
-	while r[0] < n:
-		r = roll(d)
-	return r
-	
+    #print d, n
+    r = roll(d)
+    #print r
+    while r[0] < n:
+        r = roll(d)
+    return r
+    
 fns = {
     'takeLowest' : takeLowest,
     'takeHighest' : takeHighest,
@@ -94,5 +94,5 @@ def evalDiceExpr(a):
         dice = fns[mod[0]](dice, mod[1][0])
     return sum(dice)
 
-#print results
-#print evalExpr(results)
+print results
+print evalExpr(results)

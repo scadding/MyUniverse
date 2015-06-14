@@ -17,15 +17,15 @@ class generator:
         return result
         
     def community(self):
-        elements = ["City","Town","Village","Mines","Deep","Delving"]
+        elements = ["City", "Town", "Village", "Mines", "Deep", "Delving"]
         return choice(elements)
         
     def part_1(self):
-        elements = ["Stone","Granite","Deep","Iron","Rock","Silver","Crystal"]
+        elements = ["Stone", "Granite", "Deep", "Iron", "Rock", "Silver", "Crystal"]
         return choice(elements)
 
     def part_2(self):
-        elements = ["hold","home","delve","deep","mine","fast"]
+        elements = ["hold", "home", "delve", "deep", "mine", "fast"]
         return choice(elements)
 
 

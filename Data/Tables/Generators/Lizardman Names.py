@@ -47,19 +47,19 @@ class generator:
         return result
 
     def vc(self):
-        elements = ["aal","al","an","ang","atl","ax","axl","az","il","ill","is","iss","it","ith","itz","iz","otl","ov","oxl","us","uss","uz"]
+        elements = ["aal", "al", "an", "ang", "atl", "ax", "axl", "az", "il", "ill", "is", "iss", "it", "ith", "itz", "iz", "otl", "ov", "oxl", "us", "uss", "uz"]
         return choice(elements)
 
     def vv(self):
-        elements = ["a","aka","aza","i","ila","illa","iza","o","ova","ovi"]
+        elements = ["a", "aka", "aza", "i", "ila", "illa", "iza", "o", "ova", "ovi"]
         return choice(elements)
 
     def cv(self):
-        elements = ["cha","chka","cho","chta","hexo","hu","ka","kaa","kha","khi","ki","kii","kra","kry","ky","kzo","la","pa","qua","que","ra","rasa"]
+        elements = ["cha", "chka", "cho", "chta", "hexo", "hu", "ka", "kaa", "kha", "khi", "ki", "kii", "kra", "kry", "ky", "kzo", "la", "pa", "qua", "que", "ra", "rasa"]
         return choice(elements)
 
     def cc(self):
-        elements = ["ch","cotl","cus","haat","has","hass","haz","hex","his","hiss","huax","kaar","kar","khat","kil","kis","kys","lan","mas","mass","mis","miss","pec","poc","ptar","pter","ras","rep","rept","sal","sith","tak","tan","tax","tec","tek","tep","than","this","tis","tl","tlac","tlan","tlax","trax","tzun","val","var","vas","ven","vil","vis","xh","xlan","yxl","zaal","zah","zak","zal","zla"]
+        elements = ["ch", "cotl", "cus", "haat", "has", "hass", "haz", "hex", "his", "hiss", "huax", "kaar", "kar", "khat", "kil", "kis", "kys", "lan", "mas", "mass", "mis", "miss", "pec", "poc", "ptar", "pter", "ras", "rep", "rept", "sal", "sith", "tak", "tan", "tax", "tec", "tek", "tep", "than", "this", "tis", "tl", "tlac", "tlan", "tlax", "trax", "tzun", "val", "var", "vas", "ven", "vil", "vis", "xh", "xlan", "yxl", "zaal", "zah", "zak", "zal", "zla"]
         return choice(elements)
 
 

@@ -21,41 +21,41 @@ from distutils.core import setup
 import py2exe
    
 if len(sys.argv) < 2:
-	sys.argv.append('py2exe')
+    sys.argv.append('py2exe')
 
 # FIXME: dist should really be dist/NPCGen
 setup(
-		# The first three parameters are not required, if at least a
-		# 'version' is given, then a versioninfo resource is built from
-		# them and added to the executables.
-		version = "2.5.1",
-		description = "py2exe script for npcgen",
-		name = "py2exe npcgen",
+        # The first three parameters are not required, if at least a
+        # 'version' is given, then a versioninfo resource is built from
+        # them and added to the executables.
+        version = "2.5.1",
+        description = "py2exe script for npcgen",
+        name = "py2exe npcgen",
 
-		# targets to build
-		#windows = ["cmaker-gui.py"],
-		console = ['charactermaker.py'],
-		windows = [
-			{
-				"script": "cmaker-gui.py",
-				"icon_resources": [(1, "images/favicon.ico")],
-			}
-		],
-		data_files=[ ("", glob.glob("*.html")),
-					("", glob.glob("*.css")),
-					("", glob.glob("*.vbs")),
-					("class-data", glob.glob("class-data/*.xml")),
-					("names-data", glob.glob("names-data/*.txt")),
-					("cfg", glob.glob("cfg/*.xml")),
-					("sav", glob.glob("sav/*.html")),
-					("images/pics", glob.glob("images/pics/*.gif")),
-					("images", glob.glob("images/*.*"))],
+        # targets to build
+        #windows = ["cmaker-gui.py"],
+        console = ['charactermaker.py'],
+        windows = [
+            {
+                "script": "cmaker-gui.py",
+                "icon_resources": [(1, "images/favicon.ico")],
+            }
+        ],
+        data_files=[ ("", glob.glob("*.html")),
+                    ("", glob.glob("*.css")),
+                    ("", glob.glob("*.vbs")),
+                    ("class-data", glob.glob("class-data/*.xml")),
+                    ("names-data", glob.glob("names-data/*.txt")),
+                    ("cfg", glob.glob("cfg/*.xml")),
+                    ("sav", glob.glob("sav/*.html")),
+                    ("images/pics", glob.glob("images/pics/*.gif")),
+                    ("images", glob.glob("images/*.*"))],
 
-		options = {'py2exe': {'packages': 'encodings', "dist_dir": "dist", "compressed":1, "optimize": 2}},
+        options = {'py2exe': {'packages': 'encodings', "dist_dir": "dist", "compressed":1, "optimize": 2}},
     )
 
 if os.path.isfile('./dist/NPCGen.exe'):
-	os.remove('./dist/NPCGen.exe')
+    os.remove('./dist/NPCGen.exe')
 os.rename('./dist/cmaker-gui.exe', './dist/NPCGen.exe')
 
 """

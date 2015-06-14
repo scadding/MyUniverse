@@ -33,7 +33,7 @@ class generator:
         return result
 
     def syllable(self):
-        elements = ["slag","el","nagir","girruk","zug","tha","meg","skal","deth","esh","uth","sshul","zan","zhel","khs","chal","vush","chlu","varn","elts","ch","aa","ugg","ksin","ven","phod","sagy","aak","qek","zohr","kkis","eg","zan","gkil","aezg","gluU"]
+        elements = ["slag", "el", "nagir", "girruk", "zug", "tha", "meg", "skal", "deth", "esh", "uth", "sshul", "zan", "zhel", "khs", "chal", "vush", "chlu", "varn", "elts", "ch", "aa", "ugg", "ksin", "ven", "phod", "sagy", "aak", "qek", "zohr", "kkis", "eg", "zan", "gkil", "aezg", "gluU"]
         return choice(elements)
 
 

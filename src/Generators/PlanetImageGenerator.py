@@ -45,75 +45,75 @@ from subprocess import *
 import base64
 
 class PlanetImageGenerator:
-	def __init__(self):
-		self.parameters = dict()
-		self.pList = []
-		self.AddParameter('name', '')
-		self.AddParameter('seed', '')
-		self.AddParameter('altitude', '-0.02')
-		self.AddParameter('longitude', '0.0')
-		self.AddParameter('latitude', '0.0')
-		self.AddParameter('height', '480')
-		self.AddParameter('width', '640')
-		self.AddParameter('magnification', '1.0')
-		self.AddParameter('grid', '10')
-		self.AddParameter('projection', {'Gnomonic': 'g', 'Mollweide': 'M', 'Square': 'q', 'Conical (conformal)': 'c', 'Area preserving azimuthal': 'a', 'Peters': 'p', 'Stereographic': 's', 'Orthographic': 'o', 'Mercator': 'm', 'Heightfield': 'h', 'Sinusoidal': 'S'})
-		self.AddParameter('colormap', {'Olsson': './cfg/Olsson.col', 'wood': './cfg/wood.col', 'mars': './cfg/mars.col'})
-	def AddParameter(self, parameter, value):
-		self.parameters[parameter] = value
-		self.pList.append(parameter)
-	def Update(self, p):
-		# will update the lists based on current parameters
-		# this can be used to update lists based on selections
-		pass
-	def roll(self, p, numRolls):
-		t = 'Planet Image'
-		args = list()
-		args.append('./bin/planet')
-		if 'projection' in p:
-			projection = self.parameters['projection'][p['projection']]
-			args.append('-p' + projection)
-		if 'colormap' in p:
-			colormap = self.parameters['colormap'][p['colormap']]
-			args.append('-C')
-			args.append(colormap)
-		else:
-			args.append('-C')
-			args.append('./cfg/Olsson.col')			
-		if 'seed' in p:
-			args.append('-s')
-			args.append(p['seed'])
-		if 'height' in p:
-			args.append('-h')
-			args.append(p['height'])
-		if 'width' in p:
-			args.append('-w')
-			args.append(p['width'])
-		if 'longitude' in p:
-			args.append('-l')
-			args.append(p['longitude'])
-		if 'grid' in p:
-			args.append('-g')
-			args.append(p['grid'])
-			args.append('-G')
-			args.append(p['grid'])
-		if 'latitude' in p:
-			args.append('-L')
-			args.append(p['latitude'])
-		if 'magnification' in p:
-			args.append('-m')
-			args.append(p['magnification'])
-		if 'altitude' in p:
-			args.append('-i')
-			args.append(p['altitude'])
-		if 'name' in p:
-			t = p['name']
-		o = Popen(args, stdout=PIPE).stdout.read().split('\n')
-		b = ''
-		for l in o:
-			b += l
-		s = '<image src="data:image/bmp;base64,'
-		s += base64.b64encode(b)
-		s += '">'
-		return t, s
-		
+    def __init__(self):
+        self.parameters = dict()
+        self.pList = []
+        self.AddParameter('name', '')
+        self.AddParameter('seed', '')
+        self.AddParameter('altitude', '-0.02')
+        self.AddParameter('longitude', '0.0')
+        self.AddParameter('latitude', '0.0')
+        self.AddParameter('height', '480')
+        self.AddParameter('width', '640')
+        self.AddParameter('magnification', '1.0')
+        self.AddParameter('grid', '10')
+        self.AddParameter('projection', {'Gnomonic': 'g', 'Mollweide': 'M', 'Square': 'q', 'Conical (conformal)': 'c', 'Area preserving azimuthal': 'a', 'Peters': 'p', 'Stereographic': 's', 'Orthographic': 'o', 'Mercator': 'm', 'Heightfield': 'h', 'Sinusoidal': 'S'})
+        self.AddParameter('colormap', {'Olsson': './cfg/Olsson.col', 'wood': './cfg/wood.col', 'mars': './cfg/mars.col'})
+    def AddParameter(self, parameter, value):
+        self.parameters[parameter] = value
+        self.pList.append(parameter)
+    def Update(self, p):
+        # will update the lists based on current parameters
+        # this can be used to update lists based on selections
+        pass
+    def roll(self, p, numRolls):
+        t = 'Planet Image'
+        args = list()
+        args.append('./bin/planet')
+        if 'projection' in p:
+            projection = self.parameters['projection'][p['projection']]
+            args.append('-p' + projection)
+        if 'colormap' in p:
+            colormap = self.parameters['colormap'][p['colormap']]
+            args.append('-C')
+            args.append(colormap)
+        else:
+            args.append('-C')
+            args.append('./cfg/Olsson.col')            
+        if 'seed' in p:
+            args.append('-s')
+            args.append(p['seed'])
+        if 'height' in p:
+            args.append('-h')
+            args.append(p['height'])
+        if 'width' in p:
+            args.append('-w')
+            args.append(p['width'])
+        if 'longitude' in p:
+            args.append('-l')
+            args.append(p['longitude'])
+        if 'grid' in p:
+            args.append('-g')
+            args.append(p['grid'])
+            args.append('-G')
+            args.append(p['grid'])
+        if 'latitude' in p:
+            args.append('-L')
+            args.append(p['latitude'])
+        if 'magnification' in p:
+            args.append('-m')
+            args.append(p['magnification'])
+        if 'altitude' in p:
+            args.append('-i')
+            args.append(p['altitude'])
+        if 'name' in p:
+            t = p['name']
+        o = Popen(args, stdout=PIPE).stdout.read().split('\n')
+        b = ''
+        for l in o:
+            b += l
+        s = '<image src="data:image/bmp;base64,'
+        s += base64.b64encode(b)
+        s += '">'
+        return t, s
+        

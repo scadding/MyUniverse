@@ -18,19 +18,19 @@
 """
 
 class NPCError(Exception):
-	def __init__(self, message):
-		self.message = message
+    def __init__(self, message):
+        self.message = message
 
-	def __str__(self):
-		return repr(self.message)
+    def __str__(self):
+        return repr(self.message)
 
 class InfiniteLoopError(NPCError):
-	def __init__(self, message, className):
-		NPCError.__init__(self, message)
-		self.className = className
+    def __init__(self, message, className):
+        NPCError.__init__(self, message)
+        self.className = className
 
-	def getClassName(self):
-		return self.className
+    def getClassName(self):
+        return self.className
 
 
 """

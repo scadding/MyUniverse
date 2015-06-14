@@ -1,0 +1,100 @@
+ Kolkata, Calcutta, India, incl. Haora
+ Jakarta, Jakarta, Indonesia, incl. Bekasi Bogor Depok Tangerang Tangerang Selatan
+ Casablanca, Casablanca, Morocco,
+ Omsk, Omsk, Russia,
+ Harare, Harare, Zimbabwe,
+ Āgra, Agra, India,
+ Chongqing, Chungking, China,
+ Denver, Denver, United States of America,
+ Colombo, Colombo, Sri Lanka,
+ Harbin, Harbin, China,
+ Melbourne, Melbourne, Australia,
+ İzmir, Izmir, Turkey,
+ Beijing, Beijing, China,
+ Shanghai, Shanghai, China, incl. Suzhou
+ Harbin, Harbin, China,
+ Buenos Aires, Buenos Aires, Argentina, incl. San Justo La Plata
+ Dhaka, Dacca, Bangladesh,
+ São Paulo, São Paulo, Brazil, incl. Guarulhos
+ Vancouver, Vancouver, Canada,
+ Tampa, Tampa, United States of America, incl. Lakeland St. Petersburg Sarasota
+ Nürnberg, Nuremberg, Germany,
+ Nanning, Nanning, China,
+ Dalian, Dairen, China,
+ Al-Manāmah, Manama, Bahrain,
+ Tōkyō, Tokyo, Japan, incl. Yokohama Kawasaki Saitama
+ Al-Kharṭūm, Khartoum, Sudan,
+ Dallas, Dallas, United States of America, incl. Fort Worth
+ Buenos Aires, Buenos Aires, Argentina, incl. San Justo La Plata
+ São Paulo, São Paulo, Brazil, incl. Guarulhos
+ Tōkyō, Tokyo, Japan, incl. Yokohama Kawasaki Saitama
+ Jabalpur, Jabalpur, India,
+ New York, New York, United States of America, incl. Bridgeport Newark New Haven
+ København, Copenhagen, Denmark,
+ Tehrān, Tehran, Iran, incl. Karaj
+ Kinshasa, Kinshasa, Congo (Dem. Rep.),
+ St. Louis, St. Louis, United States of America,
+ Palembang, Palembang, Indonesia,
+ Jinan, Jinan, China,
+ Kuala Lumpur, Kuala Lumpur, Malaysia, incl. Klang
+ Jakarta, Jakarta, Indonesia, incl. Bekasi Bogor Depok Tangerang Tangerang Selatan
+ Wenzhou, Wenzhou, China,
+ Lagos, Lagos, Nigeria,
+ Pittsburgh, Pittsburgh, United States of America,
+ El Djazaïr, Algiers, Algeria,
+ Yancheng, Yancheng, China,
+ Thành Phố Hồ Chí Minh, Saigon, Vietnam, incl. Biên Hòa
+ Ludhiāna, Ludhiana, India,
+ Ciudad de México, Mexico City, Mexico, incl. Nezahualcóyotl Ecatepec Naucalpan
+ McAllen, McAllen, United States of America, incl. Brownsville
+ Chennai, Madras, India,
+ Delhi, Delhi, India, incl. Faridabad Ghaziabad Gurgaon
+ Dar es Salaam, Dar es Salaam, Tanzania,
+ Arbīl, Erbil, Iraq,
+ Shenyang, Shenyang, China, incl. Fushun
+ Abuja, Abuja, Nigeria,
+ Morādābād, Morādābād, India,
+ Mumbai, Bombay, India, incl. Bhiwandi Kalyan Thane Ulhasnagar Vasai-Virar
+ Nanning, Nanning, China,
+ Shanghai, Shanghai, China, incl. Suzhou
+ Stuttgart, Stuttgart, Germany,
+ Jinan, Jinan, China,
+ Nürnberg, Nuremberg, Germany,
+ Patna, Patna, India,
+ Singapore, Singapore, Singapore, incl. Johor Bahru (Malaysia)
+ Aurangābād, Aurangabad, India,
+ Taibei, Taipei, Taiwan (Rep. of China), incl. Taoyuan & most parts of Xinbei / New Taipei City
+ Antalya, Antalya, Turkey,
+ Al-Manāmah, Manama, Bahrain,
+ Chongqing, Chungking, China,
+ Budapest, Budapest, Hungary,
+ Köln, Cologne, Germany,
+ Gwalior, Gwalior, India,
+ Denver, Denver, United States of America,
+ Shijiazhuang, Shijiazhuang, China,
+ Hamburg, Hamburg, Germany,
+ Dimashq, Damascus, Syria,
+ Praha, Prague, Czech Republic,
+ Brisbane, Brisbane, Australia, incl. Gold Coast
+ Palembang, Palembang, Indonesia,
+ San Francisco, San Francisco, United States of America, incl. Concord Oakland San Jose Santa Rosa
+ Atlanta, Atlanta, United States of America,
+ Jinan, Jinan, China,
+ Ankara, Ankara, Turkey,
+ Tōkyō, Tokyo, Japan, incl. Yokohama Kawasaki Saitama
+ Changzhou, Changzhou, China,
+ Maracay, Maracay, Venezuela,
+ Rostov-na-Donu, Rostov-on-Don, Russia,
+ Changshu, Changshu, China,
+ Al-Qāhirah, Cairo, Egypt, incl. Al-Jizah Hulwan Shubra al-Khaymah
+ Orlando, Orlando, United States of America,
+ Barcelona, Barcelona, Spain,
+ Gujrānwāla, Gujranwala, Pakistan,
+ Rio de Janeiro, Rio de Janeiro, Brazil, incl. Nova Iguaçu São Gonçalo
+ Guadalajara, Guadalajara, Mexico, incl. Zapopan
+ Donėc'k, Donetsk, Ukraine,
+ P'yŏngyang, Pyongyang, Korea (North),
+ Busan, Pusan, Korea (South),
+ Ar-Riyād, Riyadh, Saudi Arabia,
+ Tōkyō, Tokyo, Japan, incl. Yokohama Kawasaki Saitama
+ 'Ammān, Amman, Jordan,

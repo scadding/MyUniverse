@@ -21,15 +21,15 @@ class generator:
         return result
 
     def metal(self):
-        elements = ["gold","silver"]
+        elements = ["gold", "silver"]
         return choice(elements)
 
     def color(self):
-        elements = ["red","blue","green","black"]
+        elements = ["red", "blue", "green", "black"]
         return choice(elements)
 
     def blazon1(self):
-        elements = ["stripe","sword","tower","fist","skull","star","fleur-de-lys","[Creature]","[Creature]","[Creature]","crown","arrow","tree","cross","bar","shell","harp","ring","axe","ship","sun","moon"]
+        elements = ["stripe", "sword", "tower", "fist", "skull", "star", "fleur-de-lys", "[Creature]", "[Creature]", "[Creature]", "crown", "arrow", "tree", "cross", "bar", "shell", "harp", "ring", "axe", "ship", "sun", "moon"]
         result = choice(elements)
 
         if result == "[Creature]":
@@ -38,7 +38,7 @@ class generator:
         return result
 
     def creature(self):
-        elements = entries=["bear","boar","bull","cock","devil","dragon","drake","eagle","falcon","fox","griffon","hare","hawk","horse","hound","lion","owl","raven","serpent","stag","unicorn","wolf","wyvern"]
+        elements = entries=["bear", "boar", "bull", "cock", "devil", "dragon", "drake", "eagle", "falcon", "fox", "griffon", "hare", "hawk", "horse", "hound", "lion", "owl", "raven", "serpent", "stag", "unicorn", "wolf", "wyvern"]
         return choice(elements)
 
     def blazon2(self):
@@ -56,7 +56,7 @@ class generator:
         return groups[randint(1,3)]
 
     def numwords(self):
-        elements = ["two","three","four"]
+        elements = ["two", "three", "four"]
         return choice(elements)
         
     def aoran(self, txt):

@@ -41,223 +41,223 @@ kExcludedCodeFiles = {}
 
 
 def EmptyNamesCacheMain():
-	EmptyNamesCache()
+    EmptyNamesCache()
 
 def ReplaceNamesCacheMain(cache):
-	ReplaceNamesCache(cache)
+    ReplaceNamesCache(cache)
 
 
 def GetRepositoryDataMapMain():
-	'return map of data:mdate'
-	dataMap = GetRepositoryDataMap()
-	for fileName in os.listdir(kNPCImagesPath):
-		if fileName.lower().endswith('gif'):
-			fullPath = '%s%s%s' % (kNPCImagesPath, '/', fileName)
-			filePath = '%s%s%s' % (kNPCImagesDir, '/', fileName)
-			dataMap[filePath] = [os.path.getmtime(fullPath) - kTimeZoneDifference, GetShaSum(fullPath)]
-	#print dataMap
-	return dataMap
+    'return map of data:mdate'
+    dataMap = GetRepositoryDataMap()
+    for fileName in os.listdir(kNPCImagesPath):
+        if fileName.lower().endswith('gif'):
+            fullPath = '%s%s%s' % (kNPCImagesPath, '/', fileName)
+            filePath = '%s%s%s' % (kNPCImagesDir, '/', fileName)
+            dataMap[filePath] = [os.path.getmtime(fullPath) - kTimeZoneDifference, GetShaSum(fullPath)]
+    #print dataMap
+    return dataMap
 
 
 
 def GetShaSum(spath):
-	shahex = ''
-	if os.path.isfile(spath):
-		sfile = file(spath, 'rb')
-		contents = sfile.read()
-		sfile.close()
-		shaobj = sha.new(contents)
-		shahex = shaobj.hexdigest()
-	return shahex
+    shahex = ''
+    if os.path.isfile(spath):
+        sfile = file(spath, 'rb')
+        contents = sfile.read()
+        sfile.close()
+        shaobj = sha.new(contents)
+        shahex = shaobj.hexdigest()
+    return shahex
 
 
 def GetRepositoryCodeMap():
-	'return map of codefile.py:mdate'
-	codeMap = {}
-	for fileName in os.listdir(kRootDir):
-		lowerfile = fileName.lower()
-		if (lowerfile.endswith('py') or lowerfile.endswith('html') or lowerfile.endswith('psp')) and \
-		   (lowerfile not in kExcludedCodeFiles):
-			fullPath = '%s%s%s' % (kRootDir, '/', fileName)
-			codeMap[fileName] = [os.path.getmtime(fullPath) - kTimeZoneDifference, GetShaSum(fullPath)]
-	return codeMap
+    'return map of codefile.py:mdate'
+    codeMap = {}
+    for fileName in os.listdir(kRootDir):
+        lowerfile = fileName.lower()
+        if (lowerfile.endswith('py') or lowerfile.endswith('html') or lowerfile.endswith('psp')) and \
+           (lowerfile not in kExcludedCodeFiles):
+            fullPath = '%s%s%s' % (kRootDir, '/', fileName)
+            codeMap[fileName] = [os.path.getmtime(fullPath) - kTimeZoneDifference, GetShaSum(fullPath)]
+    return codeMap
 
 
 def GetXMLData(reload=0):
-	attribmap		= AttributeDependencyMap()
-	weapons			= ItemTable()
-	armor			= ItemTable()
-	classes			= {}
-	genreMap		= {}
-	nameMap			= {}
+    attribmap        = AttributeDependencyMap()
+    weapons            = ItemTable()
+    armor            = ItemTable()
+    classes            = {}
+    genreMap        = {}
+    nameMap            = {}
 
-	# parse all class files; populate classes, weapons
-	ParseAllXML(attribmap, classes, genreMap, weapons, armor, nameMap)
-	data = (attribmap, classes, genreMap, weapons, armor, nameMap)
+    # parse all class files; populate classes, weapons
+    ParseAllXML(attribmap, classes, genreMap, weapons, armor, nameMap)
+    data = (attribmap, classes, genreMap, weapons, armor, nameMap)
 
-	return data
+    return data
 
 
 def GetCharacters(xmlData, classAlias, power, start, total):
-	'return n unique character(s) from static xmlData'
-	characters = []
+    'return n unique character(s) from static xmlData'
+    characters = []
 
-	# process total # i
-	for i in range(start, total):
-		# initialize character and add to set of characters
-		if classAlias[0] == '*':
-			alias = GetRandomClassAlias(xmlData, classAlias)[1]
-		else:
-			alias = classAlias
-		npc = GetNPC(xmlData, alias, power, i)
-		characters.append(npc)
+    # process total # i
+    for i in range(start, total):
+        # initialize character and add to set of characters
+        if classAlias[0] == '*':
+            alias = GetRandomClassAlias(xmlData, classAlias)[1]
+        else:
+            alias = classAlias
+        npc = GetNPC(xmlData, alias, power, i)
+        characters.append(npc)
 
-	return characters
-		
+    return characters
+        
 
 def PrintHelp(appPath, exitCode=-1):
-	print '\n Usage:	%s [alias|"name"|*genre] [#] [a2] [#2] [a(n)...] [#(n)...]\n' % basename(appPath)
-	print '\n   Example:	%s as 1' % basename(appPath)
-	print '\n   Example:	%s "American Soldier" 1' % basename(appPath)
-	print '\n   Example:	%s *fantasy 100' % basename(appPath)
-	print '\n   Example:	%s pb' % basename(appPath)
-	print '\n   Example:	%s ss 5 sso 2' % basename(appPath)
-	print '\n\n   To see list of aliases:  %s alias' % basename(appPath)
-	print '\n   GUI:	NPCGen.exe'
-	# sys.exit(exitCode)
+    print '\n Usage:    %s [alias|"name"|*genre] [#] [a2] [#2] [a(n)...] [#(n)...]\n' % basename(appPath)
+    print '\n   Example:    %s as 1' % basename(appPath)
+    print '\n   Example:    %s "American Soldier" 1' % basename(appPath)
+    print '\n   Example:    %s *fantasy 100' % basename(appPath)
+    print '\n   Example:    %s pb' % basename(appPath)
+    print '\n   Example:    %s ss 5 sso 2' % basename(appPath)
+    print '\n\n   To see list of aliases:  %s alias' % basename(appPath)
+    print '\n   GUI:    NPCGen.exe'
+    # sys.exit(exitCode)
 
 
 def GetRandomClassAlias(xmlData, genreFilter):
-	'get a random short class alias based on genreFilter!!!'
-	attribmap, classes, genreMap, weapons, armor, nameMap = xmlData
-	filteredClasses = []
-	genreName = 'Random'
+    'get a random short class alias based on genreFilter!!!'
+    attribmap, classes, genreMap, weapons, armor, nameMap = xmlData
+    filteredClasses = []
+    genreName = 'Random'
 
-	if genreFilter == '*random':
-		genres = genreMap.keys()
-	else:
-		genreName = genreFilter[1:]
-		genres = [genreName]
+    if genreFilter == '*random':
+        genres = genreMap.keys()
+    else:
+        genreName = genreFilter[1:]
+        genres = [genreName]
 
-	# populate filteredClasses looping thru genres 
-	for genre in genres:
-		classTypes = genreMap[genre]
+    # populate filteredClasses looping thru genres 
+    for genre in genres:
+        classTypes = genreMap[genre]
 
-		for classType in classTypes:
-			if not classType.isAbstract():
-				classAlias = classType.getAlias()
-				filteredClasses.append(classAlias)
+        for classType in classTypes:
+            if not classType.isAbstract():
+                classAlias = classType.getAlias()
+                filteredClasses.append(classAlias)
 
-	return (genreName, choice(filteredClasses))
+    return (genreName, choice(filteredClasses))
 
 
 def Generate(args, xmlData, power=1, mode=0, startPos=0, stack=[], display=1, html=0):
-	'main function to control cycles of character gen.'
-	classAlias = args[0]
-	if type(classAlias) != type(u''): classAlias = unicode(args[0], 'latin1')
-	try:
-		total = int(args[1])
-	except (ValueError, IndexError):
-		total = 1
+    'main function to control cycles of character gen.'
+    classAlias = args[0]
+    if type(classAlias) != type(u''): classAlias = unicode(args[0], 'latin1')
+    try:
+        total = int(args[1])
+    except (ValueError, IndexError):
+        total = 1
 
-	# get total number of cycles
-	cycles, remainder = divmod(total, kCycleCacheSize)
+    # get total number of cycles
+    cycles, remainder = divmod(total, kCycleCacheSize)
 
-	runningTotal = startPos
-	for i in range(cycles + 1):
-		# get characters for this cycle
-		characters = []
-		if cycles and i != cycles:
-			characters = GetCharacters(xmlData, classAlias, power, runningTotal, (runningTotal + kCycleCacheSize))
-			runningTotal += kCycleCacheSize
-		elif (i == cycles) and remainder:
-			characters = GetCharacters(xmlData, classAlias, power, runningTotal, (runningTotal + remainder))
+    runningTotal = startPos
+    for i in range(cycles + 1):
+        # get characters for this cycle
+        characters = []
+        if cycles and i != cycles:
+            characters = GetCharacters(xmlData, classAlias, power, runningTotal, (runningTotal + kCycleCacheSize))
+            runningTotal += kCycleCacheSize
+        elif (i == cycles) and remainder:
+            characters = GetCharacters(xmlData, classAlias, power, runningTotal, (runningTotal + remainder))
 
-		# print every character in this cycle or remainder
-		for character in characters:
-			stack.append(character)
-			if display:
-				if html == 0:
-					NPCBuilder.DisplayText(character, mode)
-				else:
-					print NPCBulder.GetHTMLDisplay(character)
-					#NPCBuilder.DisplayHTML(character, mode)
+        # print every character in this cycle or remainder
+        for character in characters:
+            stack.append(character)
+            if display:
+                if html == 0:
+                    NPCBuilder.DisplayText(character, mode)
+                else:
+                    print NPCBulder.GetHTMLDisplay(character)
+                    #NPCBuilder.DisplayHTML(character, mode)
 
-	if len(args) > 2:
-		Generate(args[2:], xmlData, power, mode)
+    if len(args) > 2:
+        Generate(args[2:], xmlData, power, mode)
 
 def GenerateHTMLString(args, xmlData, power=1, mode=0, startPos=0, stack=[]):
-	'main function to control cycles of character gen.'
-	classAlias = args[0]
-	if type(classAlias) != type(u''): classAlias = unicode(args[0], 'latin1')
-	try:
-		total = int(args[1])
-	except (ValueError, IndexError):
-		total = 1
+    'main function to control cycles of character gen.'
+    classAlias = args[0]
+    if type(classAlias) != type(u''): classAlias = unicode(args[0], 'latin1')
+    try:
+        total = int(args[1])
+    except (ValueError, IndexError):
+        total = 1
 
-	# get total number of cycles
-	cycles, remainder = divmod(total, kCycleCacheSize)
+    # get total number of cycles
+    cycles, remainder = divmod(total, kCycleCacheSize)
 
-	runningTotal = startPos
-	for i in range(cycles + 1):
-		# get characters for this cycle
-		characters = []
-		if cycles and i != cycles:
-			characters = GetCharacters(xmlData, classAlias, power, runningTotal, (runningTotal + kCycleCacheSize))
-			runningTotal += kCycleCacheSize
-		elif (i == cycles) and remainder:
-			characters = GetCharacters(xmlData, classAlias, power, runningTotal, (runningTotal + remainder))
+    runningTotal = startPos
+    for i in range(cycles + 1):
+        # get characters for this cycle
+        characters = []
+        if cycles and i != cycles:
+            characters = GetCharacters(xmlData, classAlias, power, runningTotal, (runningTotal + kCycleCacheSize))
+            runningTotal += kCycleCacheSize
+        elif (i == cycles) and remainder:
+            characters = GetCharacters(xmlData, classAlias, power, runningTotal, (runningTotal + remainder))
 
-		# print every character in this cycle or remainder
-		for character in characters:
-			stack.append(character)
-			return NPCBuilder.GetHTMLDisplay(character)
+        # print every character in this cycle or remainder
+        for character in characters:
+            stack.append(character)
+            return NPCBuilder.GetHTMLDisplay(character)
 
 
 
 def PrintAliasMap(xmlData):
-	'print a classAliasMap'
-	attribmap, classes, genreMap, weapons, armor, nameMap = xmlData
-	aliases = classes.keys()
-	aliases.sort()
+    'print a classAliasMap'
+    attribmap, classes, genreMap, weapons, armor, nameMap = xmlData
+    aliases = classes.keys()
+    aliases.sort()
 
-	for alias in aliases:
-		classType = classes[alias]
-		if not classType.isAbstract():
-			className = classType.getName()
-			screenString = '%-9s: %s' % (alias, className)
-			# cp437 mac_latin2
-			print screenString.encode('cp437')
+    for alias in aliases:
+        classType = classes[alias]
+        if not classType.isAbstract():
+            className = classType.getName()
+            screenString = '%-9s: %s' % (alias, className)
+            # cp437 mac_latin2
+            print screenString.encode('cp437')
 
-	genreNames = genreMap.keys()
-	genreNames.sort()
-	print '\n*random          : Completely Random NPC'
-	for genreName in genreNames:
-		print '*%-16s: Random %s NPC' % (genreName, genreName)
+    genreNames = genreMap.keys()
+    genreNames.sort()
+    print '\n*random          : Completely Random NPC'
+    for genreName in genreNames:
+        print '*%-16s: Random %s NPC' % (genreName, genreName)
 
 
 
 def Main(args):
-	# load the xmlData ONCE
-	xmlData = GetXMLData()
-	html = 0
-	if args[1] == 'html':
-		args = args[1:]
-		html = 1
+    # load the xmlData ONCE
+    xmlData = GetXMLData()
+    html = 0
+    if args[1] == 'html':
+        args = args[1:]
+        html = 1
 
-	if args[1] == 'alias':
-		PrintAliasMap(xmlData)
-	elif args[1].lower() in ('h', 'help', '/?', '/h', '-?', '-h', '--help'):
-		PrintHelp(args[0])
-	else:
-		Generate(args[1:], xmlData, power=1, mode=0, html=html)
+    if args[1] == 'alias':
+        PrintAliasMap(xmlData)
+    elif args[1].lower() in ('h', 'help', '/?', '/h', '-?', '-h', '--help'):
+        PrintHelp(args[0])
+    else:
+        Generate(args[1:], xmlData, power=1, mode=0, html=html)
 
 if __name__ == '__main__':
-	args = sys.argv
-	if len(args) > 1:
-		Main(args)
-	else:
-		PrintHelp(args[0]) 
+    args = sys.argv
+    if len(args) > 1:
+        Main(args)
+    else:
+        PrintHelp(args[0]) 
 
 """
  *******************************************************************************

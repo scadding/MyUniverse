@@ -177,15 +177,15 @@ def main():
     tests = []
     for t in rules:
         t_orig = t
-        t = t.replace("=","==")
-        t = t.replace("EQ","==")
-        t = t.replace("LE","<=")
-        t = t.replace("GT",">")
-        t = t.replace("LT","<")
-        t = t.replace("GE",">=")
-        t = t.replace("LE","<=")
-        t = t.replace("NE","!=")
-        t = t.replace("<>","!=")
+        t = t.replace("=", "==")
+        t = t.replace("EQ", "==")
+        t = t.replace("LE", "<=")
+        t = t.replace("GT", ">")
+        t = t.replace("LT", "<")
+        t = t.replace("GE", ">=")
+        t = t.replace("LE", "<=")
+        t = t.replace("NE", "!=")
+        t = t.replace("<>", "!=")
         tests.append( (t_orig,eval(t,vars_)) )
 
     # copy vars_ to EvalConstant lookup dict
@@ -195,13 +195,13 @@ def main():
         print test, expected, ret.eval()
 
 def evalString(s):
-	ret = comp_expr.parseString(s)[0]
-	val = ret.eval()
-	if val == True or val == False:
-		return val
-	elif float(val) == int(val):
-		val = int(val)
-	return val
+    ret = comp_expr.parseString(s)[0]
+    val = ret.eval()
+    if val == True or val == False:
+        return val
+    elif float(val) == int(val):
+        val = int(val)
+    return val
 
 if __name__=='__main__': 
     main()
