@@ -403,7 +403,7 @@ class tableMgr:
         for t, s, e in q.scanString(ret1):
             n = n + ret1[last:s]
             last = e
-            print self.tfile[table].stack
+            #print self.tfile[table].stack
             if self.tfile[table].getVariable(t[0]) == "":
                 v = self.tfile[table].getBaseVariable(t[0])
                 self.tfile[table].setVariable(t[0], self.parse(table, v))
@@ -472,7 +472,7 @@ class tableMgr:
         l[0] = m.group(3)
         n = self.parseList(l)
         if f == "for":
-            print n, self.parse(table, str(n[1]))
+            #print n, self.parse(table, str(n[1]))
             start = int(self.parse(table, n[0]))
             stop = int(self.parse(table, n[1]))
             for x in range(start, stop):
@@ -488,7 +488,8 @@ class tableMgr:
             p = list()
             for i in n:
                 p.append(self.parse(table, i))
-            print s
+            #print s
+            #print f, p
             s = s + getattr(tableFunctions, f)(p)
         return s
     def roll(self, table):
@@ -521,7 +522,7 @@ class tableMgr:
                 #if isinstance(self.tfile[t], tableFile):
                 #    if not self.tfile[t].hasStart():
                 #        continue
-                print 'table - ' + t
+                #print 'table - ' + t
                 filename = dirname + '/' + t + '.txt'
                 f = None
                 for j in range(count):
@@ -533,7 +534,7 @@ class tableMgr:
                         f = codecs.open(filename, 'w', "utf-8")
                     f.write(s + '\n')
         else:
-            print 'table - ' + table
+            #print 'table - ' + table
             filename = dirname + '/' + table + '.txt'
             f = None
             for j in range(count):

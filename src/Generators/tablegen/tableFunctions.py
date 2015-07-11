@@ -53,7 +53,7 @@ def ia(l):
     return ''
 
 def dice(l):
-    s = roll(codecs.decode(l[0]))
+    s = str(roll(l[0].encode('ascii', 'ignore')))
     #print 'dice ', l[0], s
     return s
 

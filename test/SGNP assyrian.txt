@@ -1,0 +1,100 @@
+ Emmita Khannah Sorme Wardiya Mardina Aurya Domarina Awita
+ Shamrina Marjanita Sharokina Ari Eil Akhita Ishtar Hani\'ata
+ Eilina Sorme Martha Sharokina Yayota Achadina Baila Ninsina Ari Eil
+ Bet Eil Aurya Khannah Hani\'ata Akhita Nineveh Eilina Nahrina Aurhai Khannah Baila Adorina Adorina Yaeeta
+ Domarina Aurhai Naramsina Bet Eil Larsa Paldina Naramsina Shamura Hano Khannah Martha
+ Damrina Naramsina Baila Ari Eil Domarina Aurya
+if 6 < 3
+ Yaeeta Damrina Yayota Wardina Ari Eil Wardiya Lawita
+ Shamrina Lwita Larsa Rdita Ramsina Akhita Yata Paldina
+Bareil (male) 16
+ Ninsina Rashomta Walita Akhita Rdita Shamreta Hani\'ata Awijil Larsa Mardina Yata Awijil Ramsina Emmita Wardiya
+ Nashiram Ishtar Larsa Nineveh Nahrina Lawita Baila Ashourina Hani\'ata Nashiram
+ Akhita Hani\'ata Baila Shamreta Marnita Yata Milta Nahrina Awita
+ Wardiya Ramsina Damrina Simta Akhita Lolita Wardiya Eilbrat
+ Shimta Baila Marjanita Ninsina Arbella Baila Simta Awita Shirat Lawita
+ Shirat Akhita Rdita Ishtar Larsa Baila Aurya Panna Shamura Khannah Lolita Shirat Ari Eil Baila
+Bardeen (male) 13
+if 6 < 3
+ Ramina Domarina Shirat Baila Nashiram Bet Eil Naramsina Hano Rashomta Aramina
+ Ishtar Adorina Martha Panna Bet Eil Larsa Martha Marjanita Domarina Ramina Nasibin Damrina
+ Martha Wardiya Ninsina Ari Eil
+ Wardina Awita Panna Awita Rashomta Achadina Naramsina Ashourina Shamrina Shirat
+Bailbrone (male) 10
+ Shamura Hani\'ata Awijil Sorme Eilbrat Domarina Simta Nardina Paldina
+ Shamrina Yayota Shamrina Shamrina Milta Adorina Milta Nardina Rashomta Naramsina Walita
+ Shirat Nardina Yata Ramina Eilbrat Larsa Aramina Lwita Yata Ramsina Ari Eil Nardina Shamura Awita
+Hano (female) 55 55
+ Hano Lwita Lwita Lawita Nasibin Eilbrat Adorina Baila Sahdina Sawrina Nasibin
+ Yata Lawita Yata Shamrina Sawrina Larsa Bet Eil Achadina Domarina Bet Eil
+Nabo Ram (male) 11
+ Baila Mardina Awijil Sahdina Nahrina Aurya
+ Aurhai Emmita Nasibin Sahdina Akhita Sharokina Wardiya Shamura
+Damrina (female) 25 25
+Eilina (female) 66 66
+if 6 < 3
+ Hano Eilbrat Sahdina Shamrina Ramina Awita Ramsina Arbella Nardina Marjanita Sahdina Nineveh Achadina Yayota
+ Walita Naramsina Bet Eil Marnita Akhita Nahrina Lawita Aurhai Eilina
+ Damrina Larsa Simta Milta Aramina Shamura Aurya Mardina Nashiram Ninsina Walita Eilina
+ Larsa Rdita Adorina Mardina Nashiram Aramina Ninsina Shirat Martha Nineveh Emmita Ramsina Sorme Eilbrat Rdita
+ Wardiya Shirat Yayota Sorme Aramina Nashiram Ari Eil Lwita Ramsina
+ Awijil Yata Shirat Shimta Ashourina Arbella Nasibin Ramina Yata
+10 62  02 39
+ Domarina Eilina Larsa Shamrina Awita Achadina Achadina Awijil Shirat Damrina Awijil Martha Aurya Yayota Ashourina
+Awita (female) 26 26
+Awita (female) 98 98
+12 52  02 34
+if 6 < 3
+Natan (Nathan) (male) 13
+Eilina (female) 70 70
+ Damrina Wardiya Shamura Wardiya Akhita Eilina Akhita Lawita
+ Eilbrat Sorme Arbella Arbella Aurya Awita Hani\'ata
+Khnan Seen (male) 13
+ Ishtar Akhita Yaeeta Sorme Damrina Lwita Nasibin
+if 6 < 3
+ Nashiram Awita Yata Arbella Nardina Damrina Ishtar
+Eilina (female) 99 99
+Awiya (male) 16
+ Wardiya Eilina Baila Achadina Shamreta Yayota Ninsina Lolita Awijil Larsa Yaeeta Sharokina Yayota
+Khannah (female) 70 70
+ Marjanita Ashourina Yata Bet Eil Milta Nineveh Aramina Awita Awita Nashiram
+ Sawrina Larsa Damrina Aurya Sorme Adorina
+ Arbella Sahdina Adorina Marnita Milta Adorina Shamura
+Khannah (female) 80 80
+Bailbrone (male) 9
+ Ramina Awijil Lolita Shirat Awita Ashourina Adorina Awita Emmita Awijil Wardiya
+ Naramsina Aurhai Nardina Sahdina Marnita Lolita Marjanita Nasibin Ramina Eilbrat
+ Walita Shirat Awijil Lolita Aramina Shimta Awijil Bet Eil Ramsina
+if 6 < 3
+ Shimta Sorme Eilbrat Khannah Sahdina Walita Yayota Lwita Shirat Awita Nardina Ninsina Simta
+Eilina (female) 83 83
+ Nahrina Nardina Marjanita Nasibin Hano Larsa Akhita Shamura Aurya
+ Ninsina Achadina Simta Ramina Sahdina Hano Eilbrat Ari Eil Aurya Domarina
+ Adorina Sahdina Damrina Lawita Nahrina Panna Nahrina
+ Nashiram Achadina Marnita Nasibin Sorme
+ Yaeeta Khannah Ramsina Hano Aurya Aurhai
+Damrina (female) 64 64
+ Shamreta Milta Ramsina Yaeeta Khannah Arbella Marnita
+ Shamura Achadina Nahrina Aurhai Ishtar Sawrina
+ Nineveh Aramina Yayota Nineveh Ninsina Awijil Achadina Larsa Awijil Domarina Ari Eil
+ Eilina Walita Lawita
+ Marnita Eilina Marjanita Shamreta Sorme Awita Paldina Nashiram Shamrina Eilina
+ Aurya Ramina Hano Emmita Shamreta Naramsina Larsa Panna Awita Wardiya Rashomta
+ Damrina Sahdina Nashiram Martha Nasibin Emmita Sharokina Bet Eil Awita
+ Arbella Ramsina Ninsina Aramina Arbella Yata Eilbrat Martha Awita Paldina Nahrina
+ Martha Awita Panna Mardina Ari Eil Milta Eilina Akhita Aurhai Adorina Walita Hani\'ata Walita
+ Domarina Akhita Rdita Eilina Akhita Sorme Lawita Nashiram Walita Sahdina Wardiya
+ Yayota Damrina Lawita
+Nabo Ram (male) 14
+ Rashomta Marjanita Ashourina Rdita Awijil Awijil Sahdina Awita Adorina Rdita
+ Sahdina Eilina Nahrina Aurya Sharokina Marnita Nasibin Marjanita Wardiya
+Rab Eil (male) 14
+if 6 < 3
+ Marjanita Nahrina Akhita Nardina Shimta Domarina Aramina Nashiram Rashomta Shirat
+ Paldina Ninsina Ari Eil Paldina Larsa Shimta Nineveh
+ Arbella Sharokina Ninsina Shamrina Milta Nashiram Panna Ashourina Simta Aramina Bet Eil Awita Ishtar
+ Sorme Larsa Paldina Paldina Panna Bet Eil Lolita Damrina Larsa Shamreta
+if 6 < 3
+ Nineveh Walita Achadina Yata Bet Eil
+ Aramina Aurya Khannah Awijil Rashomta
+Ashur Ban (male) 10
