@@ -286,7 +286,7 @@ class MyFrame(wx.Frame):
             url = "file://" + path + "/" + name + ".html"
             html.LoadURL(url)
             self.Layout()
-            os.remove(name + '.html')
+            #os.remove(name + '.html')
 
     def OnPaneClosing(self, event):
         current = event.GetSelection()
