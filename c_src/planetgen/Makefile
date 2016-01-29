@@ -23,7 +23,7 @@ clean:
 	rm -f $(OBJS) planet
 
 SHARFILES = Manual.txt Makefile ReadMe \
-            planet.c \
+            planet.cpp \
             default.col defaultB.col burrows.col burrowsB.col mars.col\
             wood.col white.col
 

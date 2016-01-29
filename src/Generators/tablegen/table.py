@@ -163,7 +163,7 @@ class tableFile:
     tableline = re.compile('^\s*(\d*)\s*,(.*)')
     tablelinealt = re.compile('^\s*(\d*)-(\d*)\s*,(.*)')
     continuation = re.compile('^_(.*)$')
-    variabledeclaration = re.compile('^\s*%(.*)%\s*=\s*(.*)$')
+    variabledeclaration = re.compile('^\s*%(.*)%?\s*=\s*(.*)$')
     parameterdeclaration = re.compile('^\s*@.*$')
     pragmadeclaration = re.compile('^/.*$')
     namespec = re.compile('^[/\w _~,-]*/(.*)\.tab$')

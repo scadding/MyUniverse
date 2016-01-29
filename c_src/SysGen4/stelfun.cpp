@@ -410,7 +410,7 @@ body   *balloc()
     b = (body *)malloc(sizeof(body));
     if(!b) {
         printf("Fatal malloc error!\n");
-        printf("Request:%d\n", sizeof(body));
+        printf("Request:%ld\n", sizeof(body));
         exit(1);
     }
     return(b);
