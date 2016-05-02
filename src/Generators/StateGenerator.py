@@ -1,5 +1,6 @@
 
 from tablegen import table
+from state import *
 
 class StateGenerator:
     def __init__(self):

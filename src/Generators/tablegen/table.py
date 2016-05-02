@@ -376,6 +376,7 @@ class tableMgr:
         ret <<= Group( Suppress(opener) + ZeroOrMore( ret | content )  + Suppress(closer))
         return ret
     def parse(self, table, exp):
+        print exp
         ret = ''
         last = 0
         nestedItems = self.nestedExpr("{{", "}}")
