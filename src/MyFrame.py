@@ -275,7 +275,7 @@ class MyFrame(wx.Frame):
             html.LoadURL(file)
             self.Layout()
         else:
-            f = codecs.open(name + '.html', 'w', "utf-8")
+            f = codecs.open('tmp/' + name + '.html', 'w', "utf-8")
             u = ''
             if content.__class__.__name__ == "unicode":
                 u = content
@@ -284,7 +284,7 @@ class MyFrame(wx.Frame):
             f.write(u)
             f.close()
             html.SetPage("", name)
-            path = os.getcwd()
+            path = os.getcwd() + '/tmp'
             url = "file://" + path + "/" + name + ".html"
             html.LoadURL(url)
             self.Layout()
