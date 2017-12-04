@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import inflect
-import table
 from dice import dice as roll
 from eval import evalString
-import codecs
 
 def eval(l):
     #print 'eval ', l
