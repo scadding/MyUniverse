@@ -1,4 +1,7 @@
 all: planets
 
 planets:
-	gcc -g -lm planets.c -o planets
+	gcc -g planets.c -o planets -lm
+
+clean:
+	rm -f *~ planets

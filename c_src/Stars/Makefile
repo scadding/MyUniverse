@@ -1,4 +1,7 @@
 all: stars
 
 stars:
-	gcc -lm stars.c -o stars
+	gcc stars.c -o stars -lm
+
+clean:
+	rm -f *~ stars

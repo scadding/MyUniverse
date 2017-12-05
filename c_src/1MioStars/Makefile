@@ -42,3 +42,5 @@ lang.o:
 magic.o: 
 	$(CC) $(CFLGS) magic.c
 
+clean:
+	rm -f *~ *.o system map sysgen1 sysgen2

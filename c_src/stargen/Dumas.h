@@ -1,5 +1,5 @@
 // D.U.M.A.S Debug Utility for the Memory Allocation Subsystem
-// Copyright © 1993, World Benders, Inc. All Rights Reserved.
+// Copyright ï¿½ 1993, World Benders, Inc. All Rights Reserved.
 //
 
 #if MEMORY_CHECK
@@ -17,7 +17,7 @@ void dumasCheckPtr (void *oldPtr, char *moduleName, long lineNo);
 void dumasDumpHoard (void);
 void dumasVerifyHoard (void);
 
-// The following routine is Meeting Spaceª specific...
+// The following routine is Meeting Spaceï¿½ specific...
 
 #ifdef MEETING_SPACE_H
 char *dumasDupString (char *string, char *moduleName, long lineNo);

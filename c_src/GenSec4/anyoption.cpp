@@ -207,6 +207,7 @@ AnyOption::doubleOptStorage()
 		optionindex[i] = -1 ;
 	}
 	max_options = 2 * max_options ;
+	free(options);
 	return true;
 }
 

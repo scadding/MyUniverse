@@ -7,11 +7,6 @@ CC=gcc
 # And change this to your fvorite C compiler flags:
 CFLAGS = -O -g -W -Wall -D_USE_LIBM_MATH_H
 
-# We use a lot of long doubles and Mac OS X currently warns you that they're
-# thinking about changing these from 64 to 128 bits. To suppress that warning:
-
-CFLAGS += -Wno-long-double
-
 # StarGen comes with a copy of World Benders' portable memory checker, Dumas
 # If you're debugging StarGen, you may want to uncomment the following line:
 

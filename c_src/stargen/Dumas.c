@@ -1,15 +1,15 @@
 // D.U.M.A.S Debug Utility for the Memory Allocation Subsystem
-// Copyright © 1993, World Benders, Inc. All Rights Reserved.
+// Copyright ÔøΩ 1993, World Benders, Inc. All Rights Reserved.
 //
-// Just as Edmond Dantès disguised himself to catch the disloyal M. Danglars, so
+// Just as Edmond DantÔøΩs disguised himself to catch the disloyal M. Danglars, so
 // DUMAS disguises itself to catch dangling memory references. Like the disguised
 // Comte de la Fere, who brought the two-timing milady deWinter to justice, so
-// DUMAS seeks and punishes those who doubly deallocate. Where Dantès became
-// the Count of Monte-Cristo, Sinbad the Sailor, Abbé Busoni, and Lord Wilmore,
-// DUMAS becomes malloc, calloc, realloc and free. As Dantès was guarded in
-// the Château d'If, so each allocated item is protected by a guard and a sentinel
+// DUMAS seeks and punishes those who doubly deallocate. Where DantÔøΩs became
+// the Count of Monte-Cristo, Sinbad the Sailor, AbbÔøΩ Busoni, and Lord Wilmore,
+// DUMAS becomes malloc, calloc, realloc and free. As DantÔøΩs was guarded in
+// the ChÔøΩteau d'If, so each allocated item is protected by a guard and a sentinel
 // to detect corruption (overwriting from below) and a wall to protect against
-// escaping (writing beyond the end of the item). And as Dantès' mentor kept a
+// escaping (writing beyond the end of the item). And as DantÔøΩs' mentor kept a
 // history, so does DUMAS.
 //
 // This version ought to be platform independant. There is code in here espcially
@@ -89,7 +89,7 @@ int		dumasFlags = DEFAULT_FLAGS;
 #define NAME_SIZE		40
 #define COMPLAINT_SIZE	80
 
-// The Château d'If structure, to keep track of each allocated chunk of memory.
+// The ChÔøΩteau d'If structure, to keep track of each allocated chunk of memory.
 // We record the name (either the routine's name as obtained by tracing back up the
 // call frame stack or __FILE__) and line number (__LINE__) of the procureur of
 // each chunk, and its length. A sentinel (a longword of 0xBBBBBBBB) is placed before
@@ -177,8 +177,8 @@ long	monteCristoCount = 0;				// But maintains a count, none the less.
 //	Control characters are replaced by a 'DOT', and nulls by a 'NOUGHT'
 
 #ifdef MACINTOSH
-#define DOT '•'
-#define NOUGHT '◊'
+#define DOT 'ÔøΩ'
+#define NOUGHT 'ÔøΩ'
 #else
 #define DOT '.'
 #define NOUGHT '.'
@@ -662,7 +662,7 @@ static void dumasCheckAndFree (void *oldPtr, char *moduleName, long lineNo)
 }
 
 //	This routine packs in as much of the call history as possible into the history
-//	field of the Château d'If structure. The result is a comma-seperated list of
+//	field of the ChÔøΩteau d'If structure. The result is a comma-seperated list of
 //	routine names. The first item in the list is the routine that invoked DUMAS,
 //	the second the routine tht called that one, and so on back to main(), or until
 //	there is no more room in the buffer.
@@ -874,7 +874,7 @@ void *dumasRealloc (void *oldPtr, long requestedBytes, char *moduleName, long li
 #ifdef MEETING_SPACE_H
 // DUMAS version of dup_string.
 //
-// This code is Meeting Space™ specific. The rest of DUMAS could easily be used in
+// This code is Meeting SpaceÔøΩ specific. The rest of DUMAS could easily be used in
 // other applications.
 
 char *dumasDupString (char *string, char *moduleName, long lineNo)
