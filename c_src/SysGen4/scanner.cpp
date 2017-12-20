@@ -9,8 +9,7 @@ int mainwrld(mainworld *mw, long x, long y, long z);
 mainworld      mw;
 sistem syst;
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     long    x, y, z;
     int     axis;
     char    inbuf[40];
@@ -18,20 +17,17 @@ int main(int argc, char **argv)
 
     if(argc > 1) {
         x = atol(argv[1]);
-    }
-    else {
+    } else {
         x = 0L;
     }
     if(argc > 2) {
         y = atol(argv[2]);
-    }
-    else {
+    } else {
         y = 0L;
     }
     if(argc > 3) {
         z = atol(argv[3]);
-    }
-    else {
+    } else {
         z = 0L;
     }
 
@@ -74,29 +70,25 @@ int main(int argc, char **argv)
             getchar();
             break;
         }
-    }
-    while(c != 'Q');
+    } while(c != 'Q');
     exit(0);
 }
 
-void drawview(long x, long y, long z, int axis)
-{
+void drawview(long x, long y, long z, int axis) {
     long    h, v;
     long    xx, yy, zz;
 
     printf("\033[2J");
     if(axis == 1) {
         printf("\t    Z\n");
-    }
-    else {
+    } else {
         printf("\t    Y\n");
     }
     for(v = -2L; v <= 2L; v++) {
         if(!v) {
             if(axis != 0) {
                 printf("X");
-            }
-            else {
+            } else {
                 printf("Z");
             }
         }
@@ -106,35 +98,30 @@ void drawview(long x, long y, long z, int axis)
                 xx = x;
                 yy = y + v;
                 zz = z + h;
-            }
-            else if(axis == 1) {
+            } else if(axis == 1) {
                 xx = x + h;
                 yy = y;
                 zz = z + v;
-            }
-            else {
+            } else {
                 xx = x + h;
                 yy = y + v;
                 zz = z;
             }
             if(mainwrld(&mw, xx, yy, zz)) {
                 printf("%c", mw.starport);
-            }
-            else {
+            } else {
                 printf(" ");
             }
             if((h == 0L) && (v == 0L)) {
                 printf("<");
-            }
-            else {
+            } else {
                 printf(" ");
             }
         }
         if(!v) {
             if(axis != 0) {
                 printf("   x");
-            }
-            else {
+            } else {
                 printf("   z");
             }
         }
@@ -142,8 +129,7 @@ void drawview(long x, long y, long z, int axis)
     }
     if(axis == 1) {
         printf("\t    z\n");
-    }
-    else {
+    } else {
         printf("\t    y\n");
     }
     if(mainwrld(&mw, x, y, z)) {

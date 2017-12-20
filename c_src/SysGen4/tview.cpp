@@ -1,8 +1,7 @@
 #include "sysgen.h"
 #include <stdio.h>
 
-void ploc(int tri, int depth, long dir)
-{
+void ploc(int tri, int depth, long dir) {
     int     i;
     printf("Triangle %d level %d ", tri, depth);
     for(i = 0; i < depth; i++) {
@@ -13,34 +12,57 @@ void ploc(int tri, int depth, long dir)
 }
 
 int    c_cross[C_WICE + 1][C_WICE + 1] = {
-    {C_WATER, 0,C_TUNDRA,C_MTNS, C_ROUGH, C_OPEN,  C_DESERT,C_FOREST,
-    C_JUNGLE,C_WATER,C_WATER, C_WICE},
-    {0,	0,0,       0,      0,       0,       0,      0,
-    0,       0,      0,       0},
-    {C_TUNDRA,0,C_TUNDRA,C_MTNS, C_TUNDRA,C_OPEN,  C_TUNDRA,C_TUNDRA,
-    C_FOREST,C_WATER,C_TUNDRA,C_WICE},
-    {C_MTNS,  0,C_MTNS,  C_MTNS, C_ROUGH, C_ROUGH, C_ROUGH, C_ROUGH,
-    C_ROUGH, C_WATER,C_ROUGH, C_ROUGH},
-    {C_ROUGH, 0,C_TUNDRA,C_ROUGH,C_ROUGH, C_ROUGH, C_ROUGH, C_ROUGH,
-    C_JUNGLE,C_WATER,C_SICE,  C_WICE},
-    {C_OPEN,  0,C_OPEN,  C_ROUGH,C_ROUGH, C_OPEN,  C_DESERT,C_OPEN,
-    C_FOREST,C_WATER,C_OPEN,  C_OPEN},
-    {C_DESERT,0,C_TUNDRA,C_ROUGH,C_ROUGH, C_DESERT,C_DESERT,C_DESERT,
-    C_ROUGH, C_WATER,C_DESERT,C_DESERT},
-    {C_FOREST,0,C_TUNDRA,C_ROUGH,C_ROUGH, C_OPEN,  C_DESERT,C_FOREST,
-    C_FOREST,C_WATER,C_SICE,  C_WICE},
-    {C_JUNGLE,0,C_FOREST,C_ROUGH,C_JUNGLE,C_FOREST,C_ROUGH, C_FOREST,
-    C_JUNGLE,C_WATER,C_SICE,  C_WICE},
-    {C_WATER, 0,C_WATER, C_WATER,C_WATER, C_WATER, C_WATER, C_WATER,
-    C_WATER, C_DEEP, C_DEEP,  C_WICE},
-    {C_WATER, 0,C_TUNDRA,C_ROUGH,C_SICE,  C_OPEN,  C_DESERT,C_SICE,
-    C_SICE,  C_DEEP, C_SICE,  C_WICE},
-    {C_WICE,  0,C_WICE,  C_ROUGH,C_WICE,  C_OPEN,  C_DESERT,C_WICE,
-    C_WICE,  C_WICE, C_WICE,  C_WICE}
+    {
+        C_WATER, 0,C_TUNDRA,C_MTNS, C_ROUGH, C_OPEN,  C_DESERT,C_FOREST,
+        C_JUNGLE,C_WATER,C_WATER, C_WICE
+    },
+    {
+        0,	0,0,       0,      0,       0,       0,      0,
+        0,       0,      0,       0
+    },
+    {
+        C_TUNDRA,0,C_TUNDRA,C_MTNS, C_TUNDRA,C_OPEN,  C_TUNDRA,C_TUNDRA,
+        C_FOREST,C_WATER,C_TUNDRA,C_WICE
+    },
+    {
+        C_MTNS,  0,C_MTNS,  C_MTNS, C_ROUGH, C_ROUGH, C_ROUGH, C_ROUGH,
+        C_ROUGH, C_WATER,C_ROUGH, C_ROUGH
+    },
+    {
+        C_ROUGH, 0,C_TUNDRA,C_ROUGH,C_ROUGH, C_ROUGH, C_ROUGH, C_ROUGH,
+        C_JUNGLE,C_WATER,C_SICE,  C_WICE
+    },
+    {
+        C_OPEN,  0,C_OPEN,  C_ROUGH,C_ROUGH, C_OPEN,  C_DESERT,C_OPEN,
+        C_FOREST,C_WATER,C_OPEN,  C_OPEN
+    },
+    {
+        C_DESERT,0,C_TUNDRA,C_ROUGH,C_ROUGH, C_DESERT,C_DESERT,C_DESERT,
+        C_ROUGH, C_WATER,C_DESERT,C_DESERT
+    },
+    {
+        C_FOREST,0,C_TUNDRA,C_ROUGH,C_ROUGH, C_OPEN,  C_DESERT,C_FOREST,
+        C_FOREST,C_WATER,C_SICE,  C_WICE
+    },
+    {
+        C_JUNGLE,0,C_FOREST,C_ROUGH,C_JUNGLE,C_FOREST,C_ROUGH, C_FOREST,
+        C_JUNGLE,C_WATER,C_SICE,  C_WICE
+    },
+    {
+        C_WATER, 0,C_WATER, C_WATER,C_WATER, C_WATER, C_WATER, C_WATER,
+        C_WATER, C_DEEP, C_DEEP,  C_WICE
+    },
+    {
+        C_WATER, 0,C_TUNDRA,C_ROUGH,C_SICE,  C_OPEN,  C_DESERT,C_SICE,
+        C_SICE,  C_DEEP, C_SICE,  C_WICE
+    },
+    {
+        C_WICE,  0,C_WICE,  C_ROUGH,C_WICE,  C_OPEN,  C_DESERT,C_WICE,
+        C_WICE,  C_WICE, C_WICE,  C_WICE
+    }
 };
 
-void   expand(int from[28], int to[28], int dir, long seed)
-{
+void   expand(int from[28], int to[28], int dir, long seed) {
     extern sistem   syst;
     int     i;
 
@@ -109,72 +131,63 @@ void   expand(int from[28], int to[28], int dir, long seed)
     i = Rand();
     if(i%2) {
         to[4] = to[3];
-    }
-    else {
+    } else {
         to[4] = to[5];
     }
     to[4] = c_cross[to[3]][to[5]];
     i = Rand();
     if(i%2) {
         to[7] = to[3];
-    }
-    else {
+    } else {
         to[7] = to[12];
     }
     to[4] = c_cross[to[3]][to[12]];
     i = Rand();
     if(i%2) {
         to[8] = to[12];
-    }
-    else {
+    } else {
         to[8] = to[5];
     }
     to[4] = c_cross[to[5]][to[12]];
     i = Rand();
     if(i%2) {
         to[11] = to[10];
-    }
-    else {
+    } else {
         to[11] = to[12];
     }
     to[4] = c_cross[to[10]][to[12]];
     i = Rand();
     if(i%2) {
         to[13] = to[12];
-    }
-    else {
+    } else {
         to[13] = to[14];
     }
     to[4] = c_cross[to[14]][to[12]];
     i = Rand();
     if(i%2) {
         to[16] = to[10];
-    }
-    else {
+    } else {
         to[16] = to[23];
     }
     to[4] = c_cross[to[10]][to[23]];
     i = Rand();
     if(i%2) {
         to[17] = to[12];
-    }
-    else {
+    } else {
         to[17] = to[23];
     }
     to[4] = c_cross[to[12]][to[23]];
     i = Rand();
     if(i%2) {
         to[18] = to[12];
-    }
-    else {
+    } else {
         to[18] = to[25];
     }
     to[4] = c_cross[to[12]][to[25]];
     i = Rand();
     if(i%2) {
         to[19] = to[25];
-    }
-    else {
+    } else {
         to[19] = to[14];
     }
     to[4] = c_cross[to[14]][to[25]];

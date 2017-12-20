@@ -11,8 +11,7 @@ ship   *itin;
 void   doday();
 int mainwrld(mainworld *mw, long x, long y, long z);
 
-void findvar(long *xx, long *yy, long *zz, int var)
-{
+void findvar(long *xx, long *yy, long *zz, int var) {
     long    tmp;
 
     tmp = randx.val;
@@ -22,27 +21,23 @@ void findvar(long *xx, long *yy, long *zz, int var)
         *yy = y + (Rand()%(var*2)) - var;
         *zz = z + (Rand()%(var*2)) - var;
         tmp = randx.val;
-    }
-    while(!mainwrld(&mw, *xx, *yy, *zz));
+    } while(!mainwrld(&mw, *xx, *yy, *zz));
     randx.val = tmp;
 }
 
-int    passmod()
-{
+int    passmod() {
     int     mod;
 
     mod = plan.tech - mw.tech;
     if(mw.pop <= 4) {
         mod -= 3;
-    }
-    else if(mw.pop >= 8) {
+    } else if(mw.pop >= 8) {
         mod++;
     }
     return(mod);
 }
 
-int    main(int argc, char **argv)
-{
+int    main(int argc, char **argv) {
     int     mod, j;
     ship    *shptr;
     char    inbuf[40];
@@ -50,29 +45,25 @@ int    main(int argc, char **argv)
 
     if(argc > 1) {
         x = atol(argv[1]);
-    }
-    else {
+    } else {
         printf("X: ");
         x = atol(fgets(inbuf,255,stdin));
     }
     if(argc > 2) {
         y = atol(argv[2]);
-    }
-    else {
+    } else {
         printf("Y: ");
         y = atol(fgets(inbuf,255,stdin));
     }
     if(argc > 3) {
         z = atol(argv[3]);
-    }
-    else {
+    } else {
         printf("Z: ");
         z = atol(fgets(inbuf,255,stdin));
     }
     if(argc > 4) {
         tim = atol(argv[4]);
-    }
-    else {
+    } else {
         printf("TIME: ");
         tim = atol(fgets(inbuf,255,stdin));
     }
@@ -111,11 +102,9 @@ int    main(int argc, char **argv)
         printf("The %s (", shptr->name);
         if(shptr->finance == ARNELIA) {
             printf("Arnelia");
-        }
-        else if(shptr->finance == GALATICA) {
+        } else if(shptr->finance == GALATICA) {
             printf("Galatica");
-        }
-        else {
+        } else {
             printf("Delgado");
         }
         printf(") out of %s (%ld %ld %ld)\n",
@@ -134,8 +123,7 @@ int    main(int argc, char **argv)
     }
 }
 
-int high(int mod)
-{
+int high(int mod) {
     int     ret;
 
     switch(plan.pop) {
@@ -172,8 +160,7 @@ int high(int mod)
     return(ret);
 }
 
-int middle(int mod)
-{
+int middle(int mod) {
     int     ret;
 
     switch(plan.pop) {
@@ -212,8 +199,7 @@ int middle(int mod)
     return(ret);
 }
 
-int low(int mod)
-{
+int low(int mod) {
     int     ret;
 
     switch(plan.pop) {
@@ -252,8 +238,7 @@ int low(int mod)
     return(ret);
 }
 
-void doday(long tim, int sh)
-{
+void doday(long tim, int sh) {
     long    tx, ty, tz;
     int     mod, roll, i, k;
     ship    *shptr;
@@ -265,9 +250,8 @@ void doday(long tim, int sh)
         itin = shptr;
         do {
             findvar(&shptr->ox, &shptr->oy, &shptr->oz, (sh<=0)? 2 : sh*2);
-        }
-        while((mw.starport < 'A') || (mw.starport > 'B')
-              || (mw.tech < 9));
+        } while((mw.starport < 'A') || (mw.starport > 'B')
+                || (mw.tech < 9));
         strcpy(shptr->name, getname());
         shptr->tl = mw.tech;
         shptr->range = (mw.tech + 1)/4;
@@ -277,21 +261,17 @@ void doday(long tim, int sh)
         roll = Rand()%20;
         if(roll < 13) {
             shptr->finance = ARNELIA;
-        }
-        else if(roll < 17) {
+        } else if(roll < 17) {
             shptr->finance = GALATICA;
-        }
-        else {
+        } else {
             shptr->finance = DELGADO;
         }
         roll = shptr->tl*D(1);
         if(shptr->finance == ARNELIA) {
             shptr->high = roll*8/10;
-        }
-        else if(shptr->finance == GALATICA) {
+        } else if(shptr->finance == GALATICA) {
             shptr->high = roll*7/10;
-        }
-        else {
+        } else {
             shptr->high = roll*6/10;
         }
         shptr->low = roll - shptr->high;

@@ -1,46 +1,16 @@
 CC=gcc
-CFLGS= -Z -ms -O -d -c
+CFLGS= -Z -O -c
 
 all: sysgen1 sysgen2 map
 
-sysgen2:
-	$(CC) sysgen2.c exist.c lang.c mainwrld.c magic.c populate.c stelfun.c system.c -o sysgen2
+sysgen2: sysgen2.o exist.o lang.o mainwrld.o magic.o populate.o stelfun.o system.o
+	$(CC) $^ -o $@
 
-sysgen1:
-	$(CC) sysgen1.c exist.c lang.c mainwrld.c magic.c -o sysgen1
+sysgen1: sysgen1.o exist.o lang.o mainwrld.o magic.o
+	$(CC) $^ -o $@
 
-map:
-	$(CC) sysgen1.c exist.c lang.c mainwrld.c magic.c -o map
-
-sysgen1.o:
-	$(CC) $(CFLGS) sysgen1.c
-
-sysgen2.o: 
-	$(CC) $(CFLGS) sysgen2.c
-
-populate.o: 
-	$(CC) $(CFLGS) populate.c
-
-stelfun.o: 
-	$(CC) $(CFLGS) stelfun.c
-
-system.o: 
-	$(CC) $(CFLGS) system.c
-
-map.o:
-	$(CC) $(CFLGS) map.c
-
-exist.o: 
-	$(CC) $(CFLGS) exist.c
-
-mainwrld.o:
-	$(CC) $(CFLGS) mainwrld.c
-
-lang.o: 
-	$(CC) $(CFLGS) lang.c
-
-magic.o: 
-	$(CC) $(CFLGS) magic.c
+map: map.o exist.c lang.c mainwrld.c magic.c 
+	$(CC) $^ -o $@
 
 clean:
 	rm -f *~ *.o system map sysgen1 sysgen2

@@ -1,6 +1,6 @@
 
 
-SUBDIRS=1MioStars ExtSys planetgen.old SectorMaker Stars worldgen accrete GenSec4 planetgen Planets stargen SysGen4
+SUBDIRS=1MioStars ExtSys SectorMaker Stars worldgen accrete GenSec4 planetgen Planets stargen SysGen4
 
 all:
 	for dir in $(SUBDIRS); do \

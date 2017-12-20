@@ -4,25 +4,23 @@
 #include <time.h>
 #include "anyoption.h"
 
-void printSystem(long x, long y, long z, int detail)
-{
-	switch(detail) {
-	case 1:
-		sysgen1Main(x, y, z);
-		break;
-	case 2:
-		sysgen2Main(x, y, z);
-		break;
-	case 3:
-		sysgen3Main(x, y, z);
-		break;
-	default:
-		break;
-	}
+void printSystem(long x, long y, long z, int detail) {
+    switch(detail) {
+    case 1:
+        sysgen1Main(x, y, z);
+        break;
+    case 2:
+        sysgen2Main(x, y, z);
+        break;
+    case 3:
+        sysgen3Main(x, y, z);
+        break;
+    default:
+        break;
+    }
 }
 
-int   main(int argc, char **argv)
-{
+int   main(int argc, char **argv) {
     AnyOption *opt = new AnyOption();
 
     opt->addUsage("");
@@ -87,33 +85,33 @@ int   main(int argc, char **argv)
         detail = atol(opt->getValue("detail"));
     }
 
-	long startX, startY, startZ;
-	long endX, endY, endZ;
-	long sectorX = 8 * 4;
-	long sectorY = 10 * 4;
-	long sectorZ = 1;
-	if(opt->getFlag("sector")){
-		startX = x / sectorX;
-		endX = startX + sectorX - 1;
-		startY = y / sectorY;
-		endY = startY + sectorY - 1;
-		startZ = z / sectorZ;
-		endZ = startZ + sectorZ - 1;
-	}else{
-		startX = x;
-		endX = x;
-		startY = y;
-		endY = y;
-		startZ = z;
-		endZ = z;
-	}
-	
-	for(int i = startX;i <= endX;i++){
-		for(int j = startY;j <= endY;j++){
-			for(int k = startZ;k <= endZ;k++){
-				printSystem(x, y, z, detail);
-			}
-		}
+    long startX, startY, startZ;
+    long endX, endY, endZ;
+    long sectorX = 8 * 4;
+    long sectorY = 10 * 4;
+    long sectorZ = 1;
+    if(opt->getFlag("sector")) {
+        startX = x / sectorX;
+        endX = startX + sectorX - 1;
+        startY = y / sectorY;
+        endY = startY + sectorY - 1;
+        startZ = z / sectorZ;
+        endZ = startZ + sectorZ - 1;
+    } else {
+        startX = x;
+        endX = x;
+        startY = y;
+        endY = y;
+        startZ = z;
+        endZ = z;
+    }
+
+    for(int i = startX; i <= endX; i++) {
+        for(int j = startY; j <= endY; j++) {
+            for(int k = startZ; k <= endZ; k++) {
+                printSystem(x, y, z, detail);
+            }
+        }
     }
 
 }

@@ -21,8 +21,7 @@ body   *pdlevel(body *s,
 
 extern sistem  syst;
 
-void map(body *s, int plate[20][28], int land[20][28], int cov[20][28])
-{
+void map(body *s, int plate[20][28], int land[20][28], int cov[20][28]) {
     int     t, h;
     dworld  *d;
 
@@ -47,8 +46,7 @@ void map(body *s, int plate[20][28], int land[20][28], int cov[20][28])
 }
 
 body *makemap(long x, long y, long z, char *name, int plates[20][28],
-              int land[20][28], int cov[20][28])
-{
+              int land[20][28], int cov[20][28]) {
     if(makedetails(&syst, x, y, z) == 0) {
         return(0);
     }
@@ -59,8 +57,7 @@ body *print(sistem *syst,
             char *name,
             int plates[20][28],
             int land[20][28],
-            int cov[20][28])
-{
+            int cov[20][28]) {
     printf("%s system\n", syst->mw->name);
     printf("Location %ld,%ld,%ld\n", syst->x, syst->y, syst->z);
     return(pdlevel(syst->sys, name, plates, land, cov));
@@ -70,8 +67,7 @@ body   *pdlevel(body *s,
                 char *name,
                 int plates[20][28],
                 int land[20][28],
-                int cov[20][28])
-{
+                int cov[20][28]) {
     body    *ret;
 
     if(!s) {
@@ -80,8 +76,7 @@ body   *pdlevel(body *s,
     if(!strcmp(s->name, name)) {
         if((s->type == T_WORLD) || (s->type == T_MAIN)) {
             map(s, plates, land, cov);
-        }
-        else {
+        } else {
             printf("Can only map worlds\n");
         }
         return(s);

@@ -1,0 +1,259 @@
+1. Input world length # of syllables, 0 = 1D6
+2. Choose Table, Basic to start, Alternate where indicated
+3. Choose sound groups.
+
+	Basic					Alternate
+  1    2    3    4    5    6 		1    2    3    4    5    6
+1  
+2
+3
+4
+5
+6
+(Only four choices on table V, CV, VC, and CVC, append * to use alternate table)
+
+	Initial Consonant		Vowel		Final Consonant
+   1   2   3   4   5   6  	1   2   3   4   5   6	1   2   3   4   5   6
+11
+12
+13
+14
+15
+16
+
+21
+22
+23
+24
+25
+26
+
+31
+32
+33
+34
+35
+36
+
+41
+42
+43
+44
+45
+46
+
+51
+52
+53
+54
+55
+56
+
+61
+62
+63
+64
+65
+66
+
+(Illegal Combinations)
+(Init Consonant = C, Vowel = V, Final Constant = K, double for size, literals
+should be quoted ')
+eg.
+Aslan: V + V = V (VV + VV = VVVV)
+Droyne: 'O + 'OY = 'OY
+
+Legal Sounds:
+(Initial)
+B
+BL
+BR
+CH
+CHT
+D
+DH
+DL			
+DR
+DZ
+F
+FL
+FR
+FT
+G
+GH
+GN
+GV
+GZ
+J
+JD
+K
+KF
+KH
+KHT
+KL
+KN
+KR
+KS
+KT
+L
+LL
+M
+N
+NG
+P
+PL
+PR
+Q
+QL
+QR
+R
+RR
+S
+SH
+SHT
+SS
+ST
+T
+TH
+TL
+TR
+TS
+TW
+V
+VL
+VR
+W
+Z
+ZD
+ZH
+ZHD
+
+(Vowels)
+A
+AE
+AI
+AO
+AU
+AY
+E
+EA
+EI
+I
+IA
+IE
+IY
+O
+OA
+OE
+OI
+OU
+OY
+U
+UA
+UE
+UI
+R
+YA
+YO
+YU
+
+(Final Constants)
+B
+BL
+BR
+CH
+D
+DH
+DL
+DR
+DZ
+F
+FL
+FR
+FT
+G
+GH
+GHZ
+GZ
+H
+J
+K
+KH
+KHS
+KL
+KR
+KS
+L
+LB
+LD
+LK
+LL
+LM
+LN
+LP
+LR
+LS
+LT
+M
+N
+NCH
+NG
+NJ
+NS
+NSH
+NT
+NTS
+NZ
+NZH
+P
+PL
+PR
+Q
+QL
+QR
+R
+RD
+RF
+RK
+RL
+RM
+RN
+RP
+RR
+RRG
+RRGH
+RS
+RT
+RV
+RZ
+S
+S
+SH
+SK
+SS
+ST
+T
+TH
+TS
+TL
+V
+VL
+VR
+W
+X
+Z
+ZH
+'
+
+rr, "Couldn't read Basic/Alternate info\n");
+	   exit(1);
+       }
+       get_syll_line(i,line);
+   }
+   do {
+       if (!READ_A_LINE(line, inp)) {
+	   fprintf(stderr, "Can't find 'Initial' token!\n");
+	   exit(1);
+       }
+       sscanf(line,"%s",test);
+   } while (s

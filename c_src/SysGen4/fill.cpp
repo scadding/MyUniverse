@@ -1,5 +1,4 @@
-void   main()
-{
+void   main() {
     int     i;
     int     buf[20][28];
     long    l;

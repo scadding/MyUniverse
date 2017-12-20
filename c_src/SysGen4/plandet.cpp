@@ -30,13 +30,11 @@ void   pDetails();
 float tempat(tempdata *t, int row, int mode);
 void map(body *s, int plate[20][28], int land[20][28], int cov[20][28]);
 
-void Print(sistem *syst)
-{
+void Print(sistem *syst) {
     pDlevel(syst->sys);
 }
 
-void pDlevel(body *s)
-{
+void pDlevel(body *s) {
     if(!s) {
         return;
     }
@@ -51,8 +49,7 @@ void pDlevel(body *s)
     }
 }
 
-void   pWorld(body *s)
-{
+void   pWorld(body *s) {
     int     i;
     city    *cptr;
     float   rpop, cpop;
@@ -117,13 +114,11 @@ void   pWorld(body *s)
     printf("Year:%g ", floor(det->year));
     if(s->p->type == T_STAR) {
         printf("days, ");
-    }
-    else {
+    } else {
         printf("days, Solar year:");
         if(s->p->type == T_GIANT) {
             printf("%g days, ", floor(s->p->det.g.year));
-        }
-        else {
+        } else {
             printf("%g days, ", floor(s->p->det.w.year));
         }
     }
@@ -232,12 +227,10 @@ void   pWorld(body *s)
 
 extern char    *acover[16];
 
-void p1(int val, int type)
-{
+void p1(int val, int type) {
     if(type == 0) {
         printf("%02d", val);
-    }
-    else if(type == 1){
+    } else if(type == 1) {
         switch(val) {
         case 0:
             printf(".");
@@ -255,11 +248,10 @@ void p1(int val, int type)
             printf("w");
             break;
         }
-    } else if(type == 2){
+    } else if(type == 2) {
         if(val < 0) {
             printf("?");
-        }
-        else {
+        } else {
             printf("%.1s", acover[val%16]);
         }
     }

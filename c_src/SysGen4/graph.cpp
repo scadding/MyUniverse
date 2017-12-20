@@ -19,20 +19,17 @@ char   **argv;
 
     if(argc > 1) {
         x = atol(argv[1]);
-    }
-    else {
+    } else {
         x = 10000L;
     }
     if(argc > 2) {
         y = atol(argv[2]);
-    }
-    else {
+    } else {
         y = 10000L;
     }
     if(argc > 3) {
         z = atol(argv[3]);
-    }
-    else {
+    } else {
         z = 10000L;
     }
     Initialise();
@@ -42,8 +39,7 @@ char   **argv;
 
 int    MaxX, MaxY;
 
-Initialise()
-{
+Initialise() {
     int     i, j;
 
 #ifdef Z_HERC
@@ -196,16 +192,14 @@ body   *s;
     case T_GIANT:
         if(s->upp.g.size) {
             sprintf(inbuf, "Large Gas Giant %s", s->name);
-        }
-        else {
+        } else {
             sprintf(inbuf, "Small Gas Giant %s", s->name);
         }
         break;
     case T_TOIDS:
         if(s->p->type == T_GIANT) {
             sprintf(inbuf, "Ring            %s", s->name);
-        }
-        else {
+        } else {
             sprintf(inbuf, "Asteroids       %s", s->name);
         }
         break;

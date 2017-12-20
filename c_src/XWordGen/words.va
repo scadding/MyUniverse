@@ -1,0 +1,383 @@
+1. Input world length # of syllables, 0 = 1D6
+2. Choose Table, Basic to start, Alternate where indicated
+3. Choose sound groups.
+
+        Basic                                   Alternate
+  1    2    3    4    5    6            1    2    3    4    5    6
+1 V*   V*   V*   V*   VC   VC           CV*  CV*  CV*  CV*  CV*  CV*  
+2 VC   VC   VC   VC   VC   VC           CV*  CV*  CV*  CV*  CV*  CV*
+3 VC   VC   VC   VC   VC   VC           CV*  CV*  CV*  CV*  CV*  CV*
+4 CV*  CV*  CV*  CV*  CVC  CVC          CVC  CVC  CVC  CVC  CVC  CVC
+5 CVC  CVC  CVC  CVC  CVC  CVC          CVC  CVC  CVC  CVC  CVC  CVC
+6 CVC  CVC  CVC  CVC  CVC  CVC          CVC  CVC  CVC  CVC  CVC  CVC
+(Only four choices on table V, CV, VC, and CVC, append * to use alternate table)
+
+        Initial Consonant               Vowel           Final Consonant
+   1   2   3   4   5   6        1   2   3   4   5   6   1   2   3   4   5   6
+11 D   D   D   D   D   D        A   A   A   A   A   A   DH  DH  DH  DH  DH  DZ
+12 D   D   D   DH  DH  DH       A   A   A   A   A   A   DZ  DZ  DZ  DZ  G   G
+13 DH  DH  DH  DH  DH  DH       A   A   A   A   A   A   G   G   G   G   G   G
+14 DZ  DZ  DZ  DZ  DZ  F        A   A   A   A   A   A   G   G   G   G   G   G
+15 F   F   F   F   F   F        A   A   A   A   A   A   G   GH  GH  GH  GH  GH
+16 G   G   G   G   G   G        A   A   A   A   A   A   GH  GH  GH  GH  GH  GHZ
+
+21 G   G   G   G   G   G        A   A   A   A   A   A   GHZ GHZ GHZ GHZ GZ  GZ  
+22 G   G   G   G   G   G        AE  AE  AE  AE  AE  AE  GZ  GZ  GZ  K   K   K
+23 GH  GH  GH  GH  GH  GH       AE  AE  AE  AE  AE  AE  K   K   K   K   K   K
+24 GH  GH  GH  GH  GH  GN       AE  AE  AE  AE  AE  AE  K   KH  KH  KH  KH  KH  
+25 GN  GN  GV  GV  GV  GV       AE  AE  AE  AE  AE  AE  KH  KH  KH  KH  KH  KHS
+26 GV  GV  GV  GZ  GZ  GZ       AE  AE  AE  AE  AE  AE  KHS KHS KHS KHS KS  KS 
+
+31 GZ  K   K   K   K   K        AE  AE  AE  AE  E   E   KS  KS  KS  KS  L   L
+32 K   K   K   K   K   K        E   E   E   E   E   E   L   L   L   L   L   L
+33 K   K   K   K   K   K        E   E   E   E   E   E   L   L   LL  LL  LL  LL
+34 K   KF  KF  KF  KF  KF       E   E   I   I   I   I   LL  N   N   N   N   N
+35 KH  KH  KH  KH  KH  KH       I   I   I   I   I   I   N   N   N   N   N   N
+36 KH  KH  KH  KH  KH  KN       O   O   O   O   O   O   N   N   N   N   N   N
+
+41 KN  KN  KN  KN  KN  KS       O   O   O   O   O   O   N   N   N   N   N   N
+42 KS  KS  KS  KS  KS  KS       O   O   O   O   O   O   N   N   NG  NG  NG  NG
+43 L   L   L   L   LL  LL       O   O   O   O   O   O   NG  NG  NG  NG  NG  NG
+44 LL  LL  LL  LL  LL  LL       O   O   O   O   O   O   NG  NG  NG  NG  NG  NG
+45 N   N   N   N   N   N        O   O   O   O   OE  OE  NG  NG  NG  NG  NG  NG
+46 N   NG  NG  NG  NG  NG       OE  OE  OE  OE  OE  OE  NG  NG  NG  R   R   R
+
+51 R   R   R   R   R   R        OE  OE  OE  OE  OE  OE  R   R   R   R   R   R
+52 R   R   R   R   R   RR       OE  OE  OU  OU  OU  OU  R   R   R   R   R   R
+53 RR  RR  RR  RR  RR  RR       OU  OU  OU  OU  OU  OU  RR  RR  RR  RR  RR  RR
+54 RR  S   S   S   S   S        OU  OU  OU  OU  OU  OU  RR  RR  RR  RR  RR  RR
+55 S   S   S   S   S   S        U   U   U   U   U   U   RR  RR  RR  RRG RRG RRG
+56 T   T   T   T   T   T        U   U   U   U   U   U RRG RRG RRGH RRGH RRGH RRGH
+
+61 T   TH  TH  TH  TH  TH       U   U   U   U   U   U   RRGH RS  RS  RS  RS  RS
+62 TH  TH  TH  TS  TS  TS       U   U   U   U   U   U   RZ  RZ  RZ  RZ  RZ  S
+63 TS  TS  V   V   V   V        UE  UE  UE  UE  UE  UE  S   S   S   S   TH  TH
+64 V   V   V   V   V   V        UE  UE  UE  UE  UE  UE  TH  TH  TH  TS  TS  TS
+65 Z   Z   Z   Z   Z   Z        UE  UE  UE  UE  UE  UE  TS  TS  Z   Z   Z   Z
+66 Z   Z   Z   Z   Z   Z        UE  UE  UE  UE  UE  UE  Z   Z   Z   Z   Z   Z
+
+
+ A   G   G   G   G   G   G
+15 F   F   F   F   F   F        A   A   A   A   A   A   G   GH  GH  GH  GH  GH
+16 G   G   G   G   G   G        A   A   A   A   A   A   GH  GH  GH  GH  GH  GHZ
+
+21 G   G   G   G   G   G        A   A   A   A   A   A   GHZ GHZ GHZ GHZ GZ  GZ  
+22 G   G   G   G   G   G        AE  AE  AE  AE  AE  AE  GZ  GZ  GZ  K   K   K
+wordgen/words.va2100644 007661 000036 00000007246 05244661401 014457 0ustar00surgeuser000000 000000 
+1. Input world length # of syllables, 0 = 1D6
+2. Choose Table, Basic to start, Alternate where indicated
+3. Choose sound groups.
+
+        Basic                                   Alternate
+  1    2    3    4    5    6            1    2    3    4    5    6
+1 V*   V*   V*   V*   V*   V*           CV*  CV*  CV*  CV*  CV*  CV*  
+2 VC   VC   VC   VC   VC   VC           CV*  CV*  CV*  CV*  CV*  CV*
+3 VC   VC   VC   VC   VC   VC           CV*  CV*  CV*  CV*  CV*  CV*
+4 CV*  CV*  CV*  CV*  CVC  CVC          CVC  CVC  CVC  CVC  CVC  CVC
+5 CVC  CVC  CVC  CVC  CVC  CVC          CVC  CVC  CVC  CVC  CVC  CVC
+6 CVC  CVC  CVC  CVC  CVC  CVC          CVC  CVC  CVC  CVC  CVC  CVC
+(Only four choices on table V, CV, VC, and CVC, append * to use alternate table)
+
+        Initial Consonant               Vowel           Final Consonant
+   1   2   3   4   5   6        1   2   3   4   5   6   1   2   3   4   5   6
+11 D   D   D   D   D   D        A   A   A   A   A   A   DH  DH  DH  DH  DH  DZ
+12 D   D   D   D   D   D        A   A   A   A   A   A   DZ  DZ  DZ  DZ  DZ  G
+13 DH  DH  DH  DH  DH  DH       A   A   A   A   A   A   G   G   G   G   G   G
+14 DZ  DZ  DZ  DZ  DZ  F        A   A   A   A   A   A   G   G   G   G   G   G
+15 F   F   F   F   F   F        A   A   A   A   A   A   G   GH  GH  GH  GH  GH
+16 G   G   G   G   G   G        A   A   A   A   A   A   GH  GH  GH  GH  GH  GHZ
+
+21 G   G   G   G   G   G        A   A   A   A   A   A   GHZ GHZ GHZ GHZ GZ  GZ  
+22 G   G   G   G   G   G        AE  AE  AE  AE  AE  AE  GZ  GZ  GZ  K   K   K
+23 GH  GH  GH  GH  GH  GH       AE  AE  AE  AE  AE  AE  K   K   K   K   K   K
+24 GH  GH  GH  GH  GH  GN       AE  AE  AE  AE  AE  AE  K   KH  KH  KH  KH  KH  
+25 GN  GN  GV  GV  GV  GV       AE  AE  AE  AE  AE  AE  KH  KH  KH  KH  KH  KHS
+26 GV  GV  GV  GZ  GZ  GZ       AE  AE  AE  AE  AE  AE  KHS KHS KHS KHS KS  KS 
+
+31 GZ  K   K   K   K   K        AE  AE  AE  AE  E   E   KS  KS  KS  KS  L   L
+32 K   K   K   K   K   K        E   E   E   E   E   E   L   L   L   L   L   L
+33 K   K   K   K   K   K        E   E   E   E   E   E   L   L   LL  LL  LL  LL
+34 K   KF  KF  KF  KF  KF       E   E   I   I   I   I   LL  N   N   N   N   N
+35 KH  KH  KH  KH  KH  KH       I   I   I   I   I   I   N   N   N   N   N   N
+36 KH  KH  KH  KH  KH  KN       O   O   O   O   O   O   N   N   N   N   N   N
+
+41 KN  KN  KN  KN  KN  KS       O   O   O   O   O   O   N   N   N   N   N   N
+42 KS  KS  KS  KS  KS  KS       O   O   O   O   O   O   N   N   NG  NG  NG  NG
+43 L   L   L   L   LL  LL       O   O   O   O   O   O   NG  NG  NG  NG  NG  NG
+44 LL  LL  LL  LL  LL  LL       O   O   O   O   O   O   NG  NG  NG  NG  NG  NG
+45 N   N   N   N   N   N        O   O   O   O   OE  OE  NG  NG  NG  NG  NG  NG
+46 N   NG  NG  NG  NG  NG       OE  OE  OE  OE  OE  OE  NG  NG  NG  R   R   R
+
+51 R   R   R   R   R   R        OE  OE  OE  OE  OE  OE  R   R   R   R   R   R
+52 R   R   R   R   R    R       OE  OE  OU  OU  OU  OU  R   R   R   R   R   R
+53 RR  RR  RR  RR  RR  RR       OU  OU  OU  OU  OU  OU  RR  RR  RR  RR  RR  RR
+54 RR  S   S   S   S   S        OU  OU  OU  OU  OU  OU  RR  RR  RR  RR  RR  RR
+55 S   S   S   S   S   S        U   U   U   U   U   U   RR  RR  RR  RRG RRG RRG
+56 T   T   T   T   T   T        U   U   U   U   U   U RRG RRG RRGH RRGH RRGH RRGH
+
+61 T   TH  TH  TH  TH  TH       U   U   U   U   U   U   RRGH RS  RS  RS  RS  RS
+62 TH  TH  TH  TS  TS  TS       U   U   U   U   U   U   RZ  RZ  RZ  RZ  RZ  S
+63 TS  TS  V   V   V   V        UE  UE  UE  UE  UE  UE  S   S   S   S   TH  TH
+64 V   V   V   V   V   V        UE  UE  UE  UE  UE  UE  TH  TH  TH  TS  TS  TS
+65 Z   Z   Z   Z   Z   Z        UE  UE  UE  UE  UE  UE  TS  TS  Z   Z   Z   Z
+66 Z   Z   Z   Z   Z   Z        UE  UE  UE  UE  UE  UE  Z   Z   Z   Z   Z   Z
+
+
+GN  GV  GV  GV  GV       AE  AE  AE  AE  AE  AE  KH  KH  KH  KH  KH  KHS
+26 GV  GV  GV  GZ  GZ  GZ       AE  AE  AE  AE  AE  AE  KHS KHS KHS KHS KS  KS 
+
+31 GZ  K   K   K   K   K        AE  AE  AE  AE  E   E   KS  KS  KS  KS  L   L
+32 K   K   K   K   K   K        E   E   E   E   E   E   L   L   L   L   L   L
+33 K   K   K   K   K   K        E   wordgen/words.vil100644 007661 000036 00000010426 05244661360 014557 0ustar00surgeuser000000 000000 
+1. Input world length # of syllables, 0 = 1D6
+2. Choose Table, Basic to start, Alternate where indicated
+3. Choose sound groups.
+
+	Basic					Alternate
+  1    2    3    4    5    6 		1    2    3    4    5    6
+1 V*   V*   V*   V*   V*   V*           CV*  CV*  CV*  CV*  CV*  CV* 
+2 CV*  CV*  CV*  CV*  CV*  CV*          CV*  CV*  CV*  CV*  CV*  CV*
+3 CV*  CV*  CV*  CV*  CV*  CV*          CV*  CV*  CV*  CV*  CV*  CV*
+4 CV*  CV*  CV*  VC   VC   VC           CV*  CV*  CV*  CVC  CVC  CVC
+5 VC   VC   VC   VC   VC   CVC          CVC  CVC  CVC  CVC  CVC  CVC
+6 CVC  CVC  CVC  CVC  CVC  CVC          CVC  CVC  CVC  CVC  CVC  CVC
+(Only four choices on table V, CV, VC, and CVC, append * to use alternate table)
+
+	Initial Consonant		Vowel		Final Consonant
+   1   2   3   4   5   6  	1   2   3   4   5   6	1   2   3   4   5   6
+11 K   K   K   K   K   K        A   A   A   A   A   A   R   R   R   R   R   R
+12 K   K   K   K   K   K        A   A   A   A   A   A   R   R   R   R   R   R
+13 K   K   K   K   K   K        A   A   A   A   A   A   R   R   R   R   R   R
+14 K   K   K   K   K   K        A   A   A   A   A   A   R   R   R   R   R   R
+15 K   K   K   K   K   K        A   A   A   A   A   A   R   R   R   R   R   R
+16 K   K   K   K   K   K        A   A   A   A   A   A   R   R   R   R   R   R
+
+21 K   K   K   G   G   G        A   A   A   A   A   A   R   R   R   R   R   R
+22 G   G   G   G   G   G        A   A   A   A   A   A   R   R   R   R   R   R
+23 G   G   G   G   G   G        A   A   A   A   A   A   R   R   R   R   R   R 
+24 G   G   G   G   G   G        A   A   A   A   A   A   R   R   R   R   R   R
+25 G   G   G   G   G   G        A   A   A   A   A   A   R   R   R   R   R   R
+26 G   G   G   G   G   G        A   E   E   E   E   E   R   R   R   R   R   R
+
+31 G   G   G   G   G   G        E   E   E   E   E   E   R   R   R   R   N   N
+32 M   M   M   M   M   M        E   E   E   E   E   E   N   N   N   N   N   N
+33 M   M   M   M   M   M        I   I   I   I   I   I   N   N   N   N   N   N
+34 M   M   M   M   M   M        I   I   I   I   I   I   N   N   N   N   N   N
+35 M   M   M   D   D   D        I   I   I   I   I   I   N   N   N   N   N   N
+36 D   D   D   D   D   D        I   I   I   I   I   I   M   M   M   M   M   M
+
+41 D   D   D   D   D   D        I   I   I   I   I   I   M   M   M   M   M   M
+42 D   D   D   D   D   D        I   I   I   I   I   I   M   M   M   M   M   M
+43 L   L   L   L   L   L        I   I   I   I   I   I   M   M   M   M   M   M
+44 L   L   L   L   L   L        I   I   I   I   I   I   M   M   M   M   M   M
+45 L   L   L   L   L   L        I   I   I   I   I   I   M   M   M   M   M   M
+46 L   L   L   SH  SH  SH       I   I   I   I   I   U   M   SH  SH  SH  SH  SH
+
+51 SH  SH  SH  SH  SH  SH       U   U   U   U   U   U   SH  SH  SH  SH  SH  SH
+52 SH  SH  SH  SH  SH  SH       U   U   U   U   U   U   SH  SH  SH  SH  SH  SH
+53 SH  SH  SH  SH  SH  SH       U   U   U   U   U   U   SH  SH  SH  SH  SH  SH
+54 KH  KH  KH  KH  KH  KH       U   U   U   U   U   U   SH  SH  SH  G   G   G
+55 KH  KH  KH  KH  KH  KH       U   U   U   U   U   U   G   G   G   G   G   G
+56 KH  KH  KH  KH  KH  KH       U   U   U   U   U   U   G   G   G   G   G   G
+
+61 N   N   N   N   N   N        U   U   U   U   AA  AA  S   S   S   S   S   S
+62 N   N   N   N   S   S        AA  AA  AA  AA  AA  AA  S   S   S   S   S   D
+63 S   S   S   S   S   S        II  II  II  II  II  II  D   D   D   D   D   D
+64 S   S   P   P   P   P        II  II  II  II  II  II  D   D   D   D   D   D
+65 B   B   B   B   Z   Z        II  II  II  II  UU  UU  P   P   P   P   P   P
+66 Z   Z   R   R   R   R        UU  UU  UU  UU  UU  UU  K   K   K   K   K   K
+
+(Illgeal Combinations)
+(Init Consonant = C, Vowel = V, Final Constant = K, double for size, literals
+should be quoted ')
+eg.
+Aslan: V + V = V (VV + VV = VVVV)
+Droyne: 'O + 'OY = 'OY
+
+Legal Sounds:
+(Initial)
+B
+BL
+BR
+CH
+CHT
+D
+DH
+DL			
+DR
+DZ
+F
+FL
+FR
+FT
+G
+GH
+GN
+GV
+GZ
+J
+JD
+K
+KF
+KH
+KHT
+KL
+KN
+KR
+KS
+KT
+L
+LL
+M
+N
+NG
+P
+PL
+PR
+Q
+QL
+QR
+R
+RR
+S
+SH
+SHT
+SS
+ST
+T
+TH
+TL
+TR
+TS
+TW
+V
+VL
+VR
+W
+Z
+ZD
+ZH
+ZHD
+
+(Vowels)
+A
+AE
+AI
+AO
+AU
+AY
+E
+EA
+EI
+I
+IA
+IE
+IY
+O
+OA
+OE
+OI
+OU
+OY
+U
+UA
+UE
+UI
+R
+YA
+YO
+YU
+
+(Final Constants)
+B
+BL
+BR
+CH
+D
+DH
+DL
+DR
+DZ
+F
+FL
+FR
+FT
+G
+GH
+GHZ
+GZ
+H
+J
+K
+KH
+KHS
+KL
+KR
+KS
+L
+LB
+LD
+LK
+LL
+LM
+LN
+LP
+LR
+LS
+LT
+M
+N
+NCH
+NG
+NJ
+NS
+NSH
+NT
+NTS
+NZ
+NZH
+P
+PL
+PR
+Q
+QL
+QR
+R
+RD
+RF
+RK
+RL
+RM
+RN
+RP
+RR
+RRG
+RRGH
+RS
+RT
+RV
+RZ
+S
+S
+SH
+SK
+SS
+ST
+T
+TH
+TS
+TL
+V
+VL
+VR
+W
+X
+Z
+ZH
+'
+
+R   R   R
+
+51 N   N   N   P   P   R        U   UU  UU  UU  UU  UU  R   R   R   R   R   R
+52 R   R   R   R   R   R        UU  UU  UU  UU  UU  '   R   R   R   R   R   R
+53 R   R   R   R   R   R        '   '   '   '   '   '   R   RR  RR 

@@ -1,7 +1,6 @@
 #include "sysgen.h"
 
-void xyzmagic(long x, long y, long z, long magic)
-{
+void xyzmagic(long x, long y, long z, long magic) {
     long    seed;
 
     x &= 0x07ff;
@@ -13,8 +12,7 @@ void xyzmagic(long x, long y, long z, long magic)
     sRand(seed + magic);
 }
 
-int D(int n)
-{
+int D(int n) {
     int     sum;
 
     sum = n;
@@ -27,16 +25,14 @@ int D(int n)
 struct long32  randx;
 char randf = 0;
 
-void sRand(long seed)
-{
+void sRand(long seed) {
     randx.val = seed;
     randf = 1;
 }
 
 int dice_rolls = 0;
 
-unsigned int Rand()
-{
+unsigned int Rand() {
     long    l;
     if(!randf) {
         sRand(1L);

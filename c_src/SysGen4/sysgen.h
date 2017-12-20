@@ -29,7 +29,7 @@
 #define T_GIANT 'g'
 
 class world {
-public:
+  public:
     char    name[MAX_NAME];
     char    starport;
     int     size;
@@ -43,7 +43,7 @@ public:
 };
 
 class dworld {
-public:
+  public:
     char    core;
     float   diam;
     float   dens;
@@ -76,12 +76,12 @@ public:
 };
 
 class giant {
-public:
+  public:
     int     size;
 };
 
 class dgiant {
-public:
+  public:
     float   diam;   /* in kilometers */
     float   dens;   /* w.r.t. water */
     float   year;   /* in days */
@@ -89,7 +89,7 @@ public:
 };
 
 class dbelt {
-public:
+  public:
     int     pbod, maxbod;   /* size is offset to
 1m, 5m, 10m, 25m, 50m, 100m, 300m, 1km, 5km, 10km, 50km, 100km, 500km, 1000km */
     int     n, m, c;        /* nickel, mixed, carbonacous zone size in % */
@@ -98,28 +98,28 @@ public:
 };
 
 class star {
-public:
+  public:
     char    classification;
     int     decimal, size;
 };
 
 class sistem {
-public:
+  public:
     class body    *sys;
     class body    *mw;
     long    x, y, z;
 };
 
 class body {
-public:
+  public:
     char    name[MAX_NAME];
     char    type;
-    union   {
+    union {
         dworld  w;
         dgiant  g;
         dbelt   b;
     }       det;
-    union   {
+    union {
         world   w;
         giant   g;
         star    s;
@@ -129,7 +129,7 @@ public:
 };
 
 class city {
-public:
+  public:
     char    name[MAX_NAME];
     float   pop;
     char    port;
@@ -144,8 +144,8 @@ struct long32 {
 #endif
 };
 
-class tempdata       {
-public:
+class tempdata {
+  public:
     float   hexrow[11];
     float   hextilt[11];
     float   summer, winter, day, night;

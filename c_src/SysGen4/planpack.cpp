@@ -14,8 +14,7 @@ sistem syst;
 extern int     dice_rolls;
 int makedetails(sistem *syst, long x, long y, long z);
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     long    x, y, z;
 
     if((argc < 3) || (argc > 4)) {
@@ -26,8 +25,7 @@ int main(int argc, char **argv)
     y = atol(argv[2]);
     if(argc == 4) {
         z = atol(argv[3]);
-    }
-    else {
+    } else {
         z = 0L;
     }
 
@@ -44,21 +42,18 @@ int main(int argc, char **argv)
     exit(1);
 }
 
-void printdetails(sistem *syst)
-{
+void printdetails(sistem *syst) {
     printf(".H2 %s system overview\n", syst->mw->name);
     Pdlevel(syst->sys, 0);
 }
 
-void tab(int n)
-{
+void tab(int n) {
     while(n-- > 0) {
         printf("\t");
     }
 }
 
-void Pdlevel(body *s, int depth)
-{
+void Pdlevel(body *s, int depth) {
     if(!s) {
         return;
     }
@@ -78,8 +73,7 @@ void Pdlevel(body *s, int depth)
     }
 }
 
-void   pworld(body *s)
-{
+void   pworld(body *s) {
     switch(s->type) {
     case T_STAR:
         printf("Star %c%d %d       %s\n", s->upp.s.classification,
@@ -88,16 +82,14 @@ void   pworld(body *s)
     case T_GIANT:
         if(s->upp.g.size) {
             printf("Large Gas Giant %s\n", s->name);
-        }
-        else {
+        } else {
             printf("Small Gas Giant %s\n", s->name);
         }
         break;
     case T_TOIDS:
         if(s->p->type == T_GIANT) {
             printf("Ring            %s\n", s->name);
-        }
-        else {
+        } else {
             printf("Asteroids       %s\n", s->name);
         }
         break;
@@ -116,8 +108,7 @@ void   pworld(body *s)
     }
 }
 
-void pdetails(body *s, int depth)
-{
+void pdetails(body *s, int depth) {
     switch(s->type) {
     case T_GIANT:
         printf("Diam: %gkm Dens:%g Grav:%.1f\n", s->det.g.diam,
@@ -188,8 +179,7 @@ void pdetails(body *s, int depth)
     }
 }
 
-void ttimes()
-{
+void ttimes() {
     body    *i, *j;
     float   tmp, man;
 
@@ -205,8 +195,7 @@ void ttimes()
                 tmp = sqrt(tmp*149600.0/32.4/man);
                 if(tmp < 24.0) {
                     printf("%4.1fh | ", tmp);
-                }
-                else {
+                } else {
                     printf("%4.1fd | ", tmp/24.0);
                 }
             }

@@ -1,0 +1,24 @@
+
+                   -=[RuneQuest III Character Generation]=-
+                           <kludged up by Peter Keel>
+			 	 <Version 1.0>
+
+
+	The Binaries are Linux ELF, glibc 2.1 compiled with egcs 2.91.66
+	The Programs underlie the GNU Public License, read COPYING. 
+
+	This is a RuneQuest III Random Character Generator. It consists
+	of two programs.
+
+	RQRANDHR	The House-Rules Version. Complete in German.
+	RQRANDOF	The Official Rules Version. In English.
+
+
+	Dies ist ein RuneQuest III Zufalls-Charaktergenerator. Er besteht
+	Aus zwei Programmen.
+
+	RQRANDHR	Hausregeln-Version. In Deutscher Sprache.
+	RQRANDOF	Offizielle Regeln-Version. In Englisch.
+
+
+	CU							Peter

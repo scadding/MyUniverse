@@ -7,27 +7,23 @@ mainworld      mw;
 sistem syst;
 int mainwrld(mainworld *mw, long x, long y, long z);
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     long    x, y, z;
     long    A, a, B, b, C, c;
 
     if(argc > 1) {
         x = atol(argv[1]);
-    }
-    else {
+    } else {
         x = 10000L;
     }
     if(argc > 2) {
         y = atol(argv[2]);
-    }
-    else {
+    } else {
         y = 10000L;
     }
     if(argc > 3) {
         z = atol(argv[3]);
-    }
-    else {
+    } else {
         z = 10000L;
     }
 
@@ -62,8 +58,7 @@ int main(int argc, char **argv)
     }
 }
 
-int    funct(long x, long y, long z)
-{
+int    funct(long x, long y, long z) {
     if(mainwrld(&mw, x, y, z) == 0) {
         return(0);
     }

@@ -4,17 +4,15 @@
 
 int mainwrld(mainworld *mw, long x, long y, long z);
 
-int val(mainworld *mw)
-{
+int val(mainworld *mw) {
     return(mw->tech);
 }
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     mainworld       mw, best;
     long    x, y, z;
     long    A, B, C;
-    long    bA, bB, bC;
+    long    bA = 0, bB = 0, bC = 0;
     char    first;
 
     if((argc < 3) || (argc > 4)) {
@@ -25,8 +23,7 @@ int main(int argc, char **argv)
     y = atol(argv[2]);
     if(argc == 4) {
         z = atol(argv[3]);
-    }
-    else {
+    } else {
         z = 0L;
     }
 
@@ -38,8 +35,7 @@ int main(int argc, char **argv)
             for(C = z; C < z + 10L; C++)
                 if(mainwrld(&mw, A, B, C) == 0) {
                     continue;
-                }
-                else {
+                } else {
                     if(first || (val(&mw) >= val(&best))) {
                         best = mw;
                         bA = A;

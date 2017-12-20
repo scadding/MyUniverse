@@ -1,0 +1,33 @@
+The original program was written by Dan Corrin (dan@engrg.uwo.ca) for
+a platform I am unfamiliar with.  I have provided a Unix port.  I will
+certainly support this bastardized version of his code, if he doesn't
+want to bother with it.
+
+To compile under Unix, simply type "make", and with any luck, you will
+wind up with an executable version of the wordgen file.
+
+To run, select the wordgen description file you wish to use (words.asl
+for Aslan words, words.dro for Droyne, words.kkr for K'kree, words.va1
+or words.va2 for Vargr, words.vil for Vilani and words.zho for
+Zhodani) and execute wordgen as follows:
+
+wordgen wordgen_description_file
+
+For example, "wordgen words.asl" gave me the following output:
+OIRYARLUI
+
+This will generate a single word.  To generate more, simply tack # of
+syllable parameters onto the end of that command to create more words
+of the specified number of syllables.
+For example:
+
+wordgen words.zho 2 3 3
+CHINSZRNJ IANTSHENCHFLIB VIDRZHATLIANT
+
+To expand the list of possible word generation, merely make a copy of
+the "words" template file, filling in the appropriate areas.
+
+E-mail me with any problems/suggestions
+
+Jonathan Sari (surge@cqs.washington.edu)
+

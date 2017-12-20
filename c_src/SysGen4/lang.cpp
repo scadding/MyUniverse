@@ -31,8 +31,7 @@ int    lcon[29];
 void drift();
 void scatter(int arr[], int max_arr, int slide);
 
-void seedlang(long x, long y, long z)
-{
+void seedlang(long x, long y, long z) {
     int     i;
 
     for(i = 0; i < 6; i++) {
@@ -60,8 +59,7 @@ void seedlang(long x, long y, long z)
     drift();
 }
 
-void drift()
-{
+void drift() {
     scatter(initial, 4, 6);
     scatter(len, 6, 6);
     scatter(final, 4, 6);
@@ -70,16 +68,14 @@ void drift()
     scatter(lcon, 29, 36);
 }
 
-void scatter(int arr[], int max_arr, int slide)
-{
+void scatter(int arr[], int max_arr, int slide) {
     int     i;
 
     while(slide--) {
         /* take one away */
         do {
             i = Rand()%max_arr;
-        }
-        while(arr[i] == 0);
+        } while(arr[i] == 0);
         arr[i]--;
         /* add back on */
         i = Rand()%max_arr;
@@ -87,20 +83,17 @@ void scatter(int arr[], int max_arr, int slide)
     }
 }
 
-int lookup(int arr[], int tot)
-{
+int lookup(int arr[], int tot) {
     int     i;
 
     i = 0;
     do {
         tot -= arr[i++];
-    }
-    while(tot >= 0);
+    } while(tot >= 0);
     return(i - 1);
 }
 
-char   *getname()
-{
+char   *getname() {
     static char     nbuf[40];
     int     leng, type;
 
@@ -117,8 +110,7 @@ char   *getname()
             strcat(nbuf, alcon[lookup(lcon, Rand()%216)]);
         }
         type = type/2;
-    }
-    while(leng--);
+    } while(leng--);
     nbuf[0] += 'A' - 'a';
     return(nbuf);
 }

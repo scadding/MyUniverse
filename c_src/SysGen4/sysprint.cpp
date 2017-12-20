@@ -66,8 +66,7 @@ body   *s;
 {
     if(s->upp.g.size) {
         printf("Large Gas Giant %s\n", s->name);
-    }
-    else {
+    } else {
         printf("Small Gas Giant %s\n", s->name);
     }
 }
@@ -77,8 +76,7 @@ body   *s;
 {
     if(s->p->type == T_GIANT) {
         printf("Ring            %s\n", s->name);
-    }
-    else {
+    } else {
         printf("Asteroids       %s\n", s->name);
     }
 }

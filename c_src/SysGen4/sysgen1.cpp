@@ -5,8 +5,7 @@
 
 int mainwrld(mainworld *mw, long x, long y, long z);
 
-int   main(int argc, char **argv)
-{
+int   main(int argc, char **argv) {
     mainworld       mw;
     long    x, y, z;
 
@@ -32,8 +31,7 @@ int   main(int argc, char **argv)
            x, y, z, mw.name);
 }
 
-int sysgen1Main(long x, long y, long z)
-{
+int sysgen1Main(long x, long y, long z) {
     mainworld       mw;
 
     if(mainwrld(&mw, x, y, z) == 0) {

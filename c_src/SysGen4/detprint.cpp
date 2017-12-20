@@ -14,8 +14,7 @@ void pdlevel(body *s, char *name);
 void print(sistem *syst, char *name);
 void pdetails(body *s);
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     sistem  syst;
     long    x, y, z;
 
@@ -34,15 +33,13 @@ int main(int argc, char **argv)
     exit(1);
 }
 
-void print(sistem *syst, char *name)
-{
+void print(sistem *syst, char *name) {
     printf("%s system\n", syst->mw->name);
     printf("Location %ld,%ld,%ld\n", syst->x, syst->y, syst->z);
     pdlevel(syst->sys, name);
 }
 
-void pdlevel(body *s, char *name)
-{
+void pdlevel(body *s, char *name) {
     if(!s) {
         return;
     }
@@ -55,18 +52,15 @@ void pdlevel(body *s, char *name)
     }
 }
 
-void pstar(body *s)
-{
+void pstar(body *s) {
     printf("Star %c%d %d       %s\n", s->upp.s.classification,
            s->upp.s.decimal, s->upp.s.size, s->name);
 }
 
-void pgiant(body *s)
-{
+void pgiant(body *s) {
     if(s->upp.g.size) {
         printf("Large Gas Giant %s\n", s->name);
-    }
-    else {
+    } else {
         printf("Small Gas Giant %s\n", s->name);
     }
     printf("Diameter: %gkm Density:%g Surface gravity:%g\n",
@@ -75,8 +69,7 @@ void pgiant(body *s)
     printf("Year:%g ", floor(s->det.g.year));
     if(s->p->type == T_STAR) {
         printf("years");
-    }
-    else {
+    } else {
         printf("days");
     }
     printf(" Tilt:%d~", int(s->det.g.tilt));
@@ -86,12 +79,10 @@ void pgiant(body *s)
     printf("\n");
 }
 
-void ptoids(body *s)
-{
+void ptoids(body *s) {
     if(s->p->type == T_GIANT) {
         printf("Ring            %s\n", s->name);
-    }
-    else {
+    } else {
         printf("Asteroids       %s\n", s->name);
     }
     printf("Predominant body diameter is %s.\n", bodsiz[s->det.b.pbod]);
@@ -106,14 +97,12 @@ void ptoids(body *s)
     printf("Average year :%g ", floor(s->det.b.year));
     if(s->p->type != T_STAR) {
         printf("years\n");
-    }
-    else {
+    } else {
         printf("days\n");
     }
 }
 
-void pdetails(body *s)
-{
+void pdetails(body *s) {
     switch(s->type) {
     case T_STAR:
         pstar(s);
@@ -131,8 +120,7 @@ void pdetails(body *s)
     }
 }
 
-void pworld(body *s)
-{
+void pworld(body *s) {
     int     i;
     city    *cptr;
     float   rpop, cpop;
@@ -182,13 +170,11 @@ void pworld(body *s)
     printf("Year:%g ", floor(det->year));
     if(s->p->type == T_STAR) {
         printf("years, ");
-    }
-    else {
+    } else {
         printf("days, Solar year:");
         if(s->p->type == T_GIANT) {
             printf("%g years, ", floor(s->p->det.g.year));
-        }
-        else {
+        } else {
             printf("%g years, ", floor(s->p->det.w.year));
         }
     }

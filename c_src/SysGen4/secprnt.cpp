@@ -22,28 +22,24 @@ void survey(sistem *syst, struct strip *st);
 
 #define ch(x) (((x)<10)?((x)+'0'):((x)+'A'-10))
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     long    x, y, z;
     long    A, B, C;
     int     i;
 
     if(argc > 1) {
         x = atol(argv[1]);
-    }
-    else {
+    } else {
         x = 10000L;
     }
     if(argc > 2) {
         y = atol(argv[2]);
-    }
-    else {
+    } else {
         y = 10000L;
     }
     if(argc > 3) {
         z = atol(argv[3]);
-    }
-    else {
+    } else {
         z = 10000L;
     }
 
@@ -93,8 +89,7 @@ int main(int argc, char **argv)
                 printf("%c%c %c%c%c ", s[i].port, s[i].g, s[i].s, s[i].n, s[i].m);
                 if(s[i].pop) {
                     printf("%2d %c|", s[i].law, ch(s[i].tech));
-                }
-                else {
+                } else {
                     printf("    |");
                 }
             }
@@ -112,20 +107,17 @@ int main(int argc, char **argv)
     }
 }
 
-void prpopname(char *name, int pop)
-{
+void prpopname(char *name, int pop) {
     int     i;
 
     for(i = 0; i < 10; i++)
         if(!name[i]) {
             break;
-        }
-        else if(pop <= 5) {
+        } else if(pop <= 5) {
             if(isupper(name[i])) {
                 name[i] = tolower(name[i]);
             }
-        }
-        else if(pop >= 9) {
+        } else if(pop >= 9) {
             if(islower(name[i])) {
                 name[i] = toupper(name[i]);
             }
@@ -134,8 +126,7 @@ void prpopname(char *name, int pop)
 #if 0
     if(pop >= 9) {
         printf("\x1bG");    /* select double strike */
-    }
-    else if(pop >= 6) {
+    } else if(pop >= 6) {
         printf("\x1b\x34");    /* select italic */
     }
 #endif
@@ -143,16 +134,14 @@ void prpopname(char *name, int pop)
 #if 0
     if(pop >= 9) {
         printf("\x1bH");    /* de-select double strike */
-    }
-    else if(pop >= 6) {
+    } else if(pop >= 6) {
         printf("\x1b\x35");    /* de-select italic */
     }
 #endif
     printf("|");
 }
 
-void survey(sistem *syst, struct strip *st)
-{
+void survey(sistem *syst, struct strip *st) {
     if(syst->mw->upp.w.bases&NAVAL_BASE) {
         st->n = 'N';
     }
@@ -165,8 +154,7 @@ void survey(sistem *syst, struct strip *st)
     survp(syst->sys, st);
 }
 
-void survp(body *s, struct strip *st)
-{
+void survp(body *s, struct strip *st) {
     body    *sptr;
 
     if(s->type == T_GIANT) {
@@ -175,13 +163,11 @@ void survp(body *s, struct strip *st)
     if(s->type == T_MAIN) {
         strcpy(st->name, s->name);
         st->port = s->upp.w.starport;
-    }
-    else if((s->type == T_WORLD) && (s->upp.w.pop > st->pop)) {
+    } else if((s->type == T_WORLD) && (s->upp.w.pop > st->pop)) {
         st->pop = s->upp.w.pop;
         st->law = s->upp.w.law;
         st->tech = s->upp.w.tech;
-    }
-    else if((s->type == T_MAIN) && (s->upp.w.pop >= st->pop)) {
+    } else if((s->type == T_MAIN) && (s->upp.w.pop >= st->pop)) {
         st->pop = s->upp.w.pop;
         st->law = s->upp.w.law;
         st->tech = s->upp.w.tech;

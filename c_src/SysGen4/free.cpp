@@ -3,8 +3,7 @@
 #include <string.h>
 #include "sysgen.h"
 
-void free2body(body *sys)
-{
+void free2body(body *sys) {
     body    *s;
 
     for(s = sys->b; s; s = s->o) {
@@ -13,13 +12,11 @@ void free2body(body *sys)
     free(sys);
 }
 
-void sys2free(sistem *syst)
-{
+void sys2free(sistem *syst) {
     free2body(syst->sys);
 }
 
-void free3body(body *sys)
-{
+void free3body(body *sys) {
     body    *s;
 
     for(s = sys->b; s; s = s->o) {
@@ -34,7 +31,6 @@ void free3body(body *sys)
     free(sys);
 }
 
-void sys3free(sistem *sys)
-{
+void sys3free(sistem *sys) {
     free3body(sys->sys);
 }

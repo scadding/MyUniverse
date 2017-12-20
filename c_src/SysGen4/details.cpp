@@ -13,8 +13,7 @@
 #undef min
 #endif
 
-int makedetails(sistem *syst, long x, long y, long z)
-{
+int makedetails(sistem *syst, long x, long y, long z) {
     if(!makesystem(syst, x, y, z)) {
         return(0);
     }
@@ -58,8 +57,7 @@ float  ofact[20] = {
     84.484, 60.046, 42.569, 30.14, 21.326, 15.085, 10.668, 7.544, 5.335, 3.772, 2.667, 1.886
 };
 
-void detail(body *s, int konst,long x, long y, long z)
-{
+void detail(body *s, int konst,long x, long y, long z) {
     body    *sptr;
     int     roll;
     float   tmp;
@@ -69,29 +67,27 @@ void detail(body *s, int konst,long x, long y, long z)
     if(s->p) {
         if(s->p->type == T_STAR) {
             zo = zone(s->p, s->orbit);
-        }
-        else {
+        } else {
             zo = zone(s->p->p, s->p->orbit);
         }
         /* compute year */
         if(s->p->type == T_STAR) {
             tmp = smass[s->p->upp.s.size][staroff(s->p)];
             if((s->p->b->type == T_STAR) && (s->p->b->orbit == 0)
-               && (s->orbit != 0)) { /* i.e. a close binary */
+                    && (s->orbit != 0)) { /* i.e. a close binary */
                 tmp += smass[s->p->b->upp.s.size][staroff(s->p->b)];
             }
-    		int dist;
-    		if(s->orbit > 20)
-    			dist = 0;
+            int dist;
+            if(s->orbit > 20)
+                dist = 0;
             else
-            	dist = odist[s->orbit];
+                dist = odist[s->orbit];
             tmp = dist*dist*dist/tmp;
             tmp = sqrt(tmp)*365.25;
         } else {
             if(s->p->type == T_GIANT) {
                 tmp = s->p->det.g.dens;
-            }
-            else {
+            } else {
                 tmp = s->p->det.w.dens;
             }
             tmp *= (float)(s->orbit);
@@ -162,8 +158,7 @@ int    czone[11][3] = {
     {0, 20, 80}
 };
 
-void dettoids(body *s, char zo)
-{
+void dettoids(body *s, char zo) {
     int     roll, tmp;
 
     s->det.b.pbod = D(2) - 2;
@@ -195,8 +190,7 @@ void dettoids(body *s, char zo)
     roll = D(2);
     if(zo == 'I') {
         roll -= 4;
-    }
-    else if(zo == 'O') {
+    } else if(zo == 'O') {
         roll += 2;
     }
     tmp = D(2) - 2;
@@ -204,34 +198,28 @@ void dettoids(body *s, char zo)
         s->det.b.n = nzone[tmp][0];
         s->det.b.m = nzone[tmp][1];
         s->det.b.c = nzone[tmp][2];
-    }
-    else if(roll > 8) {
+    } else if(roll > 8) {
         s->det.b.n = czone[tmp][0];
         s->det.b.m = czone[tmp][1];
         s->det.b.c = czone[tmp][2];
-    }
-    else {
+    } else {
         s->det.b.n = mzone[tmp][0];
         s->det.b.m = mzone[tmp][1];
         s->det.b.c = mzone[tmp][2];
     }
     if(s->p->type == T_STAR) {
         tmp = s->orbit;
-    }
-    else {
+    } else {
         tmp = s->p->orbit;
     }
     roll = D(2);
     if(tmp <= 4) {
         roll -= 3;
-    }
-    else if(tmp <= 8) {
+    } else if(tmp <= 8) {
         roll--;
-    }
-    else if(tmp <= 12) {
+    } else if(tmp <= 12) {
         roll++;
-    }
-    else {
+    } else {
         roll += 2;
     }
     switch(roll) {
@@ -278,21 +266,18 @@ int    lgiant[16] = { 110, 120, 130, 140, 150, 150, 160, 170, 180,
                     };
 int    gdens[16] = { 10, 11, 12, 13, 14, 16, 18, 20, 22, 23, 24, 26, 27, 28, 29, 30 };
 
-void detgiant(body *s, char zo)
-{
+void detgiant(body *s, char zo) {
     int     roll, tmp;
 
     roll = D(2) - 2;
     if(s->upp.g.size) {
         tmp = lgiant[roll];
-    }
-    else {
+    } else {
         tmp = sgiant[roll];
     }
     do {
         roll = D(2) - 7;
-    }
-    while(roll == 5);
+    } while(roll == 5);
     tmp += roll;
     s->det.g.diam = (float)tmp*(1000.0*1.6);
     s->det.g.dens = (float)gdens[D(3) - 3]/100.0;
@@ -326,8 +311,7 @@ int    ads[8][11] = {
     {900, 900, 882, 883, 866, 850, 836, 821, 807, 793, 773}
 };
 
-void detworld(body *s, char zo)
-{
+void detworld(body *s, char zo) {
     char    c;
     int     roll, tmp, u, l;
     float   mass, ftmp, tpop, fpop;
@@ -341,12 +325,10 @@ void detworld(body *s, char zo)
     /* diameter */
     do {
         roll = D(2) - 7;
-    }
-    while(roll == 5);
+    } while(roll == 5);
     if(upp->size) {
         roll += upp->size*10;
-    }
-    else {
+    } else {
         roll += 6;
     }
     det->diam = (float)roll*(100.0*1.6);
@@ -354,14 +336,12 @@ void detworld(body *s, char zo)
     roll = D(2);
     if(upp->size <= 4) {
         roll++;
-    }
-    else if(upp->size >= 6) {
+    } else if(upp->size >= 6) {
         roll -= 2;
     }
     if(upp->atmos <= 3) {
         roll++;
-    }
-    else if(upp->atmos >= 6) {
+    } else if(upp->atmos >= 6) {
         roll -= 2;
     }
     if(zo == 'O') {
@@ -371,16 +351,13 @@ void detworld(body *s, char zo)
     if(roll <= 1) {
         det->core = 'h';
         tmp = hdens[tmp];
-    }
-    else if(roll <= 10) {
+    } else if(roll <= 10) {
         det->core = 'm';
         tmp = mdens[tmp];
-    }
-    else if(roll <= 14) {
+    } else if(roll <= 14) {
         det->core = 'r';
         tmp = rdens[tmp];
-    }
-    else {
+    } else {
         det->core = 'i';
         tmp = idens[tmp];
     }
@@ -388,8 +365,7 @@ void detworld(body *s, char zo)
     /* day */
     if(s->p->type == T_STAR) {
         ftmp = smass[s->p->upp.s.size][staroff(s->p)]/odist[s->orbit];
-    }
-    else
+    } else
         ftmp = det->dens*det->diam*det->diam
                *(400000.0/ (12800.0*12800.0*12800.0))/(float)s->orbit;
     ftmp += 5.0 + (float)(D(2) - 2)*4.0;
@@ -429,8 +405,7 @@ void detworld(body *s, char zo)
     ftmp = (float)(D(1) - 3);
     if(det->core == 'h') {
         ftmp += (float)(D(1) - 2);
-    }
-    else if(det->core == 'm') {
+    } else if(det->core == 'm') {
         ftmp += (float)(D(1) - 3);
     }
     for(sptr = s->b; sptr; sptr = sptr->o) {
@@ -438,8 +413,7 @@ void detworld(body *s, char zo)
     }
     if(s->p->type == T_STAR) {
         ftmp += smass[s->p->upp.s.size][staroff(s->p)]/odist[s->orbit];
-    }
-    else {
+    } else {
         ftmp += smass[s->p->p->upp.s.size][staroff(s->p->p)]/odist[s->p->orbit];
     }
     det->stress = (int)(floor(ftmp + 0.5));
@@ -450,21 +424,17 @@ void detworld(body *s, char zo)
     if(s->p->type == T_STAR) {
         ftmp = slumen[s->p->upp.s.size][staroff(s->p)];
         ftmp *= ofact[s->orbit];
-    }
-    else {
+    } else {
         ftmp = slumen[s->p->p->upp.s.size][staroff(s->p->p)];
         ftmp *= ofact[s->p->orbit];
     }
     if(upp->atmos < 4) {
         roll = 0;
-    }
-    else if(upp->atmos < 0x0a) {
+    } else if(upp->atmos < 0x0a) {
         roll = 2;
-    }
-    else if(upp->atmos == 0x0e) {
+    } else if(upp->atmos == 0x0e) {
         roll = 8;
-    }
-    else {
+    } else {
         roll = 6;
     }
     if(zo == 'H') {
@@ -498,14 +468,12 @@ void detworld(body *s, char zo)
     roll = D(2);
     if(upp->atmos == 0) {
         roll -= 3;
-    }
-    else if((upp->atmos >= 4) && (upp->atmos <= 9)) {
+    } else if((upp->atmos >= 4) && (upp->atmos <= 9)) {
         roll += 4;
     }
     if(upp->hydro == 0) {
         roll -= 2;
-    }
-    else if((upp->hydro >= 2) && (upp->hydro <= 8)) {
+    } else if((upp->hydro >= 2) && (upp->hydro <= 8)) {
         roll += 1;
     }
     if((det->temp < -20.0+273.0) || (det->temp > 30.0+273.0)) {
@@ -513,20 +481,17 @@ void detworld(body *s, char zo)
     }
     if(s->p->type == T_STAR) {
         c = s->p->upp.s.classification;
-    }
-    else {
+    } else {
         c = s->p->p->upp.s.classification;
     }
     if((c == 'G') || (c == 'K')) {
         roll++;
-    }
-    else if((c == 'F') || (c == 'A') || (c == 'B')) {
+    } else if((c == 'F') || (c == 'A') || (c == 'B')) {
         roll--;
     }
     if(roll >= 10) {
         det->life = 'Y';
-    }
-    else {
+    } else {
         det->life = 'N';
     }
 
@@ -534,18 +499,15 @@ void detworld(body *s, char zo)
     roll = upp->hydro*10 + D(2) - 7;
     if(roll < 0) {
         det->water = 0;
-    }
-    else if(roll > 100) {
+    } else if(roll > 100) {
         det->water = 100;
-    }
-    else {
+    } else {
         det->water = roll;
     }
     /* plates */
     if((det->core == 'r') || (det->core == 'i')) {
         det->nplates = 1;
-    }
-    else {
+    } else {
         det->nplates = upp->size + upp->hydro - D(2);
         if(det->nplates < 0) {
             det->nplates = 1;
@@ -554,8 +516,7 @@ void detworld(body *s, char zo)
     /* land/water distribution */
     if(det->water < 50) {
         roll = D(1) + upp->hydro*3;
-    }
-    else {
+    } else {
         roll = 37 - (D(1) + upp->hydro*3);
     }
     det->maj = 0;
@@ -565,16 +526,13 @@ void detworld(body *s, char zo)
     if(roll >= 8) {
         det->isl = D(3) - 3;
         det->arch = D(2);
-    }
-    else if(roll == 7) {
+    } else if(roll == 7) {
         det->isl = D(2) - 3;
         det->arch = D(2);
-    }
-    else if(roll == 6) {
+    } else if(roll == 6) {
         det->isl = D(1) - 3;
         det->arch = D(2);
-    }
-    else if(roll >= 6) {
+    } else if(roll >= 6) {
         det->arch = D(1);
     }
     if(det->isl < 0) {
@@ -582,20 +540,15 @@ void detworld(body *s, char zo)
     }
     if(roll >= 19) {
         det->maj = 1;
-    }
-    else if(roll >= 16) {
+    } else if(roll >= 16) {
         det->maj = D(1);
-    }
-    else if(roll >= 13) {
+    } else if(roll >= 13) {
         det->maj = D(1) - 1;
-    }
-    else if(roll >= 11) {
+    } else if(roll >= 11) {
         det->maj = D(1) - 2;
-    }
-    else if(roll >= 9) {
+    } else if(roll >= 9) {
         det->maj = D(1) - 3;
-    }
-    else if(roll >= 7) {
+    } else if(roll >= 7) {
         det->maj = D(1) - 4;
     }
     if(det->maj < 0) {
@@ -603,17 +556,13 @@ void detworld(body *s, char zo)
     }
     if(roll >= 13) {
         det->min = D(((roll - 1)%3) + 1) - (((roll - 1)%3) + 1);
-    }
-    else if(roll >= 12) {
+    } else if(roll >= 12) {
         det->min = D(2) - 2;
-    }
-    else if(roll >= 9) {
+    } else if(roll >= 9) {
         det->min = D(1) - 1;
-    }
-    else if(roll >= 8) {
+    } else if(roll >= 8) {
         det->min = D(1) - 2;
-    }
-    else if(roll >= 7) {
+    } else if(roll >= 7) {
         det->min = D(1) - 3;
     }
     if(det->min < 0) {
@@ -638,8 +587,7 @@ void detworld(body *s, char zo)
             det->bc->pop = tpop;
             det->bc->next = 0;
             tpop = 0.0;
-        }
-        else if(upp->pop <= 3) {
+        } else if(upp->pop <= 3) {
             tpop = 0.0;
         }
     }
@@ -708,14 +656,11 @@ void detworld(body *s, char zo)
         }
         if(roll < 4) {
             det->prog_att = 0;
-        }
-        else if(roll < 8) {
+        } else if(roll < 8) {
             det->prog_att = 1;
-        }
-        else if(roll < 12) {
+        } else if(roll < 12) {
             det->prog_att = 2;
-        }
-        else {
+        } else {
             det->prog_att = 3;
         }
 
@@ -731,14 +676,11 @@ void detworld(body *s, char zo)
         }
         if(roll < 6) {
             det->prog_act = 0;
-        }
-        else if(roll < 10) {
+        } else if(roll < 10) {
             det->prog_act = 1;
-        }
-        else if(roll < 13) {
+        } else if(roll < 13) {
             det->prog_act = 2;
-        }
-        else {
+        } else {
             det->prog_act = 3;
         }
 
@@ -748,25 +690,20 @@ void detworld(body *s, char zo)
         }
         if(roll < 4) {
             det->aggr_att = 0;
-        }
-        else if(roll < 7) {
+        } else if(roll < 7) {
             det->aggr_att = 1;
-        }
-        else if(roll < 11) {
+        } else if(roll < 11) {
             det->aggr_att = 2;
-        }
-        else {
+        } else {
             det->aggr_att = 3;
         }
 
         roll = D(2);
         if(det->aggr_att == 0) {
             roll -= 2;
-        }
-        else if(det->aggr_att == 1) {
+        } else if(det->aggr_att == 1) {
             roll--;
-        }
-        else if(det->aggr_att == 3) {
+        } else if(det->aggr_att == 3) {
             roll += 2;
         }
         if(upp->law >= 0xa) {
@@ -774,14 +711,11 @@ void detworld(body *s, char zo)
         }
         if(roll < 5) {
             det->aggr_act = 0;
-        }
-        else if(roll < 9) {
+        } else if(roll < 9) {
             det->aggr_act = 1;
-        }
-        else if(roll < 12) {
+        } else if(roll < 12) {
             det->aggr_act = 2;
-        }
-        else {
+        } else {
             det->aggr_act = 3;
         }
 
@@ -791,52 +725,41 @@ void detworld(body *s, char zo)
         }
         if(upp->gov <= 2) {
             roll++;
-        }
-        else if(upp->gov == 7) {
+        } else if(upp->gov == 7) {
             roll += 4;
-        }
-        else if(upp->gov == 0xf) {
+        } else if(upp->gov == 0xf) {
             roll--;
         }
         if(upp->law <= 4) {
             roll++;
-        }
-        else if(upp->law >= 0xa) {
+        } else if(upp->law >= 0xa) {
             roll--;
         }
         if(roll < 4) {
             det->glob_ext = 0;
-        }
-        else if(roll < 8) {
+        } else if(roll < 8) {
             det->glob_ext = 1;
-        }
-        else if(roll < 12) {
+        } else if(roll < 12) {
             det->glob_ext = 2;
-        }
-        else {
+        } else {
             det->glob_ext = 3;
         }
 
         roll = D(2);
         if(upp->starport == 'A') {
             roll -= 2;
-        }
-        else if(upp->starport == 'B') {
+        } else if(upp->starport == 'B') {
             roll--;
-        }
-        else if(upp->starport == 'D') {
+        } else if(upp->starport == 'D') {
             roll++;
-        }
-        else if(upp->starport == 'E') {
+        } else if(upp->starport == 'E') {
             roll += 2;
-        }
-        else if(upp->starport == 'X') {
+        } else if(upp->starport == 'X') {
             roll += 3;
         }
         if(det->prog_att == 2) {
             roll += 2;
-        }
-        else if(det->prog_att == 3) {
+        } else if(det->prog_att == 3) {
             roll += 4;
         }
         if(upp->law >= 0xa) {
@@ -844,14 +767,11 @@ void detworld(body *s, char zo)
         }
         if(roll < 4) {
             det->intr_ext = 0;
-        }
-        else if(roll < 8) {
+        } else if(roll < 8) {
             det->intr_ext = 1;
-        }
-        else if(roll < 12) {
+        } else if(roll < 12) {
             det->intr_ext = 2;
-        }
-        else {
+        } else {
             det->intr_ext = 3;
         }
         roll = D(1);
@@ -891,8 +811,7 @@ void detworld(body *s, char zo)
         roll = u + tlm();
         if(upp->pop <= 5) {
             roll++;
-        }
-        else if(upp->pop >= 9) {
+        } else if(upp->pop >= 9) {
             roll--;
         }
         roll += 1 - det->glob_ext;
@@ -908,8 +827,7 @@ void detworld(body *s, char zo)
         roll = upp->tech + tlm();
         if(upp->pop <= 5) {
             roll++;
-        }
-        else if(upp->pop >= 9) {
+        } else if(upp->pop >= 9) {
             roll--;
         }
         det->trobot = Clip(roll, u, l);
@@ -930,7 +848,7 @@ void detworld(body *s, char zo)
         }
         roll = upp->tech + tlm();
         if((upp->atmos != 5) && (upp->atmos != 6)
-           && (upp->atmos != 8)) {
+                && (upp->atmos != 8)) {
             roll++;
         }
         if((upp->hydro == 0) || (upp->hydro == 10)) {
@@ -973,8 +891,7 @@ void detworld(body *s, char zo)
         roll = tlm();
         if(det->tenergy < det->trobot) {
             roll += det->tenergy;
-        }
-        else {
+        } else {
             roll += det->trobot;
         }
         if((upp->starport == 'A') || (upp->starport == 'B')) {
@@ -982,8 +899,7 @@ void detworld(body *s, char zo)
         }
         if(det->intr_ext == 0) {
             roll++;
-        }
-        else if(det->intr_ext == 3) {
+        } else if(det->intr_ext == 3) {
             roll--;
         }
         det->tspace = Clip(roll, u, l);
@@ -992,14 +908,12 @@ void detworld(body *s, char zo)
         roll = det->tenergy + tlm();
         if(det->aggr_att == 0) {
             roll++;
-        }
-        else if(det->aggr_att == 3) {
+        } else if(det->aggr_att == 3) {
             roll -= 2;
         }
         if(det->aggr_act == 0) {
             roll++;
-        }
-        else if(det->aggr_act == 3) {
+        } else if(det->aggr_act == 3) {
             roll--;
         }
         det->tpmil = Clip(roll, u, l);
@@ -1009,18 +923,15 @@ void detworld(body *s, char zo)
         roll = det->tland + tlm();
         if(det->aggr_att == 0) {
             roll++;
-        }
-        else if(det->aggr_att == 3) {
+        } else if(det->aggr_att == 3) {
             roll -= 2;
         }
         if(det->aggr_act == 0) {
             roll++;
-        }
-        else if(det->aggr_act == 3) {
+        } else if(det->aggr_act == 3) {
             roll--;
         }
-    }
-    else {
+    } else {
         det->prog_att = -1;
         det->prog_act = -1;
         det->aggr_att = -1;
@@ -1052,8 +963,7 @@ void detworld(body *s, char zo)
     }
 }
 
-void filltemp(body *s, tempdata *t)
-{
+void filltemp(body *s, tempdata *t) {
     world   *upp;
     dworld  *det;
     int     i, j, mult;
@@ -1067,8 +977,7 @@ void filltemp(body *s, tempdata *t)
     if(s->p->type == T_STAR) {
         tmp = slumen[s->p->upp.s.size][staroff(s->p)];
         tmp /= sqrt(odist[s->orbit]);
-    }
-    else {
+    } else {
         tmp = slumen[s->p->p->upp.s.size][staroff(s->p->p)];
         tmp /= sqrt(odist[s->p->orbit]);
     }
@@ -1134,15 +1043,13 @@ void filltemp(body *s, tempdata *t)
 
     if(s->upp.w.size <= 10) {
         mult = s->upp.w.size/2 + 3;
-    }
-    else {
+    } else {
         mult = 8;
     }
     tilt = (float)det->tilt;
     if(s->p->type == T_GIANT) {
         tilt += (float)s->p->det.g.tilt;
-    }
-    else if((s->p->type == T_WORLD) || (s->p->type == T_MAIN)) {
+    } else if((s->p->type == T_WORLD) || (s->p->type == T_MAIN)) {
         tilt += (float)s->p->det.w.tilt;
     }
     if(tilt > 90.0) {
@@ -1151,53 +1058,38 @@ void filltemp(body *s, tempdata *t)
     for(i = 0; i < 11; i++) {
         if(det->tilt == 0) {
             j = i - 10;
-        }
-        else if(det->tilt == 1) {
+        } else if(det->tilt == 1) {
             j = i - 9;
-        }
-        else if((det->tilt >= 2) && (det->tilt <= 3)) {
+        } else if((det->tilt >= 2) && (det->tilt <= 3)) {
             j = i - 8;
-        }
-        else if((det->tilt >= 4) && (det->tilt <= 5)) {
+        } else if((det->tilt >= 4) && (det->tilt <= 5)) {
             j = i - 7;
-        }
-        else if((det->tilt >= 6) && (det->tilt <= 8)) {
+        } else if((det->tilt >= 6) && (det->tilt <= 8)) {
             j = i - 6;
-        }
-        else if((det->tilt >= 9) && (det->tilt <= 12)) {
+        } else if((det->tilt >= 9) && (det->tilt <= 12)) {
             j = i - 5;
-        }
-        else if((det->tilt >= 13) && (det->tilt <= 16)) {
+        } else if((det->tilt >= 13) && (det->tilt <= 16)) {
             j = i - 4;
-        }
-        else if((det->tilt >= 17) && (det->tilt <= 22)) {
+        } else if((det->tilt >= 17) && (det->tilt <= 22)) {
             j = i - 3;
-        }
-        else if((det->tilt >= 23) && (det->tilt <= 28)) {
+        } else if((det->tilt >= 23) && (det->tilt <= 28)) {
             j = i - 2;
-        }
-        else if((det->tilt >= 29) && (det->tilt <= 34)) {
+        } else if((det->tilt >= 29) && (det->tilt <= 34)) {
             j = i - 1;
-        }
-        else if((det->tilt >= 35) && (det->tilt <= 44)) {
+        } else if((det->tilt >= 35) && (det->tilt <= 44)) {
             j = i - 0;
-        }
-        else if((det->tilt >= 45) && (det->tilt <= 59)) {
+        } else if((det->tilt >= 45) && (det->tilt <= 59)) {
             j = i + 1;
-        }
-        else if((det->tilt >= 60) && (det->tilt <= 84)) {
+        } else if((det->tilt >= 60) && (det->tilt <= 84)) {
             j = i + 2;
-        }
-        else if(det->tilt >= 85) {
+        } else if(det->tilt >= 85) {
             j = i + 3;
         }
         if(j <= 0) {
             tmp = 0.0;
-        }
-        else if(j >= 4) {
+        } else if(j >= 4) {
             tmp = 1.0;
-        }
-        else {
+        } else {
             tmp = (float)j*0.25;
         }
         t->hextilt[i] = tmp;
@@ -1205,8 +1097,7 @@ void filltemp(body *s, tempdata *t)
     }
 }
 
-float tempat(tempdata *t, int row, int mode)
-{
+float tempat(tempdata *t, int row, int mode) {
     float   temp;
 
     switch(mode&0x3) {

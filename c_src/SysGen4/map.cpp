@@ -17,8 +17,7 @@ hex:
 int    left[6] = { 1, 3, 6, 10, 15, 21 };
 int    right[6] = { 2, 5, 9, 14, 20, 27 };
 
-void set(int buf[20][28], int tri, int hex, int val)
-{
+void set(int buf[20][28], int tri, int hex, int val) {
     int     i;
 
     if(hex == 0) {
@@ -141,8 +140,7 @@ void set(int buf[20][28], int tri, int hex, int val)
     }
 }
 
-int adj(int t, int h, int buf[6][2])
-{
+int adj(int t, int h, int buf[6][2]) {
     int     i;
 
     for(i = 0; i < 6; i++) {
@@ -156,13 +154,11 @@ int adj(int t, int h, int buf[6][2])
             for(i = 0; i < 5; i++) {
                 buf[i][0] = i;
                 buf[i][1] = 1;
-            }
-        else if(t >= 15)
+            } else if(t >= 15)
             for(i = 15; i < 20; i++) {
                 buf[i - 15][0] = i;
                 buf[i - 15][1] = 1;
-            }
-        else {
+            } else {
             buf[0][1] = 1;
             buf[1][1] = 2;
             if(t >= 10) {
@@ -172,8 +168,7 @@ int adj(int t, int h, int buf[6][2])
                 buf[3][1] = 20;
                 buf[4][0] = t - 9;
                 buf[4][1] = 22;
-            }
-            else {
+            } else {
                 buf[2][0] = t + 10;
                 buf[2][1] = 22;
                 buf[3][0] = t + 10;
@@ -192,12 +187,10 @@ int adj(int t, int h, int buf[6][2])
             buf[5][0] = buf[4][0];
             buf[4][1] = 1;
             buf[5][1] = 4;
-        }
-        else {
+        } else {
             if(t < 10) {
                 buf[4][0] = ((t + 4)%5) + 10;
-            }
-            else {
+            } else {
                 buf[4][0] = t - 5;
             }
             buf[5][0] = buf[4][0];
@@ -208,14 +201,11 @@ int adj(int t, int h, int buf[6][2])
     case 2:
         if(t < 5) {
             return(adj((t + 1)%5, 1, buf));
-        }
-        else if(t >= 15) {
+        } else if(t >= 15) {
             return(adj(((t + 1)%5) + 15, 1, buf));
-        }
-        else if(t < 10) {
+        } else if(t < 10) {
             return(adj(t + 5, 15, buf));
-        }
-        else {
+        } else {
             return(adj(((t + 1)%5) + 5, 15, buf));
         }
     case 3:
@@ -227,12 +217,10 @@ int adj(int t, int h, int buf[6][2])
             buf[5][0] = buf[4][0];
             buf[4][1] = 4;
             buf[5][1] = 8;
-        }
-        else {
+        } else {
             if(t < 10) {
                 buf[4][0] = ((t + 4)%5) + 10;
-            }
-            else {
+            } else {
                 buf[4][0] = t - 5;
             }
             buf[5][0] = buf[4][0];
@@ -249,14 +237,11 @@ int adj(int t, int h, int buf[6][2])
     case 5:
         if(t < 5) {
             return(adj((t + 1)%5, 3, buf));
-        }
-        else if(t >= 15) {
+        } else if(t >= 15) {
             return(adj(((t + 1)%5) + 15, 3, buf));
-        }
-        else if(t < 10) {
+        } else if(t < 10) {
             return(adj(t + 5, 10, buf));
-        }
-        else {
+        } else {
             return(adj(((t + 1)%5) + 5, 10, buf));
         }
     case 6:
@@ -268,12 +253,10 @@ int adj(int t, int h, int buf[6][2])
             buf[5][0] = buf[4][0];
             buf[4][1] = 13;
             buf[5][1] = 8;
-        }
-        else {
+        } else {
             if(t < 10) {
                 buf[4][0] = ((t + 4)%5) + 10;
-            }
-            else {
+            } else {
                 buf[4][0] = t - 5;
             }
             buf[5][0] = buf[4][0];
@@ -296,14 +279,11 @@ int adj(int t, int h, int buf[6][2])
     case 9:
         if(t < 5) {
             return(adj((t + 1)%5, 6, buf));
-        }
-        else if(t >= 15) {
+        } else if(t >= 15) {
             return(adj(((t + 1)%5) + 15, 6, buf));
-        }
-        else if(t < 10) {
+        } else if(t < 10) {
             return(adj(t + 5, 6, buf));
-        }
-        else {
+        } else {
             return(adj(((t + 1)%5) + 5, 6, buf));
         }
     case 10:
@@ -315,12 +295,10 @@ int adj(int t, int h, int buf[6][2])
             buf[5][0] = buf[4][0];
             buf[4][1] = 13;
             buf[5][1] = 19;
-        }
-        else {
+        } else {
             if(t < 10) {
                 buf[4][0] = ((t + 4)%5) + 10;
-            }
-            else {
+            } else {
                 buf[4][0] = t - 5;
             }
             buf[5][0] = buf[4][0];
@@ -349,14 +327,11 @@ int adj(int t, int h, int buf[6][2])
     case 14:
         if(t < 5) {
             return(adj((t + 1)%5, 10, buf));
-        }
-        else if(t >= 15) {
+        } else if(t >= 15) {
             return(adj(((t + 1)%5) + 15, 10, buf));
-        }
-        else if(t < 10) {
+        } else if(t < 10) {
             return(adj(t + 5, 3, buf));
-        }
-        else {
+        } else {
             return(adj(((t + 1)%5) + 5, 3, buf));
         }
     case 15:
@@ -368,12 +343,10 @@ int adj(int t, int h, int buf[6][2])
             buf[5][0] = buf[4][0];
             buf[4][1] = 19;
             buf[5][1] = 26;
-        }
-        else {
+        } else {
             if(t < 10) {
                 buf[4][0] = ((t + 4)%5) + 10;
-            }
-            else {
+            } else {
                 buf[4][0] = t - 5;
             }
             buf[5][0] = buf[4][0];
@@ -408,14 +381,11 @@ int adj(int t, int h, int buf[6][2])
     case 20:
         if(t < 5) {
             return(adj((t + 1)%5, 15, buf));
-        }
-        else if(t >= 15) {
+        } else if(t >= 15) {
             return(adj(((t + 1)%5) + 15, 15, buf));
-        }
-        else if(t < 10) {
+        } else if(t < 10) {
             return(adj(t + 5, 1, buf));
-        }
-        else {
+        } else {
             return(adj(((t + 1)%5) + 5, 1, buf));
         }
     case 21:
@@ -423,14 +393,11 @@ int adj(int t, int h, int buf[6][2])
             buf[2][0] = (t + 4)%5;
             buf[4][0] = ((t + 4)%5) + 5;
             buf[1][0] = t + 5;
-        }
-        else if(t < 10) {
+        } else if(t < 10) {
             return(adj(t - 5, h, buf));
-        }
-        else if(t < 15) {
+        } else if(t < 15) {
             return(adj(t + 5, h, buf));
-        }
-        else {
+        } else {
             buf[2][0] = ((t + 4)%5) + 15;
             buf[4][0] = ((t + 4)%5) + 10;
             buf[1][0] = t - 5;
@@ -447,14 +414,11 @@ int adj(int t, int h, int buf[6][2])
     case 26:
         if(t < 5) {
             buf[4][0] = t + 5;
-        }
-        else if(t < 10) {
+        } else if(t < 10) {
             return(adj(t - 5, h, buf));
-        }
-        else if(t < 15) {
+        } else if(t < 15) {
             return(adj(t + 5, h, buf));
-        }
-        else {
+        } else {
             buf[4][0] = t - 5;
         }
         buf[5][0] = buf[4][0];
@@ -466,22 +430,18 @@ int adj(int t, int h, int buf[6][2])
     case 27:
         if(t < 5) {
             return(adj((t + 1)%5, 21, buf));
-        }
-        else if(t >= 15) {
+        } else if(t >= 15) {
             return(adj(((t + 1)%5) + 15, 21, buf));
-        }
-        else if(t < 10) {
+        } else if(t < 10) {
             return(adj(t + 5, 0, buf));
-        }
-        else {
+        } else {
             return(adj(((t + 1)%5) + 5, 0, buf));
         }
     }
     return(6);
 }
 
-int getrow(int t, int h)
-{
+int getrow(int t, int h) {
     int     row;
 
     for(row = 0; row < 6; row++)

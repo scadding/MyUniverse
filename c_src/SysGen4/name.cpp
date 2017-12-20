@@ -6,8 +6,7 @@
 
 int mainwrld(mainworld *mw, long x, long y, long z);
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     long    x, y, z;
     int     i;
     mainworld       mw;
@@ -21,8 +20,7 @@ int main(int argc, char **argv)
     z = atol(argv[3]);
     if(argc == 5) {
         i = atoi(argv[4]);
-    }
-    else {
+    } else {
         i = 1;
     }
 

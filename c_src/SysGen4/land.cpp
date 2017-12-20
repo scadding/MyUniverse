@@ -1,7 +1,6 @@
 #include "sysgen.h"
 
-void lands(int plates[20][28], int buf[20][28], int arch, int islands, int minor, int major, int landpc)
-{
+void lands(int plates[20][28], int buf[20][28], int arch, int islands, int minor, int major, int landpc) {
     int     land, i, tot;
     int     majsize[15], minsize[15];
 
@@ -23,15 +22,12 @@ void lands(int plates[20][28], int buf[20][28], int arch, int islands, int minor
             if(major && minor) {
                 if(Rand()%2) {
                     majsize[Rand()%major]++;
-                }
-                else {
+                } else {
                     minsize[Rand()%minor]++;
                 }
-            }
-            else if(major) {
+            } else if(major) {
                 majsize[Rand()%major]++;
-            }
-            else {
+            } else {
                 minsize[Rand()%minor]++;
             }
             tot++;
@@ -56,8 +52,7 @@ void lands(int plates[20][28], int buf[20][28], int arch, int islands, int minor
             }
 }
 
-void place(int plates[20][28], int buf[20][28], int size, int val)
-{
+void place(int plates[20][28], int buf[20][28], int size, int val) {
     int     t, h, pval;
     int     tmax, hmax, max, i;
 
@@ -76,7 +71,7 @@ void place(int plates[20][28], int buf[20][28], int size, int val)
         while(!findnext(buf, &t, &h, 0)) {
             i = countlhex(buf, plates, t, h, val, pval);
             if((i > max) ||
-               ((i == max) && !(Rand()%3))) {
+                    ((i == max) && !(Rand()%3))) {
                 tmax = t;
                 hmax = h;
                 max = i;
@@ -86,8 +81,7 @@ void place(int plates[20][28], int buf[20][28], int size, int val)
     }
 }
 
-int countlhex(int buf[20][28], int plates[20][28], int t, int h, int cval, int pval)
-{
+int countlhex(int buf[20][28], int plates[20][28], int t, int h, int cval, int pval) {
     int     i, len, tot;
     int     hadj[6][2];
 
@@ -104,14 +98,12 @@ int countlhex(int buf[20][28], int plates[20][28], int t, int h, int cval, int p
     for(i = 0; i < len; i++) {
         if(buf[hadj[i][0]][hadj[i][1]] == cval) {
             tot += 5;
-        }
-        else if(buf[hadj[i][0]][hadj[i][1]] != 0) {
+        } else if(buf[hadj[i][0]][hadj[i][1]] != 0) {
             tot -= 10;
         }
         if(plates[hadj[i][0]][hadj[i][1]] == pval) {
             tot++;
-        }
-        else {
+        } else {
             tot--;
         }
     }

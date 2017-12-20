@@ -18,8 +18,7 @@ void pdlevel(body *s, int depth);
 void printdetails(sistem *syst);
 void pdetails(body *s, int depth);
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     sistem  syst;
     long    x, y, z;
 
@@ -40,8 +39,7 @@ int main(int argc, char **argv)
     exit(1);
 }
 
-int sysgen3Main(long x, long y, long z)
-{
+int sysgen3Main(long x, long y, long z) {
     sistem  syst;
 
     if(makedetails(&syst, x, y, z) == 0) {
@@ -51,22 +49,19 @@ int sysgen3Main(long x, long y, long z)
     return(1);
 }
 
-void printdetails(sistem *syst)
-{
+void printdetails(sistem *syst) {
     printf("%s system\n", syst->mw->name);
     printf("Location %ld,%ld,%ld\n", syst->x, syst->y, syst->z);
     pdlevel(syst->sys, 0);
 }
 
-void tab(int n)
-{
+void tab(int n) {
     while(n-- > 0) {
         printf("\t");
     }
 }
 
-void pdlevel(body *s, int depth)
-{
+void pdlevel(body *s, int depth) {
     if(!s) {
         return;
     }
@@ -82,8 +77,7 @@ void pdlevel(body *s, int depth)
     }
 }
 
-void pworld(body *s)
-{
+void pworld(body *s) {
     switch(s->type) {
     case T_STAR:
         printf("Star %c%d %d       %s\n", s->upp.s.classification,
@@ -92,16 +86,14 @@ void pworld(body *s)
     case T_GIANT:
         if(s->upp.g.size) {
             printf("Large Gas Giant %s\n", s->name);
-        }
-        else {
+        } else {
             printf("Small Gas Giant %s\n", s->name);
         }
         break;
     case T_TOIDS:
         if(s->p->type == T_GIANT) {
             printf("Ring            %s\n", s->name);
-        }
-        else {
+        } else {
             printf("Asteroids       %s\n", s->name);
         }
         break;
@@ -119,8 +111,7 @@ void pworld(body *s)
     }
 }
 
-void pdetails(body *s, int depth)
-{
+void pdetails(body *s, int depth) {
     int     i;
     city    *cptr;
 
@@ -183,8 +174,7 @@ void pdetails(body *s, int depth)
             if(s->det.w.arch) {
                 printf("%d arch", s->det.w.arch);
             }
-        }
-        else {
+        } else {
             if(s->det.w.maj) {
                 printf("%d Major oceans ", s->det.w.maj);
             }

@@ -11,8 +11,7 @@ void showMap(long x, long y, long z, char *planetName);
 body *makemap(long x, long y, long z, char *name, int plates[20][28],
               int land[20][28], int cov[20][28]);
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     long    x, y, z;
 
     if(argc != 5) {
@@ -22,12 +21,11 @@ int main(int argc, char **argv)
     x = atol(argv[1]);
     y = atol(argv[2]);
     z = atol(argv[3]);
-    
+
     showMap(x, y, z, argv[4]);
 }
 
-void showMap(long x, long y, long z, char *planetName)
-{
+void showMap(long x, long y, long z, char *planetName) {
     body    *s;
     int     plates[20][28];
     int     land[20][28];
@@ -47,8 +45,7 @@ void showMap(long x, long y, long z, char *planetName)
 }
 
 
-void   mview(int buf[20][28], int mode)
-{
+void   mview(int buf[20][28], int mode) {
     char    inbuf[255];
 
     for(;;) {
@@ -63,8 +60,7 @@ void   mview(int buf[20][28], int mode)
     }
 }
 
-void   tview(int tri[28], int depth, int triang, long dir, int mode, int ori)
-{
+void   tview(int tri[28], int depth, int triang, long dir, int mode, int ori) {
     int     exp[28];
 
     for(;;) {

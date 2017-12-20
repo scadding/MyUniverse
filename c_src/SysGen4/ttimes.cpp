@@ -13,8 +13,7 @@ float  odist[] = {
     154.0, 307.6, 614.8, 1229.2, 2458.0, 4915.6, 9830.8, 19661.2, 39322.0
 };
 
-int main(int argc, char **argv)
-{
+int main(int argc, char **argv) {
     sistem  syst;
     body    *i, *j;
     float   tmp, g;
@@ -28,8 +27,7 @@ int main(int argc, char **argv)
     y = atol(argv[2]);
     if(argc == 4) {
         z = atol(argv[3]);
-    }
-    else {
+    } else {
         z = 0L;
     }
 
@@ -47,8 +45,7 @@ int main(int argc, char **argv)
                 tmp = sqrt(tmp*149600.0/32.4/g);
                 if(tmp < 24.0) {
                     printf("%4.1fh | ", tmp);
-                }
-                else {
+                } else {
                     printf("%4.1fd | ", tmp/24.0);
                 }
             }

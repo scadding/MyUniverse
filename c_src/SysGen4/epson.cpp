@@ -7,8 +7,7 @@ int    hpos = 0, vpos = 0;
 int    hmax;
 extern FILE    *out;
 
-void   bclear()
-{
+void   bclear() {
     int     i;
 
     for(i = 0; i < 1024; i++) {
@@ -17,8 +16,7 @@ void   bclear()
     hmax = 0;
 }
 
-void   epad(int n)
-{
+void   epad(int n) {
     if(!hpos && !vpos) {
         bclear();
     }
@@ -28,8 +26,7 @@ void   epad(int n)
     }
 }
 
-void   enl()
-{
+void   enl() {
     if(!hpos && !vpos) {
         bclear();
     }
@@ -41,8 +38,7 @@ void   enl()
     while(hmax > 1)
         if(line[hmax - 1]) {
             break;
-        }
-        else {
+        } else {
             hmax--;
         }
     fputc(0x1b, out);
@@ -60,8 +56,7 @@ void   enl()
     vpos = 0;
 }
 
-void ep2(int c, int mode)
-{
+void ep2(int c, int mode) {
     int     bit1, bit2;
 
     if(!hpos && !vpos) {
@@ -96,8 +91,7 @@ void ep2(int c, int mode)
     case C_JUNGLE:
         if(hpos%2) {
             bit1 = 1;
-        }
-        else {
+        } else {
             bit2 = 1;
         }
         break;
