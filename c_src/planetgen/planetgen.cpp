@@ -362,7 +362,7 @@ void Mercator()
     m.setLongitude(longi);
     m.setLatitude(lat);
     planet p;
-    
+
     int depth = 4 * log_2(Height);
     for (int j = 0; j < Height; j++) {
         for (int i = 0; i < Width ; i++) {
@@ -387,7 +387,7 @@ void Sinusoid()
     s.setScale(scale);
     s.setLongitude(longi);
     s.setLatitude(lat);
-        
+
     for (int j = 0; j < Height; j++) {
         for (int i = 0; i < Width ; i++) {
             col[i][j] = BACK;
@@ -1104,9 +1104,9 @@ int planetMain(int ac, char **av)
             }
         }
     }
-    
+
     alt = new double*[Width];
-    for(i=0;i<Width;i++) {
+    for(i=0; i<Width; i++) {
         alt[i] = new double[Height];
     }
 

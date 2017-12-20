@@ -1,6 +1,7 @@
 #include "sysgen.h"
 
-void mplace(int cover[20][28], int plates[20][28], int size) {
+void mplace(int cover[20][28], int plates[20][28], int size)
+{
     int     t, h, pval;
     int     tmax, hmax, max, i;
     int     len;
@@ -29,7 +30,7 @@ void mplace(int cover[20][28], int plates[20][28], int size) {
         for(t = 0; t < 20; t++)
             for(h = 0; h < 20; h++) {
                 if((best[t][h] > max)
-                        && (Rand()%2)) {
+                   && (Rand()%2)) {
                     max = best[t][h];
                     tmax = t;
                     hmax = h;

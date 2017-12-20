@@ -4,7 +4,8 @@
 
 FILE *out;
 
-void   pad(int n) {
+void   pad(int n)
+{
     FILE *out = stdout;
     while(n-- > 0) {
         fprintf(out, " ");
@@ -15,7 +16,8 @@ const char *acover[16] = { "ww", "!!", "**", "MM", "^^", "..", "--", "++",
                            "@@", "WW", "II", "ii"
                          };
 
-void   p2(int val, int type) {
+void   p2(int val, int type)
+{
     FILE *out = stdout;
     if(type == 0) {
         fprintf(out, "%02d", val);
@@ -46,7 +48,8 @@ void   p2(int val, int type) {
     }
 }
 
-void printw(int buf[20][28], int type) {
+void printw(int buf[20][28], int type)
+{
     int     l, t, j;
     FILE *out = stdout;
 
@@ -112,7 +115,8 @@ void printw(int buf[20][28], int type) {
     }
 }
 
-void   ptri(int tri[28], int mode, int ori) {
+void   ptri(int tri[28], int mode, int ori)
+{
     int     l, ll, j;
     FILE *out = stdout;
 

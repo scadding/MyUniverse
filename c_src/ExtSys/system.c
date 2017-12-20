@@ -32,15 +32,13 @@ long    SeedValue  = 0;
 short   TravInfo   = 0;
 short   Collapse   = 0;
 
-typedef struct WORLD_INFO
-{
+typedef struct WORLD_INFO {
     char   OrbitType;
     char   Occupied;
     double Range;
 } World;
 
-typedef struct PLANET_INFO
-{
+typedef struct PLANET_INFO {
     short size;
     char  dense;
     short atmosphere;
@@ -147,8 +145,7 @@ double PlanetVolume(double diameter, char dense)
     V = (4 * PI)/3 * (R*R*R);
     V = V / EARTHMASS;
 
-    switch (dense)
-    {
+    switch (dense) {
     case 'L':
         return(V*0.55);
         break;
@@ -173,8 +170,7 @@ double PlanetGrav(double diameter, char dense)
     V = (4 * PI)/3 * R;
     V = V / EARTHGRAV;
 
-    switch (dense)
-    {
+    switch (dense) {
     case 'L':
         return(V*0.55);
         break;
@@ -230,8 +226,7 @@ char ChartPrimStarType ()
 
     PrimStarTypeRoll = dieroll;
 
-    switch (dieroll)
-    {
+    switch (dieroll) {
     case 2:
         return('A');
         break;
@@ -278,8 +273,7 @@ char ChartComStarType ()
 
     dieroll = d6()+d6()+PrimStarTypeRoll;
 
-    switch (dieroll)
-    {
+    switch (dieroll) {
     case 4:
         return('A');
         break;
@@ -333,8 +327,7 @@ char ChartPrimLumClass(char StarType)
 
     PrimLumClassRoll = dieroll;
 
-    switch (dieroll)
-    {
+    switch (dieroll) {
     case 2:
         return('2');
         break;
@@ -385,8 +378,7 @@ char ChartComLumClass(char StarType)
 
     dieroll = d6()+d6()+PrimLumClassRoll;
 
-    switch (dieroll)
-    {
+    switch (dieroll) {
     case 4:
         return('2');
         break;
@@ -454,8 +446,7 @@ char ChartDecClass (char StarType, char LumClass)
 
     if ((StarType == 'K') && (LumClass == '4') && (dieroll > 4)) dieroll = dieroll - 5;
 
-    switch (dieroll)
-    {
+    switch (dieroll) {
     case 0:
         return('0');
         break;
@@ -501,8 +492,7 @@ double ChartStellarMass (char StarType, char DecClass, char LumClass)
     int    StarSize;
     double A, B, X;
 
-    switch (StarType)
-    {
+    switch (StarType) {
     case 'O':
         StarSize = 0;
         break;
@@ -528,8 +518,7 @@ double ChartStellarMass (char StarType, char DecClass, char LumClass)
 
     X = DecClass - '0';
 
-    switch (LumClass)
-    {
+    switch (LumClass) {
     case 'a':
         A = MassTableIa[StarSize];
         B = MassTableIa[StarSize+1];
@@ -573,8 +562,7 @@ double ChartLuminosity(char StarType, char DecClass, char LumClass)
     double A, B, X;
 
 
-    switch (StarType)
-    {
+    switch (StarType) {
     case 'O':
         StarSize = 0;
         break;
@@ -600,8 +588,7 @@ double ChartLuminosity(char StarType, char DecClass, char LumClass)
 
     X = DecClass - '0';
 
-    switch (LumClass)
-    {
+    switch (LumClass) {
     case 'a':
         A = LumTableIa[StarSize];
         B = LumTableIa[StarSize+1];
@@ -658,8 +645,7 @@ short ChartComOrbit()
 
     dieroll = d6()+d6();
 
-    switch (dieroll)
-    {
+    switch (dieroll) {
     case 2:
         return(0);
         break;
@@ -708,10 +694,8 @@ double ChartSatOrbit()
 
     dieroll = d6()+d6();
 
-    if (dieroll < 8)
-    {
-        switch (d6()+d6())
-        {
+    if (dieroll < 8) {
+        switch (d6()+d6()) {
         case 2:
             return(3);
             break;
@@ -746,11 +730,8 @@ double ChartSatOrbit()
             return(12);
             break;
         }
-    }
-    else if (dieroll < 12)
-    {
-        switch (d6()+d6())
-        {
+    } else if (dieroll < 12) {
+        switch (d6()+d6()) {
         case 2:
             return(15);
             break;
@@ -785,11 +766,8 @@ double ChartSatOrbit()
             return(65);
             break;
         }
-    }
-    else
-    {
-        switch (d6()+d6())
-        {
+    } else {
+        switch (d6()+d6()) {
         case 2:
             return(75);
             break;
@@ -863,8 +841,7 @@ double ChartOrbitRange(short orbitnum)
 
     double r;
 
-    switch (orbitnum)
-    {
+    switch (orbitnum) {
     case 0 :
         r =     0.1 + Change(    0.1);
         break; /* 0.2 */
@@ -952,20 +929,17 @@ char ChartOrbitType(double Range, double Luminosity)
     if (Debug)
         printf ("L is %5.2f  O is %5.2f (%5.2f)  LO is %6.2f  ", L, O, Range, LO);
 
-    if (LO > 8 * HabitHigh)
-    {
+    if (LO > 8 * HabitHigh) {
         if (Debug) printf ("X\n");
         return ('X');
     }
 
-    if (LO > HabitHigh)
-    {
+    if (LO > HabitHigh) {
         if (Debug) printf ("I\n");
         return ('I');
     }
 
-    if (LO < HabitLow)
-    {
+    if (LO < HabitLow) {
         if (Debug) printf ("O\n");
         return ('O');
     }
@@ -987,8 +961,7 @@ char ChartNumGasGiants()
 
     dieroll = d6()+d6();
 
-    switch (dieroll)
-    {
+    switch (dieroll) {
     case 2:
         return(1);
         break;
@@ -1040,8 +1013,7 @@ char ChartNumPlanetoids()
 
     dieroll = d6()+d6();
 
-    switch (dieroll)
-    {
+    switch (dieroll) {
     case 2:
         return(1);
         break;
@@ -1094,8 +1066,7 @@ char ChartNumEmptyOrbits(char StarType)
 
     if ((StarType == 'A') || (StarType == 'B')) dieroll++;
 
-    switch (dieroll)
-    {
+    switch (dieroll) {
     case 1:
         return(1);
         break;
@@ -1131,8 +1102,7 @@ char ChartNumCaptPlanets(char StarType)
 
     dieroll = d6();
 
-    switch (dieroll)
-    {
+    switch (dieroll) {
     case 1:
         return(1);
         break;
@@ -1164,8 +1134,7 @@ double ChartDaytime(short Atmosphere, double DayLength, double Lum,
 
     R = Lum / (sqrt(Dist));
 
-    switch (Atmosphere)
-    {
+    switch (Atmosphere) {
     case 0:
         X = 1.0 * R * DayLength;
         Max = 0.1 * (Temp+273) * R;
@@ -1223,8 +1192,7 @@ double ChartNighttime(short Atmosphere, double DayLength, double Temp)
     double X;
     double Max;
 
-    switch (Atmosphere)
-    {
+    switch (Atmosphere) {
     case 0:
         X = 20.0 * DayLength;
         Max = 0.80 * (Temp+273);
@@ -1283,8 +1251,7 @@ double ChartOrbitEcc()
 
     dieroll = d6()+d6();
 
-    switch (dieroll)
-    {
+    switch (dieroll) {
     case 2:
     case 3:
     case 4:
@@ -1308,8 +1275,7 @@ double ChartOrbitEcc()
     default:
         dieroll = d6()+d6();
 
-        switch (dieroll)
-        {
+        switch (dieroll) {
         case 1:
             return(0.025);
             break;
@@ -1341,8 +1307,7 @@ double ChartAxialTilt()
 
     dieroll = d6()+d6();
 
-    switch (dieroll)
-    {
+    switch (dieroll) {
     case 2:
     case 3:
         return(-1.0 + d10());
@@ -1366,8 +1331,7 @@ double ChartAxialTilt()
     default:
         dieroll = d6();
 
-        switch (dieroll)
-        {
+        switch (dieroll) {
         case 1:
         case 2:
             return(49 + d10());
@@ -1403,12 +1367,9 @@ double CalcGaiaFactor(double l, double o, double g, double e)
         printf ("     E is %f, Ideal E is %f\n", e, Ideal);
     TheFactor = (Ideal - e)/2;
 
-    if (TheFactor > 0.0)
-    {
+    if (TheFactor > 0.0) {
         if (TheFactor > 0.1) TheFactor = 0.1;
-    }
-    else
-    {
+    } else {
         if (TheFactor < -0.1) TheFactor = -0.1;
     }
 
@@ -1430,8 +1391,7 @@ double PrintPlanet (char orbit, double range, Planet *p)
 
     printf ("                        Summer     Fall/Spring    Winter\n");
     printf ("     ");
-    switch (p->size)
-    {
+    switch (p->size) {
     case 0:
         printf("Very Small ");
         X =   200 + Change(300);
@@ -1482,8 +1442,7 @@ double PrintPlanet (char orbit, double range, Planet *p)
             PlanetDiam, p->size+'0');
 
     printf ("     ");
-    switch (p->dense)
-    {
+    switch (p->dense) {
     case 'L':
         printf("Low Density    ");
         break;
@@ -1502,8 +1461,7 @@ double PrintPlanet (char orbit, double range, Planet *p)
             p->winter[0], p->winter[1]);
 
     printf ("     ");
-    switch (p->atmosphere)
-    {
+    switch (p->atmosphere) {
     case 0:
         printf("Vacuum       ");
         X = 0;
@@ -1567,8 +1525,7 @@ double PrintPlanet (char orbit, double range, Planet *p)
             p->winter[2], p->winter[3]);
 
     printf ("     ");
-    switch (p->hydro)
-    {
+    switch (p->hydro) {
     case 0:
         printf("Desert      ");
         break;
@@ -1609,8 +1566,7 @@ double PrintPlanet (char orbit, double range, Planet *p)
             p->winter[4], p->winter[5]);
 
     printf ("     ");
-    switch (p->maxpop)
-    {
+    switch (p->maxpop) {
     case 0:
         printf("None     ");
         break;
@@ -1652,12 +1608,10 @@ double PrintPlanet (char orbit, double range, Planet *p)
 
     X = range * 149.6;
     printf ("     Range       ");
-    if (X < 0.01)
-    {
+    if (X < 0.01) {
         X = X * 100000000;
         strcpy (Units, "km ");
-    }
-    else
+    } else
         strcpy (Units, "Mkm");
 
     if (X < 10.0)
@@ -1757,8 +1711,7 @@ char FleshOutSat(short WorldSize, double Range, char Orbit, char Object,
     else
         dieroll = d6() - 3;
 
-    if (dieroll == 0)
-    {
+    if (dieroll == 0) {
         printf ("    Ring\n\n");
         return (0);
     }
@@ -1810,8 +1763,7 @@ char FleshOutSat(short WorldSize, double Range, char Orbit, char Object,
     if (Atmosphere == 10) MaxPop = 0;
     if (Atmosphere == 11) MaxPop = 0;
     if (Atmosphere == 12) MaxPop = 0;
-    if (OrbitType != 'H')
-    {
+    if (OrbitType != 'H') {
         if (Orbit > HZone) MaxPop = MaxPop - ((Orbit-HZone)*2);
         else MaxPop = MaxPop - ((HZone-Orbit)*2);
     }
@@ -1868,8 +1820,7 @@ char FleshOutSat(short WorldSize, double Range, char Orbit, char Object,
 
     X = ((L*O)+ComLumAddFromPrim)*E*G;
 
-    if (Debug)
-    {
+    if (Debug) {
         if (ComLumAddFromPrim > 0.0)
             printf ("     Adding %6.2f to L*O\n", ComLumAddFromPrim);
         printf ("     L is %4.2f  O is %6.3f   E is %4.3f  G is %3.2f (%6.2f)\n",
@@ -1898,8 +1849,7 @@ char FleshOutSat(short WorldSize, double Range, char Orbit, char Object,
 
     O = ChartOrbitEcc();
 
-    for (i=0; i<22; ++i)
-    {
+    for (i=0; i<22; ++i) {
         if ((i%2) == 0) X = DayPlus;
         else X = NightMinus;
 
@@ -1911,8 +1861,7 @@ char FleshOutSat(short WorldSize, double Range, char Orbit, char Object,
             MeanTemp + LatitudeMods[i/2][Size] - /* (O*30) - */
             (A * AxialTiltEffects[i/2][k]) + X;
         /* Convert to Faren here as it is easier */
-        if (FDegrees)
-        {
+        if (FDegrees) {
             CurrPlanet.summer[i] = CtoF(CurrPlanet.summer[i]);
             CurrPlanet.fall[i] = CtoF(CurrPlanet.fall[i]);
             CurrPlanet.winter[i] = CtoF(CurrPlanet.winter[i]);
@@ -1976,23 +1925,19 @@ char FleshOut(char Orbit, double Range, char Object, char OrbitType,
 
     OrbitPeriod = sqrt(X);
 
-    switch (Object)
-    {
+    switch (Object) {
     case 'E':
     case ' ':
         if (Debug) printf ("%02d%c  Empty Orbit\n", Orbit, OrbitType);
         break;
     case 'G':
-        if (d6() < 3)
-        {
+        if (d6() < 3) {
             printf ("%02d%c  Gas Giant\n", Orbit, OrbitType);
             NumSats = d6()+d6()-4;
             Size = -1;
             Diam = 20000 + Change(20000);
             printf ("     Small          %6.0f km\n", Diam);
-        }
-        else
-        {
+        } else {
             printf ("%02d%c  Gas Giant\n", Orbit, OrbitType);
             NumSats = d6()+d6();
             Size = -2;
@@ -2018,8 +1963,7 @@ char FleshOut(char Orbit, double Range, char Object, char OrbitType,
         /* Satellites */
         if (NumSats < 1) NumSats = 0;
 
-        for (i=NumSats; i > 0; --i)
-        {
+        for (i=NumSats; i > 0; --i) {
             k = FleshOutSat(Size, Range, Orbit, Object, OrbitType,
                             StarType, Diam, 'L', Luminosity, HZone);
             if (k > MaxPop) MaxPop = k;
@@ -2085,8 +2029,7 @@ char FleshOut(char Orbit, double Range, char Object, char OrbitType,
         if (Atmosphere == 10) MaxPop = 0;
         if (Atmosphere == 11) MaxPop = 0;
         if (Atmosphere == 12) MaxPop = 0;
-        if (OrbitType != 'H')
-        {
+        if (OrbitType != 'H') {
             if (Orbit > HZone) MaxPop = MaxPop - ((Orbit-HZone)*2);
             else MaxPop = MaxPop - ((HZone-Orbit)*2);
         }
@@ -2095,8 +2038,7 @@ char FleshOut(char Orbit, double Range, char Object, char OrbitType,
         /* Planetary Characteristics */
         X = (4 * (d6()+d6()-2)) + 5 + (M/D);
         RotatePeriod = X;
-        if (Debug)
-        {
+        if (Debug) {
             if (RotatePeriod < 90.0)
                 printf ("     Rotational Period is %7.2f hours\n", RotatePeriod);
             else
@@ -2125,8 +2067,7 @@ char FleshOut(char Orbit, double Range, char Object, char OrbitType,
 
         X = ((L*O)+ComLumAddFromPrim)*E*G;
 
-        if (Debug)
-        {
+        if (Debug) {
             if (ComLumAddFromPrim > 0.0)
                 printf ("     Adding %6.2f to L*O\n", ComLumAddFromPrim);
             printf ("     L is %4.2f  O is %6.3f   E is %4.3f  G is %3.2f (%6.2f)\n",
@@ -2163,8 +2104,7 @@ char FleshOut(char Orbit, double Range, char Object, char OrbitType,
 
         O = ChartOrbitEcc();
 
-        for (i=0; i<22; ++i)
-        {
+        for (i=0; i<22; ++i) {
             if ((i%2) == 0) X = DayPlus;
             else X = NightMinus;
 
@@ -2176,8 +2116,7 @@ char FleshOut(char Orbit, double Range, char Object, char OrbitType,
                 MeanTemp + LatitudeMods[i/2][Size] - (O*30) -
                 (A * AxialTiltEffects[i/2][k]) + X;
             /* Convert to Faren here as it is easier */
-            if (FDegrees)
-            {
+            if (FDegrees) {
                 CurrPlanet.summer[i] = CtoF(CurrPlanet.summer[i]);
                 CurrPlanet.fall[i] = CtoF(CurrPlanet.fall[i]);
                 CurrPlanet.winter[i] = CtoF(CurrPlanet.winter[i]);
@@ -2207,8 +2146,7 @@ char FleshOut(char Orbit, double Range, char Object, char OrbitType,
 
         if (NumSats < 1) NumSats = 0;
 
-        for (i=NumSats; i > 0; --i)
-        {
+        for (i=NumSats; i > 0; --i) {
             k = FleshOutSat(Size, Range, Orbit, Object, OrbitType,
                             StarType, Diam, Dense, Luminosity, HZone);
             if (k > MaxPop) MaxPop = k;
@@ -2271,12 +2209,10 @@ int main (int argc, char *argv[])
     SeedValue = time(NULL);
     srand(SeedValue);
 
-    for (i = 1; i < argc; ++i)
-    {
+    for (i = 1; i < argc; ++i) {
         if (argv[i][0] != '-')
             printf ("Unknown parameter %s\n", argv[i]);
-        else switch (argv[i][1])
-            {
+        else switch (argv[i][1]) {
             case 's':
                 SeedValue = atol(&argv[i][2]);
                 break;
@@ -2308,8 +2244,7 @@ int main (int argc, char *argv[])
                 PrimStarType = argv[i][1];
                 PrimDecClass = argv[i][2];
                 PrimLumClass = argv[i][3];
-                if (strlen(argv[i]) > 4)
-                {
+                if (strlen(argv[i]) > 4) {
                     SystemNature = 'B';
                     ComStarType = argv[i][4];
                     ComDecClass = argv[i][5];
@@ -2324,8 +2259,7 @@ int main (int argc, char *argv[])
 
     srand(SeedValue);
 
-    if (PresetStar == 0)
-    {
+    if (PresetStar == 0) {
         SystemNature = ChartSysNat();
 
         PrimStarType = ChartPrimStarType ();
@@ -2349,8 +2283,7 @@ int main (int argc, char *argv[])
     /* Initialize System and Worlds */
     k = 0;
     HZone = -2;
-    for (i=0; i<MAX_ORBITS; ++i)
-    {
+    for (i=0; i<MAX_ORBITS; ++i) {
         Orbits[i].Range = ChartOrbitRange(i);
         Orbits[i].OrbitType = ChartOrbitType(
                                   Orbits[i].Range, PrimLuminosity);
@@ -2367,20 +2300,15 @@ int main (int argc, char *argv[])
     if (Debug) printf ("%d Empty Orbits\n", EmptyOrbits);
     i = EmptyOrbits;
     hitcount = 0;
-    while (i > 0)
-    {
+    while (i > 0) {
         /* Place Empty Orbits */
         DieRoll = d6()+d6()-2;
-        if (Orbits[DieRoll].Occupied == ' ')
-        {
+        if (Orbits[DieRoll].Occupied == ' ') {
             Orbits[DieRoll].Occupied = 'E';
             i--;
-        }
-        else
-        {
+        } else {
             ++hitcount;
-            if (hitcount > 100)
-            {
+            if (hitcount > 100) {
                 printf ("Cannot place empty orbit\n");
                 break;
             }
@@ -2391,20 +2319,15 @@ int main (int argc, char *argv[])
     if (Debug) printf ("%d Captured Planets\n", CaptPlanets);
     i = CaptPlanets;
     hitcount = 0;
-    while (i > 0)
-    {
+    while (i > 0) {
         /* Place Captive Planets */
         DieRoll = d6()+d6();
-        if (Orbits[DieRoll].Occupied == ' ')
-        {
+        if (Orbits[DieRoll].Occupied == ' ') {
             Orbits[DieRoll].Occupied = 'C';
             i--;
-        }
-        else
-        {
+        } else {
             ++hitcount;
-            if (hitcount > 100)
-            {
+            if (hitcount > 100) {
                 printf ("Cannot place planetoid\n");
                 break;
             }
@@ -2414,24 +2337,19 @@ int main (int argc, char *argv[])
     GasGiants = ChartNumGasGiants();
     if (Debug) printf ("%d Gas Giants\n", GasGiants);
     i = GasGiants;
-    while (i > 0)
-    {
+    while (i > 0) {
         /* Place Gas Giants */
 
         DieRoll = d6()+d6()-3+HZone;
 
         if (DieRoll >= MAX_ORBITS) DieRoll = MAX_ORBITS-1;
 
-        if (Orbits[DieRoll].Occupied == ' ')
-        {
+        if (Orbits[DieRoll].Occupied == ' ') {
             Orbits[DieRoll].Occupied = 'G';
             i--;
-        }
-        else
-        {
+        } else {
             ++hitcount;
-            if (hitcount > 100)
-            {
+            if (hitcount > 100) {
                 printf ("Cannot place Gas Giants (%d)\n", DieRoll);
                 break;
             }
@@ -2441,46 +2359,35 @@ int main (int argc, char *argv[])
     Planetoids = ChartNumPlanetoids();
     if (Debug) printf ("%d Planetoids\n", Planetoids);
     i = Planetoids;
-    while (i > 0)
-    {
+    while (i > 0) {
         /* Place Planetoids */
         DieRoll = d6()+d6()-1;
-        if (Orbits[DieRoll].Occupied == ' ')
-        {
+        if (Orbits[DieRoll].Occupied == ' ') {
             Orbits[DieRoll].Occupied = 'P';
             i--;
-        }
-        else if ((Orbits[DieRoll].Occupied == 'G') &&
-                 (Orbits[DieRoll-1].Occupied == ' '))
-        {
+        } else if ((Orbits[DieRoll].Occupied == 'G') &&
+                   (Orbits[DieRoll-1].Occupied == ' ')) {
             Orbits[DieRoll-1].Occupied = 'P';
             i--;
-        }
-        else
-        {
+        } else {
             ++hitcount;
-            if (hitcount > 100)
-            {
+            if (hitcount > 100) {
                 printf ("Cannot place Planetoid\n");
                 break;
             }
         }
     }
 
-    for (i=0; i<MAX_ORBITS; ++i)
-    {
-        if (i > NumOrbits)
-        {
+    for (i=0; i<MAX_ORBITS; ++i) {
+        if (i > NumOrbits) {
             if (Orbits[i].Occupied != 'C')
                 Orbits[i].OrbitType = ' ';
         }
     }
 
-    if (SystemNature != 'S')
-    {
+    if (SystemNature != 'S') {
 
-        if (PresetStar == 0)
-        {
+        if (PresetStar == 0) {
             ComStarType = ChartComStarType ();
             ComLumClass = ChartComLumClass(ComStarType);
             ComDecClass = ChartDecClass (ComStarType,
@@ -2503,13 +2410,11 @@ int main (int argc, char *argv[])
                                          ComLumClass);
         printf ("  Luminosity is %5.2f\n", ComLuminosity);
 
-        if (ComOrbit < 99)
-        {
+        if (ComOrbit < 99) {
             /* 1 and 2 do not follow the general rule */
             if (ComOrbit > 2)
                 for (i=(ComOrbit/2)+1;
-                        i < ComOrbit; ++i)
-                {
+                     i < ComOrbit; ++i) {
                     Orbits[i].OrbitType = 'S';
                     Orbits[i].Occupied = ' ';
                 }
@@ -2526,10 +2431,8 @@ int main (int argc, char *argv[])
     if (Debug) printf ("Number of Orbits %d\n", NumOrbits);
 
     /* Flesh Out Worlds */
-    for (i=0; i<MAX_ORBITS; ++i)
-    {
-        switch (Orbits[i].OrbitType)
-        {
+    for (i=0; i<MAX_ORBITS; ++i) {
+        switch (Orbits[i].OrbitType) {
         case 'X':
             Orbits[i].Occupied = ' ';
             break;
@@ -2556,8 +2459,7 @@ int main (int argc, char *argv[])
         if (k > SystemHabitability) SystemHabitability = k;
     }
 
-    if (SystemNature != 'S')
-    {
+    if (SystemNature != 'S') {
         printf ("\nSECONDARY SYSTEM\n");
 
         ComLumAddFromPrim = HABITNUM / sqrt(Orbits[ComOrbit].Range);
@@ -2567,8 +2469,7 @@ int main (int argc, char *argv[])
 
         k = 0;
         HZone = -2;
-        for (i=0; i<MAX_ORBITS; ++i)
-        {
+        for (i=0; i<MAX_ORBITS; ++i) {
             ComOrbits[i].Range = ChartOrbitRange(i);
             ComOrbits[i].OrbitType = ChartOrbitType(
                                          ComOrbits[i].Range, ComLuminosity);
@@ -2593,20 +2494,15 @@ int main (int argc, char *argv[])
         if (Debug) printf ("%d Empty Orbits\n", EmptyOrbits);
         i = EmptyOrbits;
         hitcount = 0;
-        while (i > 0)
-        {
+        while (i > 0) {
             /* Place Empty Orbits */
             DieRoll = d6()+d6()-2;
-            if (ComOrbits[DieRoll].Occupied == ' ')
-            {
+            if (ComOrbits[DieRoll].Occupied == ' ') {
                 ComOrbits[DieRoll].Occupied = 'E';
                 i--;
-            }
-            else
-            {
+            } else {
                 ++hitcount;
-                if (hitcount > 100)
-                {
+                if (hitcount > 100) {
                     printf ("Cannot place empty orbit\n");
                     break;
                 }
@@ -2617,20 +2513,15 @@ int main (int argc, char *argv[])
         if (Debug) printf ("%d Captured Planets\n", CaptPlanets);
         i = CaptPlanets;
         hitcount = 0;
-        while (i > 0)
-        {
+        while (i > 0) {
             /* Place Captive Planets */
             DieRoll = d6()+d6();
-            if (ComOrbits[DieRoll].Occupied == ' ')
-            {
+            if (ComOrbits[DieRoll].Occupied == ' ') {
                 ComOrbits[DieRoll].Occupied = 'C';
                 i--;
-            }
-            else
-            {
+            } else {
                 ++hitcount;
-                if (hitcount > 100)
-                {
+                if (hitcount > 100) {
                     printf ("Cannot place planetoid\n");
                     break;
                 }
@@ -2640,24 +2531,19 @@ int main (int argc, char *argv[])
         GasGiants = ChartNumGasGiants();
         if (Debug) printf ("%d Gas Giants\n", GasGiants);
         i = GasGiants;
-        while (i > 0)
-        {
+        while (i > 0) {
             /* Place Gas Giants */
 
             DieRoll = d6()+d6()-3+HZone;
 
             if (DieRoll >= MAX_ORBITS) DieRoll = MAX_ORBITS-1;
 
-            if (ComOrbits[DieRoll].Occupied == ' ')
-            {
+            if (ComOrbits[DieRoll].Occupied == ' ') {
                 ComOrbits[DieRoll].Occupied = 'G';
                 i--;
-            }
-            else
-            {
+            } else {
                 ++hitcount;
-                if (hitcount > 100)
-                {
+                if (hitcount > 100) {
                     printf ("Cannot place Gas Giants (%d)\n", DieRoll);
                     break;
                 }
@@ -2667,40 +2553,30 @@ int main (int argc, char *argv[])
         Planetoids = ChartNumPlanetoids();
         if (Debug) printf ("%d Planetoids\n", Planetoids);
         i = Planetoids;
-        while (i > 0)
-        {
+        while (i > 0) {
             /* Place Planetoids */
             DieRoll = d6()+d6()-1;
-            if (ComOrbits[DieRoll].Occupied == ' ')
-            {
+            if (ComOrbits[DieRoll].Occupied == ' ') {
                 ComOrbits[DieRoll].Occupied = 'P';
                 i--;
-            }
-            else if ((ComOrbits[DieRoll].Occupied == 'G') &&
-                     (ComOrbits[DieRoll-1].Occupied == ' '))
-            {
+            } else if ((ComOrbits[DieRoll].Occupied == 'G') &&
+                       (ComOrbits[DieRoll-1].Occupied == ' ')) {
                 ComOrbits[DieRoll-1].Occupied = 'P';
                 i--;
-            }
-            else
-            {
+            } else {
                 ++hitcount;
-                if (hitcount > 100)
-                {
+                if (hitcount > 100) {
                     printf ("Cannot place Planetoid\n");
                     break;
                 }
             }
         }
         /* Flesh Out Worlds */
-        for (i=0; i<MAX_ORBITS; ++i)
-        {
-            if (i > NumOrbits)
-            {
+        for (i=0; i<MAX_ORBITS; ++i) {
+            if (i > NumOrbits) {
                 ComOrbits[i].OrbitType = ' ';
             }
-            switch (ComOrbits[i].OrbitType)
-            {
+            switch (ComOrbits[i].OrbitType) {
             case 'X':
                 ComOrbits[i].Occupied = ' ';
                 break;

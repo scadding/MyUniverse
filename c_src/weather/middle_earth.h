@@ -3,7 +3,7 @@
 /* This is the calendar include file is for weather generation */
 /* It includes calendar and holiday information */
 
-/* To create a new calendar file, 
+/* To create a new calendar file,
        1) define month names for use by MONTH_T type,
        2) define FIRST_MONTH and LAST_MONTH,
        3) define string array Month_Name with printable version of month,
@@ -49,38 +49,38 @@ UBYTE Day_Table[N_MONTHS] = {30, 30, 30, 30, 30, 31, 30, 30, 30, 30, 30, 34};
 
 void
 print_holiday(day, month)
-    UBYTE day;
-    MONTH_T month;
+UBYTE day;
+MONTH_T month;
 {
-     switch (month) {
-     case AFTERYULE:
-         break;
-     case SOLMATH:
-         break;
-     case RETHE:
-         break;
-     case ASTRON:
-         break;
-     case THRIMIDGE:
-         break;
-     case FORELITHE:
-         if (day == 31) 
-             printf(" Midsummer Day");
-         break;
-     case AFTERLITHE:
-         break;
-     case WEDMATH:
-         break;
-     case HALIMATH:
-         break;
-     case WINTERFILTH:
-         break;
-     case BLOTMATH:
-         break;
-     case FOREYULE:
-         if ((day >= 31) AND (day <= 34))
-             printf(" Yule");
-         break;
-     }
+    switch (month) {
+    case AFTERYULE:
+        break;
+    case SOLMATH:
+        break;
+    case RETHE:
+        break;
+    case ASTRON:
+        break;
+    case THRIMIDGE:
+        break;
+    case FORELITHE:
+        if (day == 31)
+            printf(" Midsummer Day");
+        break;
+    case AFTERLITHE:
+        break;
+    case WEDMATH:
+        break;
+    case HALIMATH:
+        break;
+    case WINTERFILTH:
+        break;
+    case BLOTMATH:
+        break;
+    case FOREYULE:
+        if ((day >= 31) AND (day <= 34))
+            printf(" Yule");
+        break;
+    }
 }
 

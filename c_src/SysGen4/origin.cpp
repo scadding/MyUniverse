@@ -38,7 +38,8 @@ float  popv[20] = {5e00, 5e01, 5e02, 5e03, 5e04, 5e05, 5e06, 5e07,
 
 void   pworld();
 
-void findnth(float ff) {
+void findnth(float ff)
+{
     struct node     *n;
     body            *sys;
     city            *c;
@@ -71,7 +72,8 @@ void findnth(float ff) {
     printf("\n");
 }
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
     long    x, y, z;
     int     count;
 
@@ -106,7 +108,8 @@ int main(int argc, char **argv) {
 }
 
 
-float gpop(body *sys) {
+float gpop(body *sys)
+{
     float   t;
     body    *s;
 
@@ -125,7 +128,8 @@ float gpop(body *sys) {
     return(t);
 }
 
-void census(long x, long y, long z) {
+void census(long x, long y, long z)
+{
     long    A, B, C;
     struct node     *n;
     float   spop;
@@ -157,7 +161,8 @@ void census(long x, long y, long z) {
             }
 }
 
-float  fRand() {
+float  fRand()
+{
     long    t;
     unsigned        u;
 
@@ -167,7 +172,8 @@ float  fRand() {
     return((float)u/65536.0);
 }
 
-body *findpla(body *sys) {
+body *findpla(body *sys)
+{
     body    *s, *sptr;
 
     if((sys->type == T_MAIN) || (sys->type == T_WORLD)) {
@@ -185,7 +191,8 @@ body *findpla(body *sys) {
     return(0);
 }
 
-void pworld(body *s) {
+void pworld(body *s)
+{
     int     i;
 
     printf("\nGrav:%g", s->det.w.dens*s->det.w.diam/12800.0);

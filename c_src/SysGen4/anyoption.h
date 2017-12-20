@@ -31,9 +31,10 @@
 
 using namespace std;
 
-class AnyOption {
+class AnyOption
+{
 
-  public: /* the public interface */
+public: /* the public interface */
     AnyOption();
     AnyOption(int maxoptions );
     AnyOption(int maxoptions, int maxcharoptions);
@@ -160,7 +161,7 @@ class AnyOption {
     char* getArgv( int index );
     bool  hasOptions();
 
-  private: /* the hidden data structure */
+private: /* the hidden data structure */
     int argc;		/* commandline arg count  */
     char **argv;  		/* commndline args */
     const char* filename; 	/* the option file */
@@ -219,7 +220,7 @@ class AnyOption {
     bool hasoptions;
     bool autousage;
 
-  private: /* the hidden utils */
+private: /* the hidden utils */
     void init();
     void init(int maxopt, int maxcharopt );
     bool alloc();

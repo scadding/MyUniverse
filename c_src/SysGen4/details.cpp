@@ -13,7 +13,8 @@
 #undef min
 #endif
 
-int makedetails(sistem *syst, long x, long y, long z) {
+int makedetails(sistem *syst, long x, long y, long z)
+{
     if(!makesystem(syst, x, y, z)) {
         return(0);
     }
@@ -57,7 +58,8 @@ float  ofact[20] = {
     84.484, 60.046, 42.569, 30.14, 21.326, 15.085, 10.668, 7.544, 5.335, 3.772, 2.667, 1.886
 };
 
-void detail(body *s, int konst,long x, long y, long z) {
+void detail(body *s, int konst,long x, long y, long z)
+{
     body    *sptr;
     int     roll;
     float   tmp;
@@ -74,7 +76,7 @@ void detail(body *s, int konst,long x, long y, long z) {
         if(s->p->type == T_STAR) {
             tmp = smass[s->p->upp.s.size][staroff(s->p)];
             if((s->p->b->type == T_STAR) && (s->p->b->orbit == 0)
-                    && (s->orbit != 0)) { /* i.e. a close binary */
+               && (s->orbit != 0)) { /* i.e. a close binary */
                 tmp += smass[s->p->b->upp.s.size][staroff(s->p->b)];
             }
             int dist;
@@ -158,7 +160,8 @@ int    czone[11][3] = {
     {0, 20, 80}
 };
 
-void dettoids(body *s, char zo) {
+void dettoids(body *s, char zo)
+{
     int     roll, tmp;
 
     s->det.b.pbod = D(2) - 2;
@@ -266,7 +269,8 @@ int    lgiant[16] = { 110, 120, 130, 140, 150, 150, 160, 170, 180,
                     };
 int    gdens[16] = { 10, 11, 12, 13, 14, 16, 18, 20, 22, 23, 24, 26, 27, 28, 29, 30 };
 
-void detgiant(body *s, char zo) {
+void detgiant(body *s, char zo)
+{
     int     roll, tmp;
 
     roll = D(2) - 2;
@@ -311,7 +315,8 @@ int    ads[8][11] = {
     {900, 900, 882, 883, 866, 850, 836, 821, 807, 793, 773}
 };
 
-void detworld(body *s, char zo) {
+void detworld(body *s, char zo)
+{
     char    c;
     int     roll, tmp, u, l;
     float   mass, ftmp, tpop, fpop;
@@ -848,7 +853,7 @@ void detworld(body *s, char zo) {
         }
         roll = upp->tech + tlm();
         if((upp->atmos != 5) && (upp->atmos != 6)
-                && (upp->atmos != 8)) {
+           && (upp->atmos != 8)) {
             roll++;
         }
         if((upp->hydro == 0) || (upp->hydro == 10)) {
@@ -963,7 +968,8 @@ void detworld(body *s, char zo) {
     }
 }
 
-void filltemp(body *s, tempdata *t) {
+void filltemp(body *s, tempdata *t)
+{
     world   *upp;
     dworld  *det;
     int     i, j, mult;
@@ -1097,7 +1103,8 @@ void filltemp(body *s, tempdata *t) {
     }
 }
 
-float tempat(tempdata *t, int row, int mode) {
+float tempat(tempdata *t, int row, int mode)
+{
     float   temp;
 
     switch(mode&0x3) {

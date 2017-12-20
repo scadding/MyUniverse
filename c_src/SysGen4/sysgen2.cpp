@@ -8,7 +8,8 @@ void plevel(body *s, int depth);
 void   printsyst(sistem *syst);
 int makesystem(sistem *syst, long x, long y, long z);
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
     sistem  syst;
     long    x, y, z;
 
@@ -29,7 +30,8 @@ int main(int argc, char **argv) {
     exit(1);
 }
 
-int sysgen2Main(long x, long y, long z) {
+int sysgen2Main(long x, long y, long z)
+{
     sistem  syst;
 
     if(makesystem(&syst, x, y, z) == 0) {
@@ -39,13 +41,15 @@ int sysgen2Main(long x, long y, long z) {
     return(1);
 }
 
-void   printsyst(sistem *syst) {
+void   printsyst(sistem *syst)
+{
     printf("%s system\n", syst->mw->name);
     printf("Location %ld,%ld,%ld\n", syst->x, syst->y, syst->z);
     plevel(syst->sys, 0);
 }
 
-void plevel(body *s, int depth) {
+void plevel(body *s, int depth)
+{
     int     i;
 
     if(!s) {
@@ -63,7 +67,8 @@ void plevel(body *s, int depth) {
     }
 }
 
-void pworld(body *s) {
+void pworld(body *s)
+{
     switch(s->type) {
     case T_STAR:
         printf("Star %c%d %d       %s\n", s->upp.s.classification,

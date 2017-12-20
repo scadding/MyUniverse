@@ -19,7 +19,8 @@ struct palettetype palette;            /* Used to read palette info    */
 /*     any errors which occured.                                       */
 /*                                                                     */
 
-void Initialise(void) {
+void Initialise(void)
+{
     int xasp, yasp;                      /* Used to read the aspect ratio*/
 
     GraphDriver = DETECT;                        /* Request auto-detection
@@ -46,19 +47,22 @@ void Initialise(void) {
 
 int    hpos = 0, vpos = 0;
 
-void   bclear() {
+void   bclear()
+{
     hpos = 0;
     vpos = 0;
 }
 
-void   tpad(n) {
+void   tpad(n)
+{
     if(!hpos && !vpos) {
         bclear();
     }
     hpos += n;
 }
 
-void   tnl() {
+void   tnl()
+{
     if(!hpos && !vpos) {
         bclear();
     }

@@ -300,7 +300,7 @@ void   addcomp(body *s, int orbmod, int sizmod)
         orbit = 12;
     for (sptr = s->b; sptr; sptr = sptr->o)
         if ((sptr->orbit > lowavail[orbit]) && (sptr->orbit < hiavail[orbit])
-                && (sptr->type == T_UNSET))
+            && (sptr->type == T_UNSET))
             sptr->type = T_INSIDE;
     orbit = comavail[orbit];
     if (orbit == 0) {

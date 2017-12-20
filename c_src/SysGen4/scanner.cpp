@@ -9,7 +9,8 @@ int mainwrld(mainworld *mw, long x, long y, long z);
 mainworld      mw;
 sistem syst;
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
     long    x, y, z;
     int     axis;
     char    inbuf[40];
@@ -74,7 +75,8 @@ int main(int argc, char **argv) {
     exit(0);
 }
 
-void drawview(long x, long y, long z, int axis) {
+void drawview(long x, long y, long z, int axis)
+{
     long    h, v;
     long    xx, yy, zz;
 

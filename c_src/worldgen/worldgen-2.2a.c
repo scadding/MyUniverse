@@ -5,12 +5,12 @@
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2 of the License, or
  * (at your option) any later version.
- * 
+ *
  * This program is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
@@ -24,7 +24,7 @@
  *
  * This program is provided as is, and it's basically a "hack". So if you
  * want a better userinterface, you will have to provide it by yourself!
- * 
+ *
  * For ideas about how to implement different projections, you can always
  * look in WorldMapGenerator.c (the CGI program that generates the gifs
  * on my www-page (http://www.lysator.liu.se/~johol/fwmg/fwmg.html).
@@ -33,7 +33,7 @@
  * You can send E-Mail to this adress: johol@lysator.liu.se
  *
  * I compile this program with: gcc -O3 worldgen.c -lm -o gengif
- * 
+ *
  * This program will write the GIF-file to a file which you are
  * prompted to specify.
  *
@@ -128,20 +128,23 @@ int             YRange = 1024;
 int             Histogram[256];
 int             FilledPixels;
 int             Red[49]   = {0,0,0,0,0,0,0,0,34,68,102,119,136,153,170,187,
-			     0,34,34,119,187,255,238,221,204,187,170,153,
-			     136,119,85,68,
-			     255,250,245,240,235,230,225,220,215,210,205,200,
-			     195,190,185,180,175};
+                             0,34,34,119,187,255,238,221,204,187,170,153,
+                             136,119,85,68,
+                             255,250,245,240,235,230,225,220,215,210,205,200,
+                             195,190,185,180,175
+                            };
 int             Green[49] = {0,0,17,51,85,119,153,204,221,238,255,255,255,
-			     255,255,255,68,102,136,170,221,187,170,136,
-			     136,102,85,85,68,51,51,34,
-			     255,250,245,240,235,230,225,220,215,210,205,200,
-			     195,190,185,180,175};
+                             255,255,255,68,102,136,170,221,187,170,136,
+                             136,102,85,85,68,51,51,34,
+                             255,250,245,240,235,230,225,220,215,210,205,200,
+                             195,190,185,180,175
+                            };
 int             Blue[49]  = {0,68,102,136,170,187,221,255,255,255,255,255,
-			     255,255,255,255,0,0,0,0,0,34,34,34,34,34,34,
-			     34,34,34,17,0,
-			     255,250,245,240,235,230,225,220,215,210,205,200,
-			     195,190,185,180,175};
+                             255,255,255,255,0,0,0,0,0,34,34,34,34,34,34,
+                             34,34,34,17,0,
+                             255,250,245,240,235,230,225,220,215,210,205,200,
+                             195,190,185,180,175
+                            };
 
 float           YRangeDiv2, YRangeDivPI;
 float           *SinIterPhi;
@@ -149,302 +152,273 @@ float           *SinIterPhi;
 
 void main(int argc, char **argv)
 {
-  int       NumberOfFaults=0, a, j, i, Color, MaxZ=1, MinZ=-1;
-  int       row, TwoColorMode=0;
-  int       index2;
-  unsigned  Seed=0;
-  int       Threshold, Count;
-  int       PercentWater, PercentIce, Cur;
-  char SaveName[256];  /* 255 character filenames should be enough? */
-  char SaveFile[256];  /* SaveName + .gif */
-  FILE * Save;
-  
-  WorldMapArray = (int *) malloc(XRange*YRange*sizeof(int));
-  if (WorldMapArray == NULL)
-  {
-    fprintf(stderr, "I can't allocate enough memory!\n");
-  }
+    int       NumberOfFaults=0, a, j, i, Color, MaxZ=1, MinZ=-1;
+    int       row, TwoColorMode=0;
+    int       index2;
+    unsigned  Seed=0;
+    int       Threshold, Count;
+    int       PercentWater, PercentIce, Cur;
+    char SaveName[256];  /* 255 character filenames should be enough? */
+    char SaveFile[256];  /* SaveName + .gif */
+    FILE * Save;
 
-  SinIterPhi = (float *) malloc(2*XRange*sizeof(float));
-  if (SinIterPhi == NULL)
-  {
-    fprintf(stderr, "I can't allocate enough memory!\n");
-  }
-  
-  for (i=0; i<XRange; i++)
-  {
-    SinIterPhi[i] = SinIterPhi[i+XRange] = (float)sin(i*2*PI/XRange);
-  }
-
-  fprintf(stderr, "Seed: ");
-  scanf("%d", &Seed);
-  fprintf(stderr, "Number of faults: ");
-  scanf("%d", &NumberOfFaults);
-  fprintf(stderr, "Percent water: ");
-  scanf("%d", &PercentWater);
-  fprintf(stderr, "Percent ice: ");
-  scanf("%d", &PercentIce);
-
-  fprintf(stderr, "Save as (.GIF will be appended): ");
-  scanf("%8s", SaveName);
-  
-  srand(Seed);
-
-  for (j=0, row=0; j<XRange; j++)
-  {
-    WorldMapArray[row] = 0;
-    for (i=1; i<YRange; i++) WorldMapArray[i+row] = INT_MIN;
-    row += YRange;
-  }
-
-  /* Define some "constants" which we use frequently */
-  YRangeDiv2  = YRange/2;
-  YRangeDivPI = YRange/PI;
-
-  /* Generate the map! */
-  for (a=0; a<NumberOfFaults; a++)
-  {
-    GenerateWorldMap();
-  }
-  
-  /* Copy data (I have only calculated faults for 1/2 the image.
-   * I can do this due to symmetry... :) */
-  index2 = (XRange/2)*YRange;
-  for (j=0, row=0; j<XRange/2; j++)
-  {
-    for (i=1; i<YRange; i++)                    /* fix */
-    {
-      WorldMapArray[row+index2+YRange-i] = WorldMapArray[row+i];
-    }
-    row += YRange;
-  }
-
-  /* Reconstruct the real WorldMap from the WorldMapArray and FaultArray */
-  for (j=0, row=0; j<XRange; j++)
-  {
-    /* We have to start somewhere, and the top row was initialized to 0,
-     * but it might have changed during the iterations... */
-    Color = WorldMapArray[row];
-    for (i=1; i<YRange; i++)
-    {
-      /* We "fill" all positions with values != INT_MIN with Color */
-      Cur = WorldMapArray[row+i];
-      if (Cur != INT_MIN)
-      {
-	Color += Cur;
-      }
-      WorldMapArray[row+i] = Color;
-    }
-    row += YRange;
-  }
-  
-  /* Compute MAX and MIN values in WorldMapArray */
-  for (j=0; j<XRange*YRange; j++)
-  {
-    Color = WorldMapArray[j];
-    if (Color > MaxZ) MaxZ = Color;
-    if (Color < MinZ) MinZ = Color;
-  }
-  
-  /* Compute color-histogram of WorldMapArray.
-   * This histogram is a very crude aproximation, since all pixels are
-   * considered of the same size... I will try to change this in a
-   * later version of this program. */
-  for (j=0, row=0; j<XRange; j++)
-  {
-    for (i=0; i<YRange; i++)
-    {
-      Color = WorldMapArray[row+i];
-      Color = (int)(((float)(Color - MinZ + 1) / (float)(MaxZ-MinZ+1))*30)+1;
-      Histogram[Color]++;
-    }
-    row += YRange;
-  }
-
-  /* Threshold now holds how many pixels PercentWater means */
-  Threshold = PercentWater*XRange*YRange/100;
-
-  /* "Integrate" the histogram to decide where to put sea-level */
-  for (j=0, Count=0;j<256;j++)
-  {
-    Count += Histogram[j];
-    if (Count > Threshold) break;
-  }
-  
-  /* Threshold now holds where sea-level is */
-  Threshold = j*(MaxZ - MinZ + 1)/30 + MinZ;
-
-  if (TwoColorMode)
-  {
-    for (j=0, row=0; j<XRange; j++)
-    {
-      for (i=0; i<YRange; i++)
-      {
-	Color = WorldMapArray[row+i];
-	if (Color < Threshold)
-	  WorldMapArray[row+i] = 3;
-	else
-	  WorldMapArray[row+i] = 20;
-      }
-      row += YRange;
-    }
-  }
-  else
-  {
-    /* Scale WorldMapArray to colorrange in a way that gives you
-     * a certain Ocean/Land ratio */
-    for (j=0, row=0; j<XRange; j++)
-    {
-      for (i=0; i<YRange; i++)
-      {
-	Color = WorldMapArray[row+i];
-	
-	if (Color < Threshold)
-	  Color = (int)(((float)(Color - MinZ) / (float)(Threshold - MinZ))*15)+1;
-	else
-	  Color = (int)(((float)(Color - Threshold) / (float)(MaxZ - Threshold))*15)+16;
-	
-	/* Just in case... I DON't want the GIF-saver to flip out! :) */
-	if (Color < 1) Color=1;
-	if (Color > 255) Color=31;
-	WorldMapArray[row+i] = Color;
-      }
-      row += YRange;
+    WorldMapArray = (int *) malloc(XRange*YRange*sizeof(int));
+    if (WorldMapArray == NULL) {
+        fprintf(stderr, "I can't allocate enough memory!\n");
     }
 
-    /* "Recycle" Threshold variable, and, eh, the variable still has something
-     * like the same meaning... :) */
-    Threshold = PercentIce*XRange*YRange/100;
+    SinIterPhi = (float *) malloc(2*XRange*sizeof(float));
+    if (SinIterPhi == NULL) {
+        fprintf(stderr, "I can't allocate enough memory!\n");
+    }
 
-    if ((Threshold <= 0) || (Threshold > XRange*YRange)) goto Finished;
+    for (i=0; i<XRange; i++) {
+        SinIterPhi[i] = SinIterPhi[i+XRange] = (float)sin(i*2*PI/XRange);
+    }
 
-    FilledPixels = 0;
-    /* i==y, j==x */
-    for (i=0; i<YRange; i++)
-    {
-      for (j=0, row=0; j<XRange; j++)
-      {
-	Color = WorldMapArray[row+i];
-	if (Color < 32) FloodFill4(j,i,Color);
-	/* FilledPixels is a global variable which FloodFill4 modifies...
-         * I know it's ugly, but as it is now, this is a hack! :)
-         */
-	if (FilledPixels > Threshold) goto NorthPoleFinished;
+    fprintf(stderr, "Seed: ");
+    scanf("%d", &Seed);
+    fprintf(stderr, "Number of faults: ");
+    scanf("%d", &NumberOfFaults);
+    fprintf(stderr, "Percent water: ");
+    scanf("%d", &PercentWater);
+    fprintf(stderr, "Percent ice: ");
+    scanf("%d", &PercentIce);
+
+    fprintf(stderr, "Save as (.GIF will be appended): ");
+    scanf("%8s", SaveName);
+
+    srand(Seed);
+
+    for (j=0, row=0; j<XRange; j++) {
+        WorldMapArray[row] = 0;
+        for (i=1; i<YRange; i++) WorldMapArray[i+row] = INT_MIN;
         row += YRange;
-      }
     }
-    
+
+    /* Define some "constants" which we use frequently */
+    YRangeDiv2  = YRange/2;
+    YRangeDivPI = YRange/PI;
+
+    /* Generate the map! */
+    for (a=0; a<NumberOfFaults; a++) {
+        GenerateWorldMap();
+    }
+
+    /* Copy data (I have only calculated faults for 1/2 the image.
+     * I can do this due to symmetry... :) */
+    index2 = (XRange/2)*YRange;
+    for (j=0, row=0; j<XRange/2; j++) {
+        for (i=1; i<YRange; i++) {                  /* fix */
+            WorldMapArray[row+index2+YRange-i] = WorldMapArray[row+i];
+        }
+        row += YRange;
+    }
+
+    /* Reconstruct the real WorldMap from the WorldMapArray and FaultArray */
+    for (j=0, row=0; j<XRange; j++) {
+        /* We have to start somewhere, and the top row was initialized to 0,
+         * but it might have changed during the iterations... */
+        Color = WorldMapArray[row];
+        for (i=1; i<YRange; i++) {
+            /* We "fill" all positions with values != INT_MIN with Color */
+            Cur = WorldMapArray[row+i];
+            if (Cur != INT_MIN) {
+                Color += Cur;
+            }
+            WorldMapArray[row+i] = Color;
+        }
+        row += YRange;
+    }
+
+    /* Compute MAX and MIN values in WorldMapArray */
+    for (j=0; j<XRange*YRange; j++) {
+        Color = WorldMapArray[j];
+        if (Color > MaxZ) MaxZ = Color;
+        if (Color < MinZ) MinZ = Color;
+    }
+
+    /* Compute color-histogram of WorldMapArray.
+     * This histogram is a very crude aproximation, since all pixels are
+     * considered of the same size... I will try to change this in a
+     * later version of this program. */
+    for (j=0, row=0; j<XRange; j++) {
+        for (i=0; i<YRange; i++) {
+            Color = WorldMapArray[row+i];
+            Color = (int)(((float)(Color - MinZ + 1) / (float)(MaxZ-MinZ+1))*30)+1;
+            Histogram[Color]++;
+        }
+        row += YRange;
+    }
+
+    /* Threshold now holds how many pixels PercentWater means */
+    Threshold = PercentWater*XRange*YRange/100;
+
+    /* "Integrate" the histogram to decide where to put sea-level */
+    for (j=0, Count=0; j<256; j++) {
+        Count += Histogram[j];
+        if (Count > Threshold) break;
+    }
+
+    /* Threshold now holds where sea-level is */
+    Threshold = j*(MaxZ - MinZ + 1)/30 + MinZ;
+
+    if (TwoColorMode) {
+        for (j=0, row=0; j<XRange; j++) {
+            for (i=0; i<YRange; i++) {
+                Color = WorldMapArray[row+i];
+                if (Color < Threshold)
+                    WorldMapArray[row+i] = 3;
+                else
+                    WorldMapArray[row+i] = 20;
+            }
+            row += YRange;
+        }
+    } else {
+        /* Scale WorldMapArray to colorrange in a way that gives you
+         * a certain Ocean/Land ratio */
+        for (j=0, row=0; j<XRange; j++) {
+            for (i=0; i<YRange; i++) {
+                Color = WorldMapArray[row+i];
+
+                if (Color < Threshold)
+                    Color = (int)(((float)(Color - MinZ) / (float)(Threshold - MinZ))*15)+1;
+                else
+                    Color = (int)(((float)(Color - Threshold) / (float)(MaxZ - Threshold))*15)+16;
+
+                /* Just in case... I DON't want the GIF-saver to flip out! :) */
+                if (Color < 1) Color=1;
+                if (Color > 255) Color=31;
+                WorldMapArray[row+i] = Color;
+            }
+            row += YRange;
+        }
+
+        /* "Recycle" Threshold variable, and, eh, the variable still has something
+         * like the same meaning... :) */
+        Threshold = PercentIce*XRange*YRange/100;
+
+        if ((Threshold <= 0) || (Threshold > XRange*YRange)) goto Finished;
+
+        FilledPixels = 0;
+        /* i==y, j==x */
+        for (i=0; i<YRange; i++) {
+            for (j=0, row=0; j<XRange; j++) {
+                Color = WorldMapArray[row+i];
+                if (Color < 32) FloodFill4(j,i,Color);
+                /* FilledPixels is a global variable which FloodFill4 modifies...
+                     * I know it's ugly, but as it is now, this is a hack! :)
+                     */
+                if (FilledPixels > Threshold) goto NorthPoleFinished;
+                row += YRange;
+            }
+        }
+
 NorthPoleFinished:
-    FilledPixels=0;
-    /* i==y, j==x */
-    for (i = (YRange - 1); i>0; i--)            /* fix */
-    {
-      for (j=0, row=0; j<XRange; j++)
-      {
-	Color = WorldMapArray[row+i];
-	if (Color < 32) FloodFill4(j,i,Color);
-	/* FilledPixels is a global variable which FloodFill4 modifies...
-         * I know it's ugly, but as it is now, this is a hack! :)
-         */
-	if (FilledPixels > Threshold) goto Finished;
-        row += YRange;
-      }
+        FilledPixels=0;
+        /* i==y, j==x */
+        for (i = (YRange - 1); i>0; i--) {          /* fix */
+            for (j=0, row=0; j<XRange; j++) {
+                Color = WorldMapArray[row+i];
+                if (Color < 32) FloodFill4(j,i,Color);
+                /* FilledPixels is a global variable which FloodFill4 modifies...
+                     * I know it's ugly, but as it is now, this is a hack! :)
+                     */
+                if (FilledPixels > Threshold) goto Finished;
+                row += YRange;
+            }
+        }
+Finished:
+        ;
     }
-Finished:;
-  }
-  
-  /* append .gif to SaveFile */
-  sprintf(SaveFile, "%s.gif", SaveName);
-  /* open binary SaveFile */
-  Save = fopen(SaveFile, "wb");
-  /* Write GIF to savefile */
-  
-  GIFEncode(Save, XRange, YRange, 1, 0, 8, Red, Green, Blue);
-  
-  fprintf(stderr, "Map created, saved as %s.\n", SaveFile);
-  
-  free(WorldMapArray);
 
-  exit(0);
+    /* append .gif to SaveFile */
+    sprintf(SaveFile, "%s.gif", SaveName);
+    /* open binary SaveFile */
+    Save = fopen(SaveFile, "wb");
+    /* Write GIF to savefile */
+
+    GIFEncode(Save, XRange, YRange, 1, 0, 8, Red, Green, Blue);
+
+    fprintf(stderr, "Map created, saved as %s.\n", SaveFile);
+
+    free(WorldMapArray);
+
+    exit(0);
 }
 
 void FloodFill4(int x, int y, int OldColor)
 {
-  if (WorldMapArray[x*YRange+y] == OldColor)
-  {
-    if (WorldMapArray[x*YRange+y] < 16)
-      WorldMapArray[x*YRange+y] = 32;
-    else
-      WorldMapArray[x*YRange+y] += 17;
+    if (WorldMapArray[x*YRange+y] == OldColor) {
+        if (WorldMapArray[x*YRange+y] < 16)
+            WorldMapArray[x*YRange+y] = 32;
+        else
+            WorldMapArray[x*YRange+y] += 17;
 
-    FilledPixels++;
-    if (y-1 > 0)      FloodFill4(  x, y-1, OldColor);
-    if (y+1 < YRange) FloodFill4(  x, y+1, OldColor);
-    if (x-1 < 0)
-      FloodFill4(XRange-1, y, OldColor);        /* fix */
-    else
-      FloodFill4(   x-1, y, OldColor);
-    
-    if (x+1 >= XRange)                          /* fix */
-      FloodFill4(     0, y, OldColor);
-    else
-      FloodFill4(   x+1, y, OldColor);
-  }
+        FilledPixels++;
+        if (y-1 > 0)      FloodFill4(  x, y-1, OldColor);
+        if (y+1 < YRange) FloodFill4(  x, y+1, OldColor);
+        if (x-1 < 0)
+            FloodFill4(XRange-1, y, OldColor);        /* fix */
+        else
+            FloodFill4(   x-1, y, OldColor);
+
+        if (x+1 >= XRange)                          /* fix */
+            FloodFill4(     0, y, OldColor);
+        else
+            FloodFill4(   x+1, y, OldColor);
+    }
 }
 
 void GenerateWorldMap()
 {
-  float         Alpha, Beta;
-  float         TanB;
-  float         Result, Delta;
-  int           i, row, N2;
-  int           Theta, Phi, Xsi;
-  unsigned int  flag1;
+    float         Alpha, Beta;
+    float         TanB;
+    float         Result, Delta;
+    int           i, row, N2;
+    int           Theta, Phi, Xsi;
+    unsigned int  flag1;
 
 
-  /* I have to do this because of a bug in rand() in Solaris 1...
-   * Here's what the man-page says:
-   *
-   * "The low bits of the numbers generated are not  very  random;
-   *  use  the  middle  bits.  In particular the lowest bit alter-
-   *  nates between 0 and 1."
-   *
-   * So I can't optimize this, but you might if you don't have the
-   * same bug... */
-  flag1 = rand() & 1; /*(int)((((float) rand())/MAX_RAND) + 0.5);*/
-  
-  /* Create a random greatcircle...
-   * Start with an equator and rotate it */
-  Alpha = (((float) rand())/MAX_RAND-0.5)*PI; /* Rotate around x-axis */
-  Beta  = (((float) rand())/MAX_RAND-0.5)*PI; /* Rotate around y-axis */
+    /* I have to do this because of a bug in rand() in Solaris 1...
+     * Here's what the man-page says:
+     *
+     * "The low bits of the numbers generated are not  very  random;
+     *  use  the  middle  bits.  In particular the lowest bit alter-
+     *  nates between 0 and 1."
+     *
+     * So I can't optimize this, but you might if you don't have the
+     * same bug... */
+    flag1 = rand() & 1; /*(int)((((float) rand())/MAX_RAND) + 0.5);*/
 
-  TanB  = tan(acos(cos(Alpha)*cos(Beta)));
-  
-  row  = 0;
-  Xsi  = (int)(XRange/2-(XRange/PI)*Beta);
-  
-  for (Phi=0; Phi<XRange/2; Phi++)
-  {
-    Theta = (int)(YRangeDivPI*atan(*(SinIterPhi+Xsi-Phi+XRange)*TanB))+YRangeDiv2;
+    /* Create a random greatcircle...
+     * Start with an equator and rotate it */
+    Alpha = (((float) rand())/MAX_RAND-0.5)*PI; /* Rotate around x-axis */
+    Beta  = (((float) rand())/MAX_RAND-0.5)*PI; /* Rotate around y-axis */
 
-    if (flag1)
-    {
-      /* Rise northen hemisphere <=> lower southern */
-      if (WorldMapArray[row+Theta] != INT_MIN)
-	WorldMapArray[row+Theta]--;
-      else
-	WorldMapArray[row+Theta] = -1;
+    TanB  = tan(acos(cos(Alpha)*cos(Beta)));
+
+    row  = 0;
+    Xsi  = (int)(XRange/2-(XRange/PI)*Beta);
+
+    for (Phi=0; Phi<XRange/2; Phi++) {
+        Theta = (int)(YRangeDivPI*atan(*(SinIterPhi+Xsi-Phi+XRange)*TanB))+YRangeDiv2;
+
+        if (flag1) {
+            /* Rise northen hemisphere <=> lower southern */
+            if (WorldMapArray[row+Theta] != INT_MIN)
+                WorldMapArray[row+Theta]--;
+            else
+                WorldMapArray[row+Theta] = -1;
+        } else {
+            /* Rise southern hemisphere */
+            if (WorldMapArray[row+Theta] != INT_MIN)
+                WorldMapArray[row+Theta]++;
+            else
+                WorldMapArray[row+Theta] = 1;
+        }
+        row += YRange;
     }
-    else
-    {
-      /* Rise southern hemisphere */
-      if (WorldMapArray[row+Theta] != INT_MIN)
-	WorldMapArray[row+Theta]++;
-      else
-	WorldMapArray[row+Theta] = 1;
-    }
-    row += YRange;
-  }
 }
 
 
@@ -472,54 +446,54 @@ static int Interlace;
 static void
 BumpPixel()
 {
-        /*
-         * Bump the current X position
-         */
-        ++curx;
+    /*
+     * Bump the current X position
+     */
+    ++curx;
 
-        /*
-         * If we are at the end of a scan line, set curx back to the beginning
-         * If we are interlaced, bump the cury to the appropriate spot,
-         * otherwise, just increment it.
-         */
-        if( curx == Width ) {
-                curx = 0;
+    /*
+     * If we are at the end of a scan line, set curx back to the beginning
+     * If we are interlaced, bump the cury to the appropriate spot,
+     * otherwise, just increment it.
+     */
+    if( curx == Width ) {
+        curx = 0;
 
-                if( !Interlace )
-                        ++cury;
-                else {
-                     switch( Pass ) {
+        if( !Interlace )
+            ++cury;
+        else {
+            switch( Pass ) {
 
-                       case 0:
-                          cury += 8;
-                          if( cury >= Height ) {
-                                ++Pass;
-                                cury = 4;
-                          }
-                          break;
-
-                       case 1:
-                          cury += 8;
-                          if( cury >= Height ) {
-                                ++Pass;
-                                cury = 2;
-                          }
-                          break;
-
-                       case 2:
-                          cury += 4;
-                          if( cury >= Height ) {
-                             ++Pass;
-                             cury = 1;
-                          }
-                          break;
-
-                       case 3:
-                          cury += 2;
-                          break;
-                        }
+            case 0:
+                cury += 8;
+                if( cury >= Height ) {
+                    ++Pass;
+                    cury = 4;
                 }
+                break;
+
+            case 1:
+                cury += 8;
+                if( cury >= Height ) {
+                    ++Pass;
+                    cury = 2;
+                }
+                break;
+
+            case 2:
+                cury += 4;
+                if( cury >= Height ) {
+                    ++Pass;
+                    cury = 1;
+                }
+                break;
+
+            case 3:
+                cury += 2;
+                break;
+            }
         }
+    }
 }
 
 /*
@@ -528,18 +502,18 @@ BumpPixel()
 static int
 GIFNextPixel( void )
 {
-        int r;
+    int r;
 
-        if( CountDown == 0 )
-                return EOF;
+    if( CountDown == 0 )
+        return EOF;
 
-        --CountDown;
+    --CountDown;
 
-        r = WorldMapArray[ curx*YRange+cury ];
+    r = WorldMapArray[ curx*YRange+cury ];
 
-        BumpPixel();
+    BumpPixel();
 
-        return r;
+    return r;
 }
 
 /* public */
@@ -555,143 +529,143 @@ int Background;
 int BitsPerPixel;
 int Red[], Green[], Blue[];
 {
-        int B;
-        int RWidth, RHeight;
-        int LeftOfs, TopOfs;
-        int Resolution;
-        int ColorMapSize;
-        int InitCodeSize;
-        int i;
+    int B;
+    int RWidth, RHeight;
+    int LeftOfs, TopOfs;
+    int Resolution;
+    int ColorMapSize;
+    int InitCodeSize;
+    int i;
 
-        Interlace = GInterlace;
+    Interlace = GInterlace;
 
-        ColorMapSize = 1 << BitsPerPixel;
+    ColorMapSize = 1 << BitsPerPixel;
 
-        RWidth = Width = GWidth;
-        RHeight = Height = GHeight;
-        LeftOfs = TopOfs = 0;
+    RWidth = Width = GWidth;
+    RHeight = Height = GHeight;
+    LeftOfs = TopOfs = 0;
 
-        Resolution = BitsPerPixel;
+    Resolution = BitsPerPixel;
 
-        /*
-         * Calculate number of bits we are expecting
-         */
-        CountDown = (long)Width * (long)Height;
+    /*
+     * Calculate number of bits we are expecting
+     */
+    CountDown = (long)Width * (long)Height;
 
-        /*
-         * Indicate which pass we are on (if interlace)
-         */
-        Pass = 0;
+    /*
+     * Indicate which pass we are on (if interlace)
+     */
+    Pass = 0;
 
-        /*
-         * The initial code size
-         */
-        if( BitsPerPixel <= 1 )
-                InitCodeSize = 2;
-        else
-                InitCodeSize = BitsPerPixel;
+    /*
+     * The initial code size
+     */
+    if( BitsPerPixel <= 1 )
+        InitCodeSize = 2;
+    else
+        InitCodeSize = BitsPerPixel;
 
-        /*
-         * Set up the current x and y position
-         */
-        curx = cury = 0;
+    /*
+     * Set up the current x and y position
+     */
+    curx = cury = 0;
 
-        /*
-         * Write the Magic header
-         */
-        fwrite( "GIF87a", 1, 6, fp );
+    /*
+     * Write the Magic header
+     */
+    fwrite( "GIF87a", 1, 6, fp );
 
-        /*
-         * Write out the screen width and height
-         */
-        Putword( RWidth, fp );
-        Putword( RHeight, fp );
+    /*
+     * Write out the screen width and height
+     */
+    Putword( RWidth, fp );
+    Putword( RHeight, fp );
 
-        /*
-         * Indicate that there is a global colour map
-         */
-        B = 0x80;       /* Yes, there is a color map */
+    /*
+     * Indicate that there is a global colour map
+     */
+    B = 0x80;       /* Yes, there is a color map */
 
-        /*
-         * OR in the resolution
-         */
-        B |= (Resolution - 1) << 5;
+    /*
+     * OR in the resolution
+     */
+    B |= (Resolution - 1) << 5;
 
-        /*
-         * OR in the Bits per Pixel
-         */
-        B |= (BitsPerPixel - 1);
+    /*
+     * OR in the Bits per Pixel
+     */
+    B |= (BitsPerPixel - 1);
 
-        /*
-         * Write it out
-         */
-        fputc( B, fp );
+    /*
+     * Write it out
+     */
+    fputc( B, fp );
 
-        /*
-         * Write out the Background colour
-         */
-        fputc( Background, fp );
+    /*
+     * Write out the Background colour
+     */
+    fputc( Background, fp );
 
-        /*
-         * Byte of 0's (future expansion)
-         */
-        fputc( 0, fp );
+    /*
+     * Byte of 0's (future expansion)
+     */
+    fputc( 0, fp );
 
-        /*
-         * Write out the Global Colour Map
-         */
-        for( i=0; i<ColorMapSize; ++i ) {
-                fputc( Red[i], fp );
-                fputc( Green[i], fp );
-                fputc( Blue[i], fp );
-        }
+    /*
+     * Write out the Global Colour Map
+     */
+    for( i=0; i<ColorMapSize; ++i ) {
+        fputc( Red[i], fp );
+        fputc( Green[i], fp );
+        fputc( Blue[i], fp );
+    }
 
-        /*
-         * Write an Image separator
-         */
-        fputc( ',', fp );
+    /*
+     * Write an Image separator
+     */
+    fputc( ',', fp );
 
-        /*
-         * Write the Image header
-         */
+    /*
+     * Write the Image header
+     */
 
-        Putword( LeftOfs, fp );
-        Putword( TopOfs, fp );
-        Putword( Width, fp );
-        Putword( Height, fp );
+    Putword( LeftOfs, fp );
+    Putword( TopOfs, fp );
+    Putword( Width, fp );
+    Putword( Height, fp );
 
-        /*
-         * Write out whether or not the image is interlaced
-         */
-        if( Interlace )
-                fputc( 0x40, fp );
-        else
-                fputc( 0x00, fp );
+    /*
+     * Write out whether or not the image is interlaced
+     */
+    if( Interlace )
+        fputc( 0x40, fp );
+    else
+        fputc( 0x00, fp );
 
-        /*
-         * Write out the initial code size
-         */
-        fputc( InitCodeSize, fp );
+    /*
+     * Write out the initial code size
+     */
+    fputc( InitCodeSize, fp );
 
-        /*
-         * Go and actually compress the data
-         */
-        compress( InitCodeSize+1, fp);
+    /*
+     * Go and actually compress the data
+     */
+    compress( InitCodeSize+1, fp);
 
-        /*
-         * Write out a Zero-length packet (to end the series)
-         */
-        fputc( 0, fp );
+    /*
+     * Write out a Zero-length packet (to end the series)
+     */
+    fputc( 0, fp );
 
-        /*
-         * Write the GIF file terminator
-         */
-        fputc( ';', fp );
+    /*
+     * Write the GIF file terminator
+     */
+    fputc( ';', fp );
 
-        /*
-         * And close the file
-         */
-        fclose( fp );
+    /*
+     * And close the file
+     */
+    fclose( fp );
 }
 
 /*
@@ -702,8 +676,8 @@ Putword( w, fp )
 int w;
 FILE* fp;
 {
-        fputc( w & 0xff, fp );
-        fputc( (w / 256) & 0xff, fp );
+    fputc( w & 0xff, fp );
+    fputc( (w / 256) & 0xff, fp );
 }
 
 
@@ -725,9 +699,9 @@ FILE* fp;
 #define HSIZE  5003            /* 80% occupancy */
 
 #ifdef NO_UCHAR
- typedef char   char_type;
+typedef char   char_type;
 #else /*NO_UCHAR*/
- typedef        unsigned char   char_type;
+typedef        unsigned char   char_type;
 #endif /*NO_UCHAR*/
 
 /*
@@ -900,7 +874,7 @@ nomatch:
             CodeTabOf (i) = free_ent++; /* code -> hashtable */
             HashTabOf (i) = fcode;
         } else
-                cl_block();
+            cl_block();
     }
     /*
      * Put out the final code.
@@ -931,9 +905,10 @@ static unsigned long cur_accum = 0;
 static int cur_bits = 0;
 
 static unsigned long masks[] = { 0x0000, 0x0001, 0x0003, 0x0007, 0x000F,
-                                  0x001F, 0x003F, 0x007F, 0x00FF,
-                                  0x01FF, 0x03FF, 0x07FF, 0x0FFF,
-                                  0x1FFF, 0x3FFF, 0x7FFF, 0xFFFF };
+                                 0x001F, 0x003F, 0x007F, 0x00FF,
+                                 0x01FF, 0x03FF, 0x07FF, 0x0FFF,
+                                 0x1FFF, 0x3FFF, 0x7FFF, 0xFFFF
+                               };
 
 static void
 output( code )
@@ -958,31 +933,31 @@ code_int  code;
      * If the next entry is going to be too big for the code size,
      * then increase it, if possible.
      */
-   if ( free_ent > maxcode || clear_flg ) {
+    if ( free_ent > maxcode || clear_flg ) {
 
-            if( clear_flg ) {
+        if( clear_flg ) {
 
-                maxcode = MAXCODE (n_bits = g_init_bits);
-                clear_flg = 0;
+            maxcode = MAXCODE (n_bits = g_init_bits);
+            clear_flg = 0;
 
-            } else {
+        } else {
 
-                ++n_bits;
-                if ( n_bits == maxbits )
-                    maxcode = maxmaxcode;
-                else
-                    maxcode = MAXCODE(n_bits);
-            }
+            ++n_bits;
+            if ( n_bits == maxbits )
+                maxcode = maxmaxcode;
+            else
+                maxcode = MAXCODE(n_bits);
         }
+    }
 
     if( code == EOFCode ) {
         /*
          * At EOF, write the rest of the buffer.
          */
         while( cur_bits > 0 ) {
-                char_out( (unsigned int)(cur_accum & 0xff) );
-                cur_accum >>= 8;
-                cur_bits -= 8;
+            char_out( (unsigned int)(cur_accum & 0xff) );
+            cur_accum >>= 8;
+            cur_bits -= 8;
         }
 
         flush_char();
@@ -990,7 +965,7 @@ code_int  code;
         fflush( g_outfile );
 
         if( ferror( g_outfile ) )
-                writeerr();
+            writeerr();
     }
 }
 
@@ -1001,11 +976,11 @@ static void
 cl_block ()             /* table clear for block compress */
 {
 
-        cl_hash ( (count_int) hsize );
-        free_ent = ClearCode + 2;
-        clear_flg = 1;
+    cl_hash ( (count_int) hsize );
+    free_ent = ClearCode + 2;
+    clear_flg = 1;
 
-        output( (code_int)ClearCode );
+    output( (code_int)ClearCode );
 }
 
 static void
@@ -1013,40 +988,40 @@ cl_hash(hsize)          /* reset code table */
 register count_int hsize;
 {
 
-        register count_int *htab_p = htab+hsize;
+    register count_int *htab_p = htab+hsize;
 
-        register long i;
-        register long m1 = -1;
+    register long i;
+    register long m1 = -1;
 
-        i = hsize - 16;
-        do {                            /* might use Sys V memset(3) here */
-                *(htab_p-16) = m1;
-                *(htab_p-15) = m1;
-                *(htab_p-14) = m1;
-                *(htab_p-13) = m1;
-                *(htab_p-12) = m1;
-                *(htab_p-11) = m1;
-                *(htab_p-10) = m1;
-                *(htab_p-9) = m1;
-                *(htab_p-8) = m1;
-                *(htab_p-7) = m1;
-                *(htab_p-6) = m1;
-                *(htab_p-5) = m1;
-                *(htab_p-4) = m1;
-                *(htab_p-3) = m1;
-                *(htab_p-2) = m1;
-                *(htab_p-1) = m1;
-                htab_p -= 16;
-        } while ((i -= 16) >= 0);
+    i = hsize - 16;
+    do {                            /* might use Sys V memset(3) here */
+        *(htab_p-16) = m1;
+        *(htab_p-15) = m1;
+        *(htab_p-14) = m1;
+        *(htab_p-13) = m1;
+        *(htab_p-12) = m1;
+        *(htab_p-11) = m1;
+        *(htab_p-10) = m1;
+        *(htab_p-9) = m1;
+        *(htab_p-8) = m1;
+        *(htab_p-7) = m1;
+        *(htab_p-6) = m1;
+        *(htab_p-5) = m1;
+        *(htab_p-4) = m1;
+        *(htab_p-3) = m1;
+        *(htab_p-2) = m1;
+        *(htab_p-1) = m1;
+        htab_p -= 16;
+    } while ((i -= 16) >= 0);
 
-        for ( i += 16; i > 0; --i )
-                *--htab_p = m1;
+    for ( i += 16; i > 0; --i )
+        *--htab_p = m1;
 }
 
 static void
 writeerr()
 {
-        fprintf(stderr, "error writing output file" );
+    fprintf(stderr, "error writing output file" );
 }
 
 /******************************************************************************
@@ -1066,7 +1041,7 @@ static int a_count;
 static void
 char_init()
 {
-        a_count = 0;
+    a_count = 0;
 }
 
 /*
@@ -1082,9 +1057,9 @@ static void
 char_out( c )
 int c;
 {
-        accum[ a_count++ ] = c;
-        if( a_count >= 254 )
-                flush_char();
+    accum[ a_count++ ] = c;
+    if( a_count >= 254 )
+        flush_char();
 }
 
 /*
@@ -1093,11 +1068,11 @@ int c;
 static void
 flush_char()
 {
-        if( a_count > 0 ) {
-                fputc( a_count, g_outfile );
-                fwrite( accum, 1, a_count, g_outfile );
-                a_count = 0;
-        }
+    if( a_count > 0 ) {
+        fputc( a_count, g_outfile );
+        fwrite( accum, 1, a_count, g_outfile );
+        a_count = 0;
+    }
 }
 
 /* The End */

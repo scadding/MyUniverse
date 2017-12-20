@@ -9,7 +9,7 @@ cartPt mercator::convert(int i, int j)
 {
     double theta;
     cartPt pt;
-    if(jj == -1){
+    if(jj == -1) {
         y = sin(latitude);
         y = (1.0+y)/(1.0-y);
         y = 0.5*log(y);
@@ -17,13 +17,13 @@ cartPt mercator::convert(int i, int j)
         k = (int)(0.5*y*Width*scale/PI);
         // k - equator (0) scaled(map)
     }
-    if(j != jj){
+    if(j != jj) {
         y = PI*(2.0*(j-k)-Height)/Width/scale;
         y = exp(2.*y);
         y = (y-1.)/(y+1.);
         cos2 = sqrt(1.0-y*y);
     }
-    if(i != ii){
+    if(i != ii) {
         theta = longitude-0.5*PI+PI*(2.0*i-Width)/Width/scale;
         x = cos(theta)*cos2;
         z = -sin(theta)*cos2;
@@ -38,7 +38,7 @@ cartPt mercator::convert(int i, int j)
 
 double mercator::Y(int j)
 {
-    if(jj == -1){
+    if(jj == -1) {
         y = sin(latitude);
         y = (1.0+y)/(1.0-y);
         y = 0.5*log(y);
@@ -46,7 +46,7 @@ double mercator::Y(int j)
         k = (int)(0.5*y*Width*scale/PI);
         // k - equator (0) scaled(map)
     }
-    if(j != jj){
+    if(j != jj) {
         y = PI*(2.0*(j-k)-Height)/Width/scale;
         y = exp(2.*y);
         y = (y-1.)/(y+1.);
@@ -56,7 +56,7 @@ double mercator::Y(int j)
 }
 
 mercator::mercator() : map(),
-  ii(-1), jj(-1)
+    ii(-1), jj(-1)
 {
 
 }
@@ -80,8 +80,7 @@ cartPt sinusoid::convert(int i, int j)
         if (fabs(y)>=0.5*PI) for (i = 0; i < Width ; i++) {
                 col[i][j] = BACK;
                 if (doshade>0) shades[i][j] = 255;
-            }
-        else {
+            } else {
             cos2 = cos(y);
             if (cos2>0.0) {
                 scale1 = scale*Width/Height/cos2/PI;

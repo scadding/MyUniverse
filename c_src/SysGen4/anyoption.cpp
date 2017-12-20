@@ -61,31 +61,37 @@
 
 #include "anyoption.h"
 
-AnyOption::AnyOption() {
+AnyOption::AnyOption()
+{
     init();
 }
 
-AnyOption::AnyOption(int maxopt) {
+AnyOption::AnyOption(int maxopt)
+{
     init(maxopt, maxopt);
 }
 
-AnyOption::AnyOption(int maxopt, int maxcharopt) {
+AnyOption::AnyOption(int maxopt, int maxcharopt)
+{
     init(maxopt, maxcharopt);
 }
 
-AnyOption::~AnyOption() {
+AnyOption::~AnyOption()
+{
     if(mem_allocated) {
         cleanup();
     }
 }
 
 void
-AnyOption::init() {
+AnyOption::init()
+{
     init(DEFAULT_MAXOPTS, DEFAULT_MAXOPTS);
 }
 
 void
-AnyOption::init(int maxopt, int maxcharopt) {
+AnyOption::init(int maxopt, int maxcharopt)
+{
 
     max_options 	= maxopt;
     max_char_options = maxcharopt;
@@ -134,7 +140,8 @@ AnyOption::init(int maxopt, int maxcharopt) {
 }
 
 bool
-AnyOption::alloc() {
+AnyOption::alloc()
+{
     int i = 0 ;
     int size = 0 ;
 
@@ -160,8 +167,8 @@ AnyOption::alloc() {
     optchartype = (int*) malloc((max_char_options+1)*sizeof(int));
     optcharindex = (int*) malloc((max_char_options+1)*sizeof(int));
     if(optionchars == NULL ||
-            optchartype == NULL ||
-            optcharindex == NULL) {
+       optchartype == NULL ||
+       optcharindex == NULL) {
         mem_allocated = false;
         return false;
     }
@@ -186,7 +193,8 @@ AnyOption::alloc() {
 }
 
 bool
-AnyOption::doubleOptStorage() {
+AnyOption::doubleOptStorage()
+{
     options = (const char**)realloc(options,
                                     ((2*max_options)+1) * sizeof(const char*));
     optiontype = (int*) realloc(optiontype,
@@ -207,7 +215,8 @@ AnyOption::doubleOptStorage() {
 }
 
 bool
-AnyOption::doubleCharStorage() {
+AnyOption::doubleCharStorage()
+{
     optionchars = (char*) realloc(optionchars,
                                   ((2*max_char_options)+1)*sizeof(char));
     optchartype = (int*) realloc(optchartype,
@@ -215,8 +224,8 @@ AnyOption::doubleCharStorage() {
     optcharindex = (int*) realloc(optcharindex,
                                   ((2*max_char_options)+1)*sizeof(int));
     if(optionchars == NULL ||
-            optchartype == NULL ||
-            optcharindex == NULL) {
+       optchartype == NULL ||
+       optcharindex == NULL) {
         return false;
     }
     /* init new storage */
@@ -230,7 +239,8 @@ AnyOption::doubleCharStorage() {
 }
 
 bool
-AnyOption::doubleUsageStorage() {
+AnyOption::doubleUsageStorage()
+{
     usage = (const char**)realloc(usage,
                                   ((2*max_usage_lines)+1) * sizeof(const char*));
     if(usage == NULL) {
@@ -246,7 +256,8 @@ AnyOption::doubleUsageStorage() {
 
 
 void
-AnyOption::cleanup() {
+AnyOption::cleanup()
+{
     free(options);
     free(optiontype);
     free(optionindex);
@@ -263,12 +274,14 @@ AnyOption::cleanup() {
 }
 
 void
-AnyOption::setCommandPrefixChar(char _prefix) {
+AnyOption::setCommandPrefixChar(char _prefix)
+{
     opt_prefix_char = _prefix;
 }
 
 void
-AnyOption::setCommandLongPrefix(char *_prefix) {
+AnyOption::setCommandLongPrefix(char *_prefix)
+{
     if(strlen(_prefix) > MAX_LONG_PREFIX_LENGTH) {
         *(_prefix + MAX_LONG_PREFIX_LENGTH) = '\0';
     }
@@ -277,81 +290,95 @@ AnyOption::setCommandLongPrefix(char *_prefix) {
 }
 
 void
-AnyOption::setFileCommentChar(char _comment) {
+AnyOption::setFileCommentChar(char _comment)
+{
     file_delimiter_char = _comment;
 }
 
 
 void
-AnyOption::setFileDelimiterChar(char _delimiter) {
+AnyOption::setFileDelimiterChar(char _delimiter)
+{
     file_comment_char = _delimiter ;
 }
 
 bool
-AnyOption::CommandSet() {
+AnyOption::CommandSet()
+{
     return(command_set);
 }
 
 bool
-AnyOption::FileSet() {
+AnyOption::FileSet()
+{
     return(file_set);
 }
 
 void
-AnyOption::noPOSIX() {
+AnyOption::noPOSIX()
+{
     posix_style = false;
 }
 
 bool
-AnyOption::POSIX() {
+AnyOption::POSIX()
+{
     return posix_style;
 }
 
 
 void
-AnyOption::setVerbose() {
+AnyOption::setVerbose()
+{
     verbose = true ;
 }
 
 void
-AnyOption::printVerbose() {
+AnyOption::printVerbose()
+{
     if(verbose) {
         cout << endl  ;
     }
 }
 void
-AnyOption::printVerbose(const char *msg) {
+AnyOption::printVerbose(const char *msg)
+{
     if(verbose) {
         cout << msg  ;
     }
 }
 
 void
-AnyOption::printVerbose(char *msg) {
+AnyOption::printVerbose(char *msg)
+{
     if(verbose) {
         cout << msg  ;
     }
 }
 
 void
-AnyOption::printVerbose(char ch) {
+AnyOption::printVerbose(char ch)
+{
     if(verbose) {
         cout << ch ;
     }
 }
 
 bool
-AnyOption::hasOptions() {
+AnyOption::hasOptions()
+{
     return hasoptions;
 }
 
 void
-AnyOption::autoUsagePrint(bool _autousage) {
+AnyOption::autoUsagePrint(bool _autousage)
+{
     autousage = _autousage;
 }
 
 void
-AnyOption::useCommandArgs(int _argc, char **_argv) {
+AnyOption::useCommandArgs(int _argc, char **_argv)
+{
     argc = _argc;
     argv = _argv;
     command_set = true;
@@ -362,7 +389,8 @@ AnyOption::useCommandArgs(int _argc, char **_argv) {
 }
 
 void
-AnyOption::useFiileName(const char *_filename) {
+AnyOption::useFiileName(const char *_filename)
+{
     filename = _filename;
     file_set = true;
 }
@@ -372,121 +400,140 @@ AnyOption::useFiileName(const char *_filename) {
  */
 
 void
-AnyOption::setCommandOption(const char *opt) {
+AnyOption::setCommandOption(const char *opt)
+{
     addOption(opt, COMMAND_OPT);
     g_value_counter++;
 }
 
 void
-AnyOption::setCommandOption(char opt) {
+AnyOption::setCommandOption(char opt)
+{
     addOption(opt, COMMAND_OPT);
     g_value_counter++;
 }
 
 void
-AnyOption::setCommandOption(const char *opt, char optchar) {
+AnyOption::setCommandOption(const char *opt, char optchar)
+{
     addOption(opt, COMMAND_OPT);
     addOption(optchar, COMMAND_OPT);
     g_value_counter++;
 }
 
 void
-AnyOption::setCommandFlag(const char *opt) {
+AnyOption::setCommandFlag(const char *opt)
+{
     addOption(opt, COMMAND_FLAG);
     g_value_counter++;
 }
 
 void
-AnyOption::setCommandFlag(char opt) {
+AnyOption::setCommandFlag(char opt)
+{
     addOption(opt, COMMAND_FLAG);
     g_value_counter++;
 }
 
 void
-AnyOption::setCommandFlag(const char *opt, char optchar) {
+AnyOption::setCommandFlag(const char *opt, char optchar)
+{
     addOption(opt, COMMAND_FLAG);
     addOption(optchar, COMMAND_FLAG);
     g_value_counter++;
 }
 
 void
-AnyOption::setFileOption(const char *opt) {
+AnyOption::setFileOption(const char *opt)
+{
     addOption(opt, FILE_OPT);
     g_value_counter++;
 }
 
 void
-AnyOption::setFileOption(char opt) {
+AnyOption::setFileOption(char opt)
+{
     addOption(opt, FILE_OPT);
     g_value_counter++;
 }
 
 void
-AnyOption::setFileOption(const char *opt, char optchar) {
+AnyOption::setFileOption(const char *opt, char optchar)
+{
     addOption(opt, FILE_OPT);
     addOption(optchar, FILE_OPT);
     g_value_counter++;
 }
 
 void
-AnyOption::setFileFlag(const char *opt) {
+AnyOption::setFileFlag(const char *opt)
+{
     addOption(opt, FILE_FLAG);
     g_value_counter++;
 }
 
 void
-AnyOption::setFileFlag(char opt) {
+AnyOption::setFileFlag(char opt)
+{
     addOption(opt, FILE_FLAG);
     g_value_counter++;
 }
 
 void
-AnyOption::setFileFlag(const char *opt, char optchar) {
+AnyOption::setFileFlag(const char *opt, char optchar)
+{
     addOption(opt, FILE_FLAG);
     addOption(optchar, FILE_FLAG);
     g_value_counter++;
 }
 
 void
-AnyOption::setOption(const char *opt) {
+AnyOption::setOption(const char *opt)
+{
     addOption(opt, COMMON_OPT);
     g_value_counter++;
 }
 
 void
-AnyOption::setOption(char opt) {
+AnyOption::setOption(char opt)
+{
     addOption(opt, COMMON_OPT);
     g_value_counter++;
 }
 
 void
-AnyOption::setOption(const char *opt, char optchar) {
+AnyOption::setOption(const char *opt, char optchar)
+{
     addOption(opt, COMMON_OPT);
     addOption(optchar, COMMON_OPT);
     g_value_counter++;
 }
 
 void
-AnyOption::setFlag(const char *opt) {
+AnyOption::setFlag(const char *opt)
+{
     addOption(opt, COMMON_FLAG);
     g_value_counter++;
 }
 
 void
-AnyOption::setFlag(const char opt) {
+AnyOption::setFlag(const char opt)
+{
     addOption(opt, COMMON_FLAG);
     g_value_counter++;
 }
 
 void
-AnyOption::setFlag(const char *opt, char optchar) {
+AnyOption::setFlag(const char *opt, char optchar)
+{
     addOption(opt, COMMON_FLAG);
     addOption(optchar, COMMON_FLAG);
     g_value_counter++;
 }
 
 void
-AnyOption::addOption(const char *opt, int type) {
+AnyOption::addOption(const char *opt, int type)
+{
     if(option_counter >= max_options) {
         if(doubleOptStorage() == false) {
             addOptionError(opt);
@@ -500,7 +547,8 @@ AnyOption::addOption(const char *opt, int type) {
 }
 
 void
-AnyOption::addOption(char opt, int type) {
+AnyOption::addOption(char opt, int type)
+{
     if(!POSIX()) {
         printVerbose("Ignoring the option character \"");
         printVerbose(opt);
@@ -523,7 +571,8 @@ AnyOption::addOption(char opt, int type) {
 }
 
 void
-AnyOption::addOptionError(const char *opt) {
+AnyOption::addOptionError(const char *opt)
+{
     cout << endl ;
     cout << "OPTIONS ERROR : Failed allocating extra memory " << endl ;
     cout << "While adding the option : \""<< opt << "\"" << endl;
@@ -533,7 +582,8 @@ AnyOption::addOptionError(const char *opt) {
 }
 
 void
-AnyOption::addOptionError(char opt) {
+AnyOption::addOptionError(char opt)
+{
     cout << endl ;
     cout << "OPTIONS ERROR : Failed allocating extra memory " << endl ;
     cout << "While adding the option: \""<< opt << "\"" << endl;
@@ -543,32 +593,37 @@ AnyOption::addOptionError(char opt) {
 }
 
 void
-AnyOption::processOptions() {
+AnyOption::processOptions()
+{
     if(! valueStoreOK()) {
         return;
     }
 }
 
 void
-AnyOption::processCommandArgs(int max_args) {
+AnyOption::processCommandArgs(int max_args)
+{
     max_legal_args = max_args;
     processCommandArgs();
 }
 
 void
-AnyOption::processCommandArgs(int _argc, char **_argv, int max_args) {
+AnyOption::processCommandArgs(int _argc, char **_argv, int max_args)
+{
     max_legal_args = max_args;
     processCommandArgs(_argc, _argv);
 }
 
 void
-AnyOption::processCommandArgs(int _argc, char **_argv) {
+AnyOption::processCommandArgs(int _argc, char **_argv)
+{
     useCommandArgs(_argc, _argv);
     processCommandArgs();
 }
 
 void
-AnyOption::processCommandArgs() {
+AnyOption::processCommandArgs()
+{
     if(!(valueStoreOK() && CommandSet())) {
         return;
     }
@@ -579,7 +634,7 @@ AnyOption::processCommandArgs() {
     new_argv = (int*) malloc((max_legal_args+1) * sizeof(int));
     for(int i = 1 ; i < argc ; i++) { /* ignore first argv */
         if(argv[i][0] == long_opt_prefix[0] &&
-                argv[i][1] == long_opt_prefix[1]) {  /* long GNU option */
+           argv[i][1] == long_opt_prefix[1]) {  /* long GNU option */
             int match_at = parseGNU(argv[i]+2);   /* skip -- */
             if(match_at >= 0 && i < argc-1) { /* found match */
                 setValue(options[match_at], argv[++i]);
@@ -615,7 +670,8 @@ AnyOption::processCommandArgs() {
 }
 
 char
-AnyOption::parsePOSIX(char* arg) {
+AnyOption::parsePOSIX(char* arg)
+{
 
     for(unsigned int i = 0 ; i < strlen(arg) ; i++) {
         char ch = arg[i] ;
@@ -626,7 +682,7 @@ AnyOption::parsePOSIX(char* arg) {
             } else { /* else the rest of arg is the value */
                 i++; /* skip any '=' and ' ' */
                 while(arg[i] == whitespace
-                        || arg[i] == equalsign) {
+                      || arg[i] == equalsign) {
                     i++;
                 }
                 setValue(ch, arg+i);
@@ -642,7 +698,8 @@ AnyOption::parsePOSIX(char* arg) {
 }
 
 int
-AnyOption::parseGNU(char *arg) {
+AnyOption::parseGNU(char *arg)
+{
     int split_at = 0;
     /* if has a '=' sign get value */
     for(unsigned int i = 0 ; i < strlen(arg) ; i++) {
@@ -677,11 +734,12 @@ AnyOption::parseGNU(char *arg) {
 
 
 int
-AnyOption::matchOpt(char *opt) {
+AnyOption::matchOpt(char *opt)
+{
     for(int i = 0 ; i < option_counter ; i++) {
         if(strcmp(options[i], opt) == 0) {
             if(optiontype[i] ==  COMMON_OPT ||
-                    optiontype[i] ==  COMMAND_OPT) {
+               optiontype[i] ==  COMMAND_OPT) {
                 /* found option return index */
                 return i;
             } else if(optiontype[i] == COMMON_FLAG ||
@@ -699,11 +757,12 @@ AnyOption::matchOpt(char *opt) {
     return  -1;
 }
 bool
-AnyOption::matchChar(char c) {
+AnyOption::matchChar(char c)
+{
     for(int i = 0 ; i < optchar_counter ; i++) {
         if(optionchars[i] == c) {   /* found match */
             if(optchartype[i] == COMMON_OPT ||
-                    optchartype[i] == COMMAND_OPT) {
+               optchartype[i] == COMMAND_OPT) {
                 /* an option store and stop scanning */
                 return true;
             } else if(optchartype[i] == COMMON_FLAG ||
@@ -721,7 +780,8 @@ AnyOption::matchChar(char c) {
 }
 
 bool
-AnyOption::valueStoreOK() {
+AnyOption::valueStoreOK()
+{
     if(!set) {
         if(g_value_counter > 0) {
             int size = g_value_counter * sizeof(char*);
@@ -739,7 +799,8 @@ AnyOption::valueStoreOK() {
  * public get methods
  */
 char*
-AnyOption::getValue(const char *option) {
+AnyOption::getValue(const char *option)
+{
     if(!valueStoreOK()) {
         return NULL;
     }
@@ -753,7 +814,8 @@ AnyOption::getValue(const char *option) {
 }
 
 bool
-AnyOption::getFlag(const char *option) {
+AnyOption::getFlag(const char *option)
+{
     if(!valueStoreOK()) {
         return false;
     }
@@ -766,7 +828,8 @@ AnyOption::getFlag(const char *option) {
 }
 
 char*
-AnyOption::getValue(char option) {
+AnyOption::getValue(char option)
+{
     if(!valueStoreOK()) {
         return NULL;
     }
@@ -779,7 +842,8 @@ AnyOption::getValue(char option) {
 }
 
 bool
-AnyOption::getFlag(char option) {
+AnyOption::getFlag(char option)
+{
     if(!valueStoreOK()) {
         return false;
     }
@@ -792,7 +856,8 @@ AnyOption::getFlag(char option) {
 }
 
 bool
-AnyOption::findFlag(char* val) {
+AnyOption::findFlag(char* val)
+{
     if(val == NULL) {
         return false;
     }
@@ -808,7 +873,8 @@ AnyOption::findFlag(char* val) {
  * private set methods
  */
 bool
-AnyOption::setValue(const char *option, char *value) {
+AnyOption::setValue(const char *option, char *value)
+{
     if(!valueStoreOK()) {
         return false;
     }
@@ -823,7 +889,8 @@ AnyOption::setValue(const char *option, char *value) {
 }
 
 bool
-AnyOption::setFlagOn(const char *option) {
+AnyOption::setFlagOn(const char *option)
+{
     if(!valueStoreOK()) {
         return false;
     }
@@ -838,7 +905,8 @@ AnyOption::setFlagOn(const char *option) {
 }
 
 bool
-AnyOption::setValue(char option, char *value) {
+AnyOption::setValue(char option, char *value)
+{
     if(!valueStoreOK()) {
         return false;
     }
@@ -853,7 +921,8 @@ AnyOption::setValue(char option, char *value) {
 }
 
 bool
-AnyOption::setFlagOn(char option) {
+AnyOption::setFlagOn(char option)
+{
     if(!valueStoreOK()) {
         return false;
     }
@@ -869,12 +938,14 @@ AnyOption::setFlagOn(char option) {
 
 
 int
-AnyOption::getArgc() {
+AnyOption::getArgc()
+{
     return new_argc;
 }
 
 char*
-AnyOption::getArgv(int index) {
+AnyOption::getArgv(int index)
+{
     if(index < new_argc) {
         return (argv[ new_argv[ index ] ]);
     }
@@ -884,7 +955,8 @@ AnyOption::getArgv(int index) {
 /* dotfile sub routines */
 
 bool
-AnyOption::processFile() {
+AnyOption::processFile()
+{
     if(!(valueStoreOK() && FileSet())) {
         return false;
     }
@@ -892,13 +964,15 @@ AnyOption::processFile() {
 }
 
 bool
-AnyOption::processFile(const char *filename) {
+AnyOption::processFile(const char *filename)
+{
     useFiileName(filename);
     return (processFile());
 }
 
 char*
-AnyOption::readFile() {
+AnyOption::readFile()
+{
     return (readFile(filename));
 }
 
@@ -907,7 +981,8 @@ AnyOption::readFile() {
  */
 
 char*
-AnyOption::readFile(const char* fname) {
+AnyOption::readFile(const char* fname)
+{
     int length;
     char *buffer;
     ifstream is;
@@ -930,7 +1005,8 @@ AnyOption::readFile(const char* fname) {
  * start with the specified comment character.
  */
 bool
-AnyOption::consumeFile(char *buffer) {
+AnyOption::consumeFile(char *buffer)
+{
 
     if(buffer == NULL) {
         return false;
@@ -983,7 +1059,8 @@ AnyOption::consumeFile(char *buffer) {
  */
 
 void
-AnyOption::processLine(char *theline, int length) {
+AnyOption::processLine(char *theline, int length)
+{
     char *pline = (char*) malloc((length+1)*sizeof(char));
     for(int i = 0 ; i < length ; i ++) {
         pline[i]= *(theline++);
@@ -1014,7 +1091,8 @@ AnyOption::processLine(char *theline, int length) {
  * removes trailing and preceeding whitespaces from a string
  */
 char*
-AnyOption::chomp(char *str) {
+AnyOption::chomp(char *str)
+{
     while(*str == whitespace) {
         str++;
     }
@@ -1027,12 +1105,13 @@ AnyOption::chomp(char *str) {
 }
 
 void
-AnyOption::valuePairs(char *type, char *value) {
+AnyOption::valuePairs(char *type, char *value)
+{
     if(strlen(chomp(type)) == 1) {    /* this is a char option */
         for(int i = 0 ; i < optchar_counter ; i++) {
             if(optionchars[i] == type[0]) {    /* match */
                 if(optchartype[i] == COMMON_OPT ||
-                        optchartype[i] == FILE_OPT) {
+                   optchartype[i] == FILE_OPT) {
                     setValue(type[0], chomp(value));
                     return;
                 }
@@ -1043,7 +1122,7 @@ AnyOption::valuePairs(char *type, char *value) {
     for(int i = 0 ; i < option_counter ; i++) {
         if(strcmp(options[i], type) == 0) {    /* match */
             if(optiontype[i] == COMMON_OPT ||
-                    optiontype[i] == FILE_OPT) {
+               optiontype[i] == FILE_OPT) {
                 setValue(type, chomp(value));
                 return;
             }
@@ -1055,13 +1134,14 @@ AnyOption::valuePairs(char *type, char *value) {
 }
 
 void
-AnyOption::justValue(char *type) {
+AnyOption::justValue(char *type)
+{
 
     if(strlen(chomp(type)) == 1) {    /* this is a char option */
         for(int i = 0 ; i < optchar_counter ; i++) {
             if(optionchars[i] == type[0]) {    /* match */
                 if(optchartype[i] == COMMON_FLAG ||
-                        optchartype[i] == FILE_FLAG) {
+                   optchartype[i] == FILE_FLAG) {
                     setFlagOn(type[0]);
                     return;
                 }
@@ -1072,7 +1152,7 @@ AnyOption::justValue(char *type) {
     for(int i = 0 ; i < option_counter ; i++) {
         if(strcmp(options[i], type) == 0) {    /* match */
             if(optiontype[i] == COMMON_FLAG ||
-                    optiontype[i] == FILE_FLAG) {
+               optiontype[i] == FILE_FLAG) {
                 setFlagOn(type);
                 return;
             }
@@ -1089,14 +1169,16 @@ AnyOption::justValue(char *type) {
 
 
 void
-AnyOption::printAutoUsage() {
+AnyOption::printAutoUsage()
+{
     if(autousage) {
         printUsage();
     }
 }
 
 void
-AnyOption::printUsage() {
+AnyOption::printUsage()
+{
 
     if(once) {
         once = false ;
@@ -1110,7 +1192,8 @@ AnyOption::printUsage() {
 
 
 void
-AnyOption::addUsage(const char *line) {
+AnyOption::addUsage(const char *line)
+{
     if(usage_lines >= max_usage_lines) {
         if(doubleUsageStorage() == false) {
             addUsageError(line);
@@ -1122,7 +1205,8 @@ AnyOption::addUsage(const char *line) {
 }
 
 void
-AnyOption::addUsageError(const char *line) {
+AnyOption::addUsageError(const char *line)
+{
     cout << endl ;
     cout << "OPTIONS ERROR : Failed allocating extra memory " << endl ;
     cout << "While adding the usage/help  : \""<< line << "\"" << endl;

@@ -31,7 +31,8 @@ int    lcon[29];
 void drift();
 void scatter(int arr[], int max_arr, int slide);
 
-void seedlang(long x, long y, long z) {
+void seedlang(long x, long y, long z)
+{
     int     i;
 
     for(i = 0; i < 6; i++) {
@@ -59,7 +60,8 @@ void seedlang(long x, long y, long z) {
     drift();
 }
 
-void drift() {
+void drift()
+{
     scatter(initial, 4, 6);
     scatter(len, 6, 6);
     scatter(final, 4, 6);
@@ -68,7 +70,8 @@ void drift() {
     scatter(lcon, 29, 36);
 }
 
-void scatter(int arr[], int max_arr, int slide) {
+void scatter(int arr[], int max_arr, int slide)
+{
     int     i;
 
     while(slide--) {
@@ -83,7 +86,8 @@ void scatter(int arr[], int max_arr, int slide) {
     }
 }
 
-int lookup(int arr[], int tot) {
+int lookup(int arr[], int tot)
+{
     int     i;
 
     i = 0;
@@ -93,7 +97,8 @@ int lookup(int arr[], int tot) {
     return(i - 1);
 }
 
-char   *getname() {
+char   *getname()
+{
     static char     nbuf[40];
     int     leng, type;
 

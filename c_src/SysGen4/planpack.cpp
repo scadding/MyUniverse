@@ -14,7 +14,8 @@ sistem syst;
 extern int     dice_rolls;
 int makedetails(sistem *syst, long x, long y, long z);
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
     long    x, y, z;
 
     if((argc < 3) || (argc > 4)) {
@@ -42,18 +43,21 @@ int main(int argc, char **argv) {
     exit(1);
 }
 
-void printdetails(sistem *syst) {
+void printdetails(sistem *syst)
+{
     printf(".H2 %s system overview\n", syst->mw->name);
     Pdlevel(syst->sys, 0);
 }
 
-void tab(int n) {
+void tab(int n)
+{
     while(n-- > 0) {
         printf("\t");
     }
 }
 
-void Pdlevel(body *s, int depth) {
+void Pdlevel(body *s, int depth)
+{
     if(!s) {
         return;
     }
@@ -73,7 +77,8 @@ void Pdlevel(body *s, int depth) {
     }
 }
 
-void   pworld(body *s) {
+void   pworld(body *s)
+{
     switch(s->type) {
     case T_STAR:
         printf("Star %c%d %d       %s\n", s->upp.s.classification,
@@ -108,7 +113,8 @@ void   pworld(body *s) {
     }
 }
 
-void pdetails(body *s, int depth) {
+void pdetails(body *s, int depth)
+{
     switch(s->type) {
     case T_GIANT:
         printf("Diam: %gkm Dens:%g Grav:%.1f\n", s->det.g.diam,
@@ -179,7 +185,8 @@ void pdetails(body *s, int depth) {
     }
 }
 
-void ttimes() {
+void ttimes()
+{
     body    *i, *j;
     float   tmp, man;
 

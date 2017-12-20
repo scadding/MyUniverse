@@ -4,7 +4,8 @@
 #include "sysgen.h"
 #include "stelfun.h"
 
-int staroff(body *s) {
+int staroff(body *s)
+{
 #ifdef DEBUG
     if(s->type != T_STAR) {
         printf("STAROFF CALLED ON NON-STAR!\n\007");
@@ -150,7 +151,8 @@ const char   *zone_data[6][14] = {
 };
 
 
-char zone(body *s, int orbit) {
+char zone(body *s, int orbit)
+{
     int     off, tmp;
 
 #ifdef DEBUG
@@ -178,7 +180,8 @@ int    lowavail[13] = { 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6 };
 int    hiavail[13] = { 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 };
 int    comavail[13] = { 0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6 };
 
-void   addcomp(body *s, int orbmod, int sizmod) {
+void   addcomp(body *s, int orbmod, int sizmod)
+{
     int     roll, orbit;
     body    *sptr, *ssub;
 
@@ -315,7 +318,7 @@ void   addcomp(body *s, int orbmod, int sizmod) {
     }
     for(sptr = s->b; sptr; sptr = sptr->o)
         if((sptr->orbit > lowavail[orbit]) && (sptr->orbit < hiavail[orbit])
-                && (sptr->type == T_UNSET)) {
+           && (sptr->type == T_UNSET)) {
             sptr->type = T_INSIDE;
         }
     orbit = comavail[orbit];
@@ -351,7 +354,8 @@ void   addcomp(body *s, int orbmod, int sizmod) {
     }
 }
 
-body *getorb(body *s, int orbit) {
+body *getorb(body *s, int orbit)
+{
     if(!s->b) {
         return(0);
     }
@@ -365,7 +369,8 @@ body *getorb(body *s, int orbit) {
     return(0);
 }
 
-body *rollorb(body *s, int nd, int mod) {
+body *rollorb(body *s, int nd, int mod)
+{
     body    *sptr;
     int     min, max;
 
@@ -385,7 +390,8 @@ body *rollorb(body *s, int nd, int mod) {
     return(sptr);
 }
 
-body   *balloc() {
+body   *balloc()
+{
     body    *b;
 
 #ifdef DEBUG

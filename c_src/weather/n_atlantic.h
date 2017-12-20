@@ -3,7 +3,7 @@
 /* Ave_Temp       - the average temperature for each month */
 /* Weather_Table  - each entry in the table is the weather profile for each month */
 /*                  for a random 1-100 die roll. */
-/*  month profile - {precipitation, overcast, taifun/hurricane, clear} */        
+/*  month profile - {precipitation, overcast, taifun/hurricane, clear} */
 /*        example - {30,35,0,100} means that in this month a roll of : */
 /*                  1-30  = precipitation        */
 /*                 31-35  = overcast             */
@@ -37,32 +37,32 @@ UBYTE Weather_Table[N_MONTHS][N_WEATHER] = {
 
 UBYTE Wind_Table[N_MONTHS][N_WIND] = {
     {60,80,90,100,0},    /* January */
-    {50,70,85,100,0},    /* February */  
-    {40,60,75,95,100},   /* March */     
-    {60,85,95,100,0},    /* April */     
-    {70,90,100,0,0},     /* May */       
-    {80,90,100,0,0},     /* June */      
-    {80,100,0,0,0},      /* July */      
-    {80,100,0,0,0},      /* August */    
-    {60,80,95,100,0},    /* September */ 
-    {40,65,85,95,100},   /* October */   
-    {40,60,80,90,100},   /* November */  
-    {60,80,90,95,100}    /* December */  
+    {50,70,85,100,0},    /* February */
+    {40,60,75,95,100},   /* March */
+    {60,85,95,100,0},    /* April */
+    {70,90,100,0,0},     /* May */
+    {80,90,100,0,0},     /* June */
+    {80,100,0,0,0},      /* July */
+    {80,100,0,0,0},      /* August */
+    {60,80,95,100,0},    /* September */
+    {40,65,85,95,100},   /* October */
+    {40,60,80,90,100},   /* November */
+    {60,80,90,95,100}    /* December */
 };
 
 UBYTE Precip_Table[N_MONTHS][N_PRECIP] = {
-    {0,40,70,80,100},   /* January */  
-    {0,50,80,95,100},   /* February */ 
-    {0,60,80,100,0},    /* March */    
-    {0,40,70,90,100},   /* April */    
-    {0,50,80,100,0},    /* May */      
-    {0,60,90,100,0},    /* June */     
-    {0,80,95,100,0},    /* July */     
-    {0,80,95,100,0},    /* August */   
+    {0,40,70,80,100},   /* January */
+    {0,50,80,95,100},   /* February */
+    {0,60,80,100,0},    /* March */
+    {0,40,70,90,100},   /* April */
+    {0,50,80,100,0},    /* May */
+    {0,60,90,100,0},    /* June */
+    {0,80,95,100,0},    /* July */
+    {0,80,95,100,0},    /* August */
     {0,60,80,90,100},   /* September */
-    {0,50,80,90,100},   /* October */  
-    {0,40,70,85,100},   /* November */ 
-    {0,40,70,80,100}    /* December */ 
+    {0,50,80,90,100},   /* October */
+    {0,40,70,85,100},   /* November */
+    {0,40,70,80,100}    /* December */
 };
 
 UBYTE Overcast_Table[N_OVERCAST] = {10,20,70,100};

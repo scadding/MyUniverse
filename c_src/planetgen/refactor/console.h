@@ -20,17 +20,24 @@
 
 using namespace std;
 
-class console : public ThreadObject {
-	public:
-		console();
-		~console();
-		void run(void);
-		queue *getRead() {return(&read);};
-		queue *getWrite() {return(&write);};
-	private:
-		queue read;
-		queue write;
-	protected:
+class console : public ThreadObject
+{
+public:
+    console();
+    ~console();
+    void run(void);
+    queue *getRead()
+    {
+        return(&read);
+    };
+    queue *getWrite()
+    {
+        return(&write);
+    };
+private:
+    queue read;
+    queue write;
+protected:
 }; /* console */
 
 #endif /* CONSOLE_H */

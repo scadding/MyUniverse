@@ -28,8 +28,9 @@
 #define T_TOIDS 'a'
 #define T_GIANT 'g'
 
-class world {
-  public:
+class world
+{
+public:
     char    name[MAX_NAME];
     char    starport;
     int     size;
@@ -42,8 +43,9 @@ class world {
     int     bases;
 };
 
-class dworld {
-  public:
+class dworld
+{
+public:
     char    core;
     float   diam;
     float   dens;
@@ -75,21 +77,24 @@ class dworld {
     int     tpmil, thmil;
 };
 
-class giant {
-  public:
+class giant
+{
+public:
     int     size;
 };
 
-class dgiant {
-  public:
+class dgiant
+{
+public:
     float   diam;   /* in kilometers */
     float   dens;   /* w.r.t. water */
     float   year;   /* in days */
     float   tilt, ecnt;
 };
 
-class dbelt {
-  public:
+class dbelt
+{
+public:
     int     pbod, maxbod;   /* size is offset to
 1m, 5m, 10m, 25m, 50m, 100m, 300m, 1km, 5km, 10km, 50km, 100km, 500km, 1000km */
     int     n, m, c;        /* nickel, mixed, carbonacous zone size in % */
@@ -97,21 +102,24 @@ class dbelt {
     float   year;   /* in days */
 };
 
-class star {
-  public:
+class star
+{
+public:
     char    classification;
     int     decimal, size;
 };
 
-class sistem {
-  public:
+class sistem
+{
+public:
     class body    *sys;
     class body    *mw;
     long    x, y, z;
 };
 
-class body {
-  public:
+class body
+{
+public:
     char    name[MAX_NAME];
     char    type;
     union {
@@ -128,8 +136,9 @@ class body {
     int     orbit;
 };
 
-class city {
-  public:
+class city
+{
+public:
     char    name[MAX_NAME];
     float   pop;
     char    port;
@@ -144,8 +153,9 @@ struct long32 {
 #endif
 };
 
-class tempdata {
-  public:
+class tempdata
+{
+public:
     float   hexrow[11];
     float   hextilt[11];
     float   summer, winter, day, night;

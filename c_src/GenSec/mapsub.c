@@ -86,7 +86,7 @@
  *
  * $Header: /m/dadla/usr1/jamesp/usr/src/games/traveller/RCS/mapsub.c,v 1.7 89/10/09 12:17:10 jamesp Exp $
  * $Locker:  $
- * 
+ *
  *************************************************************************/
 /*
 
@@ -310,9 +310,9 @@ char **av;
      */
 
     while (fgets(line, sizeof(line), stdin) != NULL) {
-	if ((system = line2system(line)) != NULL) {
-	    output[mode].map(system);
-	}
+        if ((system = line2system(line)) != NULL) {
+            output[mode].map(system);
+        }
     }
 
     /*
@@ -357,19 +357,19 @@ char **av;
     mode = M_ASCII;
 
     if (ac > 1) {
-	mode = -1;
-	if (av[1][0] == '-') {
-	    for (mode = NUM_MODES - 1; mode >= 0; mode--) {
-		if (av[1][1] == output[mode].flag) {
-		    break;
-		}
-	    }
-	}
+        mode = -1;
+        if (av[1][0] == '-') {
+            for (mode = NUM_MODES - 1; mode >= 0; mode--) {
+                if (av[1][1] == output[mode].flag) {
+                    break;
+                }
+            }
+        }
     }
 
     if (mode == -1) {
-	fprintf(stderr, usage, progname);
-	exit(1);
+        fprintf(stderr, usage, progname);
+        exit(1);
     }
 
     return (mode);
@@ -411,18 +411,18 @@ char *line;
     static int version = DEFAULT_VERSION;
 
     if (line[0] == '#' || line[0] == '\0' || line[0] == '\n') {
-	/*
-	 * This is a comment line of some kind.
-	 */
+        /*
+         * This is a comment line of some kind.
+         */
 
-	if (strncmp(line, VERSION_STRING, strlen(VERSION_STRING)) == 0) {
-	    /*
-	     * Get file format version number
-	     */
+        if (strncmp(line, VERSION_STRING, strlen(VERSION_STRING)) == 0) {
+            /*
+             * Get file format version number
+             */
 
-	    sscanf(line, "%*s %d", &version);
-	}
-	return NULL;
+            sscanf(line, "%*s %d", &version);
+        }
+        return NULL;
     }
 
     /*
@@ -436,25 +436,23 @@ char *line;
      */
 
     if (version == 1) {
-	char gas = ' ', belt = ' ';
+        char gas = ' ', belt = ' ';
 
-	(void)sscanf(line,
-	    "%2d%2d%*c%18c%*c%9c%*c%c%*c%15c%*c%2c%*c%c%*c%1c%1c",
-	    &s.x, &s.y, s.name, s.uwp, &s.base, s.trade,
-	    s.align, &s.zone, &gas, &belt);
-	s.gas = ((gas == 'G') ? 1 : 0);
-	s.belt = ((belt == 'P') ? 1 : 0);
-    }
-    else if (version == 2) {
-	(void)sscanf(line,
-	    "%18c%*c%2d%2d%*c%9c%*c%c%*c%15c%*c%1d%1d%1d%*c%2c%*c%c",
-	    s.name, &s.x, &s.y, s.uwp, &s.base, s.trade,
-	    &s.pmul, &s.belt, &s.gas, s.align, &s.zone);
-    }
-    else {
-	fprintf(stderr, "%s: Unknown input format version number %d.\n",
-	    progname, version);
-	exit(1);
+        (void)sscanf(line,
+                     "%2d%2d%*c%18c%*c%9c%*c%c%*c%15c%*c%2c%*c%c%*c%1c%1c",
+                     &s.x, &s.y, s.name, s.uwp, &s.base, s.trade,
+                     s.align, &s.zone, &gas, &belt);
+        s.gas = ((gas == 'G') ? 1 : 0);
+        s.belt = ((belt == 'P') ? 1 : 0);
+    } else if (version == 2) {
+        (void)sscanf(line,
+                     "%18c%*c%2d%2d%*c%9c%*c%c%*c%15c%*c%1d%1d%1d%*c%2c%*c%c",
+                     s.name, &s.x, &s.y, s.uwp, &s.base, s.trade,
+                     &s.pmul, &s.belt, &s.gas, s.align, &s.zone);
+    } else {
+        fprintf(stderr, "%s: Unknown input format version number %d.\n",
+                progname, version);
+        exit(1);
     }
 
     /*
@@ -561,9 +559,9 @@ capitalize(s)
 char *s;
 {
     for (; *s; s++) {
-	if (islower(*s)) {
-	    *s = toupper(*s);
-	}
+        if (islower(*s)) {
+            *s = toupper(*s);
+        }
     }
 }
 
@@ -606,13 +604,13 @@ ascii_init()
     ascii_n_lines = 0;
 
     if ((template = fopen(MAP_TEMPLATE, "r")) == NULL) {
-	perror(MAP_TEMPLATE);
-	exit(1);
+        perror(MAP_TEMPLATE);
+        exit(1);
     }
 
     for (map = &ascii_output[0][0]; fgets(map, LINE_SIZE, template) != NULL;
-	map += LINE_SIZE) {
-	ascii_n_lines++;
+         map += LINE_SIZE) {
+        ascii_n_lines++;
     }
 
     (void)fclose(template);
@@ -665,55 +663,53 @@ struct sys *s;
 
     (void)sprintf(t, "%02d%02d", s->x, s->y);
     ascii_overwrite(ascii_xy(s->x, s->y, 3, 0), t, 4);
-    ascii_overwrite(ascii_xy(s->x, s->y, 3, 1), 
-        ((s->base == 'N' || s->base == 'A' || s->base == 'B') ? "*"
-	: ((s->base == 'D') ? "#" : " ")), 1);
+    ascii_overwrite(ascii_xy(s->x, s->y, 3, 1),
+                    ((s->base == 'N' || s->base == 'A' || s->base == 'B') ? "*"
+                     : ((s->base == 'D') ? "#" : " ")), 1);
     ascii_overwrite(ascii_xy(s->x, s->y, 5, 1), s->uwp, 1);
     ascii_overwrite(ascii_xy(s->x, s->y, 7, 1), &s->uwp[8], 1);
     ascii_overwrite(ascii_xy(s->x, s->y, 2, 2),
-	((s->base == 'S' || s->base == 'A') ? "^"
-	: ((s->base == 'W' || s->base == 'B') ? "|" : " ")), 1);
+                    ((s->base == 'S' || s->base == 'A') ? "^"
+                     : ((s->base == 'W' || s->base == 'B') ? "|" : " ")), 1);
     ascii_overwrite(ascii_xy(s->x, s->y, 4, 2),
-	((s->uwp[1] == '0') ? "%" : ((s->uwp[3] == '0') ? "O" : "@")), 1);
+                    ((s->uwp[1] == '0') ? "%" : ((s->uwp[3] == '0') ? "O" : "@")), 1);
     ascii_overwrite(ascii_xy(s->x, s->y, 6, 2),
-	((s->gas > 0) ? "." : " "), 1);
+                    ((s->gas > 0) ? "." : " "), 1);
 
     u = s->trade;
     if (u = strchr(u, 'H')) {
-	if (u[1] == 'i' || u[1] == 'I') {
-	   capitalize(s->name);
-	}
+        if (u[1] == 'i' || u[1] == 'I') {
+            capitalize(s->name);
+        }
     } else if (s->uwp[4] == '9' || s->uwp[4] == 'A') {
-       capitalize(s->name);
+        capitalize(s->name);
     }
 
     u = ascii_center_name(s->name, s->x, s->y, 0, 3, 10);
     if (u) {
-	(void)ascii_center_name(u + 1, s->x, s->y, 1, 4, 8);
+        (void)ascii_center_name(u + 1, s->x, s->y, 1, 4, 8);
     }
 
     switch (s->zone) {
     case 'A': /* Amber */
-	ascii_overwrite(ascii_xy(s->x, s->y, 2, 5), "amber", 5);
-	break;
+        ascii_overwrite(ascii_xy(s->x, s->y, 2, 5), "amber", 5);
+        break;
     case 'R': /* Red */
-	ascii_overwrite(ascii_xy(s->x, s->y, 2, 5), "RED", 3);
-	break;
+        ascii_overwrite(ascii_xy(s->x, s->y, 2, 5), "RED", 3);
+        break;
     }
 
     u = s->trade;
     while (u = strchr(u, 'C')) {
-	if (u[1] == 'a' || u[1] == 'A') {
-	    ascii_overwrite(ascii_xy(s->x, s->y, 2, 5), "Capitol", 7);
-	    break;
-	}
-	else if (u[1] == 'x' || u[1] == 'X') {
-	    ascii_overwrite(ascii_xy(s->x, s->y, 2, 5), "CAPITOL", 7);
-	    break;
-	}
-	else {
-	    u++;
-	}
+        if (u[1] == 'a' || u[1] == 'A') {
+            ascii_overwrite(ascii_xy(s->x, s->y, 2, 5), "Capitol", 7);
+            break;
+        } else if (u[1] == 'x' || u[1] == 'X') {
+            ascii_overwrite(ascii_xy(s->x, s->y, 2, 5), "CAPITOL", 7);
+            break;
+        } else {
+            u++;
+        }
     }
 }
 
@@ -822,8 +818,7 @@ int x, y, dx, dy, width;
     cur = strchr(name, ' ');
     if (cur == NULL) {
         end = name + strlen(name) - 1;
-    }
-    else {
+    } else {
         end = cur - 1;
         oldcur = NULL;
         while (cur && cur - name <= width && cur != oldcur) {
@@ -841,8 +836,7 @@ int x, y, dx, dy, width;
 
     if (strchr(end, ' ')) {
         return end + 1;
-    }
-    else {
+    } else {
         return NULL;
     }
 }
@@ -882,12 +876,12 @@ ps_init()
     char s[LINE_SIZE];
 
     if ((fp = fopen(PS_PROLOGUE, "r")) == NULL) {
-	perror(PS_PROLOGUE);
-	exit(1);
+        perror(PS_PROLOGUE);
+        exit(1);
     }
 
     while (fgets(s, sizeof(s), fp) != NULL) {
-	(void)fputs(s, stdout);
+        (void)fputs(s, stdout);
     }
 
     (void)fclose(fp);
@@ -924,65 +918,60 @@ struct sys *s;
 
     switch (s->zone) {
     case 'A':
-	printf("amberZone \n");
-	break;
+        printf("amberZone \n");
+        break;
     case 'R':
-	printf("redZone \n");
-	break;
+        printf("redZone \n");
+        break;
     }
 
     printf("(%.2d%.2d) hexNumber \n", s->x, s->y);
 
     if (s->uwp[1] == '0') {
-	printf("asteroids \n");
-    }
-    else if (s->uwp[3] == '0') {
-	printf("desPlnt \n");
-    }
-    else {
-	printf("liqPlnt \n");
+        printf("asteroids \n");
+    } else if (s->uwp[3] == '0') {
+        printf("desPlnt \n");
+    } else {
+        printf("liqPlnt \n");
     }
 
     u = s->trade;
     if (u = strchr(u, 'H')) {
-	if (u[1] == 'i' || u[1] == 'I') {
-	   capitalize(s->name);
-	}
-    }
-    else if (s->uwp[4] == '9' || s->uwp[4] == 'A') {
-       capitalize(s->name);
+        if (u[1] == 'i' || u[1] == 'I') {
+            capitalize(s->name);
+        }
+    } else if (s->uwp[4] == '9' || s->uwp[4] == 'A') {
+        capitalize(s->name);
     }
 
     u = s->trade;
     if (u = strchr(u, 'C')) {
-	if (u[1] == 'a' || u[1] == 'A' || u[1] == 'x' || u[1] == 'X') {
-	    printf("(%s) nameCapitol \n", s->name);
-	}
-	else {
-	    printf("(%s) name \n", s->name);
-	}
-    }
-    else {
-	    printf("(%s) name \n", s->name);
+        if (u[1] == 'a' || u[1] == 'A' || u[1] == 'x' || u[1] == 'X') {
+            printf("(%s) nameCapitol \n", s->name);
+        } else {
+            printf("(%s) name \n", s->name);
+        }
+    } else {
+        printf("(%s) name \n", s->name);
     }
 
     printf("(%c) starPort \n", s->uwp[0]);
 
     if (s->base == 'N' || s->base == 'A' || s->base == 'B') {
-	printf("navalBase \n");
+        printf("navalBase \n");
     }
     if (s->base == 'D') {
-	printf("navalDepot \n");
+        printf("navalDepot \n");
     }
     if (s->base == 'S' || s->base == 'A') {
-	printf("scoutBase \n");
+        printf("scoutBase \n");
     }
     if (s->base == 'W' || s->base == 'B') {
-	printf("scoutWayStation \n");
+        printf("scoutWayStation \n");
     }
 
     if (s->gas > 0) {
-	printf("gasGiant \n");
+        printf("gasGiant \n");
     }
 
     printf("\n");

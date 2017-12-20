@@ -4,7 +4,8 @@
 #include <time.h>
 #include "anyoption.h"
 
-void printSystem(long x, long y, long z, int detail) {
+void printSystem(long x, long y, long z, int detail)
+{
     switch(detail) {
     case 1:
         sysgen1Main(x, y, z);
@@ -20,7 +21,8 @@ void printSystem(long x, long y, long z, int detail) {
     }
 }
 
-int   main(int argc, char **argv) {
+int   main(int argc, char **argv)
+{
     AnyOption *opt = new AnyOption();
 
     opt->addUsage("");

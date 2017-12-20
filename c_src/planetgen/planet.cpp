@@ -45,11 +45,11 @@
 #include "planet.h"
 
 planet::planet() :
-  M(-.02),
-  dd1(0.45),
-  dd2(0.035),
-  POW(0.47),
-  rseed(0.123)
+    M(-.02),
+    dd1(0.45),
+    dd2(0.035),
+    POW(0.47),
+    rseed(0.123)
 {
     r1 = rseed;
 
@@ -85,29 +85,29 @@ double planet::elevation(double longitude, double latitude, int depth)
     double retval = 1;
     static double _longitude = -PI;
     static double _latitude = - (PI / 2.0);
-    
-    if(_longitude + (PI * 2.0 / 36.0) <= longitude){
+
+    if(_longitude + (PI * 2.0 / 36.0) <= longitude) {
         retval = 2;
         _longitude += (PI * 2.0 / 36.0);
         if(_longitude > PI) _longitude = -PI;
     }
-    if(_latitude + (PI / 18.0) <= latitude){
+    if(_latitude + (PI / 18.0) <= latitude) {
         retval = 0;
         _latitude += (PI * 18.0);
     }
 #if 0
     double retval = generate(M,M,M,M,
-                           /* initial altitude is M on all corners of tetrahedron */
-                           r1,r2,r3,r4,
-                           /* same seed set is used in every call */
-                           -sqrt(3.0)-0.20, -sqrt(3.0)-0.22, -sqrt(3.0)-0.23,
-                           -sqrt(3.0)-0.19,  sqrt(3.0)+0.18,  sqrt(3.0)+0.17,
-                           sqrt(3.0)+0.21, -sqrt(3.0)-0.24,  sqrt(3.0)+0.15,
-                           sqrt(3.0)+0.24,  sqrt(3.0)+0.22, -sqrt(3.0)-0.25,
-                           /* coordinates of vertices of tetrahedron*/
-                           x,y,z,
-                           /* coordinates of point we want colour of */
-                           depth);
+                             /* initial altitude is M on all corners of tetrahedron */
+                             r1,r2,r3,r4,
+                             /* same seed set is used in every call */
+                             -sqrt(3.0)-0.20, -sqrt(3.0)-0.22, -sqrt(3.0)-0.23,
+                             -sqrt(3.0)-0.19,  sqrt(3.0)+0.18,  sqrt(3.0)+0.17,
+                             sqrt(3.0)+0.21, -sqrt(3.0)-0.24,  sqrt(3.0)+0.15,
+                             sqrt(3.0)+0.24,  sqrt(3.0)+0.22, -sqrt(3.0)-0.25,
+                             /* coordinates of vertices of tetrahedron*/
+                             x,y,z,
+                             /* coordinates of point we want colour of */
+                             depth);
     /* subdivision depth */
     return(retval);
 #endif
@@ -117,25 +117,25 @@ double planet::elevation(double longitude, double latitude, int depth)
 double planet::elevation(double x, double y, double z, int depth)
 {
     double retval = generate(M,M,M,M,
-                           /* initial altitude is M on all corners of tetrahedron */
-                           r1,r2,r3,r4,
-                           /* same seed set is used in every call */
-                           -sqrt(3.0)-0.20, -sqrt(3.0)-0.22, -sqrt(3.0)-0.23,
-                           -sqrt(3.0)-0.19,  sqrt(3.0)+0.18,  sqrt(3.0)+0.17,
-                           sqrt(3.0)+0.21, -sqrt(3.0)-0.24,  sqrt(3.0)+0.15,
-                           sqrt(3.0)+0.24,  sqrt(3.0)+0.22, -sqrt(3.0)-0.25,
-                           /* coordinates of vertices of tetrahedron*/
-                           x,y,z,
-                           /* coordinates of point we want colour of */
-                           depth);
+                             /* initial altitude is M on all corners of tetrahedron */
+                             r1,r2,r3,r4,
+                             /* same seed set is used in every call */
+                             -sqrt(3.0)-0.20, -sqrt(3.0)-0.22, -sqrt(3.0)-0.23,
+                             -sqrt(3.0)-0.19,  sqrt(3.0)+0.18,  sqrt(3.0)+0.17,
+                             sqrt(3.0)+0.21, -sqrt(3.0)-0.24,  sqrt(3.0)+0.15,
+                             sqrt(3.0)+0.24,  sqrt(3.0)+0.22, -sqrt(3.0)-0.25,
+                             /* coordinates of vertices of tetrahedron*/
+                             x,y,z,
+                             /* coordinates of point we want colour of */
+                             depth);
     /* subdivision depth */
     return(retval);
 }
 
 double planet::generate(double a, double b, double c, double d, double as, double bs, double cs, double ds,
-              double ax, double ay, double az, double bx, double by, double bz, double cx, double cy,
-              double cz, double dx, double dy, double dz,
-              double x, double y, double z, int level)
+                        double ax, double ay, double az, double bx, double by, double bz, double cx, double cy,
+                        double cz, double dx, double dy, double dz,
+                        double x, double y, double z, int level)
 //double a,b,c,d;		      /* altitudes of the 4 verticess */
 //double as,bs,cs,ds;	      /* seeds of the 4 verticess */
 //double ax,ay,az, bx,by,bz,  /* vertex coordinates */
@@ -165,8 +165,8 @@ double planet::generate(double a, double b, double c, double d, double as, doubl
     /* reorder vertices so ab is longest edge */
     if (lab<lac)
         return(generate(a,c,b,d, as,cs,bs,ds,
-                      ax,ay,az, cx,cy,cz, bx,by,bz, dx,dy,dz,
-                      x,y,z, level));
+                        ax,ay,az, cx,cy,cz, bx,by,bz, dx,dy,dz,
+                        x,y,z, level));
     else {
         adx = ax-dx;
         ady = ay-dy;
@@ -174,8 +174,8 @@ double planet::generate(double a, double b, double c, double d, double as, doubl
         lad = adx*adx+ady*ady+adz*adz;
         if (lab<lad)
             return(generate(a,d,b,c, as,ds,bs,cs,
-                          ax,ay,az, dx,dy,dz, bx,by,bz, cx,cy,cz,
-                          x,y,z, level));
+                            ax,ay,az, dx,dy,dz, bx,by,bz, cx,cy,cz,
+                            x,y,z, level));
         else {
             bcx = bx-cx;
             bcy = by-cy;
@@ -183,8 +183,8 @@ double planet::generate(double a, double b, double c, double d, double as, doubl
             lbc = bcx*bcx+bcy*bcy+bcz*bcz;
             if (lab<lbc)
                 return(generate(b,c,a,d, bs,cs,as,ds,
-                              bx,by,bz, cx,cy,cz, ax,ay,az, dx,dy,dz,
-                              x,y,z, level));
+                                bx,by,bz, cx,cy,cz, ax,ay,az, dx,dy,dz,
+                                x,y,z, level));
             else {
                 bdx = bx-dx;
                 bdy = by-dy;
@@ -192,8 +192,8 @@ double planet::generate(double a, double b, double c, double d, double as, doubl
                 lbd = bdx*bdx+bdy*bdy+bdz*bdz;
                 if (lab<lbd)
                     return(generate(b,d,a,c, bs,ds,as,cs,
-                                  bx,by,bz, dx,dy,dz, ax,ay,az, cx,cy,cz,
-                                  x,y,z, level));
+                                    bx,by,bz, dx,dy,dz, ax,ay,az, cx,cy,cz,
+                                    x,y,z, level));
                 else {
                     cdx = cx-dx;
                     cdy = cy-dy;
@@ -201,8 +201,8 @@ double planet::generate(double a, double b, double c, double d, double as, doubl
                     lcd = cdx*cdx+cdy*cdy+cdz*cdz;
                     if (lab<lcd)
                         return(generate(c,d,a,b, cs,ds,as,bs,
-                                      cx,cy,cz, dx,dy,dz, ax,ay,az, bx,by,bz,
-                                      x,y,z, level));
+                                        cx,cy,cz, dx,dy,dz, ax,ay,az, bx,by,bz,
+                                        x,y,z, level));
                     else { /* ab is longest, so cut ab */
                         es = rand2(as,bs);
                         es1 = rand2(es,es);
@@ -245,12 +245,12 @@ double planet::generate(double a, double b, double c, double d, double as, doubl
                             (epx*ecy*edz+epy*ecz*edx+epz*ecx*edy
                              -epz*ecy*edx-epy*ecx*edz-epx*ecz*edy)>0.0)
                             return(generate(c,d,a,e, cs,ds,as,es,
-                                          cx,cy,cz, dx,dy,dz, ax,ay,az, ex,ey,ez,
-                                          x,y,z, level-1));
+                                            cx,cy,cz, dx,dy,dz, ax,ay,az, ex,ey,ez,
+                                            x,y,z, level-1));
                         else
                             return(generate(c,d,b,e, cs,ds,bs,es,
-                                          cx,cy,cz, dx,dy,dz, bx,by,bz, ex,ey,ez,
-                                          x,y,z, level-1));
+                                            cx,cy,cz, dx,dy,dz, bx,by,bz, ex,ey,ez,
+                                            x,y,z, level-1));
                     }
                 }
             }

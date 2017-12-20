@@ -81,53 +81,53 @@ char wordout[73]; /* 6 sylables x 3 (CVC) x 4 (max. length) */
 void main(int argc, char **argv)
 #else
 void main(argc, argv)
-	int argc;
-	char **argv;
+int argc;
+char **argv;
 #endif
 {
-   int i;
+    int i;
 
-   randomize();
-   if (argc < 2)
-      usage(argv);
+    randomize();
+    if (argc < 2)
+        usage(argv);
 #if (TRACE)
-   fprintf(stderr,"Reading word data from %s\n",argv[1]);
+    fprintf(stderr,"Reading word data from %s\n",argv[1]);
 #endif
-   read_table(argv);
+    read_table(argv);
 #if (DEBUG2)
-   print_tables();
+    print_tables();
 #endif
-   if (argc < 3) do_word(d6);
-   for (i=2; i<argc; i++)
-      do_word(atoi(argv[i]));
+    if (argc < 3) do_word(d6);
+    for (i=2; i<argc; i++)
+        do_word(atoi(argv[i]));
 #if (ECHO)
-   printf("\n");
+    printf("\n");
 #endif
-   exit(0);
+    exit(0);
 }
 
 #ifdef __STDC__
 void do_word(int syl)
 #else
 void do_word(syl)
-	int syl;
+int syl;
 #endif
 {
-   int i;
+    int i;
 
-   wordout[0] = '\0';
-   if (syl == 0) syl = d6;
+    wordout[0] = '\0';
+    if (syl == 0) syl = d6;
 
-   for (i=0; i<syl; i++)
-      if (next_table == 'B')
-         do_syl(1);
-      else if (next_table == 'A')
-         do_syl(0);
-      else
-         do_syl(2);
-   next_table = 'B'; /* set up for next word */
+    for (i=0; i<syl; i++)
+        if (next_table == 'B')
+            do_syl(1);
+        else if (next_table == 'A')
+            do_syl(0);
+        else
+            do_syl(2);
+    next_table = 'B'; /* set up for next word */
 #if (ECHO)
-   printf(" ");
+    printf(" ");
 #endif
 }
 
@@ -135,73 +135,73 @@ void do_word(syl)
 void do_syl(int isbasic)
 #else
 void do_syl(isbasic)
-	int isbasic;
+int isbasic;
 #endif
 {
-   char pattern[3];
-   int i,j;
+    char pattern[3];
+    int i,j;
 
-   i = d6-1;
-   j = d6-1;
-   if (isbasic == 1) {
+    i = d6-1;
+    j = d6-1;
+    if (isbasic == 1) {
 #if (TRACE)
-   fprintf(stderr,"(Basic%d%d)",i+1,j+1);
+        fprintf(stderr,"(Basic%d%d)",i+1,j+1);
 #endif
-      next_table = 'B';
-      pattern[0] = basic[i][j][0];
-      if ((pattern[1] = basic[i][j][1]) == '*')
-         next_table = 'A';
-      else if (pattern[1] == '%')
-         next_table = '2';
-      if ((pattern[2] = basic[i][j][2]) == '*')
-         next_table = 'A';
-      else if (pattern[2] == '%')
-         next_table = '2';
-      if (basic[i][j][3] == '*')
-         next_table = 'A';
-      else if (basic[i][j][3] == '%')
-         next_table = '2';
-   } else if (isbasic == 2) {
+        next_table = 'B';
+        pattern[0] = basic[i][j][0];
+        if ((pattern[1] = basic[i][j][1]) == '*')
+            next_table = 'A';
+        else if (pattern[1] == '%')
+            next_table = '2';
+        if ((pattern[2] = basic[i][j][2]) == '*')
+            next_table = 'A';
+        else if (pattern[2] == '%')
+            next_table = '2';
+        if (basic[i][j][3] == '*')
+            next_table = 'A';
+        else if (basic[i][j][3] == '%')
+            next_table = '2';
+    } else if (isbasic == 2) {
 #if (TRACE)
-   fprintf(stderr,"(Alt'%d%d)",i+1,j+1);
+        fprintf(stderr,"(Alt'%d%d)",i+1,j+1);
 #endif
-      next_table = 'B';
-      pattern[0] = alt2[i][j][0];
-      if ((pattern[1] = alt2[i][j][1]) == '*')
-         next_table = 'A';
-      else if (pattern[1] == '%')
-         next_table = '2';
-      if ((pattern[2] = alt2[i][j][2]) == '*')
-         next_table = 'A';
-      else if (pattern[2] == '%')
-         next_table = '2';
-      if (alt2[i][j][3] == '*')
-         next_table = 'A';
-      else if (alt2[i][j][3] == '%')
-         next_table = '2';
-   } else {
+        next_table = 'B';
+        pattern[0] = alt2[i][j][0];
+        if ((pattern[1] = alt2[i][j][1]) == '*')
+            next_table = 'A';
+        else if (pattern[1] == '%')
+            next_table = '2';
+        if ((pattern[2] = alt2[i][j][2]) == '*')
+            next_table = 'A';
+        else if (pattern[2] == '%')
+            next_table = '2';
+        if (alt2[i][j][3] == '*')
+            next_table = 'A';
+        else if (alt2[i][j][3] == '%')
+            next_table = '2';
+    } else {
 #if (TRACE)
-   fprintf(stderr,"(Alter%d%d)",i+1,j+1);
+        fprintf(stderr,"(Alter%d%d)",i+1,j+1);
 #endif
-      next_table = 'B';
-      pattern[0] = alternate[i][j][0];
-      if ((pattern[1] = alternate[i][j][1]) == '*')
-         next_table = 'A';
-      else if (pattern[1] == '%')
-         next_table = '2';
-      if ((pattern[2] = alternate[i][j][2]) == '*')
-         next_table = 'A';
-      else if (pattern[2] == '%')
-         next_table = '2';
-      if (alternate[i][j][3] == '*')
-         next_table = 'A';
-      else if (alternate[i][j][3] == '%')
-         next_table = '2';
-   }
-   for (i=0; i<3; i++)
-      do_element(pattern[i],i);
+        next_table = 'B';
+        pattern[0] = alternate[i][j][0];
+        if ((pattern[1] = alternate[i][j][1]) == '*')
+            next_table = 'A';
+        else if (pattern[1] == '%')
+            next_table = '2';
+        if ((pattern[2] = alternate[i][j][2]) == '*')
+            next_table = 'A';
+        else if (pattern[2] == '%')
+            next_table = '2';
+        if (alternate[i][j][3] == '*')
+            next_table = 'A';
+        else if (alternate[i][j][3] == '%')
+            next_table = '2';
+    }
+    for (i=0; i<3; i++)
+        do_element(pattern[i],i);
 #if (DEFINE)
-   fprintf(stdout,"-");
+    fprintf(stdout,"-");
 #endif
 }
 
@@ -209,17 +209,17 @@ void do_syl(isbasic)
 void do_element(char ch, int count)
 #else
 void do_element(ch, count)
-	char ch;
-	int count;
+char ch;
+int count;
 #endif
 {
-   if (ch == 'V')
-      do_component(2); /* vowel */
-   else if (ch == 'C')
-      if (count == 0)
-         do_component(1); /* initial consonant */
-      else
-         do_component(3); /* final consonant */
+    if (ch == 'V')
+        do_component(2); /* vowel */
+    else if (ch == 'C')
+        if (count == 0)
+            do_component(1); /* initial consonant */
+        else
+            do_component(3); /* final consonant */
 
 }
 
@@ -227,50 +227,50 @@ void do_element(ch, count)
 void do_component(int which)
 #else
 void do_component(which)
-	int which;
+int which;
 #endif
 {
-   char output[5];
-   int i,j,k,l;
+    char output[5];
+    int i,j,k,l;
 
-   i = d6-1;
-   j = d6-1;
-   k = d6-1;
+    i = d6-1;
+    j = d6-1;
+    k = d6-1;
 
-   switch (which) {
-      case 1: /* initial consonant */
+    switch (which) {
+    case 1: /* initial consonant */
 #if (TRACE)
-   fprintf(stderr,"(C%d%d%d)",i+1,j+1,k+1);
+        fprintf(stderr,"(C%d%d%d)",i+1,j+1,k+1);
 #endif
-         for (l=0;l<4; l++)
+        for (l=0; l<4; l++)
             output[l] = ic[i][j][k][l];
-         break;
-      case 2: /* vowel */
+        break;
+    case 2: /* vowel */
 #if (TRACE)
-   fprintf(stderr,"(V%d%d%d)",i+1,j+1,k+1);
+        fprintf(stderr,"(V%d%d%d)",i+1,j+1,k+1);
 #endif
-         for (l=0;l<4; l++)
+        for (l=0; l<4; l++)
             output[l] = v[i][j][k][l];
-         break;
-      case 3: /* final consonant */
+        break;
+    case 3: /* final consonant */
 #if (TRACE)
-   fprintf(stderr,"(K%d%d%d)",i+1,j+1,k+1);
+        fprintf(stderr,"(K%d%d%d)",i+1,j+1,k+1);
 #endif
-         for (l=0;l<4; l++)
+        for (l=0; l<4; l++)
             output[l] = fc[i][j][k][l];
-         break;
-   }
-   for (i=3; i>0; i--)
-      if (output[i] != ' ') {
-         output[i+1] = '\0';
-         break;
-      }
-   strcat(wordout,output);
+        break;
+    }
+    for (i=3; i>0; i--)
+        if (output[i] != ' ') {
+            output[i+1] = '\0';
+            break;
+        }
+    strcat(wordout,output);
 #if (ECHO)
-   printf("%s",output);
+    printf("%s",output);
 #endif
 #if (DEFINE)
-   fprintf(stdout,".");
+    fprintf(stdout,".");
 #endif
 }
 
@@ -278,82 +278,82 @@ void do_component(which)
 void read_table(char **argv)
 #else
 void read_table(argv)
-	char **argv;
+char **argv;
 #endif
 {
-   FILE *inp;
-   char line[LINE_LEN + 1];
-   char test[20];
-   int i, j;
+    FILE *inp;
+    char line[LINE_LEN + 1];
+    char test[20];
+    int i, j;
 
-   inp = fopen(argv[1],"r");
-   if (inp == NULL) {
-      fprintf(stderr,"Couldn't open file %s\n",argv[1]);
-      usage(argv);
-      exit(0);
-   }
+    inp = fopen(argv[1],"r");
+    if (inp == NULL) {
+        fprintf(stderr,"Couldn't open file %s\n",argv[1]);
+        usage(argv);
+        exit(0);
+    }
 
-   do {
-       if (!READ_A_LINE(line, inp)) {
-	   fprintf(stderr, "Can't find 'Basic' token!\n");
-	   exit(1);
-       }
-       sscanf(line,"%s",test);
-   } while (strcmp(test,"Basic") != 0);
-   DISCARD_LINE(line, inp);
-   for (i=0;i<6;i++) {
-       if (!READ_A_LINE(line, inp)) {
-	   fprintf(stderr, "Couldn't read Basic/Alternate info\n");
-	   exit(1);
-       }
-       get_syll_line(i,line);
-   }
-   do {
-       if (!READ_A_LINE(line, inp)) {
-	   fprintf(stderr, "Can't find 'Initial' token!\n");
-	   exit(1);
-       }
-       sscanf(line,"%s",test);
-   } while (strcmp(test,"Initial") != 0);
-   DISCARD_LINE(line, inp);
-   for (i=0; i<6; i++)
-      for (j=0; j<6; j++) {
-	  if (!READ_A_LINE(line, inp)) {
-	      fprintf(stderr, "Couldn't read syllable data!\n");
-	      exit(1);
-	  }
-	  get_elem_line(i,j,line,inp);
-      }
+    do {
+        if (!READ_A_LINE(line, inp)) {
+            fprintf(stderr, "Can't find 'Basic' token!\n");
+            exit(1);
+        }
+        sscanf(line,"%s",test);
+    } while (strcmp(test,"Basic") != 0);
+    DISCARD_LINE(line, inp);
+    for (i=0; i<6; i++) {
+        if (!READ_A_LINE(line, inp)) {
+            fprintf(stderr, "Couldn't read Basic/Alternate info\n");
+            exit(1);
+        }
+        get_syll_line(i,line);
+    }
+    do {
+        if (!READ_A_LINE(line, inp)) {
+            fprintf(stderr, "Can't find 'Initial' token!\n");
+            exit(1);
+        }
+        sscanf(line,"%s",test);
+    } while (strcmp(test,"Initial") != 0);
+    DISCARD_LINE(line, inp);
+    for (i=0; i<6; i++)
+        for (j=0; j<6; j++) {
+            if (!READ_A_LINE(line, inp)) {
+                fprintf(stderr, "Couldn't read syllable data!\n");
+                exit(1);
+            }
+            get_elem_line(i,j,line,inp);
+        }
 #if (DEBUG)
-   fprintf(stderr,"Finished reading in file\n");
+    fprintf(stderr,"Finished reading in file\n");
 #endif
-   fclose(inp);
+    fclose(inp);
 }
 
 #ifdef __STDC__
 void get_syll_line(int i, char line[])
 #else
 void get_syll_line(i, line)
-	int i;
-	char line[];
+int i;
+char line[];
 #endif
 {
-   int test;
+    int test;
 
-   sscanf(line,"%d",&test);
-   if (test != (i+1))
-      fprintf(stderr,"Error in syllable line %d >%s<\n",i,line);
-   sscanf(line,"%*d %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s",
-      basic[i][0], basic[i][1], basic[i][2], 
-      basic[i][3], basic[i][4], basic[i][5],
-      alternate[i][0], alternate[i][1], alternate[i][2], 
-      alternate[i][3], alternate[i][4], alternate[i][5],
-      alt2[i][0], alt2[i][1], alt2[i][2], 
-      alt2[i][3], alt2[i][4], alt2[i][5]
-      );
+    sscanf(line,"%d",&test);
+    if (test != (i+1))
+        fprintf(stderr,"Error in syllable line %d >%s<\n",i,line);
+    sscanf(line,"%*d %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s",
+           basic[i][0], basic[i][1], basic[i][2],
+           basic[i][3], basic[i][4], basic[i][5],
+           alternate[i][0], alternate[i][1], alternate[i][2],
+           alternate[i][3], alternate[i][4], alternate[i][5],
+           alt2[i][0], alt2[i][1], alt2[i][2],
+           alt2[i][3], alt2[i][4], alt2[i][5]
+          );
 #if (DEBUG)
-   fprintf(stderr,"line is %s\n",line);
-   fprintf(stderr,"basic[%d][0] = %s\n",i,basic[i][0]);
+    fprintf(stderr,"line is %s\n",line);
+    fprintf(stderr,"basic[%d][0] = %s\n",i,basic[i][0]);
 #endif
 }
 
@@ -361,39 +361,39 @@ void get_syll_line(i, line)
 void get_elem_line(int i, int j, char line[], FILE *inp)
 #else
 void get_elem_line(i, j, line, inp)
-	int i;
-	int j;
-	char line[];
-	FILE *inp;
+int i;
+int j;
+char line[];
+FILE *inp;
 #endif
 {
-   int test;
+    int test;
 
-   sscanf(line,"%d",&test);
+    sscanf(line,"%d",&test);
 #if (DEBUG2)
-   fprintf(stderr,"line %d,%d, test is %d against %d\n",
-               i,j,test,((i+1)*10+j+1));
+    fprintf(stderr,"line %d,%d, test is %d against %d\n",
+            i,j,test,((i+1)*10+j+1));
 #endif
-   if (test != (i+1)*10+j+1) {
+    if (test != (i+1)*10+j+1) {
 #if (DEBUG1)
-      fprintf(stderr,"Skipping line >%s<\n", line);
+        fprintf(stderr,"Skipping line >%s<\n", line);
 #endif
-      if (!READ_A_LINE(line, inp)) {
-	  fprintf(stderr, "Can't read element line!\n");
-	  exit(1);
-      }
-   }
-   sscanf(line,"%d",&test);
-   if (test != (i+1)*10+j+1)
-      fprintf(stderr,"Error in element line %d,%d >%s<\n",i,j,line);
-   sscanf(line,"%*d %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s",
-      ic[i][j][0], ic[i][j][1], ic[i][j][2], 
-      ic[i][j][3], ic[i][j][4], ic[i][j][5], 
-      v[i][j][0], v[i][j][1], v[i][j][2], 
-      v[i][j][3], v[i][j][4], v[i][j][5], 
-      fc[i][j][0], fc[i][j][1], fc[i][j][2], 
-      fc[i][j][3], fc[i][j][4], fc[i][j][5] 
-      );
+        if (!READ_A_LINE(line, inp)) {
+            fprintf(stderr, "Can't read element line!\n");
+            exit(1);
+        }
+    }
+    sscanf(line,"%d",&test);
+    if (test != (i+1)*10+j+1)
+        fprintf(stderr,"Error in element line %d,%d >%s<\n",i,j,line);
+    sscanf(line,"%*d %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s %s",
+           ic[i][j][0], ic[i][j][1], ic[i][j][2],
+           ic[i][j][3], ic[i][j][4], ic[i][j][5],
+           v[i][j][0], v[i][j][1], v[i][j][2],
+           v[i][j][3], v[i][j][4], v[i][j][5],
+           fc[i][j][0], fc[i][j][1], fc[i][j][2],
+           fc[i][j][3], fc[i][j][4], fc[i][j][5]
+          );
 }
 
 #ifdef __STDC__
@@ -402,39 +402,40 @@ void print_tables(void)
 void print_tables()
 #endif
 {
-   int i,j;
+    int i,j;
 
-   fprintf(stderr,"\tBasic\t\t\t\t\tAlternate\n");
-   fprintf(stderr,"  1    2    3    4    5    6\t\t1    2    3    4    5    6\n");
-   for (i=0;i<6;i++)
-      fprintf(stderr,"%d %4s %4s %4s %4s %4s %4s\t\t%4s %4s %4s %4s %4s %4s\n",i+1,
-         basic[i][0], basic[i][1], basic[i][2], 
-         basic[i][3], basic[i][4], basic[i][5],
-         alternate[i][0], alternate[i][1], alternate[i][2], 
-         alternate[i][3], alternate[i][4], alternate[i][5]
-         );
-   fprintf(stderr,"(Only four choices on table V, CV, VC, and CVC, append * to use alternate table)\n\n");
-   fprintf(stderr,"\tInitial Consonant\t\tVowel\t\tFinal Consonant\n");
-   fprintf(stderr,"   1   2   3   4   5   6  \t1   2   3   4   5   6   1   2   3   4   5   6\n");
-   for (i=0; i<6; i++) {
-      for (j=0;j<6;j++)
-         fprintf(stderr,"%0d%0d %4s %4s %4s %4s %4s %4s\t%4s %4s %4s %4s %4s %4s %4s %4s %4s %4s %4s %4s\n",i+1,j+1,
-            ic[i][j][0], ic[i][j][1], ic[i][j][2], 
-            ic[i][j][3], ic[i][j][4], ic[i][j][5], 
-            v[i][j][0], v[i][j][1], v[i][j][2], 
-            v[i][j][3], v[i][j][4], v[i][j][5], 
-            fc[i][j][0], fc[i][j][1], fc[i][j][2], 
-            fc[i][j][3], fc[i][j][4], fc[i][j][5] 
-            );
-      fprintf(stderr,"\n");
-   }
+    fprintf(stderr,"\tBasic\t\t\t\t\tAlternate\n");
+    fprintf(stderr,"  1    2    3    4    5    6\t\t1    2    3    4    5    6\n");
+    for (i=0; i<6; i++)
+        fprintf(stderr,"%d %4s %4s %4s %4s %4s %4s\t\t%4s %4s %4s %4s %4s %4s\n",i+1,
+                basic[i][0], basic[i][1], basic[i][2],
+                basic[i][3], basic[i][4], basic[i][5],
+                alternate[i][0], alternate[i][1], alternate[i][2],
+                alternate[i][3], alternate[i][4], alternate[i][5]
+               );
+    fprintf(stderr,"(Only four choices on table V, CV, VC, and CVC, append * to use alternate table)\n\n");
+    fprintf(stderr,"\tInitial Consonant\t\tVowel\t\tFinal Consonant\n");
+    fprintf(stderr,"   1   2   3   4   5   6  \t1   2   3   4   5   6   1   2   3   4   5   6\n");
+    for (i=0; i<6; i++) {
+        for (j=0; j<6; j++)
+            fprintf(stderr,"%0d%0d %4s %4s %4s %4s %4s %4s\t%4s %4s %4s %4s %4s %4s %4s %4s %4s %4s %4s %4s\n",i+1,j+1,
+                    ic[i][j][0], ic[i][j][1], ic[i][j][2],
+                    ic[i][j][3], ic[i][j][4], ic[i][j][5],
+                    v[i][j][0], v[i][j][1], v[i][j][2],
+                    v[i][j][3], v[i][j][4], v[i][j][5],
+                    fc[i][j][0], fc[i][j][1], fc[i][j][2],
+                    fc[i][j][3], fc[i][j][4], fc[i][j][5]
+                   );
+        fprintf(stderr,"\n");
+    }
 
 }
 
 #ifdef __STDC__
-void usage(char **argv) {
-   fprintf(stderr,"Usage: %s wordfile syllables...\n",argv[0]); 
-   exit(0);
+void usage(char **argv)
+{
+    fprintf(stderr,"Usage: %s wordfile syllables...\n",argv[0]);
+    exit(0);
 }
 #endif
 /*

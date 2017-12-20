@@ -19,18 +19,22 @@
 
 using namespace std;
 
-class logger : public ThreadObject {
-	public:
-		logger();
-		~logger();
-		logger(char *filename);
-		int write(char *buffer, int size);
-		void run(void);
-		queue *getQueue() {return(q);};
-	private:
-		FILE *outfile;
-		queue *q;
-	protected:
+class logger : public ThreadObject
+{
+public:
+    logger();
+    ~logger();
+    logger(char *filename);
+    int write(char *buffer, int size);
+    void run(void);
+    queue *getQueue()
+    {
+        return(q);
+    };
+private:
+    FILE *outfile;
+    queue *q;
+protected:
 }; /* logger */
 
 #endif /* LOGGER_H */

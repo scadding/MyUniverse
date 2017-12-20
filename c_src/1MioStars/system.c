@@ -39,7 +39,7 @@ void   primary(body *s, world *mw)
     roll = D(2);    /* generate star type */
     if (mw)
         if (((mw->atmos >= 4) && (mw->atmos <= 9)) ||
-                (mw->pop >= 8))
+            (mw->pop >= 8))
             roll += 4;
     switch (roll) {
     case 2:
@@ -69,7 +69,7 @@ void   primary(body *s, world *mw)
     roll = D(2);    /* generate star size */
     if (mw)
         if (((mw->atmos >= 4) && (mw->atmos <= 9)) ||
-                (mw->pop >= 8))
+            (mw->pop >= 8))
             roll += 4;
     switch (roll) {
     case 2:

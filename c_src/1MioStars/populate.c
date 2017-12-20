@@ -402,7 +402,7 @@ void   satelite(body *pstar, body *s, int num, mainworld *mw)
             if (sat->upp.w.size <= 4)
                 roll -= 2;
             if ((sat->upp.w.atmos != 5) && (sat->upp.w.atmos != 6) &&
-                    (sat->upp.w.atmos != 8))
+                (sat->upp.w.atmos != 8))
                 roll -= 2;
             if (roll < 0)
                 sat->upp.w.pop = 0;

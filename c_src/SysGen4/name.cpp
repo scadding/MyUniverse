@@ -6,7 +6,8 @@
 
 int mainwrld(mainworld *mw, long x, long y, long z);
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
     long    x, y, z;
     int     i;
     mainworld       mw;

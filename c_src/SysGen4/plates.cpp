@@ -1,6 +1,7 @@
 #include "sysgen.h"
 
-void setcount(int vbuf[20][28], int cbuf[20][28], int t, int h, int val) {
+void setcount(int vbuf[20][28], int cbuf[20][28], int t, int h, int val)
+{
     int     i, len;
     int     hadj[6][2];
 
@@ -12,7 +13,8 @@ void setcount(int vbuf[20][28], int cbuf[20][28], int t, int h, int val) {
     }
 }
 
-void   plates(int buf[20][28], int num) {
+void   plates(int buf[20][28], int num)
+{
     int     i, j, cont;
     int     size;
     int     t, h;
@@ -47,7 +49,7 @@ void   plates(int buf[20][28], int num) {
             for(t = 0; t < 20; t++)
                 for(h = 0; h < 28; h++) {
                     if((cbuf[t][h] > max)
-                            || ((cbuf[t][h] == max) && (D(1) <= 2))) {
+                       || ((cbuf[t][h] == max) && (D(1) <= 2))) {
                         tmax = t;
                         hmax = h;
                         max = cbuf[tmax][hmax];
@@ -61,7 +63,8 @@ void   plates(int buf[20][28], int num) {
     }
 }
 
-int find(int buf[20][28], int *t, int *h, int val) {
+int find(int buf[20][28], int *t, int *h, int val)
+{
     int     tt, hh;
 
     *t = Rand()%20;
@@ -79,7 +82,8 @@ int find(int buf[20][28], int *t, int *h, int val) {
 
 int    findt, findh;
 
-int    findfirst(int buf[20][28], int *t, int *h, int val) {
+int    findfirst(int buf[20][28], int *t, int *h, int val)
+{
     findt = Rand()%20;
     findh = Rand()%28;
     *t = findt;
@@ -90,7 +94,8 @@ int    findfirst(int buf[20][28], int *t, int *h, int val) {
     return(findnext(buf, t, h, val));
 }
 
-int findnext(int buf[20][28], int *t, int *h, int val) {
+int findnext(int buf[20][28], int *t, int *h, int val)
+{
     for(;;) {
         (*h)++;
         if(*h == 28) {
@@ -109,7 +114,8 @@ int findnext(int buf[20][28], int *t, int *h, int val) {
     }
 }
 
-int counthex(int buf[20][28], int t, int h, int val) {
+int counthex(int buf[20][28], int t, int h, int val)
+{
     int     i, len, tot;
     int     hadj[6][2];
 

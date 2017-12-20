@@ -3,7 +3,7 @@
 /* Ave_Temp       - the average temperature for each month */
 /* Weather_Table  - each entry in the table is the weather profile for each month */
 /*                  for a random 1-100 die roll. */
-/*  month profile - {precipitation, overcast, taifun/hurricane, clear} */        
+/*  month profile - {precipitation, overcast, taifun/hurricane, clear} */
 /*        example - {30,35,0,100} means that in this month a roll of : */
 /*                  1-30  = precipitation        */
 /*                 31-35  = overcast             */
@@ -21,12 +21,12 @@
 UBYTE Ave_Temp[N_MONTHS] = {40, 50, 60, 65, 70, 80, 85, 75, 65, 50, 40, 35};
 
 UBYTE Weather_Table[N_MONTHS][N_WEATHER] = {
-    {10,15,0,100}, {35,45,0,100}, {50,70,0,100}, {50,70,0,100}, {50,60,0,100}, {50,60,0,100}, 
+    {10,15,0,100}, {35,45,0,100}, {50,70,0,100}, {50,70,0,100}, {50,60,0,100}, {50,60,0,100},
     {35,40,0,100}, {40,45,55,100}, {40,45,55,100}, {10,15,17,100}, {10,15,0,100}, {10,15,0,100}
 };
 
 UBYTE Wind_Table[N_MONTHS][N_WIND] = {
-    {40,70,90,100,0}, {40,70,90,100,0}, {40,70,90,100,0}, {40,70,90,100,0}, {40,70,90,100,0}, {40,70,90,100,0}, 
+    {40,70,90,100,0}, {40,70,90,100,0}, {40,70,90,100,0}, {40,70,90,100,0}, {40,70,90,100,0}, {40,70,90,100,0},
     {40,70,90,100,0}, {40,70,90,100,0}, {40,70,90,100,0}, {40,70,90,100,0}, {40,70,90,100,0}, {40,70,90,100,0}
 };
 

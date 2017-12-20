@@ -52,9 +52,9 @@ logger::~logger()
 */
 logger::logger(char *filename)
 {
-	outfile = fopen(filename, "wb");
-	q = new queue;
-	create();
+    outfile = fopen(filename, "wb");
+    q = new queue;
+    create();
 }
 
 /*
@@ -69,7 +69,7 @@ logger::logger(char *filename)
 int logger::write(char *buffer, int size)
 {
 
-	return(0);
+    return(0);
 }
 
 /*
@@ -87,19 +87,19 @@ void logger::run(void)
     /* Buffer for data */
     char buffer[1024];
 
-	while(1){
-		//fprintf(stderr, "*");
-		if(q != NULL){
-			len = q->get((char *)buffer);
-			if(len <= 0){
-				continue;
-			}
-			fprintf(outfile, "%s", buffer);
- 		} else {
-			usleep(100);
-		}
-		usleep(5);
-   }
+    while(1) {
+        //fprintf(stderr, "*");
+        if(q != NULL) {
+            len = q->get((char *)buffer);
+            if(len <= 0) {
+                continue;
+            }
+            fprintf(outfile, "%s", buffer);
+        } else {
+            usleep(100);
+        }
+        usleep(5);
+    }
 
 }
 

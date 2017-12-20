@@ -11,7 +11,8 @@ ship   *itin;
 void   doday();
 int mainwrld(mainworld *mw, long x, long y, long z);
 
-void findvar(long *xx, long *yy, long *zz, int var) {
+void findvar(long *xx, long *yy, long *zz, int var)
+{
     long    tmp;
 
     tmp = randx.val;
@@ -25,7 +26,8 @@ void findvar(long *xx, long *yy, long *zz, int var) {
     randx.val = tmp;
 }
 
-int    passmod() {
+int    passmod()
+{
     int     mod;
 
     mod = plan.tech - mw.tech;
@@ -37,7 +39,8 @@ int    passmod() {
     return(mod);
 }
 
-int    main(int argc, char **argv) {
+int    main(int argc, char **argv)
+{
     int     mod, j;
     ship    *shptr;
     char    inbuf[40];
@@ -123,7 +126,8 @@ int    main(int argc, char **argv) {
     }
 }
 
-int high(int mod) {
+int high(int mod)
+{
     int     ret;
 
     switch(plan.pop) {
@@ -160,7 +164,8 @@ int high(int mod) {
     return(ret);
 }
 
-int middle(int mod) {
+int middle(int mod)
+{
     int     ret;
 
     switch(plan.pop) {
@@ -199,7 +204,8 @@ int middle(int mod) {
     return(ret);
 }
 
-int low(int mod) {
+int low(int mod)
+{
     int     ret;
 
     switch(plan.pop) {
@@ -238,7 +244,8 @@ int low(int mod) {
     return(ret);
 }
 
-void doday(long tim, int sh) {
+void doday(long tim, int sh)
+{
     long    tx, ty, tz;
     int     mod, roll, i, k;
     ship    *shptr;

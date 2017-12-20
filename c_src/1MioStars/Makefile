@@ -13,4 +13,4 @@ map: map.o exist.c lang.c mainwrld.c magic.c
 	$(CC) $^ -o $@
 
 clean:
-	rm -f *~ *.o system map sysgen1 sysgen2
+	rm -f *~ *.o *.orig system map sysgen1 sysgen2

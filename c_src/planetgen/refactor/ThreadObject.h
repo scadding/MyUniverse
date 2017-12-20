@@ -16,17 +16,18 @@
 
 using namespace std;
 
-class ThreadObject {
-	public:
-		ThreadObject();
-		virtual ~ThreadObject();
-		virtual void run(void) = 0;
-		int create();
-		static void task(void *arg);
-		pthread_t getThread();
-	private:
-		pthread_t thread;
-	protected:
+class ThreadObject
+{
+public:
+    ThreadObject();
+    virtual ~ThreadObject();
+    virtual void run(void) = 0;
+    int create();
+    static void task(void *arg);
+    pthread_t getThread();
+private:
+    pthread_t thread;
+protected:
 }; /* ThreadObject */
 
 #endif /* THREADOBJECT_H */

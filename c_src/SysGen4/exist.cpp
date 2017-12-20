@@ -2,7 +2,8 @@
 #include "magic.h"
 #define abs(t) ((t<0L)?(-t):(t))
 
-int exist(long x, long y, long z) {
+int exist(long x, long y, long z)
+{
     int     chance, roll;
     long    mag;
 

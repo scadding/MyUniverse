@@ -18,7 +18,8 @@ struct palettetype palette;            /* Used to read palette info    */
 /*     any errors which occured.                                       */
 /*                                                                     */
 
-void Initialise(void) {
+void Initialise(void)
+{
     int xasp, yasp;                      /* Used to read the aspect ratio*/
 
     GraphDriver = DETECT;                        /* Request auto-detection

@@ -11,7 +11,8 @@ body *getpla(body *s, char *name);
 void hex(body *s);
 void mkmap(body *s);
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
     sistem  syst;
     body    *s;
     long    x, y, z;
@@ -55,7 +56,8 @@ int main(int argc, char **argv) {
     exit(0);
 }
 
-body *getpla(body *s, char *name) {
+body *getpla(body *s, char *name)
+{
     body    *sptr, *sret;
 
     Rand();
@@ -73,7 +75,8 @@ body *getpla(body *s, char *name) {
     return(0);
 }
 
-int getgrav(body *s, int garr[10]) {
+int getgrav(body *s, int garr[10])
+{
     float   d, r;
     int     i;
 
@@ -105,7 +108,8 @@ int getgrav(body *s, int garr[10]) {
     return(0);
 }
 
-int getdiam(body *s) {
+int getdiam(body *s)
+{
     float   d;
 
     switch(s->type) {
@@ -136,7 +140,8 @@ ml {
 ml     *smap;
 FILE   *out;
 
-void hex(body *s) {
+void hex(body *s)
+{
     int     i, j;
     int     wide, high;
     ml      *mptr;
@@ -192,7 +197,8 @@ void hex(body *s) {
     }
 }
 
-void mkmap(body *s) {
+void mkmap(body *s)
+{
     body    *sptr;
     ml      *mptr;
     int     bdiam, r, o, i;
@@ -321,7 +327,8 @@ void mkmap(body *s) {
 
 */
 
-void move(int *x, int *y, int dir) {
+void move(int *x, int *y, int dir)
+{
     int     odd;
 
     odd = ((*y)%2);
@@ -359,7 +366,8 @@ void move(int *x, int *y, int dir) {
     }
 }
 
-int    moveto(int x, int y, int X, int Y) {    /* returns direction to from x,y to X,Y */
+int    moveto(int x, int y, int X, int Y)      /* returns direction to from x,y to X,Y */
+{
     int     dy;
     int     odd;
 
@@ -399,7 +407,8 @@ int    moveto(int x, int y, int X, int Y) {    /* returns direction to from x,y 
     return(3);
 }
 
-int dist(int x, int y, int X, int Y) {
+int dist(int x, int y, int X, int Y)
+{
     int     d;
 
     for(d = 0; (x != X) || (y != Y); d++) {
@@ -408,7 +417,8 @@ int dist(int x, int y, int X, int Y) {
     return(d);
 }
 
-int mdist(ml *m, int x, int y) {
+int mdist(ml *m, int x, int y)
+{
     int     d, i;
 
     d = dist(m->x, m->y, x, y);
@@ -429,7 +439,8 @@ int mdist(ml *m, int x, int y) {
     }
 }
 
-void prmap(int left, int top, int right, int bot) {
+void prmap(int left, int top, int right, int bot)
+{
     int     i, j, jj;
     ml      *mptr, *mtmp;
     int     d, dmax;

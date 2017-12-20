@@ -9,7 +9,8 @@ const char   *strprt[4] = {
     "AAAABBCCDEX"   /* cluster */
 };
 
-int mainwrld(mainworld *mw, long x, long y, long z) {
+int mainwrld(mainworld *mw, long x, long y, long z)
+{
     int     roll;
 
     roll = exist(x, y, z);

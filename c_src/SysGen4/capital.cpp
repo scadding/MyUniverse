@@ -4,11 +4,13 @@
 
 int mainwrld(mainworld *mw, long x, long y, long z);
 
-int val(mainworld *mw) {
+int val(mainworld *mw)
+{
     return(mw->tech);
 }
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
     mainworld       mw, best;
     long    x, y, z;
     long    A, B, C;

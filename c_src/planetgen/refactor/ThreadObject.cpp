@@ -53,7 +53,7 @@ ThreadObject::~ThreadObject()
 void ThreadObject::run(void)
 {
 
-	fprintf(stderr, "here\n");
+    fprintf(stderr, "here\n");
 }
 
 /*
@@ -67,7 +67,7 @@ void ThreadObject::run(void)
 */
 int ThreadObject::create()
 {
-	return(pthread_create(&thread, NULL, (void*(*)(void*))&task, this));
+    return(pthread_create(&thread, NULL, (void*(*)(void*))&task, this));
 }
 
 /*
@@ -81,9 +81,9 @@ int ThreadObject::create()
 */
 void ThreadObject::task(void *arg)
 {
-	ThreadObject *o;
-	o = (ThreadObject *)arg;
-	o->run();
+    ThreadObject *o;
+    o = (ThreadObject *)arg;
+    o->run();
 }
 
 /*
@@ -97,7 +97,7 @@ void ThreadObject::task(void *arg)
 */
 pthread_t ThreadObject::getThread()
 {
-	return(thread);
+    return(thread);
 }
 
 

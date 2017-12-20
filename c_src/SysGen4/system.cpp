@@ -9,7 +9,8 @@
 
 int mainwrld(mainworld *mw, long x, long y, long z);
 
-int makesystem(sistem *syst, long x, long y, long z) {
+int makesystem(sistem *syst, long x, long y, long z)
+{
     body    *s;
     world   mw;
 
@@ -46,7 +47,8 @@ int makesystem(sistem *syst, long x, long y, long z) {
     return(1);
 }
 
-void primary(body *s, world *mw) {
+void primary(body *s, world *mw)
+{
     body    *sptr;
     int     roll, tmp;
 
@@ -55,7 +57,7 @@ void primary(body *s, world *mw) {
     roll = D(2);    /* generate star type */
     if(mw)
         if(((mw->atmos >= 4) && (mw->atmos <= 9)) ||
-                (mw->pop >= 8)) {
+           (mw->pop >= 8)) {
             roll += 4;
         }
     switch(roll) {
@@ -86,7 +88,7 @@ void primary(body *s, world *mw) {
     roll = D(2);    /* generate star size */
     if(mw)
         if(((mw->atmos >= 4) && (mw->atmos <= 9)) ||
-                (mw->pop >= 8)) {
+           (mw->pop >= 8)) {
             roll += 4;
         }
     switch(roll) {
@@ -187,7 +189,8 @@ void primary(body *s, world *mw) {
         }
 }
 
-void clean(body *s) {
+void clean(body *s)
+{
     body    *sptr;
 
     if(s->name[0] == 0) {
@@ -223,7 +226,8 @@ void clean(body *s) {
     }
 }
 
-body *getmain(body *s) {
+body *getmain(body *s)
+{
     body    *sptr;
 
     for(sptr = s->b; sptr; sptr = sptr->o)
@@ -238,7 +242,8 @@ body *getmain(body *s) {
     return(0);
 }
 
-void forcemain(body *s, mainworld *mw) {
+void forcemain(body *s, mainworld *mw)
+{
     body    *sptr;
     int     orb;
     char    z;

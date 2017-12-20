@@ -1,7 +1,8 @@
 #include "sysgen.h"
 #include <stdio.h>
 
-void ploc(int tri, int depth, long dir) {
+void ploc(int tri, int depth, long dir)
+{
     int     i;
     printf("Triangle %d level %d ", tri, depth);
     for(i = 0; i < depth; i++) {
@@ -62,7 +63,8 @@ int    c_cross[C_WICE + 1][C_WICE + 1] = {
     }
 };
 
-void   expand(int from[28], int to[28], int dir, long seed) {
+void   expand(int from[28], int to[28], int dir, long seed)
+{
     extern sistem   syst;
     int     i;
 

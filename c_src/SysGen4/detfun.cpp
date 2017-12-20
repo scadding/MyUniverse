@@ -1,7 +1,8 @@
 #include "sysgen.h"
 #include <math.h>
 
-int    roltilt() {
+int    roltilt()
+{
     int     tilt;
 
     switch(D(2)) {
@@ -51,7 +52,8 @@ int    roltilt() {
     return(tilt);
 }
 
-float  roleccn() {
+float  roleccn()
+{
     switch(D(2)) {
     case 8:
         return(0.005);
@@ -80,7 +82,8 @@ float  roleccn() {
     return(0.0);
 }
 
-int    cliphex(int val) {
+int    cliphex(int val)
+{
     if(val < 1) {
         return(0);
     } else if(val > 14) {
@@ -89,7 +92,8 @@ int    cliphex(int val) {
     return(val);
 }
 
-int    Clip(int val, int h, int l) {
+int    Clip(int val, int h, int l)
+{
     if(val < l) {
         return(l);
     } else if(val > h) {
@@ -98,7 +102,8 @@ int    Clip(int val, int h, int l) {
     return(val);
 }
 
-int    tlm() {
+int    tlm()
+{
     switch(D(2)) {
     case 2:
         return(-D(1));

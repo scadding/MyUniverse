@@ -5,23 +5,23 @@ static int random_first = 1;
 rand(n)		/* generate a number from 1 to n, n < 1.0EE6 */
 int n;
 {
-	long rnd;
+    long rnd;
 #ifdef DOUBLE_RND
-	double tmp;
+    double tmp;
 #endif
-	int val;
+    int val;
 
-	if (random_first) {
-		srandom(time((long)0));
-		random_first=0;
-	}
-	rnd = random() & 0xFFFFF;
+    if (random_first) {
+        srandom(time((long)0));
+        random_first=0;
+    }
+    rnd = random() & 0xFFFFF;
 #ifdef DOUBLE_RND
-	tmp = (double)rnd/0x100000;
-	val = (int)(tmp*n);
+    tmp = (double)rnd/0x100000;
+    val = (int)(tmp*n);
 #else
-	val = rnd % n;
+    val = rnd % n;
 #endif
-	return(++val);
+    return(++val);
 }
 

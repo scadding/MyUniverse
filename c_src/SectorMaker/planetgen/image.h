@@ -2,7 +2,8 @@
 #ifndef IMAGE_H
 #define IMAGE_H
 
-class PlanetImage{
+class PlanetImage
+{
 public:
     PlanetImage(int width, int height);
     unsigned short Color(int i, int j, int c = -1);

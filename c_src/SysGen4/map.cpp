@@ -17,7 +17,8 @@ hex:
 int    left[6] = { 1, 3, 6, 10, 15, 21 };
 int    right[6] = { 2, 5, 9, 14, 20, 27 };
 
-void set(int buf[20][28], int tri, int hex, int val) {
+void set(int buf[20][28], int tri, int hex, int val)
+{
     int     i;
 
     if(hex == 0) {
@@ -140,7 +141,8 @@ void set(int buf[20][28], int tri, int hex, int val) {
     }
 }
 
-int adj(int t, int h, int buf[6][2]) {
+int adj(int t, int h, int buf[6][2])
+{
     int     i;
 
     for(i = 0; i < 6; i++) {
@@ -441,7 +443,8 @@ int adj(int t, int h, int buf[6][2]) {
     return(6);
 }
 
-int getrow(int t, int h) {
+int getrow(int t, int h)
+{
     int     row;
 
     for(row = 0; row < 6; row++)

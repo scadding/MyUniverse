@@ -28,7 +28,7 @@ doc:!:33:doc,rells,ksharpe,markj
 ndcsw:!:200:
 music:!:2023:karpen
 bitnet:!:36:bitnet,deroest,noyd,dbluft,yonah
-[i][j][3], fc[i][j][4], fc[i][j][5] 
+[i][j][3], fc[i][j][4], fc[i][j][5]
             );
       fprintf(stderr,"\n");
    }

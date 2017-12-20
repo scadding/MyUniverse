@@ -27,7 +27,7 @@ long double planet_albedo(long double, long double, long double, long double);
 long double opacity(long double, long double);
 long double gas_life(long double, planet_pointer);
 void calculate_surface_temp(planet_pointer, int, long double, long double,
-							long double, long double, long double);
+                            long double, long double, long double);
 void iterate_surface_temp(planet_pointer);
 
 long double inspired_partial_pressure (long double, long double);

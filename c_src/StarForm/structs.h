@@ -31,14 +31,14 @@ typedef struct planets_record {
     planet_pointer first_moon;
 #endif	/* MOON */
     planet_pointer next_planet;
-    } planets;
+} planets;
 
 
 typedef struct dust_record {
-	  double inner_edge;
-	  double outer_edge;
-	  int dust_present;
-	  int gas_present;
-	  dust_pointer next_band;
-     } dust;
+    double inner_edge;
+    double outer_edge;
+    int dust_present;
+    int gas_present;
+    dust_pointer next_band;
+} dust;
 

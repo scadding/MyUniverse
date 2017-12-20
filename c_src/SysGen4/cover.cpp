@@ -5,7 +5,8 @@ float tempat(tempdata *t, int row, int mode);
 void cover(int cov[20][28],
            int land[20][28],
            int plates[20][28],
-           body *s) {
+           body *s)
+{
     int     h, t, row, i, len;
     int     sumfreeze, winfreeze;
     int     nland;
@@ -130,7 +131,8 @@ void cover(int cov[20][28],
 int contigious(int buf[20][28],
                int val,
                int nval,
-               int size) {
+               int size)
+{
     int     t, h;
     int     tt, hh;
     int     s;
@@ -165,7 +167,8 @@ int contigious(int buf[20][28],
     return(0);
 }
 
-int iscontig(int tbuf[20][28], int t, int h, int *size) {
+int iscontig(int tbuf[20][28], int t, int h, int *size)
+{
     int     i, ii, len;
     int     tt, hh;
     int     hadj[6][2];
@@ -204,7 +207,8 @@ int iscontig(int tbuf[20][28], int t, int h, int *size) {
     return(0);
 }
 
-int setcontig(int tbuf[20][28], int t, int h, int val, int nval, int *size) {
+int setcontig(int tbuf[20][28], int t, int h, int val, int nval, int *size)
+{
     int     i, ii, len;
     int     tt, hh;
     int     hadj[6][2];

@@ -5,7 +5,8 @@
 #include "stelfun.h"
 #include "populate.h"
 
-void doempties(body *s, int n) {
+void doempties(body *s, int n)
+{
     body    *sptr;
 
     while(n--) {
@@ -17,7 +18,8 @@ void doempties(body *s, int n) {
     }
 }
 
-void dogases(body *s, int n) {
+void dogases(body *s, int n)
+{
     body    *sptr;
     int     i;
     char    z;
@@ -42,7 +44,8 @@ void dogases(body *s, int n) {
     }
 }
 
-void dotoids(body *s, int n) {
+void dotoids(body *s, int n)
+{
     body    *sptr;
 
     if(s->b == 0) {
@@ -71,7 +74,8 @@ void dotoids(body *s, int n) {
 }
 
 /* fill star with planets */
-mainworld *populate(body *s, mainworld *mw) {
+mainworld *populate(body *s, mainworld *mw)
+{
     int     horb;
     int     roll;
     char    z;
@@ -327,7 +331,8 @@ mainworld *populate(body *s, mainworld *mw) {
     return(mw);
 }
 
-void insert(body *s, body *sub) {
+void insert(body *s, body *sub)
+{
     body    *sptr;
 
     if(!s->b || (s->b->orbit > sub->orbit)) {
@@ -351,7 +356,8 @@ void insert(body *s, body *sub) {
     }
 }
 
-void satelite(body *pstar, body *s, int num, mainworld *mw) {
+void satelite(body *pstar, body *s, int num, mainworld *mw)
+{
     body    *sat;
     int     roll;
     char    z;
@@ -457,7 +463,7 @@ void satelite(body *pstar, body *s, int num, mainworld *mw) {
                 roll -= 2;
             }
             if((sat->upp.w.atmos != 5) && (sat->upp.w.atmos != 6) &&
-                    (sat->upp.w.atmos != 8)) {
+               (sat->upp.w.atmos != 8)) {
                 roll -= 2;
             }
             if(roll < 0) {

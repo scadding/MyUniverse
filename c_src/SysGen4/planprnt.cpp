@@ -30,7 +30,8 @@ void   Printw();
 void   Printw2();
 void   Printw3();
 
-void   Printw(int buf[20][28], int type) {
+void   Printw(int buf[20][28], int type)
+{
     p1(buf[4][0], type);
     printf("            ");
     p1(buf[0][0], type);
@@ -227,7 +228,8 @@ void   Printw(int buf[20][28], int type) {
     Printw3(buf, type);
 }
 
-void Printw2(int buf[20][28], int type) {
+void Printw2(int buf[20][28], int type)
+{
     p2(buf[9][25], type);
     p2(buf[9][26], type);
     p2(buf[9][27], type);
@@ -454,7 +456,8 @@ void Printw2(int buf[20][28], int type) {
     printf("\n");
 }
 
-void Printw3(int buf[20][28], int type) {
+void Printw3(int buf[20][28], int type)
+{
     p2(buf[9][25], type);
     p2(buf[14][15], type);
     p2(buf[14][16], type);

@@ -3,7 +3,7 @@
 /* This is the calendar include file is for weather generation */
 /* It includes calendar and holiday information */
 
-/* To create a new calendar file, 
+/* To create a new calendar file,
        1) define month names for use by MONTH_T type,
        2) define FIRST_MONTH and LAST_MONTH,
        3) define string array Month_Name with printable version of month,
@@ -51,92 +51,108 @@ UBYTE Day_Table[N_MONTHS] = {29, 30, 29, 30, 29, 30, 29, 30, 29, 30, 29, 30};
 
 void
 print_holiday(day,month)
-    UBYTE day;
-    MONTH_T month;
-    /* prints holidays that fall on a given day */
+UBYTE day;
+MONTH_T month;
+/* prints holidays that fall on a given day */
 {
-     if (day == 15)
-         printf(" Full Moon,");
-     if (day == Day_Table[month])
-         printf(" New Moon,");
-     switch (day) { 
-     case 1:
-     case 15 : printf(" Shinto,");
-          break;
-     case 8:
-     case 18 : printf(" Buddhist,");
-          break;
-     case 28 : printf(" Buddhist, Shinto,");
-          break;
-     }
-     switch (month) {
-     case RAT : 
-         if ((day >= 1) AND (day <= 6))
-             printf(" New Years (s)");
-         break;
-     case BULL :
-         switch (day) { 
-         case 1: case 2: case 4: case 5: case 6: case 7:
-             printf(" Equinox (b)");
-             break;
-         case 3: 
-             printf(" Setsuban (1st Day of Spring) (s)");
-             break;
-         }
-         break;
-     case TIGER :
-         if (day == 3) 
-             printf(" Doll Festival (c)");
-         break;
-     case HARE :
-         if (day == 8)
-             printf(" Buddha's Birthday (b)");
-         break;
-     case DRAGON :
-         if (day == 5) 
-             printf(" Boy's Day (c)");
-         break;
-     case SNAKE :
-         switch (day) {
-         case 1: case 2: case 3: case 4: case 5: case 6: case 7: 
-             printf(" Rice Planting Festival (p)");
-             break;
-         case 30 : 
-             printf(" All debts paid (p)");
-         }
-         break;
-     case HORSE :
-         switch (day) {
-         case 1 : 
-             printf(" Midyear (p)");
-             break;
-         case 7 : 
-             printf(" Tanabata (Star Festival) (c)");
-             break;
-         case 13: case 14: case 15: 
-             printf(" Bon Festival (for the dead) (b)");
-         }
-         break;
-     case SHEEP :
-         if ((day >= 1) AND (day <= 7)) 
-             printf(" Equinox (b)");
-         break;
-     case BIRD :
-         switch (day) { 
-         case 15 : 
-              printf(" Rice Harvest Festival (p)");
-              break;
-         case 20 : 
-              printf(" Festival of Ebishu (s)");
-         } 
-         break;
-     case DOG :
-         if (day == 8) 
-             printf(" Feast of the Bellows (s)");
-         break;
-     case BOAR :
-         if (day == 30) 
-             printf(" All debts paid (p)");
-     }
+    if (day == 15)
+        printf(" Full Moon,");
+    if (day == Day_Table[month])
+        printf(" New Moon,");
+    switch (day) {
+    case 1:
+    case 15 :
+        printf(" Shinto,");
+        break;
+    case 8:
+    case 18 :
+        printf(" Buddhist,");
+        break;
+    case 28 :
+        printf(" Buddhist, Shinto,");
+        break;
+    }
+    switch (month) {
+    case RAT :
+        if ((day >= 1) AND (day <= 6))
+            printf(" New Years (s)");
+        break;
+    case BULL :
+        switch (day) {
+        case 1:
+        case 2:
+        case 4:
+        case 5:
+        case 6:
+        case 7:
+            printf(" Equinox (b)");
+            break;
+        case 3:
+            printf(" Setsuban (1st Day of Spring) (s)");
+            break;
+        }
+        break;
+    case TIGER :
+        if (day == 3)
+            printf(" Doll Festival (c)");
+        break;
+    case HARE :
+        if (day == 8)
+            printf(" Buddha's Birthday (b)");
+        break;
+    case DRAGON :
+        if (day == 5)
+            printf(" Boy's Day (c)");
+        break;
+    case SNAKE :
+        switch (day) {
+        case 1:
+        case 2:
+        case 3:
+        case 4:
+        case 5:
+        case 6:
+        case 7:
+            printf(" Rice Planting Festival (p)");
+            break;
+        case 30 :
+            printf(" All debts paid (p)");
+        }
+        break;
+    case HORSE :
+        switch (day) {
+        case 1 :
+            printf(" Midyear (p)");
+            break;
+        case 7 :
+            printf(" Tanabata (Star Festival) (c)");
+            break;
+        case 13:
+        case 14:
+        case 15:
+            printf(" Bon Festival (for the dead) (b)");
+        }
+        break;
+    case SHEEP :
+        if ((day >= 1) AND (day <= 7))
+            printf(" Equinox (b)");
+        break;
+    case BIRD :
+        switch (day) {
+        case 15 :
+            printf(" Rice Harvest Festival (p)");
+            break;
+        case 20 :
+            printf(" Festival of Ebishu (s)");
+        }
+        break;
+    case DOG :
+        if (day == 8)
+            printf(" Feast of the Bellows (s)");
+        break;
+    case BOAR :
+        if (day == 30)
+            printf(" All debts paid (p)");
+    }
 }
 

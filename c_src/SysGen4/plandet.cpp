@@ -30,11 +30,13 @@ void   pDetails();
 float tempat(tempdata *t, int row, int mode);
 void map(body *s, int plate[20][28], int land[20][28], int cov[20][28]);
 
-void Print(sistem *syst) {
+void Print(sistem *syst)
+{
     pDlevel(syst->sys);
 }
 
-void pDlevel(body *s) {
+void pDlevel(body *s)
+{
     if(!s) {
         return;
     }
@@ -49,7 +51,8 @@ void pDlevel(body *s) {
     }
 }
 
-void   pWorld(body *s) {
+void   pWorld(body *s)
+{
     int     i;
     city    *cptr;
     float   rpop, cpop;
@@ -227,7 +230,8 @@ void   pWorld(body *s) {
 
 extern char    *acover[16];
 
-void p1(int val, int type) {
+void p1(int val, int type)
+{
     if(type == 0) {
         printf("%02d", val);
     } else if(type == 1) {

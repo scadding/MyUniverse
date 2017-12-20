@@ -13,7 +13,8 @@ float  odist[] = {
     154.0, 307.6, 614.8, 1229.2, 2458.0, 4915.6, 9830.8, 19661.2, 39322.0
 };
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
     sistem  syst;
     body    *i, *j;
     float   tmp, g;

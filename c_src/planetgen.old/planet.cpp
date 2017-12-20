@@ -423,7 +423,7 @@ int main(int ac, char **av)
 
     PlanetImage image(Width, Height);
 
-#if 1    
+#if 1
     col = (unsigned short**)calloc(Width,sizeof(unsigned short*));
     if (col == 0) {
         fprintf(stderr, "Memory allocation failed.");
@@ -738,10 +738,10 @@ void makeoutline(int do_bw)
     for (i=1; i<Width-1; i++)
         for (j=1; j<Height-1; j++)
             if ((col[i][j] >= LOWEST && col[i][j] <= SEA) &&
-                    (col[i-1][j] >= LAND || col[i+1][j] >= LAND ||
-                     col[i][j-1] >= LAND || col[i][j+1] >= LAND ||
-                     col[i-1][j-1] >= LAND || col[i-1][j+1] >= LAND ||
-                     col[i+1][j-1] >= LAND || col[i+1][j+1] >= LAND)) {
+                (col[i-1][j] >= LAND || col[i+1][j] >= LAND ||
+                 col[i][j-1] >= LAND || col[i][j+1] >= LAND ||
+                 col[i-1][j-1] >= LAND || col[i-1][j+1] >= LAND ||
+                 col[i+1][j-1] >= LAND || col[i+1][j+1] >= LAND)) {
                 /* if point is sea and any neighbour is not, add to outline */
                 outx[k] = i;
                 outy[k++] = j;
@@ -753,10 +753,10 @@ void makeoutline(int do_bw)
             for (j=1; j<Height-1; j++) {
                 t = (col[i][j] - LAND) / contourstep;
                 if (t>=0 &&
-                        ((col[i-1][j]-LAND) / contourstep > t ||
-                         (col[i+1][j]-LAND) / contourstep > t ||
-                         (col[i][j-1]-LAND) / contourstep > t ||
-                         (col[i][j+1]-LAND) / contourstep > t)) {
+                    ((col[i-1][j]-LAND) / contourstep > t ||
+                     (col[i+1][j]-LAND) / contourstep > t ||
+                     (col[i][j-1]-LAND) / contourstep > t ||
+                     (col[i][j+1]-LAND) / contourstep > t)) {
                     /* if point is at countour line and any neighbour is higher */
                     outx[k] = i;
                     outy[k++] = j;
@@ -894,8 +894,7 @@ void peter()
             for (i = 0; i < Width ; i++) {
                 col[i][j] = BACK;
                 if (doshade>0) shades[i][j] = 255;
-            }
-        else {
+            } else {
             cos2 = sqrt(1.0-y*y);
             if (cos2>0.0) {
                 scale1 = scale*Width/Height/cos2/PI;
@@ -929,8 +928,7 @@ void squarep()
         if (fabs(y)>=0.5*PI) for (i = 0; i < Width ; i++) {
                 col[i][j] = BACK;
                 if (doshade>0) shades[i][j] = 255;
-            }
-        else {
+            } else {
             cos2 = cos(y);
             if (cos2>0.0) {
                 scale1 = scale*Width/Height/cos2/PI;
@@ -958,8 +956,7 @@ void mollweide()
         if (fabs(y1)>=1.0) for (i = 0; i < Width ; i++) {
                 col[i][j] = BACK;
                 if (doshade>0) shades[i][j] = 255;
-            }
-        else {
+            } else {
             zz = sqrt(1.0-y1*y1);
             y = 2.0/PI*(y1*zz+asin(y1));
             cos2 = sqrt(1.0-y*y);
@@ -1004,8 +1001,7 @@ void sinusoid()
         if (fabs(y)>=0.5*PI) for (i = 0; i < Width ; i++) {
                 col[i][j] = BACK;
                 if (doshade>0) shades[i][j] = 255;
-            }
-        else {
+            } else {
             cos2 = cos(y);
             if (cos2>0.0) {
                 scale1 = scale*Width/Height/cos2/PI;
@@ -1624,9 +1620,9 @@ double planet(double a, double b, double c, double d,       /* altitudes of the 
                             edy = dy-ey;
                             edz = dz-ez;
                             if ((eax*ecy*edz+eay*ecz*edx+eaz*ecx*edy
-                                    -eaz*ecy*edx-eay*ecx*edz-eax*ecz*edy)*
-                                    (epx*ecy*edz+epy*ecz*edx+epz*ecx*edy
-                                     -epz*ecy*edx-epy*ecx*edz-epx*ecz*edy)>0.0)
+                                 -eaz*ecy*edx-eay*ecx*edz-eax*ecz*edy)*
+                                (epx*ecy*edz+epy*ecz*edx+epz*ecx*edy
+                                 -epz*ecy*edx-epy*ecx*edz-epx*ecz*edy)>0.0)
                                 return(planet(c,d,a,e, cs,ds,as,es,
                                               cx,cy,cz, dx,dy,dz, ax,ay,az, ex,ey,ez,
                                               x,y,z, level-1));
@@ -1711,19 +1707,19 @@ double planet1(double x, double y, double z)
     apy = y-ssay;
     apz = z-ssaz;
     if ((adx*aby*acz+ady*abz*acx+adz*abx*acy
-            -adz*aby*acx-ady*abx*acz-adx*abz*acy)*
-            (apx*aby*acz+apy*abz*acx+apz*abx*acy
-             -apz*aby*acx-apy*abx*acz-apx*abz*acy)>0.0) {
+         -adz*aby*acx-ady*abx*acz-adx*abz*acy)*
+        (apx*aby*acz+apy*abz*acx+apz*abx*acy
+         -apz*aby*acx-apy*abx*acz-apx*abz*acy)>0.0) {
         /* p is on same side of abc as d */
         if ((acx*aby*adz+acy*abz*adx+acz*abx*ady
-                -acz*aby*adx-acy*abx*adz-acx*abz*ady)*
-                (apx*aby*adz+apy*abz*adx+apz*abx*ady
-                 -apz*aby*adx-apy*abx*adz-apx*abz*ady)>0.0) {
+             -acz*aby*adx-acy*abx*adz-acx*abz*ady)*
+            (apx*aby*adz+apy*abz*adx+apz*abx*ady
+             -apz*aby*adx-apy*abx*adz-apx*abz*ady)>0.0) {
             /* p is on same side of abd as c */
             if ((abx*ady*acz+aby*adz*acx+abz*adx*acy
-                    -abz*ady*acx-aby*adx*acz-abx*adz*acy)*
-                    (apx*ady*acz+apy*adz*acx+apz*adx*acy
-                     -apz*ady*acx-apy*adx*acz-apx*adz*acy)>0.0) {
+                 -abz*ady*acx-aby*adx*acz-abx*adz*acy)*
+                (apx*ady*acz+apy*adz*acx+apz*adx*acy
+                 -apz*ady*acx-apy*adx*acz-apx*adz*acy)>0.0) {
                 /* p is on same side of acd as b */
                 bax = -abx;
                 bay = -aby;
@@ -1738,9 +1734,9 @@ double planet1(double x, double y, double z)
                 bpy = y-ssby;
                 bpz = z-ssbz;
                 if ((bax*bcy*bdz+bay*bcz*bdx+baz*bcx*bdy
-                        -baz*bcy*bdx-bay*bcx*bdz-bax*bcz*bdy)*
-                        (bpx*bcy*bdz+bpy*bcz*bdx+bpz*bcx*bdy
-                         -bpz*bcy*bdx-bpy*bcx*bdz-bpx*bcz*bdy)>0.0) {
+                     -baz*bcy*bdx-bay*bcx*bdz-bax*bcz*bdy)*
+                    (bpx*bcy*bdz+bpy*bcz*bdx+bpz*bcx*bdy
+                     -bpz*bcy*bdx-bpy*bcx*bdz-bpx*bcz*bdy)>0.0) {
                     /* p is on same side of bcd as a */
                     /* Hence, p is inside tetrahedron */
                     return(planet(ssa,ssb,ssc,ssd, ssas,ssbs,sscs,ssds,

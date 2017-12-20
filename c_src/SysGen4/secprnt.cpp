@@ -22,7 +22,8 @@ void survey(sistem *syst, struct strip *st);
 
 #define ch(x) (((x)<10)?((x)+'0'):((x)+'A'-10))
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
     long    x, y, z;
     long    A, B, C;
     int     i;
@@ -107,7 +108,8 @@ int main(int argc, char **argv) {
     }
 }
 
-void prpopname(char *name, int pop) {
+void prpopname(char *name, int pop)
+{
     int     i;
 
     for(i = 0; i < 10; i++)
@@ -141,7 +143,8 @@ void prpopname(char *name, int pop) {
     printf("|");
 }
 
-void survey(sistem *syst, struct strip *st) {
+void survey(sistem *syst, struct strip *st)
+{
     if(syst->mw->upp.w.bases&NAVAL_BASE) {
         st->n = 'N';
     }
@@ -154,7 +157,8 @@ void survey(sistem *syst, struct strip *st) {
     survp(syst->sys, st);
 }
 
-void survp(body *s, struct strip *st) {
+void survp(body *s, struct strip *st)
+{
     body    *sptr;
 
     if(s->type == T_GIANT) {

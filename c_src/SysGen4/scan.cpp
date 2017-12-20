@@ -7,7 +7,8 @@ mainworld      mw;
 sistem syst;
 int mainwrld(mainworld *mw, long x, long y, long z);
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
     long    x, y, z;
     long    A, a, B, b, C, c;
 
@@ -58,7 +59,8 @@ int main(int argc, char **argv) {
     }
 }
 
-int    funct(long x, long y, long z) {
+int    funct(long x, long y, long z)
+{
     if(mainwrld(&mw, x, y, z) == 0) {
         return(0);
     }

@@ -39,7 +39,8 @@ char   **argv;
 
 int    MaxX, MaxY;
 
-Initialise() {
+Initialise()
+{
     int     i, j;
 
 #ifdef Z_HERC

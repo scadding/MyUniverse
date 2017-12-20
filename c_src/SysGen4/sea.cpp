@@ -1,6 +1,7 @@
 #include "sysgen.h"
 
-void seas(int plates[20][28], int buf[20][28], int arch, int islands, int minor, int major, int landpc) {
+void seas(int plates[20][28], int buf[20][28], int arch, int islands, int minor, int major, int landpc)
+{
     int     land, i, tot;
     int     majsize[15], minsize[15];
 

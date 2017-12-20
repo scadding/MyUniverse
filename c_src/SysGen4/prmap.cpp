@@ -11,7 +11,8 @@ void   phalf();
 body *makemap(long x, long y, long z, char *name, int plates[20][28],
               int land[20][28], int cov[20][28]);
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv)
+{
     long    x, y, z;
     body    *s;
     int     t, depth, size;
@@ -86,7 +87,8 @@ int main(int argc, char **argv) {
     }
 }
 
-void prtri(int buf[28], long loc, int depth, int size, int ori) {
+void prtri(int buf[28], long loc, int depth, int size, int ori)
+{
     int     side;
 
     for(side = 1; size; size--) {
@@ -95,7 +97,8 @@ void prtri(int buf[28], long loc, int depth, int size, int ori) {
     phalf(buf, 0, loc, depth, side, side, ori);
 }
 
-void   gettri(int buf[28], int xbuf[28], long tloc, int depth) {
+void   gettri(int buf[28], int xbuf[28], long tloc, int depth)
+{
     int     d, i;
     long    seed;
     char    c;
@@ -115,7 +118,8 @@ void   gettri(int buf[28], int xbuf[28], long tloc, int depth) {
     }
 }
 
-long rot(long loc, int depth) {
+long rot(long loc, int depth)
+{
     int     val;
 
     if(depth < 0) {
@@ -136,7 +140,8 @@ long rot(long loc, int depth) {
     return(loc|(2L<<(depth*2)));
 }
 
-void phalf(int buf[28], int just, long loc, int depth, int side, int len, int ori) {
+void phalf(int buf[28], int just, long loc, int depth, int side, int len, int ori)
+{
     int     ll;
 
     if(side>1) {
@@ -166,7 +171,8 @@ void phalf(int buf[28], int just, long loc, int depth, int side, int len, int or
     }
 }
 
-void pline(int buf[28], long tloc, int l, int just, int len, int depth) {
+void pline(int buf[28], long tloc, int l, int just, int len, int depth)
+{
     int     odd, s;
     int     i, ii;
     int     xbuf[28];
