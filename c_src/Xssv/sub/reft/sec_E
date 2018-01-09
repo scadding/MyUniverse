@@ -1,0 +1,18 @@
+@SUB-SECTOR: sec_E   SECTOR: reft.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Grudovo       0111 B260453-E    Ni De              914 Dd K0 IV M9 D
+Banskonno     0112 A482444-C    D6 Ni              204 As G0 V
+Bastion       0118 B737332-B  R Lo Ni              701 As A9 V K4 D
+Aldaya        0212 B885620-6  R Ag Ni              423 As K4 V
+Neon          0216 D9B227A-4    Lo Ni Fl           923 As M4 V M8 D
+Cerebin       0217 B323662-C    Na Ni Po           534 As G1 III
+Helifil       0313 D110724-8    Na Rs              403 As K1 V
+Tonnurad      0416 B463695-7    Ni Ri              803 Na G3 VI M5 D M5 D
+Fraaga        0511 B691420-D    Ni Fl              702 Dd K2 V M9 D M1 D

@@ -1,0 +1,43 @@
+@SUB-SECTOR: sec_H   SECTOR: trojanre.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Pryme         2513 B48668B-9    Ag Ni Ri           305 As F0 V
+Nekrino       2515 A788400-C    Ni                 914 As M4 D
+Boulder       2517 D100758-9    Va Na              330 As K2 V M4 D
+Exocet        2520 A574126-8    Ni Lo              203 As F6 D
+Intelia       2612 C474653-6    Ag Ni              704 As F4 V
+Gor           2614 C868677-3    Ag Ni Ri           403 As M5 V
+Scaladon      2616 AAD98DK-A    Fl              A  600 As F6 VI
+Empire        2711 B679334-C    Ni Lo              503 As G2 V M4 D
+Hradus        2714 B54699B-7    In Hi              223 As F1 V M6 D
+Hexx          2715 B78A577-D    Ni Wa              314 As F6 V
+Iilgan        2719 C467787-8    Ag Ri              812 As G7 V
+Saurus        2813 A350543-B    De Ni Po           512 As F0 D
+971-852       2814 E78A000-0    Ba Lo Ni Wa     A  004 As F6 V M3 D
+Ardasii       2815 B650684-9    Ni De Po           110 As F7 D
+Wildeman      2819 B201674-C    Ic Na Ni Va        402 As F7 V
+Pandora       2820 B878313-B    Ni Lo              401 As F0 D
+Darchona      2912 B49A742-A    Wa                 533 As F9 VI
+Sabruse       2915 EAC8343-8    Fl Lo Ni Rs        220 As F3 V M5 D
+Imisaa        2916 B520867-6    Na Po De           113 As F8 D M5 D
+Fist          2918 B789430-C    Ni                 313 As F1 V
+Dimorus       3011 D300755-4    Na Va              600 As G0 V M7 D
+Our Planet    3012 B687100-A    Ni Lo              314 As F1 D
+Ayldem        3013 A7407X4-D    Po De           A  804 Dr M2 VI
+Pichot        3015 E546330-3    Ni Lo              123 As F1 V M8 D
+New           3016 D66668A-5    Ri Ni Ag           503 As F9 V
+Khaliki       3111 D11156B-9    Ic Ni Pr           215 As F5 V
+Simok         3113 DAA08CC-5    De                 701 As F0 D
+Attee         3116 C7529AE-4    Po Hi              404 As F9 VI
+Eshadi        3117 B431358-E    Ni Po Lo           311 As M7 V
+New Moscow    3119 B76779A-7    Ag Ri              513 As F8 VI
+Berg          3212 A675542-B    Ag Ni              805 As F5 V
+Kedus         3213 D867400-3    Ni                 913 As F8 D
+Tobia         3215 A444A55-F    In Hi              203 As F7 D
+Batav         3219 B5A8764-A    Fl An              110 As M6 III

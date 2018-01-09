@@ -1,0 +1,11 @@
+@SUB-SECTOR: sec_J   SECTOR: riftspan.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Ouohlolr      1624 C89A5H6-8    Ni Wa              504 As M0 V
+Uikhyrleirla  1629 B400AH5-C    Hi Na In Va        614 As M3 V M1 D M6 D

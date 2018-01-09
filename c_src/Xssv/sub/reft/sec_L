@@ -1,0 +1,16 @@
+@SUB-SECTOR: sec_L   SECTOR: reft.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Cyclone       2930 B599347-9    Lo Ni              204 Li G9 V M1 D
+Eskandor      3028 C251499-9    Ni Po              804 Li G3 V
+Sakaliin      3029 B857222-B    Lo Ni              413 Li F0 D M9 D
+Rampart       3030 A334200-F  N Lo Ni              812 Li M8 V K4 D
+Jokelyn       3128 B201469-B    Ni Va Ic           915 Li M3 V
+Hoilhapuli    3229 B76565A-8    Ag Ni Ri           335 St F1 V
+Bonn          3230 A8C578C-B    Fl                 913 Fi M1 V M2 D

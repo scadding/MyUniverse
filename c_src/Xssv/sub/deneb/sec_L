@@ -1,0 +1,13 @@
+@SUB-SECTOR: sec_L   SECTOR: deneb.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Geniishir     2521 A110123-D  N Lo Ni Cp           302 Dd K8 D
+Maelstrom     2522 B79A855-D    C5 Wa RsG          702 Dd M0 V M3 VI G3 V
+Exotrope      2523 D300674-4  S Na Ni Va           401 Dd M6 V M6 V
+Newpenton     2721 C495321-A    Lo Ni              703 Dd M2 V

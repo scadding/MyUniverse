@@ -1,0 +1,11 @@
+@SUB-SECTOR: sec_N   SECTOR: riftspan.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Ftuaktaol     1037 D5974L8-9    Ni                 815 A0 M1 V
+Ityerleira    1638 BAF77L6-E  R Fl                 522 A7 G2 V

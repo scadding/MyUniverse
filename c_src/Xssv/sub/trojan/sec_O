@@ -1,0 +1,24 @@
+@SUB-SECTOR: sec_O   SECTOR: trojanre.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Wesiyeah      1731 D6412K9-9    Lo Ni Po           823 As K4 D
+Aiwewakh      1733 BA961G3-D    Lo Ni              404 As G4 VI M2 D
+Ohraihah      1734 E8B67J7-7    Fl                 124 As F4 D
+Ayayo         1735 B0006H4-D    Ni As Na An        820 As M0 V
+Feaheaha      1736 E3012G8-9    Ic Lo Ni Va        200 As F0 V M7 D
+Afeakter      1835 A69A6NA-B  U Wa Ni              514 As F2 D
+Ralaiw        1931 B4205M4-D    Ni Po De           422 As F4 V
+Ereah         1933 B67A3G9-E    Wa Lo Ni           531 As K8 V
+Hewekho       2133 E1007KA-7    Va Na              923 As G6 II M9 D
+Airliweiw     2134 D3676HB-A    Ag Ni Ri C6        513 As F5 V
+Tisilli       2137 B78A945-A    Wa Hi              604 Na F0 V M5 D
+Khtiyrlo      2232 DA887KA-B  R Ag Ri              222 As M6 V M2 D
+Eaohfose      2233 B6736L7-B  T Ni                 105 A5 K6 V M9 D
+Gikarlum      2234 B110587-9    Ni                 714 Na F0 IV
+Burgess       2332 B796633-6    Ni Ag              703 As F6 D M0 D

@@ -1,0 +1,47 @@
+@SUB-SECTOR: Gamba (A)  SECTOR: Unk.
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+$0106 0408  0 0
+$0408 0607  0 0
+$0607 0805  0 0
+$0805 1005  1 0
+#
+# Borders or political boundaries
+# ^0316 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Violone       0102 C778867-3  S                    001
+Vielle        0103 E322335-8    Ni Po              001
+Fantasia      0105 A99A522-8    Ni                 001
+Galliard      0106 A100505-E  N Ni                 001
+Motet         0109 C898735-3    Ag                 001
+MADRIGAL      0110 B7989DE-6  S In                 001
+Ricercar      0205 X67759B-3    Ni Ag              001
+Pavane        0206 C84379A-4  S P                  001
+Canzona       0210 C765673-3    Ni Ag Ri           001
+Treble        0301 D655242-4  S Ni                 001
+Tenor         0302 E446411-6    Ni                 001
+Haydn         0308 D455273-8    Ni                 001
+Bach          0309 C525442-7  S Ni                 001
+Bass          0402 D223302-9  S Ni Po              001
+Lawes         0405 EAC9200-8    Ni                 000
+Marais        0407 B1225A6-B    Ni Po              001
+Forqueray     0408 A353546-B  N Ni Po              001
+Pardessus     0501 A114523-E  S Ni                 001
+Byrd          0506 E460256-8    Ni                 001
+Abel          0509 D779443-5    Ni                 001
+Simpson       0605 A74A369-D    Ni                 001
+Gibbons       0606 C474620-5    Ni Ag              001
+Lassus        0607 A250687-D    Ni Po              001
+Morley        0704 C452633-6    Ni Po              001
+Jenkins       0705 E87A000-5                       001
+SUSATO        0708 E584A67-5                       001
+Adriano       0709 A668125-C    Ni                 001
+AGRICOLA      0710 E56A976-9                       001
+Weelkes       0803 C112888-A  S Na                 001
+Baldwyn       0805 A625343-A  S Ni                 001
+Brade         0806 C8B7410-7    Ni                 001
+Attaignant    0808 E236200-8    Ni                 001

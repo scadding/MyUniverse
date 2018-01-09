@@ -1,0 +1,113 @@
+HAZARD Description 
+===================
+
+(c) 1990 David Burden
+after GDW Challenge 31 Marcus L Rowland
+
+
+Files
+=====
+
+hazard.ttp		The program
+hazard.str		Strings used by the program
+hazard.txt		This documentation
+		
+All these files should be in the same folder.
+
+Command Format
+==============
+
+hazard [-cuhp] [-ofilename] [-nnumber] [-h[xx]] [-s]
+
+Generates hazard profile as given in Challenge or decodes a given profile.
+
+-cuhp      	Decode Universal Hazard Profile 'uhp', else random.
+-ofilename 	Put output to 'filename'.
+-nnumber   	Generate 'number' profiles.
+-s			  	Suppress screen output ( only if file output enabled ).
+-h				Provides general help.
+-h[xx]     	Provide help information.
+
+		na = Nature, Secondary Characteristics...
+		tx = toxic, ox = oxidizing, co = corrosive, ex = explosive
+		hi = highly inflammable, bi = biohazard, ra = radioactive              
+		
+		sp = Species Affected,     	at = Atmospheric Tolerance
+		tm = Temperature Tolerance,  	hu = Humidity Tolerance
+		gv = Gravitic Tolerance,     	fm = Form
+		ms = Mass
+		
+		uu = UHP Parameter   			nn = Number Parameter
+		oo = Output Parameter  			ss = Suppress Switch
+		
+
+
+Description
+===========
+
+	This command generates a hazard  description following the system given
+in CHA-31. Invoked with a simple "hazard" it runs in an interactive mode, 
+generating one hazard description, and asking whether a repeat is required.
+The program can also be used to decode a UHP profile.
+
+
+UHP
+---
+
+To decode a UHP include the UHP on the command line following -u, eg:
+
+	-u777-7777-77
+	
+The UHP must be in the format 777-7777-77.
+
+If you do not care about a characteristic use an "x" to represent it, eg:
+
+	-u777-77xx-77
+
+
+Output File
+-----------
+
+If output is desired to a file then the -o parameter is used. The filename 
+immediately follows the -o. eg:
+
+        -oonesium.uhp
+
+puts output to a file onesium.uhp.
+
+Suppressing Screen Output
+-------------------------
+
+If you do not want output displayed on the screen, when you have chosen the
+-o parameter, then add the -s switch. ie
+
+      	-oonesium.uhp -s
+      	
+Multiple Profiles
+-----------------
+
+If more than one profile is required then the -n paramter is used, where 'n'
+is the number of profiles required. In file output mode this number will be
+written to the file, seperated by a new line. In interactive mode this 
+number will be generated before each request to continue. eg:
+
+        -n10
+
+generates 10 profiles.
+
+
+Help
+----
+
+Two levels of help are available. Putting -h as a parameter just gives a 
+short description of the command and its parameters. To get details of
+all the "values" of a parameter in the profile, or more help on a command
+parameter use -hxx, where xx is one of the two letter codes given above.
+
+HAZARD.STR
+==========
+
+This file contains the string definitions used by HAZARD.TTP. You can change
+the wording after the second colon to suit your own requirements.
+  
+

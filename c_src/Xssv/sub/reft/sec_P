@@ -1,0 +1,46 @@
+@SUB-SECTOR: sec_P   SECTOR: reft.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Quiver        2534 B310405-D    Ni                 404 Fi M1 V M3 D
+Argus         2536 C755A96-8  S Hi                 403 Fi G4 D
+Boneyard      2537 B220310-A  N Lo Ni Po De        914 Fi G2 V M8 D
+Delinski      2538 B45367A-8    Ni Po              914 Fi K4 D M6 D
+Valentorn     2539 D556512-4    Ag Ni              900 Fi F0 V
+Halibun       2540 B565777-7    Ag Ri              514 Fi K9 D
+Stock Point 3 2636 A336010-F    Lo Ni              500 Fi M3 V
+Grecorn       2638 B7A858C-D    Ni Fl              700 Fi K3 V
+Filentred     2731 B548534-8  S Ag Ni              504 Na F5 VI M7 D
+G'haenbaz     2733 C557558-A    Ag Ni              100 Fi F4 V
+Bouvrier      2737 E230668-8    Na Ni Po De        210 Fi K1 V
+Cyril         2738 A7A69B9-F  N Hi Fl Cx           522 Fi G4 VI
+Chateau       2739 E450200-5    Lo Ni Po De        714 Fi K4 D M1 D
+Dead End      2740 C576010-5    Lo Ni              902 Fi K4 D
+Debica        2832 D645688-7    Ag Ni Rs           600 Fi K7 VI M4 D
+Gundamoor     2833 B311637-D    Na Ni Ic           324 Fi K1 IV M5 VI
+Bokilbom      2834 B573552-D    Ni                 804 Fi F0 V M8 D
+Angsturm      2837 A545788-B    Ag                 314 Fi K4 V
+Vlad          2838 A554844-D  N                    804 Fi F1 V
+Vleeck        2931 C762475-6    Ni                 404 Li G2 D
+Pamraeltan    2932 A537651-E  N Ni                 703 Fi A2 V M5 D
+P'hakar       2934 C220456-B  S Ni Po De           923 Fi M4 V
+Harmony       2935 E6538AF-4    Po                 633 Fi F0 V
+Numeron       2939 B432769-9    Li Po              313 Fi M3 V
+Mynez         3035 E627989-A    Hi In              904 Fi K1 VI
+Seville       3036 B657445-7    Ni                 404 Fi F1 V
+Dagu          3037 B100362-C    Lo Ni Va           504 Fi K8 V M1 D
+Transit       3038 B987030-8    Lo Ni              520 Fi G7 V
+Elphintrax    3040 C374476-7    C4 Ni           A  413 Fi F2 V M1 D
+Alexander     3132 B32369A-B    Li Ni Po           404 Li G4 V
+Breezy        3133 B100544-C    Ni Va              704 Li M4 V M7 V
+Dlaekan       3134 A383657-D    Ni Ri              202 Fi G4 V M6 D
+Good Home     3135 B745789-9  N Ag                 303 Fi F0 V M6 D
+Alverik       3136 A150698-A    Ni Po De        A  800 Fi K0 D
+Unseren       3140 B452549-9  S Ni Po              803 Fi G5 VI
+Roger         3231 B424200-B    Lo Ni              300 Fi M8 V
+Jeandrent     3237 BA7A666-8  N Ni Wa              613 Fi G0 V M4 D

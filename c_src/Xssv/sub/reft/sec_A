@@ -1,0 +1,31 @@
+@SUB-SECTOR: sec_A   SECTOR: reft.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Cauldron      0102 D9B8222-4    Fl Lo Ni           403 Dd M0 V
+Iselen        0105 A243678-9    Ni Po              403 Dd G0 V
+Reudden       0106 B3536BG-7    Ni Po              400 Dd G4 V
+Kukaa         0108 C544100-B    Lo Ni              503 Dd G1 D
+Amoirve       0109 B565476-C  N Ni                 704 Dd G8 D
+Solbatn       0203 B87A443-A    Ni Wa              603 Dd K3 D
+Peshtorno     0208 B7B3841-8  N Fl                 622 Dd G1 V
+Petre         0210 B696478-A    Ni                 210 Dd F4 D
+Dimple        0305 D200201-8  S Lo Ni Va           500 Dd G1 V M1 D
+Benidorm      0402 E446400-A    Ni                 120 Dd G2 V
+Carian        0408 B300459-B  N Ni Va              924 Dd M0 V M7 D
+Ambossa       0410 B684459-9    Ni                 700 Dd G2 V
+Corp Town     0502 B474211-B    Lo Ni              100 Dd F6 V M1 D
+Lintl         0503 B739AEE-F    Hi Cp              404 Dd K2 VI
+Whisp         0602 C251110-6    Lo Ni Po           204 Dd F7 D M0 D
+Gaspar        0604 B336337-D    Lo Ni              801 Dd M5 V
+Igualada      0605 B140567-9  N Ni Po De           701 Dd G2 D
+Mukiud        0701 B333210-E    Lo Ni Po           823 Dd M6 V
+Checker       0702 C300225-9    Lo Ni Va           615 Dd M4 V M7 D
+Colony Five   0707 B4759A5-E    Hi In              420 Dd G9 IV M1 D
+Zaguki        0710 B260212-9    Lo Ni De           804 As F2 D M6 D
+Elixir        0801 B768321-9    Lo Ni              423 Dd F4 D

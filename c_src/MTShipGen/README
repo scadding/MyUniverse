@@ -1,0 +1,36 @@
+hiya,
+
+	This is an announcement that my ship design is being released
+as is to the tml.  The user interface on the program is still quite poor,
+when I get some spare time I might improve it.  The program doesn't allow you
+to save the work that you've done so far and continue the design later, so
+before you start designing you should make sure you have plently of time
+available (one hour should be more than enough for just about anything
+once you are used to the program).
+
+	The program currently does not handle the following sections
+of the ship design process (the first column is the section number and the
+rest of the line is a description of the deficiency):
+
+1 Planetoid hulls (of any kind)
+1 Hulls of a non-standard size.
+2 Non-power-plant power supplies (batteries, solar cells, fuel cells)
+	scale efficiencies are handled in an ugly manner.
+2 Suspensions and transmissions
+6 Guns (the smallest weapons I support are turrets)
+6 Magazine requirements for missiles
+7 Basic obscuration devices
+10 some problems specifing fuel requirements & purification plants
+
+It also doesn't evaluate the design at all (well, it gives the current
+agility and it sometimes warns you of illegal designs).  I don't see this
+as beng too much of a problem, design evaluation is quite quick once you
+get into the hang of it.
+
+Despite these short comings, the program is still very useful.  Designs can be
+modified easily without all the painful recalculations necessary when working
+by hand.
+
+
+Usage: sd <tl> dat.tbl <outfile>
+

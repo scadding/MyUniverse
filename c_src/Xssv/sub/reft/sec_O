@@ -1,0 +1,15 @@
+@SUB-SECTOR: sec_O   SECTOR: reft.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Arraste       2139 B59368B-6    Ni                 604 Fi M7 VI M5 D
+Jacob         2239 B100400-E    Ni Va              302 Fi M4 V
+Fresnelse     2240 B728512-A    Ni                 622 Fi M4 V M6 D
+Pit Stop      2337 B593326-A  S Lo Ni              311 Fi G1 V
+Uxors         2435 BAA7377-9    Cw Lo Ni Fl An     804 Fi M7 V
+Mieniept      2436 B794454-B    Ni                 800 Fi G0 V

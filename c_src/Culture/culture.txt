@@ -1,0 +1,107 @@
+CULTURE Description 
+===================
+
+(c) 1990 David Burden
+after TD-16 Nancy Parker
+
+
+Files
+=====
+
+culture.ttp		The program
+culture.str		Strings used by the program
+culture.txt		This documentation
+		
+All these files should be in the same folder.
+
+Command Format
+==============
+
+culture [-uuwp] [-ofilename] [-nnumber] [-h[xx]] [-s]
+
+-uuwp      Generate using Universal World Profile 'uwp', else random.
+-ofilename Put output to 'filename'.
+-s         Suppresses screen output.
+-nnumber   Generate 'number' profiles.
+-h         Provide general help information
+-h[xx]     Provide details on characteristic
+         
+        ic = Social Cohesion,            sm = Social Mobility
+        pm = Physical Mobility,          wv = Worldview
+        fe = Formality vs. Emotionalism, gd = Gender Discrimination
+        wa = Acquisition of Wealth,      wd = Distribution of Wealth
+        pr = Privacy                     bz = Body Zones
+        mo = Modesty Taboos,             hl = Value of Sentient Life
+        ol = Value of Other Life,        cr = Child-Rearing Responsibility
+        ho = Honesty,                    we = Work Ethic, Acquisitiveness
+        at = Attitudes toward Time
+
+        uu = UWP Parameter               oo = Output file parameter
+        nn = Number Parameter				  ss = Suppress switch
+
+
+Description
+===========
+
+	This command generates a culture description following the system given
+in TD-16. Invoked with a simple "culture" it runs in an interactive mode, 
+generating one culture description, and asking whether a repeat is required.
+
+UWP
+---
+
+If a profile for a specific UWP is required the UWP can be entered when the 
+command is invoked, using the -u parameter. The UWP must have the format:
+
+        A777777-7
+
+The paramater is then:
+
+        -uA777777-7
+
+Output File
+-----------
+
+If output is desired to a file then the -o parameter is used. The filename 
+immediately follows the -o. eg:
+
+        -oregina.cul
+
+puts output to a file regina.cul.
+
+Suppressing Screen Output
+-------------------------
+
+If you do not want output displayed on the screen, when you have chosen the
+-o parameter, then add the -s swicth. ie
+
+      	-oregina.cul -s
+      	
+Multiple Profiles
+-----------------
+
+If more than one profile is required then the -n parameter is used, where
+'n' is the number of profiles required. In file output mode this number will
+be written to the file, seperated by a new line. In interactive mode this 
+number will be generated before each request to continue. eg:
+
+        -n10
+
+generates 10 profiles.
+
+Help
+----
+
+Two levels of help are available. Putting -h as a parameter just gives a 
+short description of the command and its parameters. To get details of
+all the "values" of a parameter in the profile, or more help on a command
+parameter use -hxx, where xx is one of the two letter codes given above.
+
+
+CULTURE.STR
+===========
+
+This file contains the string definitions used by CULTURE.TTP. You can 
+change the wording after the second colon to suit your own requirements.
+  
+

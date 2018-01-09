@@ -1,0 +1,16 @@
+@SUB-SECTOR: sec_B   SECTOR: reft.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Evet's World  0903 B201656-D  N Na Ni Va Ic     A  503 Dd M6 V
+Ulnert        1002 B53769D-7    Ni                 803 Dd K4 VI M8 D
+Earl Center   1102 A998011-9    Lo Ni              604 Dd K9 D
+Yvette        1103 A79A633-D    Ni Wa              133 Dd G2 V
+Oleiros       1204 B000457-D    Ni As              300 Na M1 V
+Sestao        1301 A120675-C  N Na Ni Po De        611 Dd M0 VI
+Gorod         1302 D6689CG-9    Hi                 111 Dd K4 V M1 D
