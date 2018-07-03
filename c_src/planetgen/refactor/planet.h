@@ -3,7 +3,8 @@
 #define PLANET_H
 
 
-class planet{
+class planet
+{
 
 
 };

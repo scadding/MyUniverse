@@ -65,8 +65,7 @@ void pgiant(body *s)
 {
     if(s->upp.g.size) {
         printf("Large Gas Giant %s\n", s->name);
-    }
-    else {
+    } else {
         printf("Small Gas Giant %s\n", s->name);
     }
     printf("Diameter: %gkm Density:%g Surface gravity:%g\n",
@@ -75,8 +74,7 @@ void pgiant(body *s)
     printf("Year:%g ", floor(s->det.g.year));
     if(s->p->type == T_STAR) {
         printf("years");
-    }
-    else {
+    } else {
         printf("days");
     }
     printf(" Tilt:%d~", int(s->det.g.tilt));
@@ -90,8 +88,7 @@ void ptoids(body *s)
 {
     if(s->p->type == T_GIANT) {
         printf("Ring            %s\n", s->name);
-    }
-    else {
+    } else {
         printf("Asteroids       %s\n", s->name);
     }
     printf("Predominant body diameter is %s.\n", bodsiz[s->det.b.pbod]);
@@ -106,8 +103,7 @@ void ptoids(body *s)
     printf("Average year :%g ", floor(s->det.b.year));
     if(s->p->type != T_STAR) {
         printf("years\n");
-    }
-    else {
+    } else {
         printf("days\n");
     }
 }
@@ -182,13 +178,11 @@ void pworld(body *s)
     printf("Year:%g ", floor(det->year));
     if(s->p->type == T_STAR) {
         printf("years, ");
-    }
-    else {
+    } else {
         printf("days, Solar year:");
         if(s->p->type == T_GIANT) {
             printf("%g years, ", floor(s->p->det.g.year));
-        }
-        else {
+        } else {
             printf("%g years, ", floor(s->p->det.w.year));
         }
     }

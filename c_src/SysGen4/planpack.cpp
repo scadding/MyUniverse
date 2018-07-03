@@ -26,8 +26,7 @@ int main(int argc, char **argv)
     y = atol(argv[2]);
     if(argc == 4) {
         z = atol(argv[3]);
-    }
-    else {
+    } else {
         z = 0L;
     }
 
@@ -88,16 +87,14 @@ void   pworld(body *s)
     case T_GIANT:
         if(s->upp.g.size) {
             printf("Large Gas Giant %s\n", s->name);
-        }
-        else {
+        } else {
             printf("Small Gas Giant %s\n", s->name);
         }
         break;
     case T_TOIDS:
         if(s->p->type == T_GIANT) {
             printf("Ring            %s\n", s->name);
-        }
-        else {
+        } else {
             printf("Asteroids       %s\n", s->name);
         }
         break;
@@ -205,8 +202,7 @@ void ttimes()
                 tmp = sqrt(tmp*149600.0/32.4/man);
                 if(tmp < 24.0) {
                     printf("%4.1fh | ", tmp);
-                }
-                else {
+                } else {
                     printf("%4.1fd | ", tmp/24.0);
                 }
             }

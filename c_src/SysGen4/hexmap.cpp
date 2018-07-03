@@ -27,8 +27,7 @@ int main(int argc, char **argv)
     z = atol(argv[3]);
     if(argc == 5) {
         T = atol(argv[4]);
-    }
-    else {
+    } else {
         time(&T);
     }
 
@@ -186,8 +185,7 @@ void hex(body *s)
             perror(inbuf);
             return;
         }
-    }
-    else {
+    } else {
         out = stdout;
     }
     j = high*16;
@@ -229,11 +227,9 @@ void mkmap(body *s)
         r = bdiam*(sptr->orbit + 1);
         if(sptr->type == T_GIANT) {
             ftmp = sptr->det.g.year;
-        }
-        else if((sptr->type == T_WORLD) || (sptr->type == T_MAIN)) {
+        } else if((sptr->type == T_WORLD) || (sptr->type == T_MAIN)) {
             ftmp = sptr->det.w.year;
-        }
-        else {
+        } else {
             ftmp = 100.0;
         }
         ftmp = (double)T/ftmp;
@@ -248,8 +244,7 @@ void mkmap(body *s)
         }
         if(o <= r) {
             i = o;
-        }
-        else {
+        } else {
             i = r;
         }
         o -= i;
@@ -262,8 +257,7 @@ void mkmap(body *s)
         }
         if(o <= r) {
             i = o;
-        }
-        else {
+        } else {
             i = r;
         }
         o -= i;
@@ -276,8 +270,7 @@ void mkmap(body *s)
         }
         if(o <= r) {
             i = o;
-        }
-        else {
+        } else {
             i = r;
         }
         o -= i;
@@ -290,8 +283,7 @@ void mkmap(body *s)
         }
         if(o <= r) {
             i = o;
-        }
-        else {
+        } else {
             i = r;
         }
         o -= i;
@@ -304,8 +296,7 @@ void mkmap(body *s)
         }
         if(o <= r) {
             i = o;
-        }
-        else {
+        } else {
             i = r;
         }
         o -= i;
@@ -318,8 +309,7 @@ void mkmap(body *s)
         }
         if(o <= r) {
             i = o;
-        }
-        else {
+        } else {
             i = r;
         }
         o -= i;
@@ -383,8 +373,7 @@ int    moveto(int x, int y, int X, int Y)      /* returns direction to from x,y 
 
     if(Y < 0) {
         odd = ((-Y)%2);
-    }
-    else {
+    } else {
         odd = (Y%2);
     }
     dy = y - Y;
@@ -400,18 +389,15 @@ int    moveto(int x, int y, int X, int Y)      /* returns direction to from x,y 
     if(odd)
         if(y < 0) {
             odd = ((-y)%2);
-        }
-        else {
+        } else {
             odd = (y%2);
-        }
-    else {
+        } else {
         odd = 1;
     }
-    if(y < Y){
+    if(y < Y) {
         if(x >= X + 1 - odd) {
             return(0);
-        }
-        else {
+        } else {
             return(5);
         }
     }
@@ -448,8 +434,7 @@ int mdist(ml *m, int x, int y)
         }
     if(i != 9) {
         return(i);
-    }
-    else {
+    } else {
         return(9999);
     }
 }
@@ -518,8 +503,7 @@ void prmap(int left, int top, int right, int bot)
         if(i%2) {
             j--;
             fprintf(out, " >-");
-        }
-        else {
+        } else {
             inbuf[jj++] = '<';
         }
         inbuf[jj] = 0;

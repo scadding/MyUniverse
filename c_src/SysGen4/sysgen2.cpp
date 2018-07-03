@@ -77,16 +77,14 @@ void pworld(body *s)
     case T_GIANT:
         if(s->upp.g.size) {
             printf("Large Gas Giant %s\n", s->name);
-        }
-        else {
+        } else {
             printf("Small Gas Giant %s\n", s->name);
         }
         break;
     case T_TOIDS:
         if(s->p->type == T_GIANT) {
             printf("Ring            %s\n", s->name);
-        }
-        else {
+        } else {
             printf("Asteroids       %s\n", s->name);
         }
         break;

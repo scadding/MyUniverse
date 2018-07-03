@@ -1,0 +1,52 @@
+
+	This is makepc, a character-generator for the fantasy-roleplaying
+	game RuneQuest.
+
+	Originally written by Dan Mazina (dan.mazina@compaq.com). The
+	Program was available as DOS-binary and source from 
+	ftp.csua.berkeley.edu since 1993, with no license given. The
+	license has been changed to GPL now. The author states:
+
+	----------------------------------------------------------------
+	From Dan.Mazina@COMPAQ.com Fri Jun 04 16:27:16 1999
+	Return-Path: <Dan.Mazina@COMPAQ.com>
+	Delivered-To: killer@discordia.ch
+	Message-ID: <427351B4DEABD111A99400805F19E9BB02AE4D2F@
+	    exchou-prod0901.eng.hou.compaq.com>
+	From: "Mazina, Dan" <Dan.Mazina@COMPAQ.com>
+	To: "Peter Keel" <killer@discordia.ch>
+	Subject: RE: makepc.tar.Z
+	Date: Fri, 4 Jun 1999 11:22:37 -0500 
+
+	I am the original author of the RuneQuest character generator
+	program, makepc.exe.
+	I am placing all rights to it and the source under GNU Public 
+	Licensing (GPL).
+
+	Daniel J. Mazina
+	Manager, Software Engineering
+	Compaq Computer Corp.
+
+	(phone) 281.514.7197
+	(fax) 281.514.8434
+	(email) dan.mazina@compaq.com
+	----------------------------------------------------------------
+
+	For the GNU Public License read the file COPYING.
+	
+	I ported it from DOS to Unix. Had to get rid of all those nasties 
+	of conio.h (replaced with ncurses), and moreover, change everything
+	related to the output, due to the assumption that a screen has 
+	80x25 characters.
+
+	Further consequence was that printing the same output to the
+	screen and to a file just wasn't the same. It's in two different
+	functions now.
+	
+	Then a bug in the saving of files was corrected when no filename
+	was given. Now a default filename is assumed. 
+	
+	Up/Down Arrowkeys don't work right now. Maybe I'll do this. Maybe
+	I'll do this by porting the whole thing to C and use SLang. ;)
+	
+	-- Peter Keel (killer@discordia.ch), June 1999

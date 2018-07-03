@@ -404,8 +404,7 @@ void peter()
             for (i = 0; i < Width ; i++) {
                 col[i][j] = BACK;
                 if (doshade>0) shades[i][j] = 255;
-            }
-        else {
+            } else {
             cos2 = sqrt(1.0-y*y);
             if (cos2>0.0) {
                 scale1 = scale*Width/Height/cos2/PI;
@@ -439,8 +438,7 @@ void squarep()
         if (fabs(y)>=0.5*PI) for (i = 0; i < Width ; i++) {
                 col[i][j] = BACK;
                 if (doshade>0) shades[i][j] = 255;
-            }
-        else {
+            } else {
             cos2 = cos(y);
             if (cos2>0.0) {
                 scale1 = scale*Width/Height/cos2/PI;
@@ -468,8 +466,7 @@ void mollweide()
         if (fabs(y1)>=1.0) for (i = 0; i < Width ; i++) {
                 col[i][j] = BACK;
                 if (doshade>0) shades[i][j] = 255;
-            }
-        else {
+            } else {
             zz = sqrt(1.0-y1*y1);
             y = 2.0/PI*(y1*zz+asin(y1));
             cos2 = sqrt(1.0-y*y);
@@ -514,8 +511,7 @@ void sinusoid()
         if (fabs(y)>=0.5*PI) for (i = 0; i < Width ; i++) {
                 col[i][j] = BACK;
                 if (doshade>0) shades[i][j] = 255;
-            }
-        else {
+            } else {
             cos2 = cos(y);
             if (cos2>0.0) {
                 scale1 = scale*Width/Height/cos2/PI;
@@ -1889,7 +1885,7 @@ int planetMain(int ac, char **av)
     r4 = rand2(r2,r3);
 
     //if (debug && (view != 'f'))
-        fprintf(stderr, "+----+----+----+----+----+\n");
+    fprintf(stderr, "+----+----+----+----+----+\n");
 
     switch (view) {
 
@@ -1950,7 +1946,7 @@ int planetMain(int ac, char **av)
     }
 
     //if (debug && (view != 'f'))
-        fprintf(stderr, "+----+----+----+----+----+\n");
+    fprintf(stderr, "+----+----+----+----+----+\n");
 
     if (do_outline) makeoutline(do_bw);
 

@@ -1,0 +1,632 @@
+#Version: 2
+Unnamed            0105 D200785-7 S Na Va           224 Im  
+Unnamed            0106 CAD9499-A M Ni Fl           103 Im  
+Unnamed            0108 C676541-9   Ag Ni           023 Im  
+Unnamed            0110 B4447A6-6 N Ag              104 Im  
+Unnamed            0111 C386430-A   Ni              524 Im  
+Unnamed            0112 B120964-B   Hi Na In Po De  823 Im  
+Unnamed            0114 A4646A6-8   Ag Ni           623 Im  
+Unnamed            0118 A873563-D N Ni              924 Im  
+Unnamed            0119 B401787-8 N Na Va Ic        101 Im  
+Unnamed            0120 C9C5534-8 M Ni              504 Im  
+Unnamed            0121 B385545-9 M Ag Ni           624 Im  
+Unnamed            0122 B445898-A M                 205 Im  
+Unnamed            0123 X302336-5   Lo Ni Va Ic     810 Im R
+Unnamed            0124 X241636-0   Ni Po           005 Im R
+Unnamed            0125 C320498-7 M Ni Po De        104 Im  
+Unnamed            0126 D86A736-4   Wa              322 Im  
+Unnamed            0129 AAE1412-E S Ni Fl           524 Im  
+Unnamed            0132 C997058-8 M Lo Ni           305 Im  
+Unnamed            0134 C9A5530-9 M Ni              704 Im  
+Unnamed            0137 E769A86-7   Hi              202 Im  
+Unnamed            0139 CA9A322-9 M Lo Ni Wa Fl     213 Im  
+Unnamed            0203 B140554-E M Ni Po De        624 Im  
+Unnamed            0206 B999411-8 N Ni              323 Im  
+Unnamed            0209 A591994-9   Hi In           000 Im  
+Unnamed            0210 B61367B-A M Na Ni Ic        120 Im  
+Unnamed            0211 E6247CE-4                   504 Im  
+Unnamed            0215 C78A435-7 S Ni Wa           912 Im  
+Unnamed            0216 E859104-7   Lo Ni           723 Im  
+Unnamed            0217 C000500-A   Ni As           712 Im  
+Unnamed            0218 A340572-D   Ni Po De        414 Im  
+Unnamed            0219 C13089A-8   Na Po De        614 Im  
+Unnamed            0220 E433001-8   Lo Ni Po        701 Im  
+Unnamed            0221 E130877-6   Na Po De        400 Im  
+Unnamed            0223 C23069B-8 S Na Ni Po De     203 Im  
+Unnamed            0224 C483415-A S Ni              411 Im  
+Unnamed            0225 E453465-5   Ni Po           705 Im  
+Unnamed            0228 B200413-B S Ni Va           903 Im  
+Unnamed            0229 A210121-C N Lo Ni           304 Im  
+Unnamed            0232 C876640-4   Ag Ni           804 Im  
+Unnamed            0236 A659412-C N Ni              403 Im  
+Unnamed            0238 C7A0678-8 M Ni De           803 Im  
+Unnamed            0239 B97589B-6                   813 Im  
+Unnamed            0301 B9A3737-B N                 601 Im  
+Unnamed            0304 B9C0646-9 N Ni De           014 Im  
+Unnamed            0306 C572446-7 S Ni              921 Im  
+Unnamed            0308 D455400-8 S Ni              502 Im  
+Unnamed            0309 E558367-6   Lo Ni           204 Im  
+Unnamed            0311 B000734-B N Na As           801 Im  
+Unnamed            0314 B1009CA-C A Hi Na Va        724 Im  
+Unnamed            0315 D88A210-3   Lo Ni Wa        524 Im  
+Unnamed            0317 B6449DD-A N Hi In           803 Im  
+Unnamed            0319 X545ADF-1   Hi In           412 Im R
+Unnamed            0320 A533300-A S Lo Ni Po        302 Im  
+Unnamed            0322 C35559B-8 S Ag Ni           503 Im  
+Unnamed            0323 C773445-9   Ni              504 Im  
+Unnamed            0324 D469203-A   Lo Ni           604 Im  
+Unnamed            0325 C313211-A   Lo Ni Ic        900 Im  
+Unnamed            0326 C564672-4 S Ag Ni Ri        120 Im  
+Unnamed            0328 C210557-B   Ni              103 Im  
+Unnamed            0330 A768666-8 A Ag Ni Ri        302 Im  
+Unnamed            0332 E3007AC-5   Na Va           704 Im  
+Unnamed            0334 E7C6764-7                   404 Im  
+Unnamed            0335 A512595-C N Ni Ic           314 Im  
+Unnamed            0336 D100464-8 S Ni Va           205 Im  
+Unnamed            0338 C448444-8   Ni              702 Im  
+Unnamed            0339 B582655-6 N Ni Ri           204 Im  
+Unnamed            0340 C646300-6   Lo Ni           612 Im  
+Unnamed            0401 E501275-4   Lo Ni Va Ic     302 Im  
+Unnamed            0402 E463464-4   Ni              103 Im  
+Unnamed            0403 C342102-8 S Lo Ni Po        904 Im  
+Unnamed            0404 C36176B-9   Ri              400 Im  
+Unnamed            0405 C323687-7 S Na Ni Po        511 Im  
+Unnamed            0409 X438010-2   Lo Ni           304 Im R
+Unnamed            0411 B200157-B A Lo Ni Va        910 Im  
+Unnamed            0413 B684303-8   Lo Ni           422 Im  
+Unnamed            0414 E200411-4   Ni Va           214 Im  
+Unnamed            0415 A666873-C M Ri              504 Im  
+Unnamed            0417 C543785-4   Po              100 Im  
+Unnamed            0421 D553A85-7   Hi Po           203 Im  
+Unnamed            0425 C7B5234-8 M Lo Ni           913 Im  
+Unnamed            0426 B464569-B   Ag Ni           402 Im  
+Unnamed            0427 E648449-3   Ni              402 Im  
+Unnamed            0428 A3026A8-9 M Na Ni Va Ic     005 Im  
+Unnamed            0429 C7C1774-5 S                 802 Im  
+Unnamed            0430 A453798-C N Po              625 Im  
+Unnamed            0434 C354676-8 S Ag Ni           815 Im  
+Unnamed            0435 C636130-8 S Lo Ni           924 Im  
+Unnamed            0436 D6A5677-5 S Ni              711 Im  
+Unnamed            0440 A236732-D N                 605 Im  
+Unnamed            0501 A447779-C N Ag              614 Im  
+Unnamed            0502 E000578-7   Ni As           503 Im  
+Unnamed            0503 B3208BD-7 N Na Po De        314 Im  
+Unnamed            0507 A100774-A   Na Va           214 Im  
+Unnamed            0508 C300400-B M Ni Va           523 Im  
+Unnamed            0513 B312346-8   Lo Ni Ic        712 Im  
+Unnamed            0515 C588752-A   Ag Ri           314 Im  
+Unnamed            0518 B899764-B                   302 Im  
+Unnamed            0520 C223458-8 S Ni Po           913 Im  
+Unnamed            0521 C566854-8 M Ri              700 Im  
+Unnamed            0524 C9D2623-9 S Ni              305 Im  
+Unnamed            0525 D54368C-4 S Ni Po           103 Im  
+Unnamed            0526 D779322-8 S Lo Ni           400 Im  
+Unnamed            0527 C9BA340-A M Lo Ni Wa        822 Im  
+Unnamed            0530 A6A0658-B A Ni De           405 Im  
+Unnamed            0534 A322302-F A Lo Ni Po        314 Im  
+Unnamed            0537 A447666-C S Ag Ni           815 Im  
+Unnamed            0538 D587659-5   Ag Ni Ri        903 Im  
+Unnamed            0540 E62187B-4   Na Po           914 Im  
+Unnamed            0607 D64A115-3   Lo Ni Wa        303 Im  
+Unnamed            0609 B739594-A S Ni              801 Im  
+Unnamed            0614 A749677-D   Ni              305 Im  
+Unnamed            0616 B683632-9 S Ni              024 Im  
+Unnamed            0617 D438505-7 S Ni              413 Im  
+Unnamed            0622 E667331-3   Lo Ni           413 Im  
+Unnamed            0624 A444321-D   Lo Ni           113 Im  
+Unnamed            0625 X434402-3   Ni              203 Im R
+Unnamed            0626 B6A0788-A   De              902 Im  
+Unnamed            0629 A878420-B   Ni              003 Im  
+Unnamed            0630 AA96200-B N Lo Ni Fl        815 Im  
+Unnamed            0631 A784866-C A Ri              202 Im  
+Unnamed            0632 B510220-A S Lo Ni           000 Im  
+Unnamed            0633 C200583-B S Ni Va           004 Im  
+Unnamed            0635 C537585-A   Ni              715 Im  
+Unnamed            0637 C855667-8 S Ag Ni           511 Im  
+Unnamed            0638 B539566-B   Ni              925 Im  
+Unnamed            0639 E466200-7   Lo Ni           524 Im  
+Unnamed            0701 C772768-3 M                 424 Im  
+Unnamed            0704 B778444-B M Ni              603 Im  
+Unnamed            0705 A264720-A   Ag              503 Im  
+Unnamed            0708 C483466-A S Ni              400 Im  
+Unnamed            0709 C456002-8 S Lo Ni           223 Im  
+Unnamed            0711 B8D4656-C S Ni              700 Im  
+Unnamed            0717 B469532-B   Ni              910 Im  
+Unnamed            0720 B798641-A M Ag Ni           123 Im  
+Unnamed            0721 C3368DF-5 S                 115 Im  
+Unnamed            0722 C989856-A   Ri              514 Im  
+Unnamed            0723 A597766-7   Ag              702 Im  
+Unnamed            0726 X469200-4   Lo Ni           723 Im R
+Unnamed            0727 X344333-3   Lo Ni           202 Im R
+Unnamed            0729 B9D889C-7                   514 Im  
+Unnamed            0730 C65A8BC-3 M Wa              202 Im  
+Unnamed            0737 B858152-C N Lo Ni           015 Im  
+Unnamed            0738 C67799A-7 M Hi In           402 Im  
+Unnamed            0801 B224642-7 S Ni              403 Im  
+Unnamed            0804 B765653-8   Ag Ni Ri        120 Im  
+Unnamed            0806 E340595-8   Ni Po De        203 Im  
+Unnamed            0809 B522430-A N Ni Po           205 Im  
+Unnamed            0810 C22078B-8 M Na Po De        412 Im  
+Unnamed            0812 E7997CD-6                   702 Im  
+Unnamed            0817 D100246-9 S Lo Ni Va        424 Im  
+Unnamed            0819 D56156B-3 S Ni              904 Im  
+Unnamed            0820 C596220-7 M Lo Ni           024 Im  
+Unnamed            0827 C120623-A   Na Ni Po De     100 Im  
+Unnamed            0828 C230223-6   Lo Ni Po De     312 Im  
+Unnamed            0829 C796335-5 S Lo Ni           002 Im  
+Unnamed            0830 C241535-A M Ni Po           704 Im  
+Unnamed            0835 C000957-C S Hi Na As        105 Im  
+Unnamed            0837 B330779-7 M Na Po De        003 Im  
+Unnamed            0838 C478996-B M Hi In           902 Im  
+Unnamed            0840 B530887-B   Na Po De        115 Im  
+Unnamed            0902 D547232-6   Lo Ni           703 Im  
+Unnamed            0907 D634488-4   Ni              013 Im  
+Unnamed            0908 D254856-7                   103 Im  
+Unnamed            0909 B744979-B A Hi In           502 Im  
+Unnamed            0910 B434251-B A Lo Ni           804 Im  
+Unnamed            0913 C130155-9 S Lo Ni Po De     614 Im  
+Unnamed            0914 C584533-9   Ag Ni           821 Im  
+Unnamed            0915 E541453-5   Ni Po           705 Im  
+Unnamed            0916 E574249-4   Lo Ni           914 Im  
+Unnamed            0917 E7B4452-9   Ni              000 Im  
+Unnamed            0921 A756585-9 A Ag Ni           104 Im  
+Unnamed            0923 D220279-9   Lo Ni Po De     624 Im  
+Unnamed            0926 X4628AA-2                   811 Im R
+Unnamed            0928 C621650-6 S Na Ni Po        922 Im  
+Unnamed            0930 C878668-6   Ag Ni           714 Im  
+Unnamed            0931 C6A2544-5 M Ni              502 Im  
+Unnamed            0934 C672215-8   Lo Ni           504 Im  
+Unnamed            0940 B425577-A S Ni              721 Im  
+Unnamed            1002 E4356AA-7   Ni              803 Im  
+Unnamed            1005 D664565-6 S Ag Ni           703 Im  
+Unnamed            1007 A657688-8 M Ag Ni           610 Im  
+Unnamed            1009 C635544-A   Ni              713 Im  
+Unnamed            1010 C200684-8 S Na Ni Va        121 Im  
+Unnamed            1011 B849255-E A Lo Ni           400 Im  
+Unnamed            1014 C557400-6 S Ni              811 Im  
+Unnamed            1017 E200100-7   Lo Ni Va        604 Im  
+Unnamed            1021 B455333-B M Lo Ni           113 Im  
+Unnamed            1028 X679554-4   Ni              500 Im R
+Unnamed            1029 A572694-9 N Ni              724 Im  
+Unnamed            1034 A413410-F S Ni Ic           620 Im  
+Unnamed            1040 C7498AE-8                   700 Im  
+Unnamed            1101 A528454-B   Ni              302 Im  
+Unnamed            1102 E10089E-5   Na Va           212 Im  
+Unnamed            1103 C85A389-7 M Lo Ni Wa        924 Im  
+Unnamed            1104 E78A958-6   Hi Wa           103 Im  
+Unnamed            1105 B6A4564-7 N Ni              514 Im  
+Unnamed            1107 C536003-A M Lo Ni           800 Im  
+Unnamed            1109 C667657-7   Ag Ni Ri        104 Im  
+Unnamed            1110 C686677-6   Ag Ni Ri        004 Im  
+Unnamed            1113 X202300-6   Lo Ni Va Ic     403 Im R
+Unnamed            1117 B14069B-B   Ni Po De        703 Im  
+Unnamed            1121 B6A0654-C S Ni De           414 Im  
+Unnamed            1125 D867210-4   Lo Ni           803 Im  
+Unnamed            1126 B89A645-9   Ni Wa           402 Im  
+Unnamed            1132 A312469-F   Ni Ic           803 Im  
+Unnamed            1135 C455302-6   Lo Ni           401 Im  
+Unnamed            1138 C42056B-8 M Ni Po De        711 Im  
+Unnamed            1139 C252623-7 M Ni Po           103 Im  
+Unnamed            1140 B867313-6 N Lo Ni           604 Im  
+Unnamed            1201 C774667-6 S Ag Ni           602 Im  
+Unnamed            1202 D6A0454-6 S Ni De           424 Im  
+Unnamed            1205 B8B2430-9   Ni              402 Im  
+Unnamed            1208 A638542-E   Ni              004 Im  
+Unnamed            1209 B223669-8 A Na Ni Po        003 Im  
+Unnamed            1211 E8C6200-5   Lo Ni           203 Im  
+Unnamed            1213 E695556-5   Ag Ni           222 Im  
+Unnamed            1214 C310688-6 S Na Ni           102 Im  
+Unnamed            1215 C548966-8 M Hi In           724 Im  
+Unnamed            1218 B200AC9-C   Hi Na Va        615 Im  
+Unnamed            1220 C749548-9 S Ni              502 Im  
+Unnamed            1221 B000443-9   Ni As           300 Im  
+Unnamed            1222 B200355-9 N Lo Ni Va        513 Im  
+Unnamed            1228 A234388-F   Lo Ni           512 Im  
+Unnamed            1229 B422783-7 S Na Po           404 Im  
+Unnamed            1230 C532684-8 S Na Ni Po        804 Im  
+Unnamed            1232 E455996-4   Hi              220 Im  
+Unnamed            1233 C655889-8                   603 Im  
+Unnamed            1240 D558522-5 S Ag Ni           010 Im  
+Unnamed            1301 B324646-B N Ni              000 Im  
+Unnamed            1303 B000A77-F   Hi Na As        414 Im  
+Unnamed            1304 B5688C9-6 N                 424 Im  
+Unnamed            1305 A224878-A                   615 Im  
+Unnamed            1306 B757377-9   Lo Ni           800 Im  
+Unnamed            1308 D374543-6   Ag Ni           004 Im  
+Unnamed            1312 E341567-8   Ni Po           514 Im  
+Unnamed            1313 B967557-9   Ag Ni           602 Im  
+Unnamed            1314 C300100-9   Lo Ni Va        910 Im  
+Unnamed            1315 B8A2887-A                   103 Im  
+Unnamed            1324 B868474-8 S Ni              523 Im  
+Unnamed            1328 C5A6476-A S Ni              503 Im  
+Unnamed            1329 C130536-7   Ni Po De        713 Im  
+Unnamed            1330 C77A304-8   Lo Ni Wa        024 Im  
+Unnamed            1331 C304100-C   Lo Ni Va Ic     100 Im  
+Unnamed            1333 A666355-A A Lo Ni           124 Im  
+Unnamed            1337 D9A7466-7   Ni              613 Im  
+Unnamed            1338 C1409B9-B S Hi In Po De     704 Im  
+Unnamed            1340 D0007AA-8 S Na As           713 Im  
+Unnamed            1401 B552798-7 N Po              123 Im  
+Unnamed            1403 E556240-2   Lo Ni           104 Im  
+Unnamed            1405 C836977-9 M Hi In           820 Im  
+Unnamed            1406 B243664-6 N Ni Po           805 Im  
+Unnamed            1407 B8466A7-7 N Ag Ni           715 Im  
+Unnamed            1408 B887101-7 N Lo Ni           715 Im  
+Unnamed            1409 C576ABB-7   Hi In           103 Im  
+Unnamed            1410 A745378-9   Lo Ni           421 Im  
+Unnamed            1412 E24078B-4   Po De           112 Im  
+Unnamed            1417 D242486-6   Ni Po           314 Im  
+Unnamed            1418 BAA3100-8 N Lo Ni Fl        900 Im  
+Unnamed            1421 B855A98-9   Hi              512 Im  
+Unnamed            1424 C89A7AA-5 S Wa              913 Im  
+Unnamed            1425 C201300-9   Lo Ni Va Ic     200 Im  
+Unnamed            1428 X647242-2   Lo Ni           003 Im R
+Unnamed            1430 A648437-C A Ni              902 Im  
+Unnamed            1431 B849676-B   Ni              725 Im  
+Unnamed            1432 E8C39EC-4   Hi              722 Im  
+Unnamed            1435 B561444-9 N Ni              402 Im  
+Unnamed            1439 E64669A-3   Ag Ni           311 Im  
+Unnamed            1502 C1008DC-6 S Na Va           914 Im  
+Unnamed            1503 E457798-5   Ag              203 Im  
+Unnamed            1504 C594585-6   Ag Ni           314 Im  
+Unnamed            1509 B684AEG-B   Hi              300 Im A
+Unnamed            1511 B510400-B   Ni              410 Im  
+Unnamed            1512 B88A78A-8 N Ri Wa           611 Im  
+Unnamed            1515 B3449B9-9 N Hi In           002 Im  
+Unnamed            1516 D867564-3   Ag Ni           600 Im  
+Unnamed            1517 C622655-A   Na Ni Po        612 Im  
+Unnamed            1519 E8B2533-5   Ni              712 Im  
+Unnamed            1521 B9D9135-E   Lo Ni           724 Im  
+Unnamed            1522 C301124-A S Lo Ni Va Ic     202 Im  
+Unnamed            1523 C88A000-7 S Lo Ba Ni Wa     004 Im  
+Unnamed            1525 X664334-0   Lo Ni           513 Im R
+Unnamed            1528 B220654-8 N Na Ni Po De     702 Im  
+Unnamed            1529 C210565-A   Ni              313 Im  
+Unnamed            1535 B300134-8 N Lo Ni Va        520 Im  
+Unnamed            1538 B400AA8-F N Hi Na Va        010 Im  
+Unnamed            1540 C87768A-3 S Ag Ni           703 Im  
+Unnamed            1603 B462266-8 S Lo Ni           720 Im  
+Unnamed            1605 B553755-7   Po              903 Im  
+Unnamed            1606 A74697B-E N Hi In           704 Im  
+Unnamed            1607 X886342-0   Lo Ni           204 Im R
+Unnamed            1608 B461744-9   Ri              404 Im  
+Unnamed            1615 A549222-E   Lo Ni           813 Im  
+Unnamed            1616 C254975-7   Hi              001 Im  
+Unnamed            1617 BAEA431-B N Ni Wa Fl        114 Im  
+Unnamed            1618 A261477-A M Ni              004 Im  
+Unnamed            1621 B443742-6 S Po              701 Im  
+Unnamed            1623 X7686A9-0   Ag Ni           014 Im R
+Unnamed            1624 A7A7356-E N Lo Ni           923 Im  
+Unnamed            1626 C000699-7   Na Ni As        203 Im  
+Unnamed            1628 B79A77B-A M Wa              303 Im  
+Unnamed            1630 A737AAD-E   Hi In           900 Im  
+Unnamed            1633 D754787-1 S Ag              204 Im  
+Unnamed            1634 E240477-6   Ni Po De        304 Im  
+Unnamed            1635 C8B5244-8 M Lo Ni           703 Im  
+Unnamed            1636 E10078A-8   Na Va           213 Im  
+Unnamed            1637 E8687A9-3   Ag              003 Im  
+Unnamed            1638 A696474-B   Ni              923 Im  
+Unnamed            1639 C463201-7 M Lo Ni           324 Im  
+Unnamed            1701 B69978A-9                   604 Im  
+Unnamed            1703 B478877-9 A                 903 Im  
+Unnamed            1709 B8A4542-B N Ni              614 Im  
+Unnamed            1710 E428210-A   Lo Ni           503 Im  
+Unnamed            1713 B652249-9   Lo Ni Po        800 Im  
+Unnamed            1718 A8C6564-C S Ni              304 Im  
+Unnamed            1719 A472442-D   Ni              825 Im  
+Unnamed            1720 CAB8100-8 S Lo Ni Fl        812 Im  
+Unnamed            1722 C544321-6 S Lo Ni           524 Im  
+Unnamed            1723 C401554-B S Ni Va Ic        804 Im  
+Unnamed            1725 E579585-6   Ni              600 Im  
+Unnamed            1726 C3009AC-B S Hi Na Va        713 Im  
+Unnamed            1728 X537657-4   Ni              201 Im R
+Unnamed            1730 B484464-C S Ni              302 Im  
+Unnamed            1731 B792266-A   Lo Ni           823 Im  
+Unnamed            1732 E300447-4   Ni Va           114 Im  
+Unnamed            1733 C786745-8   Ag Ri           403 Im  
+Unnamed            1735 B88AAAC-C A Hi Wa           303 Im  
+Unnamed            1736 E413357-A   Lo Ni Ic        504 Im  
+Unnamed            1738 A446664-B S Ag Ni           900 Im  
+Unnamed            1739 A855123-A   Lo Ni           713 Im  
+Unnamed            1801 C555562-6   Ag Ni           102 Im  
+Unnamed            1802 C8A6454-7 S Ni              513 Im  
+Unnamed            1803 B75A745-7 A Wa              304 Im  
+Unnamed            1805 B431689-A   Na Ni Po        012 Im  
+Unnamed            1808 X6A0300-0   Lo Ni De        623 Im R
+Unnamed            1809 C3618AD-8                   703 Im  
+Unnamed            1810 C233A86-B S Hi Na In Po     304 Im  
+Unnamed            1812 X546300-2   Lo Ni           612 Im R
+Unnamed            1813 C300743-6   Na Va           923 Im  
+Unnamed            1814 C512AEK-9   Hi Na Ic        115 Im R
+Unnamed            1815 B21069A-A   Na Ni           804 Im  
+Unnamed            1817 B536595-8   Ni              704 Im  
+Unnamed            1818 C774230-9 S Lo Ni           002 Im  
+Unnamed            1821 B110677-A N Na Ni           412 Im  
+Unnamed            1824 E769942-A   Hi              701 Im  
+Unnamed            1825 E35178C-2   Po              005 Im  
+Unnamed            1829 D666552-8 S Ag Ni           105 Im  
+Unnamed            1830 X555687-1   Ag Ni           223 Im R
+Unnamed            1833 C343322-9 S Lo Ni Po        724 Im  
+Unnamed            1834 B450458-C S Ni Po De        601 Im  
+Unnamed            1838 E7A069A-5   Ni De           700 Im  
+Unnamed            1839 B659965-E   Hi              003 Im  
+Unnamed            1902 C5345AB-7 M Ni              403 Im  
+Unnamed            1903 C222645-A M Na Ni Po        005 Im  
+Unnamed            1904 B595134-6   Lo Ni           004 Im  
+Unnamed            1905 B100133-B M Lo Ni Va        602 Im  
+Unnamed            1911 C633411-9 S Ni Po           604 Im  
+Unnamed            1912 C777234-7   Lo Ni           100 Im  
+Unnamed            1913 C404436-7 S Ni Va Ic        613 Im  
+Unnamed            1914 A9A6778-A                   703 Im  
+Unnamed            1916 C9A7510-7 S Ni              601 Im  
+Unnamed            1917 A694744-9   Ag              023 Im  
+Unnamed            1919 C110653-A M Na Ni           521 Im  
+Unnamed            1921 B765435-7 A Ni              902 Im  
+Unnamed            1922 A654475-9   Ni              714 Im  
+Unnamed            1923 BA86335-9 S Lo Ni Fl        600 Im  
+Unnamed            1925 E9A9676-9   Ni              110 Im  
+Unnamed            1929 C6A1548-A M Ni              404 Im  
+Unnamed            1930 E58226A-4   Lo Ni           703 Im  
+Unnamed            1931 A10089C-D   Na Va           214 Im  
+Unnamed            1935 C656320-4 S Lo Ni           514 Im  
+Unnamed            1938 A614402-C N Ni Ic           902 Im  
+Unnamed            1939 B6A1457-8 N Ni              503 Im  
+Unnamed            2001 E000532-9   Ni As           804 Im  
+Unnamed            2003 C612A6A-C M Hi Na Ic        404 Im  
+Unnamed            2004 A647578-B   Ag Ni           903 Im  
+Unnamed            2005 A663979-B N Hi              410 Im  
+Unnamed            2007 B622566-8   Ni Po           504 Im  
+Unnamed            2008 C000434-C S Ni As           524 Im  
+Unnamed            2011 C522769-8 M Na Po           120 Im  
+Unnamed            2012 D367215-4 S Lo Ni           400 Im  
+Unnamed            2016 C200746-6 S Na Va           303 Im  
+Unnamed            2018 D6A5215-8 S Lo Ni           020 Im  
+Unnamed            2020 A656533-8   Ag Ni           723 Im  
+Unnamed            2022 A255325-A A Lo Ni           600 Im  
+Unnamed            2025 B445100-A A Lo Ni           110 Im  
+Unnamed            2028 CAD5203-8 S Lo Ni Fl        013 Im  
+Unnamed            2031 D575320-5   Lo Ni           222 Im  
+Unnamed            2034 C65A774-8   Wa              202 Im  
+Unnamed            2036 B445004-C S Lo Ni           804 Im  
+Unnamed            2037 D140222-7 S Lo Ni Po De     423 Im  
+Unnamed            2038 C629654-7 S Ni              800 Im  
+Unnamed            2039 B200100-9   Lo Ni Va        800 Im  
+Unnamed            2101 C648997-B   Hi In           500 Im  
+Unnamed            2104 A254655-C N Ag Ni           520 Im  
+Unnamed            2111 B879310-B S Lo Ni           114 Im  
+Unnamed            2115 C342655-A   Ni Po           800 Im  
+Unnamed            2116 D310562-8 S Ni              702 Im  
+Unnamed            2121 E566232-6   Lo Ni           220 Im  
+Unnamed            2126 B000020-D S Lo Ni As        602 Im  
+Unnamed            2127 C785100-A S Lo Ni           104 Im  
+Unnamed            2128 B595352-C S Lo Ni           524 Im  
+Unnamed            2129 D535643-2 S Ni              814 Im  
+Unnamed            2130 B351A75-B N Hi Po           703 Im  
+Unnamed            2132 C410510-7 S Ni              002 Im  
+Unnamed            2137 A8B7000-E M Lo Ba Ni        803 Im  
+Unnamed            2139 B96A342-B A Lo Ni Wa        904 Im  
+Unnamed            2140 B100221-E N Lo Ni Va        703 Im  
+Unnamed            2207 C364576-7 M Ag Ni           503 Im  
+Unnamed            2208 E796496-7   Ni              104 Im  
+Unnamed            2210 C884647-3   Ag Ni Ri        704 Im  
+Unnamed            2213 B120558-F M Ni Po De        112 Im  
+Unnamed            2214 D9A1877-6 S                 202 Im  
+Unnamed            2215 B784100-9 S Lo Ni           004 Im  
+Unnamed            2216 X310200-4   Lo Ni           212 Im R
+Unnamed            2218 C524368-6   Lo Ni           811 Im  
+Unnamed            2220 D1009BG-A S Hi Na Va        123 Im  
+Unnamed            2223 C586477-4 S Ni              410 Im  
+Unnamed            2225 A485867-D N Ri              704 Im  
+Unnamed            2226 D300111-4 S Lo Ni Va        101 Im  
+Unnamed            2230 B2257AF-A N                 403 Im  
+Unnamed            2231 B332699-A N Na Ni Po        405 Im  
+Unnamed            2232 D242845-3 S Po              825 Im  
+Unnamed            2234 E8B3255-4   Lo Ni           014 Im  
+Unnamed            2237 A555489-A   Ni              903 Im  
+Unnamed            2240 B747211-6 N Lo Ni           204 Im  
+Unnamed            2303 B37569A-9 S Ag Ni           403 Im  
+Unnamed            2304 C363344-7 S Lo Ni           404 Im  
+Unnamed            2305 E642789-2   Po              701 Im  
+Unnamed            2306 B547AD9-7 N Hi In           204 Im  
+Unnamed            2307 D557334-5 S Lo Ni           200 Im  
+Unnamed            2308 A531676-B   Na Ni Po        120 Im  
+Unnamed            2309 A899596-B N Ni              011 Im  
+Unnamed            2312 C74A958-9 M Hi In Wa        803 Im  
+Unnamed            2314 B400544-9 N Ni Va           102 Im  
+Unnamed            2318 C473788-8 S                 500 Im  
+Unnamed            2321 A472331-A N Lo Ni           424 Im  
+Unnamed            2322 B6B08AC-A S De              603 Im  
+Unnamed            2323 D000AAA-B S Hi Na As        114 Im  
+Unnamed            2330 C110111-9 M Lo Ni           204 Im  
+Unnamed            2331 C759200-9 M Lo Ni           912 Im  
+Unnamed            2333 E786996-4   Hi              510 Im  
+Unnamed            2334 CAA6435-8 M Ni Fl           903 Im  
+Unnamed            2335 B420363-B S Lo Ni Po De     102 Im  
+Unnamed            2336 C5A3501-8 M Ni              413 Im  
+Unnamed            2337 D262520-4 S Ni              924 Im  
+Unnamed            2339 B66A654-6 S Ni Ri Wa        401 Im  
+Unnamed            2402 A674989-9   Hi In           704 Im  
+Unnamed            2404 B652544-8 S Ni Po           723 Im  
+Unnamed            2405 A665458-B N Ni              112 Im  
+Unnamed            2407 C100586-8 S Ni Va           813 Im  
+Unnamed            2411 A000567-B   Ni As           215 Im  
+Unnamed            2412 B7C3366-9 N Lo Ni           123 Im  
+Unnamed            2413 E211221-6   Lo Ni Ic        613 Im  
+Unnamed            2414 B657498-A A Ni              813 Im  
+Unnamed            2415 DAC59A8-7 S Hi Fl           712 Im  
+Unnamed            2417 A596510-9 N Ag Ni           902 Im  
+Unnamed            2420 D100346-A S Lo Ni Va        521 Im  
+Unnamed            2423 A9C6120-C N Lo Ni           203 Im  
+Unnamed            2424 C656302-9   Lo Ni           620 Im  
+Unnamed            2425 D340436-5   Ni Po De        500 Im  
+Unnamed            2426 B686754-A   Ag Ri           204 Im  
+Unnamed            2427 A510003-C   Lo Ni           204 Im  
+Unnamed            2429 B653576-9 M Ni Po           303 Im  
+Unnamed            2430 D642200-3   Lo Ni Po        712 Im  
+Unnamed            2431 C524686-8 S Ni              113 Im  
+Unnamed            2433 D699476-9   Ni              213 Im  
+Unnamed            2437 C241564-7 M Ni Po           903 Im  
+Unnamed            2438 A355201-D   Lo Ni           301 Im  
+Unnamed            2440 E768884-3   Ri              923 Im  
+Unnamed            2501 A475798-C   Ag              900 Im  
+Unnamed            2502 E575366-2   Lo Ni           600 Im  
+Unnamed            2503 AA8A943-A   Hi Wa Fl        214 Im  
+Unnamed            2505 C557343-7   Lo Ni           723 Im  
+Unnamed            2507 E561330-7   Lo Ni           621 Im  
+Unnamed            2508 C45669E-9 M Ag Ni           802 Im  
+Unnamed            2510 C352533-8 M Ni Po           803 Im  
+Unnamed            2513 X536302-3   Lo Ni           020 Im R
+Unnamed            2514 A886432-A N Ni              515 Im  
+Unnamed            2518 D000587-7   Ni As           304 Im  
+Unnamed            2519 C778246-A   Lo Ni           004 Im  
+Unnamed            2525 D5A4402-7   Ni              712 Im  
+Unnamed            2526 A659A67-E S Hi              000 Im  
+Unnamed            2527 C974200-9 S Lo Ni           303 Im  
+Unnamed            2530 B4927AD-A                   804 Im  
+Unnamed            2532 D448878-8 S                 024 Im  
+Unnamed            2533 D96A368-2 S Lo Ni Wa        204 Im  
+Unnamed            2534 B440443-C A Ni Po De        011 Im  
+Unnamed            2535 E200531-4   Ni Va           804 Im  
+Unnamed            2539 A865687-C N Ag Ni Ri        210 Im  
+Unnamed            2602 A447537-C   Ag Ni           324 Im  
+Unnamed            2604 AAC7762-C N Fl              405 Im  
+Unnamed            2605 C1005A8-7 S Ni Va           302 Im  
+Unnamed            2608 C678105-7   Lo Ni           311 Im  
+Unnamed            2610 C683587-8 S Ni              303 Im  
+Unnamed            2611 E691730-1                   621 Im  
+Unnamed            2612 E6A08DC-3   De              912 Im  
+Unnamed            2614 A5018A9-B   Na Va Ic        824 Im  
+Unnamed            2615 A636113-9 M Lo Ni           600 Im  
+Unnamed            2617 B444120-9 N Lo Ni           103 Im  
+Unnamed            2619 D000110-6 S Lo Ni As        313 Im  
+Unnamed            2620 C322675-9 M Na Ni Po        824 Im  
+Unnamed            2623 C40056A-6   Ni Va           511 Im  
+Unnamed            2625 E779665-8   Ni              624 Im  
+Unnamed            2627 B697665-7   Ag Ni           824 Im  
+Unnamed            2629 B9A6345-A N Lo Ni           603 Im  
+Unnamed            2630 D000523-9   Ni As           114 Im  
+Unnamed            2632 A788125-B M Lo Ni           112 Im  
+Unnamed            2635 C534100-A S Lo Ni           313 Im  
+Unnamed            2639 A646340-9 A Lo Ni           900 Im  
+Unnamed            2703 B448411-A   Ni              822 Im  
+Unnamed            2706 C678465-6   Ni              313 Im  
+Unnamed            2707 C362545-A S Ni              001 Im  
+Unnamed            2709 C201ACB-A S Hi Na Va Ic     002 Im  
+Unnamed            2711 CAC636A-7 S Lo Ni Fl        501 Im  
+Unnamed            2714 A451343-B N Lo Ni Po        203 Im  
+Unnamed            2715 E2108DA-5   Na              300 Im  
+Unnamed            2716 C310534-B S Ni              100 Im  
+Unnamed            2718 AAB3463-9 S Ni Fl           512 Im  
+Unnamed            2720 B334402-A M Ni              700 Im  
+Unnamed            2721 C8A3676-4   Ni              200 Im  
+Unnamed            2722 D514232-5   Lo Ni Ic        211 Im  
+Unnamed            2723 C432344-8   Lo Ni Po        002 Im  
+Unnamed            2724 E663535-3   Ni              605 Im  
+Unnamed            2726 D68638A-7 S Lo Ni           610 Im  
+Unnamed            2728 A557300-B   Lo Ni           223 Im  
+Unnamed            2731 C765622-6 S Ag Ni           000 Im  
+Unnamed            2732 A788541-C N Ag Ni           803 Im  
+Unnamed            2735 C456366-7 M Lo Ni           600 Im  
+Unnamed            2736 A749459-F N Ni              903 Im  
+Unnamed            2738 E614657-8   Ni Ic           503 Im  
+Unnamed            2740 D320415-6 S Ni Po De        003 Im  
+Unnamed            2802 B551967-7 N Hi Po           120 Im  
+Unnamed            2803 C233443-9 S Ni Po           302 Im  
+Unnamed            2804 E150632-4   Ni Po De        313 Im  
+Unnamed            2806 C240433-6 S Ni Po De        803 Im  
+Unnamed            2815 D555622-4 S Ag Ni           115 Im  
+Unnamed            2819 D661546-6   Ni              220 Im  
+Unnamed            2824 D662755-4 S Ri              622 Im  
+Unnamed            2827 A84A110-D   Lo Ni Wa        014 Im  
+Unnamed            2828 A546475-C N Ni              913 Im  
+Unnamed            2832 B362673-B   Ni Ri           904 Im  
+Unnamed            2833 BAC4758-C M Fl              505 Im  
+Unnamed            2834 A110644-C   Na Ni           513 Im  
+Unnamed            2839 C555110-9 M Lo Ni           400 Im  
+Unnamed            2840 E453100-5   Lo Ni Po        624 Im  
+Unnamed            2902 X6936BF-2   Ni              804 Im R
+Unnamed            2903 B535654-A   Ni              302 Im  
+Unnamed            2905 C998856-A S                 214 Im  
+Unnamed            2906 C776300-7   Lo Ni           902 Im  
+Unnamed            2908 B401443-8   Ni Va Ic        120 Im  
+Unnamed            2909 D437610-5 S Ni              812 Im  
+Unnamed            2915 C676646-5 S Ag Ni           914 Im  
+Unnamed            2916 E7A4756-8                   714 Im  
+Unnamed            2919 B463565-C S Ni              003 Im  
+Unnamed            2923 A543ABC-E   Hi In Po        000 Im  
+Unnamed            2924 CAE4886-5   Fl              003 Im  
+Unnamed            2928 E477947-9   Hi In           825 Im  
+Unnamed            2929 B567ABA-E N Hi              523 Im  
+Unnamed            2931 C595454-6   Ni              502 Im  
+Unnamed            2932 A5317AA-9 S Na Po           103 Im  
+Unnamed            2936 C511235-9   Lo Ni Ic        913 Im  
+Unnamed            2937 C100587-8   Ni Va           804 Im  
+Unnamed            2939 A555688-B   Ag Ni           903 Im  
+Unnamed            3003 A8668BE-7 A                 704 Im  
+Unnamed            3004 E223135-8   Lo Ni Po        810 Im  
+Unnamed            3005 C300332-A S Lo Ni Va        202 Im  
+Unnamed            3007 C300265-8 M Lo Ni Va        302 Im  
+Unnamed            3009 CAE5515-7 S Ni Fl           202 Im  
+Unnamed            3011 C000896-A S Na As           303 Im  
+Unnamed            3013 X513345-3   Lo Ni Ic        214 Im R
+Unnamed            3015 D5438BF-3 S Po              413 Im  
+Unnamed            3017 X321445-3   Ni Po           100 Im R
+Unnamed            3019 A334430-D N Ni              125 Im  
+Unnamed            3024 B1009AA-B N Hi Na Va        902 Im  
+Unnamed            3027 A343658-B N Ni Po           802 Im  
+Unnamed            3030 E5277CE-3                   914 Im  
+Unnamed            3031 D787335-7 S Lo Ni           202 Im  
+Unnamed            3032 D775556-8 S Ag Ni           904 Im  
+Unnamed            3033 BA5A673-8 S Ni Wa Fl        213 Im  
+Unnamed            3035 C5A2764-4 S                 314 Im  
+Unnamed            3036 E588664-4   Ag Ni Ri        602 Im  
+Unnamed            3038 B1008C7-D N Na Va           403 Im  
+Unnamed            3039 C626842-9 S                 024 Im  
+Unnamed            3101 E345335-4   Lo Ni           815 Im  
+Unnamed            3102 D789455-A S Ni              600 Im  
+Unnamed            3103 B987344-7 A Lo Ni           303 Im  
+Unnamed            3107 C140AED-D   Hi In Po De     013 Im  
+Unnamed            3108 A574426-D N Ni              010 Im  
+Unnamed            3109 C343200-B   Lo Ni Po        603 Im  
+Unnamed            3111 D426020-3   Lo Ni           704 Im  
+Unnamed            3112 BA7A38A-9 S Lo Ni Wa Fl     003 Im  
+Unnamed            3113 D340555-8   Ni Po De        410 Im  
+Unnamed            3115 B9C8ABD-E N Hi              104 Im  
+Unnamed            3116 C78A466-9   Ni Wa           524 Im  
+Unnamed            3117 E797446-6   Ni              803 Im  
+Unnamed            3118 E746100-6   Lo Ni           813 Im  
+Unnamed            3121 C303200-9 S Lo Ni Va Ic     604 Im  
+Unnamed            3122 B7A5537-9 S Ni              820 Im  
+Unnamed            3124 C140667-8 M Ni Po De        604 Im  
+Unnamed            3126 A438ADE-H M Hi In           703 Im  
+Unnamed            3128 C784763-7   Ag Ri           504 Im  
+Unnamed            3131 X446510-0   Ag Ni           420 Im R
+Unnamed            3132 C6B57C9-4 M                 104 Im  
+Unnamed            3133 C255320-8   Lo Ni           310 Im  
+Unnamed            3134 C35369A-5 M Ni Po           214 Im  
+Unnamed            3135 E346501-5   Ag Ni           112 Im  
+Unnamed            3136 B627765-8 A                 914 Im  
+Unnamed            3137 B96A698-7   Ni Ri Wa        015 Im  
+Unnamed            3138 A579442-C   Ni              002 Im  
+Unnamed            3201 C7B57A9-4 S                 112 Im  
+Unnamed            3202 B361896-B M Ri              904 Im  
+Unnamed            3203 E87A410-3   Ni Wa           715 Im  
+Unnamed            3205 C245668-5 M Ag Ni           003 Im  
+Unnamed            3206 B775432-7 A Ni              203 Im  
+Unnamed            3207 X64669C-2   Ag Ni           602 Im R
+Unnamed            3208 E000545-6   Ni As           804 Im  
+Unnamed            3209 B200ADC-C N Hi Na Va        512 Im  
+Unnamed            3211 C786734-4 M Ag              514 Im  
+Unnamed            3214 C7A0123-8   Lo Ni De        403 Im  
+Unnamed            3215 A557768-7 A Ag              012 Im  
+Unnamed            3216 C526776-9                   513 Im  
+Unnamed            3217 B8A6789-9 A                 203 Im  
+Unnamed            3218 B0007BC-8 S Na As           610 Im  
+Unnamed            3219 A612650-9   Na Ni Ic        002 Im  
+Unnamed            3221 C775761-7 S Ag              525 Im  
+Unnamed            3222 B385237-7 S Lo Ni           113 Im  
+Unnamed            3224 B59A102-8 M Lo Ni Wa        925 Im  
+Unnamed            3228 AA9A6AE-7   Ni Wa Fl        220 Im  
+Unnamed            3231 A310ABA-E N Hi Na           412 Im  
+Unnamed            3236 C79568A-3 S Ag Ni           100 Im  
+Unnamed            3239 D631366-5   Lo Ni Po        904 Im  

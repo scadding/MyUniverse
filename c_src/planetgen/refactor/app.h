@@ -25,23 +25,24 @@
 
 using namespace std;
 
-class app : public ThreadObject {
-	public:
-		app();
-		~app();
-		app(int argc, char **argv);
-		void run();
-		int setCommand(queue *set);
-		queue *getCommand();
-		void con(char *s);
+class app : public ThreadObject
+{
+public:
+    app();
+    ~app();
+    app(int argc, char **argv);
+    void run();
+    int setCommand(queue *set);
+    queue *getCommand();
+    void con(char *s);
 
-	private:
-		queue *command;
-		console c;
-		logger *l;
-		options *o;
-		sem_t sem;
-	protected:
+private:
+    queue *command;
+    console c;
+    logger *l;
+    options *o;
+    sem_t sem;
+protected:
 }; /* app */
 
 #endif /* APP_H */

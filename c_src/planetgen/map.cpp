@@ -11,7 +11,7 @@ cartPt mercator::convert(int i, int j)
     cartPt pt;
 #if 1
     double theta;
-    if(jj == -1){
+    if(jj == -1) {
         y = sin(latitude);
         y = (1.0+y)/(1.0-y);
         y = 0.5*log(y);
@@ -19,14 +19,14 @@ cartPt mercator::convert(int i, int j)
         k = (int)(0.5*y*Width*scale/PI);
         // k - equator (0) scaled(map)
     }
-    if(j != jj){
+    if(j != jj) {
         jj = j;
         y = PI*(2.0*(j-k)-Height)/Width/scale;
         y = exp(2.*y);
         y = (y-1.)/(y+1.);
         cos2 = sqrt(1.0-y*y);
     }
-    if(i != ii){
+    if(i != ii) {
         ii = i;
         theta = longitude-0.5*PI+PI*(2.0*i-Width)/Width/scale;
         x = cos(theta)*cos2;
@@ -37,18 +37,18 @@ cartPt mercator::convert(int i, int j)
     pt.z = z;
     double iPercent = (double(i) / double(Width - 1));
     double jPercent = (double(j) / double(Height - 1));
-    
+
     //pt.x = sin(iPercent * 2.0 * PI) * cos(jPercent * PI);
     //pt.y = jPercent * 2.0 - 1.0;
     //pt.z = cos(iPercent * 2.0 * PI) * sin(jPercent * PI);
 #else
     double iPercent = (double(i) / double(Width - 1));
     double jPercent = (double(j) / double(Height - 1));
-    
+
     pt.x = sin(iPercent * 2.0 * PI) * cos(jPercent * PI);
     pt.y = jPercent * 2.0 - 1.0;
     pt.z = cos(iPercent * 2.0 * PI) * sin(jPercent * PI);
-    
+
 #endif
     return pt;
 }
@@ -57,20 +57,20 @@ sphericalPt mercator::sconvert(int i, int j)
 {
 
     sphericalPt pt;
-    
+
     double iPercent = (double(i) / double(Width - 1));
     double jPercent = (double(j) / double(Height - 1));
-    
+
     //std::cerr << "i - " << iPercent * 100 << " j - " << jPercent << std::endl;
     pt.longitude = -PI +(PI * 2.0 * iPercent);
     pt.latitude = jPercent * PI - (PI / 2.0);
-    
+
     //pt.longitude =  (PI / 2.0) - (double(i) / double(Width)) * double(PI);
     //pt.latitude = (PI / 2.0) - (double(j) / double(Height)) * double(PI);
     pt.radius = 1.0;
 
     cartPt cPt = convert(i, j);
-    
+
     //double x = sin(longitude);
     //double y = cos(latitude);
     //double z = sin(latitude) * sin(longitude);
@@ -82,7 +82,7 @@ sphericalPt mercator::sconvert(int i, int j)
 }
 
 mercator::mercator() : map(),
-  ii(-1), jj(-1)
+    ii(-1), jj(-1)
 {
 
 }
@@ -106,8 +106,7 @@ cartPt sinusoid::convert(int i, int j)
         if (fabs(y)>=0.5*PI) for (i = 0; i < Width ; i++) {
                 col[i][j] = BACK;
                 if (doshade>0) shades[i][j] = 255;
-            }
-        else {
+            } else {
             cos2 = cos(y);
             if (cos2>0.0) {
                 scale1 = scale*Width/Height/cos2/PI;

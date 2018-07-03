@@ -79,26 +79,22 @@ int main(int argc, char **argv)
 
     if(argc > 1) {
         x = atol(argv[1]);
-    }
-    else {
+    } else {
         x = 10000L;
     }
     if(argc > 2) {
         y = atol(argv[2]);
-    }
-    else {
+    } else {
         y = 10000L;
     }
     if(argc > 3) {
         z = atol(argv[3]);
-    }
-    else {
+    } else {
         z = 10000L;
     }
     if(argc > 4) {
         count = atoi(argv[4]);
-    }
-    else {
+    } else {
         count = 10;
     }
     slist = 0;

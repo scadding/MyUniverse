@@ -13,15 +13,15 @@ void   pad(int n)
 }
 
 const char *acover[16] = { "ww", "!!", "**", "MM", "^^", "..", "--", "++",
-                       "@@", "WW", "II", "ii"
-                     };
+                           "@@", "WW", "II", "ii"
+                         };
 
 void   p2(int val, int type)
 {
     FILE *out = stdout;
     if(type == 0) {
         fprintf(out, "%02d", val);
-    } else if(type == 1){
+    } else if(type == 1) {
         switch(val) {
         case 0:
             fprintf(out, "..");
@@ -39,11 +39,10 @@ void   p2(int val, int type)
             fprintf(out, "ww");
             break;
         }
-    } else if(type == 2){
+    } else if(type == 2) {
         if(val < 0) {
             fprintf(out, "??");
-        }
-        else {
+        } else {
             fprintf(out, "%.2s", acover[val%16]);
         }
     }
@@ -60,8 +59,7 @@ void printw(int buf[20][28], int type)
             pad(5 - l);
             if(l == 0) {
                 p2(buf[t][0], type);
-            }
-            else {
+            } else {
                 j = left[l - 1];
                 while(j <= right[l - 1]) {
                     p2(buf[t][j++], type);
@@ -105,8 +103,7 @@ void printw(int buf[20][28], int type)
             pad(5 - l);
             if(l == 0) {
                 p2(buf[t][0], type);
-            }
-            else {
+            } else {
                 j = left[l - 1];
                 while(j <= right[l - 1]) {
                     p2(buf[t][j++], type);
@@ -126,15 +123,13 @@ void   ptri(int tri[28], int mode, int ori)
     for(l = 0; l < 7; l++) {
         if(ori) {
             ll = 6 - l;
-        }
-        else {
+        } else {
             ll = l;
         }
         pad(6 - ll);
         if(ll == 0) {
             p2(tri[0], mode);
-        }
-        else {
+        } else {
             j = left[ll - 1];
             while(j <= right[ll - 1]) {
                 p2(tri[j++], mode);

@@ -22,7 +22,7 @@
 */
 console::console()
 {
-	create();
+    create();
 }
 
 /*
@@ -51,31 +51,31 @@ console::~console()
 */
 void console::run()
 {
-	int len;
-	char buffer[1024];
-	char *ptr;
-	int test;
+    int len;
+    char buffer[1024];
+    char *ptr;
+    int test;
 
-	fcntl(0, F_SETFL, O_NONBLOCK);
-	while(1){
-		//len = write.get((char *)buffer);
-		ptr = write.get();
-		//fprintf(stderr, "*");
-		if(ptr != NULL){
-			fprintf(stderr, "%s", ptr);
-			delete ptr;
-		}
-		//rc = recv(0, buffer, 1024, 0);
-		if((test = getc(stdin)) >= 0){
-			ungetc(test, stdin);
-			fgets(buffer, 1024, stdin);
-			read.put((char *)buffer, strlen(buffer) + 1);
-		}
-		//if(!feof(stdin)){
-			//scanf("%s\n", buffer);
-			//fgets(buffer, 1024, stdin);
-		//}
-	}
+    fcntl(0, F_SETFL, O_NONBLOCK);
+    while(1) {
+        //len = write.get((char *)buffer);
+        ptr = write.get();
+        //fprintf(stderr, "*");
+        if(ptr != NULL) {
+            fprintf(stderr, "%s", ptr);
+            delete ptr;
+        }
+        //rc = recv(0, buffer, 1024, 0);
+        if((test = getc(stdin)) >= 0) {
+            ungetc(test, stdin);
+            fgets(buffer, 1024, stdin);
+            read.put((char *)buffer, strlen(buffer) + 1);
+        }
+        //if(!feof(stdin)){
+        //scanf("%s\n", buffer);
+        //fgets(buffer, 1024, stdin);
+        //}
+    }
 }
 
 

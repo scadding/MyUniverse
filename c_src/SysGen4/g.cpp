@@ -55,8 +55,7 @@ int    *buf, len, ori, X, Y, scale;
             if(*buf < 0) {  /* sea */
                 fs = WIDE_DOT_FILL;
                 col = -*buf;
-            }
-            else {
+            } else {
                 fs = SOLID_FILL;
                 col = *buf;
             }
@@ -64,8 +63,7 @@ int    *buf, len, ori, X, Y, scale;
             x = X + (j*2 - i)*scale;
             if(ori) {
                 y = Y + i*scale;
-            }
-            else {
+            } else {
                 y = Y - i*scale;
             }
             bar(x, y, x + 2*scale - 1, y + scale - 1);

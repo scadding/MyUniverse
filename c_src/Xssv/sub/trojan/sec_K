@@ -1,0 +1,34 @@
+@SUB-SECTOR: sec_K   SECTOR: trojanre.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Oiwoiieaw     1723 B7878M7-D    Ri                 711 As F0 V M7 D
+Asoieteal     1728 B6976J8-A  R Ag Ni              604 As F2 D
+Camoran       1823 A55167A-B    Ni Po              514 As F9 D
+Keaih         1830 CAA18J7-9    Fl                 202 As K1 D M3 D
+Ohaualr       1927 B4223G8-9  T Po Ni Lo           214 As M9 V
+Tlaiowaha     1928 B1209L4-E  T De Hi In Na Po     411 A1 F4 D
+Khusai        2023 A5766M5-C  R Ag Ni              724 As F7 D
+Staha         2029 B7554K6-E  R Ni                 313 As F3 V M8 D
+Asim          2123 B867564-6    Ag Ni              205 As F2 D
+Kteiroa       2125 C4601K4-8    De Lo Ni           710 As F5 VI
+Torpol        2221 B55A77A-8    Wa                 624 As F4 D
+Drinax        2223 A33645C-F    Ni                 714 As M1 V
+Tyokh         2226 B466AH7-E    Hi                 204 As F4 D M7 D
+Iroioah       2227 B6301G3-E    De Po Ni Lo        823 As M3 V M4 D
+Hleakhayes    2229 E4434KB-A    Po Ni              812 As F2 D M0 D
+Akoaft        2230 E898000-0    Ba Lo Ni        R  231 As F3 D
+Clarke        2322 B899753-8    C5                 820 As F1 V M9 D
+Pourne        2324 A9B2887-A    Fl                 902 As F3 D
+The World     2327 E100551-6    In Ni Va           223 As M5 V
+Vorito        2329 E595ABB-A    In Hi              105 As F4 D M6 D
+Blue          2421 B443487-C    Po Ni              702 As F9 V
+Hilfer        2424 BA5077A-6    De Po              600 As M6 V
+Paal          2425 B564679-6    Ag Ni Ri           603 As F3 V
+Sink          2426 D665220-5    Ni Lo              813 As F5 VI
+Fantasy       2428 E788400-2    Ni                 331 As G2 D

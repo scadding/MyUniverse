@@ -28,7 +28,8 @@
 #define T_TOIDS 'a'
 #define T_GIANT 'g'
 
-class world {
+class world
+{
 public:
     char    name[MAX_NAME];
     char    starport;
@@ -42,7 +43,8 @@ public:
     int     bases;
 };
 
-class dworld {
+class dworld
+{
 public:
     char    core;
     float   diam;
@@ -75,12 +77,14 @@ public:
     int     tpmil, thmil;
 };
 
-class giant {
+class giant
+{
 public:
     int     size;
 };
 
-class dgiant {
+class dgiant
+{
 public:
     float   diam;   /* in kilometers */
     float   dens;   /* w.r.t. water */
@@ -88,7 +92,8 @@ public:
     float   tilt, ecnt;
 };
 
-class dbelt {
+class dbelt
+{
 public:
     int     pbod, maxbod;   /* size is offset to
 1m, 5m, 10m, 25m, 50m, 100m, 300m, 1km, 5km, 10km, 50km, 100km, 500km, 1000km */
@@ -97,29 +102,32 @@ public:
     float   year;   /* in days */
 };
 
-class star {
+class star
+{
 public:
     char    classification;
     int     decimal, size;
 };
 
-class sistem {
+class sistem
+{
 public:
     class body    *sys;
     class body    *mw;
     long    x, y, z;
 };
 
-class body {
+class body
+{
 public:
     char    name[MAX_NAME];
     char    type;
-    union   {
+    union {
         dworld  w;
         dgiant  g;
         dbelt   b;
     }       det;
-    union   {
+    union {
         world   w;
         giant   g;
         star    s;
@@ -128,7 +136,8 @@ public:
     int     orbit;
 };
 
-class city {
+class city
+{
 public:
     char    name[MAX_NAME];
     float   pop;
@@ -144,7 +153,8 @@ struct long32 {
 #endif
 };
 
-class tempdata       {
+class tempdata
+{
 public:
     float   hexrow[11];
     float   hextilt[11];

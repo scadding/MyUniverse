@@ -1,0 +1,227 @@
+# Psyche Data
+# David Burden 17 Aug 90
+# after Thought and Images' Albedo
+
+:zz0:Personality Psychological Profile
+:zz1:Press 'y' for another run
+:zz2:Cannot load PSYCHE.STR text file
+:zz3:No Interpretation
+:zz4:Cannot open output file
+:zz5:Press <RETURN> to continue
+:zz6:World Psychological Profile
+:hp:psyche [-uupp] [-ofilename] [-nnumber] [-h[xx]] [-s] [-w]
+:hp:Generates psychological profiles based on ALBEDO rules,
+:hp:by Thoughts and Images, and GDW's Challenge 35.
+:hp:-uupp      Generate using Universal Personality Profile 'upp',
+:hp:           else random.
+:hp:-ofilename Put output to 'filename'.
+:hp:-nnumber   Generate 'number' profiles.
+:hp:-h[xx]     Provide help information.
+:hp:-s         Suppress screen output when writing to file   
+:hp:-w         Generate world not personality profile      
+:hp:The program runs in an interactive mode unless the -o option is used.
+:hp:For listings of psychological characteristics type
+:hp:"psyche -hxx" where xx is...
+:hp:dr = Drive    st = Stability          sp = SPI Rating
+:hp:cd = Core Disposition   id = Inclining Disposition
+:hp:uu = UPP Parameter     nn = Number Parameter   oo = Output Parameter  
+:hp:ss = Suppress Toggle   ww = World Option
+:uu:-u Sets the UPP
+:uu:The UPP must be in the format 777777.
+:uu:If the UPP is not stated it is randomly generated.
+:uu:eg.  -u777777
+:nn:-n Sets the number of profiles to be generated.
+:nn:eg.  -n5
+:oo:-o Sets file output mode and the output file.
+:oo:No screen display is shown during profile generation.
+:oo:A full pathname can be specified.
+:oo:eg.  -oJOFFRE.PSY
+:ss:-s Suppresses screen output. Only enabled when -o used.
+:ss:eg. -s
+:ww:-w Generates a world/society psychological profile.
+:ww:It suppress output of a UPP and SPI rating.
+:dr:Drive has a range from 0 (worst) to 15 (best)
+:dr0:Drive is 0
+:dr1:Drive is 1
+:dr2:Drive is 2
+:dr3:Drive is 3
+:dr4:Drive is 4
+:dr5:Drive is 5
+:dr6:Drive is 6
+:dr7:Drive is 7
+:dr8:Drive is 8
+:dr9:Drive is 9
+:dr10:Drive is 10
+:dr11:Drive is 11
+:dr12:Drive is 12
+:dr13:Drive is 13
+:dr14:Drive is 14
+:dr15:Drive is 15
+:sp:Socio-Psych-Intel rating
+:sp:SPI rating is from 07 to 40, with an average of 23
+:sp:The lower the value the more dubious the character
+:spf:SPI Rating is  %s
+:cd:Core dispositions dominate the characters actions
+:cd1:Core disposition is Cautious
+:cd2:Core disposition is Polite
+:cd3:Core disposition is Exacting
+:cd4:Core disposition is Generous
+:cd5:Core disposition is Talkative
+:cd6:Core disposition is Kind
+:cd7:Core disposition is Responsible
+:cd8:Core disposition is Modest
+:cd9:Core disposition is Straightforward
+:cd10:Core disposition is Friendly
+:cd11:Core disposition is Reckless
+:cd12:Core disposition is Vulgar
+:cd13:Core disposition is Vague
+:cd14:Core disposition is Greedy
+:cd15:Core disposition is Laconic
+:cd16:Core disposition is Cruel
+:cd17:Core disposition is Irresponsible
+:cd18:Core disposition is Conceited
+:cd19:Core disposition is Devious
+:cd20:Core disposition is Cynical
+:cd51:Core disposition is Paranoid
+:cd52:Core disposition is Sycophantic
+:cd53:Core disposition is Perfectionist
+:cd54:Core disposition is Wasteful
+:cd55:Core disposition is Hysterical
+:cd56:Core disposition is Saintly
+:cd57:Core disposition is Fanatical
+:cd58:Core disposition is Antisocial
+:cd59:Core disposition is Callous
+:cd60:Core disposition is Amorous
+:cd61:Core disposition is Manic
+:cd62:Core disposition is Obscene
+:cd63:Core disposition is Apathetic
+:cd64:Core disposition is Miserly
+:cd65:Core disposition is Mute
+:cd66:Core disposition is Diabolical
+:cd67:Core disposition is Amoral
+:cd68:Core disposition is Messianic
+:cd69:Core disposition is Treacherous
+:cd70:Core disposition is Psychopathic
+:id:Inclination is the first encountered disposition of a character
+:id1:Inclining disposition is Cautious
+:id2:Inclining disposition is Polite
+:id3:Inclining disposition is Exacting
+:id4:Inclining disposition is Generous
+:id5:Inclining disposition is Talkative
+:id6:Inclining disposition is Kind
+:id7:Inclining disposition is Responsible
+:id8:Inclining disposition is Modest
+:id9:Inclining disposition is Straightforward
+:id10:Inclining disposition is Friendly
+:id11:Inclining disposition is Reckless
+:id12:Inclining disposition is Vulgar
+:id13:Inclining disposition is Vague
+:id14:Inclining disposition is Greedy
+:id15:Inclining disposition is Laconic
+:id16:Inclining disposition is Cruel
+:id17:Inclining disposition is Irresponsible
+:id18:Inclining disposition is Conceited
+:id19:Inclining disposition is Devious
+:id20:Inclining disposition is Cynical
+:al:Allegiance
+:al0:No loyalty to anyone other than self
+:al1:Loyal to a single other person.
+:al2:Loyal to a few other people
+:al3:Loyal to a small group of people
+:al4:Loyal to a medium size group, eg small company or club
+:al5:Loyal to a large group, eg large company or political party
+:al6:Loyal to a city or town
+:al7:Loyal to a region, nation, or megacorporation
+:al8:Loyal to a world
+:al9:Loyal to a system
+:al10:Loyal to a subsector
+:al11:Loyal to a sector
+:al12:Loyal to an interstellar government
+:al13:Loyal to a single race
+:al14:Loyal to a group of races, eg the major races
+:al15:Loyal to all life everywhere
+:dv:Devotion to allegiance
+:dv0:Non-existent devotion ( claims to care but it's wholly superficial )
+:dv1:Minimal devotion ( pays lip service to group but little more )
+:dv2:Minimal devotion ( pays lip service to group but little more )
+:dv3:Some devotion ( makes some efforts to support the group )
+:dv4:Some devotion ( makes some efforts to support the group )
+:dv5:Some devotion ( makes some efforts to support the group )
+:dv6:Average devotion ( makes reasonable efforts to support the  group )
+:dv7:Average devotion ( makes reasonable efforts to support the  group )
+:dv8:Average devotion ( makes reasonable efforts to support the  group )
+:dv9:Average devotion ( makes reasonable efforts to support the  group )
+:dv10:Devoted ( makes major efforts to support the group )
+:dv11:Devoted ( makes major efforts to support the group )
+:dv12:Devoted ( makes major efforts to support the group )
+:dv13:Fanatic ( dedicates much time and money to the group )
+:dv14:Fanatic ( dedicates much time nd money to the group )
+:dv15:Obsessed ( uses all of their resources for "the cause" )
+:st:Stability
+:st0:Very unstable ( severe mood swings and personality shifts )
+:st1:Very Weak character ( almost always freaks out when things get hot )
+:st2:Very weak character ( almost always freaks out when things get hot )
+:st3:Weak character ( often loses his cool in rough spots )
+:st4:Weak character ( often loses his cool in rough spots )
+:st5:Weak character ( often loses his cool in rough spots )
+:st6:Reasonably stable ( may cave in if things get too crazy )
+:st7:Reasonably stable ( may cave in if things get too crazy )
+:st8:Reasonably stable ( may cave in if things get too crazy )
+:st9:Reasonably stable ( may cave in if things get too crazy )
+:st10:Stable ( performs well uner pressure )
+:st11:Stable ( performs well uner pressure )
+:st12:Stable ( performs well uner pressure )
+:st13:Very stable ( withstands trauma well, very cool under fire )
+:st14:Very stable ( withstands trauma well, very cool under fire )
+:st15:Absolutely stable ( never cracks, even during disasters )
+:ld:Leadership
+:ld0:Worthless leader ( inspires no devotion at all in others )
+:ld1:Almost worthless leader ( virtually ignored by others )
+:ld2:Almost worthless leader ( virtually ignored by others )
+:ld3:Not a respected leader ( inspires only minor confidence from others )
+:ld4:Not a respected leader ( inspires only minor confidence from others )
+:ld5:Not a respected leader ( inspires only minor confidence from others )
+:ld6:Average leader ( can lead very small groups with success )
+:ld7:Average leader ( can lead very small groups with success )
+:ld8:Average leader ( can lead very small groups with success )
+:ld9:Average leader ( can lead very small groups with success )
+:ld10:Respected leader ( can lead large groups with success )
+:ld11:Respected leader ( can lead large groups with success )
+:ld12:Respected leader ( can lead large groups with success )
+:ld13:Highly respected leader ( a good leader for very large groups )
+:ld14:Highly respected leader ( a good leader for very large groups )
+:ld15:Natural leader ( instantly commands the respect of others )
+:re:Respect for Authority
+:re0:Anarchist ( absolutely no respect, freely ignores laws )
+:re1:Very disrespectful ( does not care about law breaking )
+:re2:Very disrespectful ( does not care about law breaking )
+:re3:Disrespectful ( feels some guilt over laws broken )
+:re4:Disrespectful ( feels some guilt over laws broken )
+:re5:Disrespectful ( feels some guilt over laws broken )
+:re6:Averagely respectful ( obeys laws with only minor exceptions )
+:re7:Averagely respectful ( obeys laws with only minor exceptions )
+:re8:Averagely respectful ( obeys laws with only minor exceptions )
+:re9:Averagely respectful ( obeys laws with only minor exceptions )
+:re10:Respectful (obeys all laws and regulations )
+:re11:Respectful (obeys all laws and regulations )
+:re12:Respectful (obeys all laws and regulations )
+:re13:Very respectful ( never even considers law breaking )
+:re14:Very respectful ( never even considers law breaking )
+:re15:Absolute respect ( may even turns in friends for any violations )
+:tl:Tolerance
+:tl0:Very open ( embraces diversity and all opinions )
+:tl1:Open ( easily persuaded to other viewpoints )
+:tl2:Open ( easily persuaded to other viewpoints )
+:tl3:Liberal ( always willing to consider other viewpoints )
+:tl4:Liberal ( always willing to consider other viewpoints )
+:tl5:Liberal ( always willing to consider other viewpoints )
+:tl6:Average tolerance ( may be persuaded by convincing evidence )
+:tl7:Average tolerance ( may be persuaded by convincing evidence )
+:tl8:Average tolerance ( may be persuaded by convincing evidence )
+:tl9:Average tolerance ( may be persuaded by convincing evidence )
+:tl10:Conservative ( seldom considers other viewpoints )
+:tl11:Conservative ( seldom considers other viewpoints )
+:tl12:Conservative ( seldom considers other viewpoints )
+:tl13:Intolerant ( almost never changes an opinion )
+:tl14:Intolerant ( almost never changes an opinion )
+:tl15:Very intolerant ( feels that other opinions don't exist )

@@ -1,0 +1,11 @@
+@SUB-SECTOR: sec_P   SECTOR: trojanre.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Sarage        2938 B440523-C  N De Ni Po Rs        902 Cs F1 D
+Auitawry      3140 A5668XA-F  P Ri An           R  514 Dr G6 VI

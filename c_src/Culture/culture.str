@@ -1,0 +1,223 @@
+# Aspects of Culture data 
+# David Burden 5 aug 90
+# after TD-16 Nancy Parker
+
+:zz0:Cultural Profile
+:zz1:Press 'y' for another run
+:zz2:Cannot load CULTURE.STR text file
+:zz3:No Interpretation
+:zz4:Cannot open output file
+:zz5:Press <RETURN> to continue
+:hp:culture [-uuwp] [-ofilename] [-nnumber] [-h[xx]] [-s]
+:hp:Generates culture description as given in TD-16
+:hp:-uuwp      Generate using Universal World Profile 'uwp', else random.
+:hp:-ofilename Put output to 'filename'.
+:hp:-nnumber   Generate 'number' profiles.
+:hp:-h[xx]     Provide help information.
+:hp:-s			Suppress screen output when writing to file         
+:hp:The program runs in an interactive mode unless the -o option is used.
+:hp:For listings of culture characteristics type "culture -hxx" were xx is..
+:hp:ic = Social Cohesion,            sm = Social Mobility
+:hp:pm = Physical Mobility,          wv = Worldview
+:hp:fe = Formality vs. Emotionalism, gd = Gender Discrimination
+:hp:wa = Acquisition of Wealth,      wd = Distribution of Wealth
+:hp:pr = Privacy,                    bz = Body Zones
+:hp:mo = Modesty Taboos,             hl = Value of Sentient Life
+:hp:ol = Value of Other Life,        cr = Child-Rearing Responsibility
+:hp:ho = Honesty,                    we = Work Ethic, Acquisitiveness
+:hp:at = Attitudes toward Time
+:hp:uu = UWP Parameter   nn = Number Parameter   oo = Output Parameter  
+:hp:ss = Suppress Toggle
+:uu:-u Sets the world UWP
+:uu:The UWP must be in the format A777777-7.
+:uu:The UWP is only used by the Physical Mobility characteristic.
+:uu:If the UWP is not stated no DM is applied to Physical Mobility.
+:uu:eg.  -uA777777-7
+:nn:-n Sets the number of profiles to be generated.
+:nn:eg.  -n5
+:oo:-o Sets file output mode and the output file.
+:oo:No screen display is shown during the profile generation.
+:oo:A full pathname can be specified.
+:oo:eg.  -oREGINA.CUL
+:ss:-s Suppresses screen output. Only enabled when -o used.
+:ss:eg. -s
+:ic:Individuality vs Collective Action   
+:ic2:No ideas of group action.
+:ic3:Voluntary groups.
+:ic4:Voluntary groups.
+:ic5:Voluntary joining but must then take orders.
+:ic6:Voluntary joining but must then take orders.
+:ic7:Voluntary joining but must then take orders and may not leave.
+:ic8:Some compulsory collective action.
+:ic9:Some compulsory collective action.
+:ic10:Major areas of life collectivised.
+:ic11:Major areas of life collectivised.
+:ic12:All action collectivised, individuality does not exist.
+:sm:Social Mobility
+:sm2:Hereditary social class strictly enforced.
+:sm3:Limited interaction and movement. Jobs dictated within classes.
+:sm4:Limited interaction and movement. Jobs dictated within classes.
+:sm5:Somewhat rigid class, changes by marriage, income, profession.
+:sm6:Somewhat rigid class, changes by marriage, income, profession.
+:sm7:Class flexible, depends on talent, charisma, achievements.
+:sm8:Class flexible, depends on talent, charisma, achievements.
+:sm9:Minimal distinctions of social class.
+:sm10:Minimal distinctions of social class.
+:sm11:Aggressive egalitarianism, all distinctions denied.
+:sm12:Aggressive egalitarianism, all distinctions denied.
+:pm:Physical Mobility
+:pm1:Law/Custom ties person to location for life. Other parts unknown.
+:pm2:Rarely move more than weeks travel from birthplace. News takes ages.
+:pm3:Merchants and adventurers link cultures. Comms limited to travel speed.
+:pm4:People move easily within their home continent. Rapid communications.
+:pm5:Global travel, "global village".
+:pm6:Much of population rootless.
+:wv:Supernatural vs Rational Worldview
+:wv2:Totally supernatural worldview.
+:wv3:Reasoned supernaturalism, some observational evidence.
+:wv4:Reasoned supernaturalism, some observational evidence.
+:wv5:Mixed attitudes, by nation. 
+:wv6:Mixed attitudes, by class. 
+:wv7:Mixed attitudes, by education. 
+:wv8:Primarily rational worldview, some holdovers of superstition.
+:wv9:Primarily rational worldview, some holdovers of superstition.
+:wv10:Totally rational worldview.
+:wv11:Totally rational worldview.
+:wv12:Sense-orientated rationalism.
+:fe:Formality vs Emotionalism
+:fe1:No public display of any feelings.
+:fe2:Emotional display vaies by social class.
+:fe3:Restrictions differ for sexes.
+:fe4:Formalised displays of specific emotions.
+:fe5:Free expression except in front of strangers.
+:fe6:Total emotional openness.
+:gd:Gender Discrimination
+:gd2:Strict segregation.
+:gd3:Limited contact between sexes.
+:gd4:Contact routinely. Male dominates totally. Distinct roles.
+:gd5:Contact routinely. Female dominates totally. Distinct roles.
+:gd6:Contact routinely. Distinct roles.
+:gd7:Male leads, female dependent, some mixing of societal roles.
+:gd8:Female leads, male dependent, some mixing of societal roles.
+:gd9:Legal equality of sexes, male prevalent.
+:gd10:Legal equality of sexes, female prevalent.
+:gd11:Cultural equality of sexes.
+:gd12:Sexual discrimination is an anathema.
+:wa:Acquisition of Wealth
+:wa1:Wealth acquired by force.
+:wa2:Wealth inherited.
+:wa3:Wealth acquired by trade.
+:wa4:Wealth acquired by trade.
+:wa5:Wealth acquired by socialist law.
+:wa6:Wealth acquired by welfare law.
+:wd:Distribution of Wealth
+:wd1:Few rich, many poor.
+:wd2:Few rich, few middle, many poor.
+:wd3:Few rich, many middle, few poor.
+:wd4:Few rich, many middle, few poor.
+:wd5:Most equal, some poor.
+:wd6:Equal incomes.
+:pr:Privacy
+:pr2:No concept of privacy.
+:pr3:Privacy forbidden.
+:pr4:Actions commonly scrutinised or publicised.
+:pr5:Actions open to scrutiny at will by some agency.
+:pr6:Court orders necessary for intrusion. More likely for public figures.
+:pr7:Court orders necessary for intrusion.
+:pr8:All citizens protected in communications and dwellings.
+:pr9:Finances private.
+:pr10:Strong privacy customs, no personal questions.
+:pr11:Physical isolation avilable at will.
+:pr12:Physical isolation imposed at all times.
+:bz:Body Zones
+:bz1:Physical contact.
+:bz2:Social distance is 0.5m.
+:bz3:Social distance is 1m.
+:bz4:Social distance is 2m.
+:bz5:Social distance is 3m.
+:bz6:Social distance is 4m.
+:mo:Modesty
+:mo2:Total coverup mandatory at all times.
+:mo3:Face, small amounts of skin may be seen.
+:mo4:Face, small amounts of skin may be seen for some of society only.
+:mo5:Moderate coverage mandatory.
+:mo6:Moderate coverage mandatory for some of society.
+:mo7:Certain body part must be covered in token of respect.
+:mo8:Certain body part must be uncovered in token of respect.
+:mo9:Certain body part must be un/covered in token of respect.
+:mo10:Minimal attire required.
+:mo11:Minimal attire required.
+:mo12:No dress taboos.
+:hl:Value of Sentient Life
+:hl3:No regard for sentient life.
+:hl4:Killing equal or lower classes is OK, slavery allowed.
+:hl5:Ritual killing allowed.
+:hl6:Certain people are fair game ( infants, elderly ).
+:hl7:Certain people are fair game ( ethnic/religious groups ).
+:hl8:Crimes of passion condoned.
+:hl9:Self defense OK.
+:hl10:Self defense OK.
+:hl11:Self defense OK.
+:hl12:War and execution OK, all else no. 
+:hl13:War and execution OK, all else no. 
+:hl14:War and execution OK, all else no. 
+:hl15:Execution OK, all else no. 
+:hl16:Death penalty outlawed.
+:hl17:Death penalty outlawed.
+:hl18:No killing, war abhorred.
+:ol:Value of other life
+:ol2:Everything is human property, cruelty common - may extend to aliens.
+:ol3:All is for human use, but should be humanely treated.
+:ol4:All is for human use, but should be humanley treated.
+:ol5:Conservation ethic, some animal life protected. 
+:ol6:Conservation ethic, some animal life protected. 
+:ol7:Conservation ethic, some animal life protected. 
+:ol8:Conservation ethic, some animal life protected. 
+:ol9:All animal life protected.
+:ol10:All animal life protected.
+:ol11:Plant life respected, conserved.
+:ol12:Only dead plant life may be harvested.
+:cr:Child-Rearing Responsibility
+:cr2:Father only rears child.
+:cr3:Mother only rears child.
+:cr4:Other relative rears child.
+:cr5:Nuclear family.
+:cr6:Nuclear family.
+:cr7:Extended family.
+:cr8:Extended family.
+:cr9:Hired care-takers.
+:cr10:Group responsibilty (tribe or commune).
+:cr11:State responsibilty.
+:cr12:No one responsible - children run wild.
+:ho:Honesty
+:ho2:Strict ethical code, no one questions.
+:ho3:Strict ethical code, no one questions.
+:ho4:Widely accepted ethical code, offenders despised.
+:ho5:Widely accepted ethical code, offenders despised.
+:ho6:Widely accepted ethical code, offenders despised.
+:ho7:Lip service to ethics, offenders common.
+:ho8:Lip service to ethics, offenders common.
+:ho9:Lip service to ethics, offenders common.
+:ho10:Cheating normal, bribes expected but some law occasionally enforced.
+:ho11:Little or no formal code of ethics.
+:ho12:Reverse ethics, violence and deceit admired.
+:we:Work Ethic, Acquisitiveness
+:we1:People take any means to avoid work while still getting what they want.
+:we2:Work is only for earning a living, extra money is not desired.
+:we3:Work is the way to get what you want, people seek to live better.
+:we4:Conspicuous consumption is the goal of earning money.
+:we5:Work is an end in itself, a source of pleasure.
+:we6:Work is the meaning of life, leisure is unknown or sinful.
+:at:Attitudes towards Time
+:at2:No schedules, expect something when you see it.
+:at3:Schedules are flexible.
+:at4:Schedules are flexible.
+:at5:Some things have firm schedules, others are relaxed.
+:at6:Some things have firm schedules, others are relaxed.
+:at7:Most areas of life are scheduled, minimal delay tolerated.
+:at8:Most areas of life are scheduled, minimal delay tolerated.
+:at9:Most areas of life are scheduled, minimal delay tolerated.
+:at10:Promptness expected in everything.
+:at11:Promptness expected in everything.
+:at12:Fanatic punctuality.
+

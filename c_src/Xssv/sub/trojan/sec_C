@@ -1,0 +1,25 @@
+@SUB-SECTOR: sec_C   SECTOR: trojanre.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Candia        1801 D4006A9-4    Na Ni Va           703 Na M7 V M2 D
+Kydde         1810 B644779-5    Ag                 804 As F2 D
+Bantral       1906 C886589-9  S Ag Ni D0           503 Cs F5 V
+Kryslion      2002 D483AA9-9    Hi                 520 Dd F6 V M6 D
+Orsasch       2008 E241364-7    Ni Po Lo           223 As F1 V
+Cyan          2102 C4689B9-B  W Hi                 510 Dd F6 D M7 D
+Berengaria    2105 B566644-7  A Ag Ni Ri           304 Dd F7 VI
+Senlis        2108 B671633-A    Ni                 510 As F6 V
+Doradon       2202 A400369-B  S Ni Va Lo           100 Dd F3 V
+Perrior       2203 A633966-B  N Na Po Hi           330 Dd G2 D
+Pax Rulin     2204 A402231-E  N Ic Lo Ni Po Va Cp  413 Dd M8 III
+Rhysk         2304 E413730-3    Ic Na Po        R  613 Dd M1 V M4 V
+Caraz         2306 E111959-A  N De Hi Ic In Na  A  222 Dd F7 V M5 D
+Magen         2309 C543550-9    Ni Po              902 As F9 V
+Islent        2402 BAC0789-6    De              A  103 Dd A4 V
+Alexin        2405 B000420-C    Ni As              230 Dd F5 V

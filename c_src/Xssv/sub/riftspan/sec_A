@@ -1,0 +1,27 @@
+@SUB-SECTOR: sec_A   SECTOR: riftspan.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Areiha'is     0102 B5484HA-C    Ni                 900 As M9 VI
+Triwayah      0103 C7831G4-7    Lo Ni              820 As G2 V
+Ftyayu        0104 A6647M5-E    Ag Ri              702 As A4 V
+Yolrilao      0108 B69A6M7-9    Ni Wa              712 As M2 V
+Ehaosah       0201 B5624H8-C    Ni                 903 As M1 V
+Staikhah      0204 B1403GB-B    Lo Ni Po De        413 As M1 V
+Iohfou        0303 C1307J5-C    Na Po De           204 As K0 V
+Yailaw        0306 B1108M5-E    Na                 803 As K3 V
+Fahaiye       0402 B6334N7-A    Ni Po              712 As M0 V
+Oilraroi      0403 C4866JB-8    Ag Ni Ri           300 As A3 V G7 D
+Teikhahfauoa  0404 B3625KA-A    Ni                 600 As M3 V
+Hastaofta     0407 B2004J7-C    Ni Va              213 As M0 V M4 D
+Wyoyohku'     0503 C2107JA-C    Na                 904 As M4 V M0 D
+Aulryakh      0507 A242AN4-E    Hi In Po           502 As K1 V
+Seihueiakh    0602 C3672G4-D    Lo Ni              504 As G8 V M2 D
+Eioiye'       0701 A7A87H7-E    C0 Fl              704 As M4 V
+Ieafe         0703 B3108L5-E    Na                 602 A3 G4 V M8 D
+Stoafaohail   0804 E0007K5-B    Na As              902 As G4 IV M0 D

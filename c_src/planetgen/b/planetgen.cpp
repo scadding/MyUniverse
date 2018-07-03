@@ -21,22 +21,22 @@
 
 class Planet
 {
-    public:
-        Planet();
-        void mercator();
-        double elevation(double x, double y, double z);
-        double adjust(double a, double b, double c, double d, double as, double bs, double cs, double ds,
-                      double ax, double ay, double az, double bx, double by, double bz, double cx, double cy,
-                      double cz, double dx, double dy, double dz,
-                      double x, double y, double z, int level);
-    private:
-        double lat;
-        int Width;
-        int Height;
-        double scale;
-        int debug;
-        int Depth;
-        double longi;
+public:
+    Planet();
+    void mercator();
+    double elevation(double x, double y, double z);
+    double adjust(double a, double b, double c, double d, double as, double bs, double cs, double ds,
+                  double ax, double ay, double az, double bx, double by, double bz, double cx, double cy,
+                  double cz, double dx, double dy, double dz,
+                  double x, double y, double z, int level);
+private:
+    double lat;
+    int Width;
+    int Height;
+    double scale;
+    int debug;
+    int Depth;
+    double longi;
 };
 
 Planet::Planet() :

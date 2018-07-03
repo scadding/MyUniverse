@@ -86,8 +86,7 @@ int    cliphex(int val)
 {
     if(val < 1) {
         return(0);
-    }
-    else if(val > 14) {
+    } else if(val > 14) {
         return(15);
     }
     return(val);
@@ -97,8 +96,7 @@ int    Clip(int val, int h, int l)
 {
     if(val < l) {
         return(l);
-    }
-    else if(val > h) {
+    } else if(val > h) {
         return(h);
     }
     return(val);

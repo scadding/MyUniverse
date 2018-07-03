@@ -1,39 +1,69 @@
 
 
 
-class cartPt{
-    public:
-        cartPt(): x(0.0), y(0.0), z(0.0) {};
-        cartPt(double _x, double _y, double _z): x(_x), y(_y), z(_z) {};
-        double x;
-        double y;
-        double z;
+class cartPt
+{
+public:
+    cartPt(): x(0.0), y(0.0), z(0.0) {};
+    cartPt(double _x, double _y, double _z): x(_x), y(_y), z(_z) {};
+    double x;
+    double y;
+    double z;
 };
 
 
-class mapPt{
-    public:
-        mapPt(double _x, double _y): x(_x), y(_y) {};
-        double x;
-        double y;
+class mapPt
+{
+public:
+    mapPt(double _x, double _y): x(_x), y(_y) {};
+    double x;
+    double y;
 };
 
-class tetraHedron{
-    public:
-        tetraHedron(cartPt &a, cartPt &b, cartPt &c, cartPt &d);
-        cartPt &a() { return(*pt[order[0]]); };
-        cartPt &b() { return(*pt[order[1]]); };
-        cartPt &c() { return(*pt[order[2]]); };
-        cartPt &d() { return(*pt[order[3]]); };
-        int orderA() { return(order[0]); };
-        int orderB() { return(order[1]); };
-        int orderC() { return(order[2]); };
-        int orderD() { return(order[3]); };
-        double distanceAB() { return(distance(a(), b())); };
-    private:
-        double distance(cartPt &a, cartPt &b);
-        cartPt *pt[4];
-        int order[4];
+class tetraHedron
+{
+public:
+    tetraHedron(cartPt &a, cartPt &b, cartPt &c, cartPt &d);
+    cartPt &a()
+    {
+        return(*pt[order[0]]);
+    };
+    cartPt &b()
+    {
+        return(*pt[order[1]]);
+    };
+    cartPt &c()
+    {
+        return(*pt[order[2]]);
+    };
+    cartPt &d()
+    {
+        return(*pt[order[3]]);
+    };
+    int orderA()
+    {
+        return(order[0]);
+    };
+    int orderB()
+    {
+        return(order[1]);
+    };
+    int orderC()
+    {
+        return(order[2]);
+    };
+    int orderD()
+    {
+        return(order[3]);
+    };
+    double distanceAB()
+    {
+        return(distance(a(), b()));
+    };
+private:
+    double distance(cartPt &a, cartPt &b);
+    cartPt *pt[4];
+    int order[4];
 };
 
 double planet(double a, double b, double c, double d, double as, double bs, double cs, double ds,

@@ -1,0 +1,15 @@
+@SUB-SECTOR: sec_O   SECTOR: deneb.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Rif           1732 C687200-6    Lo Ni              702 Dd F4 V G4 IV
+Imazura       1733 C555555-9  S Ag Ni              203 Dd M8 V
+Takahira      1831 B9C5223-8  A Lo Ni Fl           722 Dd M7 D
+Kamlar        1832 B387462-C  N Ni                 810 Dd M2 V
+Javan         2131 C77A135-A  S Lo Ni Wa           510 Dd M0 III
+Catacomb      2234 A8A7551-B    Ni Fl              201 Cs K1 V K4 D

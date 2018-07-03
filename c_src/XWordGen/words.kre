@@ -1,0 +1,249 @@
+1. Input world length # of syllables, 0 = 1D6
+2. Choose Table, Basic to start, Alternate where indicated
+3. Choose sound groups.
+
+	Basic			       Alternate1              Alternate2
+  1    2    3    4    5    6     1   2   3   4   5   6   1   2    3    4    5   6
+1 V%   V%   V%   V%   V%   V%   V%  V%  V%  V%  V%  V%  CV%  CV%  CV%  CV%  CV% CV%
+2 CV%  CV%  CV%  CV%  CV%  CV%  V%  V%  V%  V%  V%  V%  CV%  CV%  CV%  CV%  CV% CV%
+3 CV%  CV%  CV%  CV%  CV%  CV%  VC* VC* VC* VC* VC* VC* CV%  CV%  CV%  CV%  CV% CV%
+4 VC*  VC*  VC*  VC*  VC*  VC*  VC* VC* VC* VC* VC* VC* CV%  CV%  CV%  CV%  CV% CV%
+5 CVC* CVC* CVC* CVC* CVC* CVC* VC* VC* VC* VC* VC* VC* CVC* CVC* CVC* CVC* CVC* CVC*
+6 CVC* CVC* CVC* CVC* CVC* CVC* VC* VC* VC* VC* VC* VC* CVC* CVC* CVC* CVC* CVC* CVC*
+(Only four choices on table V, CV, VC, and CVC, append *1st alternate %-second)
+
+	Initial Consonant		Vowel		Final Consonant
+   1   2   3   4   5   6  	1   2   3   4   5   6	1   2   3   4   5   6
+11 B   B   G   G   G   G        A   A   A   A   A   A   B   B   B   B   B   G
+12 G   G   GH  GH  GH  GH       A   A   A   A   A   A   G   G   G   G   G   G
+13 GH  GH  GH  GH  GH  GH       A   A   A   A   A   A   G   G   G   GH  GH  GH
+14 GH  GH  GH  GN  GN  GN       A   AA  AA  AA  AA  AA  GH  GH  GR  GR  GR  GR
+15 GN  GN  GN  GN  GN  GN       AA  AA  AA  AA  AA  E   GR  K   K   K   K   K
+16 GR  GR  GR  GR  GZ  GZ       E   E   E   E   E   E   K   K   K   K   K   K
+
+21 HK  HK  HK  HK  K   K        E   E   E   E   E   E   K   K   K   K   K   K
+22 K   K   K   K   K   K        E   EE  EE  EE  EE  EE  K   K   K   K   K   K
+23 K   K   K   K   K   K        EE  EE  EE  EE  EE  EE  K   K   K   K   K   K
+24 K   K   K   K   K   K        EE  EE  EE  EE  EE  EE  K   K   KR  KR  KR  KR
+25 K   K   K   K   K   K        EE  EE  I   I   I   I   KR  KR  KR  KR  KR  KR
+26 K   K   K   K   K   K        I   I   I   I   I   I   KR  KR  KR  KR  KR  L
+
+31 K   K   K   K   K   K        I   I   I   I   I   I   L   L   L   L   L   L
+32 K   K   K   K   K   K        I   I   I   I   I   I   L   L   L   M   M   M
+33 K   K   K   K   K   K        I   I   I   I   I   I   M   M   N   N   N   N
+34 K   K   KR  KR  KR  KR       I   II  II  II  II  II  N   N   N   N   N   N
+35 KR  KR  KR  KR  KR  KR       II  II  II  II  II  O   NG  NG  NG  NG  NG  NG
+36 KR  KR  KR  KR  KR  KR       O   O   O   O   OO  OO  NG  NG  NG  NG  NG  NG
+
+41 KR  KR  KR  KR  KR  KR       OO  OO  OO  OO  OO  OO  NG  NG  NG  P   P   P
+42 KR  KT  KT  KT  L   L        OO  OO  U   U   U   U   P   P   R   R   R   R
+43 L   L   L   L   L   L        U   U   U   U   U   U   R   R   R   R   R   R
+44 L   L   L   L   M   M        U   U   U   U   U   U   R   R   R   R   R   R
+45 M   M   MB  MB  MB  N        U   U   U   U   U   U   R   R   R   R   R   R
+46 N   N   N   N   N   N        U   U   U   U   U   U   R   R   R   R   R   R
+
+51 N   N   N   P   P   R        U   UU  UU  UU  UU  UU  R   R   R   R   R   R
+52 R   R   R   R   R   R        UU  UU  UU  UU  UU  '   R   R   R   R   R   R
+53 R   R   R   R   R   R        '   '   '   '   '   '   R   RR  RR  RR  RR  RR
+54 R   R   R   R   R   R        '   '   '   '   '   '   RR  RR  RR  RR  RR  RR
+55 R   RR  RR  RR  RR  RR       '   '   '   '   '   '   RR  RR  RR  RR  RR  RR
+56 R   RR  RR  RR  RR  RR       '   '   '   '   '   '   RR  RR  RR  RR  T   T
+
+61 RR  RR  T   T   T   T        '   '   '   '   '   '   T   T   T   T   T   T   
+62 T   T   T   T   T   T        '   '   '   '   '   '   T   T   T   T   T   T
+63 T   T   T   T   T   TR       '   !   !   !   !   !   T   T   T   X   X   X
+64 TR  TR  TR  X   X   X        !   !   !   !   !   !   X   X   X   X   X   X
+65 X   X   X   X   X   X        !   !   !   !!  !!  !!  X   X   X   X   X   X
+66 XK  XK  XK  XK  XK  XK       !!  !!  !!  !'  !'  !'  XK  XK  XK  XK  XK  XK
+
+(Illgeal Combinations)
+(Init Consonant = C, Vowel = V, Final Constant = K, double for size, literals
+should be quoted ')
+eg.
+Aslan: V + V = V (VV + VV = VVVV)
+Droyne: 'O + 'OY = 'OY
+
+Legal Sounds:
+(Initial)
+B
+BL
+BR
+CH
+CHT
+D
+DH
+DL			
+DR
+DZ
+F
+FL
+FR
+FT
+G
+GH
+GN
+GV
+GZ
+J
+JD
+K
+KF
+KH
+KHT
+KL
+KN
+KR
+KS
+KT
+L
+LL
+M
+N
+NG
+P
+PL
+PR
+Q
+QL
+QR
+R
+RR
+S
+SH
+SHT
+SS
+ST
+T
+TH
+TL
+TR
+TS
+TW
+V
+VL
+VR
+W
+Z
+ZD
+ZH
+ZHD
+
+(Vowels)
+A
+AE
+AI
+AO
+AU
+AY
+E
+EA
+EI
+I
+IA
+IE
+IY
+O
+OA
+OE
+OI
+OU
+OY
+U
+UA
+UE
+UI
+R
+YA
+YO
+YU
+
+(Final Constants)
+B
+BL
+BR
+CH
+D
+DH
+DL
+DR
+DZ
+F
+FL
+FR
+FT
+G
+GH
+GHZ
+GZ
+H
+J
+K
+KH
+KHS
+KL
+KR
+KS
+L
+LB
+LD
+LK
+LL
+LM
+LN
+LP
+LR
+LS
+LT
+M
+N
+NCH
+NG
+NJ
+NS
+NSH
+NT
+NTS
+NZ
+NZH
+P
+PL
+PR
+Q
+QL
+QR
+R
+RD
+RF
+RK
+RL
+RM
+RN
+RP
+RR
+RRG
+RRGH
+RS
+RT
+RV
+RZ
+S
+S
+SH
+SK
+SS
+ST
+T
+TH
+TS
+TL
+V
+VL
+VR
+W
+X
+Z
+ZH
+'
+
+	1   2   3   4   5   6
+11 B   B   G   G   G   G        A   A   A   A   A   A   B

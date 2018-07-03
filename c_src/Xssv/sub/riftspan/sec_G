@@ -1,0 +1,17 @@
+@SUB-SECTOR: sec_G   SECTOR: riftspan.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Wiyeare       1714 A2765M5-B    Ag Ni              622 As M7 IV M2 D
+Iukheaw       1715 D2005H5-7    Ni Va              203 As K3 V
+Aufusyah      1716 B6831HB-B    Lo Ni              812 As K9 V
+Ruhkei        1815 C5862H4-6    Lo Ni              600 As M6 V
+Aoki          1816 B8883G3-C  T Lo Ni              604 As M3 V M8 D
+Youiar        1914 B5A72M4-9    Lo Ni Fl           703 As M1 V
+Ahfatre       2219 B2414N9-E    D1 Ni Po           502 As F0 V M3 D M7 V
+Iyakhoryeh    2419 B6396H5-D    Ni                 404 As F3 V

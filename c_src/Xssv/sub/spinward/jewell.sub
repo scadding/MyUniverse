@@ -1,0 +1,33 @@
+@SUB-SECTOR: Jewell SECTOR: Spinward Marches
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Condyole      0901 E7A1522-8    Ni Fl              923 Na F8 III
+Puparkin      0902 C7B3386-9    Lo Ni Fl           502 Na K8 V M4 D
+Chwistyoch    0904 B766766-A  Z Ag Ri           A  424 Zh M2 V
+Gougeste      0909 C372510-A    Ni              A  420 Na K2 V
+Esalin        1004 C565673-8    Ag Ni Ri        A  223 Cs F3 V M5 D
+Ruby          1005 B400445-B  S Ni Va              201 Im M1 V M3 D
+Emerald       1006 B766555-B  S Ag Ni              534 Im M1 VI
+Zenopit       1010 D130546-7    Ni Po De           622 Na M8 D
+Riverland     1102 C566A99-9    Hi              A  214 Zh M7 III
+Clan          1103 B672899-A  Z                 A  901 Zh M8 V
+Jewell        1106 A777999-C  A Hi In Cp           623 Im G7 V
+Zircon        1110 C792668-8  M Ni                 624 Fa F0 V
+Ao-dai        1201 E410644-6    Na Ni              312 Zh K2 V M3 D
+Mongo         1204 A368685-A  A Ag Ni Ri           603 Im M6 III M0 D
+Utoland       1209 C473464-7    Ni                 410 Fa M0 V
+Pequan        1210 E5656B9-4    Ag Ni              710 Na M5 V
+Nakege        1305 D591314-2    Lo Ni           A  501 Im M6 V M0 D
+Lysen         1307 B592655-A  S Ni                 623 Im M9 V
+Foelen        1401 B638665-8    Ni              A  910 Zh K0 V
+Farreach      1402 A200400-B  Z Ni Va           A  415 Zh M3 II M0 V
+871-438       1510 E722000-8    Lo Ni Po Ba        801 Na M9 V M8 D
+Louzy         1604 D322A88-8    Hi Na In Po        110 Im M5 V
+Grant         1607 X664100-0    Lo Ni           R  222 Im K6 V
+

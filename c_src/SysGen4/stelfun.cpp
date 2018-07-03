@@ -16,46 +16,39 @@ int staroff(body *s)
     case 'B':
         if(s->upp.s.decimal < 5) {
             return(0);
-        }
-        else {
+        } else {
             return(1);
         }
     case 'A':
         if(s->upp.s.decimal < 5) {
             return(2);
-        }
-        else {
+        } else {
             return(3);
         }
     case 'F':
         if(s->upp.s.decimal < 5) {
             return(4);
-        }
-        else {
+        } else {
             return(5);
         }
     case 'G':
         if(s->upp.s.decimal < 5) {
             return(6);
-        }
-        else {
+        } else {
             return(7);
         }
     case 'K':
         if(s->upp.s.decimal < 5) {
             return(8);
-        }
-        else {
+        } else {
             return(9);
         }
     case 'M':
         if(s->upp.s.decimal < 5) {
             return(10);
-        }
-        else if(s->upp.s.decimal < 9) {
+        } else if(s->upp.s.decimal < 9) {
             return(11);
-        }
-        else {
+        } else {
             return(12);
         }
 
@@ -312,8 +305,7 @@ void   addcomp(body *s, int orbmod, int sizmod)
     roll = staroff(s);
     if((ssub->upp.s.size == 6) && (roll < 5)) {
         ssub->upp.s.size = 5;
-    }
-    else if((ssub->upp.s.size == 4) && (roll > 8)) {
+    } else if((ssub->upp.s.size == 4) && (roll > 8)) {
         ssub->upp.s.size = 5;
     }
 
@@ -373,8 +365,7 @@ body *getorb(body *s, int orbit)
             return(s);
         }
         s = s->o;
-    }
-    while(s);
+    } while(s);
     return(0);
 }
 
@@ -395,8 +386,7 @@ body *rollorb(body *s, int nd, int mod)
     }
     do {
         sptr = getorb(s, D(nd) + mod);
-    }
-    while(!sptr || (sptr->type != T_UNSET));
+    } while(!sptr || (sptr->type != T_UNSET));
     return(sptr);
 }
 

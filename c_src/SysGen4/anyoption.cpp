@@ -68,12 +68,12 @@ AnyOption::AnyOption()
 
 AnyOption::AnyOption(int maxopt)
 {
-    init(maxopt , maxopt);
+    init(maxopt, maxopt);
 }
 
 AnyOption::AnyOption(int maxopt, int maxcharopt)
 {
-    init(maxopt , maxcharopt);
+    init(maxopt, maxcharopt);
 }
 
 AnyOption::~AnyOption()
@@ -86,7 +86,7 @@ AnyOption::~AnyOption()
 void
 AnyOption::init()
 {
-    init(DEFAULT_MAXOPTS , DEFAULT_MAXOPTS);
+    init(DEFAULT_MAXOPTS, DEFAULT_MAXOPTS);
 }
 
 void
@@ -129,7 +129,7 @@ AnyOption::init(int maxopt, int maxcharopt)
     hasoptions = false;
     autousage = false;
 
-    strcpy(long_opt_prefix , "--");
+    strcpy(long_opt_prefix, "--");
 
     if(alloc() == false) {
         cout << endl << "OPTIONS ERROR : Failed allocating memory" ;
@@ -155,8 +155,7 @@ AnyOption::alloc()
     optionindex = (int*) malloc((max_options+1)*sizeof(int));
     if(options == NULL || optiontype == NULL || optionindex == NULL) {
         return false;
-    }
-    else {
+    } else {
         mem_allocated  = true;
     }
     for(i = 0 ; i < max_options ; i++) {
@@ -198,7 +197,7 @@ AnyOption::doubleOptStorage()
 {
     options = (const char**)realloc(options,
                                     ((2*max_options)+1) * sizeof(const char*));
-    optiontype = (int*) realloc(optiontype ,
+    optiontype = (int*) realloc(optiontype,
                                 ((2 * max_options)+1)* sizeof(int));
     optionindex = (int*) realloc(optionindex,
                                  ((2 * max_options)+1) * sizeof(int));
@@ -403,65 +402,65 @@ AnyOption::useFiileName(const char *_filename)
 void
 AnyOption::setCommandOption(const char *opt)
 {
-    addOption(opt , COMMAND_OPT);
+    addOption(opt, COMMAND_OPT);
     g_value_counter++;
 }
 
 void
 AnyOption::setCommandOption(char opt)
 {
-    addOption(opt , COMMAND_OPT);
+    addOption(opt, COMMAND_OPT);
     g_value_counter++;
 }
 
 void
-AnyOption::setCommandOption(const char *opt , char optchar)
+AnyOption::setCommandOption(const char *opt, char optchar)
 {
-    addOption(opt , COMMAND_OPT);
-    addOption(optchar , COMMAND_OPT);
+    addOption(opt, COMMAND_OPT);
+    addOption(optchar, COMMAND_OPT);
     g_value_counter++;
 }
 
 void
 AnyOption::setCommandFlag(const char *opt)
 {
-    addOption(opt , COMMAND_FLAG);
+    addOption(opt, COMMAND_FLAG);
     g_value_counter++;
 }
 
 void
 AnyOption::setCommandFlag(char opt)
 {
-    addOption(opt , COMMAND_FLAG);
+    addOption(opt, COMMAND_FLAG);
     g_value_counter++;
 }
 
 void
-AnyOption::setCommandFlag(const char *opt , char optchar)
+AnyOption::setCommandFlag(const char *opt, char optchar)
 {
-    addOption(opt , COMMAND_FLAG);
-    addOption(optchar , COMMAND_FLAG);
+    addOption(opt, COMMAND_FLAG);
+    addOption(optchar, COMMAND_FLAG);
     g_value_counter++;
 }
 
 void
 AnyOption::setFileOption(const char *opt)
 {
-    addOption(opt , FILE_OPT);
+    addOption(opt, FILE_OPT);
     g_value_counter++;
 }
 
 void
 AnyOption::setFileOption(char opt)
 {
-    addOption(opt , FILE_OPT);
+    addOption(opt, FILE_OPT);
     g_value_counter++;
 }
 
 void
-AnyOption::setFileOption(const char *opt , char optchar)
+AnyOption::setFileOption(const char *opt, char optchar)
 {
-    addOption(opt , FILE_OPT);
+    addOption(opt, FILE_OPT);
     addOption(optchar, FILE_OPT);
     g_value_counter++;
 }
@@ -469,66 +468,66 @@ AnyOption::setFileOption(const char *opt , char optchar)
 void
 AnyOption::setFileFlag(const char *opt)
 {
-    addOption(opt , FILE_FLAG);
+    addOption(opt, FILE_FLAG);
     g_value_counter++;
 }
 
 void
 AnyOption::setFileFlag(char opt)
 {
-    addOption(opt , FILE_FLAG);
+    addOption(opt, FILE_FLAG);
     g_value_counter++;
 }
 
 void
-AnyOption::setFileFlag(const char *opt , char optchar)
+AnyOption::setFileFlag(const char *opt, char optchar)
 {
-    addOption(opt , FILE_FLAG);
-    addOption(optchar , FILE_FLAG);
+    addOption(opt, FILE_FLAG);
+    addOption(optchar, FILE_FLAG);
     g_value_counter++;
 }
 
 void
 AnyOption::setOption(const char *opt)
 {
-    addOption(opt , COMMON_OPT);
+    addOption(opt, COMMON_OPT);
     g_value_counter++;
 }
 
 void
 AnyOption::setOption(char opt)
 {
-    addOption(opt , COMMON_OPT);
+    addOption(opt, COMMON_OPT);
     g_value_counter++;
 }
 
 void
-AnyOption::setOption(const char *opt , char optchar)
+AnyOption::setOption(const char *opt, char optchar)
 {
-    addOption(opt , COMMON_OPT);
-    addOption(optchar , COMMON_OPT);
+    addOption(opt, COMMON_OPT);
+    addOption(optchar, COMMON_OPT);
     g_value_counter++;
 }
 
 void
 AnyOption::setFlag(const char *opt)
 {
-    addOption(opt , COMMON_FLAG);
+    addOption(opt, COMMON_FLAG);
     g_value_counter++;
 }
 
 void
 AnyOption::setFlag(const char opt)
 {
-    addOption(opt , COMMON_FLAG);
+    addOption(opt, COMMON_FLAG);
     g_value_counter++;
 }
 
 void
-AnyOption::setFlag(const char *opt , char optchar)
+AnyOption::setFlag(const char *opt, char optchar)
 {
-    addOption(opt , COMMON_FLAG);
-    addOption(optchar , COMMON_FLAG);
+    addOption(opt, COMMON_FLAG);
+    addOption(optchar, COMMON_FLAG);
     g_value_counter++;
 }
 
@@ -638,29 +637,25 @@ AnyOption::processCommandArgs()
            argv[i][1] == long_opt_prefix[1]) {  /* long GNU option */
             int match_at = parseGNU(argv[i]+2);   /* skip -- */
             if(match_at >= 0 && i < argc-1) { /* found match */
-                setValue(options[match_at] , argv[++i]);
+                setValue(options[match_at], argv[++i]);
             }
-        }
-        else if(argv[i][0] ==  opt_prefix_char) {     /* POSIX char */
+        } else if(argv[i][0] ==  opt_prefix_char) {   /* POSIX char */
             if(POSIX()) {
                 char ch =  parsePOSIX(argv[i]+1);  /* skip - */
                 if(ch != '0' && i < argc-1) { /* matching char */
-                    setValue(ch ,  argv[++i]);
+                    setValue(ch,  argv[++i]);
                 }
-            }
-            else {   /* treat it as GNU option with a - */
+            } else { /* treat it as GNU option with a - */
                 int match_at = parseGNU(argv[i]+1);   /* skip - */
                 if(match_at >= 0 && i < argc-1) { /* found match */
-                    setValue(options[match_at] , argv[++i]);
+                    setValue(options[match_at], argv[++i]);
                 }
             }
-        }
-        else {  /* not option but an argument keep index */
+        } else { /* not option but an argument keep index */
             if(new_argc < max_legal_args) {
                 new_argv[ new_argc ] = i ;
                 new_argc++;
-            }
-            else { /* ignore extra arguments */
+            } else { /* ignore extra arguments */
                 printVerbose("Ignoring extra argument: ");
                 printVerbose(argv[i]);
                 printVerbose();
@@ -684,14 +679,13 @@ AnyOption::parsePOSIX(char* arg)
             /*if last char argv[++i] is the value */
             if(i == strlen(arg)-1) {
                 return ch;
-            }
-            else {/* else the rest of arg is the value */
+            } else { /* else the rest of arg is the value */
                 i++; /* skip any '=' and ' ' */
                 while(arg[i] == whitespace
                       || arg[i] == equalsign) {
                     i++;
                 }
-                setValue(ch , arg+i);
+                setValue(ch, arg+i);
                 return '0';
             }
         }
@@ -722,10 +716,9 @@ AnyOption::parseGNU(char *arg)
         tmp[split_at] = '\0';
 
         if(matchOpt(tmp) >= 0) {
-            setValue(options[matchOpt(tmp)] , arg+split_at+1);
+            setValue(options[matchOpt(tmp)], arg+split_at+1);
             free(tmp);
-        }
-        else {
+        } else {
             printVerbose("Unknown command argument option : ");
             printVerbose(arg);
             printVerbose();
@@ -733,8 +726,7 @@ AnyOption::parseGNU(char *arg)
             free(tmp);
             return -1;
         }
-    }
-    else { /* regular options with no '=' sign  */
+    } else { /* regular options with no '=' sign  */
         return  matchOpt(arg);
     }
     return -1;
@@ -750,9 +742,8 @@ AnyOption::matchOpt(char *opt)
                optiontype[i] ==  COMMAND_OPT) {
                 /* found option return index */
                 return i;
-            }
-            else if(optiontype[i] == COMMON_FLAG ||
-                    optiontype[i] == COMMAND_FLAG) {
+            } else if(optiontype[i] == COMMON_FLAG ||
+                      optiontype[i] == COMMAND_FLAG) {
                 /* found flag, set it */
                 setFlagOn(opt);
                 return -1;
@@ -774,9 +765,8 @@ AnyOption::matchChar(char c)
                optchartype[i] == COMMAND_OPT) {
                 /* an option store and stop scanning */
                 return true;
-            }
-            else if(optchartype[i] == COMMON_FLAG ||
-                    optchartype[i] == COMMAND_FLAG) {  /* a flag store and keep scanning */
+            } else if(optchartype[i] == COMMON_FLAG ||
+                      optchartype[i] == COMMAND_FLAG) {  /* a flag store and keep scanning */
                 setFlagOn(c);
                 return false;
             }
@@ -792,10 +782,9 @@ AnyOption::matchChar(char c)
 bool
 AnyOption::valueStoreOK()
 {
-    int size= 0;
     if(!set) {
         if(g_value_counter > 0) {
-            size = g_value_counter * sizeof(char*);
+            int size = g_value_counter * sizeof(char*);
             values = (char**)malloc(size);
             for(int i = 0 ; i < g_value_counter ; i++) {
                 values[i] = NULL;
@@ -873,7 +862,7 @@ AnyOption::findFlag(char* val)
         return false;
     }
 
-    if(strcmp(TRUE_FLAG , val) == 0) {
+    if(strcmp(TRUE_FLAG, val) == 0) {
         return true;
     }
 
@@ -884,7 +873,7 @@ AnyOption::findFlag(char* val)
  * private set methods
  */
 bool
-AnyOption::setValue(const char *option , char *value)
+AnyOption::setValue(const char *option, char *value)
 {
     if(!valueStoreOK()) {
         return false;
@@ -908,7 +897,7 @@ AnyOption::setFlagOn(const char *option)
     for(int i = 0 ; i < option_counter ; i++) {
         if(strcmp(options[i], option) == 0) {
             values[ optionindex[i] ] = (char*) malloc((strlen(TRUE_FLAG)+1)*sizeof(char));
-            strcpy(values[ optionindex[i] ]  ,  TRUE_FLAG);
+            strcpy(values[ optionindex[i] ],  TRUE_FLAG);
             return true;
         }
     }
@@ -916,7 +905,7 @@ AnyOption::setFlagOn(const char *option)
 }
 
 bool
-AnyOption::setValue(char option , char *value)
+AnyOption::setValue(char option, char *value)
 {
     if(!valueStoreOK()) {
         return false;
@@ -940,7 +929,7 @@ AnyOption::setFlagOn(char option)
     for(int i = 0 ; i < optchar_counter ; i++) {
         if(optionchars[i] == option) {
             values[ optcharindex[i] ] = (char*) malloc((strlen(TRUE_FLAG)+1)*sizeof(char));
-            strcpy(values[ optcharindex[i] ] , TRUE_FLAG);
+            strcpy(values[ optcharindex[i] ], TRUE_FLAG);
             return true;
         }
     }
@@ -997,7 +986,7 @@ AnyOption::readFile(const char* fname)
     int length;
     char *buffer;
     ifstream is;
-    is.open(fname , ifstream::in);
+    is.open(fname, ifstream::in);
     if(! is.good()) {
         is.close();
         return NULL;
@@ -1034,8 +1023,7 @@ AnyOption::consumeFile(char *buffer)
             }
             pline = NULL;
             newline = true;
-        }
-        else if(newline) {   /* start of line */
+        } else if(newline) { /* start of line */
             newline = false;
             if((*cursor != comment)) {   /* not a comment */
                 pline = cursor ;
@@ -1073,7 +1061,6 @@ AnyOption::consumeFile(char *buffer)
 void
 AnyOption::processLine(char *theline, int length)
 {
-    bool found = false;
     char *pline = (char*) malloc((length+1)*sizeof(char));
     for(int i = 0 ; i < length ; i ++) {
         pline[i]= *(theline++);
@@ -1082,13 +1069,13 @@ AnyOption::processLine(char *theline, int length)
     char *cursor = pline ; /* preserve the ptr */
     if(*cursor == delimiter || *(cursor+length-1) == delimiter) {
         justValue(pline);  /* line with start/end delimiter */
-    }
-    else {
-        for(int i = 1 ; i < length-1 && !found ; i++) {/* delimiter */
+    } else {
+        bool found = false;
+        for(int i = 1 ; i < length-1 && !found ; i++) { /* delimiter */
             if(*cursor == delimiter) {
                 *(cursor-1) = nullterminate; /* two strings */
                 found = true;
-                valuePairs(pline , cursor+1);
+                valuePairs(pline, cursor+1);
             }
             cursor++;
         }
@@ -1125,7 +1112,7 @@ AnyOption::valuePairs(char *type, char *value)
             if(optionchars[i] == type[0]) {    /* match */
                 if(optchartype[i] == COMMON_OPT ||
                    optchartype[i] == FILE_OPT) {
-                    setValue(type[0] , chomp(value));
+                    setValue(type[0], chomp(value));
                     return;
                 }
             }
@@ -1136,7 +1123,7 @@ AnyOption::valuePairs(char *type, char *value)
         if(strcmp(options[i], type) == 0) {    /* match */
             if(optiontype[i] == COMMON_OPT ||
                optiontype[i] == FILE_OPT) {
-                setValue(type , chomp(value));
+                setValue(type, chomp(value));
                 return;
             }
         }
@@ -1225,6 +1212,5 @@ AnyOption::addUsageError(const char *line)
     cout << "While adding the usage/help  : \""<< line << "\"" << endl;
     cout << "Exiting." << endl ;
     cout << endl ;
-    exit(0);
 
 }

@@ -41,8 +41,7 @@ void   enl()
     while(hmax > 1)
         if(line[hmax - 1]) {
             break;
-        }
-        else {
+        } else {
             hmax--;
         }
     fputc(0x1b, out);
@@ -96,8 +95,7 @@ void ep2(int c, int mode)
     case C_JUNGLE:
         if(hpos%2) {
             bit1 = 1;
-        }
-        else {
+        } else {
             bit2 = 1;
         }
         break;

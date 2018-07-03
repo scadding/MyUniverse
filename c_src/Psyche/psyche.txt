@@ -1,0 +1,103 @@
+PSYCHE Description 
+===================
+
+(c) 1990 David Burden
+after GDW Challenge 35 
+and ALBEDO / Paul Kidd
+
+
+Files
+=====
+
+psyche.ttp		The program
+psyche.str		Strings used by the program
+psyche.txt		This documentation
+		
+All these files should be in the same folder.
+
+Command Format
+==============
+
+psyche [-uupp] [-ofilename] [-nnumber] [-h[xx]] [-s] [-w]
+
+Generates psyche profile as given in Challenge and ALBEDO.
+
+-uupp      	Generate using Universal Personality Profile UPP, else random.
+-ofilename 	Put output to 'filename'.
+-nnumber   	Generate 'number' profiles.
+-s			  	Suppress screen output ( only if file output enabled ).
+-w				Generate world/group profile.
+-h				Provides general help.
+-h[xx]     	Provide help information.
+
+		dr = Drive    				st = Stability          sp = SPI Rating
+		cd = Core Disposition   id = Inclining Disposition
+		
+		uu = UPP Parameter   			nn = Number Parameter
+		oo = Output Parameter  			ss = Suppress Switch
+		ww = World Switch
+
+
+Description
+===========
+
+	This command generates a psyche  description following the system given
+in CHA-35 and ALBEDO. Invoked with a simple "psyche" it runs in an 
+interactive mode, generating one psyche description, and asking whether a 
+repeat is required.
+
+
+UPP
+---
+
+The profile can be based on a specific UPP, else a random one is used.
+The UPP is specified in the form:
+
+	-u777777
+
+Output File
+-----------
+
+If output is desired to a file then the -o parameter is used. The filename 
+immediately follows the -o. eg:
+
+        -otravers.psy
+
+puts output to a file travers.psy.
+
+Suppressing Screen Output
+-------------------------
+
+If you do not want output displayed on the screen, when you have chosen the
+-o parameter, then add the -s switch. ie
+
+      	-otravers.psy -s
+      	
+Multiple Profiles
+-----------------
+
+If more than one profile is required then the -n parameter is used, where
+'n' is the number of profiles required. In file output mode this number will
+be written to the file, seperated by a new line. In interactive mode this 
+number will be generated before each request to continue. eg:
+
+        -n10
+
+generates 10 profiles.
+
+
+Help
+----
+
+Two levels of help are available. Putting -h as a parameter just gives a 
+short description of the command and its parameters. To get details of
+all the "values" of a parameter in the profile, or more help on a command
+parameter use -hxx, where xx is one of the two letter codes given above.
+
+PSYCHE.STR
+==========
+
+This file contains the string definitions used by PSYCHE.TTP. You can change
+the wording after the second colon to suit your own requirements.
+  
+

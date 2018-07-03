@@ -22,30 +22,34 @@
 
 using namespace std;
 
-class queue {
-	public:
-		queue();
-		~queue();
-		int get(char *buffer);
-		int getwait(char *buffer);
-		char *get();
-		char *getwait();
-		int put(char *buffer, int s);
-		int put(char *buffer);
-		void setQ(int set);
-		int getQ();
-		int getCount() {return(count);}
-		void refresh(int count);
-	private:
-		struct element {
-			char *buffer;
-			int len;
-			struct element *next;
-		} *head, *tail, *fresh;
-		sem_t sem;
-		int q;
-		int count;
-	protected:
+class queue
+{
+public:
+    queue();
+    ~queue();
+    int get(char *buffer);
+    int getwait(char *buffer);
+    char *get();
+    char *getwait();
+    int put(char *buffer, int s);
+    int put(char *buffer);
+    void setQ(int set);
+    int getQ();
+    int getCount()
+    {
+        return(count);
+    }
+    void refresh(int count);
+private:
+    struct element {
+        char *buffer;
+        int len;
+        struct element *next;
+    } *head, *tail, *fresh;
+    sem_t sem;
+    int q;
+    int count;
+protected:
 }; /* queue */
 
 #endif /* QUEUE_H */

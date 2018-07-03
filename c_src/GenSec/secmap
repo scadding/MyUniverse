@@ -1,0 +1,64 @@
+   ______            ______            ______            ______
+  / 2501 \          / 2731 \          / 2931 \          / 3131 \
+ /    A C \        /    C 6 \        /    C 6 \        /    X 0 \
+/    @     \______/  ^ @     \______/    @ .   \______/    @     \______
+\ Unnamed  / 2611 \ Unnamed  / 2031 \ Unnamed  / 3031 \ Unnamed  / 3231 \
+ \        /    E 1 \        /    D 5 \        /    D 7 \        /  * A E \
+  \______/    @ .   \______/    @ .   \______/  ^ @ .   \RED___/    O .   \
+  / 2532 \ Unnamed  / 2732 \ Unnamed  / 2932 \ Unnamed  / 3132 \ UNNAMED  /
+ /    D 8 \        /  * A C \        /    A 9 \        /    C 4 \        /
+/  ^ @ .   \______/    @ .   \______/  ^ @ .   \______/    @ .   \______/
+\ Unnamed  / 2632 \ Unnamed  / 2832 \ Unnamed  / 3032 \ Unnamed  / 3222 \
+ \        /    A B \        /    B B \        /    D 8 \        /    B 7 \
+  \______/    @ .   \______/    @ .   \RED___/  ^ @ .   \______/  ^ @ .   \
+  / 2533 \ Unnamed  / 2723 \ Unnamed  / 2923 \ Unnamed  / 3133 \ Unnamed  /
+ /    D 2 \        /    C 8 \        /    A E \        /    C 8 \        /
+/  ^ @ .   \RED___/    @ .   \______/    @     \______/    @     \______/
+\ Unnamed  / 2623 \ Unnamed  / 2833 \ UNNAMED  / 3033 \ Unnamed  / 3203 \
+ \        /    C 6 \        /    B C \        /    B 8 \        /    E 3 \
+  \RED___/    O .   \RED___/    @ .   \______/  ^ @ .   \______/    @ .   \
+  / 2534 \ Unnamed  / 2724 \ Unnamed  / 2924 \ Unnamed  / 3134 \ Unnamed  /
+ /  * B C \        /    E 3 \        /    C 5 \        /    C 5 \        /
+/  ^ O .   \______/    @ .   \______/    @ .   \RED___/    @ .   \RED___/
+\ Unnamed  / 2614 \ Unnamed  / 2834 \ Unnamed  / 3024 \ Unnamed  / 3224 \
+ \        /    A B \        /    A C \        /  * B B \        /    B 8 \
+  \RED___/    @ .   \______/    O .   \______/    O .   \______/    @ .   \
+  / 2535 \ Unnamed  / 2735 \ Unnamed  / 2915 \ UNNAMED  / 3135 \ Unnamed  /
+ /    E 4 \        /    C 7 \        /    C 5 \        /    E 5 \        /
+/    O .   \RED___/    @     \______/  ^ @ .   \______/    @ .   \______/
+\ Unnamed  / 2635 \ Unnamed  / 2815 \ Unnamed  / 3035 \ Unnamed  / 3215 \
+ \        /    C A \        /    D 4 \        /    C 4 \        /  * A 7 \
+  \______/  ^ @ .   \______/  ^ @ .   \______/  ^ @ .   \RED___/  ^ @ .   \
+  / 2526 \ Unnamed  / 2736 \ Unnamed  / 2936 \ Unnamed  / 3136 \ Unnamed  /
+ /    A E \        /  * A F \        /    C 9 \        /  * B 8 \        /
+/  ^ @     \______/    @ .   \______/    @ .   \RED___/  ^ @ .   \______/
+\ UNNAMED  / 0236 \ Unnamed  / 2806 \ Unnamed  / 3036 \ Unnamed  / 3236 \
+ \        /  * A C \        /    C 6 \        /    E 4 \        /    C 3 \
+  \RED___/    @ .   \______/  ^ O .   \______/    @ .   \RED___/  ^ @     \
+  / 2527 \ Unnamed  / 2707 \ Unnamed  / 2937 \ Unnamed  / 3137 \ Unnamed  /
+ /    C 9 \        /    C A \        /    C 8 \        /    B 7 \        /
+/  ^ @ .   \______/  ^ @ .   \______/    O .   \RED___/    @ .   \______/
+\ Unnamed  / 2627 \ Unnamed  / 2827 \ Unnamed  / 3027 \ Unnamed  / 3217 \
+ \        /    B 7 \        /    A D \        /  * A B \        /  * B 9 \
+  \______/    @ .   \______/    @ .   \______/    @ .   \RED___/  ^ @ .   \
+  / 2518 \ Unnamed  / 2738 \ Unnamed  / 2928 \ Unnamed  / 3138 \ Unnamed  /
+ /    D 7 \        /    E 8 \        /    E 9 \        /    A C \        /
+/    % .   \______/    @ .   \______/    @ .   \RED___/    @ .   \RED___/
+\ Unnamed  / 2608 \ Unnamed  / 2828 \ UNNAMED  / 3038 \ Unnamed  / 3228 \
+ \        /    C 7 \        /  * A C \        /  * B D \        /    A 7 \
+  \RED___/    @ .   \______/    @ .   \______/    O .   \______/    @     \
+  / 2539 \ Unnamed  / 2709 \ Unnamed  / 2939 \ Unnamed  / 3109 \ Unnamed  /
+ /  * A C \        /    C A \        /    A B \        /    C B \        /
+/    @     \RED___/  ^ @ .   \______/    @ .   \RED___/    @ .   \______/
+\ Unnamed  / 2639 \ UNNAMED  / 2839 \ Unnamed  / 3039 \ Unnamed  / 3239 \
+ \        /  * A 9 \        /    C 9 \        /    C 9 \        /    D 5 \
+  \______/  ^ @     \RED___/    @     \______/  ^ @ .   \amber_/    @ .   \
+  / 2530 \ Unnamed  / 2740 \ Unnamed  / 2140 \ Unnamed  / 2330 \ Unnamed  /
+ /    B A \        /    D 6 \        /  * B E \        /    C 9 \        /
+/    @ .   \______/  ^ O .   \RED___/    O .   \______/    O .   \______/
+\ Unnamed  / 2630 \ Unnamed  / 2840 \ Unnamed  / 3030 \ Unnamed  / 2440 \
+ \        /    D 9 \        /    E 5 \        /    E 3 \        /    E 3 \
+  \______/    % .   \______/    @ .   \______/    @ .   \______/    @ .   \
+         \ Unnamed  /      \ Unnamed  /      \ Unnamed  /      \ Unnamed  /
+          \        /        \        /        \        /        \        /
+           \RED___/          \______/          \______/          \______/

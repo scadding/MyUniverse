@@ -80,8 +80,7 @@ body   *pdlevel(body *s,
     if(!strcmp(s->name, name)) {
         if((s->type == T_WORLD) || (s->type == T_MAIN)) {
             map(s, plates, land, cov);
-        }
-        else {
+        } else {
             printf("Can only map worlds\n");
         }
         return(s);

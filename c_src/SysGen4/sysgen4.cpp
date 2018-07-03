@@ -22,7 +22,7 @@ int main(int argc, char **argv)
     x = atol(argv[1]);
     y = atol(argv[2]);
     z = atol(argv[3]);
-    
+
     showMap(x, y, z, argv[4]);
 }
 
@@ -49,14 +49,13 @@ void showMap(long x, long y, long z, char *planetName)
 
 void   mview(int buf[20][28], int mode)
 {
-    int     i;
-    char    inbuf[20];
+    char    inbuf[255];
 
     for(;;) {
         printw(buf, mode);
         printf("Enter triangle [1-20]:");
         fgets(inbuf,255,stdin);
-        i = atoi(inbuf) - 1;
+        int i = atoi(inbuf) - 1;
         if((i < 0) || (i > 19)) {
             return;
         }
@@ -66,20 +65,18 @@ void   mview(int buf[20][28], int mode)
 
 void   tview(int tri[28], int depth, int triang, long dir, int mode, int ori)
 {
-    char    c;
-    long    ndir;
     int     exp[28];
 
     for(;;) {
         ploc(triang, depth, dir);
         ptri(tri, mode, ori);
         printf("Type 0-3 for expansion, anything else to go up...");
-        c = getchar() - '0';
+        int c = getchar() - '0';
         printf("\n");
         if((c < 0) || (c > 3)) {
             return;
         }
-        ndir = dir | (c<<(depth*2));
+        long ndir = dir | (c<<(depth*2));
         expand(tri, exp, c, dir);
         tview(exp, depth + 1, triang, ndir, mode, (c)?ori:!ori);
     }

@@ -23,15 +23,12 @@ void seas(int plates[20][28], int buf[20][28], int arch, int islands, int minor,
             if(major && minor) {
                 if(Rand()%2) {
                     majsize[Rand()%major]++;
-                }
-                else {
+                } else {
                     minsize[Rand()%minor]++;
                 }
-            }
-            else if(major) {
+            } else if(major) {
                 majsize[Rand()%major]++;
-            }
-            else {
+            } else {
                 minsize[Rand()%minor]++;
             }
             tot++;

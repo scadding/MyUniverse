@@ -1,0 +1,28 @@
+
+
+;Start
+1,[Headline]<br><br>
+_[stats]<br><br>
+
+
+;Headline
+1,<b>Last Name:</b> [American Census Names.surname] <b>First Name:</b> [American Census Names.female] <b>Sex:</b> Female
+1,<b>Last Name:</b> [American Census Names.surname] <b>First Name:</b> [American Census Names.male] <b>Sex:</b> Male
+
+;stats
+1,<b>Strength:</b> {{dice~d100.setMinimum(25)}}<br>
+_<b>Constitution:</b> {{dice~d100.setMinimum(25)}}<br>
+_<b>Quickness:</b> {{dice~d100.setMinimum(25)}}<br>
+_<b>Agility:</b> {{dice~d100.setMinimum(25)}}<br>
+_<b>Self Discipline:</b> {{dice~d100.setMinimum(25)}}<br>
+_<b>Presence:</b> {{dice~d100.setMinimum(25)}}<br>
+_<b>Intuition:</b> {{dice~d100.setMinimum(25)}}<br>
+_<b>Empathy:</b> {{dice~d100.setMinimum(25)}}<br>
+_<b>Memory:</b> {{dice~d100.setMinimum(25)}}<br>
+_<b>Reasoning:</b> {{dice~d100.setMinimum(25)}}<br>
+
+
+;sex
+1,male
+1,female
+

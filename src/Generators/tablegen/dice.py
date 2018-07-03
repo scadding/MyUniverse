@@ -27,12 +27,6 @@ expr = operatorPrecedence( atom,
      (plusop, 2, opAssoc.LEFT),]
     )
 
-test = '2d6*3-5.5+4d6.minRoll(2).takeHighest(3)'
-#~ test = 'D5+2d6*3-5.5+4d6.takeHighest(3)'
-#~ test = 'D5+2d6*3-5.5+4d6'
-
-results = expr.parseString(test)
-
 def dice(s):
     results =  expr.parseString(s)
     return evalExpr(results)
@@ -94,5 +88,11 @@ def evalDiceExpr(a):
         dice = fns[mod[0]](dice, mod[1][0])
     return sum(dice)
 
-print results
-print evalExpr(results)
+if __name__ == "__main__":
+	test = '2d6*3-5.5+4d6.minRoll(2).takeHighest(3)'
+	#~ test = 'D5+2d6*3-5.5+4d6.takeHighest(3)'
+	#~ test = 'D5+2d6*3-5.5+4d6'
+	results = expr.parseString(test)
+
+	print results
+	print evalExpr(results)

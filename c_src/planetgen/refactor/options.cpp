@@ -52,7 +52,7 @@ options::~options()
 */
 options::options(int argc, char **argv)
 {
-	addCmdLineOptions(argc, argv);
+    addCmdLineOptions(argc, argv);
 
 }
 
@@ -68,7 +68,7 @@ options::options(int argc, char **argv)
 */
 options::options(char *filename)
 {
-	readFile(filename);
+    readFile(filename);
 
 }
 
@@ -84,7 +84,7 @@ options::options(char *filename)
 */
 int options::readFile(char *filename)
 {
-	return(0);
+    return(0);
 }
 
 
@@ -99,11 +99,11 @@ int options::readFile(char *filename)
 */
 int options::addCmdLineOptions(int argc, char **argv)
 {
-	int i;
-	
-	for(i = 0;i < argc;i++){
-		fprintf(stderr, "argument [%d] = %s\n", i, argv[i]);
-	}
-	return(0);
+    int i;
+
+    for(i = 0; i < argc; i++) {
+        fprintf(stderr, "argument [%d] = %s\n", i, argv[i]);
+    }
+    return(0);
 }
 

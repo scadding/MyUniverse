@@ -122,8 +122,7 @@ void primary(body *s, world *mw)
     roll = staroff(s);
     if((s->upp.s.size == 6) && (roll < 5)) {
         s->upp.s.size = 5;
-    }
-    else if((s->upp.s.size == 4) && (roll > 8)) {
+    } else if((s->upp.s.size == 4) && (roll > 8)) {
         s->upp.s.size = 5;
     }
 
@@ -131,14 +130,12 @@ void primary(body *s, world *mw)
     roll = D(2);
     if(s->upp.s.size <= 2) {
         roll += 8;
-    }
-    else if(s->upp.s.size == 3) {
+    } else if(s->upp.s.size == 3) {
         roll += 4;
     }
     if(s->upp.s.classification == 'M') {
         roll -= 4;
-    }
-    else if(s->upp.s.classification == 'K') {
+    } else if(s->upp.s.classification == 'K') {
         roll -= 2;
     }
     if(roll < 1) {
@@ -186,8 +183,7 @@ void primary(body *s, world *mw)
         if(sptr->type == T_STAR) {
             if(sptr->orbit < 1000) {
                 mw = populate(sptr, mw);
-            }
-            else {  /* far companion */
+            } else { /* far companion */
                 primary(sptr, mw);
             }
         }
@@ -207,8 +203,7 @@ void clean(body *s)
         if((sptr->type == T_EMPTY) || (sptr->type == T_INSIDE)) {
             if(sptr->i) {
                 sptr->i->o = sptr->o;
-            }
-            else {
+            } else {
                 sptr->p->b = sptr->o;
             }
             if(sptr->o) {
@@ -218,12 +213,10 @@ void clean(body *s)
             printf("{%d}", sptr->orbit);
 #endif
             free(sptr);
-        }
-        else {
+        } else {
             if(sptr->b) {
                 clean(sptr);
-            }
-            else if(sptr->name[0] == 0) {
+            } else if(sptr->name[0] == 0) {
                 strcpy(sptr->name, getname());
 #ifdef DEBUG
                 printf("{%s::%d}", s->name, sptr->orbit);
@@ -240,8 +233,7 @@ body *getmain(body *s)
     for(sptr = s->b; sptr; sptr = sptr->o)
         if(sptr->type == T_MAIN) {
             return(sptr);
-        }
-        else if(sptr->b) {
+        } else if(sptr->b) {
             s = getmain(sptr);
             if(s) {
                 return(s);
@@ -289,8 +281,7 @@ void forcemain(body *s, mainworld *mw)
             sptr->upp.w = *mw;
             mw->name[0] = 0;
             return;
-        }
-        else if(sptr->type == T_STAR) {
+        } else if(sptr->type == T_STAR) {
             forcemain(sptr, mw);
             if(!mw->name[0]) {
                 return;

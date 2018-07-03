@@ -54,37 +54,58 @@ tetraHedron::tetraHedron(cartPt &a, cartPt &b, cartPt &c, cartPt &d)
     l[3] = distance(b, c);
     l[4] = distance(b, d);
     l[5] = distance(c, d);
-    
+
     int t = 0;
-    for(int i = 1;i < 6;i++){
+    for(int i = 1; i < 6; i++) {
         if(l[i] > l[t]) t = i;
     }
-    pt[0] = &a; pt[1] = &b; pt[2] = &c; pt[3] = &d;
-    switch(t){
-        case 0:{
-                   order[0] = 0; order[1] = 1; order[2] = 2; order[3] = 3;
-                   break;
-               }
-        case 1:{
-                   order[0] = 0; order[2] = 1; order[1] = 2; order[3] = 3;
-                   break;
-               }
-        case 2:{
-                   order[0] = 0; order[3] = 1; order[1] = 2; order[2] = 3;
-                   break;
-               }
-        case 3:{
-                   order[1] = 0; order[2] = 1; order[0] = 2; order[3] = 3;
-                   break;
-               }
-        case 4:{
-                   order[1] = 0; order[3] = 1; order[0] = 2; order[2] = 3;
-                   break;
-               }
-        default:{
-                   order[2] = 0; order[3] = 1; order[0] = 2; order[1] = 3;
-                   break;
-               }
+    pt[0] = &a;
+    pt[1] = &b;
+    pt[2] = &c;
+    pt[3] = &d;
+    switch(t) {
+    case 0: {
+        order[0] = 0;
+        order[1] = 1;
+        order[2] = 2;
+        order[3] = 3;
+        break;
+    }
+    case 1: {
+        order[0] = 0;
+        order[2] = 1;
+        order[1] = 2;
+        order[3] = 3;
+        break;
+    }
+    case 2: {
+        order[0] = 0;
+        order[3] = 1;
+        order[1] = 2;
+        order[2] = 3;
+        break;
+    }
+    case 3: {
+        order[1] = 0;
+        order[2] = 1;
+        order[0] = 2;
+        order[3] = 3;
+        break;
+    }
+    case 4: {
+        order[1] = 0;
+        order[3] = 1;
+        order[0] = 2;
+        order[2] = 3;
+        break;
+    }
+    default: {
+        order[2] = 0;
+        order[3] = 1;
+        order[0] = 2;
+        order[1] = 3;
+        break;
+    }
     };
 }
 
@@ -242,9 +263,9 @@ double planet(double a, double b, double c, double d, double as, double bs, doub
 }
 
 double planetj(double a, double b, double c, double d, double as, double bs, double cs, double ds,
-              double ax, double ay, double az, double bx, double by, double bz, double cx, double cy,
-              double cz, double dx, double dy, double dz,
-              double x, double y, double z, int level)
+               double ax, double ay, double az, double bx, double by, double bz, double cx, double cy,
+               double cz, double dx, double dy, double dz,
+               double x, double y, double z, int level)
 //double a,b,c,d;		    /* altitudes of the 4 verticess */
 //double as,bs,cs,ds;	    /* seeds of the 4 verticess */
 //double ax,ay,az, bx,by,bz,  /* vertex coordinates */
@@ -264,21 +285,29 @@ double planetj(double a, double b, double c, double d, double as, double bs, dou
     double ecx,ecy,ecz, edx,edy,edz;
 
     double lab = t.distanceAB();
-    
+
     as = seed[t.orderA()];
     bs = seed[t.orderB()];
     cs = seed[t.orderC()];
     ds = seed[t.orderD()];
-    
+
     a = altitude[t.orderA()];
     b = altitude[t.orderB()];
     c = altitude[t.orderC()];
     d = altitude[t.orderD()];
-    
-    ax = t.a().x;ay = t.a().y;az = t.a().z;
-    bx = t.b().x;by = t.b().y;bz = t.b().z;
-    cx = t.c().x;cy = t.c().y;cz = t.c().z;
-    dx = t.d().x;dy = t.d().y;dz = t.d().z;
+
+    ax = t.a().x;
+    ay = t.a().y;
+    az = t.a().z;
+    bx = t.b().x;
+    by = t.b().y;
+    bz = t.b().z;
+    cx = t.c().x;
+    cy = t.c().y;
+    cz = t.c().z;
+    dx = t.d().x;
+    dy = t.d().y;
+    dz = t.d().z;
 
     if (level<=0) {
         return((a+b+c+d)/4);

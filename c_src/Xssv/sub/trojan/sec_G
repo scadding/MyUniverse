@@ -1,0 +1,26 @@
+@SUB-SECTOR: sec_G   SECTOR: trojanre.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Homestead     1715 D560250-6    Ni De Lo           524 As F9 D
+Ace           1719 E7A08B9-5    De                 700 As M0 VI M7 D M5 D
+Salif         1816 A6236A6-A    Po Na Ni           301 As F9 III M0 D
+Number One    1818 C9C6778-7    Fl                 602 As M8 V
+Thebus        1919 B534320-6    Po Ni Lo           823 Na M8 V
+Noricum       2018 D8867BB-1    Ag                 804 As G2 D M9 D M6 D
+Oghma         2020 B214754-9    Ic                 404 As F5 D M4 D M5 D
+Dolberg       2113 BAC889D-B    Fl                 300 As F7 D
+Vume          2115 B100477-C    Ni Va An           123 As K7 II
+Theev         2116 A434500-F    Na Ni           A  934 As G0 V
+Marduk        2120 C377436-3    Ni                 503 As F7 D
+Albe          2211 A540A98-E    De Hi In Po        213 As F4 V M2 D
+Realgar       2213 B750444-A    De Ni Po           303 As G4 V M7 D
+Palindrome    2216 B433334-B    Po Ni Lo           502 As F9 V M1 D
+Borite        2219 E655796-4    Ag                 703 As G4 V M8 D
+Chalchiutlicu 2314 B76A787-7    Ri Wa              423 As G9 D M3 D
+Cordillon     2411 C431210-C    Po Ni Lo           922 As K1 V

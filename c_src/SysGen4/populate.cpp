@@ -38,8 +38,7 @@ void dogases(body *s, int n)
         sptr->type = T_GIANT;
         if(Rand()%2) {
             sptr->upp.g.size = 1;
-        }
-        else {
+        } else {
             sptr->upp.g.size = 0;
         }
     }
@@ -86,8 +85,7 @@ mainworld *populate(body *s, mainworld *mw)
         z = zone(s, sptr->orbit);
         if(((z == '-') || (z == '.')) && (sptr->type == T_UNSET)) {
             sptr->type = T_INSIDE;
-        }
-        else if(z == 'H') {
+        } else if(z == 'H') {
             horb = sptr->orbit;
         }
     }
@@ -96,11 +94,9 @@ mainworld *populate(body *s, mainworld *mw)
         roll = D(1);
         if(roll < 3) {
             doempties(s, 1);
-        }
-        else if(roll > 3) {
+        } else if(roll > 3) {
             doempties(s, 3);
-        }
-        else {
+        } else {
             doempties(s, 2);
         }
     }
@@ -134,11 +130,9 @@ mainworld *populate(body *s, mainworld *mw)
         roll = D(2);
         if(roll < 8) {
             dotoids(s, 1);
-        }
-        else if(roll > 11) {
+        } else if(roll > 11) {
             dotoids(s, 3);
-        }
-        else {
+        } else {
             dotoids(s, 2);
         }
     }
@@ -151,8 +145,7 @@ mainworld *populate(body *s, mainworld *mw)
                 strcpy(sptr->name, mw->name);
                 sptr->upp.w = *mw;
                 mw->name[0] = 0;
-            }
-            else if(sptr->type == T_GIANT) {
+            } else if(sptr->type == T_GIANT) {
 #ifdef DEBUG
                 printf("Add main to giant");
 #endif
@@ -169,8 +162,7 @@ mainworld *populate(body *s, mainworld *mw)
                 sptr->b->orbit = D(2) + 1;
                 if(roll == 12) {
                     sptr->b->orbit *= 25;
-                }
-                else if(roll > 7) {
+                } else if(roll > 7) {
                     sptr->b->orbit *= 5;
                 }
                 mw->name[0] = 0;
@@ -191,11 +183,9 @@ mainworld *populate(body *s, mainworld *mw)
         roll = D(2) - 2;
         if(sptr->orbit == 0) {
             roll -= 5;
-        }
-        else if(sptr->orbit == 1) {
+        } else if(sptr->orbit == 1) {
             roll -= 4;
-        }
-        else if(sptr->orbit == 2) {
+        } else if(sptr->orbit == 2) {
             roll -= 2;
         }
         if(s->upp.s.classification == 'M') {
@@ -203,38 +193,32 @@ mainworld *populate(body *s, mainworld *mw)
         }
         if(roll < 0) {
             sptr->upp.w.size = 0;    /* Small */
-        }
-        else {
+        } else {
             sptr->upp.w.size = roll;
         }
         /* atmos */
         z = zone(s, sptr->orbit);
         if(sptr->upp.w.size == 0) {
             sptr->upp.w.atmos = 0;
-        }
-        else if((zone(s, sptr->orbit - 1) == 'O') && (D(2) == 12)) {
+        } else if((zone(s, sptr->orbit - 1) == 'O') && (D(2) == 12)) {
             sptr->upp.w.atmos = 10;
-        }
-        else {
+        } else {
             roll = D(2) - 7 + sptr->upp.w.size;
             if(z == 'I') {
                 roll -= 2;
-            }
-            else if(z == 'O') {
+            } else if(z == 'O') {
                 roll -= 4;
             }
             if(roll < 0) {
                 sptr->upp.w.atmos = 0;
-            }
-            else {
+            } else {
                 sptr->upp.w.atmos = roll;
             }
         }
         /* hydrographics */
         if((z == 'I') || (sptr->upp.w.size <= 0)) {
             sptr->upp.w.hydro = 0;
-        }
-        else {
+        } else {
             roll = D(2) - 7 + sptr->upp.w.size;
             if(z == 'O') {
                 roll -= 2;
@@ -244,11 +228,9 @@ mainworld *populate(body *s, mainworld *mw)
             }
             if(roll < 0) {
                 sptr->upp.w.hydro = 0;
-            }
-            else if(roll > 10) {
+            } else if(roll > 10) {
                 sptr->upp.w.hydro = 10;
-            }
-            else {
+            } else {
                 sptr->upp.w.hydro = roll;
             }
         }
@@ -256,14 +238,12 @@ mainworld *populate(body *s, mainworld *mw)
         roll = D(2) - 2;
         if(z == 'I') {
             roll -= 5;
-        }
-        else if(z == 'O') {
+        } else if(z == 'O') {
             roll -= 3;
         }
         if(roll < 0) {
             sptr->upp.w.pop = 0;
-        }
-        else {
+        } else {
             sptr->upp.w.pop = roll;
         }
         /* social */
@@ -271,29 +251,23 @@ mainworld *populate(body *s, mainworld *mw)
             roll = D(1);
             if(mw->gov == 6) {
                 roll += sptr->upp.w.pop;
-            }
-            else if(mw->gov >= 7) {
+            } else if(mw->gov >= 7) {
                 roll--;
             }
             if(roll <= 1) {
                 sptr->upp.w.gov = 0;
-            }
-            else if(roll == 2) {
+            } else if(roll == 2) {
                 sptr->upp.w.gov = 1;
-            }
-            else if(roll == 3) {
+            } else if(roll == 3) {
                 sptr->upp.w.gov = 2;
-            }
-            else if(roll == 4) {
+            } else if(roll == 4) {
                 sptr->upp.w.gov = 3;
-            }
-            else if(roll >= 5) {
+            } else if(roll >= 5) {
                 sptr->upp.w.gov = 6;
             }
             if(sptr->upp.w.gov == 0) {
                 sptr->upp.w.law = 0;
-            }
-            else {
+            } else {
                 sptr->upp.w.law = D(1) - 3 + mw->law;
                 if(sptr->upp.w.law < 0) {
                     sptr->upp.w.law = 0;
@@ -301,12 +275,10 @@ mainworld *populate(body *s, mainworld *mw)
             }
             if(mw->tech) {
                 sptr->upp.w.tech = mw->tech - 1;
-            }
-            else {
+            } else {
                 sptr->upp.w.tech = 0;
             }
-        }
-        else {
+        } else {
             sptr->upp.w.gov = 0;
             sptr->upp.w.law = 0;
             sptr->upp.w.tech = 0;
@@ -337,23 +309,18 @@ mainworld *populate(body *s, mainworld *mw)
         roll = D(1);
         if(sptr->upp.w.pop >= 6) {
             roll += 2;
-        }
-        else if(sptr->upp.w.pop == 1) {
+        } else if(sptr->upp.w.pop == 1) {
             roll -= 2;
-        }
-        else if(sptr->upp.w.pop == 0) {
+        } else if(sptr->upp.w.pop == 0) {
             roll -= 3;
         }
         if(roll < 3) {
             sptr->upp.w.starport = 'Y';
-        }
-        else if(roll > 5) {
+        } else if(roll > 5) {
             sptr->upp.w.starport = 'F';
-        }
-        else if(roll == 3) {
+        } else if(roll == 3) {
             sptr->upp.w.starport = 'H';
-        }
-        else {
+        } else {
             sptr->upp.w.starport = 'G';
         }
 
@@ -375,8 +342,7 @@ void insert(body *s, body *sub)
         }
         sub->i = 0;
         s->b = sub;
-    }
-    else {
+    } else {
         for(sptr = s->b; sptr->o; sptr = sptr->o)
             if(sptr->o->orbit > sub->orbit) {
                 break;
@@ -412,18 +378,15 @@ void satelite(body *pstar, body *s, int num, mainworld *mw)
             roll = D(2);
             if(s->upp.g.size) {
                 roll -= 4;
-            }
-            else {
+            } else {
                 roll -= 6;
             }
-        }
-        else {
+        } else {
             roll = D(1) - s->upp.w.size;
         }
         if(roll < 0) {
             roll = 0;
-        }
-        else if(roll == 0) {
+        } else if(roll == 0) {
             roll = -1;
         }
         sat->upp.w.size = roll;
@@ -434,12 +397,10 @@ void satelite(body *pstar, body *s, int num, mainworld *mw)
                 }
             if(roll > 3) {
                 sat->upp.w.size = 0;
-            }
-            else {
+            } else {
                 do {
                     roll = (Rand()%3) + 1;
-                }
-                while(getorb(s, roll));
+                } while(getorb(s, roll));
                 sat->orbit = roll;
                 sat->type = T_TOIDS;
             }
@@ -450,37 +411,31 @@ void satelite(body *pstar, body *s, int num, mainworld *mw)
                 sat->orbit = D(2) + 1;
                 if(roll == 12) {
                     sat->orbit *= 25;
-                }
-                else if(roll > 7) {
+                } else if(roll > 7) {
                     sat->orbit *= 5;
                 }
-            }
-            while(getorb(s, sat->orbit));
+            } while(getorb(s, sat->orbit));
         }
         /* atmos */
         if(sat->upp.w.size < 2) {
             sat->upp.w.atmos = 0;
-        }
-        else if((zone(pstar, s->orbit - 1) == 'O') && (D(2) == 12)) {
+        } else if((zone(pstar, s->orbit - 1) == 'O') && (D(2) == 12)) {
             sat->upp.w.atmos = 10;
-        }
-        else {
+        } else {
             roll = D(2) - 7 + sat->upp.w.size;
             if(z != 'H') {
                 roll -= 4;
             }
             if(roll < 0) {
                 sat->upp.w.atmos = 0;
-            }
-            else {
+            } else {
                 sat->upp.w.atmos = roll;
             }
         }
         /* hydro */
         if((sat->upp.w.size < 2) || (z == 'I')) {
             sat->upp.w.hydro = 0;
-        }
-        else {
+        } else {
             roll = D(2) - 7 + sat->upp.w.size;
             if((sat->upp.w.atmos < 2) || (sat->upp.w.atmos > 9)) {
                 roll -= 4;
@@ -490,21 +445,18 @@ void satelite(body *pstar, body *s, int num, mainworld *mw)
             }
             if(roll < 0) {
                 sat->upp.w.hydro = 0;
-            }
-            else {
+            } else {
                 sat->upp.w.hydro = roll;
             }
         }
         /* pop */
         if(sat->upp.w.size < 0) {
             sat->upp.w.pop = 0;
-        }
-        else {
+        } else {
             roll = D(2) - 2;
             if(z == 'I') {
                 roll -= 5;
-            }
-            else if(z == 'O') {
+            } else if(z == 'O') {
                 roll -= 4;
             }
             if(sat->upp.w.size <= 4) {
@@ -516,8 +468,7 @@ void satelite(body *pstar, body *s, int num, mainworld *mw)
             }
             if(roll < 0) {
                 sat->upp.w.pop = 0;
-            }
-            else {
+            } else {
                 sat->upp.w.pop = roll;
             }
         }
@@ -526,34 +477,27 @@ void satelite(body *pstar, body *s, int num, mainworld *mw)
             sat->upp.w.law = 0;
             sat->upp.w.gov = 0;
             sat->upp.w.tech = 0;
-        }
-        else {
+        } else {
             roll = D(1);
             if(mw->gov == 6) {
                 roll += sat->upp.w.pop;
-            }
-            else if(mw->gov >= 7) {
+            } else if(mw->gov >= 7) {
                 roll--;
             }
             if(roll <= 1) {
                 sat->upp.w.gov = 0;
-            }
-            else if(roll == 2) {
+            } else if(roll == 2) {
                 sat->upp.w.gov = 1;
-            }
-            else if(roll == 3) {
+            } else if(roll == 3) {
                 sat->upp.w.gov = 2;
-            }
-            else if(roll == 4) {
+            } else if(roll == 4) {
                 sat->upp.w.gov = 3;
-            }
-            else if(roll >= 5) {
+            } else if(roll >= 5) {
                 sat->upp.w.gov = 6;
             }
             if(sat->upp.w.gov == 0) {
                 sat->upp.w.law = 0;
-            }
-            else {
+            } else {
                 sat->upp.w.law = D(1) - 3 + mw->law;
                 if(sat->upp.w.law < 0) {
                     sat->upp.w.law = 0;
@@ -561,8 +505,7 @@ void satelite(body *pstar, body *s, int num, mainworld *mw)
             }
             if(mw->tech) {
                 sat->upp.w.tech = mw->tech - 1;
-            }
-            else {
+            } else {
                 sat->upp.w.tech = 0;
             }
         }
@@ -592,23 +535,18 @@ void satelite(body *pstar, body *s, int num, mainworld *mw)
         roll = D(1);
         if(sat->upp.w.pop >= 6) {
             roll += 2;
-        }
-        else if(sat->upp.w.pop == 1) {
+        } else if(sat->upp.w.pop == 1) {
             roll -= 2;
-        }
-        else if(sat->upp.w.pop == 0) {
+        } else if(sat->upp.w.pop == 0) {
             roll -= 3;
         }
         if(roll < 3) {
             sat->upp.w.starport = 'Y';
-        }
-        else if(roll > 5) {
+        } else if(roll > 5) {
             sat->upp.w.starport = 'F';
-        }
-        else if(roll == 3) {
+        } else if(roll == 3) {
             sat->upp.w.starport = 'H';
-        }
-        else {
+        } else {
             sat->upp.w.starport = 'G';
         }
         insert(s, sat);

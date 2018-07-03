@@ -60,11 +60,11 @@ Copyright 1989 James T. Perkins
 /* Defines for various flavors of unix */
 extern long time();
 #ifdef BSD
-    extern long srandom(), random();
+extern long srandom(), random();
 #   define srand(x) ((int)srandom(x))
 #   define rand() ((int)random())
 #else !BSD
-    extern int srand(), rand();
+extern int srand(), rand();
 #endif
 
 /*
@@ -115,22 +115,20 @@ char **av;
 
     (void)srand(time((long *)NULL));
     progname = av[0];
-    av++; ac--;
+    av++;
+    ac--;
 
     options(ac, av, &x_start, &x_end, &y_start, &y_end, &ali);
 
     fprintf(stdout, "%s%d\n", VERSION_STRING, VERSION_NUMBER);
-    for (x = x_start; x <= x_end; x++)
-    {
-        for (y = y_start; y <= y_end; y++)
-        {
-            if (d(100) <= density)
-            {
+    for (x = x_start; x <= x_end; x++) {
+        for (y = y_start; y <= y_end; y++) {
+            if (d(100) <= density) {
                 gensys(x, y, ali, stdout);
             }
         }
     }
-    exit(0); 
+    exit(0);
 }
 
 gensys(x, y, ali, fp)
@@ -148,23 +146,23 @@ FILE *fp;
 
     /* Starport class */
     switch (maturity) {
-	case 0:
-	    cla = *("AABBCCCDEEX" + D2 - 2); /* Backwater */
-	    break;
-	case 1:
-	    cla = *("AAABBCCDEEX" + D2 - 2); /* Standard */
-	    break;
-	case 2:
-	    cla = *("AAABBCCDEEE" + D2 - 2); /* Mature */
-	    break;
-	case 3:
-	    cla = *("AAAABBCCDEX" + D2 - 2); /* Cluster */
-	    break;
-	default:
-	    (void)fprintf(stderr,
-		"%s: interal error - maturity out of range (%d)\n",
-		progname, maturity);
-	   exit(1);
+    case 0:
+        cla = *("AABBCCCDEEX" + D2 - 2); /* Backwater */
+        break;
+    case 1:
+        cla = *("AAABBCCDEEX" + D2 - 2); /* Standard */
+        break;
+    case 2:
+        cla = *("AAABBCCDEEE" + D2 - 2); /* Mature */
+        break;
+    case 3:
+        cla = *("AAAABBCCDEX" + D2 - 2); /* Cluster */
+        break;
+    default:
+        (void)fprintf(stderr,
+                      "%s: interal error - maturity out of range (%d)\n",
+                      progname, maturity);
+        exit(1);
     }
 
     /* Physical characteristics */
@@ -184,12 +182,12 @@ FILE *fp;
 
     /* Technological level */
     tl = D1 + DM(cla == 'A', 6) + DM(cla == 'B', 4) + DM(cla == 'C', 2) +
-        DM(cla == 'X', -4);
+         DM(cla == 'X', -4);
     tl = tl + DM(siz < 5, 1) + DM(siz < 2, 1);
     tl = tl + DM(atm < 4, 1) + DM(atm > 9 && atm < 15, 1);
     tl = tl + DM(hyd == 8, 1) + DM(hyd == 9, 2);
     tl = tl + DM(pop > 0 && pop < 6, 1) + DM(pop == 9, 2) +
-        DM(pop == 10, 4);
+         DM(pop == 10, 4);
     tl = tl + DM(gov == 0 || gov == 5, 1) + DM(gov == 13, -2);
     tl = limit(tl, 0, 16);
 
@@ -198,16 +196,16 @@ FILE *fp;
     pla = ((D2 < 8) ? 0 : belts[D2 - 2]);	/* planetoid belts */
     gas = ((D2 < 5) ? 0 : giants[D2 - 2]);	/* gas giants */
 
-    /* Travel advisories 
+    /* Travel advisories
     zon = ((cla == 'X') ? 'R' : ' ');
     if (gov > 9 && law > 15)
       zon = *("    A   AA  AAA AAAR AARRAARRR" + 5 * (gov-10) + law-15); */
-	zon = ((cla == 'X') ? 'R' : ((D2 > 11) ? 'A' : ' '));
+    zon = ((cla == 'X') ? 'R' : ((D2 > 11) ? 'A' : ' '));
 
     /* Bases */
     nav = (cla < 'C' && D2 > 7);
     sco = (cla < 'E' && (D2 + DM(cla == 'A', -3) + DM(cla == 'B', -2) + DM(cla == 'C', -1)) > 6) ;
-   /* mil = (cla < 'D' && (D2 + DM(cla == 'A', -2) + DM(cla == 'B', -1)) > 7); */
+    /* mil = (cla < 'D' && (D2 + DM(cla == 'A', -2) + DM(cla == 'B', -1)) > 7); */
     mil = (cla < 'D' && (D2 + DM(pop > 8, -1) + DM((atm > 1 && atm < 6 && hyd < 4), -20)) > 11);
     dep = (cla < 'B' && gov > 9);
     way = (cla < 'B' && (hyd > 4));
@@ -248,11 +246,11 @@ FILE *fp;
 
     /* Create world data string */
     (void)sprintf(out,
-        "%-18s %02d%02d %c%c%c%c%c%c%c-%c %c %-15s %1d%1d%1d %2s %c\n",
-        nam, x, y, cla,
-        hexchar(siz), hexchar(atm), hexchar(hyd), hexchar(pop),
-        hexchar(gov), hexchar(law), hexchar(tl),
-        bas, tra, mul, pla, gas, ali, zon);
+                  "%-18s %02d%02d %c%c%c%c%c%c%c-%c %c %-15s %1d%1d%1d %2s %c\n",
+                  nam, x, y, cla,
+                  hexchar(siz), hexchar(atm), hexchar(hyd), hexchar(pop),
+                  hexchar(gov), hexchar(law), hexchar(tl),
+                  bas, tra, mul, pla, gas, ali, zon);
 
     /* Write it out to file (or stdout) */
     (void)fwrite(out, strlen(out), 1, fp);
@@ -276,12 +274,9 @@ int nsides;
 int nd(ndice, nsides)
 int ndice, nsides;
 {
-    if (ndice < 1)
-    {
+    if (ndice < 1) {
         return 0;
-    }
-    else
-    {
+    } else {
         return nd(ndice - 1, nsides) + d(nsides);
     }
 }
@@ -296,61 +291,37 @@ char **ali;
     static int xstarts[] = {1,9,17,25};
     static int ystarts[] = {1,11,21,31};
 
-    for (; ac > 0; av++, ac--)
-    {
-        if ((**av == '-') && ((sub = (*(*av + 1))) >= 'A') && (sub <= 'P'))
-        {
+    for (; ac > 0; av++, ac--) {
+        if ((**av == '-') && ((sub = (*(*av + 1))) >= 'A') && (sub <= 'P')) {
             sub = sub - 'A';
             *x_start = xstarts[sub % 4];
             *y_start = ystarts[((sub > 11) ? 3 :
-                ((sub > 7) ? 2 : ((sub > 3) ? 1 : 0)))];
+                                            ((sub > 7) ? 2 : ((sub > 3) ? 1 : 0)))];
             *x_end = *x_start + 7;
             *y_end = *y_start + 9;
-        }
-        else if (isdigit(**av))
-	{
+        } else if (isdigit(**av)) {
             density = atoi(*av);
-	}
-        else if (strcmp(*av, "rift") == 0)
-	{
-	    density = 4;
-	}
-        else if (strcmp(*av, "sparse") == 0)
-	{
-	    density = 16;
-	}
-	else if (strcmp(*av, "scattered") == 0)
-	{
-	    density = 33;
-	}
-	else if (strcmp(*av, "dense") == 0)
-	{
+        } else if (strcmp(*av, "rift") == 0) {
+            density = 4;
+        } else if (strcmp(*av, "sparse") == 0) {
+            density = 16;
+        } else if (strcmp(*av, "scattered") == 0) {
+            density = 33;
+        } else if (strcmp(*av, "dense") == 0) {
             density = 66;
-	}
-        else if (strcmp(*av, "backwater") == 0)
-	{
-	    maturity = 0;
-	}
-        else if (strcmp(*av, "frontier") == 0)  /* Standard - default */
-	{
-	    maturity = 1;
-	}
-        else if (strcmp(*av, "mature") == 0)
-	{
-	    maturity = 2;
-	}
-        else if (strcmp(*av, "cluster") == 0)
-	{
-	    maturity = 3;
-	}
-	else if (strlen(*av) == 2 && isalpha(**av))
-	{
-	    *ali = *av;
-	}
-        else
-	{
-	    usage();
-	}
+        } else if (strcmp(*av, "backwater") == 0) {
+            maturity = 0;
+        } else if (strcmp(*av, "frontier") == 0) { /* Standard - default */
+            maturity = 1;
+        } else if (strcmp(*av, "mature") == 0) {
+            maturity = 2;
+        } else if (strcmp(*av, "cluster") == 0) {
+            maturity = 3;
+        } else if (strlen(*av) == 2 && isalpha(**av)) {
+            *ali = *av;
+        } else {
+            usage();
+        }
     }
 }
 
@@ -368,8 +339,8 @@ usage()
     Im (Imperium) alignment.\n";
 
     fprintf(stderr,
-	"usage: %s {-S | density | maturity | ac }\n", progname);
+            "usage: %s {-S | density | maturity | ac }\n", progname);
 
     fprintf(stderr, usemess);
-        exit(1);
+    exit(1);
 }

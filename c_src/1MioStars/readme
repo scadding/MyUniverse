@@ -1,0 +1,74 @@
+       SYSTEM GENERATOR LEVEL 2
+       RELEASE 0
+       1 March, 1990
+       jaymin@maths.tc.ie
+
+       This code was written on a PC and tested under the Lattice-C,
+       Microsoft-C and Turbo-C compilers. It should work under most
+       C compilers but be careful of long arithmetic. I would be most
+       keen to know modifications that are needed for various compilers.
+       To check your executable is 100% correct the system at coordinates
+       10000,10000,10000 should be:
+               C200100-a        10000    10000    10000 dete
+       for level 1 and
+               Dete system
+               Location 10000,10000,10000
+               Star F2 5       Intyowe
+               0       Star M6 7       Yebivanshan
+               2       Y100122-9       Etind
+               3       Y650000-0       Epatam
+               4       Small Gas Giant Arvainplard
+                       3       Ring            Sutsau
+                       8       H000000-0       Odo
+                       10      Y000000-0       Eleprin
+                       11      Y300000-0       Thatinaa
+                       30      Y400000-0       Wetinre
+                       35      Y200000-0       Anthovo
+                       45      Y320132-9       Sasa
+                       50      H310000-0       Vedcir
+               5       Large Gas Giant Afutha
+                       3       H79a100-9       Bote
+                       7       Y300000-0       Iise
+                       8       G7b7663-9       Cesso
+                       10      H6a0722-9       Ithe
+                       11      F557400-9       Ora
+                       15      Y100000-0       Andadeir
+                       25      Y200260-9       Ochenpanin
+                       35      C200100-a      *Dete
+                       40      Y246000-0       Baratode
+                       45      Y337000-0       Weplingfen
+                       50      Y328000-0       Arrans
+                       55      H000100-9       Hanse
+                       60      F656622-9       Edithoun
+               6       Large Gas Giant Chaethiss
+                       3       Ring            Tavekin
+                       9       Y310000-0       Nanddo
+                       10      Y200000-0       Veto
+                       30      Y400110-9       Neniut
+                       35      Y230000-0       Raniyei
+                       55      Y000000-0       Thanple
+               7       Small Gas Giant Madvi
+                       5       Y435000-0       Fafell
+                       10      Y300000-0       Binsho
+                       13      Y100000-0       Sehiittaetilyi
+                       25      Y430000-0       Axtren
+                       40      Y100000-0       Thandewawen
+                       50      Y400000-0       Ised
+               8       Small Gas Giant Bordoga
+                       5       Y000000-0       Hassesusor
+                       7       Y000000-0       Enowo
+                       8       H000000-0       Ead
+                       12      G410112-9       Lindthofer
+                       40      Y100000-0       Ojellhir
+                       45      Y000000-0       Olir
+       for level 2.
+       I strongly encourage people to write subsidiary programs, e.g.
+       to map a subsector, plot trade routes, .... Usefull programs
+       will be added to later releases.
+
+       Planed releases: (subject to bugs, help and excess revisions)
+
+       Level-1:        Main-world generation           February
+       Level-2:        Extended system generation      March
+       Level-3:        World builder's generation      May
+       Level-4:        Surface maps                    June

@@ -1,0 +1,22 @@
+When playing roleplaying games (RPGs), it often adds some realism if the GM
+can determine what kind of weather is occuring.  This program generates random
+weather for a year that is tunable to various climates.  Several example
+climates are included: north, south, and mid atlantic, gulf, and north
+pacific.
+
+In addition, several different calendars are included: Gregorian, medieval
+Japanese, and the Middle Earth calendar detailed in the appendices of
+Tolkien's The Lord of the Rings.
+
+The details of these are provided so that the user can create his or her own
+climate profiles or calendars.
+
+Please send any improvements, new climate profiles, new calendars, or
+better versions of the current climate profiles to one of the addresses below.
+
+- -----------------------------------------------------------------
+Brett Slocum   UUCP: ...uunet!hi-csc!slocum
+               Arpa: hi-csc!slocum@uunet.uu.net
+"My name is Inigo Montoya. You killed my father. Prepare to die."
+- -----------------------------------------------------------------
+

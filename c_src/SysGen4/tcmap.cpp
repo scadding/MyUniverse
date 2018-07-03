@@ -149,8 +149,7 @@ long   loc;
                   depth+1, side/2, len, ori);
             phalf(buf, just + 3*side, loc|(1<<(depth*2)),
                   depth+1, side/2, len - side/2, ori);
-        }
-        else {
+        } else {
             phalf(buf, just + 3*side, loc|(1<<(depth*2)),
                   depth+1, side/2, len - side/2, ori);
             phalf(buf, just, loc|(2<<(depth*2)),
@@ -187,20 +186,17 @@ int    l, just, len, depth;
         if(odd) {
             if(l) {
                 i = left[l - 1];
-            }
-            else {
+            } else {
                 i = 0;
             }
             ii = l + 1;
             if(l == 6) {
                 ii--;
             }
-        }
-        else {
+        } else {
             if(l != 6) {
                 i = left[5 - l];
-            }
-            else {
+            } else {
                 i = 0;
             }
             ii = 7 - l;

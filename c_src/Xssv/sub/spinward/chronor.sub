@@ -1,0 +1,34 @@
+@SUB-SECTOR: Chronor   SECTOR: Spinward Marches
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Zeycude       0101 C330698-9    Na Ni Po De        613 Zh M9 V
+Reno          0102 C1207B9-A    Na Po De           603 Zh G8 V M1 D
+Errere        0103 B263664-B  Z C0 Ni Ri           910 Zh M1 V M4 D
+Cantrel       0104 C366243-9    Lo Ni              520 Zh F1 III
+Gyomar        0108 D8B2889-5    Fl                 824 Na A8 IV
+Thengo        0202 C868586-5    Ag Ni              801 Zh G5 V M3 D
+Rio           0301 C686648-8    Ag Ni Ri           201 Na M1 V M0 D
+Gesentown     0303 B21169B-C  Z Na Ni Ic           801 Zh M9 D M9 D
+Chronor       0304 A6369A5-D  Z Hi Cp              304 Zh M8 V
+Atsa          0307 B4337CA-A  Z Na Po              810 Zh F7 V M9 D
+Whenge        0503 D648500-8    Ag Ni              610 Na M8 V
+Enlas-du      0601 E975776-6    Ag                 323 Na F1 V
+Algebaster    0605 C665658-9    Ag Ni Ri           410 Na M0 V M1 D
+Rasatt        0607 E883401-7    Ni                 910 Na F0 V
+Ninjar        0608 A211666-C  Z Ni Na              410 Zh A4 D
+Sheyou        0610 B756779-A  Z Ag                 111 Zh F4 V M0 D
+Indo          0703 E334662-5    Ni                 320 Na F6 V
+Nerewhon      0704 E738475-7    Ni                 820 Na K5 V
+Cipango       0705 A886865-C  Z Ri                 121 Zh G2 V
+Stave         0710 E7667A8-2    Ag                 801 Na M9 V M2 D
+Narval        0805 D525688-6  Z Ni              A  603 Na G4 V M6 VI
+Plaven        0807 E845300-3    Lo Ni              910 Na G8 V M7 D
+Quar          0808 B532720-B  N Na Po           A  401 Im M2 V
+Frond         0810 E9C3300-9    Lo Ni Fl           103 Cs F8 V
+

@@ -1,0 +1,33 @@
+@SUB-SECTOR: sec_M   SECTOR: trojanre.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Ftyewirl      0132 B4564LA-E  T Ni                 120 A7 K4 D
+Elahkoi       0134 C5685M7-B    Ag Ni              722 As K2 D
+Uiwuar        0135 B1011G5-E    Lo Ic Ni Va        605 As F1 V M4 D
+Ealea         0139 B5765K7-9    Ag Ni              200 As G5 VI M7 D
+Yekhtia       0232 B2233H6-B    Lo Ni Po           211 As G0 VI M8 D
+Aehahr        0234 B1004M9-C    Va Ni              522 As M9 V M7 D
+Ftoakh        0236 E673AHC-C    In Hi C3           200 As F4 V M9 D M7 D
+Aohfeau       0240 B9987M4-A    Ag                 620 As F3 V M8 D
+Hkesuh        0332 BAA07K8-B  R De                 122 As M4 V
+Eaweiya       0335 A5406L7-A  T De Ni Po           610 A2 K7 D M3 D
+Awo           0336 C8303G6-C    Lo De Ni Po        724 As M2 V
+Aiyostea      0338 B2006JB-9    Va Ni Na           805 As M5 V K3 D
+Hfa'yuweas    0431 B5553J8-C    Lo Ni              305 As F3 V M4 D
+Oseweheal     0531 B79A6N7-E  R Wa Ni              303 As F7 D M9 D M0 D
+Uaeakhea      0534 B5303K9-5  R Lo De Ni Po An     214 As F6 V
+Teharl        0536 C6544M3-B    Ni                 620 As F3 V M7 D
+Ehearye       0633 A5887H9-C  U Ag Ri              230 As F1 V
+Iysewekh      0640 A6205LA-E  R De Ni Po           504 A3 F2 V
+Eiwakh        0738 D2007H7-A    Va Na              200 As M5 V
+Hkeleiakh     0739 C110000-0    Ba Lo Ni        R  705 As K5 V
+Stohyus       0835 A5678N6-E  R Ri C4              902 As F6 D M2 D
+Hkakh         0837 A3245J6-E  R Ni                 704 As K6 V
+Ohtae         0839 B6651M8-9    Lo Ni              903 As F8 V M6 D
+Uitasoayaw    0840 B5796J7-9  R Ni                 103 As F3 D M2 D

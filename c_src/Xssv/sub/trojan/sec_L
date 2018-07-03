@@ -1,0 +1,24 @@
+@SUB-SECTOR: sec_L   SECTOR: trojanre.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Byrni         2527 B955699-6    Ag Ni              404 As F3 D
+Arunisiir     2621 B776530-6    Ag Ni              103 As F8 D M5 D
+Tech-World    2624 A455154-F    Ni Lo              310 As F8 D
+Ergo          2625 X767500-0    Ag Ni           R  412 As F8 VI
+Tanith        2721 A589342-B    Ni Lo              105 As M3 D M5 D
+Acrid         2722 AAC1388-D    Fl Lo Ni           103 As M7 III
+Inurin        2724 E668776-5    Ag Ri              404 As F7 D M9 D M4 D
+Falcon        2725 A158448-D    Ni                 405 As F6 V
+Cordan        2821 A895347-9    Ni Lo              203 As F4 D
+Exe           2823 B300101-A    Ni Va Lo           601 As K6 D
+Sperle        2824 BA8A76A-7    Ri Wa              920 As F3 V
+Umemii        2921 C521877-6    Na Po              304 As F5 D
+Argona        2923 B612586-9    Ic Ni              403 As K2 V M3 D
+Villane       3029 B100634-8    Na Ni Va           413 Na F1 IV
+Browne        3030 B750A96-9    De Hi In Po        303 Na G4 D M2 D

@@ -13,6 +13,7 @@ import codecs
 
 from GeneratorPanel import GeneratorPanel
 from Generators.TableGenerator import TableGenerator
+from Generators.StateGenerator import StateGenerator
 from Generators.SectorGenerator import SectorGenerator
 from Generators.SystemGenerator import SystemGenerator
 from Generators.PlanetGenerator import PlanetGenerator
@@ -83,6 +84,7 @@ class MyFrame(wx.Frame):
         self.generators['System'] = GeneratorPanel(self.notebook_2, SystemGenerator())
         self.generators['Image'] = GeneratorPanel(self.notebook_2, PlanetImageGenerator())
         self.generators['Planet'] = GeneratorPanel(self.notebook_2, PlanetGenerator())
+        self.generators['States'] = GeneratorPanel(self.notebook_2, StateGenerator())
         
         self.notebook_1 = wx.aui.AuiNotebook(self)
                         
@@ -273,7 +275,7 @@ class MyFrame(wx.Frame):
             html.LoadURL(file)
             self.Layout()
         else:
-            f = codecs.open(name + '.html', 'w', "utf-8")
+            f = codecs.open('tmp/' + name + '.html', 'w', "utf-8")
             u = ''
             if content.__class__.__name__ == "unicode":
                 u = content
@@ -282,7 +284,7 @@ class MyFrame(wx.Frame):
             f.write(u)
             f.close()
             html.SetPage("", name)
-            path = os.getcwd()
+            path = os.getcwd() + '/tmp'
             url = "file://" + path + "/" + name + ".html"
             html.LoadURL(url)
             self.Layout()

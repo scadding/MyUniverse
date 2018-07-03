@@ -21,8 +21,7 @@ int main(int argc, char **argv)
     z = atol(argv[3]);
     if(argc == 5) {
         i = atoi(argv[4]);
-    }
-    else {
+    } else {
         i = 1;
     }
 

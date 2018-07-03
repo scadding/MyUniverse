@@ -1,0 +1,258 @@
+# String file for HAZARD.TTP
+# From GDW Challenge 31
+# Computer version (c) 1990 David Burden
+# 5 Aug 90
+
+:zz0:Universal Hazard Profile
+:zz1:Press 'y' for another run
+:zz2:Cannot load HAZARD.STR text file
+:zz3:No Interpretation
+:zz4:Cannot open output file
+:zz5:Press <RETURN> to continue
+:hp:hazard [-cuhp] [-ofilename] [-nnumber] [-h[xx]] [-s]
+:hp:Generates hazard profile as given in Challenge
+:hp:or decodes a given profile.
+:hp:-cuhp      Decode Universal Hazard Profile 'uhp', else random.
+:hp:-ofilename Put output to 'filename'.
+:hp:-nnumber   Generate 'number' profiles.
+:hp:-h[xx]     Provide help information.
+:hp:-s			Suppress Output ( only if file output enabled ).         
+:hp:The program runs in an interactive mode unless the -o option is used.
+:hp:For listings of hazard characteristics type "hazard -hxx" were xx is..
+:hp:na = Nature, Secondary Characteristics...
+:hp:tx = toxic, ox = oxidizing, co = corrosive, ex = explosive
+:hp:hi = highly inflammable, bi = biohazard, ra = radioactive              
+:hp:sp = Species Affected,     at = Atmospheric Tolerance
+:hp:tm = Temperature Tolerance,  hu = Humidity Tolerance
+:hp:gv = Gravitic Tolerance,     fm = Form
+:hp:ms = Mass
+:hp:uu = UHP Parameter   nn = Number Parameter   oo = Output Parameter  
+:hp:ss = Suppress Switch
+:uu:-u Sets the UHP
+:uu:The UHP must be in the format 777-7777-77.
+:uu:Use 'x' for unknown/unset characteristics.
+:uu:eg.  -u777-77xx-77
+:nn:-n Sets the number of profiles to be generated.
+:nn:eg.  -n5
+:oo:-o Sets file output mode and the output file.
+:oo:No screen display is shown during the profile generation.
+:oo:A full pathname can be specified.
+:oo:eg.  -oREGINA.UHP
+:ss:-s Suppresses screen output. Enabled only when  -o selected.
+:ss:eg.  -s
+:na?:Nature of Hazard
+:na0:Special Hazard
+:na1:Toxic
+:na2:Oxidizing
+:na3:Corrosive
+:na4:Explosive
+:na5:Highly Inflammable
+:na6:Biohazard
+:na7:Radioactive
+:sh?:Special Hazard Subclasses
+:sh0:None
+:tx?:Toxic Subclasses
+:tx0:Toxic if eaten.
+:tx1:Can be absorbed through the skin.
+:tx2:Toxic Fumes
+:tx3:Toxic Dust
+:tx4:Avoid prolonged contact
+:tx5:Avoid all contact
+:tx6:Addictive drug
+:tx7:Carcinogen
+:tx8:Unusual Toxic effect
+:ox?:Oxidising Subclasses
+:ox0:Potentially hazardous if combined with inflammable liquids
+:ox1:Hazardous if combined with inflammable liquids
+:ox2:Hazardous in presence of powder catalyst
+:ox3:Hazardous in light
+:ox4:Hazardous in powder/dust form
+:ox5:Hazardous if crushed
+:ox6:Hazardous if warmed
+:ox7:Hazardous if shaken
+:ox8:Spontaneously ignites inflammable materials ( powders )
+:ox9:Spontaneously ignites inflammable materials ( solids )
+:co?:Corrosive Subclasses
+:co0:pH 0 - Strongly acidic
+:co1:pH 1 - Acidic
+:co2:pH 2 - Acidic
+:co3:pH 3 - Acidic
+:co4:pH 4 - Acidic
+:co5:pH 5 - Acidic
+:co6:pH 6 - Mildly Acidic
+:co7:pH 7 - Neutral
+:co8:pH 8 - Mildly Alkaline
+:co9:pH 9 - Alkaline
+:co10:pH 10 - Alkaline
+:co11:pH 11 - Alkaline
+:co12:pH 12 - Alkaline
+:co13:pH 13 - Alkaline
+:co14:pH 14 - Strongly Alkaline
+:ex?:Explosive Subclasses
+:ex0:Explosive under detonation
+:ex1:Explosive under detonation
+:ex2:Explosive
+:ex3:High Explosive
+:ex4:High Explosive
+:ex5:Highly Explosive
+:ex6:Dangerously Explosive, requires special shipping 
+:ex7:Dangerously Explosive, requires special shipping 
+:ex8:Dangerously Explosive, requires special shipping 
+:ex9:Spontaneously Explosive, requires special shipping 
+:hi?:Highly Inflammable Subclasses
+:hi0:Inflammable from 223K
+:hi1:Inflammable from 233K
+:hi2:Inflammable from 243K
+:hi3:Inflammable from 253K
+:hi4:Inflammable from 263K
+:hi5:Inflammable from 273K
+:hi6:Inflammable from 283K
+:hi7:Inflammable from 293K
+:hi8:Inflammable from 303K
+:hi9:Inflammable from 313K
+:hi10:Inflammable from 323K
+:hi11:Inflammable from 333K
+:hi12:Inflammable from 343K
+:hi13:Inflammable from 353K
+:hi14:Inflammable from 363K
+:hi15:Inflammable from 373K
+:hi16:Spontaneous Combustion at all temperatures
+:bi?:Biohazard SubClasses
+:bi1:May cause allergy
+:bi2:Likely to cause allergy
+:bi3:May cause mild infection
+:bi4:Likely to cause mild infection
+:bi5:May cause serious infection
+:bi6:Likely to cause serious infection
+:bi7:May cause lethal infection
+:bi8:Unknown biohazard
+:bi9:Biowar agent
+:ra?:Radioactive SubClasses
+:ra0:Weak Alpha emitter (eg uranium ore)
+:ra1:Weak Beta emitter
+:ra2:Weak Gamma (neutron) emitter
+:ra3:Moderate Alpha emitter
+:ra4:Moderate Beta emitter
+:ra5:Moderate Gamma emitter
+:ra6:Strong Alpha emitter, require unusual shielding
+:ra7:Strong Beta emitter, require unusual shielding
+:ra8:Strong Gamma emitter, require unusual shielding
+:ra9:Strong x-ray emitter, require unusual shielding
+:ra10:Nuclear weapons 
+:sp?:Species Affected
+:sp0:All life forms
+:sp1:All oxygen-breathing life forms
+:sp2:Humaniti, Aslan, and Vargr affected
+:sp3:Humaniti only
+:sp4:Aslan only
+:sp5:Vargr only
+:sp6:Droyne only
+:sp7:Hivers only
+:sp8:K'kree only
+:sp9:Other life forms only
+:at?:Atmosphere Tolerance
+:at0:Store in vacuum
+:at1:Store in trace atmosphere
+:at2:Store in very thin tainted atmosphere
+:at3:Store in very thin atmosphere
+:at4:Store in thin tainted atmosphere
+:at5:Store in thin atmosphere
+:at6:Store in standard atmosphere
+:at7:Store in standard tainted atmosphere
+:at8:Store in dense atmosphere
+:at9:Store in dense tainted atmosphere
+:at10:Store in exotic atmosphere
+:at11:Store in exotic corrosive atmosphere
+:at12:Store in exotic insiduous atmosphere
+:at13:May be stored under any atmospheric conditions
+:at14:May be stored in any oxygen-based atmosphere
+:tm?:Temperature Tolerance
+:tm0:Store at 223K
+:tm1:Store at 233K
+:tm2:Store at 243K
+:tm3:Store at 253K
+:tm4:Store at 263K
+:tm5:Store at 273K
+:tm6:Store at 283K
+:tm7:Store at 293K
+:tm8:Store at 303K
+:tm9:Store at 313K
+:tm10:Store at 323K
+:tm11:Store at 333K
+:tm12:Store at 343K
+:tm13:Store at 353K
+:tm14:Store at 363K
+:tm15:Store at 373K
+:tm16:Store below 223K
+:tm17:Store above 373K
+:hu?:Humidity Tolerance
+:hu0:Store at 0% humidity
+:hu1:Store at 5% humidity
+:hu2:Store at 10% humidity
+:hu3:Store at 15% humidity
+:hu4:Store at 20% humidity
+:hu5:Store at 25% humidity
+:hu6:Store at 30% humidity
+:hu7:Store at 35% humidity
+:hu8:Store at 40% humidity
+:hu9:Store at 45% humidity
+:hu10:Store at 50% humidity
+:hu11:Store at 55% humidity
+:hu12:Store at 60% humidity
+:hu13:Store at 65% humidity
+:hu14:Store at 70% humidity
+:hu15:Store at 75% humidity
+:hu16:Store at 80% humidity
+:hu17:Store at 85% humidity
+:hu18:Store at 90% humidity
+:hu19:Store at 95% humidity
+:hu20:Store at 100% humidity
+:hu21:May be stored at any humidity
+:gv?:Gravity Tolerance
+:gv0:Store in zero gravity
+:gv1:Store at 1G
+:gv2:Store at 2G
+:gv3:Store at 3G
+:gv4:Store at 4G
+:gv5:Store at 5G
+:gv6:Store at 6G
+:gv7:Store at 7G
+:gv8:Store at 8G
+:gv9:Store at 9G
+:gv10:Store at 10G
+:gv11:DO NOT store in zero gravity
+:gv12:Keep at exact gravity indicated on label
+:fm?:Storage Form
+:fm1:Solid ( eg copper ingots )
+:fm2:Powdered Solid ( eg sulfur dust )
+:fm3:Solid/liquid mixture ( eg sodium in oil )
+:fm4:Solid/gas mixture ( eg iodine )
+:fm5:Liquid ( eg mercury )
+:fm6:gas/liquid mixture ( eg bromine )
+:fm7:Solidified gas ( eg carbon dioxide ice )
+:fm8:Liquefied gas ( eg methane )
+:fm9:Compressed gas ( eg oxygen )
+:fm10:Rarefied gas ( unusual )
+:fm11:Gas Plasma ( unusual )
+:fm12:Assorted forms ( usually a mixed cargo )
+:ms?:Mass
+:ms0:Under 1 g
+:ms1:1 - 10 g
+:ms2:10 - 100 g
+:ms3:100 g - 1 kg
+:ms4:1 - 10 kg
+:ms5:10 - 100 kg
+:ms6:100 kg - 1 ton
+:ms7:1 - 10 tons
+:ms8:10 - 100 tons
+:ms9:100 - 200 tons
+:ms10:200 - 300 tons
+:ms11:300 - 400 tons
+:ms12:400 - 500 tons
+:ms13:500 - 1000 tons
+:ms14:1000 - 1500 tons
+:ms15:1500 - 2000 tons
+:ms16:2000 - 3000 tons
+:ms17:3000 - 4000 tons
+:ms18:4000 - 5000 tons
+

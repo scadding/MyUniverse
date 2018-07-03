@@ -68,12 +68,10 @@ int main(int argc, char **argv)
         fgets(inbuf,255,stdin);
         if(!inbuf[0]) {
             out = stdout;
-        }
-        else {
+        } else {
             if(inbuf[0] == '+') {
                 out = fopen(inbuf + 1, "a");
-            }
-            else {
+            } else {
                 out = fopen(inbuf, "w");
             }
             if(out == NULL) {
@@ -152,8 +150,7 @@ void phalf(int buf[28], int just, long loc, int depth, int side, int len, int or
                   depth+1, side/2, len, ori);
             phalf(buf, just + 3*side, loc|(1<<(depth*2)),
                   depth+1, side/2, len - side/2, ori);
-        }
-        else {
+        } else {
             phalf(buf, just + 3*side, loc|(1<<(depth*2)),
                   depth+1, side/2, len - side/2, ori);
             phalf(buf, just, loc|(2<<(depth*2)),
@@ -187,20 +184,17 @@ void pline(int buf[28], long tloc, int l, int just, int len, int depth)
         if(odd) {
             if(l) {
                 i = left[l - 1];
-            }
-            else {
+            } else {
                 i = 0;
             }
             ii = l + 1;
             if(l == 6) {
                 ii--;
             }
-        }
-        else {
+        } else {
             if(l != 6) {
                 i = left[5 - l];
-            }
-            else {
+            } else {
                 i = 0;
             }
             ii = 7 - l;

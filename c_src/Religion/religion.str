@@ -1,0 +1,153 @@
+# String file for RELIGION.TTP
+# From DGP World Builders Handbook
+# Computer version (c) 1990 David Burden
+# 5b Aug 90
+
+
+:zz0:Religious Profile
+:zz1:Press 'y' for another run
+:zz2:Cannot load RELIGION.STR text file
+:zz3:No Interpretation
+:zz4:Cannot open output file
+:zz5:Press <RETURN> to continue
+:hp:religion [-uuwp] [-ofilename] [-nnumber] [-h[xx]] [-s]
+:hp:Generates religious profile as given in WBH
+:hp:-uuwp      Generate using Universal World Profile 'uwp', else random.
+:hp:-ofilename Put output to 'filename' ( and screen ).
+:hp:-nnumber   Generate 'number' profiles.
+:hp:-h[xx]     Provide help information.         
+:hp:-s			Suppress screen output. Active only if -o also selected.
+:hp:The program runs in an interactive mode unless the -o option is used.
+:hp:For listings of religious characteristics type "religion -hxx" were xx is..
+:hp:gv = God View,              sa = Spiritual Aim
+:hp:dr = Devotion Required,     os = Organisational Structure
+:hp:lf = Liturgical Formality,  mf = Missionary fervor
+:hp:na = Number of Adherents
+:hp:uu = UWP Parameter   nn = Number Parameter   oo = Output Parameter  
+:hp:ss = Suppress parameter
+:uu:-u Sets the world UWP
+:uu:The UWP must be in the format A777777-7.
+:uu:The UWP is reflected in all characteristics.
+:uu:If the UWP is not stated no DM is applied.
+:uu:eg.  -uA777777-7
+:nn:-n Sets the number of profiles to be generated.
+:nn:eg.  -n5
+:oo:-o Sets file output mode and the output file.
+:oo:No screen display is shown during the profile generation.
+:oo:A full pathname can be specified.
+:oo:eg.  -oREGINA.CUL
+:ss:-s Suppresses screen output during file writes.
+:ss:eg. -s
+:gv?:God view
+:gv0:Animism. Natural world is caused or inhabited by spirits or demigods.
+:gv1:Polytheistic animism. Hierarchically organised animism.
+:gv2:Polytheism. Multiple gods or equal importance. Animist overtones.
+:gv3:Rational Polytheism. Multiplicity of gods as aspects of a few true gods.  
+:gv4:Dualism. Two mutually antagonistic gods or principles, good and evil.
+:gv5:Interactive Monotheism. Single god interested in sophonts daily actions.
+:gv6:Influential Monotheism. God only interacts with sophonts at key moments.
+:gv7:Crisis Monotheism. God only involved at crucial moments in history.
+:gv8:Remote Monotheism. God exists but only rarely intervenes.
+:gv9:Deism. God created the universe, but no longer interested in it.
+:gv10:Pantheism. God is everything and everything is god.
+:gv11:Agnosticism. It is impossible to know whether or not there is a god.
+:gv12:Rational Atheism. A rejection of god on the basis of science or logic.
+:gv13:Skeptical Atheism. A rejection of god on the basis of faith.
+:gv14:Atheism. Complete lack of religious beliefs.
+:gv15:Philosophical Atheism. Failure to understand concept of god.
+:sa?:Spiritual Aim
+:sa0:Worshippers are a chosen elite who deserve domination.
+:sa1:Worshippers will be rewarded in this life. All prayers are answered.
+:sa2:Worshippers will be saved from some imminent disaster.
+:sa3:Reincarnation with a karma (reward) doctrine.
+:sa4:Reincarnation accomplished by personal choice.
+:sa5:Statistical (random) reincarnation, working towards an afterlife.
+:sa6:Worshippers will be received into paradise when they die.
+:sa7:Worshippers will avoid being condemned to a hell.
+:sa8:Ethical and moral standards are their own reward, regardless of afterlife.
+:sa9:Believers perform charitable acts to build better society for postertity.
+:sa10:Believers seek to promote peace and harmony for all.
+:sa11:Believers seek to expand the frontiers of knowledge through enquiry.
+:sa12:Believers seek to preserve the knowledge and wisdom of the past.
+:sa13:Believers seek to improve own lives by self-discipline and training.
+:sa14:Epicurean and hedonistic fatalist philosophy.
+:sa15:Nihilism. No purpose to life, nothing to be gained by living.
+:dr?:Devotion Required
+:dr0:Constant devotion. No word, act or deed or thought not religious.
+:dr1:Devotion several times per hour.
+:dr2:Hourly devotion.
+:dr3:Devotion several times per day.
+:dr4:Daily devotion.
+:dr5:Devotion several days per week.
+:dr6:Weekly devotion.
+:dr7:Fortnightly devotion.
+:dr8:Monthly devotion.
+:dr9:Bi-monthly devotion.
+:dr10:Quarterly devotion.
+:dr11:Bi-annually devotion.
+:dr12:Yearly devotion.
+:dr13:Fromal devotion required several times during life.
+:dr14:Formal devotion required at least once before death.
+:dr15:No formal devotion required.
+:os?:Organisational Structure
+:os0:Theocracy. Religous hierarchy assumes function of government,
+:os1:Rigid hierarchy answerable to dominant centralised authority.
+:os2:Rigid hierarchy with most descions on a sector level.
+:os3:Rigid hierarchy with most decisions on a planetary level.
+:os4:Rigid hierarchy with most decisions on a local level.
+:os5:Loose hierarchy answerable to dominant central authority.
+:os6:Loose hierarchy with most decisions on a sector level.
+:os7:Loose hierarchy with most decisions on a planetary level.
+:os8:Loose hierarchy with most decisions on a local level.
+:os9:Loose hierarchy with most decisions up to individual worshippers.
+:os10:No organisation above sector level.
+:os11:No organisation above planetary level.
+:os12:No organisation above local level.
+:os13:Local organisation without regulations.
+:os14:Loose, highly informal organisation.
+:os15:No organisation of any kind.
+:lf?:Liturgical Formality
+:lf0:"Word of God" is pronounced by oracles and prophets. Priesthood control. 
+:lf1:Holy writings exist, but accessible only to highest church authorities.
+:lf2:Holy writings are accessible only to certain specific authorities.
+:lf3:Services are conducted by rote in a holy tongue few understand.
+:lf4:Services are conducted by rote in common languages.
+:lf5:Very formal church ritual coupled with minimal teaching of writings.
+:lf6:Formal church ritual and very limited teaching.
+:lf7:Rituals are combined with moderate teaching.
+:lf8:Rituals are combined with an open teaching policy.
+:lf9:Emphasis is laid on communal teaching with limited ritual.
+:lf10:Formal study groups focus on discussion and interpretation of writings.
+:lf11:Formal study groups include enquiry into areas not covered by writings.
+:lf12:Informal study groups with extensive limitations on allowable subjects.
+:lf13:Highly informal liturgy with some limitations on topics of reference.
+:lf14:Complete informality. Open exchange of ideas and concepts.
+:lf15:Religion does not normally enter conversation. No services or worship.
+:mf?:Missionary Fervor
+:mf0:Zealous and willing to convert any sophont.
+:mf1:Zealous missionary work among a limited number of sophont races. 
+:mf2:Zealous missionary work but intolerant of other sophont races.
+:mf3:Active and willing to convert any sophont.
+:mf4:Active missioning among a limited number of sophont races.
+:mf5:Active missioning but intolerant of other sophont races.
+:mf6:Ordinary activity and willing to convert any sophont.
+:mf7:Ordinary missionary activity among a limited number of sophont races.
+:mf8:Ordinary missionary activity but intolerant of other sophont races.
+:mf9:Occasional missionary activity.
+:mf10:Conversion attempts are highly infrequent.
+:na?:Number of Adherents
+:na0:1 - 9  adherents.
+:na1:10 - 99 adherents.
+:na2:100 - 999 adherents.
+:na3:1000 - 9999 adherents.
+:na4:10 000 - 99 999 adherents.
+:na5:100 000 - 999 999 adherents.
+:na6:1 million - 10 million adherents.
+:na7:10 million - 100 million adherents.
+:na8:100 million - 1 billion adherents.
+:na9:1 billion - 10 billion adherents.
+:na10:10 billion - 100 billion adherents.
+:na11:100 billion - 1 trillion adherents.
+
+
+

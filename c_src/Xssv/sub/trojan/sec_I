@@ -1,0 +1,41 @@
+@SUB-SECTOR: sec_I   SECTOR: trojanre.sec
+#
+# Trade routes within the subsector
+#src. dst.  X Y dst. offsets
+# $1840 1841  0 1
+#
+#--------1---------2---------3---------4---------5---------6---------7
+#PlanetName   Loc. UPP Code   B   Notes         Z  PBG Al. Star(s)
+#----------   ---- ---------  - --------------- -  --- -- ---------
+Aftye         0122 A8603M3-D    Ni De Lo           313 As F8 D
+Ahaikhea      0126 B4224K3-9  R Ag Ni Po Ri        101 As F7 III M7 D
+Eawatrye      0127 B8B57K6-C  R Fl                 903 As M7 V M1 D
+Tyea'ih       0129 B5488M9-E                       705 As K3 V M5 D
+Oiauh         0130 B1018L8-E    Na Ic Va           802 A8 F4 D
+Dalfi         0222 C750345-9    De Po Ni Lo        510 As F4 V M3 D
+Khteiatloilr  0223 B2234J6-C  R Ni Po              404 As F7 V
+Ewoiftoil     0224 B5466K6-A    Ni Ag              510 As F3 V
+H'a           0227 D6574K9-6    Ni                 802 As F4 V
+Hreahrya      0229 B333AH9-D    Hi Na Po           924 As K0 D
+Nora'a        0321 A485645-9    Ag Ni Ri           900 As K4 D
+Iryao         0322 A5588K8-E  R                    420 As F1 D
+Suiaoir       0328 B6513G7-E    Ni Po Lo           404 As F6 D
+Hkaha         0329 B8976K6-A    Ag Ni              703 As M4 D M6 D
+Khtyekt       0425 B2006J5-8  R Va Ni Na           613 As M9 V
+Osototail     0426 E5508N7-C    De Po              404 As F2 D
+Aowaih        0429 B5866K7-C  R Ag Ni Ri           323 As F1 V M4 D
+Khi           0430 B9875N8-C  U Ag Ni              911 As F3 D
+Vadada        0523 A410944-F    Hi Na In           802 As F9 V M5 D
+Elihfoirl     0525 A1532K6-D  R Ni Lo Po           201 As K0 V
+Ftaleirl      0528 B6303JA-6    De Lo Ni Po        502 As M8 D
+Oihyeti'he    0529 B7797H5-E                       803 As F4 V
+Souftea       0530 A2517K4-D  R Po                 801 As F9 D M3 D
+Sei'eal       0628 B5108M6-A    Na                 500 As F2 V M1 D
+Tanar         0722 C787640-9    Ri Ag Ni An        620 As K1 V
+Lafkin        0724 C77A846-9    Wa                 402 As F4 D
+Woilreawau    0727 B1008N5-E  R Va Na              503 As G0 D M6 D
+Uao           0729 C6A24L6-8  T Fl Ni              202 A5 M8 V
+Eahaw         0823 B523000-0    Ba Lo Ni Po     R  013 As M7 V
+Yaeawaokh     0824 B1307LB-E  T De Na Po           400 A9 F6 V M8 D
+Alirar        0825 A3555HA-C  R Ag Ni              913 As K4 D M4 D
+Ehaealir      0829 B6365HB-9    Ni                 210 As M5 V M8 D

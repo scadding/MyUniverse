@@ -1,0 +1,2143 @@
+
+#
+# Data table for MegaTraveller ship generation program.
+# I didn't think it would be quite this large!
+#
+# The basic format is:
+# key override code TL Pow+ Vol+ Wt+ $+ HP minVol Cp Cp* waste+ name
+#
+# key is a field of 4 hex digits.
+# override is a single character field specifying if this entry overrides
+#   lower TL entries for the same thing (:, +, *, ! or -).  If a + is present
+#	the entry will always be returned.  If a - is present, the entry
+#	is subject to being replaced by an equivalent item (same key, code)
+#	that has a higher tech level.  If a * is present, it means that
+#	lower TL devices of this key and code are no longer available at
+#	this TL [i.e. improved but not replaced, used to specify turrets].
+#	A : indicates that the given item MUST be unique over all items
+#	whose keys start with the same two hex digits.  Furthermore, an
+#	item of this kind MUST also have a quantity of exactly one.  Following
+#	the : there will be another override field (+, * or - only) for this
+#	item.  This allows for unique items that override lower TL things!
+#	An override of ! means that this item defines a submenu.  This is
+#	used to allow the user to choose individual items.  The fields
+#	follow are somewhat different.  The next (third) field is another
+#	key, that specifies what item code is in the sub-menu.  The fourth
+#	optional field is the minimum TL that this thing becomes available.
+#	And the name field is the message printed in the menu displayed to
+#	the user.
+# code is the UCP code (only codes [1-9A-Z] are to be printed, specifically
+# lower case codes are NOT printed and a zero code is NOT printed)
+# TL is the minimum TL to get this thing
+# Pow, Vol, Wt, $ are power, volume, weight and price
+# HP is the number of hardpoints used
+# minVol is the minimum volume for the device
+# Cp, Cp* are the control points and Cp multiplier (for computers, Cp is
+# the maximum control point input)
+# waste is a measure of wasted internal space (i.e. no life support)
+# name is a text description of the item
+#
+# Every field except the key, the code and the override may be absent
+# The special sequence %string causes all the remaining fields to take
+# default values and the name becomes string
+# a $ causes just that field to take a default value
+# The fields indicated + above are either a constant quantity or
+# a multiplicative quantity. (The latter is specified using a leading
+# '*').
+# Any real values can either be presented as a plain number or as a
+# ratio of two numbers (use a '/' between them and no spaces).
+#
+# key override code TL Pow+ Vol+ Wt+ $+ HP minVol Cp Cp* waste+ name
+
+0000! 1000	%Hull Section
+# Basic hulls.  These should probably be made more general and allowed to
+# take on values that are not in this table. [ p62]
+# To reduce the length of the listings produced by the program, these have
+# been broken into several different bits based on hull size.  To revert,
+# change all keys to 1100, delete all menu selections and include
+# the following entry:
+#1000! 1100	%Standard Hull
+1000! 1110	%Ship Hulls
+1000! 1120	%Small Craft Hulls
+#1100! 1110	%Standard Hull < 10 Tons
+#1100! 1120	%Standard Hull 10 Tons - 20 Tons
+#1100! 1130	%Standard Hull 20 Tons - 100 Tons
+#1100! 1140	%Standard Hulls 100 Tons - 1000 Tons
+#1100! 1150	%Standard Hulls 1000 Tons - 10000 Tons
+#1100! 1160	%Standard Hulls 10000 Tons and larger
+1120:+ a 0 $       -0.10   0.010       400     -1	%Standard Hull - 0.007 
+1120:+ b 0 $       -0.25   0.025       850     -1	%Standard Hull - 0.019 
+1120:+ c 0 $       -0.50   0.050      1200     -1	%Standard Hull - 0.037 
+1120:+ d 0 $       -0.75   0.075      1400     -1	%Standard Hull - 0.056 
+1120:+ e 0 $       -1.00   0.100      1600     -1	%Standard Hull - 0.074 
+1120:+ f 0 $       -1.25   0.125      1800     -1	%Standard Hull - 0.093 
+1120:+ g 0 $       -1.50   0.150      2000     -1	%Standard Hull - 0.111 
+1120:+ h 0 $       -1.75   0.175      2200     -1	%Standard Hull - 0.130 
+1120:+ j 0 $       -2.50   0.250      2400     -1	%Standard Hull - 0.185 
+1120:+ k 0 $       -3.37   0.400      2600     -1	%Standard Hull - 0.250 
+1120:+ m 0 $       -6.75   0.700      2800     -1	%Standard Hull - 0.500 
+1120:+ n 0 $      -10.12   1.100      3000     -1	%Standard Hull - 0.750 
+1120:+ p 0 $       -13.5     1.5      3300     -1	%Standard Hull - 1     
+1120:+ q 0 $       -27.0     2.2      3700     -1	%Standard Hull - 2     
+1120:+ r 0 $       -40.5     2.8      4200     -1	%Standard Hull - 3     
+1120:+ s 0 $       -54.0     3.5      5800     -1	%Standard Hull - 4     
+1120:+ t 0 $       -67.5     4.0      6500     -1	%Standard Hull - 5     
+1120:+ u 0 $       -81.0     4.6      7500     -1	%Standard Hull - 6     
+1120:+ v 0 $       -94.5     5.2      8500     -1	%Standard Hull - 7     
+1120:+ w 0 $      -108.0     5.7     10000     -1	%Standard Hull - 8     
+1120:+ x 0 $      -121.5     6.3     13700     -1	%Standard Hull - 9     
+1120:+ a 0 $      -135.0     6.8     17400     -1	%Standard Hull - 10    
+1120:+ b 0 $      -148.5     7.3     21100     -1	%Standard Hull - 11    
+1120:+ c 0 $      -162.0     7.8     24800     -1	%Standard Hull - 12    
+1120:+ d 0 $      -175.5     8.4     28500     -1	%Standard Hull - 13    
+1120:+ e 0 $      -189.0     8.8     30300     -1	%Standard Hull - 14    
+1120:+ f 0 $      -202.5     9.3     33000     -1	%Standard Hull - 15    
+1120:+ g 0 $      -216.0     9.8     36700     -1	%Standard Hull - 16    
+1120:+ h 0 $      -229.5    10.3     38400     -1	%Standard Hull - 17    
+1120:+ j 0 $      -243.0    10.8     40100     -1	%Standard Hull - 18    
+1120:+ k 0 $      -256.5    11.3     42800     -1	%Standard Hull - 19    
+1120:+ a 0 $      -270.0    11.8     44550     -1	%Standard Hull - 20    
+1120:+ b 0 $      -335.0    13.4     49700     -1	%Standard Hull - 25    
+1120:+ c 0 $      -405.0    16.2     56800     -1	%Standard Hull - 30    
+1120:+ d 0 $      -470.0    18.8     62100     -1	%Standard Hull - 35    
+1120:+ e 0 $      -540.0    21.6     66820     -1	%Standard Hull - 40    
+1120:+ f 0 $      -605.0    23.6     69900     -1	%Standard Hull - 45    
+1120:+ g 0 $      -675.0    26.3     72400     -1	%Standard Hull - 50    
+1120:+ h 0 $      -740.0    28.8     79400     -1	%Standard Hull - 55    
+1120:+ j 0 $      -810.0    31.6     84200     -1	%Standard Hull - 60    
+1120:+ k 0 $      -875.0    33.3     89500     -1	%Standard Hull - 65    
+1120:+ m 0 $      -945.0    35.0     93500     -1	%Standard Hull - 70    
+1120:+ n 0 $     -1010.0    36.4    100000     -1	%Standard Hull - 75    
+1120:+ p 0 $     -1080.0    37.8    107000     -1	%Standard Hull - 80    
+1120:+ q 0 $     -1150.0    38.5    114000     -1	%Standard Hull - 85    
+1120:+ r 0 $     -1215.0    39.0    124000     -1	%Standard Hull - 90    
+1120:+ s 0 $     -1285.0    39.5    127000     -1	%Standard Hull - 95    
+1110:+ a 0 $     -1350.0    40.0    134000     -1	%Standard Hull - 100   
+1110:+ b 0 $     -2700.0    70.0    265000     -2	%Standard Hull - 200   
+1110:+ c 0 $     -4050.0   100.0    400000     -3	%Standard Hull - 300   
+1110:+ d 0 $     -5400.0   130.0    535000     -4	%Standard Hull - 400   
+1110:+ e 0 $     -6750.0   160.0    665000     -5	%Standard Hull - 500   
+1110:+ f 0 $     -8100.0   190.0    805000     -6	%Standard Hull - 600   
+1110:+ g 0 $     -9450.0   220.0    935000     -7	%Standard Hull - 700   
+1110:+ h 0 $    -10800.0   250.0   1050000     -8	%Standard Hull - 800   
+1110:+ j 0 $    -12150.0   280.0   1200000     -9	%Standard Hull - 900   
+1110:+ a 0 $    -13500.0   310.0   1350000    -10	%Standard Hull - 1000  
+1110:+ b 0 $    -27000.0   600.0   2700000    -20	%Standard Hull - 2000  
+1110:+ c 0 $    -40500.0   900.0   4000000    -30	%Standard Hull - 3000  
+1110:+ d 0 $    -54000.0  1200.0   5300000    -40	%Standard Hull - 4000  
+1110:+ e 0 $    -67500.0  1500.0   6700000    -50	%Standard Hull - 5000  
+1110:+ f 0 $    -81000.0  1800.0   8000000    -60	%Standard Hull - 6000  
+1110:+ g 0 $    -94500.0  2100.0   9400000    -70	%Standard Hull - 7000  
+1110:+ h 0 $   -108000.0  2400.0  10700000    -80	%Standard Hull - 8000  
+1110:+ j 0 $   -121500.0  2700.0  12100000    -90	%Standard Hull - 9000  
+1110:+ a 0 $   -135000.0  3000.0  13400000   -100	%Standard Hull - 10000 
+1110:+ b 0 $   -270000.0  6000.0  15600000   -200	%Standard Hull - 20000 
+1110:+ c 0 $   -405000.0  8000.0  17800000   -300	%Standard Hull - 30000 
+1110:+ d 0 $   -540000.0 10000.0  20100000   -400	%Standard Hull - 40000 
+1110:+ e 0 $   -675000.0 11500.0  22300000   -500	%Standard Hull - 50000 
+1110:+ f 0 $  -1010000.0 15000.0  44600000   -750	%Standard Hull - 75000 
+1110:+ g 0 $  -1350000.0 18000.0  66800000  -1000	%Standard Hull - 100000
+1110:+ h 0 $  -2700000.0 29000.0  89100000  -2000	%Standard Hull - 200000
+1110:+ j 0 $  -4050000.0 38000.0 111400000  -3000	%Standard Hull - 300000
+1110:+ k 0 $  -5400000.0 46000.0 166700000  -4000	%Standard Hull - 400000
+1110:+ m 0 $  -6750000.0 54000.0 222800000  -5000	%Standard Hull - 500000
+1110:+ n 0 $  -9450000.0 67000.0 445500000  -7000	%Standard Hull - 700000
+1110:+ p 0 $ -12150000.0 79000.0 668300000  -9000	%Standard Hull - 900000
+1110:+ q 0 $ -13500000.0 85000.0 891000000 -10000	%Standard Hull - 1000000
+
+# Configurations and streamlining [1-5 p63]
+1000! 1200	%Configuration and Streamlining
+1200:+ 0 0 $	$	*0.5	*0.5	%Open Frame (unstreamlined)
+1200:+ 1 0 $	$	*1.0	*1.2	%Needle/Wedge (streamlined)
+1200:+ 1 0 $	$	*1.0	*1.8	%Needle/Wedge (airframe)
+1200:+ 2 0 $	$	*1.0	*1.1	%Cone (streamlined)
+1200:+ 2 0 $	$	*1.0	*2.2	%Cone (airframe)
+1200:+ 3 0 $	$	*1.0	*1.0	%Cyclinder (unstreamlined)
+1200:+ 3 0 $	$	*1.0	*1.2	%Cyclinder (streamlined)
+1200:+ 3 0 $	$	*1.0	*3.0	%Cyclinder (airframe)
+1200:+ 4 0 $	$	*1.0	*0.6	%Box (unstreamlined)
+1200:+ 4 0 $	$	*1.0	*0.9	%Box (streamlined)
+1200:+ 5 0 $	$	*0.8	*1.5	%Sphere (unstreamlined)
+1200:+ 6 0 $	$	*0.9	*2.4	%Dome/Disk (streamlined)
+1200:+ 6 0 $	$	*0.9	*3.6	%Dome/Disk (airframe)
+1200:+ 7 0 $	$	*0.9	*0.5	%Irregular (unstreamlined)
+#1200:+ 8 0 $	$	$	*1.0	%Planetoid (unstreamlined)
+#1200:+ 9 0 $	$	$	*1.0	%Buffered (unstreamlined)
+
+# Planetoid Configurations [1-6 p63]
+# should add hardpoint entries to this table
+#1000! 12FF	%Planetoid Hulls
+#12FF:+ 0 0 $	-1	1.0	85 -1/1350  1350 $ $ 0.2	%Planetoid hull
+#12FF:+ 0 0 $	-1	1.75	85 -1/1350  1350 $ $ 0.35	%Buffered hull
+
+# Armour type table [1-7 p63]
+1000! 1300 5	%Armour Type
+1300:+ A 5 $	$	*1.25	*1.0	%Soft Steel
+1300:+ B 6 $	$	*1.00	*1.0	%Hard Steel
+1300:+ C 7 $	$	*0.44	*1.8	%Composite Laminate
+1300:+ D 9 $	$	*0.35	*1.6	%Lt Wt Composite Laminate
+1300:+ E 10 $	$	*0.31	*1.1	%Crystaliron
+1300:+ F 12 $	$	*0.26	*1.0	%Superdense
+1300:+ G 14 $	$	*0.14	*1.0	%Bonded Superdense
+1300:+ H 17 $	$	*0.06	*1.3	%Coherent Superdense
+
+# Armour table [1-9 p63]
+# Here the rule that limits added armour to TL*5 is interpreted such that
+# the basic armour of a standard hull is zero, and any armour added to the hull
+# is normal.  Using the other interpretation, had major problems when
+# considering craft with armours less than 40 ---- negative weights and prices
+1000! 1400	%Armour Value
+1400:+ 0 1 $ $ *0.25	*0.25	%Armour 1
+1400:+ 0 1 $ $ *0.50	*0.50	%Armour 2
+1400:+ 0 1 $ $ *0.75	*0.75	%Armour 3
+1400:+ 0 1 $ $ *1.00	*1.00	%Armour 4
+1400:+ 0 1 $ $ *1.25	*1.25	%Armour 5
+1400:+ 0 2 $ $ *1.50	*1.50	%Armour 6
+1400:+ 0 2 $ $ *1.75	*1.75	%Armour 7
+1400:+ 0 2 $ $ *2.00	*2.00	%Armour 8
+1400:+ 0 2 $ $ *2.25	*2.25	%Armour 9
+1400:+ 0 2 $ $ *2.50	*2.50	%Armour 10
+1400:+ 0 3 $ $ *2.75	*2.75	%Armour 11
+1400:+ 0 3 $ $ *3.00	*3.00	%Armour 12
+1400:+ 0 3 $ $ *3.25	*3.25	%Armour 13
+1400:+ 0 3 $ $ *3.54	*3.54	%Armour 14
+1400:+ 0 3 $ $ *3.86	*3.86	%Armour 15
+1400:+ 0 4 $ $ *4.20	*4.20	%Armour 16
+1400:+ 0 4 $ $ *4.59	*4.59	%Armour 17
+1400:+ 0 4 $ $ *5.00	*5.00	%Armour 18
+1400:+ 0 4 $ $ *5.45	*5.45	%Armour 19
+1400:+ 0 4 $ $ *5.95	*5.95	%Armour 20
+1400:+ 0 5 $ $ *6.48	*6.48	%Armour 21
+1400:+ 0 5 $ $ *7.07	*7.07	%Armour 22
+1400:+ 0 5 $ $ *7.71	*7.71	%Armour 23
+1400:+ 0 5 $ $ *8.41	*8.41	%Armour 24
+1400:+ 0 5 $ $ *9.17	*9.17	%Armour 25
+1400:+ 0 6 $ $ *10.0	*10.0	%Armour 26
+1400:+ 0 6 $ $ *10.9	*10.9	%Armour 27
+1400:+ 0 6 $ $ *11.9	*11.9	%Armour 28
+1400:+ 0 6 $ $ *13.0	*13.0	%Armour 29
+1400:+ 0 6 $ $ *14.1	*14.1	%Armour 30
+1400:+ 0 7 $ $ *15.4	*15.4	%Armour 31
+1400:+ 0 7 $ $ *16.8	*16.8	%Armour 32
+1400:+ 0 7 $ $ *18.3	*18.3	%Armour 33
+1400:+ 0 7 $ $ *20.0	*20.0	%Armour 34
+1400:+ 0 7 $ $ *21.8	*21.8	%Armour 35
+1400:+ 0 8 $ $ *23.8	*23.8	%Armour 36
+1400:+ 0 8 $ $ *25.9	*25.9	%Armour 37
+1400:+ 0 8 $ $ *28.3	*28.3	%Armour 38
+1400:+ 0 8 $ $ *30.8	*30.8	%Armour 39
+1400:+ 0 8 $ $ *33.0	*33.0	%Armour 40
+1400:+ 0 9 $ $ *36.7	*36.7	%Armour 41
+1400:+ 0 9 $ $ *40.0	*40.0	%Armour 42
+1400:+ 0 9 $ $ *43.6	*43.6	%Armour 43
+1400:+ 0 9 $ $ *47.6	*47.6	%Armour 44
+1400:+ 0 9 $ $ *51.9	*51.9	%Armour 45
+1400:+ 0 10 $ $ *56.6	*56.6	%Armour 46
+1400:+ 0 10 $ $ *61.7	*61.7	%Armour 47
+1400:+ 0 10 $ $ *67.3	*67.3	%Armour 48
+1400:+ 0 10 $ $ *73.4	*73.4	%Armour 49
+1400:+ 0 10 $ $ *80	*80	%Armour 50
+1400:+ 0 11 $ $ *87.2	*87.2	%Armour 51
+1400:+ 0 11 $ $ *95.1	*95.1	%Armour 52
+1400:+ 0 11 $ $ *104	*104	%Armour 53
+1400:+ 0 11 $ $ *113	*113	%Armour 54
+1400:+ 0 11 $ $ *123	*123	%Armour 55
+1400:+ 0 12 $ $ *135	*135	%Armour 56
+1400:+ 0 12 $ $ *147	*147	%Armour 57
+1400:+ 0 12 $ $ *160	*160	%Armour 58
+1400:+ 0 12 $ $ *174	*174	%Armour 59
+1400:+ 0 12 $ $ *190	*190	%Armour 60
+1400:+ 0 13 $ $ *207	*207	%Armour 61
+1400:+ 0 13 $ $ *226	*226	%Armour 62
+1400:+ 0 13 $ $ *247	*247	%Armour 63
+1400:+ 0 13 $ $ *269	*269	%Armour 64
+1400:+ 0 13 $ $ *293	*293	%Armour 65
+1400:+ 0 14 $ $ *320	*320	%Armour 66
+1400:+ 0 14 $ $ *349	*349	%Armour 67
+1400:+ 0 14 $ $ *381	*381	%Armour 68
+1400:+ 0 14 $ $ *415	*415	%Armour 69
+1400:+ 0 14 $ $ *453	*453	%Armour 70
+1400:+ 0 15 $ $ *494	*494	%Armour 71
+1400:+ 0 15 $ $ *538	*538	%Armour 72
+1400:+ 0 15 $ $ *587	*587	%Armour 73
+1400:+ 0 15 $ $ *640	*640	%Armour 74
+1400:+ 0 15 $ $ *698	*698	%Armour 75
+1400:+ 0 16 $ $ *761	*761	%Armour 76
+1400:+ 0 16 $ $ *830	*830	%Armour 77
+1400:+ 0 16 $ $ *905	*905	%Armour 78
+1400:+ 0 16 $ $ *987	*987	%Armour 79
+1400:+ 0 16 $ $ *1080	*1080	%Armour 80
+1400:+ 0 17 $ $ *1170	*1170	%Armour 81
+1400:+ 0 17 $ $ *1280	*1280	%Armour 82
+1400:+ 0 17 $ $ *1400	*1400	%Armour 83
+1400:+ 0 17 $ $ *1520	*1520	%Armour 84
+1400:+ 0 17 $ $ *1660	*1660	%Armour 85
+1400:+ 0 18 $ $ *1810	*1810	%Armour 86
+1400:+ 0 18 $ $ *1970	*1970	%Armour 87
+1400:+ 0 18 $ $ *2150	*2150	%Armour 88
+1400:+ 0 18 $ $ *2350	*2350	%Armour 89
+1400:+ 0 18 $ $ *2560	*2560	%Armour 90
+1400:+ 0 19 $ $ *2790	*2790	%Armour 91
+1400:+ 0 19 $ $ *3040	*3040	%Armour 92
+1400:+ 0 19 $ $ *3320	*3320	%Armour 93
+1400:+ 0 19 $ $ *3620	*3620	%Armour 94
+1400:+ 0 19 $ $ *3950	*3950	%Armour 95
+1400:+ 0 20 $ $ *4310	*4310	%Armour 96
+1400:+ 0 20 $ $ *4700	*4700	%Armour 97
+1400:+ 0 20 $ $ *5120	*5120	%Armour 98
+1400:+ 0 20 $ $ *5580	*5580	%Armour 99
+1400:+ 0 20 $ $ *6090	*6090	%Armour 100
+1400:+ 0 21 $ $ *6640	*6640	%Armour 101
+1400:+ 0 21 $ $ *7240	*7240	%Armour 102
+1400:+ 0 21 $ $ *7900	*7900	%Armour 103
+1400:+ 0 21 $ $ *8610	*8610	%Armour 104
+1400:+ 0 21 $ $ *9360	*9360	%Armour 105
+1400:+ 0 22 $ $ *10200	*10200	%Armour 106
+1400:+ 0 22 $ $ *11200	*11200	%Armour 107
+1400:+ 0 22 $ $ *12200	*12200	%Armour 108
+# Those that are hashed out are not in the ref's guide, but are obvious
+#1400:+ 0 22 $ $ *13280	*13280	%Armour 109
+1400:+ 0 22 $ $ *14500	*14500	%Armour 110
+#1400:+ 0 23 $ $ *15800	*15800	%Armour 111
+1400:+ 0 23 $ $ *17200	*17200	%Armour 112
+#1400:+ 0 23 $ $ *18720	*18720	%Armour 113
+1400:+ 0 23 $ $ *20500	*20500	%Armour 114
+#1400:+ 0 23 $ $ *22400	*22400	%Armour 115
+1400:+ 0 24 $ $ *24400	*24400	%Armour 116
+#1400:+ 0 24 $ $ *26560	*26560	%Armour 117
+1400:+ 0 24 $ $ *29000	*29000	%Armour 118
+#1400:+ 0 24 $ $ *31600	*31600	%Armour 119
+1400:+ 0 24 $ $ *34400	*34400	%Armour 120
+
+# Power Supply
+# When the storage batteries, fuel cells and solar cells are added to the
+#	table it would be necessary to subdivide the power supply section
+#	at present (there being only power plants) the table is directed
+#	directly to those.  The complete listing for such is included below
+#	and the shortened form actually in the database.
+#0000! 2000	%Power Section
+#2000! 2100 5	%Power Plants
+#2000! 2200	%Storage Batteries
+#2000! 2300	%Fuel Cells
+#2000! 2400	%Solar Cells
+0000! 2100 5	%Power Plants
+# Power Plants [2-1 & 2-2 p64], the scale efficiency table is included in
+# this table.  I've defined some UCP codes to reflect the scale efficiency
+# in action, they are:
+#	v	very tiny	\
+#	t	tiny		 > reduced efficiency
+#	s	small		/
+#	m	medium		no scale efficiency possible
+#	l	large		\
+#	h	huge		 > improved efficiency
+#	g	gigantic	/
+# These codes are now obsolete, they are be completely re-arragned to
+# provided a better sorting order so that the displayed menu is more
+# readable.  Basically the new system, rates antimatter first, then
+# fusion and the lower TL things.  Everything is also sorted by size
+# from largest to smallest (since in ships at least, you are only
+# really interested in the largest sizes available).
+2100+ y 5 -0.25/3 1 1 1000	$ 0.005 %Internal Combustion (small)
+2100+ x 5 -0.25   1 1 1000	$ 0.100 %Internal Combustion
+2100+ w 5 -0.375  1 1 1000	$ 11.00 %Internal Combustion (large)
+2100+ v 6 -0.4/3  1 1 2000	$ 0.001 %Improved Internal Combustion (small)
+2100+ u 6 -0.40   1 1 2000	$ 0.100 %Improved Internal Combustion
+2100+ t 6 -0.60   1 1 2000	$ 11.00 %Improved Internal Combustion (large)
+2100+ s 6 -1.00   1 8 100000	$ 5.000 %Nuclear Fission
+2100+ r 6 -2.00   1 8 100000	$ 50.00 %Nuclear Fission (large)
+2100+ q 7 -0.20   1 1 5000	$ 0.005 %Gas Turbine (small)
+2100+ p 7 -0.60   1 1 5000	$ 0.100 %Gas Turbine
+2100+ n 7 -0.90   1 1 5000	$ 11.00 %Gas Turbine (large)
+2100+ m 8 -0.8/3  1 1 10000	$ 0.001 %MHD Turbine (small)
+2100+ k 8 -0.80   1 1 10000	$ 0.100 %MHD Turbine
+2100+ j 8 -1.20   1 1 10000	$ 11.00 %MHD Turbine (large)
+2100- e 9 -4.00   1 4 200000	$ 10.00 %Fusion
+2100- d 9 -6.00   1 4 200000	$ 14.00 %Fusion (large)
+2100- e 10 -2.0   1 4 200000	$ 2.000 %Fusion
+2100- d 10 -3.0   1 4 200000	$ 6.000 %Fusion (large)
+2100- c 10 -4.0   1 4 200000	$ 10.00 %Fusion (huge)
+2100- b 10 -6.0   1 4 200000	$ 14.00 %Fusion (gigantic)
+2100- e 11 -2.0   1 4 200000	$ 1.000 %Fusion
+2100- d 11 -3.0   1 4 200000	$ 6.000 %Fusion (large)
+2100- c 11 -4.0   1 4 200000	$ 10.00 %Fusion (huge)
+2100- b 11 -6.0   1 4 200000	$ 14.00 %Fusion (gigantic)
+2100- g 12 -1.0   1 4 200000	$ 0.250 %Fusion (tiny)
+2100- f 12 -4/3   1 4 200000	$ 0.500 %Fusion (small)
+2100- e 12 -2.0   1 4 200000	$ 0.750 %Fusion
+2100- d 12 -3.0   1 4 200000	$ 6.000 %Fusion (large)
+2100- c 12 -4.0   1 4 200000	$ 10.00 %Fusion (huge)
+2100- b 12 -6.0   1 4 200000	$ 14.00 %Fusion (gigantic)
+2100- h 13 -0.75  1 3 200000	$ 0.150 %Fusion (very tiny)
+2100- g 13 -1.5   1 3 200000	$ 0.250 %Fusion (tiny)
+2100- f 13 -2.0   1 3 200000	$ 0.500 %Fusion (small)
+2100- e 13 -3.0   1 3 200000	$ 0.750 %Fusion
+2100- d 13 -4.5   1 3 200000	$ 6.000 %Fusion (large)
+2100- c 13 -6.0   1 3 200000	$ 10.00 %Fusion (huge)
+2100- b 13 -9.0   1 3 200000	$ 14.00 %Fusion (gigantic)
+2100- h 14 -0.75  1 3 200000	$ 0.100 %Fusion (very tiny)
+2100- g 14 -1.5   1 3 200000	$ 0.250 %Fusion (tiny)
+2100- f 14 -2.0   1 3 200000	$ 0.500 %Fusion (small)
+2100- e 14 -3.0   1 3 200000	$ 0.750 %Fusion
+2100- d 14 -4.5   1 3 200000	$ 6.000 %Fusion (large)
+2100- c 14 -6.0   1 3 200000	$ 10.00 %Fusion (huge)
+2100- b 14 -9.0   1 3 200000	$ 14.00 %Fusion (gigantic)
+2100- h 15 -1.5   1 2 200000	$ 0.090 %Fusion (very tiny)
+2100- g 15 -3.0   1 2 200000	$ 0.250 %Fusion (tiny)
+2100- f 15 -4.0   1 2 200000	$ 0.500 %Fusion (small)
+2100- e 15 -6.0   1 2 200000	$ 0.750 %Fusion
+2100- d 15 -9.0   1 2 200000	$ 6.000 %Fusion (large)
+2100- c 15 -12    1 2 200000	$ 10.00 %Fusion (huge)
+2100- b 15 -18    1 2 200000	$ 14.00 %Fusion (gigantic)
+2100- h 16 -1.75  1 1 200000	$ 0.080 %Fusion (very tiny)
+2100- g 16 -3.5   1 1 200000	$ 0.250 %Fusion (tiny)
+2100- f 16 -14/3  1 1 200000	$ 0.500 %Fusion (small)
+2100- e 16 -7.0   1 1 200000	$ 0.750 %Fusion
+2100- d 16 -10.5  1 1 200000	$ 6.000 %Fusion (large)
+2100- c 16 -14    1 1 200000	$ 10.00 %Fusion (huge)
+2100- b 16 -21    1 1 200000	$ 14.00 %Fusion (gigantic)
+2100- a 17 -500   1 6 500000	$ 8.000 %Antimatter
+2100- a 18 -1000  1 5 500000	$ 1.000 %Antimatter
+2100- a 19 -2500  1 4 500000	$ 0.500 %Antimatter
+2100- a 20 -15000 1 3 500000	$ 0.100 %Antimatter
+2100- a 21 -50000 1 2 500000	$ 0.020 %Antimatter
+
+# Storage Batteries [2-1 p64] key: 2200
+# Fuel Cells [2-1 p64] key: 2300
+# Solar Cells [2-1 p64] key: 2400
+
+# Locomotion (section 3).
+0000! 3000 9	%Drive Section
+# All the drive tables in this section have been adjusted so that they
+# are based on kL of hull volume rather that on some large (and uninteresting)
+# tables form the ref's guide.
+# Jump units required [3-3 p65]
+3000! 3100 9	%Jump Drive
+3100+ 1 9 $ *1/50	*1/25	*40000/9 $ 27		%Jump Drive
+3100+ 2 11 $ *3/100	*3/50	*20000/3 $ 40.5		%Jump Drive
+3100+ 3 12 $ *1/25	*2/25	*80000/9 $ 54		%Jump Drive
+3100+ 4 13 $ *1/20	*1/10	*100000/9 $ 67.5	%Jump Drive
+3100+ 5 14 $ *3/50	*3/25	*40000/3 $ 81		%Jump Drive
+3100+ 6 15 $ *7/100	*7/50	*140000/9 $ 94.5	%Jump Drive
+
+# Jump Drive Fuel [3-4 p65]
+3000! 3200 9	%Jump Fuel
+3200- 1 9  $ *1/10   $ $ $ 135	 	$ $ *1/10 	%Fuel Jump
+3200- 1 17 $ *2/25   $ $ $ 108		$ $ *2/25	%Fuel Jump
+3200- 1 18 $ *3/50   $ $ $ 81		$ $ *3/50	%Fuel Jump
+3200- 1 19 $ *1/25   $ $ $ 54		$ $ *1/25	%Fuel Jump
+3200- 1 20 $ *1/50   $ $ $ 27		$ $ *1/50	%Fuel Jump
+3200- 1 21 $ *1/100  $ $ $ 13.5		$ $ *1/100	%Fuel Jump
+3200- 2 9  $ *3/20   $ $ $ 202.5	$ $ *3/20	%Fuel Jump
+3200- 2 17 $ *3/25   $ $ $ 162		$ $ *3/25	%Fuel Jump
+3200- 2 18 $ *9/100  $ $ $ 121.5	$ $ *9/100	%Fuel Jump
+3200- 2 19 $ *3/50   $ $ $ 81		$ $ *3/50	%Fuel Jump
+3200- 2 20 $ *3/100  $ $ $ 40.5		$ $ *3/100	%Fuel Jump
+3200- 2 21 $ *3/200  $ $ $ 20.25	$ $ *3/200	%Fuel Jump
+3200- 3 9  $ *1/5    $ $ $ 270		$ $ *1/5	%Fuel Jump
+3200- 3 17 $ *4/25   $ $ $ 216		$ $ *4/25	%Fuel Jump
+3200- 3 18 $ *3/25   $ $ $ 162		$ $ *3/25	%Fuel Jump
+3200- 3 19 $ *2/25   $ $ $ 108		$ $ *2/25	%Fuel Jump
+3200- 3 20 $ *1/25   $ $ $ 54		$ $ *1/25	%Fuel Jump
+3200- 3 21 $ *1/50   $ $ $ 27		$ $ *1/50	%Fuel Jump
+3200- 4 9  $ *1/4    $ $ $ 337.5	$ $ *1/4	%Fuel Jump
+3200- 4 17 $ *1/5    $ $ $ 270		$ $ *1/5	%Fuel Jump
+3200- 4 18 $ *3/20   $ $ $ 202.5	$ $ *3/20	%Fuel Jump
+3200- 4 19 $ *1/10   $ $ $ 135		$ $ *1/10	%Fuel Jump
+3200- 4 20 $ *1/20   $ $ $ 67.5		$ $ *1/20	%Fuel Jump
+3200- 4 21 $ *1/40   $ $ $ 33.75	$ $ *1/40	%Fuel Jump
+3200- 5 9  $ *3/10   $ $ $ 405		$ $ *3/10	%Fuel Jump
+3200- 5 17 $ *6/25   $ $ $ 324		$ $ *6/25	%Fuel Jump
+3200- 5 18 $ *9/50   $ $ $ 243		$ $ *9/50	%Fuel Jump
+3200- 5 19 $ *3/25   $ $ $ 162		$ $ *3/25	%Fuel Jump
+3200- 5 20 $ *3/50   $ $ $ 81		$ $ *3/50	%Fuel Jump
+3200- 5 21 $ *3/100  $ $ $ 40.5		$ $ *3/100	%Fuel Jump
+3200- 6 9  $ *7/20   $ $ $ 472.5	$ $ *7/20	%Fuel Jump
+3200- 6 17 $ *7/25   $ $ $ 378		$ $ *7/25	%Fuel Jump
+3200- 6 18 $ *21/100 $ $ $ 283.5	$ $ *21/100	%Fuel Jump
+3200- 6 19 $ *7/50   $ $ $ 189		$ $ *7/50	%Fuel Jump
+3200- 6 20 $ *7/100  $ $ $ 94.5		$ $ *7/100	%Fuel Jump
+3200- 6 21 $ *7/200  $ $ $ 47.25	$ $ *7/200	%Fuel Jump
+
+# Maneuver Drives [3-5 p65]
+3000! 3300 9	%Maneuver Drive
+3300+ 1 9  *13/135  *1/50   *1/25    *20000/27	%Maneuver Drive (antigrav)
+3300+ 2 9  *13/54   *1/20   *1/10    *50000/27	%Maneuver Drive (antigrav)
+3300+ 3 9  *52/135  *2/25   *4/25    *80000/27	%Maneuver Drive (antigrav)
+3300+ 4 9  *143/270 *11/100 *11/50   *110000/27	%Maneuver Drive (antigrav)
+3300+ 5 9  *91/135  *7/50   *7/25    *140000/27	%Maneuver Drive (antigrav)
+3300+ 6 9  *221/270 *17/100 *17/50   *170000/27	%Maneuver Drive (antigrav)
+# Thrusters are a bit different, Fighting Ships claims that 20T is the
+# minimum sized ship that can use them, thus there must be a minVol!
+3300+ 1 11 *14/135  *1/50   *7/135   *28000/27	$ 5.4  %Maneuver Drive (thruster)
+3300+ 2 11 *7/27    *1/20   *7/54    *70000/27	$ 13.5 %Maneuver Drive (thruster)
+3300+ 3 11 *56/135  *2/25   *28/135  *112000/27	$ 21.6 %Maneuver Drive (thruster)
+3300+ 4 11 *77/135  *11/100 *77/270  *154000/27	$ 29.7 %Maneuver Drive (thruster)
+3300+ 5 11 *98/135  *7/50   *49/135  *196000/27	$ 37.8 %Maneuver Drive (thruster)
+3300+ 6 11 *119/135 *17/100 *119/270 *238000/27	$ 45.9 %Maneuver Drive (thruster)
+
+# Avionics [3-9 p66]
+3000! 3400 8	%Avionics
+3400+ 0 8	0.05	0.4	0.2	10000	%TL 8 Avionics
+3400+ 0 9	0.04	0.4	0.2	10000	%TL 9 Avionics
+3400+ 0 10	0.04	0.3	0.15	12000	%TL 10 Avionics
+3400+ 0 11	0.03	0.3	0.15	13000	%TL 11 Avionics
+3400+ 0 12	0.03	0.2	0.1	14000	%TL 12 Avionics
+3400+ 0 13	0.02	0.2	0.1	15000	%TL 13 Avionics
+3400+ 0 14	0.02	0.1	0.05	16000	%TL 14 Avionics
+3400+ 0 15	0.02	0.1	0.05	17000	%TL 15 Avionics
+3400+ 0 16	0.03	0.05	0.03	18000	%TL 16 Avionics
+3400+ 0 17	0.03	0.05	0.03	19000	%TL 17 Avionics
+3400+ 0 18	0.04	0.02	0.02	20000	%TL 18 Avionics
+3400+ 0 19	0.04	0.02	0.02	22000	%TL 19 Avionics
+3400+ 0 20	0.05	0.01	0.01	24000	%TL 20 Avionics
+3400+ 0 21	0.06	0.01	0.01	28000	%TL 21 Avionics
+
+# Section 4 Communicators
+0000! 4000 5	%Communications Section
+# Here and later, I've defined various UCP codes for the different ranges
+# of the various devices.  They are:
+#	a	Close		0m - 1m
+#	b	Short		1m - 5m
+#	c	Medium		5m - 50m
+#	d	Long		50m - 250m
+#	e	Very Long	250m - 500m
+#	f	Distant		500m - 5km
+#	g	Very Distant	5km - 50km
+#	h	Regional	50km - 500km
+#	j	Continental	500km - 5000km
+#	k	Planetary	5000km - 50000km
+#	l	Far Orbit	50000km - 0.5Mkm
+#	m	Extreme Orbit	0.5Mkm - 5Mkm
+#	n	Interplanetary	5Mkm - 1au
+#	p	System		1au - 1kau
+#	q	Substellar	1kau - 100kau
+#	r	Stellar		100kau - 1pc
+#	s	Interstellar	1pc - 2pc
+#
+# Meson communicators [6-2 p67]
+4000! 4100 15	%Meson Communicator
+4100- h 15 0.05	0.5 0.5	1000000		%Meson Communicator (Regional)
+4100- h 16 0.03	0.3 0.3	500000		%Meson Communicator (Regional)
+4100- h 17 0.01	0.1 0.1	250000		%Meson Communicator (Regional)
+4100- j 15 0.2	2   2	4000000		%Meson Communicator (Continental)
+4100- j 16 0.15	1.5 1.5	2000000		%Meson Communicator (Continental)
+4100- j 17 0.1	1   1	1000000		%Meson Communicator (Continental)
+4100- j 18 0.05	0.5 0.5	1000000		%Meson Communicator (Continental)
+4100- j 20 0.01	0.1 0.1	1000000		%Meson Communicator (Continental)
+4100- k 15 3	30  30	10000000	%Meson Communicator (Planetary)
+4100- k 16 1.6	16  16	5000000		%Meson Communicator (Planetary)
+4100- k 17 0.9	9   9	2500000		%Meson Communicator (Planetary)
+4100- k 18 0.5	5   5	2500000		%Meson Communicator (Planetary)
+4100- k 20 0.2	2   2	2500000		%Meson Communicator (Planetary)
+4100- l 15 15	150 150	20000000	%Meson Communicator (Far Orbit)
+4100- l 16 8	80  80	10000000	%Meson Communicator (Far Orbit)
+4100- l 17 4.5	45  45	5000000		%Meson Communicator (Far Orbit)
+4100- l 18 2.5	25  25	5000000		%Meson Communicator (Far Orbit)
+4100- l 20 1.5	15  15	5000000		%Meson Communicator (Far Orbit)
+4100- p 15 50	500 500	80000000	%Meson Communicator (System)
+4100- p 16 22	220 220	40000000	%Meson Communicator (System)
+4100- p 17 16	160 160	20000000	%Meson Communicator (System)
+4100- p 18 8.5	85  85	20000000	%Meson Communicator (System)
+4100- p 20 5	50  50	20000000	%Meson Communicator (System)
+
+# Radio Communicators
+4000! 4200 5	%Radio Communicator
+4200- f 5  0.0200 0.0400 0.0200 225	%Radio Communicator (Distant)
+4200- f 6  0.0010 0.0020 0.0010 150	%Radio Communicator (Distant)
+4200- f 7  0.0001 0.0002 0.0001 75	%Radio Communicator (Distant)
+4200- g 5  0.0700 0.1400 0.0700 750	%Radio Communicator (Very Distant)
+4200- g 6  0.0070 0.0140 0.0070 500	%Radio Communicator (Very Distant)
+4200- g 7  0.0006 0.0012 0.0006 250	%Radio Communicator (Very Distant)
+4200- g 8  0.0005 0.0010 0.0005 250	%Radio Communicator (Very Distant)
+4200- g 9  0.0004 0.0008 0.0004 250	%Radio Communicator (Very Distant)
+4200- g 10 0.0002 0.0004 0.0002 250	%Radio Communicator (Very Distant)
+4200- g 12 0.0001 0.0002 0.0001 250	%Radio Communicator (Very Distant)
+4200- h 5  0.1500 0.3000 0.1500 1500	%Radio Communicator (Regional)
+4200- h 6  0.0150 0.0300 0.0150 1000	%Radio Communicator (Regional)
+4200- h 7  0.0013 0.0026 0.0013 500	%Radio Communicator (Regional)
+4200- h 8  0.0012 0.0024 0.0012 500	%Radio Communicator (Regional)
+4200- h 9  0.0010 0.0020 0.0010 500	%Radio Communicator (Regional)
+4200- h 10 0.0007 0.0014 0.0007 500	%Radio Communicator (Regional)
+4200- h 12 0.0005 0.0010 0.0005 500	%Radio Communicator (Regional)
+4200- h 14 0.0003 0.0006 0.0003 500	%Radio Communicator (Regional)
+4200- h 15 0.0001 0.0002 0.0001 500	%Radio Communicator (Regional)
+4200- j 5  0.3000 0.6000 0.3000 15000	%Radio Communicator (Continental)
+4200- j 6  0.0300 0.0600 0.0300 10000	%Radio Communicator (Continental)
+4200- j 7  0.0030 0.0060 0.0030 5000	%Radio Communicator (Continental)
+4200- j 8  0.0020 0.0040 0.0020 5000	%Radio Communicator (Continental)
+4200- j 9  0.0015 0.0030 0.0015 5000	%Radio Communicator (Continental)
+4200- j 10 0.0013 0.0026 0.0013 5000	%Radio Communicator (Continental)
+4200- j 12 0.0010 0.0020 0.0010 5000	%Radio Communicator (Continental)
+4200- j 14 0.0007 0.0014 0.0007 5000	%Radio Communicator (Continental)
+4200- j 15 0.0005 0.0010 0.0005 5000	%Radio Communicator (Continental)
+4200- j 16 0.0003 0.0006 0.0003 5000	%Radio Communicator (Continental)
+4200- j 17 0.0001 0.0002 0.0001 5000	%Radio Communicator (Continental)
+4200- k 5  0.7000 1.4000 0.7000 90000	%Radio Communicator (Planetary)
+4200- k 6  0.0700 0.1400 0.0700 60000	%Radio Communicator (Planetary)
+4200- k 7  0.0070 0.0140 0.0070 30000	%Radio Communicator (Planetary)
+4200- k 8  0.0060 0.0120 0.0060 30000	%Radio Communicator (Planetary)
+4200- k 9  0.0040 0.0080 0.0040 30000	%Radio Communicator (Planetary)
+4200- k 10 0.0020 0.0040 0.0020 30000	%Radio Communicator (Planetary)
+4200- k 12 0.0013 0.0026 0.0013 30000	%Radio Communicator (Planetary)
+4200- k 14 0.0010 0.0020 0.0010 30000	%Radio Communicator (Planetary)
+4200- k 15 0.0007 0.0014 0.0007 30000	%Radio Communicator (Planetary)
+4200- k 16 0.0005 0.0010 0.0005 30000	%Radio Communicator (Planetary)
+4200- k 17 0.0001 0.0002 0.0001 30000	%Radio Communicator (Planetary)
+4200- l 6  0.1500 0.3000 0.1500 180000	%Radio Communicator (Far Orbit)
+4200- l 7  0.0150 0.0300 0.0150 90000	%Radio Communicator (Far Orbit)
+4200- l 8  0.0130 0.0260 0.0130 90000	%Radio Communicator (Far Orbit)
+4200- l 9  0.0120 0.0240 0.0120 90000	%Radio Communicator (Far Orbit)
+4200- l 10 0.0100 0.0200 0.0100 90000	%Radio Communicator (Far Orbit)
+4200- l 12 0.0070 0.0140 0.0070 90000	%Radio Communicator (Far Orbit)
+4200- l 14 0.0050 0.0100 0.0050 90000	%Radio Communicator (Far Orbit)
+4200- l 15 0.0020 0.0040 0.0020 90000	%Radio Communicator (Far Orbit)
+4200- l 16 0.0013 0.0026 0.0013 90000	%Radio Communicator (Far Orbit)
+4200- l 17 0.0010 0.0020 0.0010 90000	%Radio Communicator (Far Orbit)
+4200- p 7  0.0400 0.0800 0.0400 150000	%Radio Communicator (System)
+4200- p 8  0.0200 0.0400 0.0200 150000	%Radio Communicator (System)
+4200- p 9  0.0180 0.0360 0.0180 150000	%Radio Communicator (System)
+4200- p 10 0.0160 0.0320 0.0160 150000	%Radio Communicator (System)
+4200- p 12 0.0140 0.0280 0.0140 150000	%Radio Communicator (System)
+4200- p 14 0.0100 0.0200 0.0100 150000	%Radio Communicator (System)
+4200- p 15 0.0070 0.0140 0.0070 150000	%Radio Communicator (System)
+4200- p 16 0.0050 0.0100 0.0050 150000	%Radio Communicator (System)
+4200- p 17 0.0030 0.0060 0.0030 150000	%Radio Communicator (System)
+
+# Laser Communicators [4-4 p67]
+4000! 4300 8	%Laser Communicator
+4300- f 8  0.0040 0.0080 0.0040 2400	%Laser Communicator (Distant)
+4300- f 9  0.0020 0.0040 0.0020 1200	%Laser Communicator (Distant)
+4300- f 10 0.0015 0.0030 0.0015 1200	%Laser Communicator (Distant)
+4300- f 12 0.0010 0.0020 0.0010 1200	%Laser Communicator (Distant)
+4300- g 8  0.0160 0.0320 0.0160 10000	%Laser Communicator (Very Distant)
+4300- g 9  0.0080 0.0160 0.0080 5000	%Laser Communicator (Very Distant)
+4300- g 10 0.0060 0.0120 0.0060 5000	%Laser Communicator (Very Distant)
+4300- g 12 0.0040 0.0080 0.0040 5000	%Laser Communicator (Very Distant)
+4300- g 14 0.0020 0.0040 0.0020 5000	%Laser Communicator (Very Distant)
+4300- g 15 0.0010 0.0020 0.0010 5000	%Laser Communicator (Very Distant)
+4300- h 8  0.0200 0.0400 0.0200 22000	%Laser Communicator (Regional)
+4300- h 9  0.0100 0.0200 0.0100 11000	%Laser Communicator (Regional)
+4300- h 10 0.0080 0.0160 0.0080 11000	%Laser Communicator (Regional)
+4300- h 12 0.0050 0.0100 0.0050 11000	%Laser Communicator (Regional)
+4300- h 14 0.0030 0.0060 0.0030 11000	%Laser Communicator (Regional)
+4300- h 15 0.0020 0.0040 0.0020 11000	%Laser Communicator (Regional)
+4300- h 16 0.0010 0.0020 0.0010 11000	%Laser Communicator (Regional)
+4300- j 8  0.0400 0.0800 0.0400 42000	%Laser Communicator (Continental)
+4300- j 9  0.0200 0.0400 0.0200 21000	%Laser Communicator (Continental)
+4300- j 10 0.0150 0.0300 0.0150 21000	%Laser Communicator (Continental)
+4300- j 12 0.0100 0.0200 0.0100 21000	%Laser Communicator (Continental)
+4300- j 14 0.0050 0.0100 0.0050 21000	%Laser Communicator (Continental)
+4300- j 15 0.0030 0.0060 0.0030 21000	%Laser Communicator (Continental)
+4300- j 16 0.0020 0.0040 0.0020 21000	%Laser Communicator (Continental)
+4300- j 17 0.0010 0.0020 0.0010 21000	%Laser Communicator (Continental)
+4300- k 8  0.0700 0.1400 0.0700 72000	%Laser Communicator (Planetary)
+4300- k 9  0.0350 0.0700 0.0350 36000	%Laser Communicator (Planetary)
+4300- k 10 0.0250 0.0500 0.0250 36000	%Laser Communicator (Planetary)
+4300- k 12 0.0180 0.0360 0.0180 36000	%Laser Communicator (Planetary)
+4300- k 14 0.0090 0.0180 0.0090 36000	%Laser Communicator (Planetary)
+4300- k 15 0.0050 0.0100 0.0050 36000	%Laser Communicator (Planetary)
+4300- k 16 0.0040 0.0080 0.0040 36000	%Laser Communicator (Planetary)
+4300- k 17 0.0030 0.0060 0.0030 36000	%Laser Communicator (Planetary)
+4300- k 18 0.0020 0.0040 0.0020 36000	%Laser Communicator (Planetary)
+4300- k 20 0.0010 0.0020 0.0010 36000	%Laser Communicator (Planetary)
+4300- l 8  0.1100 0.2200 0.1100 112000	%Laser Communicator (Far Orbit)
+4300- l 9  0.0550 0.1100 0.0550 56000	%Laser Communicator (Far Orbit)
+4300- l 10 0.0400 0.0800 0.0400 56000	%Laser Communicator (Far Orbit)
+4300- l 12 0.0280 0.0560 0.0280 56000	%Laser Communicator (Far Orbit)
+4300- l 14 0.0140 0.0280 0.0140 56000	%Laser Communicator (Far Orbit)
+4300- l 15 0.0070 0.0140 0.0070 56000	%Laser Communicator (Far Orbit)
+4300- l 16 0.0060 0.0120 0.0060 56000	%Laser Communicator (Far Orbit)
+4300- l 17 0.0050 0.0100 0.0050 56000	%Laser Communicator (Far Orbit)
+4300- l 18 0.0030 0.0060 0.0030 56000	%Laser Communicator (Far Orbit)
+4300- l 20 0.0020 0.0040 0.0020 56000	%Laser Communicator (Far Orbit)
+4300- p 9  0.1200 0.2400 0.1200 180000	%Laser Communicator (System)
+4300- p 10 0.0700 0.1400 0.0700 180000	%Laser Communicator (System)
+4300- p 12 0.0500 0.1000 0.0500 180000	%Laser Communicator (System)
+4300- p 14 0.0300 0.0600 0.0300 180000	%Laser Communicator (System)
+4300- p 15 0.0150 0.0300 0.0150 180000	%Laser Communicator (System)
+4300- p 16 0.0100 0.0200 0.0100 180000	%Laser Communicator (System)
+4300- p 18 0.0070 0.0140 0.0070 180000	%Laser Communicator (System)
+4300- p 20 0.0050 0.0100 0.0050 180000	%Laser Communicator (System)
+
+# Maser Communicators [4-5 p67]
+4000! 4400 8	%Maser Communicator
+4400- f 8  0.008 0.016 0.008 4800	%Maser Communicator (Distant)
+4400- f 9  0.004 0.008 0.004 2400	%Maser Communicator (Distant)
+4400- f 10 0.003 0.006 0.003 2400	%Maser Communicator (Distant)
+4400- f 12 0.002 0.004 0.002 2400	%Maser Communicator (Distant)
+4400- f 14 0.001 0.002 0.001 2400	%Maser Communicator (Distant)
+4400- g 8  0.030 0.060 0.030 20000	%Maser Communicator (Very Distant)
+4400- g 9  0.016 0.032 0.016 10000	%Maser Communicator (Very Distant)
+4400- g 10 0.010 0.020 0.010 10000	%Maser Communicator (Very Distant)
+4400- g 12 0.008 0.016 0.008 10000	%Maser Communicator (Very Distant)
+4400- g 14 0.004 0.008 0.004 10000	%Maser Communicator (Very Distant)
+4400- g 15 0.002 0.004 0.002 10000	%Maser Communicator (Very Distant)
+4400- g 17 0.001 0.002 0.001 10000	%Maser Communicator (Very Distant)
+4400- h 8  0.040 0.080 0.040 44000	%Maser Communicator (Regional)
+4400- h 9  0.020 0.040 0.020 22000	%Maser Communicator (Regional)
+4400- h 10 0.015 0.030 0.015 22000	%Maser Communicator (Regional)
+4400- h 12 0.010 0.020 0.010 22000	%Maser Communicator (Regional)
+4400- h 14 0.005 0.010 0.005 22000	%Maser Communicator (Regional)
+4400- h 15 0.003 0.006 0.003 22000	%Maser Communicator (Regional)
+4400- h 17 0.002 0.004 0.002 22000	%Maser Communicator (Regional)
+4400- h 18 0.001 0.002 0.001 22000	%Maser Communicator (Regional)
+4400- j 8  0.080 0.160 0.080 84000	%Maser Communicator (Continental)
+4400- j 9  0.040 0.080 0.040 42000	%Maser Communicator (Continental)
+4400- j 10 0.030 0.060 0.030 42000	%Maser Communicator (Continental)
+4400- j 12 0.020 0.040 0.020 42000	%Maser Communicator (Continental)
+4400- j 14 0.010 0.020 0.010 42000	%Maser Communicator (Continental)
+4400- j 15 0.005 0.010 0.005 42000	%Maser Communicator (Continental)
+4400- j 16 0.004 0.008 0.004 42000	%Maser Communicator (Continental)
+4400- j 17 0.003 0.006 0.003 42000	%Maser Communicator (Continental)
+4400- j 18 0.002 0.004 0.002 42000	%Maser Communicator (Continental)
+4400- k 8  0.140 0.280 0.140 144000	%Maser Communicator (Planetary)
+4400- k 9  0.070 0.140 0.070 72000	%Maser Communicator (Planetary)
+4400- k 10 0.060 0.120 0.060 72000	%Maser Communicator (Planetary)
+4400- k 12 0.035 0.070 0.035 72000	%Maser Communicator (Planetary)
+4400- k 14 0.018 0.036 0.018 72000	%Maser Communicator (Planetary)
+4400- k 15 0.009 0.018 0.009 72000	%Maser Communicator (Planetary)
+4400- k 16 0.007 0.014 0.007 72000	%Maser Communicator (Planetary)
+4400- k 17 0.005 0.010 0.005 72000	%Maser Communicator (Planetary)
+4400- k 18 0.003 0.006 0.003 72000	%Maser Communicator (Planetary)
+4400- k 20 0.002 0.004 0.002 72000	%Maser Communicator (Planetary)
+4400- l 8  0.220 0.440 0.220 224000	%Maser Communicator (Far Orbit)
+4400- l 9  0.110 0.220 0.110 112000	%Maser Communicator (Far Orbit)
+4400- l 10 0.075 0.150 0.075 112000	%Maser Communicator (Far Orbit)
+4400- l 12 0.055 0.110 0.055 112000	%Maser Communicator (Far Orbit)
+4400- l 14 0.028 0.056 0.028 112000	%Maser Communicator (Far Orbit)
+4400- l 15 0.014 0.028 0.014 112000	%Maser Communicator (Far Orbit)
+4400- l 16 0.010 0.020 0.010 112000	%Maser Communicator (Far Orbit)
+4400- l 17 0.007 0.014 0.007 112000	%Maser Communicator (Far Orbit)
+4400- l 18 0.005 0.010 0.005 112000	%Maser Communicator (Far Orbit)
+4400- l 20 0.003 0.006 0.003 112000	%Maser Communicator (Far Orbit)
+4400- p 9  0.250 0.500 0.250 250000	%Maser Communicator (System)
+4400- p 10 0.200 0.400 0.200 250000	%Maser Communicator (System)
+4400- p 12 0.130 0.260 0.130 250000	%Maser Communicator (System)
+4400- p 14 0.060 0.120 0.060 250000	%Maser Communicator (System)
+4400- p 15 0.045 0.090 0.045 250000	%Maser Communicator (System)
+4400- p 16 0.040 0.080 0.040 250000	%Maser Communicator (System)
+4400- p 17 0.025 0.050 0.025 250000	%Maser Communicator (System)
+4400- p 18 0.013 0.026 0.013 250000	%Maser Communicator (System)
+4400- p 20 0.007 0.014 0.007 250000	%Maser Communicator (System)
+
+# Section 5 - Sensors and Electronics
+0000! 5000 5	%Sensors and Electronics
+# Radio Jammers [5.2 p68]
+5000! 5100 5	%Radio Jammer
+5100- f 5  0.0800 0.1600 0.0400 450	%Radio Jammer (Distant)
+5100- f 6  0.0040 0.0080 0.0020 300	%Radio Jammer (Distant)
+5100- f 7  0.0004 0.0008 0.0002 150	%Radio Jammer (Distant)
+5100- f 12 0.0002 0.0004 0.0001 150	%Radio Jammer (Distant)
+5100- g 5  0.2800 0.5600 0.1400 1500	%Radio Jammer (Very Distant)
+5100- g 6  0.0280 0.0560 0.0140 1000	%Radio Jammer (Very Distant)
+5100- g 7  0.0024 0.0048 0.0012 500	%Radio Jammer (Very Distant)
+5100- g 8  0.0020 0.0040 0.0010 500	%Radio Jammer (Very Distant)
+5100- g 9  0.0016 0.0032 0.0008 500	%Radio Jammer (Very Distant)
+5100- g 10 0.0008 0.0016 0.0004 500	%Radio Jammer (Very Distant)
+5100- g 12 0.0004 0.0008 0.0002 500	%Radio Jammer (Very Distant)
+5100- g 15 0.0002 0.0004 0.0001 500	%Radio Jammer (Very Distant)
+5100- h 5  0.6000 1.2000 0.3000 3000	%Radio Jammer (Regional)
+5100- h 6  0.0600 0.1200 0.0300 2000	%Radio Jammer (Regional)
+5100- h 7  0.0052 0.0104 0.0026 1000	%Radio Jammer (Regional)
+5100- h 8  0.0048 0.0096 0.0024 1000	%Radio Jammer (Regional)
+5100- h 9  0.0040 0.0080 0.0020 1000	%Radio Jammer (Regional)
+5100- h 10 0.0028 0.0056 0.0014 1000	%Radio Jammer (Regional)
+5100- h 12 0.0020 0.0040 0.0010 1000	%Radio Jammer (Regional)
+5100- h 14 0.0012 0.0024 0.0006 1000	%Radio Jammer (Regional)
+5100- h 15 0.0004 0.0008 0.0002 1000	%Radio Jammer (Regional)
+5100- h 16 0.0002 0.0004 0.0001 1000	%Radio Jammer (Regional)
+5100- j 5  1.2000 2.4000 0.6000 30000	%Radio Jammer (Continental)
+5100- j 6  0.1200 0.2400 0.0600 20000	%Radio Jammer (Continental)
+5100- j 7  0.0120 0.0240 0.0060 10000	%Radio Jammer (Continental)
+5100- j 8  0.0080 0.0160 0.0040 10000	%Radio Jammer (Continental)
+5100- j 9  0.0052 0.0104 0.0026 10000	%Radio Jammer (Continental)
+5100- j 10 0.0040 0.0080 0.0020 10000	%Radio Jammer (Continental)
+5100- j 14 0.0028 0.0056 0.0014 10000	%Radio Jammer (Continental)
+5100- j 16 0.0012 0.0024 0.0006 10000	%Radio Jammer (Continental)
+5100- j 17 0.0004 0.0008 0.0002 10000	%Radio Jammer (Continental)
+5100- j 18 0.0002 0.0004 0.0001 10000	%Radio Jammer (Continental)
+5100- k 5  2.8000 5.6000 1.4000 180000	%Radio Jammer (Planetary)
+5100- k 6  0.2800 0.5600 0.1400 120000	%Radio Jammer (Planetary)
+5100- k 7  0.0280 0.0560 0.0140 60000	%Radio Jammer (Planetary)
+5100- k 8  0.0240 0.0480 0.0120 60000	%Radio Jammer (Planetary)
+5100- k 9  0.0160 0.0320 0.0080 60000	%Radio Jammer (Planetary)
+5100- k 10 0.0080 0.0160 0.0040 60000	%Radio Jammer (Planetary)
+5100- k 12 0.0052 0.0104 0.0026 60000	%Radio Jammer (Planetary)
+5100- k 14 0.0040 0.0080 0.0020 60000	%Radio Jammer (Planetary)
+5100- k 15 0.0028 0.0056 0.0014 60000	%Radio Jammer (Planetary)
+5100- k 16 0.0020 0.0040 0.0010 60000	%Radio Jammer (Planetary)
+5100- k 17 0.0004 0.0008 0.0002 60000	%Radio Jammer (Planetary)
+5100- l 6  0.6000 1.2000 0.3000 360000	%Radio Jammer (Far Orbit)
+5100- l 7  0.0600 0.1200 0.0300 180000	%Radio Jammer (Far Orbit)
+5100- l 8  0.0520 0.1040 0.0260 180000	%Radio Jammer (Far Orbit)
+5100- l 9  0.0480 0.0960 0.0240 180000	%Radio Jammer (Far Orbit)
+5100- l 10 0.0400 0.0800 0.0200 180000	%Radio Jammer (Far Orbit)
+5100- l 12 0.0280 0.0560 0.0140 180000	%Radio Jammer (Far Orbit)
+5100- l 14 0.0200 0.0400 0.0100 180000	%Radio Jammer (Far Orbit)
+5100- l 15 0.0080 0.0160 0.0040 180000	%Radio Jammer (Far Orbit)
+5100- l 16 0.0052 0.0104 0.0026 180000	%Radio Jammer (Far Orbit)
+5100- l 17 0.0040 0.0080 0.0020 180000	%Radio Jammer (Far Orbit)
+5100- p 7  0.1600 0.3200 0.0800 300000	%Radio Jammer (System)
+5100- p 8  0.0800 0.1600 0.0400 300000	%Radio Jammer (System)
+5100- p 9  0.0720 0.1440 0.0360 300000	%Radio Jammer (System)
+5100- p 10 0.0640 0.1280 0.0320 300000	%Radio Jammer (System)
+5100- p 12 0.0560 0.1120 0.0280 300000	%Radio Jammer (System)
+5100- p 14 0.0400 0.0800 0.0200 300000	%Radio Jammer (System)
+5100- p 15 0.0280 0.0560 0.0140 300000	%Radio Jammer (System)
+5100- p 16 0.0200 0.0400 0.0100 300000	%Radio Jammer (System)
+5100- p 17 0.0120 0.0240 0.0060 300000	%Radio Jammer (System)
+
+# Radars [5.3 p68]
+5000! 5210 6	%Radar
+5000! 5220 6	%All Weather Radar
+5210- f 6 0.250 0.500 0.250 250000	%Radar (Distant)
+5210- f 7 0.025 0.050 0.025 25000	%Radar (Distant)
+5210- f 8 0.003 0.006 0.003 3000	%Radar (Distant)
+5210- f 9 0.001 0.002 0.001 1000	%Radar (Distant)
+5210- g 6 1.500 3.000 1.500 1500000	%Radar (Very Distant)
+5210- g 7 0.150 0.300 0.150 150000	%Radar (Very Distant)
+5210- g 8 0.015 0.030 0.015 15000	%Radar (Very Distant)
+5210- g 9 0.008 0.016 0.008 8000	%Radar (Very Distant)
+5210- h 6 6.500 13.00 6.500 6500000	%Radar (Regional)
+5210- h 7 0.650 1.300 0.650 650000	%Radar (Regional)
+5210- h 8 0.065 0.130 0.065 65000	%Radar (Regional)
+5210- h 9 0.033 0.066 0.033 33000	%Radar (Regional)
+5210- j 6 20.00 40.00 20.00 20000000	%Radar (Continental)
+5210- j 7 2.000 4.000 2.000 2000000	%Radar (Continental)
+5210- j 8 0.200 0.400 0.200 200000	%Radar (Continental)
+5210- j 9 0.100 0.200 0.100 100000	%Radar (Continental)
+5210- k 7 5.000 10.00 5.000 5000000	%Radar (Planetary)
+5210- k 8 0.500 1.000 0.500 500000	%Radar (Planetary)
+5210- k 9 0.250 0.500 0.250 250000	%Radar (Planetary)
+5210- l 8 1.200 2.400 1.200 1200000	%Radar (Far Orbit)
+5210- l 9 0.600 1.200 0.600 900000	%All Weather Radar (Far Orbit)
+5220- f 6 0.250 0.500 0.250 375000	%All Weather Radar (Distant)
+5220- f 7 0.025 0.050 0.025 37500	%All Weather Radar (Distant)
+5220- f 8 0.003 0.006 0.003 4500	%All Weather Radar (Distant)
+5220- f 9 0.001 0.002 0.001 1500	%All Weather Radar (Distant)
+5220- g 6 1.500 3.000 1.500 2250000	%All Weather Radar (Very Distant)
+5220- g 7 0.150 0.300 0.150 225000	%All Weather Radar (Very Distant)
+5220- g 8 0.015 0.030 0.015 22500	%All Weather Radar (Very Distant)
+5220- g 9 0.008 0.016 0.008 12000	%All Weather Radar (Very Distant)
+5220- h 6 6.500 13.00 6.500 9750000	%All Weather Radar (Regional)
+5220- h 7 0.650 1.300 0.650 975000	%All Weather Radar (Regional)
+5220- h 8 0.065 0.130 0.065 97500	%All Weather Radar (Regional)
+5220- h 9 0.033 0.066 0.033 49500	%All Weather Radar (Regional)
+5220- j 6 20.00 40.00 20.00 30000000	%All Weather Radar (Continental)
+5220- j 7 2.000 4.000 2.000 3000000	%All Weather Radar (Continental)
+5220- j 8 0.200 0.400 0.200 300000	%All Weather Radar (Continental)
+5220- j 9 0.100 0.200 0.100 150000	%All Weather Radar (Continental)
+5220- k 7 5.000 10.00 5.000 7500000	%All Weather Radar (Planetary)
+5220- k 8 0.500 1.000 0.500 750000	%All Weather Radar (Planetary)
+5220- k 9 0.250 0.500 0.250 375000	%All Weather Radar (Planetary)
+5220- l 8 1.200 2.400 1.200 1800000	%All Weather Radar (Far Orbit)
+5220- l 9 0.600 1.200 0.600 900000	%All Weather Radar (Far Orbit)
+
+# Radar Jammers [5.4 p68]
+5000! 5300 6	%Radar Jammer
+5300- f 6 0.5   1.0   0.5   7500000	%Radar Jammer (Distant)
+5300- f 7 0.05  0.1   0.05  750000	%Radar Jammer (Distant)
+5300- f 8 0.005 0.01  0.005 75000	%Radar Jammer (Distant)
+5300- f 9 0.003 0.006 0.003 45000	%Radar Jammer (Distant)
+5300- g 6 3.0   6.0   3.0   45000000	%Radar Jammer (Very Distant)
+5300- g 7 0.3   0.6   0.3   4500000	%Radar Jammer (Very Distant)
+5300- g 8 0.030 0.060 0.030 450000	%Radar Jammer (Very Distant)
+5300- g 9 0.015 0.030 0.015 225000	%Radar Jammer (Very Distant)
+5300- h 6 13.0  26.0  13.0  195000000	%Radar Jammer (Regional)
+5300- h 7 1.3   2.6   1.3   19500000	%Radar Jammer (Regional)
+5300- h 8 0.130 0.260 0.130 1950000	%Radar Jammer (Regional)
+5300- h 9 0.065 0.130 0.065 975000	%Radar Jammer (Regional)
+5300- j 6 40.0  80.0  40.0  600000000	%Radar Jammer (Continental)
+5300- j 7 4.00  8.00  4.00  60000000	%Radar Jammer (Continental)
+5300- j 8 0.400 0.800 0.400 6000000	%Radar Jammer (Continental)
+5300- j 9 0.200 0.400 0.200 3000000	%Radar Jammer (Continental)
+5300- k 7 10.00 20.00 10.00 150000000	%Radar Jammer (Planetary)
+5300- k 8 1.000 2.000 1.000 15000000	%Radar Jammer (Planetary)
+5300- k 9 0.500 1.000 0.500 7500000	%Radar Jammer (Planetary)
+5300- l 8 2.400 4.800 2.400 36000000	%Radar Jammer (Far Orbit)
+5300- l 9 1.200 2.400 1.200 18000000	%Radar Jammer (Far Orbit) 
+
+# Electromagnetic Masking Package [5.5 p68]
+#5000! 5400	%Electromagnetic Masking
+#5400+ 0 0 *0.001 *0.02 *0.01 *5000	%Electromagnetic Masking Package
+5000+ 0 0 *0.001 *0.02 *0.01 *5000	%Electromagnetic Masking Package
+
+# Radar Direction Finder [5.6 p68]
+5000! 5500 6	%Radar Direction Finder
+5500- 0 6  2.500 5.000 2.500 25000000	%Radar Direction Finder
+5500- 0 7  0.250 0.500 0.250 2500000	%Radar Direction FInder
+5500- 0 8  0.025 0.050 0.025 250000	%Radar Direction Finder
+5500- 0 9  0.013 0.026 0.013 130000	%Radar Direction Finder
+5500- 0 10 0.010 0.020 0.010 100000	%Radar Direction Finder
+5500- 0 12 0.005 0.010 0.005 50000	%Radar Direction Finder
+
+# Ladar [5.7 p68]
+5000! 5600 8	%Ladar
+5600- f 8  0.025 0.050 0.025 250000	%Ladar (Distant)
+5600- f 9  0.003 0.006 0.003 30000	%Ladar (Distant)
+5600- f 10 0.001 0.002 0.001 10000	%Ladar (Distant)
+5600- g 8  0.150 0.300 0.150 1500000	%Ladar (Very Distant)
+5600- g 9  0.015 0.030 0.015 150000	%Ladar (Very Distant)
+5600- g 10 0.010 0.020 0.010 100000	%Ladar (Very Distant)
+5600- g 11 0.005 0.010 0.005 50000	%Ladar (Very Distant)
+5600- h 8  0.650 1.300 0.650 6500000	%Ladar (Regional)
+5600- h 9  0.065 0.130 0.065 650000	%Ladar (Regional)
+5600- h 10 0.010 0.020 0.010 100000	%Ladar (Regional)
+5600- h 11 0.008 0.016 0.008 80000	%Ladar (Regional)
+5600- j 8  2.000 4.000 2.000 20000000	%Ladar (Continental)
+5600- j 9  0.200 0.400 0.200 2000000	%Ladar (Continental)
+5600- j 10 0.020 0.040 0.020 200000	%Ladar (Continental)
+5600- j 11 0.010 0.020 0.010 100000	%Ladar (Continental)
+5600- k 8  5.000 10.00 5.000 50000000	%Ladar (Planetary)
+5600- k 9  0.500 1.000 0.500 5000000	%Ladar (Planetary)
+5600- k 10 0.050 0.100 0.050 500000	%Ladar (Planetary)
+5600- k 11 0.025 0.050 0.025 250000	%Ladar (Planetary)
+5600- l 9  1.200 2.400 1.200 12000000	%Ladar (Far Orbit)
+5600- l 10 0.120 0.240 0.120 1200000	%Ladar (Far Orbit)
+5600- l 11 0.050 0.100 0.050 500000	%Ladar (Far Orbit)
+
+# Laser Sensor [5.8 p68], Visible light and IR enhancement [5.9 p69],
+# Misc Sensors [5.13 p69], Misc Devices [5.14 p69]
+5000! 5700 5	%Misc Devices
+5700+ 1 8  0.002 0.30  0.30  25000	%Laser Sensor (1st Generation)
+5700+ 2 9  0.001 0.25  0.25  30000	%Laser Sensor (2nd Generation)
+5700+ 3 11 0.001 0.15  0.20  35000	%Laser Sensor (3rd Generation)
+
+5700+ a 5  0.001 0.002 0.001 50		%Headlight
+5700+ b 6  0.003 0.010 0.005 1500	%Active IR Sensor
+5700+ c 6  0.001 0.002 0.001 500	%Passive IR Sensor
+5700+ d 7  0.001 0.002 0.001 500	%Light Amplification
+5700+ e 8  0.001 0.002 0.001 20000	%Adv Active IR Sensor
+5700+ f 8  0.002 0.010 0.005 30000	%Image Enhancement
+5700+ g 9  0.001 0.002 0.001 30000	%Adv Image Enhancement
+5700+ h 10 0.001 0.002 0.001 30000	%Synthetic Vision
+
+5700+ j 5  0.001 0.002 0.001 200	%Passive Audio Sensor (Distant)
+5700+ k 5  0.005 0.040 0.020 5000	%Active Audio Sensor (Pinger, Distant)
+5700+ l 5  0.004 0.008 0.004 1500	%Environ Sensor
+5700+ m 6  0.001 0.002 0.001 1000	%Magnetic Sensor (Very Distant)
+5700+ n 6  0.001 0.002 0.001 1200	%Radiation Sensor (Very Distant)
+
+5700+ p 8  0.001 0.001 0.001 750	%Very Light Robotic Arm
+5700+ q 7  0.002 0.005 0.005 500	%Light Robotic Arm
+5700+ r 6  0.005 0.020 0.020 700	%Medium Robotic Arm
+5700+ s 5  0.010 0.050 0.050 1000	%Heavy Robotic Arm
+5700+ t 11 0.010 0.020 0.020 1200	%Robotic Tenticle
+5700+ u 7  0.003 0.004 0.004 600	%Video Recorder
+5700+ v 13 0.010 0.015 0.015 2000	%Holorecorder (TL 13)
+5700+ v 14 0.008 0.006 0.006 4000	%Holorecorder (TL 14)
+5700+ v 15 0.005 0.003 0.003 5000	%Holorecorder (TL 15)
+
+# Neutrino Sensor [5.11 p69]
+5000! 5C00 10	%Neutrino Sensor
+# Here some UCP codes have been defined for the different sensors, the
+# correspondence between codes and power should be obvious.
+5C00+ a 10 0.005 0.008 0.004 1000	%Neutrino Sensor (Nondiscriminant)
+5C00+ b 11 0.500 1.0   0.450 60000	%Neutrino Sensor (1 Gw)
+5C00+ c 12 0.400 0.8   0.300 75000	%Neutrino Sensor (1 Mw)
+5C00+ d 13 0.300 0.4   0.170 90000	%Neutrino Sensor (100 kw)
+5C00+ e 14 0.200 0.2   0.095 110000	%Neutrino Sensor (10 kw)
+5C00- f 16 0.100 0.1   0.070 120000	%Neutrino Sensor (1 kw)
+5C00- f 18 0.050 0.1   0.070 120000	%Neutrino Sensor (1 kw)
+5C00- f 20 0.025 0.1   0.070 120000	%Neutrino Sensor (1 kw)
+
+# Densitometers [5.10 p69]
+5000! 5D00 10	%Densitometers
+# The same comment above (defining UCP codes) should also be here.  There
+# is no distinction between High and Low Penetration apart from range.
+5D00- a 10 0.002 0.02 0.001 10000	%Densitometer (Surface, Low Penetration)
+5D00- a 11 0.001 0.01 0.001 10000	%Densitometer (Surface, Low Penetration)
+5D00+ b 12 0.200 2.0  0.8   116000	%Densitometer (1 m, Low Penetration)
+5D00+ c 13 0.100 1.0  0.4   145000	%Densitometer (50 m, Low Penetration)
+5D00+ d 14 0.090 0.9  0.3   175000	%Densitometer (100 m, Low Penetration)
+5D00+ e 15 0.080 0.3  0.1   205000	%Densitometer (250 m, Low Penetration)
+5D00+ f 16 0.070 0.2  0.1   205000	%Densitometer (1 km, Low Penetration)
+5D00+ g 18 0.060 0.1  0.1   205000	%Densitometer (25 km, Low Penetration)
+5D00+ h 20 0.050 0.1  0.1   205000	%Densitometer (2500 km, Low Penetration)
+5D00+ b 11 2.5	 30.0 10.0  750000	%Densitometer (1 m, High Penetration)
+5D00+ c 12 1.0	 15.0 5.0   900000	%Densitometer (50 m, High Penetration)
+5D00+ d 13 0.9	 12.0 3.0   950000	%Densitometer (100 m, High Penetration)
+5D00+ e 14 0.5	 9.0  2.0   1000000	%Densitometer (250 m, High Penetration)
+5D00+ f 15 0.4	 7.0  1.5   1500000	%Densitometer (1 km, High Penetration)
+5D00+ g 16 0.3	 4.0  1.0   1500000	%Densitometer (25 km, High Penetration)
+5D00+ h 18 0.2	 2.0  0.8   1500000	%Densitometer (2500 km, High Penetration)
+5D00+ J 20 0.1	 1.0  0.7   1500000	%Densitometer (2500000 km, High Penetration)
+
+# Neural Activity Sensors
+5000! 5B00 13	%Neural Activity Sensors
+5B00+ c 13 0.004 0.002 0.005 20000	%Neural Activity Sensor (Medium)
+5B00+ d 14 0.005 0.002 0.005 20000	%Neural Activity Sensor (Long)
+5B00+ e 15 0.006 0.002 0.005 20000	%Neural Activity Sensor (Very Long)
+5B00+ f 16 0.007 0.002 0.005 20000	%Neural Activity Sensor (Distant)
+5B00+ g 18 0.009 0.002 0.004 25000	%Neural Activity Sensor (Very Distant)
+5B00+ h 20 0.010 0.002 0.003 30000	%Neural Activity Sensor (Regional)
+
+# EMS Active Array [5.15 p70]
+5000! 5800 10	%EMS Active Array
+5800- f 10 0.020 0.004 0.002 40000	%EMS Active Array (Distant)
+5800- f 11 0.010 0.002 0.001 20000	%EMS Active Array (Distant)
+5800- g 10 0.100 0.020 0.010 200000	%EMS Active Array (Very Distant)
+5800- g 11 0.080 0.016 0.008 160000	%EMS Active Array (Very Distant)
+5800- g 12 0.060 0.012 0.006 120000	%EMS Active Array (Very Distant)
+5800- g 14 0.050 0.010 0.005 100000	%EMS Active Array (Very Distant)
+5800- g 16 0.040 0.008 0.004 80000	%EMS Active Array (Very Distant)
+5800- g 18 0.030 0.006 0.003 60000	%EMS Active Array (Very Distant)
+5800- g 20 0.020 0.004 0.002 40000	%EMS Active Array (Very Distant)
+5800- h 10 0.300 0.060 0.030 600000	%EMS Active Array (Regional)
+5800- h 11 0.160 0.032 0.016 320000	%EMS Active Array (Regional)
+5800- h 12 0.100 0.020 0.010 200000	%EMS Active Array (Regional)
+5800- h 14 0.080 0.016 0.008 160000	%EMS Active Array (Regional)
+5800- h 16 0.060 0.012 0.006 120000	%EMS Active Array (Regional)
+5800- h 18 0.050 0.010 0.005 100000	%EMS Active Array (Regional)
+5800- h 20 0.040 0.008 0.004 80000	%EMS Active Array (Regional)
+5800- j 10 0.700 0.140 0.070 1400000	%EMS Active Array (Continental)
+5800- j 11 0.300 0.060 0.030 600000	%EMS Active Array (Continental)
+5800- j 12 0.160 0.032 0.016 320000	%EMS Active Array (Continental)
+5800- j 14 0.100 0.020 0.010 200000	%EMS Active Array (Continental)
+5800- j 16 0.080 0.016 0.008 160000	%EMS Active Array (Continental)
+5800- j 18 0.060 0.012 0.006 120000	%EMS Active Array (Continental)
+5800- j 20 0.050 0.010 0.005 100000	%EMS Active Array (Continental)
+5800- k 10 1.300 0.260 0.130 2600000	%EMS Active Array (Planetary)
+5800- k 11 0.600 0.120 0.060 1200000	%EMS Active Array (Planetary)
+5800- k 12 0.250 0.050 0.025 500000	%EMS Active Array (Planetary)
+5800- k 14 0.140 0.028 0.014 280000	%EMS Active Array (Planetary)
+5800- k 16 0.120 0.024 0.012 240000	%EMS Active Array (Planetary)
+5800- k 18 0.080 0.016 0.008 160000	%EMS Active Array (Planetary)
+5800- k 20 0.060 0.012 0.006 120000	%EMS Active Array (Planetary)
+5800- l 10 2.600 0.520 0.260 5200000	%EMS Active Array (Far Orbit)
+5800- l 11 1.200 0.240 0.120 2400000	%EMS Active Array (Far Orbit)
+5800- l 12 0.550 0.110 0.055 1100000	%EMS Active Array (Far Orbit)
+5800- l 14 0.300 0.060 0.030 600000	%EMS Active Array (Far Orbit)
+5800- l 16 0.200 0.040 0.020 400000	%EMS Active Array (Far Orbit)
+5800- l 18 0.150 0.030 0.015 300000	%EMS Active Array (Far Orbit)
+5800- l 20 0.100 0.020 0.010 200000	%EMS Active Array (Far Orbit)
+
+# EMS Passive Array [5.16 p70]
+5000! 5900 10	%EMS Passive Array
+5900- g 10 0.020 0.004 0.002 40000	%EMS Passive Array (Very Distant)
+5900- g 11 0.010 0.002 0.001 20000	%EMS Passive Array (Very Distant)
+5900- j 10 0.140 0.028 0.014 280000	%EMS Passive Array (Continental)
+5900- j 11 0.090 0.018 0.009 180000	%EMS Passive Array (Continental)
+5900- j 12 0.070 0.014 0.007 140000	%EMS Passive Array (Continental)
+5900- j 13 0.050 0.010 0.005 100000	%EMS Passive Array (Continental)
+5900- j 14 0.040 0.008 0.004 80000	%EMS Passive Array (Continental)
+5900- j 16 0.030 0.006 0.003 60000	%EMS Passive Array (Continental)
+5900- j 18 0.020 0.004 0.002 40000	%EMS Passive Array (Continental)
+5900- n 10 0.700 0.140 0.070 1400000	%EMS Passive Array (Interplanetary)
+5900- n 11 0.250 0.050 0.025 500000	%EMS Passive Array (Interplanetary)
+5900- n 12 0.150 0.030 0.015 300000	%EMS Passive Array (Interplanetary)
+5900- n 13 0.090 0.018 0.009 180000	%EMS Passive Array (Interplanetary)
+5900- n 14 0.070 0.014 0.007 140000	%EMS Passive Array (Interplanetary)
+5900- n 16 0.050 0.010 0.005 100000	%EMS Passive Array (Interplanetary)
+5900- n 18 0.040 0.008 0.004 80000	%EMS Passive Array (Interplanetary)
+5900- q 10 1.300 0.260 0.130 2600000	%EMS Passive Array (Substellar)
+5900- q 11 0.600 0.120 0.060 1200000	%EMS Passive Array (Substellar)
+5900- q 12 0.250 0.050 0.025 500000	%EMS Passive Array (Substellar)
+5900- q 13 0.150 0.030 0.015 300000	%EMS Passive Array (Substellar)
+5900- q 14 0.120 0.024 0.012 240000	%EMS Passive Array (Substellar)
+5900- q 16 0.090 0.018 0.009 180000	%EMS Passive Array (Substellar)
+5900- q 18 0.060 0.012 0.006 120000	%EMS Passive Array (Substellar)
+5900- s 10 2.500 0.500 0.250 5000000	%EMS Passive Array (Interstellar)
+5900- s 11 1.200 0.240 0.120 2400000	%EMS Passive Array (Interstellar)
+5900- s 12 0.500 0.100 0.050 1000000	%EMS Passive Array (Interstellar)
+5900- s 13 0.200 0.040 0.020 400000	%EMS Passive Array (Interstellar)
+5900- s 14 0.160 0.032 0.016 320000	%EMS Passive Array (Interstellar)
+5900- s 16 0.120 0.024 0.012 240000	%EMS Passive Array (Interstellar)
+5900- s 18 0.080 0.016 0.008 160000	%EMS Passive Array (Interstellar)
+
+# EMS Jammer [5.17 p70]
+5000! 5A00 10	%EMS Jammer
+5A00- f 10 0.040 0.008 0.004 80000	%EMS Jammer (Distant)
+5A00- f 11 0.020 0.004 0.002 40000	%EMS Jammer (Distant)
+5A00- g 10 0.200 0.040 0.020 400000	%EMS Jammer (Very Distant)
+5A00- g 11 0.160 0.032 0.016 320000	%EMS Jammer (Very Distant)
+5A00- g 12 0.120 0.024 0.012 240000	%EMS Jammer (Very Distant)
+5A00- g 14 0.100 0.020 0.010 200000	%EMS Jammer (Very Distant)
+5A00- g 16 0.080 0.016 0.008 160000	%EMS Jammer (Very Distant)
+5A00- g 18 0.060 0.012 0.006 120000	%EMS Jammer (Very Distant)
+5A00- g 20 0.040 0.008 0.004 80000	%EMS Jammer (Very Distant)
+5A00- h 10 0.600 0.120 0.060 1200000	%EMS Jammer (Regional)
+5A00- h 11 0.320 0.064 0.032 640000	%EMS Jammer (Regional)
+5A00- h 12 0.200 0.040 0.020 400000	%EMS Jammer (Regional)
+5A00- h 14 0.160 0.032 0.016 320000	%EMS Jammer (Regional)
+5A00- h 16 0.120 0.024 0.012 240000	%EMS Jammer (Regional)
+5A00- h 18 0.100 0.020 0.010 200000	%EMS Jammer (Regional)
+5A00- h 20 0.080 0.016 0.008 160000	%EMS Jammer (Regional)
+5A00- j 10 1.400 0.280 0.140 2800000	%EMS Jammer (Continental)
+5A00- j 11 0.600 0.120 0.060 1200000	%EMS Jammer (Continental)
+5A00- j 12 0.320 0.064 0.032 640000	%EMS Jammer (Continental)
+5A00- j 14 0.200 0.040 0.020 400000	%EMS Jammer (Continental)
+5A00- j 16 0.160 0.032 0.016 320000	%EMS Jammer (Continental)
+5A00- j 18 0.120 0.024 0.012 240000	%EMS Jammer (Continental)
+5A00- j 20 0.100 0.020 0.010 200000	%EMS Jammer (Continental)
+5A00- k 10 2.600 0.520 0.260 5200000	%EMS Jammer (Planetary)
+5A00- k 11 1.200 0.240 0.120 2400000	%EMS Jammer (Planetary)
+5A00- k 12 0.500 0.100 0.050 1000000	%EMS Jammer (Planetary)
+5A00- k 14 0.280 0.056 0.028 560000	%EMS Jammer (Planetary)
+5A00- k 16 0.240 0.048 0.024 480000	%EMS Jammer (Planetary)
+5A00- k 18 0.160 0.032 0.016 320000	%EMS Jammer (Planetary)
+5A00- k 20 0.120 0.024 0.012 240000	%EMS Jammer (Planetary)
+5A00- l 10 5.200 1.040 0.520 10400000	%EMS Jammer (Far Orbit)
+5A00- l 11 2.400 0.480 0.240 4800000	%EMS Jammer (Far Orbit)
+5A00- l 12 1.100 0.220 0.110 2200000	%EMS Jammer (Far Orbit)
+5A00- l 14 0.600 0.120 0.060 1200000	%EMS Jammer (Far Orbit)
+5A00- l 16 0.400 0.080 0.040 800000	%EMS Jammer (Far Orbit)
+5A00- l 18 0.300 0.060 0.030 600000	%EMS Jammer (Far Orbit)
+5A00- l 20 0.200 0.040 0.020 400000	%EMS Jammer (Far Orbit)
+
+# Section 6 Weapons
+0000! 6000	%Weapons
+# Spinal Mounts [6-2, 6-3, 6-4, 6-5 p71]
+6000! 6100 8	%Spinal Mounts
+# Spinal Particle Accelerators [6-2 p71]
+6100! 6110 8	%Spinal Particle Accelerator
+6110:+ A 8   125000  75000 18000  3500000000 55	%Spinal Particle Accelerator
+6110:+ B 9   125000  65000 16000  3000000000 50	%Spinal Particle Accelerator
+6110:+ C 10  125000  60000 15000  2400000000 45	%Spinal Particle Accelerator
+6110:+ D 11  150000  55000 14000  1500000000 40	%Spinal Particle Accelerator
+6110:+ E 12  150000  45000 11000  1200000000 35	%Spinal Particle Accelerator
+6110:+ F 13  150000  40000 10000  1200000000 30	%Spinal Particle Accelerator
+6110:+ G 14  175000  35000  9000   800000000 25	%Spinal Particle Accelerator
+6110:+ H 15  175000  35000  8500   500000000 25	%Spinal Particle Accelerator
+6110:+ J 10  200000  60000 15500  3000000000 50	%Spinal Particle Accelerator
+6110:+ K 11  200000  60000 14500  2000000000 45	%Spinal Particle Accelerator
+6110:+ L 12  200000  55000 13500  1600000000 40	%Spinal Particle Accelerator
+6110:+ M 13  225000  45000 10500  1200000000 35	%Spinal Particle Accelerator
+6110:+ N 14  225000  40000  9500  1000000000 30	%Spinal Particle Accelerator
+6110:+ P 15  225000  35000  8000   800000000 25	%Spinal Particle Accelerator
+6110:+ Q 12  250000  60000 14000  2000000000 45	%Spinal Particle Accelerator
+6110:+ R 13  250000  55000 13000  1500000000 40	%Spinal Particle Accelerator
+6110:+ S 14  250000  45000 10000  1200000000 35	%Spinal Particle Accelerator
+6110:+ T 15  250000  40000  9000  1000000000 30	%Spinal Particle Accelerator
+6110:+ U 16  275000  35000  8000  1000000000 25	%Spinal Particle Accelerator
+6110:+ V 17  275000  25000  6000   800000000 20	%Spinal Particle Accelerator
+6110:+ W 18  275000  20000  5000   600000000 15	%Spinal Particle Accelerator
+6110:+ X 17  300000  30000  7000  1000000000 25	%Spinal Particle Accelerator
+6110:+ Y 18  300000  15000  3500   800000000 10	%Spinal Particle Accelerator
+6110:+ Z 19  325000  15000  3000   600000000 10	%Spinal Particle Accelerator
+
+# Spinal Meson Guns [6-3 p71 + lots of errata]
+6100! 6120 11	%Spinal Meson Guns
+6120:+ A 11  125000  65000 13000 10000000000 50	%Spinal Meson Gun
+6120:+ B 11  150000 110000 22000 12000000000 80	%Spinal Meson Gun
+6120:+ C 12  150000  25000  5000  3000000000 20	%Spinal Meson Gun
+6120:+ D 12  175000  65000 12500  5000000000 50	%Spinal Meson Gun
+6120:+ E 13  175000  15000  3000   800000000 10	%Spinal Meson Gun
+6120:+ F 13  200000  25000 45000  1000000000 20	%Spinal Meson Gun
+6120:+ G 14  200000  15000  3000   400000000 10	%Spinal Meson Gun
+6120:+ H 14  225000  25000  4500   600000000 20	%Spinal Meson Gun
+6120:+ J 15  225000  15000  3000   400000000 10	%Spinal Meson Gun
+6120:+ K 12  250000  11000 20000 10000000000 80	%Spinal Meson Gun
+6120:+ L 13  250000  65000 12500  3000000000 50	%Spinal Meson Gun
+6120:+ M 14  250000  55000 11000   800000000 40	%Spinal Meson Gun
+6120:+ N 15  250000  25000  4000   600000000 20	%Spinal Meson Gun
+6120:+ P 13  275000 110000 19000  5000000000 80	%Spinal Meson Gun
+6120:+ Q 14  275000  95000 19000  1000000000 70	%Spinal Meson Gun
+6120:+ R 15  275000  65000 12000   800000000 50	%Spinal Meson Gun
+6120:+ S 14  300000 110000 19000  2000000000 80	%Spinal Meson Gun
+6120:+ T 15  300000  95000 18000  1000000000 70	%Spinal Meson Gun
+6120:+ U 16  325000 110000 18500  2000000000 80	%Spinal Meson Gun
+6120:+ V 17  325000  95000 17500  1200000000 70	%Spinal Meson Gun
+6120:+ W 18  325000  65000 11500  1000000000 50	%Spinal Meson Gun
+6120:+ X 17  350000 110000 18000  2000000000 80	%Spinal Meson Gun
+6120:+ Y 18  350000  95000 17000  1200000000 70	%Spinal Meson Gun
+6120:+ Z 19  375000  65000 11000   800000000 50	%Spinal Meson Gun
+
+# Spinal Disintegrators [6-4 p71]
+6100! 6130 17	%Spinal Disintegrators
+6130:+ A 17  500000  60000 13000  5000000000 45	%Spinal Disintegrator
+6130:+ B 18  550000  55000 12000  3500000000 40	%Spinal Disintegrator
+6130:+ C 19  550000  45000 10000  2400000000 35	%Spinal Disintegrator
+6130:+ D 20  575000  40000  8500  1500000000 30	%Spinal Disintegrator
+6130:+ E 21  575000  35000  7500  1200000000 25	%Spinal Disintegrator
+
+# Spinal Jump Projectors [6-5 p71]
+6100! 6140 21	%Spinal Jump Projectors
+6140:+ A 21 8000000  55000 15000  1000000000 40	%Spinal Jump Projector
+6140:+ B 21 9500000  95000 25000  1200000000 70	%Spinal Jump Projector
+
+6000! 6200	%100 Ton Bay
+6000! 6300	%50 Ton Bay
+# Bays [6-6, 6-7, 6-8 p72]
+6200! 6210 8	%100 Ton Missile Bay
+6210- 7 8  5	  1350 50 21000000  10	%100 Ton Missile Bay
+6210* 7 10	%null
+6210- 8 10 5	  1350 50 21000000  10	%100 Ton Missile Bay
+6210* 8 12	%null
+6210- 9 12 5	  1350 50 21000000  10	%100 Ton Missile Bay
+6210* 9 14	%null
+6210- A 14 5	  1350 50 21000000  10	%100 Ton Missile Bay
+6210* A 16	%null
+6210- B 16 5	  1350 50 21000000  10	%100 Ton Missile Bay
+6210* B 18	%null
+6210- C 18 5	  1350 50 21000000  10	%100 Ton Missile Bay
+6210* C 20	%null
+6210- D 20 5	  1350 50 21000000  10	%100 Ton Missile Bay
+
+6200! 6220 8	%100 Ton Particle Accelerator Bay
+6220- 6 8  15000  1350 75 36000000  10	%100 Ton Particle Accelerator Bay
+6220- 6 10 15000  1350 75 36000000  10	%100 Ton Particle Accelerator Bay
+6220* 6 12	%null
+6220- 7 12 15000  1350 75 36000000  10	%100 Ton Particle Accelerator Bay
+6220* 7 14	%null
+6220- 8 14 15000  1350 75 36000000  10	%100 Ton Particle Accelerator Bay
+6220* 8 16	%null
+6220- 9 16 15000  1350 75 36000000  10	%100 Ton Particle Accelerator Bay
+6220* 9 18	%null
+6220- A 18 15000  1350 75 36000000  10	%100 Ton Particle Accelerator Bay
+6220* A 20	%null
+6220- B 20 15000  1350 75 36000000  10	%100 Ton Particle Accelerator Bay
+
+6200! 6230 10	%100 Ton Repulsor Bay
+6230- 2 10 2500   1350 60 11000000  10	%100 Ton Repulsor Bay
+6230* 2 11	%null
+6230- 4 11 2500   1350 60 11000000  10	%100 Ton Repulsor Bay
+6230* 4 12	%null
+6230- 6 12 2500   1350 60 11000000  10	%100 Ton Repulsor Bay
+6230* 6 13	%null
+6230- 7 13 2500   1350 60 11000000  10	%100 Ton Repulsor Bay
+6230* 7 14	%null
+6230- 8 14 2500   1350 60 11000000  10	%100 Ton Repulsor Bay
+6230* 8 15	%null
+6230- 9 15 2500   1350 60 11000000  10	%100 Ton Repulsor Bay
+6230* 9 16	%null
+6230- A 16 2500   1350 60 11000000  10	%100 Ton Repulsor Bay
+6230* A 17	%null
+6230- B 17 2500   1350 60 11000000  10	%100 Ton Repulsor Bay
+6230* B 18	%null
+6230- C 18 2500   1350 60 11000000  10	%100 Ton Repulsor Bay
+6230* C 19	%null
+6230- D 19 2500   1350 60 11000000  10	%100 Ton Repulsor Bay
+6230* D 20	%null
+6230- E 20 2500   1350 60 11000000  10	%100 Ton Repulsor Bay
+6230* E 21	%null
+6230- F 21 2500   1350 60 11000000  10	%100 Ton Repulsor Bay
+
+6200! 6240 13	%100 Ton Meson Gun Bay
+6240- 3 13 50000  1350 80 71000000  10	%100 Ton Meson Gun Bay
+6240* 3 14	%null
+6240- 5 14 50000  1350 80 71000000  10	%100 Ton Meson Gun Bay
+6240* 5 15	%null
+6240- 9 15 50000  1350 80 71000000  10	%100 Ton Meson Gun Bay
+6240* 9 16	%null
+6240- B 16 50000  1350 80 71000000  10	%100 Ton Meson Gun Bay
+6240* B 17	%null
+6240- D 17 50000  1350 80 71000000  10	%100 Ton Meson Gun Bay
+6240* D 18	%null
+6240- F 18 50000  1350 80 71000000  10	%100 Ton Meson Gun Bay
+6240* F 19	%null
+6240- H 19 50000  1350 80 71000000  10	%100 Ton Meson Gun Bay
+
+6200! 6250 16	%100 Ton Tractor Bay
+6250- 2 16 50000  1350 70 41000000  10	%100 Ton Tractor Bay
+6250* 2 17	%null
+6250- 4 17 50000  1350 70 41000000  10	%100 Ton Tractor Bay
+6250* 4 18	%null
+6250- 6 18 50000  1350 70 41000000  10	%100 Ton Tractor Bay
+6250* 6 19	%null
+6250- 7 19 50000  1350 70 41000000  10	%100 Ton Tractor Bay
+6250* 7 20	%null
+6250- 8 20 50000  1350 70 41000000  10	%100 Ton Tractor Bay
+
+6200! 6260 17	%100 Ton Disintegrator Bay
+6260- 7 17 65000  1350 75 151000000 10	%100 Ton Disintegrator Bay
+6260* 7 19	%null
+6260- 8 19 65000  1350 75 151000000 10	%100 Ton Disintegrator Bay
+6260* 8 21	%null
+6260- 9 21 65000  1350 75 151000000 10	%100 Ton Disintegrator Bay
+
+6200! 6270 21	%100 Ton Jump Damper Bay
+6270- 2 21 200000 1350 80 201000000 10	%100 Ton Jump Damper Bay
+
+6200! 6280	%100 Ton Empty Bay
+6280- 0 0  $	  1350 $  1000000   10	%100 Ton Bay (Empty)
+
+6300! 6310 5	%50 Ton Missile Bay
+6310- 7 10 5	  675  25 12500000  10	%50 Ton Missile Bay
+6310* 7 12	%null
+6310- 8 12 5	  675  25 12500000  10	%50 Ton Missile Bay
+6310* 8 14	%null
+6310- 9 14 5	  675  25 12500000  10	%50 Ton Missile Bay
+6310* 9 16	%null
+6310- A 16 5	  675  25 12500000  10	%50 Ton Missile Bay
+6310* A 18	%null
+6310- B 18 5	  675  25 12500000  10	%50 Ton Missile Bay
+6310* B 20	%null
+6310- C 20 5	  675  25 12500000  10	%50 Ton Missile Bay
+
+6300! 6320 10	%50 Ton Particle Accelerator Bay
+6320- 3 10 7500   675  40 20500000  10	%50 Ton Particle Accelerator Bay
+6320* 3 12	%null
+6320- 4 12 7500   675  40 20500000  10	%50 Ton Particle Accelerator Bay
+6320* 4 14	%null
+6320- 5 14 7500   675  40 20500000  10	%50 Ton Particle Accelerator Bay
+6320* 5 16	%null
+6320- 6 16 7500   675  40 20500000  10	%50 Ton Particle Accelerator Bay
+6320* 6 18	%null
+6320- 7 18 7500   675  40 20500000  10	%50 Ton Particle Accelerator Bay
+6320* 7 20	%null
+6320- 8 20 7500   675  40 20500000  10	%50 Ton Particle Accelerator Bay
+
+6300! 6330 10	%50 Ton Plasma Gun Bay
+6330- 4 10 2500   675  35 5500000   10	%50 Ton Plasma Gun Bay
+6330* 4 11	%null
+6330- 5 11 2500   675  35 5500000   10	%50 Ton Plasma Gun Bay
+6330* 5 12	%null
+6330- 6 12 2500   675  35 5500000   10	%50 Ton Plasma Gun Bay
+
+6300! 6340 12	%50 Ton Fusion Gun Bay
+6340- 7 12 5000   675  35 8500000   10	%50 Ton Fusion Gun Bay
+6340* 7 13	%null
+6340- 8 13 5000   675  35 8500000   10	%50 Ton Fusion Gun Bay
+6340* 8 14	%null
+6340- 9 14 5000   675  35 8500000   10	%50 Ton Fusion Gun Bay
+6340* 9 15	%null
+6340- A 15 5000   675  35 8500000   10	%50 Ton Fusion Gun Bay
+6340* A 16	%null
+6340- B 16 5000   675  35 8500000   10	%50 Ton Fusion Gun Bay
+6340* B 17	%null
+6340- C 17 5000   675  35 8500000   10	%50 Ton Fusion Gun Bay
+6340* C 18	%null
+6340- D 18 5000   675  35 8500000   10	%50 Ton Fusion Gun Bay
+6340* D 19	%null
+6340- E 19 5000   675  35 8500000   10	%50 Ton Fusion Gun Bay
+6340* E 20	%null
+6340- F 20 5000   675  35 8500000   10	%50 Ton Fusion Gun Bay
+
+6300! 6350 14	%50 Ton Repulsor Bay
+6350- 3 14 1250   675  30 6500000   10	%50 Ton Repulsor Bay
+6350* 3 15	%null
+6350- 5 15 1250   675  30 6500000   10	%50 Ton Repulsor Bay
+6350* 5 16	%null
+6350- 7 16 1250   675  30 6500000   10	%50 Ton Repulsor Bay
+6350* 7 17	%null
+6350- 9 17 1250   675  30 6500000   10	%50 Ton Repulsor Bay
+6350* 9 18	%null
+6350- A 18 1250   675  30 6500000   10	%50 Ton Repulsor Bay
+6350* A 19	%null
+6350- B 19 1250   675  30 6500000   10	%50 Ton Repulsor Bay
+6350* B 20	%null
+6350- C 20 1250   675  30 6500000   10	%50 Ton Repulsor Bay
+6350* C 21	%null
+6350- D 21 1250   675  30 6500000   10	%50 Ton Repulsor Bay
+
+6300! 6360 15	%50 Ton Meson Gun Bay
+6360- 4 15 25000  675  40 50500000  10	%50 Ton Meson Gun Bay
+6360* 4 16	%null
+6360- 6 16 25000  675  40 50500000  10	%50 Ton Meson Gun Bay
+6360* 6 17	%null
+6360- 9 17 25000  675  40 50500000  10	%50 Ton Meson Gun Bay
+6360* 9 18	%null
+6360- B 18 25000  675  40 50500000  10	%50 Ton Meson Gun Bay
+6360* B 19	%null
+6360- D 19 25000  675  40 50500000  10	%50 Ton Meson Gun Bay
+6360* D 20	%null
+6360- F 20 25000  675  40 50500000  10	%50 Ton Meson Gun Bay
+6360* F 21	%null
+6360- H 21 25000  675  40 50500000  10	%50 Ton Meson Gun Bay
+
+6300! 6370 18	%50 Ton Disintegrator Bay
+6370- 6 18 32500  675  40 90500000  10	%50 Ton Disintegrator Bay
+6370* 6 20	%null
+6370- 7 20 32500  675  40 90500000  10	%50 Ton Disintegrator Bay
+
+6300! 6380 20	%50 Ton Tractor Bay
+6380- 3 20 25000  675  35 24500000  10	%50 Ton Tractor Bay
+6380* 3 21	%null
+6380- 5 21 25000  675  35 24500000  10	%50 Ton Tractor Bay
+
+6300! 6390 21	%50 Ton Jump Damper Bay
+6390- 1 21 100000 675  40 120500000 10	%50 Ton Jump Damper Bay
+
+6300! 63A0	%50 Ton Empty Bay
+63A0- 0 0  $	  675  $  500000    10	%50 Ton Bay (Empty)
+
+# Turrets
+6000! 6400 7	%Turrets
+# Here I've figured out two different ways of representing the information:
+# the first simply lets you select so many turrets  (single/double/triple)
+# the second lets you select the rating of a battery and it gives the
+# net quantities of power/volume etc.
+# Both choices have pros and cons, the selecting individual turrets lets
+# you choose an obscure number of turrets which become hard to form into
+# batteries.  The second leaves some residual infomation from lower TLs
+# (this could be taken care of by overriding with a null entry) and will
+# not look quite as nice when displayed :-( [Note: I've added a null
+# entry that overrides lower TL without replacing it]
+# With both methods, it would be advisable to have a copy of the refs
+# guide close at hand during a design (to give the number of turrets
+# required in the former case and the TL cutoffs in the second).
+# At the time of creation, I prefer the second method and have left that
+# data present (the first form is still here but has a leading '#').
+# changing from one to the other is reasonably easy.
+# For the first case, I've defined the UCP codes [s,d,t] for single,
+# double and triple turrets.  The second case has the actual battery UCP
+# for the UCP code.
+
+# Missile turrets [6-10 p73]
+6400! 6410 7	%Missile Turrets
+#6410- s 7  1     13.5  3   750000    1	%Missile Turret (Single)
+#6410- d 7  2     13.5  6   1500000   1	%Missile Turret (Double)
+#6410- t 7  3     13.5  9   2250000   1	%Missile Turret (Triple)
+#6410- s 13 1     13.5  2   750000    1	%Missile Turret (Single)
+#6410- d 13 2     13.5  4   1500000   1	%Missile Turret (Double)
+#6410- t 13 3     13.5  6   2250000   1	%Missile Turret (Triple)
+#6410- s 21 1     13.5  1   750000    1	%Missile Turret (Single)
+#6410- d 21 2     13.5  2   1500000   1	%Missile Turret (Double)
+#6410- t 21 3     13.5  3   2250000   1	%Missile Turret (Triple)
+6410! 6411	%Single Missile Turrets
+6410! 6412	%Double Missile Turrets
+6410! 6413	%Triple Missile Turrets
+6411- 1 7  1     13.5  3   750000    1	%One Missile Turret (Single)
+6411- 2 7  3     40.5  9   2250000   3	%Three Missile Turrets (Single)
+6411- 3 7  6     81    18  4500000   6	%Six Missile Turrets (Single)
+6411- 4 7  12    162   36  9000000   12	%Twelve Missile Turrets (Single)
+6411- 5 7  18    243   54  13500000  18	%Eighteen Missile Turrets (Single)
+6411- 6 7  30    405   90  22500000  30	%Thirty Missile Turrets (Single)
+6412- 3 7  6     40.5  18  4500000   3	%Three Missile Turrets (Double)
+6412- 4 7  12    81    36  9000000   6	%Six Missile Turrets (Double)
+6412- 5 7  18    121.5 54  13500000  9	%Nine Missile Turrets (Double)
+6412- 6 7  30    202.5 90  22500000  15	%Fifteen Missile Turrets (Double)
+6413- 2 7  3     13.5  9   2250000   1	%One Missile Turret (Triple)
+6413- 3 7  6     27    18  4500000   2	%Two Missile Turrets (Triple)
+6413- 4 7  12    54    36  9000000   4	%Four Missile Turrets (Triple)
+6413- 5 7  18    81    54  13500000  6	%Six Missile Turrets (Triple)
+6413- 6 7  30    135   90  22500000  10	%Ten Missile Turrets (Triple)
+6411* 1 13	%null
+6411- 2 13 1     13.5  2   750000    1	%One Missile Turret (Single)
+6411- 3 13 3     40.5  6   2250000   3	%Three Missile Turrets (Single)
+6411- 4 13 6     81    12  4500000   6	%Six Missile Turrets (Single)
+6411- 5 13 12    162   24  9000000   12	%Twelve Missile Turrets (Single)
+6411- 6 13 18    243   32  13500000  18	%Eighteen Missile Turrets (Single)
+6411- 7 13 30    405   60  22500000  30	%Thirty Missile Turrets (Single)
+6412* 3 13	%null
+6412- 4 13 6     40.5  12  4500000   3	%Three Missile Turrets (Double)
+6412- 5 13 12    81    24  9000000   6	%Six Missile Turrets (Double)
+6412- 6 13 18    121.5 32  13500000  9	%Nine Missile Turrets (Double)
+6412- 7 13 30    202.5 60  22500000  15	%Fifteen Missile Turrets (Double)
+6413* 2 13	%null
+6413- 3 13 3     13.5  6   2250000   1	%One Missile Turret (Triple)
+6413- 4 13 6     27    12  4500000   2	%Two Missile Turrets (Triple)
+6413- 5 13 12    54    24  9000000   4	%Four Missile Turrets (Triple)
+6413- 6 13 18    81    32  13500000  6	%Six Missile Turrets (Triple)
+6413- 7 13 30    135   60  22500000  10	%Ten Missile Turrets (Triple)
+6411* 2 21	%null
+6411- 3 21 1     13.5  1   750000    1	%One Missile Turret (Single)
+6411- 4 21 3     40.5  3   2250000   3	%Three Missile Turrets (Single)
+6411- 5 21 6     81    6   4500000   6	%Six Missile Turrets (Single)
+6411- 6 21 12    162   12  9000000   12	%Twelve Missile Turrets (Single)
+6411- 7 21 18    243   18  13500000  18	%Eighteen Missile Turrets (Single)
+6411- 8 21 30    405   30  22500000  30	%Thirty Missile Turrets (Single)
+6412* 4 21	%null
+6412- 5 21 6     40.5  6   4500000   3	%Three Missile Turrets (Double)
+6412- 6 21 12    81    12  9000000   6	%Six Missile Turrets (Double)
+6412- 7 21 18    121.5 18  13500000  9	%Nine Missile Turrets (Double)
+6412- 8 21 30    202.5 30  22500000  15	%Fifteen Missile Turrets (Double)
+6413* 3 21	%null
+6413- 4 21 3     13.5  3   2250000   1	%One Missile Turret (Triple)
+6413- 5 21 6     27    6   4500000   2	%Two Missile Turrets (Triple)
+6413- 6 21 12    54    12  9000000   4	%Four Missile Turrets (Triple)
+6413- 7 21 18    81    18  13500000  6	%Six Missile Turrets (Triple)
+6413- 8 21 30    135   30  22500000  10	%Ten Missile Turrets (Triple)
+
+# Magazine Requirements [6-18 p74]
+# This has not been included since it is not really part of the ship
+# design process.
+
+# Laser Turrets [6-11 p73]
+# Two different kinds - pulse laser and beam laser (in separate tables)
+# Beam Laser Turrets
+6400! 6420 7	%Beam Laser Turrets
+#6420- s 7  250   13.5  5   1000000   1	%Beam Laser Turret (Single)
+#6420- d 7  500   13.5  10  2000000   1	%Beam Laser Turret (Double)
+#6420- t 7  750   13.5  15  3000000   1	%Beam Laser Turret (Triple)
+#6420- s 13 250   13.5  4   1000000   1	%Beam Laser Turret (Single)
+#6420- d 13 500   13.5  8   2000000   1	%Beam Laser Turret (Double)
+#6420- t 13 750   13.5  12  3000000   1	%Beam Laser Turret (Triple)
+#6420- s 16 250   13.5  3   1000000   1	%Beam Laser Turret (Single)
+#6420- d 16 500   13.5  6   2000000   1	%Beam Laser Turret (Double)
+#6420- t 16 750   13.5  9   3000000   1	%Beam Laser Turret (Triple)
+6420! 6421	%Single Beam Laser Turrets
+6420! 6422	%Double Beam Laser Turrets
+6420! 6423	%Triple Beam Laser Turrets
+6421- 1 7  250   13.5  5   1000000   1	%One Beam Laser Turret (Single)
+6421- 2 7  500   27    10  2000000   2	%Two Beam Laser Turrets (Single)
+6421- 3 7  750   40.5  15  3000000   3	%Three Beam Laser Turrets (Single)
+6421- 4 7  1500  81    30  6000000   6	%Six Beam Laser Turrets (Single)
+6421- 5 7  2500  135   50  10000000  10	%Ten Beam Laser Turrets (Single)
+6421- 6 7  3750  202.5 75  15000000  15	%Fifteen Beam Laser Turrets (Single)
+6421- 7 7  5250  283.5 105 21000000  21	%Twenty One Beam Laser Turrets (Single)
+6421- 8 7  7500  405   150 30000000  30	%Thirty Beam Laser Turrets (Single)
+6422- 2 7  500   13.5  10  2000000   1	%One Beam Laser Turret (Double)
+6422- 4 7  1500  40.5  30  6000000   3	%Three Beam Laser Turrets (Double)
+6422- 5 7  2500  67.5  50  10000000  5	%Five Beam Laser Turrets (Double)
+6422- 8 7  7500  202.5 150 30000000  15	%Fifteen Beam Laser Turrets (Double)
+6423- 3 7  750   13.5  15  3000000   1	%One Beam Laser Turret (Triple)
+6423- 4 7  1500  27    30  6000000   2	%Two Beam Laser Turrets (Triple)
+6423- 6 7  3750  67.5  75  15000000  5	%Five Beam Laser Turrets (Triple)
+6423- 7 7  5250  94.5  105 21000000  7	%Seven Beam Laser Turrets (Triple)
+6423- 8 7  7500  135   150 30000000  10	%Ten Beam Laser Turrets (Triple)
+6421* 1 13	%null
+6421- 2 13 250   13.5  4   1000000   1	%One Beam Laser Turret (Single)
+6421- 3 13 500   27    8   2000000   2	%Two Beam Laser Turrets (Single)
+6421- 4 13 750   40.5  12  3000000   3	%Three Beam Laser Turrets (Single)
+6421- 5 13 1500  81    24  6000000   6	%Six Beam Laser Turrets (Single)
+6421- 6 13 2500  135   40  10000000  10	%Ten Beam Laser Turrets (Single)
+6421- 7 13 3750  202.5 60  15000000  15	%Fifteen Beam Laser Turrets (Single)
+6421- 8 13 5250  283.5 84  21000000  21	%Twenty One Beam Laser Turrets (Single)
+6421- 9 13 7500  405   120 30000000  30	%Thirty Beam Laser Turrets (Single)
+6422* 2 13	%null
+6422- 3 13 500   13.5  8   2000000   1	%One Beam Laser Turret (Double)
+6422* 4 13	%null
+6422- 5 13 1500  40.5  24  6000000   3	%Three Beam Laser Turrets (Double)
+6422- 6 13 2500  67.5  40  10000000  5	%Five Beam Laser Turrets (Double)
+6422* 8 13	%null
+6422- 9 13 7500  202.5 120 30000000  15	%Fifteen Beam Laser Turrets (Double)
+6423* 3 13	%null
+6423- 4 13 750   13.5  12  3000000   1	%One Beam Laser Turret (Triple)
+6423- 5 13 1500  27    24  6000000   2	%Two Beam Laser Turrets (Triple)
+6423* 6 13	%null
+6423- 7 13 3750  67.5  60  15000000  5	%Five Beam Laser Turrets (Triple)
+6423- 8 13 5250  94.5  84  21000000  7	%Seven Beam Laser Turrets (Triple)
+6423- 9 13 7500  135   120 30000000  10	%Ten Beam Laser Turrets (Triple)
+6421* 2 16	%null
+6421- 3 16 250   13.5  3   1000000   1	%One Beam Laser Turret (Single)
+6421- 4 16 500   27    6   2000000   2	%Two Beam Laser Turrets (Single)
+6421- 5 16 750   40.5  9   3000000   3	%Three Beam Laser Turrets (Single)
+6421- 6 16 1500  81    18  6000000   6	%Six Beam Laser Turrets (Single)
+6421- 7 16 2500  135   30  10000000  10	%Ten Beam Laser Turrets (Single)
+6421- 8 16 3750  202.5 45  15000000  15	%Fifteen Beam Laser Turrets (Single)
+6421- 9 16 5250  283.5 63  21000000  21	%Twenty One Beam Laser Turrets (Single)
+6421- A 16 7500  405   90  30000000  30	%Thirty Beam Laser Turrets (Single)
+6422* 3 16	%null
+6422- 4 16 500   13.5  6   2000000   1	%One Beam Laser Turret (Double)
+6422* 5 16	%null
+6422- 6 16 1500  40.5  18  6000000   3	%Three Beam Laser Turrets (Double)
+6422- 7 16 2500  67.5  30  10000000  5	%Five Beam Laser Turrets (Double)
+6422* 9 16	%null
+6422- A 16 7500  202.5 90  30000000  15	%Fifteen Beam Laser Turrets (Double)
+6423* 4 16	%null
+6423- 5 16 750   13.5  9   3000000   1	%One Beam Laser Turret (Triple)
+6423- 6 16 1500  27    18  6000000   2	%Two Beam Laser Turrets (Triple)
+6423* 7 16	%null
+6423- 8 16 3750  67.5  45  15000000  5	%Five Beam Laser Turrets (Triple)
+6423- 9 16 5250  94.5  63  21000000  7	%Seven Beam Laser Turrets (Triple)
+6423- A 16 7500  135   90  30000000  10	%Ten Beam Laser Turrets (Triple)
+
+# Pulse Laser Turrets
+6400! 6430 7	%Pulse Laser Turrets
+#6430- s 7  250   13.5  5   500000    1	%Pulse Laser Turret (Single)
+#6430- d 7  500   13.5  10  1000000   1	%Pulse Laser Turret (Double)
+#6430- t 7  750   13.5  15  1500000   1	%Pulse Laser Turret (Triple)
+#6430- s 13 250   13.5  4   500000    1	%Pulse Laser Turret (Single)
+#6430- d 13 500   13.5  8   1000000   1	%Pulse Laser Turret (Double)
+#6430- t 13 750   13.5  12  1500000   1	%Pulse Laser Turret (Triple)
+#6430- s 16 250   13.5  3   500000    1	%Pulse Laser Turret (Single)
+#6430- d 16 500   13.5  6   1000000   1	%Pulse Laser Turret (Double)
+#6430- t 16 750   13.5  9   1500000   1	%Pulse Laser Turret (Triple)
+6430! 6431	%Single Pulse Laser Turrets
+6430! 6432	%Double Pulse Laser Turrets
+6430! 6433	%Triple Pulse Laser Turrets
+6431- 1 7  250   13.5  5   500000    1	%One Pulse Laser Turret (Single)
+6431- 2 7  750   40.5  15  1500000   3	%Three Pulse Laser Turrets (Single)
+6431- 3 7  1500  81    30  3000000   6	%Six Pulse Laser Turrets (Single)
+6431- 4 7  2500  135   50  5000000   10	%Ten Pulse Laser Turrets (Single)
+6431- 5 7  5250  283.5 105 10500000  21	%Twenty One Pulse Laser Turrets (Single)
+6431- 6 7  7500  405   150 15000000  30	%Thirty Pulse Laser Turrets (Single)
+6432- 3 7  1500  40.5  30  3000000   3	%Three Pulse Laser Turrets (Double)
+6432- 4 7  2500  67.5  50  5000000   5	%Five Pulse Laser Turrets (Double)
+6432- 6 7  7500  202.5 150 15000000  15	%Fifteen Pulse Laser Turrets (Double)
+6433- 2 7  750   13.5  15  1500000   1	%One Pulse Laser Turret (Triple)
+6433- 3 7  1500  27    30  3000000   2	%Two Pulse Laser Turrets (Triple)
+6433- 5 7  5250  94.5  105 10500000  7	%Seven Pulse Laser Turrets (Triple)
+6433- 6 7  7500  135   150 15000000  10	%Ten Pulse Laser Turrets (Triple)
+6431* 1 13	%null
+6431- 2 13 250   13.5  4   500000    1	%One Pulse Laser Turret (Single)
+6431- 3 13 750   40.5  12  1500000   3	%Three Pulse Laser Turrets (Single)
+6431- 4 13 1500  81    24  3000000   6	%Six Pulse Laser Turrets (Single)
+6431- 5 13 2500  135   40  5000000   10	%Ten Pulse Laser Turrets (Single)
+6431- 6 13 5250  283.5 84  10500000  21	%Twenty One Pulse Laser Turrets (Single)
+6431- 7 13 7500  405   120 15000000  30	%Thirty Pulse Laser Turrets (Single)
+6432* 3 13	%null
+6432- 4 13 1500  40.5  24  3000000   3	%Three Pulse Laser Turrets (Double)
+6432- 5 13 2500  67.5  40  5000000   5	%Five Pulse Laser Turrets (Double)
+6432* 6 13	%null
+6432- 7 13 7500  202.5 120 15000000  15	%Fifteen Pulse Laser Turrets (Double)
+6433* 2 13	%null
+6433- 3 13 750   13.5  12  1500000   1	%One Pulse Laser Turret (Triple)
+6433- 4 13 1500  27    24  3000000   2	%Two Pulse Laser Turrets (Triple)
+6433* 5 13	%null
+6433- 6 13 5250  94.5  84  10500000  7	%Seven Pulse Laser Turrets (Triple)
+6433- 7 13 7500  135   120 15000000  10	%Ten Pulse Laser Turrets (Triple)
+6431* 2 16	%null
+6431- 3 16 250   13.5  3   500000    1	%One Pulse Laser Turret (Single)
+6431- 4 16 750   40.5  9   1500000   3	%Three Pulse Laser Turrets (Single)
+6431- 5 16 1500  81    18  3000000   6	%Six Pulse Laser Turrets (Single)
+6431- 6 16 2500  135   30  5000000   10	%Ten Pulse Laser Turrets (Single)
+6431- 7 16 5250  283.5 63  10500000  21	%Twenty One Pulse Laser Turrets (Single)
+6431- 8 16 7500  405   90  15000000  30	%Thirty Pulse Laser Turrets (Single)
+6432* 4 16	%null
+6432- 5 16 1500  40.5  18  3000000   3	%Three Pulse Laser Turrets (Double)
+6432- 6 16 2500  67.5  30  5000000   5	%Five Pulse Laser Turrets (Double)
+6432* 7 16	%null
+6432- 8 16 7500  202.5 90  15000000  15	%Fifteen Pulse Laser Turrets (Double)
+6433* 3 16	%null
+6433- 4 16 750   13.5  9   1500000   1	%One Pulse Laser Turret (Triple)
+6433- 5 16 1500  27    18  3000000   2	%Two Pulse Laser Turrets (Triple)
+6433* 6 16	%null
+6433- 7 16 5250  94.5  63  10500000  7	%Seven Pulse Laser Turrets (Triple)
+6433- 8 16 7500  135   90  15000000  10	%Ten Pulse Laser Turrets (Triple)
+
+# Particle Accelerator Turrets [6-12 p73]
+6400! 6470 14	%Particle Accelerator Barbets
+#6470- s 14 1250  67.5  25  4000000   1	%Particle Accelerator Turret
+#6470- s 15 1250  40.5  12  3000000   1	%Particle Accelerator Turret
+#6470- s 16 1250  27    9   3000000   1	%Particle Accelerator Turret
+#6470- s 18 1250  13.5  6   3000000   1	%Particle Accelerator Turret
+6470- 1 14 1250  67.5  25  4000000   1	%One Particle Accelerator Turret
+6470- 2 14 2500  135   50  8000000   2	%Two Particle Accelerator Turrets
+6470- 3 14 5000  270   100 16000000  4	%Four Particle Accelerator Turrets
+6470- 4 14 7500  405   150 24000000  6	%Six Particle Accelerator Turrets
+6470- 5 14 10000 540   200 32000000  8	%Eight Particle Accelerator Turrets
+6470- 6 14 12500 675   250 40000000  10	%Ten Particle Accelerator Turrets
+6470* 1 15	%null
+6470- 2 15 1250  40.5  12  3000000   1	%One Particle Accelerator Turret
+6470- 3 15 2500  81    24  6000000   2	%Two Particle Accelerator Turrets
+6470- 4 15 5000  162   48  12000000  4	%Four Particle Accelerator Turrets
+6470- 5 15 7500  243   72  18000000  6	%Six Particle Accelerator Turrets
+6470- 6 15 10000 324   96  24000000  8	%Eight Particle Accelerator Turrets
+6470- 7 15 12500 405   120 30000000  10	%Ten Particle Accelerator Turrets
+6470* 2 16	%null
+6470- 3 16 1250  27    9   3000000   1	%One Particle Accelerator Turret
+6470- 4 16 2500  54    18  6000000   2	%Two Particle Accelerator Turrets
+6470- 5 16 5000  108   36  12000000  4	%Four Particle Accelerator Turrets
+6470- 6 16 7500  162   54  18000000  6	%Six Particle Accelerator Turrets
+6470- 7 16 10000 216   72  24000000  8	%Eight Particle Accelerator Turrets
+6470- 8 16 12500 270   90  30000000  10	%Ten Particle Accelerator Turrets
+6470* 3 18	%null
+6470- 4 18 1250  13.5  6   3000000   1	%One Particle Accelerator Turret
+6470- 5 18 2500  81    12  6000000   2	%Two Particle Accelerator Turrets
+6470- 6 18 5000  54    24  12000000  4	%Four Particle Accelerator Turrets
+6470- 7 18 7500  81    36  18000000  6	%Six Particle Accelerator Turrets
+6470- 8 18 10000 108   48  24000000  8	%Eight Particle Accelerator Turrets
+6470- 9 18 12500 135   60  30000000  10	%Ten Particle Accelerator Turrets
+
+# Plasma Gun Turrets [6-13 p73]
+6400! 6450 10	%Plasma Gun Turrets
+#6450- s 10 250   27    5   1500000   1	%Plasma Gun Turret
+#6450- s 11 250   27    4   1500000   1	%Plasma Gun Turret
+#6450- s 12 250   27    3   1500000   1	%Plasma Gun Turret
+#6450- s 16 250   27    2   1500000   1	%Plasma Gun Turret
+6450- 1 10 250   27    5   1500000   1	%One Plasma Gun Turret
+6450- 2 10 1000  108   20  6000000   4	%Four Plasma Gun Turrets
+6450- 3 10 2500  270   50  15000000  10	%Ten Plasma Gun Turrets
+6450- 4 10 4000  432   80  24000000  16	%Sixteen Plasma Gun Turrets
+6450- 5 10 5000  540   100 30000000  20	%Twenty Plasma Gun Turrets
+6450* 1 11	%null
+6450- 2 11 250   27    4   1500000   1	%One Plasma Gun Turret
+6450- 3 11 1000  108   16  6000000   4	%Four Plasma Gun Turrets
+6450- 4 11 2500  270   40  15000000  10	%Ten Plasma Gun Turrets
+6450- 5 11 4000  432   64  24000000  16	%Sixteen Plasma Gun Turrets
+6450- 6 11 5000  540   80  30000000  20	%Twenty Plasma Gun Turrets
+6450* 2 12	%null
+6450- 3 12 250   27    3   1500000   1	%One Plasma Gun Turret
+6450- 4 12 1000  108   12  6000000   4	%Four Plasma Gun Turrets
+6450- 5 12 2500  270   30  15000000  10	%Ten Plasma Gun Turrets
+6450- 6 12 4000  432   48  24000000  16	%Sixteen Plasma Gun Turrets
+6450- 7 12 5000  540   60  30000000  20	%Twenty Plasma Gun Turrets
+6450* 3 16	%null
+6450- 4 16 250   27    2   1500000   1	%One Plasma Gun Turret
+6450- 5 16 1000  108   8   6000000   4	%Four Plasma Gun Turrets
+6450- 6 16 2500  270   20  15000000  10	%Ten Plasma Gun Turrets
+6450- 7 16 4000  432   32  24000000  16	%Sixteen Plasma Gun Turrets
+6450- 8 16 5000  540   40  30000000  20	%Twenty Plasma Gun Turrets
+
+# Fusion Gun Turrets [6-14 p74]
+6400! 6460 12	%Fusion Gun Turrets
+#6460- s 12 500   27    5   2000000   1	%Fusion Gun Turret (Single)
+#6460- d 12 1000  27    10  4000000   1	%Fusion Gun Turret (Double)
+#6460- s 14 500   27    4   2000000   1	%Fusion Gun Turret (Single)
+#6460- d 14 1000  27    8   4000000   1	%Fusion Gun Turret (Double)
+#6460- s 17 500   27    3   2000000   1	%Fusion Gun Turret (Single)
+#6460- d 17 1000  27    6   4000000   1	%Fusion Gun Turret (Double)
+6460! 6461	%Single Fusion Gun Turrets
+6460! 6462	%Double Fusion Gun Turrets
+6461- 4 12 500   27    5   2000000   1	%One Fusion Gun Turret (Single)
+6461- 5 12 2000  108   20  8000000   4	%Four Fusion Gun Turrets (Single)
+6461- 6 12 5000  270   50  20000000  10	%Ten Fusion Gun Turrets (Single)
+6461- 7 12 8000  432   80  32000000  16	%Sixteen Fusion Gun Turrets (Single)
+6461- 8 12 10000 540   100 40000000  20	%Twenty Fusion Gun Turrets (Single)
+6462- 5 12 2000  54    20  8000000   2	%Two Fusion Gun Turrets (Double)
+6462- 6 12 5000  135   50  20000000  5	%Five Fusion Gun Turrets (Double)
+6462- 7 12 8000  216   80  32000000  8	%Eight Fusion Gun Turrets (Double)
+6462- 8 12 10000 270   100 40000000  10	%Ten Fusion Gun Turrets (Double)
+6461* 4 14	%null
+6461- 5 14 500   27    4   2000000   1	%One Fusion Gun Turret (Single)
+6461- 6 14 2000  108   16  8000000   4	%Four Fusion Gun Turrets (Single)
+6461- 7 14 5000  270   40  20000000  10	%Ten Fusion Gun Turrets (Single)
+6461- 8 14 8000  432   64  32000000  16	%Sixteen Fusion Gun Turrets (Single)
+6461- 9 14 10000 540   80  40000000  20	%Twenty Fusion Gun Turrets (Single)
+6462* 5 14	%null
+6462- 6 14 2000  54    16  8000000   2	%Two Fusion Gun Turrets (Double)
+6462- 7 14 5000  135   40  20000000  5	%Five Fusion Gun Turrets (Double)
+6462- 8 14 8000  216   64  32000000  8	%Eight Fusion Gun Turrets (Double)
+6462- 9 14 10000 270   80  40000000  10	%Ten Fusion Gun Turrets (Double)
+6461* 5 17	%null
+6461- 6 17 500   27    3   2000000   1	%One Fusion Gun Turret (Single)
+6461- 7 17 2000  108   12  8000000   4	%Four Fusion Gun Turrets (Single)
+6461- 8 17 5000  270   30  20000000  10	%Ten Fusion Gun Turrets (Single)
+6461- 9 17 8000  432   48  32000000  16	%Sixteen Fusion Gun Turrets (Single)
+6461- A 17 10000 540   60  40000000  20	%Twenty Fusion Gun Turrets (Single)
+6462* 6 17	%null
+6462- 7 17 2000  54    12  8000000   2	%Two Fusion Gun Turrets (Double)
+6462- 8 17 5000  135   30  20000000  5	%Five Fusion Gun Turrets (Double)
+6462- 9 17 8000  216   48  32000000  8	%Eight Fusion Gun Turrets (Double)
+6462- A 17 10000 270   60  40000000  10	%Ten Fusion Gun Turrets (Double)
+
+# Sandcaster Turrets [6-15 p74]
+6400! 6440 7	%Sandcaster Turrets
+#6440- s 7  1     13.5  4   250000    1	%Sandcaster Turret (Single)
+#6440- d 7  2     13.5  8   500000    1	%Sandcaster Turret (Double)
+#6440- t 7  3     13.5  12  750000    1	%Sandcaster Turret (Triple)
+#6440- s 8  1     13.5  3   250000    1	%Sandcaster Turret (Single)
+#6440- d 8  2     13.5  6   500000    1	%Sandcaster Turret (Double)
+#6440- t 8  3     13.5  9   750000    1	%Sandcaster Turret (Triple)
+#6440- s 10 1     13.5  2   250000    1	%Sandcaster Turret (Single)
+#6440- d 10 2     13.5  4   500000    1	%Sandcaster Turret (Double)
+#6440- t 10 3     13.5  6   750000    1	%Sandcaster Turret (Triple)
+#6440- s 16 1     13.5  1   250000    1	%Sandcaster Turret (Single)
+#6440- d 16 2     13.5  2   500000    1	%Sandcaster Turret (Double)
+#6440- t 16 3     13.5  3   750000    1	%Sandcaster Turret (Triple)
+6440! 6441	%Single Sandcaster Turrets
+6440! 6442	%Double Sandcaster Turrets
+6440! 6443	%Triple Sandcaster Turrets
+6441- 1 7  1     13.5  4   250000    1	%One Sandcaster Turret (Single)
+6441- 2 7  3     40.5  12  750000    3	%Three Sandcaster Turrets (Single)
+6441- 3 7  6     81    24  1500000   6	%Six Sandcaster Turrets (Single)
+6441- 4 7  8     108   32  2000000   8  %Eight Sandcaster Turrets (Single)
+6441- 5 7  10    135   40  2500000   10	%Ten Sandcaster Turrets (Single)
+6441- 6 7  20    270   80  5000000   20	%Twenty Sandcaster Turrets (Single)
+6441- 7 7  30    405   120 7500000   30	%Thirty Sandcaster Turrets (Single)
+6442- 3 7  6     40.5  24  1500000   3	%Three Sandcaster Turrets (Double)
+6442- 4 7  8     54    32  2000000   4	%Four Sandcaster Turrets (Double)
+6442- 5 7  10    67.5  40  2500000   5	%Five Sandcaster Turrets (Double)
+6442- 6 7  20    135   80  5000000   10	%Ten Sandcaster Turrets (Double)
+6442- 7 7  30    202.5 120 7500000   15	%Fifteen Sandcaster Turrets (Double)
+6443- 2 7  3     13.5  12  750000    1	%One Sandcaster Turret (Triple)
+6443- 3 7  6     27    24  1500000   2	%Two Sandcaster Turrets (Triple)
+6443- 7 7  30    135   120 7500000   10	%Ten Sandcaster Turrets (Triple)
+6441* 1 8	%null
+6441- 2 8  1     13.5  3   250000    1	%One Sandcaster Turret (Single)
+6441- 3 8  3     40.5  9   750000    3	%Three Sandcaster Turrets (Single)
+6441- 4 8  6     81    18  1500000   6	%Six Sandcaster Turrets (Single)
+6441- 5 8  8     108   24  2000000   8  %Eight Sandcaster Turrets (Single)
+6441- 6 8  10    135   30  2500000   10	%Ten Sandcaster Turrets (Single)
+6441- 7 8  20    270   60  5000000   20	%Twenty Sandcaster Turrets (Single)
+6441- 8 8  30    405   90  7500000   30	%Thirty Sandcaster Turrets (Single)
+6442* 3 8	%null
+6442- 4 8  6     40.5  18  1500000   3	%Three Sandcaster Turrets (Double)
+6442- 5 8  8     54    24  2000000   4	%Four Sandcaster Turrets (Double)
+6442- 6 8  10    67.5  30  2500000   5	%Five Sandcaster Turrets (Double)
+6442- 7 8  20    135   60  5000000   10	%Ten Sandcaster Turrets (Double)
+6442- 8 8  30    202.5 90  7500000   15	%Fifteen Sandcaster Turrets (Double)
+6443* 2 8	%null
+6443- 3 8  3     13.5  9   750000    1	%One Sandcaster Turret (Triple)
+6443- 4 8  6     27    18  1500000   2	%Two Sandcaster Turrets (Triple)
+6443* 7 8	%null
+6443- 8 8  30    135   90  7500000   10	%Ten Sandcaster Turrets (Triple)
+6441* 2 10	%null
+6441- 3 10 1     13.5  2   250000    1	%One Sandcaster Turret (Single)
+6441- 4 10 3     40.5  6   750000    3	%Three Sandcaster Turrets (Single)
+6441- 5 10 6     81    12  1500000   6	%Six Sandcaster Turrets (Single)
+6441- 6 10 8     108   16  2000000   8  %Eight Sandcaster Turrets (Single)
+6441- 7 10 10    135   20  2500000   10	%Ten Sandcaster Turrets (Single)
+6441- 8 10 20    270   40  5000000   20	%Twenty Sandcaster Turrets (Single)
+6441- 9 10 30    405   60  7500000   30	%Thirty Sandcaster Turrets (Single)
+6442* 4 10	%null
+6442- 5 10 6     40.5  12  1500000   3	%Three Sandcaster Turrets (Double)
+6442- 6 10 8     54    16  2000000   4	%Four Sandcaster Turrets (Double)
+6442- 7 10 10    67.5  20  2500000   5	%Five Sandcaster Turrets (Double)
+6442- 8 10 20    135   40  5000000   10	%Ten Sandcaster Turrets (Double)
+6442- 9 10 30    202.5 60  7500000   15	%Fifteen Sandcaster Turrets (Double)
+6443* 3 10	%null
+6443- 4 10 3     13.5  6   750000    1	%One Sandcaster Turret (Triple)
+6443- 5 10 6     27    12  1500000   2	%Two Sandcaster Turrets (Triple)
+6443* 8 10	%null
+6443- 9 10 30    135   60  7500000   10	%Ten Sandcaster Turrets (Triple)
+6441* 3 16	%null
+6441- 4 16 1     13.5  1   250000    1	%One Sandcaster Turret (Single)
+6441- 5 16 3     40.5  3   750000    3	%Three Sandcaster Turrets (Single)
+6441- 6 16 6     81    6   1500000   6	%Six Sandcaster Turrets (Single)
+6441- 7 16 8     108   8   2000000   8  %Eight Sandcaster Turrets (Single)
+6441- 8 16 10    135   10  2500000   10	%Ten Sandcaster Turrets (Single)
+6441- 9 16 20    270   20  5000000   20	%Twenty Sandcaster Turrets (Single)
+6441- A 16 30    405   30  7500000   30	%Thirty Sandcaster Turrets (Single)
+6442* 5 16	%null
+6442- 6 16 6     40.5  6   1500000   3	%Three Sandcaster Turrets (Double)
+6442- 7 16 8     54    8   2000000   4	%Four Sandcaster Turrets (Double)
+6442- 8 16 10    67.5  10  2500000   5	%Five Sandcaster Turrets (Double)
+6442- 9 16 20    135   20  5000000   10	%Ten Sandcaster Turrets (Double)
+6442- A 16 30    202.5 30  7500000   15	%Fifteen Sandcaster Turrets (Double)
+6443* 4 16	%null
+6443- 5 16 3     13.5  3   750000    1	%One Sandcaster Turret (Triple)
+6443- 6 16 6     27    6   1500000   2	%Two Sandcaster Turrets (Triple)
+6443* 9 16	%null
+6443- A 16 30    135   30  7500000   10	%Ten Sandcaster Turrets (Triple)
+
+# Disintegrator Turrets [6-16 p74]
+6400! 6480 18	%Disintegrator Turrets
+#6480- s 18 4000  27    6   5000000   1	%Disintegrator Turret (Single)
+#6480- d 18 8000  27    12  10000000  1	%Disintegrator Turret (Double)
+6480! 6481	%Single Disintegrator Turrets
+6480! 6482	%Double Disintegrator Turrets
+6481- 1 18 4000  27    6   5000000   1	%One Disintegrator Turret (Single)
+6481- 2 18 16000 108   12  20000000  4	%Four Disintegrator Turrets (Single)
+6481- 3 18 40000 270   60  50000000  10	%Ten Disintegrator Turrets (Single)
+6481- 4 18 64000 432   192 80000000  16	%Sixteen Disintegrator Turrets (Single)
+6481- 5 18 80000 540   120 100000000 20	%Twenty Disintegrator Turrets (Single)
+6482- 2 18 16000 54    12  20000000  2	%Two Disintegrator Turrets (Double)
+6482- 3 18 40000 135   60  50000000  5	%Five Disintegrator Turrets (Double)
+6482- 4 18 64000 216   192 80000000  8	%Eight Disintegrator Turrets (Double)
+6482- 5 18 80000 270   120 100000000 10	%Ten Disintegrator Turrets (Double)
+
+# Screens [p80]
+0000! 7000 12	%Defensive Screens
+# Nuclear Dampers and optimised nuclear dampers [7-2, 7-3 p80]
+7000! 7100 12	%Nuclear Damper
+7100- 1 12 2500  675 740 50000000	%Nuclear Damper
+7100- 1 14 750   28  30  40000000	%Optimised Nuclear Damper
+7100- 1 15 500   16  18  35000000	%Optimised Nuclear Damper
+7100- 1 16 450   13  14  25000000	%Optimised Nuclear Damper
+7100- 1 17 425   11  12  15000000	%Optimised Nuclear Damper
+7100- 1 18 400   9   10  10000000	%Optimised Nuclear Damper
+7100- 1 19 450   8   8   5000000	%Optimised Nuclear Damper
+7100- 1 20 550   7   7   4000000	%Optimised Nuclear Damper
+7100- 1 21 610   6   5   3000000	%Optimised Nuclear Damper
+7100+ 2 13 5000  540 590 40000000	%Nuclear Damper
+7100+ 3 13 7500  270 300 45000000	%Nuclear Damper
+7100+ 4 14 10000 110 120 30000000	%Nuclear Damper
+7100+ 5 14 12500 135 150 35000000	%Nuclear Damper
+7100+ 6 14 15000 160 180 38000000	%Nuclear Damper
+7100+ 7 15 17500 135 145 30000000	%Nuclear Damper
+7100+ 8 15 20000 200 220 40000000	%Nuclear Damper
+7100+ 9 15 22500 270 300 50000000	%Nuclear Damper
+7100+ A 16 25000 160 175 45000000	%Nuclear Damper
+7100+ B 17 27500 190 210 50000000	%Nuclear Damper
+7100+ C 18 30000 215 230 55000000	%Nuclear Damper
+7100+ D 19 32500 245 250 60000000	%Nuclear Damper
+7100+ E 20 35000 270 270 65000000	%Nuclear Damper
+7100+ F 21 37500 295 290 70000000	%Nuclear Damper
+
+# Meson Screens and Optimised Meson Screens [7-3 p80]
+7000! 7200 12	%Meson Screen
+7200+ 1 12 *0.015 1220 910 80000000	%Meson Screen
+7200- 1 16 *0.135 108  85  55000000	%Optimised Meson Screen
+7200- 1 17 *0.100 90   75  23000000	%Optimised Meson Screen
+7200- 1 18 *0.065 84   65  17000000	%Optimised Meson Screen
+7200- 1 19 *0.035 65   55  9000000	%Optimised Meson Screen
+7200- 1 20 *0.015 40   45  4000000	%Optimised Meson Screen
+7200- 1 21 *0.010 33   40  1000000	%Optimised Meson Screen
+7200+ 2 13 *0.030 400  300 50000000	%Meson Screen
+7200+ 3 13 *0.045 610  460 55000000	%Meson Screen
+7200+ 4 14 *0.060 215  160 40000000	%Meson Screen
+7200+ 5 14 *0.075 270  230 45000000	%Meson Screen
+7200+ 6 14 *0.090 325  290 50000000	%Meson Screen
+7200+ 7 15 *0.105 270  245 40000000	%Meson Screen
+7200+ 8 15 *0.120 400  360 50000000	%Meson Screen
+7200+ 9 15 *0.135 540  490 60000000	%Meson Screen
+7200+ A 16 *0.150 325  310 50000000	%Meson Screen
+7200+ B 17 *0.165 375  340 60000000	%Meson Screen
+7200+ C 18 *0.180 435  390 70000000	%Meson Screen
+7200+ D 19 *0.195 485  460 80000000	%Meson Screen
+7200+ E 20 *0.210 540  560 90000000	%Meson Screen
+7200+ F 21 *0.225 595  640 100000000	%Meson Screen
+
+# Black Globes and optimised Black Globes [7-4 p80]
+7000! 7300 15	%Black Globes
+7300- 1 15     50  135 130  400000000	%Black Globe
+7300- 1 16     40  128 128  400000000	%Optimised Black Globe
+7300- 1 17     35  126 126  400000000	%Optimised Black Globe
+7300- 1 18     30  124 124  400000000	%Optimised Black Globe
+7300- 1 19     25  122 122  400000000	%Optimised Black Globe
+7300- 1 20     20  120 120  400000000	%Optimised Black Globe
+7300- 1 21     15  119 118  400000000	%Optimised Black Globe
+7300+ 2 15     55  200 190  600000000	%Black Globe
+7300+ 3 15     60  270 250  800000000	%Black Globe
+7300+ 4 15     65  335 320 1000000000	%Black Globe
+7300+ 5 16     65  270 240  500000000	%Black Globe
+7300+ 6 16     70  400 350  700000000	%Black Globe
+7300+ 7 16     75  475 410  900000000	%Black Globe
+7300+ 8 17     75  270 240  500000000	%Black Globe
+7300+ 9 18     75  270 230  500000000	%Black Globe
+7300+ A 19     75  270 210  500000000	%Black Globe
+
+# Proton screens and optimised proton screens [7-5 p80]
+7000! 7400 19	%Proton Screen
+7400+ 1 19  25000 1350 700   75000000	%Proton Screen
+7400- 1 20   9000   12   6   90000000	%Optimised Proton Screen
+7400- 1 21   8000   10   5   78000000	%Optimised Proton Screen
+7400+ 2 20  50000  410 190   60000000	%Proton Screen
+7400+ 3 20  75000  550 240   70000000	%Proton Screen
+7400+ 4 21 100000  620 300   45000000	%Proton Screen
+7400+ 5 21 125000  720 430   55000000	%Proton Screen
+7400+ 6 21 150000  325 165   60000000	%Proton Screen
+
+# White globes and optimised white globes [7-6 p80]
+7000! 7500 20	%White Globe
+7500+ 1 20    100   30  25  900000000	%White Globe
+7500+ 1 21     50   60  55  850000000	%Optimised White Globe
+7500+ 2 20    200   40  30  910000000	%White Globe
+7500+ 3 20    300   55  35  750000000	%White Globe
+7500+ 4 21    400   30  20  800000000	%White Globe
+7500+ 5 21    500   40  30  850000000	%White Globe
+7500+ 6 21    600   55  35  900000000	%White Globe
+
+# Bridge [p81]
+0000! 8000 5	%Bridge Section
+8000! 8100 5	%Environment
+8000! 8400 5	%Misc Devices
+# Enviromental and Life Support things [8-1 p81]
+8100+ a 5  *0.001 *0.005 *0.005 *10	%Basic Environment (heat, lights)
+8100+ b 5  *0.001 *0.005 *0.005 *300	%Basic Life-Support (sealed environ, atmos, water)
+8100+ c 6  *0.002 *0.003 *0.003 *200	%Extended Life-Support (food, waste recycle)
+8100+ z 6  *0.004 *0.013 *0.013 *510	%Full Life-Support (all of above)
+8400+ a 5  0.005  0.100  0.100  200	%Intake Compressor
+8400+ b 5  0.002  3.000  0.200  5000	%Air Lock
+
+# The following four lines could be uncommented and the two after them
+#	commented if it was desired to have the following two items in
+#	menus by themselves.  originally this was done, but it was later
+#	changed to save heaps of effort.
+#8000! 8200 10	%Grav Plates
+#8000! 8300 10	%Inertial Compensators
+#8200+ a 10 *0.050 *0.010 *0.020 *500	%Artifical Grav Plates
+#8300+ a 10 *0.020 *0.010 *0.020 *250	%Inertial Compensators
+8000+ a 10 *0.050 *0.010 *0.020 *500	%Artifical Grav Plates
+8000+ a 10 *0.020 *0.010 *0.020 *250	%Inertial Compensators
+
+# Computers [8-3 p81]
+8000! 85FF 5	%Computers
+85FF! 8500 5	%Model 0 Computer
+85FF! 8510 5	%Model 1 Computer
+85FF! 8520 7	%Model 2 Computer
+85FF! 8530 9	%Model 3 Computer
+85FF! 8540 10	%Model 4 Computer
+85FF! 8550 11	%Model 5 Computer
+85FF! 8560 12	%Model 6 Computer
+85FF! 8570 13	%Model 7 Computer
+85FF! 8580 14	%Model 8 Computer
+85FF! 8590 15	%Model 9 Computer
+85FF! 85A0 16	%Model 10 Computer
+85FF! 85B0 17	%Model 11 Computer
+85FF! 85C0 18	%Model 12 Computer
+85FF! 85D0 19	%Model 13 Computer
+85FF! 85E0 20	%Model 14 Computer
+85FF! 85F0 21	%Model 15 Computer
+# define the new UCP codes n = normal, f = fib, b = bis
+8500- n 5  0.100  50   10   6000000 $ $ 500 5		%Model 0 Computer
+8500- f 5  0.200 100   20  10000000 $ $ 500 5		%Model 0/fib Computer
+8500- b 5  0.100  50   10  13000000 $ $ 1000 10		%Model 0/bis Computer
+8500- n 6  0.010 5.0  1.0    600000 $ $ 500 5		%Model 0 Computer
+8500- f 6  0.020  10  2.0   1000000 $ $ 500 5		%Model 0/fib Computer
+8500- b 6  0.010 5.0  1.0   1300000 $ $ 1000 10		%Model 0/bis Computer
+8500- n 7  0.002 1.0  0.2    120000 $ $ 500 5		%Model 0 Computer
+8500- f 7  0.004 2.0  0.4    200000 $ $ 500 5		%Model 0/fib Computer
+8500- b 7  0.002 1.0  0.2    260000 $ $ 1000 10		%Model 0/bis Computer
+8500- n 8  0.001 0.5  0.1     60000 $ $ 500 5		%Model 0 Computer
+8500- f 8  0.002 1.0  0.2    100000 $ $ 500 5		%Model 0/fib Computer
+8500- b 8  0.001 0.5  0.1    130000 $ $ 1000 10		%Model 0/bis Computer
+8500- z 5  0.100  50   15   9000000 $ $ 500 5		%Model 0 Computer (ECP)
+8500- y 5  0.200 100   30  15000000 $ $ 500 5		%Model 0/fib Computer (ECP)
+8500- x 5  0.100  50   15  19500000 $ $ 1000 10		%Model 0/bis Computer (ECP)
+8500- z 6  0.010 5.0  1.5    900000 $ $ 500 5		%Model 0 Computer (ECP)
+8500- y 6  0.020  10  3.0   1500000 $ $ 500 5		%Model 0/fib Computer (ECP)
+8500- x 6  0.010 5.0  1.5   1950000 $ $ 1000 10		%Model 0/bis Computer (ECP)
+8500- z 7  0.002 1.0  0.3    180000 $ $ 500 5		%Model 0 Computer (ECP)
+8500- y 7  0.004 2.0  0.6    300000 $ $ 500 5		%Model 0/fib Computer (ECP)
+8500- x 7  0.002 1.0  0.3    390000 $ $ 1000 10		%Model 0/bis Computer (ECP)
+8500- z 8  0.001 0.5  0.15    90000 $ $ 500 5		%Model 0 Computer (ECP)
+8500- y 8  0.002 1.0  0.3    150000 $ $ 500 5		%Model 0/fib Computer (ECP)
+8500- x 8  0.001 0.5  0.15   195000 $ $ 1000 10		%Model 0/bis Computer (ECP)
+8510- n 5  0.200 200   50  40000000 $ $ 5000 10		%Model 1 Computer
+8510- f 5  0.400 400   90  65000000 $ $ 5000 10		%Model 1/fib Computer
+8510- n 6  0.020  20    5   4000000 $ $ 5000 10		%Model 1 Computer
+8510- f 6  0.040  40    9   6500000 $ $ 5000 10		%Model 1/fib Computer
+8510- b 6  0.030  20    5   9000000 $ $ 7500 15		%Model 1/bis Computer
+8510- n 7  0.004 4.0  1.0    800000 $ $ 5000 10		%Model 1 Computer
+8510- f 7  0.008 8.0  1.8   1300000 $ $ 5000 10		%Model 1/fib Computer
+8510- b 7  0.006 4.0  1.0   1800000 $ $ 7500 15		%Model 1/bis Computer
+8510- n 8  0.002 2.0  0.5    400000 $ $ 5000 10		%Model 1 Computer
+8510- f 8  0.004 4.0  0.9    650000 $ $ 5000 10		%Model 1/fib Computer
+8510- b 8  0.003 2.0  0.5    900000 $ $ 7500 15		%Model 1/bis Computer
+8510- n 5  0.200 200   75  60000000 $ $ 5000 10		%Model 1 Computer (ECP)
+8510- f 5  0.400 400  135  97500000 $ $ 5000 10		%Model 1/fib Computer (ECP)
+8510- n 6  0.020  20  7.5   6000000 $ $ 5000 10		%Model 1 Computer (ECP)
+8510- f 6  0.040  40 13.5   9750000 $ $ 5000 10		%Model 1/fib Computer (ECP)
+8510- b 6  0.030  20  7.5  13500000 $ $ 7500 15		%Model 1/bis Computer (ECP)
+8510- n 7  0.004 4.0  1.5   1200000 $ $ 5000 10		%Model 1 Computer (ECP)
+8510- f 7  0.008 8.0  2.7   1950000 $ $ 5000 10		%Model 1/fib Computer (ECP)
+8510- b 7  0.006 4.0  1.5   2700000 $ $ 7500 15		%Model 1/bis Computer (ECP)
+8510- n 8  0.002 2.0  0.75   600000 $ $ 5000 10		%Model 1 Computer (ECP)
+8510- f 8  0.004 4.0  1.35   975000 $ $ 5000 10		%Model 1/fib Computer (ECP)
+8510- b 8  0.003 2.0  0.75  1350000 $ $ 7500 15		%Model 1/bis Computer (ECP)
+8520- n 7  0.006 7.0  1.8   3800000 $ $ 10000 15	%Model 2 Computer
+8520- f 7  0.012  14  3.2   6000000 $ $ 10000 15	%Model 2/fib Computer
+8520- n 8  0.003 3.5  0.9   1900000 $ $ 10000 15	%Model 2 Computer
+8520- f 8  0.006 7.0  1.6   3000000 $ $ 10000 15	%Model 2/fib Computer
+8520- b 8  0.004 3.5  0.9   3800000 $ $ 15000 20	%Model 2/bis Computer
+8520- z 7  0.006 7.0  2.7   5700000 $ $ 10000 15	%Model 2 Computer (ECP)
+8520- y 7  0.012  14  4.8   9000000 $ $ 10000 15	%Model 2/fib Computer (ECP)
+8520- z 8  0.003 3.5  1.35  2850000 $ $ 10000 15	%Model 2 Computer (ECP)
+8520- y 8  0.006 7.0  2.4   4500000 $ $ 10000 15	%Model 2/fib Computer (ECP)
+8520- x 8  0.004 3.5  1.35  5700000 $ $ 15000 20	%Model 2/bis Computer (ECP)
+8530+ n 9  0.004 4.0  1.0   3800000 $ $ 20000 25	%Model 3 Computer
+8530+ f 9  0.008 8.0  1.9   5800000 $ $ 20000 25	%Model 3/fib Computer
+8530+ z 9  0.004 4.0  1.5   5700000 $ $ 20000 25	%Model 3 Computer (ECP)
+8530+ y 9  0.008 8.0  2.85  8700000 $ $ 20000 25	%Model 3/fib Computer (ECP)
+8540+ n 10 0.005 5.5  1.4   6400000 $ $ 50000 30	%Model 4 Computer
+8540+ f 10 0.010  11  2.8   9700000 $ $ 50000 30	%Model 4/fib Computer
+8540+ z 10 0.005 5.5  2.1   9600000 $ $ 50000 30	%Model 4 Computer (ECP)
+8540+ y 10 0.010  11  4.2  14550000 $ $ 50000 30	%Model 4/fib Computer (ECP)
+8550+ n 11 0.006 6.5  1.6   9700000 $ $ 100000 35	%Model 5 Computer
+8550+ f 11 0.012  13  3.2  14800000 $ $ 100000 35	%Model 5/fib Computer
+8550+ z 11 0.006 6.5  2.4  14550000 $ $ 100000 35	%Model 5 Computer (ECP)
+8550+ y 11 0.012  13  4.8  22200000 $ $ 100000 35	%Model 5/fib Computer (ECP)
+8560+ n 12 0.007   9  2.4  11800000 $ $ 500000 45	%Model 6 Computer
+8560+ f 12 0.014  18  4.8  18000000 $ $ 500000 45	%Model 6/fib Computer
+8560+ z 12 0.007   9  3.6  17700000 $ $ 500000 45	%Model 6 Computer (ECP)
+8560+ y 12 0.014  18  7.2  27000000 $ $ 500000 45	%Model 6/fib Computer (ECP)
+8570+ n 13 0.008  12  3.0  17400000 $ $ 5000000 65	%Model 7 Computer
+8570+ f 13 0.016  24  6.0  21700000 $ $ 5000000 65	%Model 7/fib Computer
+8570+ z 13 0.008  12  4.5  26100000 $ $ 5000000 65	%Model 7 Computer (ECP)
+8570+ y 13 0.016  24  9.0  32450000 $ $ 5000000 65	%Model 7/fib Computer (ECP)
+8580+ n 14 0.009  14  3.5  23900000 $ $ 50000000 95	%Model 8 Computer
+8580+ f 14 0.018  28  7.0  30500000 $ $ 50000000 95	%Model 8/fib Computer
+8580+ z 14 0.009  14 5.25  35850000 $ $ 50000000 95	%Model 8 Computer (ECP)
+8580+ y 14 0.018  28 10.5  45750000 $ $ 50000000 95	%Model 8/fib Computer (ECP)
+8590+ n 15 0.010 17.5 4.4  30500000 $ $ 100000000 120	%Model 9 Computer
+8590+ f 15 0.020  35  8.8  43000000 $ $ 100000000 120	%Model 9/fib Computer
+8590+ z 15 0.010 17.5 6.6  45750000 $ $ 100000000 120	%Model 9 Computer (ECP)
+8590+ y 15 0.020  35 13.2  64500000 $ $ 100000000 120	%Model 9/fib Computer (ECP)
+85A0+ n 16 0.011  20  5.0  43000000 $ $ 500000000 200	%Model 10 Computer
+85A0+ f 16 0.022  40   10  65500000 $ $ 500000000 200	%Model 10/fib Computer
+85A0+ z 16 0.011  20  7.5  64500000 $ $ 500000000 200	%Model 10 Computer (ECP)
+85A0+ y 16 0.022  40   15  98250000 $ $ 500000000 200	%Model 10/fib Computer (ECP)
+85B0+ n 17 0.012  13  3.3  65500000 $ $ 20000000000 1000	%Model 11 Computer
+85B0+ f 17 0.024  26  6.6  87000000 $ $ 20000000000 1000	%Model 11/fib Computer
+85B0+ z 17 0.012  13  4.95 98250000 $ $ 20000000000 1000	%Model 11 Computer (ECP)
+85B0+ y 17 0.024  26  6.6 130500000 $ $ 20000000000 1000	%Model 11/fib Computer (ECP)
+85C0+ n 18 0.013 15.5 3.9  87000000 $ $ 100000000000 10000	%Model 12 Computer
+85C0+ f 18 0.026  31  7.8 108500000 $ $ 100000000000 10000	%Model 12/fib Computer
+85C0+ z 18 0.013 15.5 5.85 130500000 $ $ 100000000000 10000	%Model 12 Computer (ECP)
+85C0+ y 18 0.026  31 11.7 162750000 $ $ 100000000000 10000	%Model 12/fib Computer (ECP)
+85D0+ n 19 0.014  18  4.5 108500000 $ $ 500000000000 25000	%Model 13 Computer
+85D0+ f 19 0.028  36  9.0 130000000 $ $ 500000000000 25000	%Model 13/fib Computer
+85D0+ z 19 0.014  18 6.75 162750000 $ $ 500000000000 25000	%Model 13 Computer (ECP)
+85D0+ y 19 0.028  36 13.5 195000000 $ $ 500000000000 25000	%Model 13/fib Computer (ECP)
+85E0+ n 20 0.015  21  5.3 130000000 $ $ 2000000000000 50000	%Model 14 Computer
+85E0+ f 20 0.030  42 10.6 150500000 $ $ 2000000000000 50000	%Model 14/fib Computer
+85E0+ z 20 0.015  21 7.95 150500000 $ $ 2000000000000 50000	%Model 14 Computer (ECP)
+85E0+ y 20 0.030  42 15.9 225750000 $ $ 2000000000000 50000	%Model 14/fib Computer (ECP)
+85F0+ n 21 0.016  24  6.0 150500000 $ $ 50000000000000 100000	%Model 15 Computer
+85F0+ f 21 0.032  48   12 170000000 $ $ 50000000000000 100000	%Model 15/fib Computer
+85F0+ z 21 0.016  24  9.0 225750000 $ $ 50000000000000 100000	%Model 15 Computer (ECP)
+85F0+ y 21 0.032  48   18 255000000 $ $ 50000000000000 100000	%Model 15/fib Computer (ECP)
+
+# Control Panel Units [8-4 p81]
+8000! 8600 5	%Control Panel Units
+8600+ a 5  $      0.40 0.100 5      $ $ -0.2	%Basic Mechanical
+8600+ b 6  0.0005 0.40 0.500 30     $ $ -0.4	%Enhanced Mechanical
+8600+ c 7  0.0005 0.10 0.005 70     $ $ -0.5	%Electronic
+8600+ d 8  0.0005 0.01 0.005 200    $ $ -0.7	%Electronic Linked
+8600+ e 9  0.0005 0.01 0.001 350    $ $ -0.8	%Computer Linked
+8600+ f 10 0.0010 0.02 0.010 500    $ $ -1.0	%Dynamic Linked
+8600+ g 13 0.0020 0.03 0.020 1000   $ $ -1.5	%Holographic Linked
+8600+ t 5  $      0.40 0.150 7.5    $ $ -0.2	%Basic Mechanical (ECP)
+8600+ u 6  0.0005 0.40 0.750 45     $ $ -0.4	%Enhanced Mechanical (ECP)
+8600+ v 7  0.0005 0.10 0.0075 105   $ $ -0.5	%Electronic (ECP)
+8600+ w 8  0.0005 0.01 0.0075 300   $ $ -0.7	%Electronic Linked (ECP)
+8600+ x 9  0.0005 0.01 0.0015 525   $ $ -0.8	%Computer Linked (ECP)
+8600+ y 10 0.0010 0.02 0.015 750    $ $ -1.0	%Dynamic Linked (ECP)
+8600+ z 13 0.0020 0.03 0.030 1500   $ $ -1.5	%Holographic Linked (ECP)
+
+# and the add ons... [8-5 p81]
+8000! 8700 9	%Control Panel Add-ons
+8700+ j 9  0.0050 0.50 0.200 20000  $ $ -50	%Heads-up Display
+8700+ k 12 0.0500 2.00 1.000 500000 $ $ -1500	%Large Holodisplay
+8700+ l 13 0.0200 1.00 0.500 100000 $ $ -200	%Heads-up Holodisplay
+8700+ j 9  0.0050 0.50 0.300 30000  $ $ -50	%Heads-up Display (ECP)
+8700+ k 12 0.0500 2.00 1.500 750000 $ $ -1500	%Large Holodisplay (ECP)
+8700+ l 13 0.0200 1.00 0.750 150000 $ $ -200	%Heads-up Holodisplay (ECP)
+
+# and finally for this section...
+# Electronic Circuit Protection  [8-6 p81]
+# This requires a special case in the main program code...the multaplicative
+# effects of the below should only effect the components whose codes are
+# 85xx, 86xx and 87xx.  One possible way around this would be to define
+# separate entries for the computers and add-ons that include circuit
+# protection (this might actually be a better way to do it).  Currently
+# it will be left as it is pending further thought.  It is implemented as
+# separate entries, since leaving it as below resulted in a much uglier
+# recalculation routine.
+#8000! 8800	%ECP
+#8800+ 0 0  $ $ *1.5 *1.5	%Electronic Circuit Protection
+
+0000! 9000	%Accomodations
+# Accomodations [p82]
+9000! 9100	%Vehicle Positions
+9100+ a 0  $      1.0  0.02 100		%Vehicle Crew Position - None
+9100+ b 0  $      2.0  0.02 100		%Vehicle Crew Position - Cramped
+9100+ c 0  $      3.0  0.02 100		%Vehicle Crew Position - Adequate
+9100+ d 0  $      4.0  0.02 100		%Vehicle Crew Position - Roomy
+9000! 9200	%Starship Positions
+9200+ a 0  $      13.5 0.5  5000	%Bunk
+9200+ b 0  0.001  13.5 1.0  50000	%Low Berth
+9200+ c 0  0.002  27.0 2.0  100000	%Emergency Low Berth
+9200+ d 0  0.002  27.0 2.0  40000	%Small Stateroom
+9200+ e 0  0.003  54.0 4.0  400000	%Stateroom
+9200+ f 0  0.001  13.5 1.0  20000	%Double Occupancy Small Stateroom (per person)
+9200+ g 0  0.0015 27.0 2.0  200000	%Double Occupancy Stateroom (per person)
+
+9000! 9300	%Subordinate Craft
+# Subordinate Craft carrying
+9300! 9310	%Normal Launch Facilities
+9310- 0 0  $ 1.5 $ 150 $ 0	%Carried Subordinate Vehicle (1 kL of craft volume)
+9310- 0 0  $ 1.3 $ 150 $ 270	%Carried Subordinate Small Craft (1 kL of craft volume)
+9310- 0 0  $ 1.1 $ 150 $ 1350	%Carried Subordinate Ship (1 kL of craft volume)
+
+9300! 9320	%Launch Tubes
+9320+ 0 0  $ 25  $ 150		%Launch Tube (1 kL of craft volume)
+
+0000! A000	%Fuel Section
+# Fuel [p83]
+A000! A100 8	%Fuel Purification Plant
+A100- p 8  0.010 0.70 1.5 200 $ 135	%Fuel Purification Plant TL8
+A100- p 9  0.009 0.60 1.2 190 $ 120	%Fuel Purification Plant TL9
+A100- p 10 0.008 0.55 1.1 180 $ 105	%Fuel Purification Plant TL10
+A100- p 11 0.007 0.45 0.9 170 $ 95	%Fuel Purification Plant TL11
+A100- p 12 0.006 0.40 0.8 160 $ 80	%Fuel Purification Plant TL12
+A100- p 13 0.005 0.35 0.7 150 $ 65	%Fuel Purification Plant TL13
+A100- p 14 0.005 0.25 0.5 140 $ 55	%Fuel Purification Plant TL14
+A100+ p 15 0.005 0.20 0.4 150 $ 40	%Fuel Purification Plant TL15
+A100+ p 16 0.005 0.15 0.3 160 $ 25	%Fuel Purification Plant TL16
+A100+ p 17 0.005 0.05 0.1 170 $ 15	%Fuel Purification Plant TL17
+
+#A000! A300	%Fuel Scoops
+#A300+ s 0  $ $ $ *75			%Fuel Scoops
+A000+ s 0  $ $ $ *75			%Fuel Scoops
+
+# these extra fuel tanks are somewhat difficult to put in this database:
+#A000! A200	%Special Fuel Tankage
+#A200+ c 0  $ $ $ 35			%Collapsible Fuel Tank 1 kL
+#A200+ d 0  $ 1 $ 75			%Dismountable Fuel Tank 1 kL
+#A200+ e 0  $ 1 $ 35			%Exterior Dismountable Fuel Tank 1 kL
+#A200+ f 0  $ $ $ 75			%Drop Fuel Tank 1 kL
+
+A000! A400	%Cargo Holds
+A400+ c 0  $ 1 $ $ $ $ $ $ 1	%Zero-G Cargo Hold (1 kL)
+A400+ g 0  $ 1			%Cargo Hold (1 kL)
+
+A000! A500	%Power Plant Fuel
+A500+ 0 0  $ 1 $ $ $ $ $ $ 1	%Fuel Tankage (1 kL)
+
+# The end of the MegaTraveller ship design database

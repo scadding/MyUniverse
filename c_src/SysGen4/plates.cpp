@@ -35,8 +35,7 @@ void   plates(int buf[20][28], int num)
             for(j = 0; j < 28; j++)
                 if(buf[i][j] == 0) {
                     cbuf[i][j] = 0;
-                }
-                else {
+                } else {
                     cbuf[i][j] = -999;
                 }
         if(find(buf, &t, &h, 0)) {

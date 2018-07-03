@@ -78,8 +78,7 @@ void scatter(int arr[], int max_arr, int slide)
         /* take one away */
         do {
             i = Rand()%max_arr;
-        }
-        while(arr[i] == 0);
+        } while(arr[i] == 0);
         arr[i]--;
         /* add back on */
         i = Rand()%max_arr;
@@ -94,8 +93,7 @@ int lookup(int arr[], int tot)
     i = 0;
     do {
         tot -= arr[i++];
-    }
-    while(tot >= 0);
+    } while(tot >= 0);
     return(i - 1);
 }
 
@@ -117,8 +115,7 @@ char   *getname()
             strcat(nbuf, alcon[lookup(lcon, Rand()%216)]);
         }
         type = type/2;
-    }
-    while(leng--);
+    } while(leng--);
     nbuf[0] += 'A' - 'a';
     return(nbuf);
 }

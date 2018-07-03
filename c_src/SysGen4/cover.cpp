@@ -42,15 +42,12 @@ void cover(int cov[20][28],
                     }
                 if(i == len) {
                     cov[t][h] = C_DEEP;
-                }
-                else {
+                } else {
                     cov[t][h] = C_WATER;
                 }
-            }
-            else if(row < sumfreeze) {
+            } else if(row < sumfreeze) {
                 cov[t][h] = C_WICE;
-            }
-            else {
+            } else {
                 cov[t][h] = C_SICE;
             }
         }
@@ -101,8 +98,7 @@ void cover(int cov[20][28],
             tmp = tempat(&temp, row, 32);
             if((tmp < 20.0) || (tmp > 40.0)) {
                 set(cov, t, h, C_OPEN);
-            }
-            else {
+            } else {
                 len = 1;
             }
         }
@@ -117,8 +113,7 @@ void cover(int cov[20][28],
         for(h = 0; h < 28; h++) {
             if(cov[t][h] == -1) {
                 set(cov, t, h, C_OPEN);
-            }
-            else if(cov[t][h] != C_OPEN) {
+            } else if(cov[t][h] != C_OPEN) {
                 continue;
             }
             row = getrow(t, h);
@@ -151,8 +146,7 @@ int contigious(int buf[20][28],
             if(buf[t][h] == val) {
                 tbuf[t][h] = 0;
                 s = 1;
-            }
-            else {
+            } else {
                 tbuf[t][h] = -1;
             }
     if(!s) {
@@ -182,8 +176,7 @@ int iscontig(int tbuf[20][28], int t, int h, int *size)
 
     if(tbuf[t][h] == -1) {
         return(0);
-    }
-    else if(tbuf[t][h] == 0) {
+    } else if(tbuf[t][h] == 0) {
         tbuf[t][h] = 1;
         (*size)--;
     }
