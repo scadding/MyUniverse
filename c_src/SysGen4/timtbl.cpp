@@ -43,7 +43,7 @@ int    main(int argc, char **argv)
 {
     int     mod, j;
     ship    *shptr;
-    char    inbuf[40];
+    char    inbuf[256];
     int     h, m, l;
 
     if(argc > 1) {

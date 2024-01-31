@@ -18,7 +18,7 @@ int main(int argc, char **argv)
     int     t, depth, size;
     long    loc;
     int     ori;
-    char    inbuf[20];
+    char    inbuf[256];
     int     plates[20][28];
     int     land[20][28];
     int     cov[20][28];

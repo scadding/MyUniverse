@@ -16,7 +16,7 @@ int main(int argc, char **argv)
     sistem  syst;
     body    *s;
     long    x, y, z;
-    char    inbuf[40];
+    char    inbuf[256];
 
     if((argc < 3) || (argc > 5)) {
         printf("Usage: sysgen X Y Z [time]\n");
@@ -145,7 +145,7 @@ void hex(body *s)
     int     i, j;
     int     wide, high;
     ml      *mptr;
-    char    inbuf[20];
+    char    inbuf[256];
 
     mkmap(s);
     for(mptr = smap; mptr; mptr = mptr->next) {
