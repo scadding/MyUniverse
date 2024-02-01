@@ -100,12 +100,12 @@ class TravellerCharacter:
 				skill = self.tm.run('Traveller', 'Auto Skill', i, 1)
 				self.IncrementSkill(skill)
 	def GetSkill(self):
-		i = self.tm.getRandomIndex('Traveller', 'Skill Types')
+		i = self.tm.get_random_index('Traveller', 'Skill Types')
 		t = self.tm.run('Traveller', 'Skill Types', i, 0)
 		a = self.tm.run('Traveller', 'Skill Types', i, 1)
 		if a != '':
 			v = self.tm.run('Traveller', 'Skill Types', i, 2)
-			if self.attributes[a].value < v:
+			if self.attributes[a].value < int(v):
 				self.GetSkill()
 				return
 		self.IncrementSkill(self.tm.run(self.career, t))
@@ -119,7 +119,7 @@ class TravellerCharacter:
 		for i in range(self.term):
 			self.MusterBenefit()
 	def MusterBenefit(self):
-		roll = self.tm.getRandomIndex(self.career, 'Muster Benefit')
+		roll = self.tm.get_random_index(self.career, 'Muster Benefit')
 		if self.grade >= 5:
 			roll += 1
 		b = self.tm.run(self.career, 'Muster Benefit', roll, 0)
@@ -163,7 +163,7 @@ class TravellerCharacter:
 		if(c != ''):
 			self.career = c
 		else:
-			roll = self.tm.getRandomIndex('Traveller', 'career')
+			roll = self.tm.get_random_index('Traveller', 'career')
 			self.career = self.tm.run('Traveller', 'career', roll, 0)
 	def GetDM(self, s):
 		dm = 0
@@ -176,7 +176,7 @@ class TravellerCharacter:
 					dm += int(self.tm.run('Traveller', 'DM', i, 1))
 		return dm
 	def Enlist(self):
-		self.careerIndex = self.tm.getRandomIndex('Traveller', 'career')
+		self.careerIndex = self.tm.get_random_index('Traveller', 'career')
 		enlist = dice(2)
 		dmName = self.tm.run('Traveller', 'career', self.careerIndex, 0) + ' Enlistment'
 		enlist += self.GetDM(dmName)
@@ -185,7 +185,7 @@ class TravellerCharacter:
 		else:
 			self.drafted = True
 			self.DesiredCareer = self.tm.run('Traveller', 'career', self.careerIndex)
-			self.careerIndex = self.tm.getRandomIndex('Traveller', 'career')
+			self.careerIndex = self.tm.get_random_index('Traveller', 'career')
 			self.career = self.tm.run('Traveller', 'career', self.careerIndex)
 			self.history += 'Failed Enlistment in the ' +  self.DesiredCareer + '<br>'
 			self.history += 'Drafted into the ' +  self.career + '<br>'
@@ -259,5 +259,5 @@ if __name__ == '__main__':
 	for j in range(0, 100):
 		f = TravellerCharacter()
 		f.generate()
-		print f.UPP()
+		print(f.UPP())
 

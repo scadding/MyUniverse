@@ -192,7 +192,7 @@ def main():
     EvalConstant.vars_ = vars_
     for test,expected in tests:
         ret = comp_expr.parseString(test)[0]
-        print test, expected, ret.eval()
+        print(test, expected, ret.eval())
 
 def evalString(s):
     ret = comp_expr.parseString(s)[0]

@@ -45,20 +45,19 @@ class generator:
     def objplural(self):
         result = self.obj()
 
-	pluralform = {"city": "cities",
-		    "cross": "crosses",
-		    "fox": "foxes",
-		    "knife": "knives",
-		    "lotus": "lotuses",
-		    "staff": "staves",
-		    "wolf": "wolves",
-		    }
-	
-	if result in pluralform:
-	    result = pluralform[result]
-	else:
-	    result = result + "s"
-
+        pluralform = {"city": "cities",
+                "cross": "crosses",
+                "fox": "foxes",
+                "knife": "knives",
+                "lotus": "lotuses",
+                "staff": "staves",
+                "wolf": "wolves",
+                }
+        
+        if result in pluralform:
+            result = pluralform[result]
+        else:
+            result = result + "s"
         return result
 
     def group(self):

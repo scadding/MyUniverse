@@ -94,5 +94,5 @@ if __name__ == "__main__":
 	#~ test = 'D5+2d6*3-5.5+4d6'
 	results = expr.parseString(test)
 
-	print results
-	print evalExpr(results)
+	print(results)
+	print(evalExpr(results))

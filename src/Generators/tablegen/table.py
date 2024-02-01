@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import os
@@ -6,6 +6,8 @@ from stat import S_ISDIR, S_ISREG
 import re
 import random as rand
 import imp
+import importlib
+import importlib.machinery
 import csv
 from optparse import OptionParser
 import tableFunctions
@@ -27,7 +29,7 @@ def walktree(top, callback, load=False):
             callback(pathname, load)
         else:
             # Unknown file type, print a message
-            print 'Skipping %s' % pathname
+            print('Skipping %s' % pathname)
 
 
 class Table(object):
@@ -128,7 +130,7 @@ class tableDB(object):
                 else:
                     retVal = l[column].strip()
             return retVal
-        print >> sys.stderr, 'Error: *** No [' + t + '] Table***'
+        print('Error: *** No [' + t + '] Table***', file=sys.stderr)
         return ''
     def get_random_index(self, t='Start'):
         if t in self.length:
@@ -239,7 +241,7 @@ class tableFile(object):
     def run(self, t='Start', roll=-1, column=0):
         if self.table.get(t):
             return self.table[t].roll(column=column, roll=roll)
-        print >> sys.stderr, 'Error: *** No [' + t + '] Table***'
+        print('Error: *** No [' + t + '] Table***', file=sys.stderr)
         return ''
     def rundict(self, t='Start', roll=-1):
         if self.table.get(t):
@@ -291,10 +293,10 @@ class tableFile(object):
                         index = index + 1
                         value = value.replace('"', '\'')
                 else:
-                    print self.table[i].values[j].__class__.__name__
+                    print(self.table[i].values[j].__class__.__name__)
                 cur.execute("INSERT INTO TableLines VALUES(\"%s\", \"%s\", %d, \"%s\")" % (table, i, j, value))
         for k in self.stack:
-            print 'variable', k, self.stack[k]
+            print('variable', k, self.stack[k])
             value = self.stack[k].replace('"', '\'')
             cur.execute("INSERT INTO TableVariables VALUES(\"%s\", \"%s\", \"%s\")" % (table, k, value))
 
@@ -349,6 +351,7 @@ class tableMgr(object):
             self.tfile[tablename] = tableFile(self.tfilename[tablename])
         elif extension == '.py':
             x = imp.load_source('generator', self.tfilename[tablename])
+            #x = importlib.machinery.SourceFileLoader('generator', self.tfilename[tablename])
             self.tfile[tablename] = x.generator()
             if self.tfile[tablename].version() > 1.0:
                 self.tfile[tablename].SetManager(self)
@@ -374,7 +377,7 @@ class tableMgr(object):
                                 pyparsing.ZeroOrMore(ret | content) + pyparsing.Suppress(closer))
         return ret
     def parse(self, table, exp):
-        print exp
+        print(exp)
         ret = ''
         last = 0
         nestedItems = self.nestedExpr("{{", "}}")
@@ -465,7 +468,7 @@ class tableMgr(object):
         r1 = re.compile(r'(.*?)(\:|[|]|~)(.*)')
         m = r1.match(l[0])
         if m == None:
-            print 'malformed function'
+            print('malformed function')
             return ''
         f = m.group(1)
         l[0] = m.group(3)
@@ -560,7 +563,7 @@ class tableMgr(object):
         #        self.tfile[t].importTable(t, cur)
         for g in self.group:
             for t in self.group[g]:
-                print g, '-', t
+                print(g, '-', t)
                 if self.tfilename[t][-3:] == 'tab':
                     self.tfile[t].importTable(g, t, cur)
         con.commit()
@@ -587,18 +590,6 @@ class tableMgr(object):
                 return 'unknown table\n'
 
 def testcallback(option, opt, value, parser, *args, **kwargs):
-    #print option
-    #print opt
-    #print value
-    #print parser.largs
-    #print parser.rargs
-    #print parser.values
-    #print args
-    #print kwargs
-    print parser.values.datadir
-    t = tableMgr()
-    walktree(parser.values.datadir, t.addfile, load=True)
-    #t.importTables()
     t.test()
     sys.exit
 
@@ -611,13 +602,13 @@ def importcallback(option, opt, value, parser, *args, **kwargs):
     #print parser.values
     #print args
     #print kwargs
-    print parser.values.datadir
+    print(parser.values.datadir)
     t = tableMgr()
     walktree(parser.values.datadir, t.addfile, load=True)
     t.importTables()
 
 def allcallback(option, opt, value, parser, *args, **kwargs):
-    print parser.values.datadir
+    print(parser.values.datadir)
     t = tableMgr()
     walktree(parser.values.datadir, t.addfile, load=True)
     #t.importTables()
@@ -625,7 +616,7 @@ def allcallback(option, opt, value, parser, *args, **kwargs):
 
 
 def listencallback(option, opt, value, parser, *args, **kwargs):
-    print parser.values.datadir
+    print(parser.values.datadir)
     t = tableMgr()
     walktree(parser.values.datadir, t.addfile, load=True)
     #t.importTables()
@@ -633,19 +624,47 @@ def listencallback(option, opt, value, parser, *args, **kwargs):
         n = raw_input("enter your table: ")
         if n == "Quit":
             break  # stops the loop
-        print t.process(n)
+        print(t.process(n))
 
 def servercallback(option, opt, value, parser, *args, **kwargs):
     server(tableMgr, walktree, parser.values.datadir)
 
+def runcallback(option, opt, value, parser, *args, **kwargs):
+    t = tableMgr()
+    walktree(parser.values.datadir, t.addfile, load=True)
+
+def groupscallback(option, opt, value, parser, *args, **kwargs):
+    for g in t.groups():
+        print(g)
+
+def tablescallback(option, opt, value, parser, *args, **kwargs):
+    print(value)
+    for table in t.group[value]:
+        print("\t" + table)
+
+def datacallback(option, opt, value, parser, *args, **kwargs):
+    walktree(value, t.addfile, load=True)
+
+
 if __name__ == '__main__':
+    t = tableMgr()
     parser = OptionParser()
-    parser.add_option("-d", "--data", type="string", dest="datadir",
-                      help="Data Directory", metavar="Data", default="Data")
+    parser.add_option("-d", "--data", type="string", dest="datadir", action="callback",
+                      help="Data Directory", metavar="Data", default="Data", callback=datacallback)
     parser.add_option("-a", "--all", action="callback", callback=allcallback)
-    parser.add_option("-t", "--test", action="callback", callback=testcallback)
+    parser.add_option("", "--test", action="callback", callback=testcallback)
     parser.add_option("-i", "--import", action="callback", callback=importcallback)
     parser.add_option("-l", "--listen", action="callback", callback=listencallback)
     parser.add_option("-s", "--server", action="callback", callback=servercallback)
 
+    parser.add_option("-t", "--table", type="string", dest="table",
+                      help="Table Name", metavar="Table", default="")
+    parser.add_option("-g", "--group", type="string", dest="group",
+                      help="Group Name", metavar="Group", default="junk")
+
+    parser.add_option("-r", "--run", action="callback", callback=runcallback)
+    parser.add_option("", "--groups", action="callback", callback=groupscallback)
+    parser.add_option("", "--tables", action="callback", type="string", default=None, callback=tablescallback)
+
     (options, args) = parser.parse_args()
+

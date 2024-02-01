@@ -9,21 +9,21 @@ def eval(l):
     if len(l) == 1:
         return str(evalString(l[0]))
     else:
-        print "Bad Parameter Count 'eval'"
+        print("Bad Parameter Count 'eval'")
     return ''
 
 def ucfirst(l):
     if len(l) == 1:
-        return unicode.capitalize(l[0])
+        return str.capitalize(l[0])
     else:
-        print "Bad Parameter Count 'ucfirst'"
+        print("Bad Parameter Count 'ucfirst'")
     return ''
 
 def lc(l):
     if len(l) == 1:
-        return unicode.lower(l[0])
+        return str.lower(l[0])
     else:
-        print "Bad Parameter Count 'lc'"
+        print("Bad Parameter Count 'lc'")
     return ''
 
 def plural(l):
@@ -31,7 +31,7 @@ def plural(l):
     if len(l) == 1:
         return p.plural(l[0])
     else:
-        print "Bad Parameter Count 'plural'"
+        print("Bad Parameter Count 'plural'")
     return ''
     
 def article(l):
@@ -39,7 +39,7 @@ def article(l):
     if len(l) == 1:
         return p.an(l[0])
     else:
-        print "Bad Parameter Count 'article'"
+        print("Bad Parameter Count 'article'")
     return ''
     
 def ia(l):
@@ -47,7 +47,7 @@ def ia(l):
     if len(l) == 1:
         return p.inflect(l[0])
     else:
-        print "Bad Parameter Count 'ia'"
+        print("Bad Parameter Count 'ia'")
     return ''
 
 def dice(l):
