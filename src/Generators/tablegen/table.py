@@ -621,7 +621,7 @@ def listencallback(option, opt, value, parser, *args, **kwargs):
     walktree(parser.values.datadir, t.addfile, load=True)
     #t.importTables()
     while True:    # infinite loop
-        n = raw_input("enter your table: ")
+        n = input("enter your table: ")
         if n == "Quit":
             break  # stops the loop
         print(t.process(n))
@@ -630,8 +630,8 @@ def servercallback(option, opt, value, parser, *args, **kwargs):
     server(tableMgr, walktree, parser.values.datadir)
 
 def runcallback(option, opt, value, parser, *args, **kwargs):
-    t = tableMgr()
-    walktree(parser.values.datadir, t.addfile, load=True)
+    print(value)
+    t.test(count = 10, table = value)
 
 def groupscallback(option, opt, value, parser, *args, **kwargs):
     for g in t.groups():
@@ -662,7 +662,7 @@ if __name__ == '__main__':
     parser.add_option("-g", "--group", type="string", dest="group",
                       help="Group Name", metavar="Group", default="junk")
 
-    parser.add_option("-r", "--run", action="callback", callback=runcallback)
+    parser.add_option("-r", "--run", action="callback", callback=runcallback, type="string", default=None)
     parser.add_option("", "--groups", action="callback", callback=groupscallback)
     parser.add_option("", "--tables", action="callback", type="string", default=None, callback=tablescallback)
 
