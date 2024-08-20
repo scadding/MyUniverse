@@ -349,14 +349,13 @@ class tableMgr(object):
         if extension == '.tab':
             self.tfile[tablename] = tableFile(self.tfilename[tablename])
         elif extension == '.py':
-            try:
-                #x = imp.load_source('generator', self.tfilename[tablename])
-                x = importlib.machinery.SourceFileLoader('generator', self.tfilename[tablename])
-                self.tfile[tablename] = x.generator()
-                if self.tfile[tablename].version() > 1.0:
-                    self.tfile[tablename].SetManager(self)
-            except:
-                print("Error: python <" + self.tfilename[tablename] + "> module failed", file=sys.stderr)
+            spec = importlib.util.spec_from_file_location(tablename, self.tfilename[tablename])
+            module = importlib.util.module_from_spec(spec)
+            sys.modules[tablename] = module
+            spec.loader.exec_module(module)
+            self.tfile[tablename] = module.generator()
+            if self.tfile[tablename].version() > 1.0:
+                self.tfile[tablename].SetManager(self)
     def checkload(self, tablename):
         if not self.tfile.get(tablename):
             if self.tfilename.get(tablename):
