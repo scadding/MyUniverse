@@ -28,7 +28,7 @@ expr = operatorPrecedence( atom,
     )
 
 def dice(s):
-    results =  expr.parseString(s)
+    results =  expr.parseString(s.decode())
     return evalExpr(results)
 
 from random import randint

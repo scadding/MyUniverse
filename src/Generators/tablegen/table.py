@@ -5,7 +5,6 @@ import os
 from stat import S_ISDIR, S_ISREG
 import re
 import random as rand
-import imp
 import importlib
 import importlib.machinery
 import csv
@@ -230,7 +229,7 @@ class tableFile(object):
         elif m10: #pragma declaration
             pass
         else:
-            print >> sys.stderr, 'Error: unidentified line ' + self.filename + ' - ' + line
+            print('Error: unidentified line ' + self.filename + ' - ' + line, file=sys.stderr)
     def template(self, template):
         templateFile = os.path.dirname(self.filename) + '/' + template + '.tml'
         self.stack[template] = ''
@@ -350,8 +349,8 @@ class tableMgr(object):
         if extension == '.tab':
             self.tfile[tablename] = tableFile(self.tfilename[tablename])
         elif extension == '.py':
-            x = imp.load_source('generator', self.tfilename[tablename])
-            #x = importlib.machinery.SourceFileLoader('generator', self.tfilename[tablename])
+            #x = imp.load_source('generator', self.tfilename[tablename])
+            x = importlib.machinery.SourceFileLoader('generator', self.tfilename[tablename])
             self.tfile[tablename] = x.generator()
             if self.tfile[tablename].version() > 1.0:
                 self.tfile[tablename].SetManager(self)
@@ -360,7 +359,7 @@ class tableMgr(object):
             if self.tfilename.get(tablename):
                 self.loadtable(tablename)
             else:
-                print >> sys.stderr, 'Error: *** Table \'' + tablename + '\' Not found ***'
+                print('Error: *** Table \'' + tablename + '\' Not found ***', file=sys.stderr)
     def filename(self, tablename):
         return self.tfilename[tablename]
     def groups(self):
@@ -497,7 +496,7 @@ class tableMgr(object):
     def roll(self, table):
         self.checkload(table)
         s = self.tfile[table].start()
-        #print '\nroll = ', s
+        #print('\nroll = ', s)
         s = self.parse(table, s)
         return s
     def run(self, table, sub='Start', roll=-1, column=0):
@@ -521,11 +520,12 @@ class tableMgr(object):
             os.makedirs(dirname)
         if table == '':
             for t in self.tfile:
+                #print("table =", t)
                 filename = dirname + '/' + t + '.txt'
                 f = None
                 for j in range(count):
                     s = self.roll(t)
-                    #print 'result - ' + s
+                    #print('result - ' + s)
                     if s == '':
                         continue
                     if f == None:
