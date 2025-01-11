@@ -275,6 +275,9 @@ class MyFrame(wx.Frame):
             html.LoadURL(file)
             self.Layout()
         else:
+            if type(name) == bytes:
+                # TODO: find where this is happening and fix it
+                name = str(name)[2:-1]
             f = open('tmp/' + name + '.html', 'w', encoding="utf-8")
             u = ''
             if content.__class__.__name__ == "unicode":
