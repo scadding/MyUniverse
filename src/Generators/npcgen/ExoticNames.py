@@ -18,13 +18,12 @@
 """
 
 from random import choice
-from sets import ImmutableSet
 
-from Utils import RandInt
+from src.Generators.npcgen.Utils import RandInt
 
 
 # constants
-kSyllableRange = ImmutableSet((1, 2, 3))
+kSyllableRange = frozenset((1, 2, 3))
 
 kVowells = ('a', 'e', 'i', 'o', 'u', 'y', 'ae', 'ei', 'ou', 'au', 'ui', 'uo', 'oo', 'ee', 'ea', 'ie', 'ye', 'uy', 'ua', 'ue',
             'a', 'e', 'i', 'o', 'u', 'e', 'e', 'e', 'a', 'i', 'i', 'i')
@@ -49,7 +48,7 @@ kSyllableMap =    {
 def GetSyllable():
     roll = RandInt(1, 53)
     # increment roll until it is a dictionary key
-    while not kSyllableMap.has_key(roll):
+    while not roll in kSyllableMap:
         roll += 1
 
     syllable = ''
@@ -95,7 +94,7 @@ def GetExoticName():
 
 if __name__ == '__main__':
     for n in range(24):
-        print GetExoticName()
+        print(GetExoticName())
 
 """
  *******************************************************************************

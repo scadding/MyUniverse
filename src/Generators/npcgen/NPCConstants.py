@@ -17,23 +17,21 @@
  *******************************************************************************
 """
 
-from sets import ImmutableSet
-
 # constant data
 kNPCGenHTMLDocType        = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">'
 kNPCGenCSSLink            = '<LINK REL=STYLESHEET HREF="%s/NPCGen.css" TYPE="text/css">'
 
-kHighParrySkills        = ImmutableSet(('fencing', 'main-gauche', 'staff', 'short-staff'))
-kMainAttributeKeys        = ImmutableSet(('stats', 'advantages', 'disadvantages'))
-kMainStatKeys            = ImmutableSet(('strength', 'dexterity', 'intelligence', 'health'))
-kSkillAttributeKeys        = ImmutableSet(('attributes', 'skills'))
-kItemAttributeKeys        = ImmutableSet(('weapons', 'armor'))
-kOldHair                = ImmutableSet(('gray', 'white'))
-kBaldHair                = ImmutableSet(('bald', 'brown-balding'))
-kThreeColumnHeadings    = ImmutableSet(('advantages/disadvantages/quirks', 'skills', 'stats/secondary stats', 'appearance'))
-kNonSkillAttributeKeys    = ImmutableSet(('advantages/disadvantages/quirks', 'stats/secondary stats'))
-kNewLineModItemKeys        = ImmutableSet(('*mod0', '*mod3', '*mod6'))
-kZeroValueAttributes    = ImmutableSet(('rank', 'paramilitary-rank', 'magery', 'eidetic-memory', 'pacifism', 'lame'))
+kHighParrySkills        = frozenset(('fencing', 'main-gauche', 'staff', 'short-staff'))
+kMainAttributeKeys        = frozenset(('stats', 'advantages', 'disadvantages'))
+kMainStatKeys            = frozenset(('strength', 'dexterity', 'intelligence', 'health'))
+kSkillAttributeKeys        = frozenset(('attributes', 'skills'))
+kItemAttributeKeys        = frozenset(('weapons', 'armor'))
+kOldHair                = frozenset(('gray', 'white'))
+kBaldHair                = frozenset(('bald', 'brown-balding'))
+kThreeColumnHeadings    = frozenset(('advantages/disadvantages/quirks', 'skills', 'stats/secondary stats', 'appearance'))
+kNonSkillAttributeKeys    = frozenset(('advantages/disadvantages/quirks', 'stats/secondary stats'))
+kNewLineModItemKeys        = frozenset(('*mod0', '*mod3', '*mod6'))
+kZeroValueAttributes    = frozenset(('rank', 'paramilitary-rank', 'magery', 'eidetic-memory', 'pacifism', 'lame'))
 
 kEnhancedParryModifiers    = ('combat-reflexes', 'enhanced-parry', 'passive-defense')
 kEnhancedDodgeModifiers = ('combat-reflexes', 'enhanced-dodge', 'passive-defense')
@@ -45,7 +43,7 @@ kAppearanceKeyOrder        = ('sex', 'hair', 'eyes', 'age', 'height', 'weight', 
 kStatAttribKeyOrder        = ('strength', 'dexterity', 'intelligence', 'health', 'hit-points', 'fatigue', 'speed', 'move', 'will', 'vision', 'hearing', 'taste-smell')
 kItemKeyOrder            = ('name', 'quantity', 'damage', 'db', 'dr', 'area', 'weight', 'rel', 'dam', 'ss', 'acc', 'rof', 'shots', 'st',
                            'rcl', 'rch', 'note', 'doses', 'ammo', '*mod0', '*mod1', '*mod2', '*mod3', '*mod4', '*mod5', '*mod6', '*mod7', '*mod8')
-kUnarmedParrySkills        = ImmutableSet(('brawling', 'boxing', 'martial-punch', 'martial-throw', 'karate', 'judo'))
+kUnarmedParrySkills        = frozenset(('brawling', 'boxing', 'martial-punch', 'martial-throw', 'karate', 'judo'))
 kUnarmedSkillDivisorSets = (('martial-punch', 5.0), ('karate', 5.0), ('boxing', 5.0), ('brawling', 10.0))
 
 kPhysicalSkillCosts        = (.5, 1, 2, 4, 8)

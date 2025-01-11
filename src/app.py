@@ -2,7 +2,7 @@
 
 import wx
 import sys
-import MyFrame
+from src import MyFrame
 import inspect
 
 def main(argv):

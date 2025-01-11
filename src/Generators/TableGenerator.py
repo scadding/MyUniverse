@@ -1,5 +1,5 @@
 
-from tablegen import table
+from src.Generators.tablegen import table
 
 class TableGenerator:
     def __init__(self):
@@ -29,9 +29,9 @@ class TableGenerator:
         return genList
     def roll(self, p, numRolls):
         t = u''
-        if p.has_key('Seed'):
+        if 'Seed' in p:
             self.tm.setSeed(int(p['Seed']))
-        if p.has_key('Generators'):
+        if 'Generators' in p:
             t = p['Generators']
         results = u''
         for j in range(numRolls):

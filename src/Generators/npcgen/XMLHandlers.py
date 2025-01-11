@@ -73,7 +73,7 @@ class MetaConfigHandler(ContentHandler):
                     value = value.split(', ')
                 localDict[name] = value
 
-            if self.mMetaConfigMap.has_key(self.mMetaConfigKey):
+            if self.mMetaConfigKey in self.mMetaConfigMap:
                 self.mMetaConfigMap[self.mMetaConfigKey].append(localDict)
             else:
                 self.mMetaConfigMap[self.mMetaConfigKey] = [localDict]
@@ -126,7 +126,7 @@ class ClassHandler(ContentHandler, handler.DTDHandler):
                 name, value = dataPair
                 if name == 'genre':
                     self.mGenreKey = value
-                    if not self.mGenreMap.has_key(self.mGenreKey):
+                    if not self.mGenreKey in self.mGenreMap:
                         self.mGenreMap[self.mGenreKey] = []
 
     def skippedEntity(self, tag):
@@ -209,7 +209,7 @@ def GetFilePathFromMap(configMap):
     attribFilePaths = []
     pathInfix = configMap['path-infix']
 
-    if configMap.has_key('file-path'):
+    if 'file-path' in configMap:
         basePaths  = [configMap['file-path']]
     else:
         # multi-path

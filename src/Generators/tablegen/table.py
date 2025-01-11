@@ -9,12 +9,12 @@ import importlib
 import importlib.machinery
 import csv
 from optparse import OptionParser
-import tableFunctions
+import src.Generators.tablegen.tableFunctions
 import pyparsing
 import sqlite3 as lite
 import sys
 import codecs
-from server import server
+from src.Generators.tablegen.server import server
 
 def walktree(top, callback, load=False):
     for filename in os.listdir(top):

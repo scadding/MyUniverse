@@ -3,22 +3,22 @@
 import wx
 import os
 import glob
-import imp
+import importlib
 import  wx.html as  html
 import wx.html2 as webview
 import  wx.lib.wxpTag
-import  images
+from src import images
 import wx.aui
 import codecs
 
-from GeneratorPanel import GeneratorPanel
-from Generators.TableGenerator import TableGenerator
-from Generators.StateGenerator import StateGenerator
-from Generators.SectorGenerator import SectorGenerator
-from Generators.SystemGenerator import SystemGenerator
-from Generators.PlanetGenerator import PlanetGenerator
-from Generators.CharacterGenerator import CharacterGenerator
-from Generators.PlanetImageGenerator import PlanetImageGenerator
+from src.GeneratorPanel import GeneratorPanel
+from src.Generators.TableGenerator import TableGenerator
+from src.Generators.StateGenerator import StateGenerator
+from src.Generators.SectorGenerator import SectorGenerator
+from src.Generators.SystemGenerator import SystemGenerator
+from src.Generators.PlanetGenerator import PlanetGenerator
+#from src.Generators.CharacterGenerator import CharacterGenerator
+from src.Generators.PlanetImageGenerator import PlanetImageGenerator
 
 FRAMETB = True
 TBFLAGS = ( wx.TB_HORIZONTAL
@@ -78,7 +78,7 @@ class MyFrame(wx.Frame):
                 
         self.notebook_2 = wx.aui.AuiNotebook(self)
         self.generators = dict()
-        self.generators['Character'] = GeneratorPanel(self.notebook_2, CharacterGenerator())
+        #self.generators['Character'] = GeneratorPanel(self.notebook_2, CharacterGenerator())
         self.generators['Table'] = GeneratorPanel(self.notebook_2, TableGenerator())
         self.generators['Sector'] = GeneratorPanel(self.notebook_2, SectorGenerator())
         self.generators['System'] = GeneratorPanel(self.notebook_2, SystemGenerator())
@@ -115,8 +115,8 @@ class MyFrame(wx.Frame):
         for t in self.generators:
             self.notebook_2.AddPage(self.generators[t], t)
 
-        sizer_2.Add(self.notebook_1, 7, wx.ALIGN_RIGHT | wx.EXPAND, 0)
-        sizer_7.Add(self.notebook_2, 3, wx.ALIGN_RIGHT | wx.EXPAND, 0)
+        sizer_2.Add(self.notebook_1, 7, wx.EXPAND, 0)
+        sizer_7.Add(self.notebook_2, 3, wx.EXPAND, 0)
 
         self.SetSizer(sizer_2)
         self.Layout()
@@ -154,7 +154,7 @@ class MyFrame(wx.Frame):
         tb.AddSeparator()
 
         #tool = tb.AddCheckTool(50, images.Tog1.GetBitmap(), shortHelp="Toggle this")
-        tool = tb.AddCheckLabelTool(50, "Checkable", images.Tog1.GetBitmap(),
+        tool = tb.AddCheckTool(50, "Checkable", images.Tog1.GetBitmap(),
                                     shortHelp="Toggle this")
         self.Bind(wx.EVT_TOOL, self.OnToolClick, id=50)
 
@@ -252,7 +252,7 @@ class MyFrame(wx.Frame):
         self.Populate(t, r)
         
     def Populate(self, name, content=u'', file=''):
-        if self.h.has_key(name):
+        if name in self.h:
             html = self.h[name]
             for i in range(self.notebook_1.GetPageCount()):
                 if self.notebook_1.GetPageText(i) == name:
@@ -275,12 +275,12 @@ class MyFrame(wx.Frame):
             html.LoadURL(file)
             self.Layout()
         else:
-            f = codecs.open('tmp/' + name + '.html', 'w', "utf-8")
+            f = open('tmp/' + name + '.html', 'w', encoding="utf-8")
             u = ''
             if content.__class__.__name__ == "unicode":
                 u = content
             else:
-                u = unicode(content, "utf-8")
+                u = content
             f.write(u)
             f.close()
             html.SetPage("", name)
@@ -293,7 +293,7 @@ class MyFrame(wx.Frame):
     def OnPaneClosing(self, event):
         current = event.GetSelection()
         name = self.notebook_1.GetPageText(current)
-        if self.h.has_key(name):
+        if name in self.h:
             del self.h[name]
         # 'closing ' + name
         

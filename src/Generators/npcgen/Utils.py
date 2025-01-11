@@ -18,20 +18,20 @@
 """
 
 import sys, os, string, urllib
-from sets import ImmutableSet
 from time import time, timezone
-from xmlrpclib import Transport
+import xmlrpc 
 from threading import Condition, Lock, RLock
 from random import normalvariate, randint, random, choice
 from collections import deque
+import xmlrpc.client
 
-from NPCExceptions import NPCError
+from src.Generators.npcgen.NPCExceptions import NPCError
 
 
 # static
-kZeroIntSet        = ImmutableSet(('-', ' -', '- ', '-*', '- *', '', ' '))
-kIntStringSet    = ImmutableSet(('*', 't', 'b'))
-kTypeDict        = {'int':int, 'float':float, 'long':long}
+kZeroIntSet        = frozenset(('-', ' -', '- ', '-*', '- *', '', ' '))
+kIntStringSet    = frozenset(('*', 't', 'b'))
+kTypeDict        = {'int':int, 'float':float}
 MINIMUMFONTSIZE = 4 
 # need this because winzip is annoying
 #kTimeZoneDifference = timezone - 18000
@@ -68,9 +68,9 @@ def RandDistribInt(args=None, **kwords):
             #@if type(value) == type(u''): print 'hey!!'
             try:
                 argsDict[key] = float(value)
-            except Exception, why:
-                print why, key, value
-                raise NPCError("num format problem: %s %s %s" % (why, key, value))
+            except Exception as inst:
+                print(type(inst), key, value)
+                raise NPCError("num format problem: %s %s %s" % (type(inst), key, value))
     if ('mean' in argsDict):
         if ('sdev' not in argsDict):
             argsDict['sdev'] = 1
@@ -96,7 +96,7 @@ def RandDistribInt(args=None, **kwords):
         result = argsDict['max']
     else:
         result = 777
-        print 'randDistribInt: what, not enought args: %s   result: %s' % (argsDict, result)
+        print('randDistribInt: what, not enought args: %s   result: %s' % (argsDict, result))
     # CHECK-ME: what about int(round(result)) for typef == int ???
     #           for now, default typef = IntRound
     ##if typef == kTypeDict['float']: print 'result', result
@@ -196,7 +196,7 @@ def getModeValue(min, max, modeString):
         if modeString and (value not in [int(mode) for mode in modeString.split(',')]):
             value = randint(min, max)
         return value
-    except ValueError, ex:
+    except ValueError:
         raise NPCError('received improperly-delimited mode: %s' % (str(modeString),))
 
 
@@ -217,9 +217,9 @@ def GetRootDir():
     elif programPath in ('NPCGEN.EXE', 'CHARACTERMAKER.EXE'):
         #rootDir = os.path.abspath(os.getcwd() + os.sep + '..')
         rootDir = os.getcwd()
-    elif string.find(programPath, 'CMAKER-GUI.PY') != -1:
+    elif programPath.find('CMAKER-GUI.PY') != -1:
         rootDir = programPath[:string.find(programPath, 'CMAKER-GUI.PY')]
-    elif string.find(programPath, 'NPCGEN.EXE') != -1:
+    elif programPath.find('NPCGEN.EXE') != -1:
         rootDir = os.path.abspath(programPath[:string.find(programPath, 'NPCGEN.EXE')]) #  + '..'
     elif os.name == 'posix':
         rootDir = os.getcwd()
@@ -237,7 +237,7 @@ def GetRootDir():
     return rootDir
 
 
-class URLLibTransport(Transport):
+class URLLibTransport(xmlrpc.client.Transport):
     '''Handles an HTTP transaction to an XML-RPC server via urllib
     (urllib includes proxy-server support)
     jjk  07/02/99'''
@@ -296,7 +296,7 @@ def LruCacheDecorator(maxsize=100, log=False):
                 if not _refcount[k]:
                     # it's possible (though not likely) that k is not in cache because it was 'invalidated' externally
                     if k in _cache:
-                        if log: print ' -*- purging <args: %s, resultSize: %s> from cache -*- ' % (str(k), len(str(_cache[k])))
+                        if log: print(' -*- purging <args: %s, resultSize: %s> from cache -*- ' % (str(k), len(str(_cache[k]))))
                         del _cache[k]
                     del _refcount[k]
 
@@ -340,11 +340,11 @@ if __name__ == '__main__':
         arglist = args[1:]
         argstr  = ', '.join(arglist)
         adict = eval('dict(%s)' % argstr)
-        print adict
+        print(adict)
         for i in range(60):
             #print RandDistribInt(min="-2", max="2", mode="0", mean="0", sdev=".75")
             #min="0" max="1" mode="0" mean="0" sdev="0.25" precision="0.25" type="float"
             #print RandDistribInt(min="-1", max="1", mode="0", mean="0", sdev=".175", precision="0.25", type="float")
-            print RandDistribInt(adict)
+            print(RandDistribInt(adict))
 
 

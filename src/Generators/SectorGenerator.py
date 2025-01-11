@@ -1,6 +1,6 @@
 
-from secgen import *
-from secgen.subSector import *
+from src.Generators.secgen import *
+from src.Generators.secgen.subSector import *
 from subprocess import *
 
 class SectorGenerator:
@@ -16,7 +16,7 @@ class SectorGenerator:
         pass
     def roll(self, p, numRolls):
         subSector = ""
-        if p.has_key('subsector'):
+        if 'subsector' in p:
             subSector = p['subsector']
         x = p['x']
         y = p['y']
@@ -31,12 +31,12 @@ class SectorGenerator:
         if subSector == "":
             s = subSectorMap(t = 'sec')
             t = "Sector "
-            print sx, sy, sz, ex, ey, ez
+            print(sx, sy, sz, ex, ey, ez)
         else:
             s = subSectorMap(t = 'sub')
             sx = sx + (8 * ((int(subSector) - 1) % 4))
             ex = sx + 8
-            sy = sy + (10 * ((int(subSector) - 1) / 4))
+            sy = int(sy + (10 * ((int(subSector) - 1) / 4)))
             ey = sy + 10
             t = "SubSector "
         t += x + " " + y + " " + z + " " + subSector
@@ -50,9 +50,10 @@ class SectorGenerator:
                     args.append(str(j))
                     args.append(str(k))
                     #print args
-                    o = Popen(args, stdout=PIPE).stdout.read().split('\n')
+                    o = str(Popen(args, stdout=PIPE).stdout.read()).split('\n')
                     for l in o:
-                        if len(l):
-                            s.addSystem(starSystem(l, version = 2))
+                        line = l[2:len(l) - 1]
+                        if len(line):
+                            s.addSystem(starSystem(line[:-2], version = 2))
         return t, s.getMap()
         

@@ -17,13 +17,13 @@
  *******************************************************************************
 """
 
-import sys, os, sha
+import sys, os, hashlib
 from pprint import PrettyPrinter
 from random import choice
 from os.path import basename
 
-from ClassData import ClassType, ItemTable, AttributeDependencyMap
-from NPCData import GetNPC, NPCBuilder
+from src.Generators.npcgen.ClassData import ClassType, ItemTable, AttributeDependencyMap
+from src.Generators.npcgen.NPCData import GetNPC, NPCBuilder
 from XMLHandlers import ParseAllXML
 from Utils import GetRootDir, kTimeZoneDifference
 
@@ -55,7 +55,7 @@ def GetRepositoryDataMapMain():
             fullPath = '%s%s%s' % (kNPCImagesPath, '/', fileName)
             filePath = '%s%s%s' % (kNPCImagesDir, '/', fileName)
             dataMap[filePath] = [os.path.getmtime(fullPath) - kTimeZoneDifference, GetShaSum(fullPath)]
-    #print dataMap
+    #print(dataMap
     return dataMap
 
 
@@ -116,14 +116,14 @@ def GetCharacters(xmlData, classAlias, power, start, total):
         
 
 def PrintHelp(appPath, exitCode=-1):
-    print '\n Usage:    %s [alias|"name"|*genre] [#] [a2] [#2] [a(n)...] [#(n)...]\n' % basename(appPath)
-    print '\n   Example:    %s as 1' % basename(appPath)
-    print '\n   Example:    %s "American Soldier" 1' % basename(appPath)
-    print '\n   Example:    %s *fantasy 100' % basename(appPath)
-    print '\n   Example:    %s pb' % basename(appPath)
-    print '\n   Example:    %s ss 5 sso 2' % basename(appPath)
-    print '\n\n   To see list of aliases:  %s alias' % basename(appPath)
-    print '\n   GUI:    NPCGen.exe'
+    print('\n Usage:    %s [alias|"name"|*genre] [#] [a2] [#2] [a(n)...] [#(n)...]\n' % basename(appPath))
+    print('\n   Example:    %s as 1' % basename(appPath))
+    print('\n   Example:    %s "American Soldier" 1' % basename(appPath))
+    print('\n   Example:    %s *fantasy 100' % basename(appPath))
+    print('\n   Example:    %s pb' % basename(appPath))
+    print('\n   Example:    %s ss 5 sso 2' % basename(appPath))
+    print('\n\n   To see list of aliases:  %s alias' % basename(appPath))
+    print('\n   GUI:    NPCGen.exe')
     # sys.exit(exitCode)
 
 
@@ -173,14 +173,14 @@ def Generate(args, xmlData, power=1, mode=0, startPos=0, stack=[], display=1, ht
         elif (i == cycles) and remainder:
             characters = GetCharacters(xmlData, classAlias, power, runningTotal, (runningTotal + remainder))
 
-        # print every character in this cycle or remainder
+        # print(every character in this cycle or remainder
         for character in characters:
             stack.append(character)
             if display:
                 if html == 0:
                     NPCBuilder.DisplayText(character, mode)
                 else:
-                    print NPCBulder.GetHTMLDisplay(character)
+                    print(NPCBulder.GetHTMLDisplay(character))
                     #NPCBuilder.DisplayHTML(character, mode)
 
     if len(args) > 2:
@@ -208,7 +208,7 @@ def GenerateHTMLString(args, xmlData, power=1, mode=0, startPos=0, stack=[]):
         elif (i == cycles) and remainder:
             characters = GetCharacters(xmlData, classAlias, power, runningTotal, (runningTotal + remainder))
 
-        # print every character in this cycle or remainder
+        # print(every character in this cycle or remainder
         for character in characters:
             stack.append(character)
             return NPCBuilder.GetHTMLDisplay(character)
@@ -216,7 +216,7 @@ def GenerateHTMLString(args, xmlData, power=1, mode=0, startPos=0, stack=[]):
 
 
 def PrintAliasMap(xmlData):
-    'print a classAliasMap'
+    'print(a classAliasMap'
     attribmap, classes, genreMap, weapons, armor, nameMap = xmlData
     aliases = classes.keys()
     aliases.sort()
@@ -227,13 +227,13 @@ def PrintAliasMap(xmlData):
             className = classType.getName()
             screenString = '%-9s: %s' % (alias, className)
             # cp437 mac_latin2
-            print screenString.encode('cp437')
+            print(screenString.encode('cp437'))
 
     genreNames = genreMap.keys()
     genreNames.sort()
-    print '\n*random          : Completely Random NPC'
+    print('\n*random          : Completely Random NPC')
     for genreName in genreNames:
-        print '*%-16s: Random %s NPC' % (genreName, genreName)
+        print('*%-16s: Random %s NPC' % (genreName, genreName))
 
 
 

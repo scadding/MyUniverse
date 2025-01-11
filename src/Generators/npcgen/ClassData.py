@@ -19,18 +19,17 @@
 """
 
 import sys, os, re
-from sets import Set, ImmutableSet
 from random import shuffle, choice
 
-from Utils import RandInt, getModeValue, RandDistribInt
-from NPCExceptions import InfiniteLoopError
+from src.Generators.npcgen.Utils import RandInt, getModeValue, RandDistribInt
+from src.Generators.npcgen.NPCExceptions import InfiniteLoopError
 
 
 # constants
 kClassKeys                = ('nationality', 'gender-ratio', 'item-mod-inc', 'hair', 'eyes', 'age', 'tech-level', 'images-male', 'images-female')
-kRangeSet                = ImmutableSet(('min', 'max', 'mode', 'mean', 'sdev', 'precision', 'type'))
-kItemModifyKeys            = ImmutableSet(('fine-craftmanship', 'adamantine', 'lightened'))
-kItemModifyDamageKeys    = ImmutableSet(('fine-craftmanship', 'adamantine'))
+kRangeSet                = frozenset(('min', 'max', 'mode', 'mean', 'sdev', 'precision', 'type'))
+kItemModifyKeys            = frozenset(('fine-craftmanship', 'adamantine', 'lightened'))
+kItemModifyDamageKeys    = frozenset(('fine-craftmanship', 'adamantine'))
 
 
 # class data containers
@@ -62,11 +61,11 @@ class ClassType(object):
 
     def hasParents(self):
         'return boolean: whether or not this classType inherits from any parents'
-        return self.mData['class'].has_key('parents')
+        return 'parents' in self.mData['class']
 
     def isAbstract(self):
         'return boolean: whether or not this classType is abstract'
-        return (self.mData['class'].has_key('abstract') and int(self.mData['class']['abstract']))
+        return ('abstract' in self.mData['class'] and int(self.mData['class']['abstract']))
 
     def getAlias(self):
         'return alias'
@@ -81,7 +80,7 @@ class ClassType(object):
 
     def getItemModInc(self):
         'return item-mod-inc'
-        if self.mData['class'].has_key('item-mod-inc'):
+        if 'item-mod-inc' in self.mData['class']:
             return int(self.mData['class']['item-mod-inc'])
         else:
             return 0
@@ -172,15 +171,15 @@ class ClassType(object):
                 if parentKey == 'class':
                     # inherit valid class-specific keys from parent
                     for classKey in ('nationality', 'gender-ratio', 'item-mod-inc', 'hair', 'eyes', 'age', 'tech-level'):
-                        if parentClassData[parentKey].has_key(classKey) and not self.mData[parentKey].has_key(classKey):
+                        if classKey in parentClassData[parentKey] and not classKey in self.mData[parentKey]:
                             self.mData[parentKey][classKey] = parentClassData[parentKey][classKey]
                 else:
                     # make shallow copy of dict
                     parentKeyDict = parentClassData[parentKey].copy()
-                    if self.mData.has_key(parentKey):
+                    if parentKey in self.mData:
                         # do a 'safe' update (do not overwrite existing subkeys)
                         for safeUpdateKey in parentKeyDict.keys():
-                            if not self.mData[parentKey].has_key(safeUpdateKey):
+                            if not safeUpdateKey in self.mData[parentKey]:
                                 self.mData[parentKey][safeUpdateKey] = parentKeyDict[safeUpdateKey]
                     else:
                         self.mData[parentKey] = parentKeyDict
@@ -220,7 +219,7 @@ class ClassType(object):
 
     def hasAttribSet(self, attribSet):
         'return boolean: true if this character has this attribSet key'
-        return self.mData.has_key(attribSet)
+        return attribSet in self.mData
 
     def getAttribSet(self, attribSet, skillmap={}):
         'return: localAttribDict{} from self.mData[attribSet]'
@@ -253,7 +252,7 @@ class ClassType(object):
             attribDict = self.mData[attribSet][attrib]
             #@remove debugging lines below...
             #@if type(attribDict) != type({}): print attrib, attribDict, attributes
-            if attribDict.has_key('req'):
+            if 'req' in attribDict:
                 if attribDict['req'] == '1':
                     reqVal  = 1
                     reqRand = 1
@@ -313,10 +312,10 @@ class ItemTable(object):
         item = self.mItemStats[itemAlias].copy()
 
         # n% chance that this item is cool
-        if (item.has_key('req-mods')) or \
-           ((item.has_key('mod') and int(item['mod']) != -1) and \
+        if ('req-mods' in item) or \
+           (('mod' in item and int(item['mod']) != -1) and \
            (RandInt(0, 99) < (classTypeModInc + self.mModInc + int(item['mod'])))):
-            if item.has_key('damage'):
+            if 'damage' in item:
                 itemModDict = self.mHandItemMods
             else:
                 itemModDict = self.mItemMods
@@ -332,7 +331,7 @@ class ItemTable(object):
             totalMods = RandInt(1, maxMods)
 
             # handle any req-mods ...
-            if item.has_key('req-mods'):
+            if 'req-mods' in item:
                 reqMods = item['req-mods'].split(', ')
                 modKeys = []; modKeys.extend(reqMods)
 
@@ -433,7 +432,7 @@ def PrintWeaponsData(weapons):
     fWeapons.sort()
     for weapon in fWeapons:
         damage, minStrength, name, reqmods, note, reach = weapon
-        print '%-26s damage:%-6s st:%-6s reach:%-6s note:%s' % (name, damage, minStrength, reach, note)
+        print('%-26s damage:%-6s st:%-6s reach:%-6s note:%s' % (name, damage, minStrength, reach, note))
 
 
 def PrintArmorData(armorTypes):
@@ -461,9 +460,9 @@ def PrintArmorData(armorTypes):
     for armor in armorList:
         area, db, dr, weight, note, name = armor
         if lastarea != area:
-            print '-' * 110
+            print('-' * 110)
         lastarea = area
-        print '%-26s area:%-12s db:%-1s dr:%-3s weight:%-8s note:%s' % (name, area, db, dr, weight, note)
+        print('%-26s area:%-12s db:%-1s dr:%-3s weight:%-8s note:%s' % (name, area, db, dr, weight, note))
 
 
 if __name__ == '__main__':
@@ -478,7 +477,7 @@ if __name__ == '__main__':
         elif printTarget == 'weapons':
             PrintWeaponsData(weapons)
         else:
-            print '%s  What?' % printTarget
+            print('%s  What?' % printTarget)
 
 
 """

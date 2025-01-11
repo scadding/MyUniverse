@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
 import inflect
-from dice import dice as roll
-from eval import evalString
+from src.Generators.tablegen.dice import dice as roll
+from src.Generators.tablegen.eval import evalString
 
 def eval(l):
     #print 'eval ', l

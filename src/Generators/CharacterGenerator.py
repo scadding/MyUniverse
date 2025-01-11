@@ -1,5 +1,5 @@
 
-from npcgen.charactermaker import * 
+from src.Generators.npcgen.charactermaker import * 
 
 
 class CharacterGenerator:
@@ -62,7 +62,7 @@ if __name__ == '__main__':
         elif args[1].lower() in ('h', 'help', '/?', '/h', '-?', '-h', '--help'):
             PrintHelp(args[0])
         else:
-            print args[1:]
+            print(args[1:])
             #print GenerateHTMLString(args[1:], xmlData, power=1, mode=1)
     else:
         PrintHelp(args[0]) 

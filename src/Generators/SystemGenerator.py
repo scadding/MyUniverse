@@ -1,9 +1,9 @@
 
 import os
 import sys
-from secgen import subSector
+from src.Generators.secgen import subSector
 from subprocess import *
-from PlanetImageGenerator import PlanetImageGenerator
+from src.Generators.PlanetImageGenerator import PlanetImageGenerator
 import base64
 
 class Magic:
@@ -30,7 +30,7 @@ class Magic:
         offset += 1
         for i in range(offset):
             l = self._value
-            self._value = l * 1103515245L + 12345L
+            self._value = l * 1103515245 + 12345
         return ((self._value >> 16) & 0x7fff)
 
 class systemHtml:
@@ -230,7 +230,7 @@ class starSystem:
 
 class body:
     def __init__(self, l, x, y, z):
-        print l
+        print(l)
         self._x = x
         self._y = y
         self._z = z
@@ -259,9 +259,9 @@ class body:
         self._orbit = o
         self._satelites[len(self._satelites)] = b
     def Print(self):
-        print self._orbit, self._name
+        print(self._orbit, self._name)
         for o in self._satelites:
-            print '\t', o
+            print('\t', o)
             self._satelites[o].Print()
     def GetImage(self):
         size = 32
@@ -341,7 +341,7 @@ class SystemGenerator:
         
 def main(argv):
     if len(argv) < 4:
-        print 'x y z'
+        print('x y z')
         return
     sys = starSystem(argv[1], argv[2], argv[3])
     

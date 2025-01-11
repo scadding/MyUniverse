@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import os
-from starSystem import *
-from svg import *
+from src.Generators.secgen.starSystem import *
+from src.Generators.secgen.svg import *
 import math
 
 def rad2deg(radians):
@@ -166,7 +166,7 @@ class planetMap(svgHexMap):
                 s = line[i:i+2]
                 if len(s) == 0 or s == '  ':
                     continue
-                print s
+                print(s)
                 if s == 'WW':
                     self.AddElement(self.CellsBlue[str(x).zfill(2) + str(j).zfill(2)].PrintGrid())
                 elif s == 'LL':
@@ -204,7 +204,7 @@ if __name__ == '__main__':
     #for line in data1.split('\n'):
         #print line
     for line in data2.split('\n')[2:]:
-        print line
+        print(line)
     i = 0
     l = list()
     for line in data2.split('\n')[2:]:
@@ -225,11 +225,11 @@ if __name__ == '__main__':
         if len(line) == 0:
             continue;
         j += 1
-        print line
+        print(line)
         x = 0
         for i in range(0, 60, 2):
             x += 1
             s = line[i:i+2]
             if len(s) == 0 or s == '  ':
                 continue
-            print str(x).zfill(2) + str(j).zfill(2), '\'' + s + '\''
+            print(str(x).zfill(2) + str(j).zfill(2), '\'' + s + '\'')

@@ -19,16 +19,15 @@
  *******************************************************************************
 """
 
-from ClassNames import GetFullName
-from Utils import randint, getModeValue, GetInt, GetRootDir, RandDistribInt
-from cPickle import dumps
+from src.Generators.npcgen.ClassNames import GetFullName
+from src.Generators.npcgen.Utils import randint, getModeValue, GetInt, GetRootDir, RandDistribInt
+import pickle
 from pprint import PrettyPrinter
 from random import choice, shuffle, randint
-from sets import Set, ImmutableSet
 from time import time, strftime
 from zlib import compress
 import math, sys, os, codecs
-import NPCConstants
+import src.Generators.npcgen.NPCConstants
 
 
 
@@ -38,7 +37,7 @@ kDwarfismModifier = 0.6
 kGigantismModifier = 1.2
 kNPCTemplateFileName = 'NPCTemplate.html'
 kDateTimeFormat = "%Y-%m-%d %H:%M:%S"
-kuBOM = unicode(codecs.BOM_UTF8, 'utf-8')
+kuBOM = str
 #print GetRootDir()
 
 def GetNPC(xmlData, classAlias, power, id):
@@ -49,7 +48,7 @@ def GetNPC(xmlData, classAlias, power, id):
     if classType:
         return NPCBuilder(id, power, classType, classes, attribmap, weapons, armor, nameMap).getNPC()
     else:
-        print "sorry, could not find non-abstract class alias or name '%s'" % (classAlias,)
+        print("sorry, could not find non-abstract class alias or name '%s'" % (classAlias,))
         sys.exit(-1)
 
 
@@ -473,7 +472,7 @@ class NPCBuilder(object):
                 elif 'cost' in statmap[key]:
                     cost = float(statmap[key]['cost'])
                 else:
-                    print '! cannot find %s %s' % (key, value)
+                    print('! cannot find %s %s' % (key, value))
                     cost = 1.333
                 # check for multi-level costs
                 if (len(costs) == 1):
@@ -485,9 +484,9 @@ class NPCBuilder(object):
                         index = abs(value) - 1
                     cost = float(costs[index])
                 ##print '%s, at level %s, costs %s points' % (key, value, cost)
-            except Exception, why:
-                print why
-                print key, value, costs
+            except Exception as inst:
+                print(type(inst))
+                print(key, value, costs)
                 cost = 1.333
         return cost
 
@@ -974,7 +973,7 @@ class NPCBuilder(object):
             encoding = 'mac_latin2'
         else:
             encoding = 'cp437'
-        print NPCBuilder.GetTextDisplay(npc, mode)
+        print(NPCBuilder.GetTextDisplay(npc, mode))
     DisplayText = staticmethod(DisplayText)
 
     def DisplayHTML(npc, mode=0):
@@ -984,7 +983,7 @@ class NPCBuilder(object):
             encoding = 'mac_latin2'
         else:
             encoding = 'cp437'
-        print NPCBuilder.GetHTMLDisplay(npc, mode)
+        print(NPCBuilder.GetHTMLDisplay(npc, mode))
     DisplayHTML = staticmethod(DisplayHTML)
 
 

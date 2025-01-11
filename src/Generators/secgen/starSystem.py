@@ -69,10 +69,11 @@ class starSystem:
         return self._k
     def processVersion2(self, line):
         gasgiant = False
+        print(line)
         self.upp = line[:9]
-        self._i = int(line[15:23])
-        self._j = int(line[23:32])
-        self._k = int(line[32:41])
+        self._i = int(line[14:22])
+        self._j = int(line[24:31])
+        self._k = int(line[34:41])
         self.name = line[41:]
         t = line[10:13]
         #print self.name, line[10:13]
@@ -90,10 +91,11 @@ class starSystem:
         #args.append(str(self._j))
         #args.append('-z')
         #args.append(str(self._k))
-        o = Popen(args, stdout=PIPE).stdout.read().split('\n')
+        o = Popen(args, stdout=PIPE).stdout.read().split(b'\n')
         for l in o:
+            #print(str(l)[2:len(str(l)) - 1])
             if len(l):
-                s = l.strip().split('\t')
+                s = l.strip().split(b'\t')
                 if s[0].isdigit():
                     if s[1][:15] == 'Small Gas Giant' or s[1][:15] == 'Large Gas Giant':
                         gasgiant = True

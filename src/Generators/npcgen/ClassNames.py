@@ -20,13 +20,13 @@
 import sys, os, codecs
 from random import choice
 
-from ExoticNames import GetExoticName
-from Utils import GetRootDir, RandInt
+from src.Generators.npcgen.ExoticNames import GetExoticName
+from src.Generators.npcgen.Utils import GetRootDir, RandInt
 
 # static stuff
 kRootDir                        = GetRootDir()
 kNamesCache                        = {}
-kuBOM                            = unicode(codecs.BOM_UTF8, 'utf-8')
+kuBOM                            = str
 
 
 def GetName(type, nationality, gender, nameMap):
@@ -114,7 +114,7 @@ if __name__ == '__main__':
         print
         for i in range(total):
             name, gender = GetFullName(nationality, 50, nameMap)
-            print '%-12s: %s [%s]' % (nationality, name.encode(encoding, 'replace'), gender)
+            print('%-12s: %s [%s]' % (nationality, name.encode(encoding, 'replace'), gender))
             #print name.encode(encoding), gender
             #print name, gender
 

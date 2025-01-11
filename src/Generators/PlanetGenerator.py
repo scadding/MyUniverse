@@ -1,7 +1,7 @@
 
 '''planet generation module.'''
 
-from secgen import *
+from src.Generators.secgen import *
 from subprocess import *
 
 class PlanetGenerator:
@@ -18,7 +18,7 @@ class PlanetGenerator:
         pass
     def roll(self, p, numRolls):
         subSector = ""
-        if p.has_key('subsector'):
+        if 'subsector' in p:
             subSector = p['subsector']
         x = p['x']
         y = p['y']

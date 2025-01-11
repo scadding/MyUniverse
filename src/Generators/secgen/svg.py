@@ -15,23 +15,23 @@ class svgXML:
         page.attrib['height'] = "297mm"
         page.attrib['viewBox'] = "-50.0 -50.0 4950.0 7214.80577065"
         doc = etree.ElementTree(page)
-        print etree.tostring(page)
+        print(etree.tostring(page))
         #etree.dump(page)
         doc = etree.parse('t.html')
         root = doc.getroot()
         for i in root.attrib:
-            print i
+            print(i)
         #for i in root.iter():
-            #print i
-            #print i.tag
+            #print(i
+            #print(i.tag
         defs = root.find('{http://www.w3.org/2000/svg}defs')
         etree.dump(defs)
         for i in defs.iter():
-            #print i
-            print i.tag
+            #print(i
+            print(i.tag)
         style = defs.find('{http://www.w3.org/2000/svg}style')
         etree.dump(style)
-        print etree.tostring(doc)
+        print(etree.tostring(doc))
 
 class svg:
     def __init__(self, sx = -50.000, sy = -50.000, w = 1400.000, h = 2041.858):
@@ -90,14 +90,14 @@ class svg:
             s += style + '\n'
         return s
     def Print(self):
-        print self.Header()
-        print self.SVGStart()
-        print self.Description()
-        print self.Defs()
-        print "<g id='grid'>"
-        print self.Element()
-        print "</g>"
-        print "</svg>"
+        print(self.Header())
+        print(self.SVGStart())
+        print(self.Description())
+        print(self.Defs())
+        print("<g id='grid'>")
+        print(self.Element())
+        print("</g>")
+        print("</svg>")
     def Get(self):
         s = self.Header()
         s += self.SVGStart()
