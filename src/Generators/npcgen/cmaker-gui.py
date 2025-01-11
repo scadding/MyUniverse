@@ -736,13 +736,13 @@ class NPCFrame(wx.Frame, UIMixIn):
             self.SetSize(positionTable['size'])
         if positionTable['position']:
             self.SetPosition(positionTable['position'])
-        if positionTable.has_key('selection'):
+        if 'selection' in positionTable:
             self.characterType.SetSelection(positionTable['selection'])
-        if positionTable.has_key('number'):
+        if 'number' in positionTable:
             self.quantity.SetValue(int(positionTable['number']))
-        if positionTable.has_key('power'):
+        if 'power' in positionTable:
             self.slider.SetValue(int(positionTable['power']))
-        if positionTable.has_key('parentsTreeSize') and positionTable['parentsTreeSize']:
+        if 'parentsTreeSize' in positionTable and positionTable['parentsTreeSize']:
             self.parentsTreeFrameSize = positionTable['parentsTreeSize']
         if 'uploadPassword' not in positionTable:
             positionTable['uploadPassword'] = ''
