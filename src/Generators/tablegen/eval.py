@@ -6,7 +6,7 @@
 # of the parsed tokens.
 #
 from pyparsing import Word, nums, alphas, Combine, oneOf, \
-    opAssoc, operatorPrecedence
+    opAssoc, infixNotation
 
 class EvalConstant(object):
     "Class to evaluate a parsed constant or variable"
@@ -106,7 +106,7 @@ plusop = oneOf('+ -')
 
 # use parse actions to attach EvalXXX constructors to sub-expressions
 operand.setParseAction(EvalConstant)
-arith_expr = operatorPrecedence(operand,
+arith_expr = infixNotation(operand,
     [
      (signop, 1, opAssoc.RIGHT, EvalSignOp),
      (multop, 2, opAssoc.LEFT, EvalMultOp),
@@ -114,7 +114,7 @@ arith_expr = operatorPrecedence(operand,
     ])
 
 comparisonop = oneOf("< <= > >= != = <> LT GT LE GE EQ NE")
-comp_expr = operatorPrecedence(arith_expr,
+comp_expr = infixNotation(arith_expr,
     [
     (comparisonop, 2, opAssoc.LEFT, EvalComparisonOp),
     ])

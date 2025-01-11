@@ -21,7 +21,7 @@ multop = oneOf('* /')
 plusop = oneOf('+ -')
 fnop = Group(POINT + fn + LPAR + args + RPAR) 
 
-expr = operatorPrecedence( atom,
+expr = infixNotation( atom,
     [(signop, 1, opAssoc.RIGHT),
      (multop, 2, opAssoc.LEFT),
      (plusop, 2, opAssoc.LEFT),]
