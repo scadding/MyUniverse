@@ -16,6 +16,7 @@ class Magic:
         self._y = (y & 0x07ff) << (32 - 11 - 11)
         self._z = z & 0x03ff
         self._seed = self._x | self._y | self._z
+        print(self._seed)
         self.sRand(self._seed + magic)
         for i in range(offset):
             self.Rand()
@@ -83,7 +84,7 @@ class systemHtml:
 </td></tr>
 <tr valign=middle bgcolor='#000000'>
 '''
-        s += "<td valign='Top' halign='Left' bgcolor='#000000'><img alt='Sun' src='html/Sun.png' width=60 height=60 border=0></td>"
+        s += "<td valign='Top' halign='Left' bgcolor='#000000'><img alt='Sun' src='../html/Sun.png' width=60 height=60 border=0></td>"
         for i in self.system._primary._satelites:
             b = self.system._primary._satelites[i]
             s += "<td valign='Top' halign='Left' bgcolor='#000000' align=center><a href="
@@ -167,11 +168,10 @@ class starSystem:
         args.append(str(x))
         args.append(str(y))
         args.append(str(z))
-        #print args
-        o = Popen(args, stdout=PIPE).stdout.read().split('\n')
-        systemName = o[0]
-        location = o[1]
-        primary = o[2]
+        o = Popen(args, stdout=PIPE).stdout.read().split(b'\n')
+        systemName = str(o[0])[2:-1]
+        location = str(o[1])[2:-1]
+        primary = str(o[2])[2:-1]
         self._primary = body(primary, x, y, z)
         self._bodies[self._primary.Name()] = self._primary
         self._bodies[self._primary.Name()].Seed(m.Rand())
@@ -188,8 +188,8 @@ class starSystem:
                 else:
                     break
             l = l.strip()
-            orbit = int(l[:l.find('\t') + 1])
-            l = l[l.find('\t') + 1:]
+            orbit = int(l[:l.find(b'\t') + 1])
+            l = l[l.find(b'\t') + 1:]
             b = body(l, x, y, z)
             b.Seed(m.Rand())
             self._bodies[b.Name()] = b
@@ -208,7 +208,7 @@ class starSystem:
         name = ''
         for n in self._bodies:
             if self._bodies[n].MainWorld():
-                name = self._bodies[n].Name()
+                name += self._bodies[n].Name()
         return name
 
 '''
@@ -230,20 +230,19 @@ class starSystem:
 
 class body:
     def __init__(self, l, x, y, z):
-        print(l)
         self._x = x
         self._y = y
         self._z = z
-        self._line = l
+        self._line = str(l)[2:-1]
         self._orbit = 0
         self._satelites = dict()
-        self._type = l[:15].strip()
-        m = l[15]
+        self._type = self._line[:15].strip()
+        m = self._line[15]
         if m == '*':
             self._mainWorld = True
         else:
             self._mainWorld = False
-        self._name = l[16:].strip()
+        self._name = self._line[16:].strip()
         self._seed = 0
     def Name(self):
         return self._name
@@ -259,26 +258,24 @@ class body:
         self._orbit = o
         self._satelites[len(self._satelites)] = b
     def Print(self):
-        print(self._orbit, self._name)
+        #print(self._orbit, self._name)
         for o in self._satelites:
-            print('\t', o)
+            #print('\t', o)
             self._satelites[o].Print()
     def GetImage(self):
         size = 32
         magnification = '1.0'
         if self._type == 'Asteroids':
-            s = "<img alt='Sun' src='html/Asteroids.png' width=20 height=20 border=0>"
-            return s
+            s = "<img alt='Asteroids' src='../html/Asteroids.png' width=20 height=20 border=0>"
         elif self._type == 'Large Gas Giant':
-            s = "<img alt='Sun' src='html/Jupiter.png' width=32 height=32 border=0>"
+            s = "<img alt='Jupiter' src='../html/Jupiter.png' width=32 height=32 border=0>"
         elif self._type == 'Small Gas Giant':
-            s = "<img alt='Sun' src='html/Neptune.png' width=32 height=32 border=0>"
+            s = "<img alt='Neptune' src='../html/Neptune.png' width=32 height=32 border=0>"
         elif self._type == 'Ring':
-            s = "<img alt='Sun' src='html/Ring.png' width=20 height=20 border=0>"
+            s = "<img alt='Ring' src='../html/Ring.png' width=20 height=20 border=0>"
         elif self._type[:4] == 'Star':
-            s = "<img alt='Sun' src='html/Sun.png' width=40 height=40 border=0>"
+            s = "<img alt='Sun' src='../html/Sun.png' width=40 height=40 border=0>"
         else:
-            #print self._type
             magnification = str(int(self._type[1], 16) / 10.0 + .1)
             if int(self._type[1], 16) > 10:
                 magnification = '1.0'
@@ -286,9 +283,8 @@ class body:
             args = list()
             args.append('./bin/planet')
             args.append('-C')
-            args.append('./cfg/Olsson.col')            
-            args.append('-p')
-            args.append('o')
+            args.append('./cfg/Olsson.col')
+            args.append('-po')
             args.append('-m')
             args.append(magnification)
             args.append('-h')
@@ -299,12 +295,12 @@ class body:
             args.append(str(self._seed))
             args.append('-i')
             args.append('-0.02')
-            o = Popen(args, stdout=PIPE).stdout.read().split('\n')
-            b = ''
+            o = Popen(args, stdout=PIPE).stdout.read().split(b'\n')
+            b = b''
             for l in o:
                 b += l
             s = '<image src="data:image/bmp;base64,'
-            s += base64.b64encode(b)
+            s += str(base64.b64encode(b))[2:-1]
             s += '">'
         return s
 
@@ -328,13 +324,14 @@ class SystemGenerator:
         args.append(x)
         args.append(y)
         args.append(z)
-        o = Popen(args, stdout=PIPE).stdout.read().split('\n')
+        o = Popen(args, stdout=PIPE).stdout.read().split(b'\n')
         s += '<pre>\n'
         systemName = o[0]
         location = o[1]
         primary = o[2]
         for l in o[3:]:
-            s += l + '\n'
+            #print(str(l)[2:-1])
+            s += str(l)[2:-1] + '\n'
         s += '</pre>\n'
         page = systemHtml(int(x), int(y), int(z))
         return systemName, str(page)
