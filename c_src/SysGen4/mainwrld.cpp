@@ -26,7 +26,9 @@ int mainwrld(mainworld *mw, long x, long y, long z)
     } else {
         mw->atmos = D(2) - 7 + mw->size;
         if(mw->atmos < 0) {
-            mw->atmos =0;
+            mw->atmos = 0;
+        } else if(mw->law > 0x0f) {
+            mw->atmos = 0x0f;
         }
     }
 
@@ -51,11 +53,15 @@ int mainwrld(mainworld *mw, long x, long y, long z)
     mw->gov = D(2) - 7 + mw->pop;
     if((mw->pop == 0) || (mw->gov < 0)) {
         mw->gov = 0;
+    } else if(mw->law > 0x0f) {
+        mw->gov = 0x0f;
     }
 
     mw->law = D(2) - 7 + mw->gov;
     if((mw->gov == 0) || (mw->law < 0)) {
         mw->law = 0;
+    } else if(mw->law > 0x0f) {
+        mw->law = 0x0f;
     }
 
     roll = D(1);
@@ -97,6 +103,8 @@ int mainwrld(mainworld *mw, long x, long y, long z)
     }
     if(roll < 0) {
         mw->tech = 0;
+    } else if(roll > 0x0f) {
+        mw->tech = 0x0f;
     } else {
         mw->tech = roll;
     }
