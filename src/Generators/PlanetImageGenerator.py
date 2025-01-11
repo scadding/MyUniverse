@@ -108,12 +108,12 @@ class PlanetImageGenerator:
             args.append(p['altitude'])
         if 'name' in p:
             t = p['name']
-        o = Popen(args, stdout=PIPE).stdout.read().split('\n')
-        b = ''
+        o = Popen(args, stdout=PIPE).stdout.read().split(b'\n')
+        b = b''
         for l in o:
             b += l
         s = '<image src="data:image/bmp;base64,'
-        s += base64.b64encode(b)
+        s += str(base64.b64encode(b))[2:-1]
         s += '">'
         return t, s
         
