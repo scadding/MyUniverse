@@ -133,21 +133,21 @@ class MyFrame(wx.Frame):
         tb.SetToolBitmapSize(tsize)
 
         #tb.AddSimpleTool(10, new_bmp, "New", "Long help for 'New'")
-        tb.AddLabelTool(10, "New", new_bmp, shortHelp="New", longHelp="Long help for 'New'")
+        tb.AddTool(10, "New", new_bmp, "Long help for 'New'")
         self.Bind(wx.EVT_TOOL, self.OnToolClick, id=10)
         self.Bind(wx.EVT_TOOL_RCLICKED, self.OnToolRClick, id=10)
 
         #tb.AddSimpleTool(20, open_bmp, "Open", "Long help for 'Open'")
-        tb.AddLabelTool(20, "Open", open_bmp, shortHelp="Open", longHelp="Long help for 'Open'")
+        tb.AddTool(20, "Open", open_bmp, "Long help for 'Open'")
         self.Bind(wx.EVT_TOOL, self.OnToolClick, id=20)
         self.Bind(wx.EVT_TOOL_RCLICKED, self.OnToolRClick, id=20)
 
         tb.AddSeparator()
-        tb.AddSimpleTool(30, copy_bmp, "Copy", "Long help for 'Copy'")
+        tb.AddTool(30, "Copy", copy_bmp, "Long help for 'Copy'")
         self.Bind(wx.EVT_TOOL, self.OnToolClick, id=30)
         self.Bind(wx.EVT_TOOL_RCLICKED, self.OnToolRClick, id=30)
 
-        tb.AddSimpleTool(40, paste_bmp, "Paste", "Long help for 'Paste'")
+        tb.AddTool(40, "Paste", paste_bmp, "Long help for 'Paste'")
         self.Bind(wx.EVT_TOOL, self.OnToolClick, id=40)
         self.Bind(wx.EVT_TOOL_RCLICKED, self.OnToolRClick, id=40)
 
