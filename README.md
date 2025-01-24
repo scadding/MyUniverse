@@ -1,5 +1,8 @@
 # README #
 
+### Requirements ###
+sudo apt install python3-wx*
+
 
 ### requirements.txt: ###
 
