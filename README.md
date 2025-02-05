@@ -1,11 +1,19 @@
 # README #
 
 ### Requirements ###
+sudo apt install python3.12-venv
+sudo apt install python3-pip
 sudo apt install python3-wx*
+
+sudo apt install python3-imp
+sudo apt install python3-sha
+sudo apt install python3-hashlib
+sudo apt install python3-xmlrpclib
 
 
 ### requirements.txt: ###
 
+xmlrpclib
 aioconsole==0.4.1
 aioprocessing==2.0.1
 asyncio==3.4.3
@@ -30,25 +38,23 @@ https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-e
 python3 -m venv venv
 cd venv/
 source bin/activate
-pip3 install asyncio
-pip3 install aioconsole
-pip3 install bleak
-pip3 install transitions
-pip3 install pycryptodome
-pip3 install Cipher
-pip3 install AES
-pip3 install chacha20poly1305
-git clone ...
+
+pip3 install -r requirements.txt
+
+git clone https://github.com/scadding/MyUniverse.git
+cd MyUniverse
+
+export PYTHONPATH=$PYTHONPATH:$PWD
 cd ...
 
 ### Testing ###
 
- ./src/Generators/tablegen/table.py --data=/home/doug/Development/mu/MyUniverse/Data --table=test
+ ./src/Generators/tablegen/table.py --data=$PWD/Data --table=test
  ls -ltr test/
- ./src/Generators/tablegen/table.py --data=/home/doug/Development/mu/MyUniverse/Data --run=Test
-./src/Generators/tablegen/table.py --test --data=/home/doug/Development/mu/MyUniverse/Data --groups
+ ./src/Generators/tablegen/table.py --data=$PWD/Data --run=Test
+./src/Generators/tablegen/table.py --test --data=$PWD/Data --groups
 
- ./src/Generators/tablegen/table.py --data=/home/doug/Development/mu/MyUniverse/Data --run=csv
+ ./src/Generators/tablegen/table.py --data=$PWD/Data --run=csv
  
  
 ./src/Generators/tablegen/table.py --help
@@ -70,7 +76,7 @@ Options:
   --groups              
   --tables=TABLES       
   
-./src/Generators/tablegen/table.py --data=/home/doug/Development/mu/MyUniverse/Data --group=csv
+./src/Generators/tablegen/table.py --data=$PWD/Data --group=csv
 
 Organization
 Traveller
@@ -103,7 +109,7 @@ SciFi
 Pulp
 
 
-./src/Generators/tablegen/table.py --data=/home/doug/Development/mu/MyUniverse/Data --tables=csv
+./src/Generators/tablegen/table.py --data=$PWD/Data --tables=csv
 
 
 
