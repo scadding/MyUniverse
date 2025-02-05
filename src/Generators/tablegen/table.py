@@ -9,7 +9,7 @@ import importlib
 import importlib.machinery
 import csv
 from optparse import OptionParser
-import src.Generators.tablegen.tableFunctions
+from src.Generators.tablegen import tableFunctions
 import pyparsing
 import sqlite3 as lite
 import sys
