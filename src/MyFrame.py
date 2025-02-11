@@ -11,6 +11,7 @@ from src import images
 import wx.aui
 import codecs
 import time
+import sys
 
 
 from src.GeneratorPanel import GeneratorPanel
@@ -21,6 +22,76 @@ from src.Generators.SystemGenerator import SystemGenerator
 from src.Generators.PlanetGenerator import PlanetGenerator
 #from src.Generators.CharacterGenerator import CharacterGenerator
 from src.Generators.PlanetImageGenerator import PlanetImageGenerator
+
+import wx.stc as stc
+
+class Log(stc.StyledTextCtrl):
+    """
+    Subclass the StyledTextCtrl to provide  additions
+    and initializations to make it useful as a log window.
+
+    """
+    def __init__(self, parent, style=wx.SIMPLE_BORDER):
+        """
+        Constructor
+        
+        """
+        stc.StyledTextCtrl.__init__(self, parent, style=style, )
+        self._styles = [None]*32
+        self._free = 1
+        sys.stdout = self
+        
+    def getStyle(self, c='black'):
+        """
+        Returns a style for a given colour if one exists.  If no style
+        exists for the colour, make a new style.
+        
+        If we run out of styles, (only 32 allowed here) we go to the top
+        of the list and reuse previous styles.
+
+        """
+        free = self._free
+        if c:
+            c = c.lower()
+        else:
+            c = 'black'
+        
+        try:
+            style = self._styles.index(c)
+            return style
+            
+        except ValueError:
+            style = free
+            self._styles[style] = c
+            self.StyleSetForeground(style, wx.NamedColour(c))
+
+            free += 1
+            if free >31:
+                free = 0
+            self._free = free
+            return style
+
+    def write(self, text, c=None):
+        """
+        Add the text to the end of the control using colour c which
+        should be suitable for feeding directly to wx.NamedColour.
+        s
+        'text' should be a unicode string or contain only ascii data.
+        """
+        self.SetCurrentPos(self.GetTextLength())
+        style = self.getStyle(c)
+        lenText = len(text.encode('utf8'))
+        end = self.GetLength()
+        self.SetEditable(True)
+        self.AddText(text)
+        self.SetEditable(False)
+        self.StartStyling(end)
+        self.SetStyling(lenText, style)
+        self.EnsureCaretVisible()
+        
+
+    __call__ = write
+
 
 FRAMETB = True
 TBFLAGS = ( wx.TB_HORIZONTAL
@@ -102,13 +173,15 @@ class MyFrame(wx.Frame):
         
     def __set_properties(self):
         self.SetTitle("RPG Generator")
-        self.SetSize((1000, 600))
+        self.SetSize((1200, 1000))
         self.cboRolls.SetSelection(0)
 
     def __do_layout(self):
+        sizer_1 = wx.BoxSizer(wx.VERTICAL)
         sizer_2 = wx.BoxSizer(wx.HORIZONTAL)
         sizer_7 = wx.BoxSizer(wx.HORIZONTAL)
         sizer_2.Add(sizer_7, 2, wx.EXPAND, 0)
+        sizer_1.Add(sizer_2, 7, wx.EXPAND, 0)
         
         self.txtResults.Show(False)
                         
@@ -121,7 +194,10 @@ class MyFrame(wx.Frame):
         sizer_2.Add(self.notebook_1, 7, wx.EXPAND, 0)
         sizer_7.Add(self.notebook_2, 3, wx.EXPAND, 0)
 
-        self.SetSizer(sizer_2)
+        logger = Log(self)
+        sizer_1.Add(logger, 3, wx.EXPAND, 0)
+
+        self.SetSizer(sizer_1)
         self.Layout()
     
     def ToolBar(self):
