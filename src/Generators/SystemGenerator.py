@@ -5,6 +5,7 @@ from src.Generators.secgen import subSector
 from subprocess import *
 from src.Generators.PlanetImageGenerator import PlanetImageGenerator
 import base64
+import codecs
 
 class Magic:
     Language = 1
@@ -315,6 +316,14 @@ class SystemGenerator:
     def Update(self, p):
         pass
     def roll(self, p, numRolls):
+        systemName, page = self.generate(p)
+        filename = "tmp/" + str(systemName) + ".html"
+        f = codecs.open(filename, "w", "utf-8")
+        f.write(str(page))
+        f.close()
+        print(systemName, filename)
+        return systemName, filename
+    def generate(self, p):
         s = ''
         x = p['x']
         y = p['y']
@@ -329,12 +338,9 @@ class SystemGenerator:
         systemName = o[0]
         location = o[1]
         primary = o[2]
-        for l in o[3:]:
-            #print(str(l)[2:-1])
-            s += str(l)[2:-1] + '\n'
-        s += '</pre>\n'
         page = systemHtml(int(x), int(y), int(z))
-        return systemName, str(page)
+        return systemName, page
+
         
 def main(argv):
     if len(argv) < 4:

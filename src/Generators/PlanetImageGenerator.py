@@ -66,7 +66,7 @@ class PlanetImageGenerator:
         # will update the lists based on current parameters
         # this can be used to update lists based on selections
         pass
-    def roll(self, p, numRolls):
+    def generate(self, p):
         t = 'Planet Image'
         args = list()
         args.append('./bin/planet')
@@ -116,4 +116,6 @@ class PlanetImageGenerator:
         s += str(base64.b64encode(b))[2:-1]
         s += '">'
         return t, s
+    def roll(self, p, n):
+        return self.generate(p)
         

@@ -9,5 +9,5 @@ class TemplateGenerator:
         # this can be used to update lists based on selections
         pass
     def roll(self, p, numRolls):
-        return 'title', 'content'
+        return 'title', 'filename'
         

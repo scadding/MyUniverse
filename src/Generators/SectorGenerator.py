@@ -2,6 +2,7 @@
 from src.Generators.secgen import *
 from src.Generators.secgen.subSector import *
 from subprocess import *
+import codecs
 
 class SectorGenerator:
     def __init__(self):
@@ -55,5 +56,9 @@ class SectorGenerator:
                         line = l[2:len(l) - 1]
                         if len(line):
                             s.addSystem(starSystem(line[:-2], version = 2))
-        return t, s.getMap()
+        filename = "tmp/" + t + ".html"
+        f = codecs.open(filename, "w", "utf-8")
+        f.write(s.getMap())
+        f.close()
+        return t, filename
         

@@ -1,5 +1,8 @@
 
 from src.Generators.tablegen import table
+import wx
+import codecs
+
 
 class TableGenerator:
     def __init__(self):
@@ -34,8 +37,13 @@ class TableGenerator:
         if 'Generators' in p:
             t = p['Generators']
         results = u''
+        filename = "tmp/" + t + ".html"
+        f = codecs.open(filename, 'w', "utf-8")
         for j in range(numRolls):
-            results += self.tm.roll(t)
-            results += '<br>'
-        return t, results
+            wx.Yield()
+            result = self.tm.roll(t)
+            f.write(result)
+            f.write('<br>')
+        f.close()
+        return t, filename
         

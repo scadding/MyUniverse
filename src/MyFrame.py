@@ -10,6 +10,8 @@ import  wx.lib.wxpTag
 from src import images
 import wx.aui
 import codecs
+import time
+
 
 from src.GeneratorPanel import GeneratorPanel
 from src.Generators.TableGenerator import TableGenerator
@@ -96,6 +98,7 @@ class MyFrame(wx.Frame):
         # end wxGlade
         self.__do_layout()
         self.Populate('about', '')
+        self.rolling = False
         
     def __set_properties(self):
         self.SetTitle("RPG Generator")
@@ -245,11 +248,18 @@ class MyFrame(wx.Frame):
         self.Close(True)
     
     def OnRoll(self, e):
+        while self.rolling:
+            wx.Yield()
+            time.sleep(0.1)
+        self.rolling = True
         numRolls = int(self.cboRolls.GetStrings()[self.cboRolls.GetSelection()])
         current = self.notebook_2.GetCurrentPage()
         name = self.notebook_2.GetPageText(self.notebook_2.GetPageIndex(current))
-        t, r = current.Roll(numRolls)
-        self.Populate(t, r)
+        t, filename = current.Roll(numRolls)
+        path = os.getcwd() + "/" + filename
+        url = "file://" + path
+        self.Populate(t, file=url)
+        self.rolling = False
         
     def Populate(self, name, content=u'', file=''):
         if name in self.h:
@@ -287,8 +297,8 @@ class MyFrame(wx.Frame):
             f.write(u)
             f.close()
             html.SetPage("", name)
-            path = os.getcwd() + '/tmp'
-            url = "file://" + path + "/" + name + ".html"
+            path = os.getcwd() + '/tmp' + "/" + name + ".html"
+            url = "file://" + path
             html.LoadURL(url)
             self.Layout()
             #os.remove(name + '.html')
@@ -323,8 +333,8 @@ class MyFrame(wx.Frame):
                     s = ''
                 p[a] = v
             event.Veto()
-            t, r = self.generators[g].generator.roll(p, 1)
-            self.Populate(t, r)
+            t, c = self.generators[g].generator.generate(p)
+            self.Populate(t, str(c))
 
     def OnCopy(self, e):
         t = self.html.SelectionToText()
