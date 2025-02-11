@@ -3,8 +3,8 @@
 
 from src.Generators.secgen import *
 from subprocess import *
-from SystemGenerator import starSystem
-from SectorGenerator import subSectorMap
+from src.Generators.SystemGenerator import starSystem
+from src.Generators.SectorGenerator import subSectorMap
 
 class PlanetGenerator:
     def __init__(self):
