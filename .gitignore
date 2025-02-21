@@ -3,6 +3,7 @@
 test.db
 tmp
 test
+venv
 
 # binaries
 c_src/1MioStars/map
