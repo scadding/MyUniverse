@@ -13,6 +13,8 @@ sudo apt install python3-xmlrpclib
 
 ### requirements.txt: ###
 
+wxPython>=4.0
+
 xmlrpclib
 aioconsole==0.4.1
 aioprocessing==2.0.1
@@ -36,13 +38,12 @@ Install venv as appropriate for your platform:
 https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
 
 python3 -m venv venv
-cd venv/
-source bin/activate
-
+source venv/bin/activate
 pip3 install -r requirements.txt
-
-git clone https://github.com/scadding/MyUniverse.git
 cd MyUniverse
+
+deactivate
+
 
 export PYTHONPATH=$PYTHONPATH:$PWD
 cd ...
